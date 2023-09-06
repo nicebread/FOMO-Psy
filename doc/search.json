@@ -298,7 +298,7 @@
     "href": "slides/TCM/TCM.slide.html#tcm-a-methodology-for-constructing-theories",
     "title": "Theory Construction Methodology",
     "section": "TCM: A methodology for constructing theories",
-    "text": "TCM: A methodology for constructing theories\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum)\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: (the explanans)"
+    "text": "TCM: A methodology for constructing theories\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nPhenomena: Stable and ge#neral features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum)\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: (the explanans)"
   },
   {
     "objectID": "slides/TCM/TCM.slide.html#comparison-chart-of-methodologies",
@@ -508,6 +508,13 @@
     "href": "slides/Introduction/Introduction_Buri.slide.html#interlude-the-risky-shift-phenomenon-2",
     "title": "Formal modeling in psychology",
     "section": "Interlude: The risky shift phenomenon 2",
-    "text": "Interlude: The risky shift phenomenon 2\n** Question for discussion: Is “risky shift” a phenomenon?**\n\nMy take: It is a phenomenon (though a weak one), as it generalizes to new instances (data sets) of the same operationalization. It is a phenomenon of this specific stimulus set and suggests certain types of research questions (e.g., “What is so specific to this stimulus set?”)."
+    "text": "Interlude: The risky shift phenomenon 2\n Question for discussion: Is “risky shift” a phenomenon?\n\nMy take: It is a phenomenon (though a weak one), as it generalizes to new instances (data sets) of the same operationalization. It is a phenomenon of this specific stimulus set and suggests certain types of research questions (e.g., “What is so specific to this stimulus set?”)."
+  },
+  {
+    "objectID": "slides/Introduction/Introduction_Buri.slide.html#fa-people-group-size2x-gruppenübung-cover-your-ass-level-1",
+    "href": "slides/Introduction/Introduction_Buri.slide.html#fa-people-group-size2x-gruppenübung-cover-your-ass-level-1",
+    "title": "Formal modeling in psychology",
+    "section": " Gruppenübung: Cover your ass, Level 1",
+    "text": "Gruppenübung: Cover your ass, Level 1\n\nSzenario: In der Umwelt gibt es eine Futter- und eine Wasserquelle, die substantiell voneinander entfernt sind (es gibt eine Reisezeit, um von der einen zur anderen zu kommen). Der Esel hat einen allgemeinen Metabolismus, der kontinuierlich Futter- und Wasserreserven im Körper verbraucht; dieser Verbrauch ist höher bei körperlicher Aktivität. Sobald eine der beiden Reserven im Körper auf Null fällt stirbt der Esel.\nAnnahmen:\n\nFixe Geschwindigkeit v vom Esel\nLineare Abnahme der Wasserreserve im Körper\nLineare Abnahme der Futterreserve im Körper\nDie Futter- bzw. Wasseraufnahme dauert eine substantielle Zeit und findet in Schlucken statt (z.B. 1 Einheit pro Minute)\nDer Esel hat eine Repräsentation der Umwelt und weiß, wo die beiden Quellen sind.\n\nAufgabe: Konstruiere einen Organismus, mit möglichst wenigen Annahmen, der möglichst lange überlebt. Welche Konstrukte / Sensoren / Fähigkeiten sind dafür notwendig?"
   }
 ]

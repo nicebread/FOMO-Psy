@@ -20,6 +20,7 @@ You need:
 
 - quarto > 1.3.45
 - [Font Awesome Extension for Quarto](https://github.com/quarto-ext/fontawesome) (`quarto add quarto-ext/fontawesome`)
+- [Quarto clean theme](https://github.com/grantmcdermott/quarto-revealjs-clean/tree/main)
 
 ## Notes to self:
 

@@ -1,15 +1,18 @@
 ---
 title: "Formal modeling in psychology"
 subtitle: "Buridan's Ass"
-author: "Schönbrodt"
-date: "2023-10-14"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: today
 date-format: iso
 footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
-  revealjs: 
+  clean-revealjs: 
     output-ext: slide.html
     logo: ../common/LMU.jpg
-    theme: default
     transition: slide
     background-transition: fade
     slide-number: true
@@ -18,7 +21,7 @@ format:
   html: default
 ---
 
-# A theory crisis in psychology?
+# A theory crisis in psychology? {background-color="#40666e"}
 
 ## The relation of data and phenomena
 
@@ -123,7 +126,7 @@ See Westfall et al. (2015). Replicating Studies in Which Samples of Participants
 ## Interlude: The risky shift phenomenon 2
 
 
-** {{< fa  size=5x >}} Question for discussion: Is "risky shift" a phenomenon?**
+**{{< fa people-group size=2x >}} Question for discussion: Is "risky shift" a phenomenon?**
 
 . . .
 
@@ -199,10 +202,6 @@ Siehe [Wikipedia](https://de.wikipedia.org/wiki/Buridans_Esel)
 
 # The demiurg {auto-animate=true}
 
-![](img/Urizen_with_his_net_-_The_Book_of_Urizen,_copy_G,_object_27_c1818_(Library_of_Congress)_Detail.jpg){fig-align="center" height="400"}
-
-## The demiurg {auto-animate=true}
-
 :::: {.columns}
 
 ::: {.column width="40%"}
@@ -234,7 +233,8 @@ Bischof (in prep, S. 143)
 :::
 
 
-## [Gruppenübung: Cover your ass, Level 1]{.r-fit-text}
+
+## [{{< fa people-group size=1x >}} Gruppenübung: Cover your ass, Level 1]{.r-fit-text}
 
 ::: {.r-fit-text}
 **Szenario**: In der Umwelt gibt es eine Futter- und eine Wasserquelle, die substantiell voneinander entfernt sind (es gibt eine Reisezeit, um von der einen zur anderen zu kommen). Der Esel hat einen allgemeinen Metabolismus, der kontinuierlich Futter- und Wasserreserven im Körper verbraucht; dieser Verbrauch ist höher bei körperlicher Aktivität. Sobald eine der beiden Reserven im Körper auf Null fällt stirbt der Esel.

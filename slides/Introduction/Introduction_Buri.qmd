@@ -1,0 +1,270 @@
+---
+title: "Formal modeling in psychology"
+subtitle: "Buridan's Ass"
+author: "Schönbrodt"
+date: "2023-10-14"
+date-format: iso
+footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format: 
+  revealjs: 
+    output-ext: slide.html
+    logo: ../common/LMU.jpg
+    theme: default
+    transition: slide
+    background-transition: fade
+    slide-number: true
+    touch: true
+    embed-resources: true
+  html: default
+---
+
+# A theory crisis in psychology?
+
+## The relation of data and phenomena
+
+::: {.r-stretch}
+```{mermaid}
+%%| fig-width: 14
+%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+flowchart LR
+  T(Theory)
+  P(Phenomena)
+  D(Data)
+  
+  T -- "Explanation" --> P
+  P -- "Abduction" --> T
+  P -- "Prediction" --> D
+  D -- "Generalization" --> P
+```
+:::
+
+::: footer
+See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. [https://doi.org/10.1177/1745691620969647](https://doi.org/10.1177/1745691620969647)
+:::
+
+
+## The relation of data and phenomena 1
+```{mermaid}
+%%| fig-width: 6
+%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+flowchart LR
+  P(Phenomena)
+  D(Data)
+  
+  P -- "Prediction" --> D
+  D -- "Generalization" --> P
+```
+
+**Phenomena**: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories.
+
+**Data**: Relatively direct observations. Refer to *particular* empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).
+
+::: footer
+See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. [https://doi.org/10.1177/1745691620969647](https://doi.org/10.1177/1745691620969647)
+:::
+
+
+
+
+## The relation of data and phenomena 2 {.r-fit-text}
+```{mermaid}
+%%| fig-width: 6
+%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+flowchart LR
+  P(Phenomena)
+  D(Data)
+  
+  P -- "Prediction" --> D
+  D -- "Generalization" --> P
+  
+  linkStyle 1 stroke-width:2px,stroke:red,color:red;
+```
+
+Data provide evidence for the existence of empirical phenomena: You <span style="color:red;">generalize</span> from one or more data sets with strong evidence to a general phenomenon.
+
+To claim a (robust) phenomenon, you ideally need:
+
+- Independent replications of specific operationalizations.
+- Conceptual replications with different operationalizations.
+
+
+
+## The relation of data and phenomena 3 {.r-fit-text}
+```{mermaid}
+%%| fig-width: 6
+%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+flowchart LR
+  P(Phenomena)
+  D(Data)
+  
+  P -- "Prediction" --> D
+  D -- "Generalization" --> P
+  
+  linkStyle 0 stroke-width:2px,stroke:red,color:red;
+```
+
+Phenomena (once their existence has been established) <span style="color:red;">predict</span> similar data patterns in new data sets of the *same* operationalization (as in "direct replication") and ideally also for *new* operationalizations (as in "conceptual replication").
+
+## Interlude: The risky shift phenomenon 1
+
+::: {.r-fit-text}
+**The risky shift phenomenon**: A group's decisions are riskier than the average of the individual decisions of members before the group met (i.e., the group discussion made individuals riskier).
+
+- Area of very active research in social psychology in the 1960s
+- "It could be easily replicated. Most of the replication studies [...] employed the CDQ as their stimulus set, and they generally had no trouble obtaining the basic risky shift result."
+- **Today we know that there is no risky shift.** "It is now clear that the items contained in the original CDQ are in no sense a representative sample of the universe of all possible items. Instruments similar to the CDQ could readily be constructed whose scores would display risky shifts, cautious ones, or none at all" (Cartwright, 1971, p. 368).
+- In the early risky shift literature, theoretical progress was unnecessarily impeded by multiple generations of replication studies (*k* ⋍ 200), nearly all relying on the same CQD questionnaire.
+:::
+
+::: footer
+See Westfall et al. (2015). Replicating Studies in Which Samples of Participants Respond to Samples of Stimuli. Perspectives on Psychological Science, 10(3), 390–399. https://doi.org/10.1177/1745691614564879
+:::
+
+## Interlude: The risky shift phenomenon 2
+
+
+** {{< fa  size=5x >}} Question for discussion: Is "risky shift" a phenomenon?**
+
+. . .
+
+*My take*: It is a phenomenon (though a weak one), as it generalizes to new instances (data sets) of the same operationalization. It is a phenomenon of this specific stimulus set and suggests certain types of research questions (e.g., "What is so specific to this stimulus set?").
+
+
+## Replication crisis: Focus on phenomena <--> data 1
+
+::: {.r-fit-text}
+```{mermaid}
+%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+flowchart LR
+  P(Phenomena)
+  D(Data)
+  
+  P -- "Prediction" --> D
+  D -- "Generalization" --> P
+```
+
+The concerns of the replication crisis typically referred to the relation between *data* and *phenomena*:
+
+- Does a pattern in a specific data set even *exist*? (Or is it a false positive?)
+- If we found a reproducible pattern with a specific operationalization: Is it *generalizable* (to other measures, other cultural contexts, other samples)?
+- Do we even have a phenomenon in a particular research line? How strongly should I belief in the existence of a phenomenon, given the empirical evidence?
+:::
+
+## Replication crisis: Focus on phenomena <--> data 2
+
+```{mermaid}
+%%| fig-width: 6
+%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+flowchart LR
+  T(Theory)
+  P(?? Phenomena ??)
+  D(Data)
+  
+  T -- "Explanation" --> P
+  P -- "Abduction" --> T
+  P ---> D
+  D -. "?? Generalization ??" .-> P
+  
+  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;
+  linkStyle 3 stroke-width:2px,stroke:red,color:red;
+```
+
+Doubt about phenomena propagates to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete.
+
+
+## From replication crisis to theory crisis
+
+"We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests."
+
+::: footer
+See Oberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2
+:::
+
+
+# Buridan's Ass
+
+![](img/Buridans_ass.jpeg){fig-align="center" height="400"}
+
+## Buridan's Esel
+> „Ein Esel steht zwischen zwei gleich großen und gleich weit entfernten Heuhaufen. Er verhungert schließlich, weil er sich nicht entscheiden kann, welchen er zuerst fressen soll.“
+
+> „The man who is violently, but equally, hungry and thirsty, and stands at an equal distance from food and drink, and who therefore must remain where he is.“
+>
+> <div style="text-align: right; font-size: 70%">Aristoteles: _De Caelo/On the Heavens_. Trans. W. K. C. Guthrie, Heinemann, London 1938, 2:13:295b (S. 237)</div>
+
+::: footer
+Siehe [Wikipedia](https://de.wikipedia.org/wiki/Buridans_Esel)
+:::
+
+
+# The demiurg {auto-animate=true}
+
+![](img/Urizen_with_his_net_-_The_Book_of_Urizen,_copy_G,_object_27_c1818_(Library_of_Congress)_Detail.jpg){fig-align="center" height="400"}
+
+## The demiurg {auto-animate=true}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](img/Urizen_with_his_net_-_The_Book_of_Urizen,_copy_G,_object_27_c1818_(Library_of_Congress)_Detail.jpg){fig-align="center" height="400"}
+:::
+
+::: {.column width="60%"}
+> "Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen"
+> <div style="text-align: right; font-size: 70%">*N. Bischof (in prep, S. 143)*</div>
+:::
+::::
+
+## Das demiurgische Prinzip
+
+
+> Der Forscher, der eine komplexe Struktur verstehen will, ist gut beraten, wenn er sich in die Rolle eines solchen Demiurgen versetzt und sich vorstellt, er hätte sie selbst konstruieren müssen. Natürlich muss er dafür eine begründete Vermutung haben, was sie leisten soll. Leistung schließt immer eine Zielvorgabe ein, die Arbeit des Demiurgen läuft also naturgemäß im Rahmen einer telischen Heuristik ^[griechisch τέλος (telos): ‚Zweck‘, ‚Ziel‘, ‚Ende‘. Der Zweck ist hier evolutionär gedacht: Was hilft dem Überleben und der Fortpflanzung?] ab.
+> <div style="text-align: right; font-size: 70%">*N. Bischof (in prep, S. 143)*</div>
+
+
+
+## Demiurgisches Prinzip (vorläufige Fassung)
+
+::: {.callout-note}
+Wäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen?
+:::
+
+::: footer
+Bischof (in prep, S. 143)
+:::
+
+
+## [Gruppenübung: Cover your ass, Level 1]{.r-fit-text}
+
+::: {.r-fit-text}
+**Szenario**: In der Umwelt gibt es eine Futter- und eine Wasserquelle, die substantiell voneinander entfernt sind (es gibt eine Reisezeit, um von der einen zur anderen zu kommen). Der Esel hat einen allgemeinen Metabolismus, der kontinuierlich Futter- und Wasserreserven im Körper verbraucht; dieser Verbrauch ist höher bei körperlicher Aktivität. Sobald eine der beiden Reserven im Körper auf Null fällt stirbt der Esel.
+
+**Annahmen**: 
+
+- Fixe Geschwindigkeit *v* vom Esel
+- Lineare Abnahme der Wasserreserve im Körper
+- Lineare Abnahme der Futterreserve im Körper
+- Die Futter- bzw. Wasseraufnahme dauert eine substantielle Zeit und findet in Schlucken statt (z.B. 1 Einheit pro Minute)
+- Der Esel hat eine Repräsentation der Umwelt und weiß, wo die beiden Quellen sind.
+
+**Aufgabe**: Konstruiere einen Organismus, mit möglichst wenigen Annahmen, der möglichst lange überlebt. Welche Konstrukte / Sensoren / Fähigkeiten sind dafür notwendig?
+
+![](img/buri1.png){fig-align="center" height="70"}
+:::
+
+## Demiurgisches Prinzip (endgültige Fassung)
+
+::: {.callout-note}
+Wäre ich ein Ingenieur, der, *aufbauend auf der letzten funktionstüchtigen Vorform*, einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen?
+:::
+
+::: footer
+Bischof (in prep, S. 143)
+:::
+
+
+
+<!-- Footer insert below -->
+
+```{r child="../common/lastslide.qmd"}
+```

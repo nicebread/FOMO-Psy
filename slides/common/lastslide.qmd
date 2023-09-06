@@ -1,0 +1,25 @@
+# End
+
+## Contact
+
+<script src="https://kit.fontawesome.com/9fb269b0d2.js" crossorigin="anonymous"></script>
+
+<ul class="fa-ul" style="color:black; list-style:none;">
+
+<li><i class="fa-brands fa-li fa-mastodon"></i> <a href="https://scicomm.xyz/@nicebread" target="_blank" style="color:black; border-bottom:none;">@nicebread@scicomm.xyz</a></li>
+
+<li><i class="fa-li fa fa-envelope-o"></i> <a style="unicode-bidi:bidi-override; direction: rtl; color:black" href="javascript:window.location.href = 'mailto:' + ['felix.schoenbrodt','psy.lmu.de'].join('@')">ed.uml.ysp@tdorbneohcs.xilef</a></li>
+
+<li><i class="fa-li fa fa-github"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">nicebread</a></li>
+</ul>
+
+<small style="text-align:left;">
+
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://licensebuttons.net/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+</small>

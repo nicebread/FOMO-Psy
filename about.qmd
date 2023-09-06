@@ -1,0 +1,5 @@
+---
+title: "About"
+---
+
+This is material for the course "P19 Empirisch-psychologisches Praktikum" ath the Ludwig-Maximilians-Universität München. The course is first given in the winter term 2023/24.

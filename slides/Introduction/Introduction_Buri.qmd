@@ -12,10 +12,8 @@ footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilia
 format: 
   clean-revealjs: 
     output-ext: slide.html
-    logo: ../common/LMU.jpg
     transition: slide
     background-transition: fade
-    slide-number: true
     touch: true
     embed-resources: true
   html: default
@@ -244,7 +242,7 @@ Bischof (in prep, S. 143)
 - Fixe Geschwindigkeit *v* vom Esel
 - Lineare Abnahme der Wasserreserve im Körper
 - Lineare Abnahme der Futterreserve im Körper
-- Die Futter- bzw. Wasseraufnahme dauert eine substantielle Zeit und findet in Schlucken statt (z.B. 1 Einheit pro Minute)
+- Die Futter- bzw. Wasseraufnahme dauert eine substantielle Zeit und findet in Schlucken statt (1 Einheit pro Zeiteinheit)
 - Der Esel hat eine Repräsentation der Umwelt und weiß, wo die beiden Quellen sind.
 
 **Aufgabe**: Konstruiere einen Organismus, mit möglichst wenigen Annahmen, der möglichst lange überlebt. Welche Konstrukte / Sensoren / Fähigkeiten sind dafür notwendig?

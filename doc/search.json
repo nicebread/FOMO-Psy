@@ -25,7 +25,7 @@
     "href": "slides/Introduction/Introduction_Buri.html",
     "title": "Formal modeling in psychology",
     "section": "",
-    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"&lt;font size = 2&gt;Explanation\" --&gt; P\n  P -- \"&lt;font size = 2&gt;Abduction\" --&gt; T\n  P -- \"&lt;font size = 2&gt;Prediction\" --&gt; D\n  D -- \"&lt;font size = 2&gt;Generalization\" --&gt; P\n\n\n\n\n\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"&lt;font size = 2&gt;Prediction\" --&gt; D\n  D -- \"&lt;font size = 2&gt;Generalization\" --&gt; P\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"&lt;font size = 2&gt;Prediction\" --&gt; D\n  D -- \"&lt;font size = 2&gt;Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nData provide evidence for the existence of empirical phenomena: You generalize from one or more data sets with strong evidence to a general phenomenon.\nTo claim a (robust) phenomenon, you ideally need:\n\nIndependent replications of specific operationalizations.\nConceptual replications with different operationalizations.\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"&lt;font size = 2&gt;Prediction\" --&gt; D\n  D -- \"&lt;font size = 2&gt;Generalization\" --&gt; P\n  \n  linkStyle 0 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nPhenomena (once their existence has been established) predict similar data patterns in new data sets of the same operationalization (as in “direct replication”) and also for new operationalizations (as in “conceptual replication”).\n\n\n\n\nThe risky shift phenomenon: Following a group discussion in which the members collectively provide advice to someone considering a risky decision in some hypothetical context, the members of the group tend to favor the risky decision more than they had before the group discussion\n\nArea of very active research in social psychology in the 1960s\n“It could be easily replicated. Most of the replication studies […] employed the CDQ as their stimulus set, and they generally had no trouble obtaining the basic risky shift result.\nToday we know that there is no risky shift. “It is now clear that the items contained in the original CDQ are in no sense a representative sample of the universe of all possible items. Instruments similar to the CDQ could readily be constructed whose scores would display risky shifts, cautious ones, or none at all” (Cartwright, 1971, p. 368).\nIn the early risky shift literature, theoretical progress was unnecessarily impeded by multiple generations of replication studies (k ⋍ 200), nearly all relying on the same CQD questionnaire.\n\n\n\nSee Westfall et al. (2015). Replicating Studies in Which Samples of Participants Respond to Samples of Stimuli. Perspectives on Psychological Science, 10(3), 390–399. https://doi.org/10.1177/1745691614564879\n\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"&lt;font size = 2&gt;Prediction\" --&gt; D\n  D -- \"&lt;font size = 2&gt;Generalization\" --&gt; P\n\n\n\n\n\nThe concerns of the replication crisis typically referred to the relation between data and phenomena:\n\nDoes a pattern in a specific data set even exist? (Or is it a false positive?)\nIf we found a reproducible pattern with a specific operationalization: Is it generalizable (to other measures, other cultural contexts, other samples)?\nDo we even have a phenomenon in a particular research line? How strongly should I belief in the existence of a phenomenon, given the empirical evidence?\n\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(?? Phenomena ??)\n  D(Data)\n  \n  T -- \"&lt;font size = 2&gt;Explanation\" --&gt; P\n  P -- \"&lt;font size = 2&gt;Abduction\" --&gt; T\n  P ---&gt; D\n  D -. \"&lt;font size = 2&gt;?? Generalization ??\" .-&gt; P\n  \n  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;\n  linkStyle 3 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nDoubt about phenomena propagates to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete.\n\n\n\n“We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests.”\n\nSee Oberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2"
+    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nData provide evidence for the existence of empirical phenomena: You generalize from one or more data sets with strong evidence to a general phenomenon.\nTo claim a (robust) phenomenon, you ideally need:\n\nIndependent replications of specific operationalizations.\nConceptual replications with different operationalizations.\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 0 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nPhenomena (once their existence has been established) predict similar data patterns in new data sets of the same operationalization (as in “direct replication”) and ideally also for new operationalizations (as in “conceptual replication”).\n\n\n\n\nThe risky shift phenomenon: A group’s decisions are riskier than the average of the individual decisions of members before the group met (i.e., the group discussion made individuals riskier).\n\nArea of very active research in social psychology in the 1960s\n“It could be easily replicated. Most of the replication studies […] employed the CDQ as their stimulus set, and they generally had no trouble obtaining the basic risky shift result.”\nToday we know that there is no risky shift. “It is now clear that the items contained in the original CDQ are in no sense a representative sample of the universe of all possible items. Instruments similar to the CDQ could readily be constructed whose scores would display risky shifts, cautious ones, or none at all” (Cartwright, 1971, p. 368).\nIn the early risky shift literature, theoretical progress was unnecessarily impeded by multiple generations of replication studies (k ⋍ 200), nearly all relying on the same CQD questionnaire.\n\n\n\nSee Westfall et al. (2015). Replicating Studies in Which Samples of Participants Respond to Samples of Stimuli. Perspectives on Psychological Science, 10(3), 390–399. https://doi.org/10.1177/1745691614564879\n\n\n\n\n Question for discussion: Is “risky shift” a phenomenon?\n. . .\nMy take: It is a phenomenon (though a weak one), as it generalizes to new instances (data sets) of the same operationalization. It is a phenomenon of this specific stimulus set and suggests certain types of research questions (e.g., “What is so specific to this stimulus set?”).\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\nThe concerns of the replication crisis typically referred to the relation between data and phenomena:\n\nDoes a pattern in a specific data set even exist? (Or is it a false positive?)\nIf we found a reproducible pattern with a specific operationalization: Is it generalizable (to other measures, other cultural contexts, other samples)?\nDo we even have a phenomenon in a particular research line? How strongly should I belief in the existence of a phenomenon, given the empirical evidence?\n\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(?? Phenomena ??)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P ---&gt; D\n  D -. \"?? Generalization ??\" .-&gt; P\n  \n  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;\n  linkStyle 3 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nDoubt about phenomena propagates to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete.\n\n\n\n“We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests.”\n\nSee Oberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2"
   },
   {
     "objectID": "slides/Introduction/Introduction_Buri.html#buridans-esel",
@@ -186,14 +186,14 @@
     "href": "slides/slide_overview.html",
     "title": "Slides Overview",
     "section": "",
-    "text": "Here will be a listing of the slides.\n\n\n\n\n \n  \n    Date \n    Lecture \n    Website \n    Slides \n  \n \n\n  \n    2023-10-14 \n    Formal modeling in psychology \n    link \n    link \n  \n  \n    2023-10-14 \n    Theory Construction Methodology \n    link \n    link"
+    "text": "Here will be a listing of the slides.\n\n\n\n\n\nDate\nLecture\nWebsite\nSlides\n\n\n\n\n2023-10-14\nFormal modeling in psychology\nlink\nlink\n\n\n2023-10-14\nTheory Construction Methodology\nlink\nlink"
   },
   {
     "objectID": "slides/TCM/TCM.html",
     "href": "slides/TCM/TCM.html",
     "title": "Theory Construction Methodology",
     "section": "",
-    "text": "See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\n\n\n\n\n\n\nFalsificationism starts with a (tentative) theory, which is repeatedly tested, refuted, and refined.\nBut where does the initial theory come from? “Flair”? Flash of inspiration in the shower?\nPopper did not care much about the first stage of creating theories - just about the later testing of theories.\n\nConjecture: We have a refined methodology1 to test theories (e.g., experimental designs, statistical methods, preregistration, …). But we had (so far) no good methodology for constructing theories.\n\n\n\n\nSir Karl Popper, 1902 - 1994\n\n\n\n\n\n\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nPhenomena: Stable and ge#neral features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum)\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: (the explanans)\n\n\n\n\n\n“It may be said… that an explanation is not fully adequate unless its explanans, if taken account of in time, could have served as a basis for predicting the phenomenon under consideration…. It is this potential predictive force which gives scientific explanation its importance: Only to the extent that we are able to explain empirical facts can we attain the major objective of scientific research, namely not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment”\n\n Hempel & Oppenheim, 1948, (p. 138)\n\n\n\n\n\n\nIdentifying relevant phenomena\nFormulating a prototheory\nDeveloping a formal model\nChecking the adequacy of the formal model\nEvaluating the overall worth of the constructed theory\n\n\n\n\n\nIdentifying relevant phenomena\n\n\n„The phenomena most useful in theory building are not necessarily the most spectacular ones. Instead, it is vitally important to select phenomena that are well established, or even self-evident, because a solid foundation is essential to successful theory construction.“\n\n\nBorsboom et al., 2021, p. 760\n\n\n\n\n\nFormulating a prototheory\n\n\n„Of the steps in TCM, the step of generating prototheories is the least methodologically developed. One methodological approach that is available is analogical abduction: If one finds a similar set of phenomena in another field that is better understood, then one can “borrow” explanatory principles from that field to inform one’s own.“\n\n\nBorsboom et al., 2021, p. 761\n\n\n\n\n\nDeveloping a formal model\n\n\nBorsboom et al., 2021, p. 761\n\n\n\n\n\nChecking the adequacy of the formal model\n\n\nBorsboom et al., 2021, p. 761\n\n\n\n\n\nEvaluating the overall worth of the constructed theory\n\n\nBorsboom et al., 2021, p. 761"
+    "text": "See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\n\n\n\n\n\n\nFalsificationism starts with a (tentative) theory, which is repeatedly tested, refuted, and refined.\nBut where does the initial theory come from? “Flair”? Flash of inspiration in the shower?\nPopper did not care much about the first stage of creating theories - just about the later testing of theories.\n\nConjecture: We have a refined methodology1 to test theories (e.g., experimental designs, statistical methods, preregistration, …). But we had (so far) no good methodology for constructing theories.\n\n\n\n\nSir Karl Popper, 1902 - 1994\n\n\n\n\n\n\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum)\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: (the explanans)"
   },
   {
     "objectID": "slides/TCM/TCM.slide.html#section",
@@ -256,56 +256,56 @@
     "href": "slides/TCM/TCM.slide.html#what-is-not-a-theory-1",
     "title": "Theory Construction Methodology",
     "section": "What is not a theory? 1",
-    "text": "What is not a theory? 1\n\n(Note: While these features of a scholarly article do not constitute a theory, they might be important in their own right)\n\nReferences Are Not Theory\n\n\nA manuscript that Robert Sutton edited had strong data, but all three reviewers emphasized that it had “weak theory” and “poorly motivated hypotheses.” The author responded to these concerns by writing a new introduction that added citations to many papers containing theory and many terms like “psycho-social theory,” “identity theory,” and “social comparison theory.” But it still contained no discussion of what these theories were about and no discussion of the logical arguments why these theories led to the author’s predictions. The result was that this paper contained almost no theory, despite the author’s assertion that much had been added.\n\nSolution:\n\nAuthors need to explicate which concepts and causal arguments are adopted from cited sources and how they are linked to the theory being developed or tested.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "text": "What is not a theory? 1\n\n(Note: While these features of a scholarly article do not constitute a theory, they might be important in their own right)\n\nReferences Are Not Theory\n\n\nA manuscript that Robert Sutton edited had strong data, but all three reviewers emphasized that it had “weak theory” and “poorly motivated hypotheses.” The author responded to these concerns by writing a new introduction that added citations to many papers containing theory and many terms like “psycho-social theory,” “identity theory,” and “social comparison theory.”\nBut it still contained no discussion of what these theories were about and no discussion of the logical arguments why these theories led to the author’s predictions. The result was that this paper contained almost no theory, despite the author’s assertion that much had been added.\n\nSolution:\n\nAuthors need to explicate which concepts and causal arguments are adopted from cited sources and how they are linked to the theory being developed or tested.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
     "objectID": "slides/TCM/TCM.slide.html#what-is-not-a-theory-2",
     "href": "slides/TCM/TCM.slide.html#what-is-not-a-theory-2",
     "title": "Theory Construction Methodology",
     "section": "What is not a theory? 2",
-    "text": "What is not a theory? 2\n\n\nData Are Not Theory\n\n\nEmpirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations. Kaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: Data describe which empirical patterns were observed and theory explains why empirical patterns were observed or are expected to be observed.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "text": "What is not a theory? 2\n\n\nData Are Not Theory\n\n\nEmpirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.\nKaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: Data describe which empirical patterns were observed and theory explains why empirical patterns were observed or are expected to be observed.\n\nAlso: Theories do not explain data - theories explain phenomena!\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
     "objectID": "slides/TCM/TCM.slide.html#what-is-not-a-theory-3",
     "href": "slides/TCM/TCM.slide.html#what-is-not-a-theory-3",
     "title": "Theory Construction Methodology",
     "section": "What is not a theory? 3",
-    "text": "What is not a theory? 3\n\n\nLists of Variables or Constructs Are Not Theory\n\n\nPapers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process. Such lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "text": "What is not a theory? 3\n\n\nLists of Variables or Constructs Are Not Theory\n\n\nPapers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.\nSuch lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
     "objectID": "slides/TCM/TCM.slide.html#what-is-not-a-theory-4",
     "href": "slides/TCM/TCM.slide.html#what-is-not-a-theory-4",
     "title": "Theory Construction Methodology",
     "section": "What is not a theory? 4",
-    "text": "What is not a theory? 4\n\n\nDiagrams (Alone) Are Not Theory\n\n\nDiagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. Probably the least theoretical representations are ones that simply list categories of variables such as “personality,” “environmental determinants,” or “demographics.” More helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […] As Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "text": "What is not a theory? 4\n\nDiagrams (Alone) Are Not Theory\n\n\n\n\n\n\n\nThis is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)\n\n\n\n\n\n\n\n\n\n\nFig. 1 from Iqbal et al. (2021), based on Bronfenbrenner’s (1979) ecological systems model\n\n\n\nIqbal, S., Zakar, R., & Fischer, F. (2021). Extended Theoretical Framework of Parental Internet Mediation: Use of Multiple Theoretical Stances for Understanding Socio-Ecological Predictors. Frontiers in Psychology, 12, 620838. https://doi.org/10.3389/fpsyg.2021.620838"
   },
   {
     "objectID": "slides/TCM/TCM.slide.html#what-is-not-a-theory-5",
     "href": "slides/TCM/TCM.slide.html#what-is-not-a-theory-5",
     "title": "Theory Construction Methodology",
     "section": "What is not a theory? 5",
-    "text": "What is not a theory? 5\n\n\nHypotheses (or Predictions) Are Not Theory.\n\n\nHypotheses can be an important part of a well-crafted conceptual argument. They serve as crucial bridges between theory and data, making explicit how the variables and relationships that follow from a logical argument will be operationalized. […] Hypotheses do not (and should not) contain logical arguments about why empirical relationships are expected to occur. Hypotheses are concise statements about what is expected to occur, not why it is expected to occur.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "text": "What is not a theory? 5\n\n\nHypotheses (or Predictions) Are Not Theory.\n\n\nHypotheses can be an important part of a well-crafted conceptual argument. They serve as crucial bridges between theory and data, making explicit how the variables and relationships that follow from a logical argument will be operationalized. […]\nHypotheses do not (and should not) contain logical arguments about why empirical relationships are expected to occur. Hypotheses are concise statements about what is expected to occur, not why it is expected to occur.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
     "objectID": "slides/TCM/TCM.slide.html#where-do-theories-come-from",
     "href": "slides/TCM/TCM.slide.html#where-do-theories-come-from",
     "title": "Theory Construction Methodology",
     "section": "Where do theories come from?",
-    "text": "Where do theories come from?\n\n\n\nFalsificationism starts with a (tentative) theory, which is repeatedly tested, refuted, and refined.\nBut where does the initial theory come from? “Flair”? Flash of inspiration in the shower?\nPopper did not care much about the first stage of creating theories - just about the later testing of theories.\n\nConjecture: We have a refined methodology1 to test theories (e.g., experimental designs, statistical methods, preregistration, …). But we had (so far) no good methodology for constructing theories.\n\n\n\n\nSir Karl Popper, 1902 - 1994\n\n\n\n\n“A scientific methodology is an ordered series of steps that assist a researcher in reaching a desired end state from a specified starting point.” (Borsboom et al., 2021)"
+    "text": "Where do theories come from?\n\n\n\nFalsificationism starts with a (tentative) theory, which is repeatedly tested, refuted, and refined.\nBut where does the initial theory come from? “Flair”? Flash of inspiration in the shower?\nPopper did not care much about the first stage of creating theories - just about the later testing of theories.\n\n\n\n\n\nSir Karl Popper, 1902 - 1994\n\n\n\n\n\nConjecture: We have a refined methodology¹ to test theories (e.g., experimental designs, statistical methods, preregistration, …). But we had (so far) no good methodology for constructing theories.\n\n¹ “A scientific methodology is an ordered series of steps that assist a researcher in reaching a desired end state from a specified starting point.” (Borsboom et al., 2021)"
   },
   {
     "objectID": "slides/TCM/TCM.slide.html#tcm-a-methodology-for-constructing-theories",
     "href": "slides/TCM/TCM.slide.html#tcm-a-methodology-for-constructing-theories",
     "title": "Theory Construction Methodology",
     "section": "TCM: A methodology for constructing theories",
-    "text": "TCM: A methodology for constructing theories\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nPhenomena: Stable and ge#neral features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum)\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: (the explanans)"
+    "text": "TCM: A methodology for constructing theories\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum)\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: Something that explains phenomena of interest (the explanans). But what is a theory?"
   },
   {
     "objectID": "slides/TCM/TCM.slide.html#comparison-chart-of-methodologies",
     "href": "slides/TCM/TCM.slide.html#comparison-chart-of-methodologies",
     "title": "Theory Construction Methodology",
     "section": "Comparison chart of methodologies",
-    "text": "Comparison chart of methodologies\n\n\n\n\n\n\n\n\n\n\nTCM\nDemiurg\n\n\n\n\nStarting point\nset of relevant phenomena in need for explanation\nan (evolutionary) problem that needs to be solved (v1) + prior knowledge about precursing organisms (v2)\n\n\nPrimary heuristic for searching explanations\nLook for analogous models/phenomena in other scientific disciplines\nLook at existing capabilities of simpler organisms (biology); search for the simplest implementation (given existing biological structures)\n\n\n\n\n\n\n\nEnd state\nA theory that offers a putative explanation of the phenomena\n\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "Comparison chart of methodologies\n\n\n\n\n\n\n\n\n\n\nTCM\nDemiurg\n\n\n\n\nStarting point\nset of relevant phenomena in need for explanation\nan (evolutionary) problem that needs to be solved (v1) + prior knowledge about precursing organisms (v2)\n\n\nPrimary heuristic for searching explanations\nLook for analogous models/phenomena in other scientific disciplines\nLook at existing capabilities of simpler organisms (biology); search for the simplest implementation (given existing biological structures)\n\n\n\n\n\n\n\nEnd state\nA theory that offers a putative explanation of the phenomena\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "slides/TCM/TCM.slide.html#tcm-concrete-steps",
@@ -354,35 +354,35 @@
     "href": "slides/TCM/TCM.slide.html#theories-as-causal-explanations",
     "title": "Theory Construction Methodology",
     "section": "Theories as causal explanations",
-    "text": "Theories as causal explanations\n\n“It may be said… that an explanation is not fully adequate unless its explanans, if taken account of in time, could have served as a basis for predicting the phenomenon under consideration…. It is this potential predictive force which gives scientific explanation its importance: Only to the extent that we are able to explain empirical facts can we attain the major objective of scientific research, namely not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment”\n\n Hempel & Oppenheim, 1948, (p. 138)"
+    "text": "Theories as causal explanations\n\n“It may be said… that an explanation is not fully adequate unless its explanans, if taken account of in time, could have served as a basis for predicting the phenomenon under consideration…\nIt is this potential predictive force which gives scientific explanation its importance: Only to the extent that we are able to explain empirical facts can we attain the major objective of scientific research, namely not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment”\n\n Hempel & Oppenheim, 1948, (p. 138)"
   },
   {
     "objectID": "slides/Introduction/Introduction_Buri.html#the-relation-of-data-and-phenomena",
     "href": "slides/Introduction/Introduction_Buri.html#the-relation-of-data-and-phenomena",
     "title": "Formal modeling in psychology",
     "section": "",
-    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"&lt;font size = 2&gt;Explanation\" --&gt; P\n  P -- \"&lt;font size = 2&gt;Abduction\" --&gt; T\n  P -- \"&lt;font size = 2&gt;Prediction\" --&gt; D\n  D -- \"&lt;font size = 2&gt;Generalization\" --&gt; P\n\n\n\n\n\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647"
+    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647"
   },
   {
     "objectID": "slides/Introduction/Introduction_Buri.html#the-relation-of-data-and-phenomena-1",
     "href": "slides/Introduction/Introduction_Buri.html#the-relation-of-data-and-phenomena-1",
     "title": "Formal modeling in psychology",
     "section": "",
-    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"&lt;font size = 2&gt;Prediction\" --&gt; D\n  D -- \"&lt;font size = 2&gt;Generalization\" --&gt; P\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647"
+    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647"
   },
   {
     "objectID": "slides/Introduction/Introduction_Buri.html#the-relation-of-data-and-phenomena-2",
     "href": "slides/Introduction/Introduction_Buri.html#the-relation-of-data-and-phenomena-2",
     "title": "Formal modeling in psychology",
     "section": "",
-    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"&lt;font size = 2&gt;Prediction\" --&gt; D\n  D -- \"&lt;font size = 2&gt;Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nData provide evidence for the existence of empirical phenomena: You generalize from one or more data sets with strong evidence to a general phenomenon.\nTo claim a (robust) phenomenon, you ideally need:\n\nIndependent replications of specific operationalizations.\nConceptual replications with different operationalizations."
+    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nData provide evidence for the existence of empirical phenomena: You generalize from one or more data sets with strong evidence to a general phenomenon.\nTo claim a (robust) phenomenon, you ideally need:\n\nIndependent replications of specific operationalizations.\nConceptual replications with different operationalizations."
   },
   {
     "objectID": "slides/Introduction/Introduction_Buri.html#the-relation-of-data-and-phenomena-3",
     "href": "slides/Introduction/Introduction_Buri.html#the-relation-of-data-and-phenomena-3",
     "title": "Formal modeling in psychology",
     "section": "",
-    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"&lt;font size = 2&gt;Prediction\" --&gt; D\n  D -- \"&lt;font size = 2&gt;Generalization\" --&gt; P\n  \n  linkStyle 0 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nPhenomena (once their existence has been established) predict similar data patterns in new data sets of the same operationalization (as in “direct replication”) and also for new operationalizations (as in “conceptual replication”)."
+    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 0 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nPhenomena (once their existence has been established) predict similar data patterns in new data sets of the same operationalization (as in “direct replication”) and ideally also for new operationalizations (as in “conceptual replication”)."
   },
   {
     "objectID": "slides/Introduction/Introduction_Buri.html#interlude-the-risky-shift-phenomenon",
@@ -396,14 +396,14 @@
     "href": "slides/Introduction/Introduction_Buri.html#replication-crisis-focus-on-phenomena-data-1",
     "title": "Formal modeling in psychology",
     "section": "",
-    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"&lt;font size = 2&gt;Prediction\" --&gt; D\n  D -- \"&lt;font size = 2&gt;Generalization\" --&gt; P\n\n\n\n\n\nThe concerns of the replication crisis typically referred to the relation between data and phenomena:\n\nDoes a pattern in a specific data set even exist? (Or is it a false positive?)\nIf we found a reproducible pattern with a specific operationalization: Is it generalizable (to other measures, other cultural contexts, other samples)?\nDo we even have a phenomenon in a particular research line? How strongly should I belief in the existence of a phenomenon, given the empirical evidence?"
+    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\nThe concerns of the replication crisis typically referred to the relation between data and phenomena:\n\nDoes a pattern in a specific data set even exist? (Or is it a false positive?)\nIf we found a reproducible pattern with a specific operationalization: Is it generalizable (to other measures, other cultural contexts, other samples)?\nDo we even have a phenomenon in a particular research line? How strongly should I belief in the existence of a phenomenon, given the empirical evidence?"
   },
   {
     "objectID": "slides/Introduction/Introduction_Buri.html#replication-crisis-focus-on-phenomena-data-2",
     "href": "slides/Introduction/Introduction_Buri.html#replication-crisis-focus-on-phenomena-data-2",
     "title": "Formal modeling in psychology",
     "section": "",
-    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(?? Phenomena ??)\n  D(Data)\n  \n  T -- \"&lt;font size = 2&gt;Explanation\" --&gt; P\n  P -- \"&lt;font size = 2&gt;Abduction\" --&gt; T\n  P ---&gt; D\n  D -. \"&lt;font size = 2&gt;?? Generalization ??\" .-&gt; P\n  \n  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;\n  linkStyle 3 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nDoubt about phenomena propagates to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete."
+    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(?? Phenomena ??)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P ---&gt; D\n  D -. \"?? Generalization ??\" .-&gt; P\n  \n  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;\n  linkStyle 3 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nDoubt about phenomena propagates to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete."
   },
   {
     "objectID": "slides/Introduction/Introduction_Buri.html#from-replication-crisis-to-theory-crisis",
@@ -431,56 +431,56 @@
     "href": "slides/TCM/TCM.html#tcm-a-methodology-for-constructing-theories",
     "title": "Theory Construction Methodology",
     "section": "",
-    "text": "%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nPhenomena: Stable and ge#neral features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum)\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: (the explanans)"
+    "text": "%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum)\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: (the explanans)"
   },
   {
     "objectID": "slides/TCM/TCM.html#theories-as-causal-explanations",
     "href": "slides/TCM/TCM.html#theories-as-causal-explanations",
     "title": "Theory Construction Methodology",
-    "section": "",
-    "text": "“It may be said… that an explanation is not fully adequate unless its explanans, if taken account of in time, could have served as a basis for predicting the phenomenon under consideration…. It is this potential predictive force which gives scientific explanation its importance: Only to the extent that we are able to explain empirical facts can we attain the major objective of scientific research, namely not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment”\n\n Hempel & Oppenheim, 1948, (p. 138)"
+    "section": "Theories as causal explanations",
+    "text": "Theories as causal explanations\n\n“It may be said… that an explanation is not fully adequate unless its explanans, if taken account of in time, could have served as a basis for predicting the phenomenon under consideration…. It is this potential predictive force which gives scientific explanation its importance: Only to the extent that we are able to explain empirical facts can we attain the major objective of scientific research, namely not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment”\n\n Hempel & Oppenheim, 1948, (p. 138)"
   },
   {
     "objectID": "slides/TCM/TCM.html#tcm-concrete-steps",
     "href": "slides/TCM/TCM.html#tcm-concrete-steps",
     "title": "Theory Construction Methodology",
-    "section": "",
-    "text": "Identifying relevant phenomena\nFormulating a prototheory\nDeveloping a formal model\nChecking the adequacy of the formal model\nEvaluating the overall worth of the constructed theory"
+    "section": "TCM: Concrete Steps",
+    "text": "TCM: Concrete Steps\n\nIdentifying relevant phenomena\nFormulating a prototheory\nDeveloping a formal model\nChecking the adequacy of the formal model\nEvaluating the overall worth of the constructed theory"
   },
   {
     "objectID": "slides/TCM/TCM.html#tcm-step-1",
     "href": "slides/TCM/TCM.html#tcm-step-1",
     "title": "Theory Construction Methodology",
-    "section": "",
-    "text": "Identifying relevant phenomena\n\n\n„The phenomena most useful in theory building are not necessarily the most spectacular ones. Instead, it is vitally important to select phenomena that are well established, or even self-evident, because a solid foundation is essential to successful theory construction.“\n\n\nBorsboom et al., 2021, p. 760"
+    "section": "TCM: Step 1",
+    "text": "TCM: Step 1\n\nIdentifying relevant phenomena\n\n\n„The phenomena most useful in theory building are not necessarily the most spectacular ones. Instead, it is vitally important to select phenomena that are well established, or even self-evident, because a solid foundation is essential to successful theory construction.“\n\n\nBorsboom et al., 2021, p. 760"
   },
   {
     "objectID": "slides/TCM/TCM.html#tcm-step-2",
     "href": "slides/TCM/TCM.html#tcm-step-2",
     "title": "Theory Construction Methodology",
-    "section": "",
-    "text": "Formulating a prototheory\n\n\n„Of the steps in TCM, the step of generating prototheories is the least methodologically developed. One methodological approach that is available is analogical abduction: If one finds a similar set of phenomena in another field that is better understood, then one can “borrow” explanatory principles from that field to inform one’s own.“\n\n\nBorsboom et al., 2021, p. 761"
+    "section": "TCM: Step 2",
+    "text": "TCM: Step 2\n\nFormulating a prototheory\n\n\n„Of the steps in TCM, the step of generating prototheories is the least methodologically developed. One methodological approach that is available is analogical abduction: If one finds a similar set of phenomena in another field that is better understood, then one can “borrow” explanatory principles from that field to inform one’s own.“\n\n\nBorsboom et al., 2021, p. 761"
   },
   {
     "objectID": "slides/TCM/TCM.html#tcm-step-3",
     "href": "slides/TCM/TCM.html#tcm-step-3",
     "title": "Theory Construction Methodology",
-    "section": "",
-    "text": "Developing a formal model\n\n\nBorsboom et al., 2021, p. 761"
+    "section": "TCM: Step 3",
+    "text": "TCM: Step 3\n\nDeveloping a formal model\n\n\nBorsboom et al., 2021, p. 761"
   },
   {
     "objectID": "slides/TCM/TCM.html#tcm-step-4",
     "href": "slides/TCM/TCM.html#tcm-step-4",
     "title": "Theory Construction Methodology",
-    "section": "",
-    "text": "Checking the adequacy of the formal model\n\n\nBorsboom et al., 2021, p. 761"
+    "section": "TCM: Step 4",
+    "text": "TCM: Step 4\n\nChecking the adequacy of the formal model\n\n\nBorsboom et al., 2021, p. 761"
   },
   {
     "objectID": "slides/TCM/TCM.html#tcm-step-5",
     "href": "slides/TCM/TCM.html#tcm-step-5",
     "title": "Theory Construction Methodology",
-    "section": "",
-    "text": "Evaluating the overall worth of the constructed theory\n\n\nBorsboom et al., 2021, p. 761"
+    "section": "TCM: Step 5",
+    "text": "TCM: Step 5\n\nEvaluating the overall worth of the constructed theory\n\n\nBorsboom et al., 2021, p. 761"
   },
   {
     "objectID": "slides/TCM/TCM.html#comparison-chart-of-methodologies",
@@ -516,5 +516,131 @@
     "title": "Formal modeling in psychology",
     "section": " Gruppenübung: Cover your ass, Level 1",
     "text": "Gruppenübung: Cover your ass, Level 1\n\nSzenario: In der Umwelt gibt es eine Futter- und eine Wasserquelle, die substantiell voneinander entfernt sind (es gibt eine Reisezeit, um von der einen zur anderen zu kommen). Der Esel hat einen allgemeinen Metabolismus, der kontinuierlich Futter- und Wasserreserven im Körper verbraucht; dieser Verbrauch ist höher bei körperlicher Aktivität. Sobald eine der beiden Reserven im Körper auf Null fällt stirbt der Esel.\nAnnahmen:\n\nFixe Geschwindigkeit v vom Esel\nLineare Abnahme der Wasserreserve im Körper\nLineare Abnahme der Futterreserve im Körper\nDie Futter- bzw. Wasseraufnahme dauert eine substantielle Zeit und findet in Schlucken statt (z.B. 1 Einheit pro Minute)\nDer Esel hat eine Repräsentation der Umwelt und weiß, wo die beiden Quellen sind.\n\nAufgabe: Konstruiere einen Organismus, mit möglichst wenigen Annahmen, der möglichst lange überlebt. Welche Konstrukte / Sensoren / Fähigkeiten sind dafür notwendig?"
+  },
+  {
+    "objectID": "slides/Introduction/Introduction_Buri.html#interlude-the-risky-shift-phenomenon-1",
+    "href": "slides/Introduction/Introduction_Buri.html#interlude-the-risky-shift-phenomenon-1",
+    "title": "Formal modeling in psychology",
+    "section": "",
+    "text": "The risky shift phenomenon: A group’s decisions are riskier than the average of the individual decisions of members before the group met (i.e., the group discussion made individuals riskier).\n\nArea of very active research in social psychology in the 1960s\n“It could be easily replicated. Most of the replication studies […] employed the CDQ as their stimulus set, and they generally had no trouble obtaining the basic risky shift result.”\nToday we know that there is no risky shift. “It is now clear that the items contained in the original CDQ are in no sense a representative sample of the universe of all possible items. Instruments similar to the CDQ could readily be constructed whose scores would display risky shifts, cautious ones, or none at all” (Cartwright, 1971, p. 368).\nIn the early risky shift literature, theoretical progress was unnecessarily impeded by multiple generations of replication studies (k ⋍ 200), nearly all relying on the same CQD questionnaire.\n\n\n\nSee Westfall et al. (2015). Replicating Studies in Which Samples of Participants Respond to Samples of Stimuli. Perspectives on Psychological Science, 10(3), 390–399. https://doi.org/10.1177/1745691614564879"
+  },
+  {
+    "objectID": "slides/Introduction/Introduction_Buri.html#interlude-the-risky-shift-phenomenon-2",
+    "href": "slides/Introduction/Introduction_Buri.html#interlude-the-risky-shift-phenomenon-2",
+    "title": "Formal modeling in psychology",
+    "section": "",
+    "text": "Question for discussion: Is “risky shift” a phenomenon?\n. . .\nMy take: It is a phenomenon (though a weak one), as it generalizes to new instances (data sets) of the same operationalization. It is a phenomenon of this specific stimulus set and suggests certain types of research questions (e.g., “What is so specific to this stimulus set?”)."
+  },
+  {
+    "objectID": "slides/Introduction/Introduction_Buri.html#fa-people-group-size1x-gruppenübung-cover-your-ass-level-1",
+    "href": "slides/Introduction/Introduction_Buri.html#fa-people-group-size1x-gruppenübung-cover-your-ass-level-1",
+    "title": "Formal modeling in psychology",
+    "section": " Gruppenübung: Cover your ass, Level 1",
+    "text": "Gruppenübung: Cover your ass, Level 1\n\nSzenario: In der Umwelt gibt es eine Futter- und eine Wasserquelle, die substantiell voneinander entfernt sind (es gibt eine Reisezeit, um von der einen zur anderen zu kommen). Der Esel hat einen allgemeinen Metabolismus, der kontinuierlich Futter- und Wasserreserven im Körper verbraucht; dieser Verbrauch ist höher bei körperlicher Aktivität. Sobald eine der beiden Reserven im Körper auf Null fällt stirbt der Esel.\nAnnahmen:\n\nFixe Geschwindigkeit v vom Esel\nLineare Abnahme der Wasserreserve im Körper\nLineare Abnahme der Futterreserve im Körper\nDie Futter- bzw. Wasseraufnahme dauert eine substantielle Zeit und findet in Schlucken statt (z.B. 1 Einheit pro Minute)\nDer Esel hat eine Repräsentation der Umwelt und weiß, wo die beiden Quellen sind.\n\nAufgabe: Konstruiere einen Organismus, mit möglichst wenigen Annahmen, der möglichst lange überlebt. Welche Konstrukte / Sensoren / Fähigkeiten sind dafür notwendig?"
+  },
+  {
+    "objectID": "slides/TCM/TCM.slide.html#what-is-not-a-theory-4-1",
+    "href": "slides/TCM/TCM.slide.html#what-is-not-a-theory-4-1",
+    "title": "Theory Construction Methodology",
+    "section": "What is not a theory? 4",
+    "text": "What is not a theory? 4\n\nFigure 1. Holistic wellbeing model for school education.\nNorozi, S. A. (2023). The Nexus of Holistic Wellbeing and School Education: A Literature-Informed Theoretical Framework. Societies, 13(5), 113. https://doi.org/10.3390/soc13050113"
+  },
+  {
+    "objectID": "slides/TCM/TCM.slide.html#what-is-not-a-theory-4-2",
+    "href": "slides/TCM/TCM.slide.html#what-is-not-a-theory-4-2",
+    "title": "Theory Construction Methodology",
+    "section": "What is not a theory? 4",
+    "text": "What is not a theory? 4\n\n\nCBCB, CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0, via Wikimedia Commons"
+  },
+  {
+    "objectID": "slides/TCM/TCM.slide.html#what-is-not-a-theory-4-3",
+    "href": "slides/TCM/TCM.slide.html#what-is-not-a-theory-4-3",
+    "title": "Theory Construction Methodology",
+    "section": "What is not a theory? 4",
+    "text": "What is not a theory? 4\n\n\nhttp://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html"
+  },
+  {
+    "objectID": "slides/TCM/TCM.slide.html#what-is-not-a-theory-4-4",
+    "href": "slides/TCM/TCM.slide.html#what-is-not-a-theory-4-4",
+    "title": "Theory Construction Methodology",
+    "section": "What is not a theory? 4",
+    "text": "What is not a theory? 4\n\n\nDiagrams (Alone) Are Not Theory\n\n\nDiagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. Probably the least theoretical representations are ones that simply list categories of variables such as “personality,” “environmental determinants,” or “demographics.”\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+  },
+  {
+    "objectID": "slides/TCM/TCM.slide.html#tcm-a-methodology-for-constructing-theories-1",
+    "href": "slides/TCM/TCM.slide.html#tcm-a-methodology-for-constructing-theories-1",
+    "title": "Theory Construction Methodology",
+    "section": "TCM: A methodology for constructing theories",
+    "text": "TCM: A methodology for constructing theories\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum)\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nExplanatory Theories are constructed to explain the empirical phenomena that are evidenced by data (i.e., they are the explanans). Explanatory theories can be expressed in terms of a set of linked propositions, at least one of which expresses a general principle.\n\n“theory T putatively explains phenomenon P” means “if the world were as T says it is, P would follow as a matter of course.” Although this notion of explanation is arguably incomplete, it has the advantages of being close to the commonsense understanding of the concept and being easy to implement in a formal model—namely by creating a virtual world in which theory T is true and showing that this world will indeed produce phenomenon P.\n\n\n\nSee Borsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
+  },
+  {
+    "objectID": "slides/TCM/TCM.slide.html#theory-definition",
+    "href": "slides/TCM/TCM.slide.html#theory-definition",
+    "title": "Theory Construction Methodology",
+    "section": "Theory: Definition",
+    "text": "Theory: Definition\n\n\n\n\n\n\nWhat is an explanatory theory?\n\n\nA set of linked propositions, at least one of which expresses a general principle,\n\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647\nvan Dongen, N. N. N. et al. (2022, April 13). Productive Explanation: A Framework for Evaluating Explanations in Psychological Science. https://doi.org/10.31234/osf.io/qd69g"
+  },
+  {
+    "objectID": "slides/TCM/TCM.slide.html#what-constitutes-a-good-theory",
+    "href": "slides/TCM/TCM.slide.html#what-constitutes-a-good-theory",
+    "title": "Theory Construction Methodology",
+    "section": "What constitutes a good theory?",
+    "text": "What constitutes a good theory?\n\nInherent quality criteria\nEmpirical evidence for the theory (“Empirische Bewährung”), usually expressed as relative evidence compared to a competing theory."
+  },
+  {
+    "objectID": "slides/TCM/TCM.slide.html#inherent-quality-criteria",
+    "href": "slides/TCM/TCM.slide.html#inherent-quality-criteria",
+    "title": "Theory Construction Methodology",
+    "section": "Inherent quality criteria",
+    "text": "Inherent quality criteria\nA good theory …\n\ndefines the variables\nspecifies the domain\nbuilds internally consistent relationships\nmakes specific predictions about phenomena that have not yet been observed (and is therefore falsifiable)."
+  },
+  {
+    "objectID": "slides/test.html#example-slide",
+    "href": "slides/test.html#example-slide",
+    "title": "A title",
+    "section": "Example slide",
+    "text": "Example slide\nThis is a subtitle\nHere we have some text that may run over several lines of the slide frame, depending on how long it is.\n\nfirst item\n\nA sub item\n\n\nNext, we’ll brief review some theme-specific components.\n\nNote that all of the standard Reveal.js features can be used with this theme, even if we don’t highlight them here."
+  },
+  {
+    "objectID": "slides/test.html#additional-theme-classes",
+    "href": "slides/test.html#additional-theme-classes",
+    "title": "A title",
+    "section": "Additional theme classes",
+    "text": "Additional theme classes\nSome extra things you can do with the clean theme\nSpecial classes for emphasis\n\n.alert class for default emphasis, e.g. important note.\n.fg class for custom colour, e.g. important note.\n.bg class for custom background, e.g. important note.\n\nCross-references\n\n.button class provides a Beamer-like button, e.g. Summary"
+  },
+  {
+    "objectID": "slides/test.html#want-more",
+    "href": "slides/test.html#want-more",
+    "title": "A title",
+    "section": "Want more?",
+    "text": "Want more?\nSee our longer demo slides\nWe’ve deliberarely kept this template lean, to get you up and running as fast as possible.\nWe provide a separate demo template, with more examples for integrating code, tables, figures, etc.\n\nSee the live demo slides here."
+  },
+  {
+    "objectID": "slides/test.html#sec-summary",
+    "href": "slides/test.html#sec-summary",
+    "title": "A title",
+    "section": "Summary",
+    "text": "Summary\nA minimal and elegant presentation theme\nThe Quarto reveal.js clean theme aims to be a minimal and elegant presention theme.\nInstall the theme.\nquarto install extension grantmcdermott/quarto-revealjs-clean\nUse this lean template.\nquarto use template grantmcdermott/quarto-revealjs-clean\nUse the longer demo template.\nquarto use template grantmcdermott/quarto-revealjs-clean-demo"
+  },
+  {
+    "objectID": "slides/TCM/TCM.slide.html#zentrale-begriffe",
+    "href": "slides/TCM/TCM.slide.html#zentrale-begriffe",
+    "title": "Theory Construction Methodology",
+    "section": "Zentrale Begriffe",
+    "text": "Zentrale Begriffe\n\n\nPhänomen: Eine Eigenschaft der Welt, die hinreichend wenig flüchtig ist, so dass wir diese wahrnehmen und beschreiben können (Explanandum einer Theorie)\nBegriff / Konzept: Semantische Einheit (Konzept), die die Merkmale eines Gegenstandes oder Sachverhaltes vereint. ≠ Wort/Wortmarke\nTheorie: Eine Theorie ist eine Reihe von Aussagen über die Beziehung(en) zwischen zwei oder mehreren Begriffen (Konzepten) mit nomologischem (also Gesetzes-)Charakter. (Explanans)\nModell: Vereinfachte Abbildung eines Ausschnitts der Wirklichkeit. Alle Strukturen, die die Sätze einer Theorie erfüllen, sind Modelle dieser Theorie. Oder andersherum ausgedrückt: Eine Theorie kann meist in verschiedenen Modellen implementiert werden, die alle kompatibel zur Theorie sind.\nOperationalisierung: Präzise Angabe (inkl. Begründung), wie ein Begriff (s.o.), zu messen ist.\nDaten: Daten sind öffentliche Aufzeichnungen, die durch Messungen und Experimente erzeugt werden und als Beweis für die Existenz oder Merkmale von Phänomenen dienen. (Woodward, 2009). Daten enthalten das Phänomen, an dem wir interessiert sind, aber auch Rauschen (Messfehler, Verzerrung durch den Experimentator, Transkriptionsfehler). Deshalb erklären Theorien die Phänomene, nicht die Daten. (Fried, 2021)\n\n\n\nThis slide is copied from Lena Schiestel’s presentation"
+  },
+  {
+    "objectID": "slides/TCM/TCM.slide.html#fa-people-group-size1x-exercise",
+    "href": "slides/TCM/TCM.slide.html#fa-people-group-size1x-exercise",
+    "title": "Theory Construction Methodology",
+    "section": " Exercise",
+    "text": "Exercise\n\n\n\n\n\n\n\n\nflowchart LR\nP[Phenomenon]\nC[\"Concept (Definition)\"\"]\nT[Theory]\nM[Model]\nO[Operationalization]\nD[Data]"
+  },
+  {
+    "objectID": "slides/TCM/TCM.slide.html#an-example",
+    "href": "slides/TCM/TCM.slide.html#an-example",
+    "title": "Theory Construction Methodology",
+    "section": "An example",
+    "text": "An example\n\n\n\n\n\n\nNote\n\n\nLee, D. G., Daunizeau, J., & Pezzulo, G. (2023). Evidence or Confidence: What Is Really Monitored during a Decision? Psychonomic Bulletin & Review, 30(4), 1360–1379. https://doi.org/10.3758/s13423-023-02255-9\n\n\n\n\nEmpirical Hurdles for Confidence Models to Explain\nThe literature on choice confidence has exposed a variety of different empirical findings. Many of these findings are so robust that it has been proposed that any worthy model of confidence should be able to account for them (Pleskac & Busemeyer, 2010). We here put the cDDM to the test and note that it predominantly passes these hurdles:"
   }
 ]

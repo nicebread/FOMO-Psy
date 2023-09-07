@@ -1,0 +1,42 @@
+---
+title: "Properties of Theories"
+subtitle: "What constitutes a *good* theory?"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: today
+date-format: iso
+footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format:   
+  clean-revealjs: 
+    output-ext: slide.html
+    theme: default
+    transition: slide
+    background-transition: fade
+    touch: true
+    embed-resources: true
+  html: default
+---
+
+## What constitutes a good theory?
+
+1. Inherent quality criteria
+2. Empirical evidence for the theory ("Empirische Bewährung"), usually expressed as *relative* evidence compared to a competing theory.
+
+## Inherent quality criteria
+
+A good theory ...
+
+- defines the variables
+- specifies the domain
+- builds internally consistent relationships
+- makes specific predictions about phenomena that have not yet been observed (only specific predictions allow, in principle, falsifications)
+
+A good theory is falsifiable?
+Very difficult topic ...
+- Quine-Duhem problem
+- Lakatosian defense (blaming the auxiliary)
+
+(see Von Nordenflycht, A. (2023). Clean up Your Theory! Invest in Theoretical Clarity and Consistency for Higher-Impact Research. Organization Science, orsc.2022.16122. https://doi.org/10.1287/orsc.2022.16122)

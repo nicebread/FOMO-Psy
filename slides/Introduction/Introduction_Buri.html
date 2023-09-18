@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Felix Schönbrodt">
+<meta name="dcterms.date" content="2023-09-18">
+
+<title>FOMO-Psy: Formal Modeling of Psychological Theories - Formal modeling in psychology</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">FOMO-Psy: Formal Modeling of Psychological Theories</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../slides/slide_overview.html" rel="" target="">
+ <span class="menu-text">Slides</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../tools.html" rel="" target="">
+ <span class="menu-text">Thinking Tools</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../orga_material.html" rel="" target="">
+ <span class="menu-text">Organizational Material</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#a-theory-crisis-in-psychology" id="toc-a-theory-crisis-in-psychology" class="nav-link active" data-scroll-target="#a-theory-crisis-in-psychology">A theory crisis in psychology?</a>
+  <ul class="collapse">
+  <li><a href="#the-relation-of-data-and-phenomena" id="toc-the-relation-of-data-and-phenomena" class="nav-link" data-scroll-target="#the-relation-of-data-and-phenomena">The relation of data and phenomena</a></li>
+  <li><a href="#the-relation-of-data-and-phenomena-1" id="toc-the-relation-of-data-and-phenomena-1" class="nav-link" data-scroll-target="#the-relation-of-data-and-phenomena-1">The relation of data and phenomena 1</a></li>
+  <li><a href="#the-relation-of-data-and-phenomena-2" id="toc-the-relation-of-data-and-phenomena-2" class="nav-link" data-scroll-target="#the-relation-of-data-and-phenomena-2">The relation of data and phenomena 2</a></li>
+  <li><a href="#the-relation-of-data-and-phenomena-3" id="toc-the-relation-of-data-and-phenomena-3" class="nav-link" data-scroll-target="#the-relation-of-data-and-phenomena-3">The relation of data and phenomena 3</a></li>
+  <li><a href="#the-relation-of-data-and-phenomena-3-1" id="toc-the-relation-of-data-and-phenomena-3-1" class="nav-link" data-scroll-target="#the-relation-of-data-and-phenomena-3-1">The relation of data and phenomena 3</a></li>
+  <li><a href="#interlude-the-risky-shift-phenomenon-1" id="toc-interlude-the-risky-shift-phenomenon-1" class="nav-link" data-scroll-target="#interlude-the-risky-shift-phenomenon-1">Interlude: The risky shift phenomenon 1</a></li>
+  <li><a href="#interlude-the-risky-shift-phenomenon-2" id="toc-interlude-the-risky-shift-phenomenon-2" class="nav-link" data-scroll-target="#interlude-the-risky-shift-phenomenon-2">Interlude: The risky shift phenomenon 2</a></li>
+  <li><a href="#replication-crisis-focus-on-phenomena-data-1" id="toc-replication-crisis-focus-on-phenomena-data-1" class="nav-link" data-scroll-target="#replication-crisis-focus-on-phenomena-data-1">Replication crisis: Focus on phenomena &lt;–&gt; data 1</a></li>
+  <li><a href="#replication-crisis-focus-on-phenomena-data-2" id="toc-replication-crisis-focus-on-phenomena-data-2" class="nav-link" data-scroll-target="#replication-crisis-focus-on-phenomena-data-2">Replication crisis: Focus on phenomena &lt;–&gt; data 2</a></li>
+  </ul></li>
+  <li><a href="#from-replication-crisis-to-theory-crisis" id="toc-from-replication-crisis-to-theory-crisis" class="nav-link" data-scroll-target="#from-replication-crisis-to-theory-crisis">From replication crisis to theory crisis</a>
+  <ul class="collapse">
+  <li><a href="#from-replication-crisis-to-theory-crisis-1" id="toc-from-replication-crisis-to-theory-crisis-1" class="nav-link" data-scroll-target="#from-replication-crisis-to-theory-crisis-1">From replication crisis to theory crisis 1</a></li>
+  <li><a href="#from-replication-crisis-to-theory-crisis-2" id="toc-from-replication-crisis-to-theory-crisis-2" class="nav-link" data-scroll-target="#from-replication-crisis-to-theory-crisis-2">From replication crisis to theory crisis 2</a></li>
+  <li><a href="#from-replication-crisis-to-theory-crisis-3" id="toc-from-replication-crisis-to-theory-crisis-3" class="nav-link" data-scroll-target="#from-replication-crisis-to-theory-crisis-3">From replication crisis to theory crisis 3</a></li>
+  </ul></li>
+  <li><a href="#buridans-ass" id="toc-buridans-ass" class="nav-link" data-scroll-target="#buridans-ass">Buridan’s Ass</a></li>
+  <li><a href="#the-demiurg" id="toc-the-demiurg" class="nav-link" data-scroll-target="#the-demiurg">The demiurg</a>
+  <ul class="collapse">
+  <li><a href="#das-demiurgische-prinzip" id="toc-das-demiurgische-prinzip" class="nav-link" data-scroll-target="#das-demiurgische-prinzip">Das demiurgische Prinzip</a></li>
+  <li><a href="#demiurgisches-prinzip-vorlaufige-fassung" id="toc-demiurgisches-prinzip-vorlaufige-fassung" class="nav-link" data-scroll-target="#demiurgisches-prinzip-vorlaufige-fassung">Demiurgisches Prinzip (vorläufige Fassung)</a></li>
+  <li><a href="#fa-people-group-size1x-group-exercise-cover-your-ass-level-1" id="toc-fa-people-group-size1x-group-exercise-cover-your-ass-level-1" class="nav-link" data-scroll-target="#fa-people-group-size1x-group-exercise-cover-your-ass-level-1"><span class="r-fit-text"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Group exercise: Cover your ass, Level 1</span></a></li>
+  <li><a href="#demiurgisches-prinzip-endgültige-fassung" id="toc-demiurgisches-prinzip-endgültige-fassung" class="nav-link" data-scroll-target="#demiurgisches-prinzip-endgültige-fassung">Demiurgisches Prinzip (endgültige Fassung)</a></li>
+  </ul></li>
+  <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a>
+  <ul class="collapse">
+  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Introduction_Buri.slide.html"><i class="bi bi-file-slides"></i>RevealJS (clean)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Formal modeling in psychology</h1>
+<p class="subtitle lead">Buridan’s Ass</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Felix Schönbrodt <a href="https://orcid.org/0000-0002-8282-3910" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Ludwig-Maximilians-Universität München
+          </p>
+      </div>
+    </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2023-09-18</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="a-theory-crisis-in-psychology" class="level1" data-background-color="#40666e">
+<h1 data-background-color="#40666e">A theory crisis in psychology?</h1>
+<section id="the-relation-of-data-and-phenomena" class="level2">
+<h2 class="anchored" data-anchor-id="the-relation-of-data-and-phenomena">The relation of data and phenomena</h2>
+<div class="r-stretch">
+<div class="cell" data-fig-width="14">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+flowchart LR
+  T(Theory)
+  P(Phenomena)
+  D(Data)
+  
+  T -- "Explanation" --&gt; P
+  P -- "Abduction" --&gt; T
+  P -- "Prediction" --&gt; D
+  D -- "Generalization" --&gt; P
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>See Borsboom et al.&nbsp;(2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a></p>
+</div>
+</section>
+<section id="the-relation-of-data-and-phenomena-1" class="level2">
+<h2 class="anchored" data-anchor-id="the-relation-of-data-and-phenomena-1">The relation of data and phenomena 1</h2>
+<div class="cell" data-fig-width="6">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+flowchart LR
+  P(Phenomena)
+  D(Data)
+  
+  P -- "Prediction" --&gt; D
+  D -- "Generalization" --&gt; P
+</pre>
+</div>
+</div>
+</div>
+</div>
+<p><strong>Phenomena</strong>: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories. In psychology often called “effects”.</p>
+<p><strong>Data</strong>: Relatively direct observations. Refer to <em>particular</em> empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).</p>
+<div class="footer">
+<p>See Borsboom et al.&nbsp;(2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a></p>
+</div>
+</section>
+<section id="the-relation-of-data-and-phenomena-2" class="level2 r-fit-text">
+<h2 class="r-fit-text anchored" data-anchor-id="the-relation-of-data-and-phenomena-2">The relation of data and phenomena 2</h2>
+<div class="cell" data-fig-width="6">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+flowchart LR
+  P(Phenomena)
+  D(Data)
+  
+  P -- "Prediction" --&gt; D
+  D -- "Generalization" --&gt; P
+  
+  linkStyle 1 stroke-width:2px,stroke:red,color:red;
+</pre>
+</div>
+</div>
+</div>
+</div>
+<p>Data provide evidence for the existence of empirical phenomena: You <span style="color:red;">generalize</span> from one or more data sets with strong evidence to a general phenomenon.</p>
+<p>To claim a (robust) phenomenon, you ideally need:</p>
+<ul>
+<li>Independent replications of specific operationalizations.</li>
+<li>Conceptual replications with different operationalizations.</li>
+</ul>
+</section>
+<section id="the-relation-of-data-and-phenomena-3" class="level2">
+<h2 class="anchored" data-anchor-id="the-relation-of-data-and-phenomena-3">The relation of data and phenomena 3</h2>
+<div class="cell" data-fig-width="6">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+flowchart LR
+  P(Phenomena)
+  D(Data)
+  
+  P -- "Prediction" --&gt; D
+  D -- "Generalization" --&gt; P
+  
+  linkStyle 1 stroke-width:2px,stroke:red,color:red;
+</pre>
+</div>
+</div>
+</div>
+</div>
+<p>Probably most of psychology is about <em>establishing effects</em> (disguised as “theories”).</p>
+<p>Techniques used to detect data patterns: - Factor analysis - Principal components analysis - Regression - ANOVA</p>
+<div class="footer">
+<p>See <a href="https://video.uu.nl/videos/helmholtz-lecture-2023-02-10-prof-denny-borsboom/#timeline">presentation</a> of Denny Borsboom</p>
+</div>
+</section>
+<section id="the-relation-of-data-and-phenomena-3-1" class="level2 r-fit-text">
+<h2 class="r-fit-text anchored" data-anchor-id="the-relation-of-data-and-phenomena-3-1">The relation of data and phenomena 3</h2>
+<div class="cell" data-fig-width="6">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+flowchart LR
+  P(Phenomena)
+  D(Data)
+  
+  P -- "Prediction" --&gt; D
+  D -- "Generalization" --&gt; P
+  
+  linkStyle 0 stroke-width:2px,stroke:red,color:red;
+</pre>
+</div>
+</div>
+</div>
+</div>
+<p>Phenomena (once their existence has been established) <span style="color:red;">predict</span> similar data patterns in new data sets of the <em>same</em> operationalization (as in “direct replication”) and ideally also for <em>new</em> operationalizations (as in “conceptual replication”).</p>
+</section>
+<section id="interlude-the-risky-shift-phenomenon-1" class="level2">
+<h2 class="anchored" data-anchor-id="interlude-the-risky-shift-phenomenon-1">Interlude: The risky shift phenomenon 1</h2>
+<div class="r-fit-text">
+<p><strong>The risky shift phenomenon</strong>: A group’s decisions are riskier than the average of the individual decisions of members before the group met (i.e., the group discussion made individuals riskier).</p>
+<ul>
+<li>Area of very active research in social psychology in the 1960s</li>
+<li>“It could be easily replicated. Most of the replication studies […] employed the CDQ as their stimulus set, and they generally had no trouble obtaining the basic risky shift result.”</li>
+<li><strong>Today we know that there is no risky shift.</strong> “It is now clear that the items contained in the original CDQ are in no sense a representative sample of the universe of all possible items. Instruments similar to the CDQ could readily be constructed whose scores would display risky shifts, cautious ones, or none at all” (Cartwright, 1971, p.&nbsp;368).</li>
+<li>In the early risky shift literature, theoretical progress was unnecessarily impeded by multiple generations of replication studies (<em>k</em> ⋍ 200), nearly all relying on the same CQD questionnaire.</li>
+</ul>
+</div>
+<div class="footer">
+<p>See Westfall et al.&nbsp;(2015). Replicating Studies in Which Samples of Participants Respond to Samples of Stimuli. Perspectives on Psychological Science, 10(3), 390–399. https://doi.org/10.1177/1745691614564879</p>
+</div>
+</section>
+<section id="interlude-the-risky-shift-phenomenon-2" class="level2">
+<h2 class="anchored" data-anchor-id="interlude-the-risky-shift-phenomenon-2">Interlude: The risky shift phenomenon 2</h2>
+<p><strong><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Question for discussion: Is the “risky shift” finding - as demonstrated in the early publications - a <em>phenomenon</em>?</strong></p>
+<p>. . .</p>
+<p><em>My take</em>: It is a phenomenon (though a weak one), as it generalizes to new instances (data sets) of the same operationalization. It is a phenomenon of this specific stimulus set and suggests certain types of research questions (e.g., “What is so specific to this stimulus set?”).</p>
+</section>
+<section id="replication-crisis-focus-on-phenomena-data-1" class="level2">
+<h2 class="anchored" data-anchor-id="replication-crisis-focus-on-phenomena-data-1">Replication crisis: Focus on phenomena &lt;–&gt; data 1</h2>
+<div class="r-fit-text">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+flowchart LR
+  P(Phenomena)
+  D(Data)
+  
+  P -- "Prediction" --&gt; D
+  D -- "Generalization" --&gt; P
+</pre>
+</div>
+</div>
+</div>
+</div>
+<p>The concerns of the replication crisis typically referred to the relation between <em>data</em> and <em>phenomena</em>:</p>
+<ul>
+<li>Does a pattern in a specific data set even <em>exist</em>? (Or is it a false positive?)</li>
+<li>If we found a reproducible pattern with a specific operationalization: Is it <em>generalizable</em> (to other measures, other cultural contexts, other samples)?</li>
+<li>Do we even have a phenomenon in a particular research line? How strongly should I belief in the existence of a phenomenon, given the empirical evidence?</li>
+</ul>
+</div>
+</section>
+<section id="replication-crisis-focus-on-phenomena-data-2" class="level2">
+<h2 class="anchored" data-anchor-id="replication-crisis-focus-on-phenomena-data-2">Replication crisis: Focus on phenomena &lt;–&gt; data 2</h2>
+<div class="cell" data-fig-width="6">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+flowchart LR
+  T(Theory)
+  P(?? Phenomena ??)
+  D(Data)
+  
+  T -- "Explanation" --&gt; P
+  P -- "Abduction" --&gt; T
+  P ---&gt; D
+  D -. "?? Generalization ??" .-&gt; P
+  
+  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;
+  linkStyle 3 stroke-width:2px,stroke:red,color:red;
+</pre>
+</div>
+</div>
+</div>
+</div>
+<p>Doubt about phenomena propagates to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete.</p>
+</section>
+</section>
+<section id="from-replication-crisis-to-theory-crisis" class="level1">
+<h1>From replication crisis to theory crisis</h1>
+<section id="from-replication-crisis-to-theory-crisis-1" class="level2">
+<h2 class="anchored" data-anchor-id="from-replication-crisis-to-theory-crisis-1">From replication crisis to theory crisis 1</h2>
+<p>“We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests.”</p>
+<div class="footer">
+<p>See Oberauer, K., &amp; Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin &amp; Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2</p>
+</div>
+</section>
+<section id="from-replication-crisis-to-theory-crisis-2" class="level2">
+<h2 class="anchored" data-anchor-id="from-replication-crisis-to-theory-crisis-2">From replication crisis to theory crisis 2</h2>
+<p>Obstacles to building useful theories in psychology:</p>
+<ul>
+<li>relative <strong>lack of robust phenomena</strong> that impose constraints on possible theories</li>
+<li><strong>problems of validity</strong> of psychological constructs</li>
+<li><strong>obstacles to discovering causal relationships</strong> between psychological variables</li>
+</ul>
+<div class="attribution">
+<p>Slide by <a href="https://www.psycharchives.org/en/item/cde1ef17-611c-42d0-8835-95592cab521a">Karolin Salmen</a>, CC-BY</p>
+</div>
+<div class="footer">
+<p>See Eronen &amp; Bringmann (2021)</p>
+</div>
+</section>
+<section id="from-replication-crisis-to-theory-crisis-3" class="level2">
+<h2 class="anchored" data-anchor-id="from-replication-crisis-to-theory-crisis-3">From replication crisis to theory crisis 3</h2>
+<div class="r-fit-text">
+<blockquote class="blockquote">
+<p>Wenn die Psychologie das Fehlen eines theoretischen Fundaments beklagt, so greift diese Diagnose zu kurz: Woran es ihr eigentlich mangelt, ist ein <strong>Nährboden</strong>, auf dem ein solches Fundament überhaupt entstehen könnte. Ihr fehlt das große <strong>heuristische Narrativ</strong>. Die Physik hat ein solches Narrativ; es ist der Glaube an die Sphärenmusik einer kosmischen Harmonie, erkennbar an dem Vertrauen, mit dem man erwartet, auf Symmetrien, Erhaltungssätze und überhaupt auf einfache Zusammenhänge zu stoßen. Die Psychologen haben sich dieses Narrativ ausgeborgt; aber bei ihnen funktioniert es nicht.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Auch für sie aber läge ein solcher Kompass bereit, und die Systemtheorie könnte sie lehren, ihn zu nutzen. Den Technikern ist er seit je vertraut, und ebenso ordnet und lenkt er das Denken der Biologen […]. Dieses heuristische Narrativ - wir werden es in diesem Buch unter dem Stichwort des demiurgischen Prinzips kennenlernen - <strong>ist die Vision des kosmischen Ingenieurs, des Weltbaumeisters, der den Organismus unter der Leitidee nicht der <em>Harmonie</em>, sondern der <em>Funktionalität</em>, des “Wozu” konstruiert hat</strong>.</p>
+</blockquote>
+</div>
+<div class="footer">
+<p>See Bischof (2021), “Struktur und Bedeutung”</p>
+</div>
+</section>
+</section>
+<section id="buridans-ass" class="level1">
+<h1>Buridan’s Ass</h1>
+<div class="columns">
+<div class="column r-fit-text" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/Buridans_ass.jpeg" height="400" class="figure-img"></p>
+</figure>
+</div>
+</div><div class="column" style="width:60%;">
+<blockquote class="blockquote">
+<p>„The man who is violently, but equally, hungry and thirsty, and stands at an equal distance from food and drink, and who therefore must remain where he is.“</p>
+<div style="text-align: right; font-size: 70%">
+Aristoteles: <em>De Caelo/On the Heavens</em>. Trans. W. K. C. Guthrie, Heinemann, London 1938, 2:13:295b (S. 237)
+</div>
+</blockquote>
+</div>
+</div>
+<div class="attribution">
+<p>https://p8.storage.canalblog.com/87/85/553105/80715840.jpeg</p>
+</div>
+<div class="footer">
+<p>See <a href="https://de.wikipedia.org/wiki/Buridans_Esel">Wikipedia</a></p>
+</div>
+</section>
+<section id="the-demiurg" class="level1" data-auto-animate="true">
+<h1 data-auto-animate="true">The demiurg</h1>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/Urizen_with_his_net_-_The_Book_of_Urizen,_copy_G,_object_27_c1818_(Library_of_Congress)_Detail.jpg" height="400" class="figure-img"></p>
+</figure>
+</div>
+</div><div class="column" style="width:60%;">
+<blockquote class="blockquote">
+“Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen”
+<div style="text-align: right; font-size: 70%">
+<em>N. Bischof (in prep, S. 143)</em>
+</div>
+</blockquote>
+</div>
+</div>
+<div class="attribution">
+<p>By <a href="https://commons.wikimedia.org/w/index.php?curid=28922594">Dmitrismirnov - Own work</a>, CC BY-SA 3.0</p>
+</div>
+<section id="das-demiurgische-prinzip" class="level2">
+<h2 class="anchored" data-anchor-id="das-demiurgische-prinzip">Das demiurgische Prinzip</h2>
+<blockquote class="blockquote">
+Der Forscher, der eine komplexe Struktur verstehen will, ist gut beraten, wenn er sich in die Rolle eines solchen Demiurgen versetzt und sich vorstellt, er hätte sie selbst konstruieren müssen. Natürlich muss er dafür eine begründete Vermutung haben, was sie leisten soll. Leistung schließt immer eine Zielvorgabe ein, die Arbeit des Demiurgen läuft also naturgemäß im Rahmen einer telischen Heuristik <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> ab.
+<div style="text-align: right; font-size: 70%">
+<em>N. Bischof (in prep, S. 143)</em>
+</div>
+</blockquote>
+</section>
+<section id="demiurgisches-prinzip-vorlaufige-fassung" class="level2">
+<h2 class="anchored" data-anchor-id="demiurgisches-prinzip-vorlaufige-fassung">Demiurgisches Prinzip (vorläufige Fassung)</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Wäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen?</p>
+</div>
+</div>
+<div class="footer">
+<p>Bischof (in prep, S. 143)</p>
+</div>
+</section>
+<section id="fa-people-group-size1x-group-exercise-cover-your-ass-level-1" class="level2">
+<h2 class="anchored" data-anchor-id="fa-people-group-size1x-group-exercise-cover-your-ass-level-1"><span class="r-fit-text"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Group exercise: Cover your ass, Level 1</span></h2>
+<div class="r-fit-text">
+<p><strong>Scenario</strong>: The environment has a source of food and a source of water, substantially distant from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body; this consumption is higher during physical activity. As soon as one of the two reserves in the body drops to zero, the donkey dies.</p>
+<p><strong>(Simplifying) assumptions</strong>:</p>
+<ul>
+<li>Fixed velocity <em>v</em> of the donkey.</li>
+<li>Linear decrease in both water and food reserves in the body, higher under activity.</li>
+<li>No other needs or tasks (no predators etc., no sleep necessary).</li>
+<li>Eating and drinking takes a substantial amount of time and takes place in gulps (1 unit per time step).</li>
+<li>The donkey has a representation of the environment and knows where the two sources are.</li>
+</ul>
+<p><strong>Task</strong>: Construct an organism, with as few assumptions as possible, that survives as long as possible. Which constructs / sensors / abilities are necessary for this?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/buri1.png" height="70" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="demiurgisches-prinzip-endgültige-fassung" class="level2">
+<h2 class="anchored" data-anchor-id="demiurgisches-prinzip-endgültige-fassung">Demiurgisches Prinzip (endgültige Fassung)</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Wäre ich ein Ingenieur, der, <em>aufbauend auf der letzten funktionstüchtigen Vorform</em>, einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen?</p>
+</div>
+</div>
+<div class="footer">
+<p>Bischof (in prep, S. 143)</p>
+</div>
+<!-- Footer insert below -->
+</section>
+</section>
+<section id="end" class="level1">
+<h1>End</h1>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<script src="https://kit.fontawesome.com/9fb269b0d2.js" crossorigin="anonymous"></script>
+<ul class="fa-ul" style="color:black; list-style:none;">
+<li>
+<i class="fa-brands fa-li fa-mastodon"></i> <a href="https://scicomm.xyz/@nicebread" target="_blank" style="color:black; border-bottom:none;"><span class="citation" data-cites="nicebread">@nicebread</span><span class="citation" data-cites="scicomm.xyz">@scicomm.xyz</span></a>
+</li>
+<li>
+<i class="fa-li fa fa-envelope-o"></i> <a style="unicode-bidi:bidi-override; direction: rtl; color:black" href="javascript:window.location.href = 'mailto:' + ['felix.schoenbrodt','psy.lmu.de'].join('@')">ed.uml.ysp@tdorbneohcs.xilef</a>
+</li>
+<li>
+<i class="fa-li fa fa-github"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">nicebread</a>
+</li>
+</ul>
+<p><small style="text-align:left;"></small></p><small style="text-align:left;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">CC BY 4.0</figcaption>
+</figure>
+</div>
+</small><p><small style="text-align:left;"></small></p>
+
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>griechisch τέλος (telos): ‚Zweck‘, ‚Ziel‘, ‚Ende‘. Der Zweck ist hier evolutionär gedacht: Was hilft dem Überleben und der Fortpflanzung?<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+
+<script>
+  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+  // slide changes (different for each slide format).
+  (function () {
+    // dispatch for htmlwidgets
+    function fireSlideEnter() {
+      const event = window.document.createEvent("Event");
+      event.initEvent("slideenter", true, true);
+      window.document.dispatchEvent(event);
+    }
+
+    function fireSlideChanged(previousSlide, currentSlide) {
+      fireSlideEnter();
+
+      // dispatch for shiny
+      if (window.jQuery) {
+        if (previousSlide) {
+          window.jQuery(previousSlide).trigger("hidden");
+        }
+        if (currentSlide) {
+          window.jQuery(currentSlide).trigger("shown");
+        }
+      }
+    }
+
+    // hookup for slidy
+    if (window.w3c_slidy) {
+      window.w3c_slidy.add_observer(function (slide_num) {
+        // slide_num starts at position 1
+        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+      });
+    }
+
+  })();
+</script>
+
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

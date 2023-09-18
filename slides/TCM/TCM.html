@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Felix Schönbrodt">
+<meta name="dcterms.date" content="2023-09-18">
+
+<title>FOMO-Psy: Formal Modeling of Psychological Theories - Theory Construction Methodology</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">FOMO-Psy: Formal Modeling of Psychological Theories</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../slides/slide_overview.html" rel="" target="">
+ <span class="menu-text">Slides</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../tools.html" rel="" target="">
+ <span class="menu-text">Thinking Tools</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../orga_material.html" rel="" target="">
+ <span class="menu-text">Organizational Material</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#theory-construction-methodology" id="toc-theory-construction-methodology" class="nav-link active" data-scroll-target="#theory-construction-methodology">Theory Construction Methodology</a>
+  <ul class="collapse">
+  <li><a href="#where-do-theories-come-from" id="toc-where-do-theories-come-from" class="nav-link" data-scroll-target="#where-do-theories-come-from">Where do theories come from?</a></li>
+  <li><a href="#tcm-a-methodology-for-constructing-theories" id="toc-tcm-a-methodology-for-constructing-theories" class="nav-link" data-scroll-target="#tcm-a-methodology-for-constructing-theories">TCM: A methodology for constructing theories</a></li>
+  </ul></li>
+  <li><a href="#what-is-a-theory" id="toc-what-is-a-theory" class="nav-link" data-scroll-target="#what-is-a-theory">What is a <span class="alert">theory</span>?</a>
+  <ul class="collapse">
+  <li><a href="#what-is-not-a-theory-1" id="toc-what-is-not-a-theory-1" class="nav-link" data-scroll-target="#what-is-not-a-theory-1">What is <em>not</em> a theory? 1</a></li>
+  <li><a href="#what-is-not-a-theory-2" id="toc-what-is-not-a-theory-2" class="nav-link" data-scroll-target="#what-is-not-a-theory-2">What is <em>not</em> a theory? 2</a></li>
+  <li><a href="#what-is-not-a-theory-3" id="toc-what-is-not-a-theory-3" class="nav-link" data-scroll-target="#what-is-not-a-theory-3">What is <em>not</em> a theory? 3</a></li>
+  <li><a href="#what-is-not-a-theory-4" id="toc-what-is-not-a-theory-4" class="nav-link" data-scroll-target="#what-is-not-a-theory-4">What is <em>not</em> a theory? 4</a></li>
+  <li><a href="#what-is-not-a-theory-4-1" id="toc-what-is-not-a-theory-4-1" class="nav-link" data-scroll-target="#what-is-not-a-theory-4-1">What is <em>not</em> a theory? 4</a></li>
+  <li><a href="#what-is-not-a-theory-4-2" id="toc-what-is-not-a-theory-4-2" class="nav-link" data-scroll-target="#what-is-not-a-theory-4-2">What is <em>not</em> a theory? 4</a></li>
+  <li><a href="#what-is-not-a-theory-4-3" id="toc-what-is-not-a-theory-4-3" class="nav-link" data-scroll-target="#what-is-not-a-theory-4-3">What is <em>not</em> a theory? 4</a></li>
+  <li><a href="#what-is-not-a-theory-4-4" id="toc-what-is-not-a-theory-4-4" class="nav-link" data-scroll-target="#what-is-not-a-theory-4-4">What is <em>not</em> a theory? 4</a></li>
+  <li><a href="#what-is-not-a-theory-5" id="toc-what-is-not-a-theory-5" class="nav-link" data-scroll-target="#what-is-not-a-theory-5">What is <em>not</em> a theory? 5</a></li>
+  </ul></li>
+  <li><a href="#but-then-what-is-a-theory" id="toc-but-then-what-is-a-theory" class="nav-link" data-scroll-target="#but-then-what-is-a-theory">But, then:<br>What <span class="alert">is</span> a theory?</a>
+  <ul class="collapse">
+  <li><a href="#theories-as-causal-explanations" id="toc-theories-as-causal-explanations" class="nav-link" data-scroll-target="#theories-as-causal-explanations">Theories as causal explanations</a></li>
+  <li><a href="#tcm-a-methodology-for-constructing-theories-1" id="toc-tcm-a-methodology-for-constructing-theories-1" class="nav-link" data-scroll-target="#tcm-a-methodology-for-constructing-theories-1">TCM: A methodology for constructing theories</a></li>
+  <li><a href="#theory-definition" id="toc-theory-definition" class="nav-link" data-scroll-target="#theory-definition">Theory: Definition</a></li>
+  </ul></li>
+  <li><a href="#lets-practice" id="toc-lets-practice" class="nav-link" data-scroll-target="#lets-practice">Let’s practice!</a>
+  <ul class="collapse">
+  <li><a href="#elements-of-a-theory" id="toc-elements-of-a-theory" class="nav-link" data-scroll-target="#elements-of-a-theory">Elements of a theory</a></li>
+  <li><a href="#elements-of-a-theory-1" id="toc-elements-of-a-theory-1" class="nav-link" data-scroll-target="#elements-of-a-theory-1">Elements of a theory</a></li>
+  <li><a href="#fa-people-group-size1x-exercise" id="toc-fa-people-group-size1x-exercise" class="nav-link" data-scroll-target="#fa-people-group-size1x-exercise"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Exercise</a></li>
+  <li><a href="#an-example" id="toc-an-example" class="nav-link" data-scroll-target="#an-example">An example</a></li>
+  </ul></li>
+  <li><a href="#tcm-concrete-steps" id="toc-tcm-concrete-steps" class="nav-link" data-scroll-target="#tcm-concrete-steps">TCM: Concrete Steps</a>
+  <ul class="collapse">
+  <li><a href="#tcm-step-1" id="toc-tcm-step-1" class="nav-link" data-scroll-target="#tcm-step-1">TCM: Step 1</a></li>
+  <li><a href="#tcm-step-2" id="toc-tcm-step-2" class="nav-link" data-scroll-target="#tcm-step-2">TCM: Step 2</a></li>
+  <li><a href="#tcm-step-3" id="toc-tcm-step-3" class="nav-link" data-scroll-target="#tcm-step-3">TCM: Step 3</a></li>
+  <li><a href="#tcm-step-4" id="toc-tcm-step-4" class="nav-link" data-scroll-target="#tcm-step-4">TCM: Step 4</a></li>
+  <li><a href="#tcm-step-5" id="toc-tcm-step-5" class="nav-link" data-scroll-target="#tcm-step-5">TCM: Step 5</a></li>
+  <li><a href="#creative-hypothesis-generating-in-psychology-some-useful-heuristics" id="toc-creative-hypothesis-generating-in-psychology-some-useful-heuristics" class="nav-link" data-scroll-target="#creative-hypothesis-generating-in-psychology-some-useful-heuristics">Creative hypothesis generating in psychology: Some useful heuristics</a></li>
+  </ul></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#speicher" id="toc-speicher" class="nav-link" data-scroll-target="#speicher">Speicher</a>
+  <ul class="collapse">
+  <li><a href="#makeism" id="toc-makeism" class="nav-link" data-scroll-target="#makeism">“Makeism”</a></li>
+  <li><a href="#is-the-demiurgic-approach-makeism" id="toc-is-the-demiurgic-approach-makeism" class="nav-link" data-scroll-target="#is-the-demiurgic-approach-makeism">Is the demiurgic approach “makeism”?</a></li>
+  <li><a href="#about-simulations-as-tools" id="toc-about-simulations-as-tools" class="nav-link" data-scroll-target="#about-simulations-as-tools">About simulations as tools</a></li>
+  <li><a href="#underdeterminism-of-theories" id="toc-underdeterminism-of-theories" class="nav-link" data-scroll-target="#underdeterminism-of-theories">Underdeterminism of theories</a></li>
+  <li><a href="#comparison-chart-of-methodologies" id="toc-comparison-chart-of-methodologies" class="nav-link" data-scroll-target="#comparison-chart-of-methodologies">Comparison chart of methodologies</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="TCM.slide.html"><i class="bi bi-file-slides"></i>RevealJS (clean)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Theory Construction Methodology</h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Felix Schönbrodt <a href="https://orcid.org/0000-0002-8282-3910" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Ludwig-Maximilians-Universität München
+          </p>
+      </div>
+    </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2023-09-18</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="theory-construction-methodology" class="level1">
+<h1>Theory Construction Methodology</h1>
+<div class="footer">
+<p>See Borsboom et al.&nbsp;(2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a></p>
+</div>
+<section id="where-do-theories-come-from" class="level2">
+<h2 class="anchored" data-anchor-id="where-do-theories-come-from">Where do theories come from?</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<ul>
+<li>Falsificationism starts with a (tentative) theory, which is repeatedly tested, refuted, and refined.</li>
+<li>But where does the initial theory come from? “Flair”? Flash of inspiration in the shower?</li>
+<li>Popper did not care much about the first stage of creating theories - just about the later testing of theories.</li>
+</ul>
+</div><div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/Karl_Popper.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Sir Karl Popper, 1902 - 1994</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>. . .</p>
+<p><strong>Conjecture</strong>: We have a refined methodology¹ to <em>test</em> theories (e.g., experimental designs, statistical methods, preregistration, …). <span class="bg" style="--col: #fff100">But we had (so far) no good methodology for constructing theories.</span></p>
+<div style="font-size: 50%;">
+<p>¹ “A scientific methodology is an ordered series of steps that assist a researcher in reaching a desired end state from a specified starting point.” (Borsboom et al., 2021)</p>
+</div>
+</section>
+<section id="tcm-a-methodology-for-constructing-theories" class="level2">
+<h2 class="anchored" data-anchor-id="tcm-a-methodology-for-constructing-theories">TCM: A methodology for constructing theories</h2>
+<div class="cell" data-fig-width="10">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">%%{
+  init: {
+    'theme': 'base',
+    'flowchart': { 'curve': 'natural' }
+  }
+}%%
+flowchart LR
+  T(Theory)
+  P(Phenomena)
+  D(Data)
+  
+  T -- "Explanation" --&gt; P
+  P -- "Abduction" --&gt; T
+  P -- "Prediction" --&gt; D
+  D -- "Generalization" --&gt; P
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="r-fit-text">
+<p><strong>Phenomena</strong>: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the <em>explanandum</em>). In psychology often called “effects”.</p>
+<p><strong>Data</strong>: Relatively direct observations. Refer to <em>particular</em> empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).</p>
+<p><strong>Theories</strong>: Something that explains phenomena of interest (the <em>explanans</em>). <span class="bg" style="--col: #fff100">But what <em>is</em> a theory?</span></p>
+</div>
+</section>
+</section>
+<section id="what-is-a-theory" class="level1">
+<h1>What is a <span class="alert">theory</span>?</h1>
+<blockquote class="blockquote">
+Like so many words that are bandied about, the word theory threatens to become meaningless. Because its referents are so diverse - including everything from minor working hypotheses, through comprehensive but vague and unordered speculations,to axiomatic systems of thought - use of the word often obscures rather than creates understanding.
+<div style="text-align: right; font-size: 70%">
+<em>Merton (1967, p.&nbsp;39)</em>
+</div>
+</blockquote>
+<p>Maybe an easier question for the start: But what is <span class="alert">not</span> a theory?</p>
+<div class="footer">
+<p>Cited from Sutton, R. I., &amp; Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
+</div>
+<section id="what-is-not-a-theory-1" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-not-a-theory-1">What is <em>not</em> a theory? 1</h2>
+<div class="r-fit-text">
+<p><em>(Note: While these features of a scholarly article do not constitute a theory, they might be important in their own right)</em></p>
+<ol type="1">
+<li>References Are Not Theory</li>
+</ol>
+<blockquote class="blockquote">
+<p>A manuscript that Robert Sutton edited had strong data, but all three reviewers emphasized that it had “weak theory” and “poorly motivated hypotheses.” The author responded to these concerns by writing a new introduction that added citations to many papers containing theory and many terms like “psycho-social theory,” “identity theory,” and “social comparison theory.”</p>
+<p><strong>But it still contained no discussion of what these theories were about and no discussion of the logical arguments why these theories led to the author’s predictions.</strong> The result was that this paper contained almost no theory, despite the author’s assertion that much had been added.</p>
+</blockquote>
+<p>Solution:</p>
+<blockquote class="blockquote">
+<p>Authors need to explicate which concepts and causal arguments are adopted from cited sources and how they are linked to the theory being developed or tested.</p>
+</blockquote>
+</div>
+<div class="footer">
+<p>Sutton, R. I., &amp; Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
+</div>
+</section>
+<section id="what-is-not-a-theory-2" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-not-a-theory-2">What is <em>not</em> a theory? 2</h2>
+<div class="r-fit-text">
+<ol start="2" type="1">
+<li>Data Are Not Theory</li>
+</ol>
+<blockquote class="blockquote">
+<p>Empirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.</p>
+<p>Kaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: <strong>Data describe <em>which</em> empirical patterns were observed and theory explains <em>why</em> empirical patterns were observed or are expected to be observed.</strong></p>
+</blockquote>
+<p>Also: Theories do not explain data - theories explain <em>phenomena</em>!</p>
+</div>
+<div class="footer">
+<p>Sutton, R. I., &amp; Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
+</div>
+</section>
+<section id="what-is-not-a-theory-3" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-not-a-theory-3">What is <em>not</em> a theory? 3</h2>
+<div class="r-fit-text">
+<ol start="3" type="1">
+<li>Lists of Variables or Constructs Are Not Theory</li>
+</ol>
+<blockquote class="blockquote">
+<p>Papers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.</p>
+<p>Such lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.</p>
+</blockquote>
+<p>Lists of constructs (without an explicit definition of their causal relationship) often are called a <em>framework</em>.</p>
+</div>
+<div class="footer">
+<p>Sutton, R. I., &amp; Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
+</div>
+</section>
+<section id="what-is-not-a-theory-4" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4">What is <em>not</em> a theory? 4</h2>
+<ol start="4" type="1">
+<li>Diagrams (Alone) Are Not Theory</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+This is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p>. . .</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/fpsyg-12-620838-g001.jpg" height="500" class="figure-img"></p>
+<figcaption class="figure-caption">Fig. 1 from Iqbal et al.&nbsp;(2021), based on Bronfenbrenner’s (1979) ecological systems model</figcaption>
+</figure>
+</div>
+<div class="footer">
+<p>Iqbal, S., Zakar, R., &amp; Fischer, F. (2021). Extended Theoretical Framework of Parental Internet Mediation: Use of Multiple Theoretical Stances for Understanding Socio-Ecological Predictors. Frontiers in Psychology, 12, 620838. https://doi.org/10.3389/fpsyg.2021.620838</p>
+</div>
+</section>
+<section id="what-is-not-a-theory-4-1" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4-1">What is <em>not</em> a theory? 4</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/societies-13-00113-g001.png" class="r-stretch img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 1. Holistic wellbeing model for school education.</figcaption>
+</figure>
+</div>
+<div class="footer">
+<p>Norozi, S. A. (2023). The Nexus of Holistic Wellbeing and School Education: A Literature-Informed Theoretical Framework. Societies, 13(5), 113. https://doi.org/10.3390/soc13050113</p>
+</div>
+</section>
+<section id="what-is-not-a-theory-4-2" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4-2">What is <em>not</em> a theory? 4</h2>
+<p><img src="img/7_Instances.jpg" class="r-stretch img-fluid"></p>
+<div class="footer">
+<p>CBCB, CC BY-SA 3.0 <a href="https://creativecommons.org/licenses/by-sa/3.0" class="uri">https://creativecommons.org/licenses/by-sa/3.0</a>, via Wikimedia Commons</p>
+</div>
+</section>
+<section id="what-is-not-a-theory-4-3" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4-3">What is <em>not</em> a theory? 4</h2>
+<p><img src="img/Virgin.gif" height="650"></p>
+<div class="footer">
+<p>http://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html</p>
+</div>
+</section>
+<section id="what-is-not-a-theory-4-4" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4-4">What is <em>not</em> a theory? 4</h2>
+<div class="r-fit-text">
+<ol start="4" type="1">
+<li>Diagrams (Alone) Are Not Theory</li>
+</ol>
+<blockquote class="blockquote">
+<p>Diagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. Probably the least theoretical representations are ones that simply list categories of variables such as “personality,” “environmental determinants,” or “demographics.”</p>
+<p>More helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]</p>
+<p>As Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain <em>why</em> the proposed connections will be observed. Some verbal explication is almost always necessary.</p>
+</blockquote>
+</div>
+<div class="footer">
+<p>Sutton, R. I., &amp; Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
+</div>
+</section>
+<section id="what-is-not-a-theory-5" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-not-a-theory-5">What is <em>not</em> a theory? 5</h2>
+<div class="r-fit-text">
+<ol start="5" type="1">
+<li>Hypotheses (or Predictions) Are Not Theory.</li>
+</ol>
+<blockquote class="blockquote">
+<p>Hypotheses can be an important part of a well-crafted conceptual argument. They serve as crucial bridges between theory and data, making explicit how the variables and relationships that follow from a logical argument will be operationalized. […]</p>
+<p>Hypotheses do not (and should not) contain logical arguments about why empirical relationships are expected to occur. <span class="bg" style="--col: #fff100">Hypotheses are concise statements about <em>what</em> is expected to occur, not <em>why</em> it is expected to occur.</span></p>
+</blockquote>
+</div>
+<div class="footer">
+<p>Sutton, R. I., &amp; Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
+</div>
+</section>
+</section>
+<section id="but-then-what-is-a-theory" class="level1">
+<h1>But, then:<br>What <span class="alert">is</span> a theory?</h1>
+<section id="theories-as-causal-explanations" class="level2">
+<h2 class="anchored" data-anchor-id="theories-as-causal-explanations">Theories as causal explanations</h2>
+<blockquote class="blockquote">
+<p>“It may be said… that an explanation is not fully adequate unless its explanans, if taken account of in time, could have served as a basis for predicting the phenomenon under consideration…</p>
+It is this potential predictive force which gives scientific explanation its importance: Only to the extent that we are able to explain empirical facts can we attain the major objective of scientific research, <span class="bg" style="--col: #fff100">namely not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment</span>”
+<div style="text-align: right; font-size: 70%">
+<em> Hempel &amp; Oppenheim, 1948, (p.&nbsp;138)</em>
+</div>
+</blockquote>
+</section>
+<section id="tcm-a-methodology-for-constructing-theories-1" class="level2">
+<h2 class="anchored" data-anchor-id="tcm-a-methodology-for-constructing-theories-1">TCM: A methodology for constructing theories</h2>
+<div class="cell" data-fig-width="6">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">%%{
+  init: {
+    'theme': 'base',
+    'flowchart': { 'curve': 'natural' }
+  }
+}%%
+flowchart LR
+  T(Theory)
+  P(Phenomena)
+  D(Data)
+  
+  T -- "Explanation" --&gt; P
+  P -- "Abduction" --&gt; T
+  P -- "Prediction" --&gt; D
+  D -- "Generalization" --&gt; P
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="r-fit-text">
+<p><strong>Phenomena</strong>: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the <em>explanandum</em>). In psychology often called “effects”.</p>
+<p><strong>Data</strong>: Relatively direct observations. Refer to <em>particular</em> empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).</p>
+<p><strong><span class="alert">Explanatory</span> Theories</strong> are constructed to explain the empirical phenomena that are evidenced by data (i.e., they are the <em>explanans</em>). Explanatory theories can be expressed in terms of a set of linked propositions referring to latent psychological constructs. At least one of these propositions expresses a general principle.</p>
+<blockquote class="blockquote">
+<p>“theory T putatively explains phenomenon P” means “if the world were as T says it is, P would follow as a matter of course.” Although this notion of explanation is arguably incomplete, it has the advantages of being close to the commonsense understanding of the concept and being easy to implement in a formal model—namely by creating a virtual world in which theory T is true and showing that this world will indeed produce phenomenon P.</p>
+</blockquote>
+</div>
+<div class="footer">
+<p>See Borsboom et al.&nbsp;(2021). <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a></p>
+</div>
+</section>
+<section id="theory-definition" class="level2">
+<h2 class="anchored" data-anchor-id="theory-definition">Theory: Definition</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is an (explanatory) theory?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e.&nbsp;law-like) character. (<em>explanans</em>)</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is an explanation?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In the <em>productive explanation framework</em>, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.</p>
+</div>
+</div>
+<div class="footer">
+<p>Borsboom et al.&nbsp;(2021). <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a></p>
+<p>van Dongen, N. N. N. et al.&nbsp;(2022, April 13). Productive Explanation: A Framework for Evaluating Explanations in Psychological Science. https://doi.org/10.31234/osf.io/qd69g</p>
+</div>
+</section>
+</section>
+<section id="lets-practice" class="level1">
+<h1>Let’s practice!</h1>
+<section id="elements-of-a-theory" class="level2">
+<h2 class="anchored" data-anchor-id="elements-of-a-theory">Elements of a theory</h2>
+<div class="r-fit-text">
+<ul>
+<li><strong>Phänomen</strong>: Eine Eigenschaft der Welt, die hinreichend wenig flüchtig ist, so dass wir diese wahrnehmen und beschreiben können (Explanandum einer Theorie)</li>
+<li><strong>Begriff / Konzept</strong>: Semantische Einheit (Konzept), die die Merkmale eines Gegenstandes oder Sachverhaltes vereint. ≠ Wort/Wortmarke</li>
+<li><strong>Relationship</strong></li>
+<li><strong>Modell</strong>: Vereinfachte Abbildung eines Ausschnitts der Wirklichkeit. Alle Strukturen, die die Sätze einer Theorie erfüllen, sind Modelle dieser Theorie. Oder andersherum ausgedrückt: Eine Theorie kann meist in verschiedenen Modellen implementiert werden, die alle kompatibel zur Theorie sind.</li>
+<li><strong>Operationalisierung</strong>: Präzise Angabe (inkl. Begründung), wie ein Begriff (s.o.), zu messen ist.</li>
+<li><strong>Daten</strong>: Daten sind öffentliche Aufzeichnungen, die durch Messungen und Experimente erzeugt werden und als Beweis für die Existenz oder Merkmale von Phänomenen dienen. (Woodward, 2009). Daten enthalten das Phänomen, an dem wir interessiert sind, aber auch Rauschen (Messfehler, Verzerrung durch den Experimentator, Transkriptionsfehler). Deshalb erklären Theorien die Phänomene, nicht die Daten. (Fried, 2021)</li>
+</ul>
+</div>
+</section>
+<section id="elements-of-a-theory-1" class="level2">
+<h2 class="anchored" data-anchor-id="elements-of-a-theory-1">Elements of a theory</h2>
+<ul>
+<li>Phenomenon or phenomena to be explained (explanandum, explananda)</li>
+<li>constructs (explanans, explanantia)</li>
+<li>their operationalizations</li>
+<li>their interconnections/relationships</li>
+<li>Explanations/mechanisms for these relationships (how does × affect y?)</li>
+<li>auxiliary assumptions and boundary conditions</li>
+</ul>
+<div class="footer">
+<p>cf.&nbsp;Cronbach &amp; Meehl (1955)</p>
+</div>
+</section>
+<section id="fa-people-group-size1x-exercise" class="level2">
+<h2 class="anchored" data-anchor-id="fa-people-group-size1x-exercise"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Exercise</h2>
+<div class="columns">
+<div class="column r-fit-text" style="width:60%;">
+
+</div><div class="column" style="width:40%;">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+P[Phenomenon]
+C["Concept (Definition)"]
+T[Theory]
+M[Model]
+O[Operationalization]
+D[Data]
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="an-example" class="level2">
+<h2 class="anchored" data-anchor-id="an-example">An example</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Lee, D. G., Daunizeau, J., &amp; Pezzulo, G. (2023). Evidence or Confidence: What Is Really Monitored during a Decision? Psychonomic Bulletin &amp; Review, 30(4), 1360–1379. <a href="https://doi.org/10.3758/s13423-023-02255-9">https://doi.org/10.3758/s13423-023-02255-9</a></p>
+</div>
+</div>
+<blockquote class="blockquote">
+<h2 id="empirical-hurdles-for-confidence-models-to-explain" class="anchored">Empirical Hurdles for&nbsp;Confidence Models to&nbsp;Explain</h2>
+<p>The literature on choice confidence has exposed a variety of different empirical findings. Many of these findings are so robust that it has been proposed that any worthy model of confidence should be able to account for them (Pleskac &amp; Busemeyer, 2010). We here put the cDDM to the test and note that it predominantly passes these hurdles:</p>
+</blockquote>
+</section>
+</section>
+<section id="tcm-concrete-steps" class="level1">
+<h1>TCM: Concrete Steps</h1>
+<div class="r-fit-text">
+<ol type="1">
+<li>Identifying relevant phenomena</li>
+<li>Formulating a prototheory
+<ol type="a">
+<li>This includes defining the constructs as a first step</li>
+</ol></li>
+<li>Developing a formal model</li>
+<li>Checking the adequacy of the formal model</li>
+<li>Evaluating the overall worth of the constructed theory</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This methodology is “structured creativity” - you are allowed to tinker around as much as you like. The five steps are mere tools that help to structure your creative process.</p>
+</div>
+</div>
+</div>
+<section id="tcm-step-1" class="level2">
+<h2 class="anchored" data-anchor-id="tcm-step-1">TCM: Step 1</h2>
+<ol type="1">
+<li>Identifying relevant phenomena</li>
+</ol>
+<blockquote class="blockquote">
+<p>„The phenomena most useful in theory building are not necessarily the most spectacular ones. Instead, it is vitally important to select phenomena that are well established, or even self-evident, because a solid foundation is essential to successful theory construction.“</p>
+</blockquote>
+<div class="footer">
+<p>Borsboom et al., 2021, p.&nbsp;760</p>
+</div>
+</section>
+<section id="tcm-step-2" class="level2">
+<h2 class="anchored" data-anchor-id="tcm-step-2">TCM: Step 2</h2>
+<ol start="2" type="1">
+<li>Formulating a prototheory</li>
+</ol>
+<blockquote class="blockquote">
+<p>„Of the steps in TCM, the step of generating prototheories is the least methodologically developed. One methodological approach that is available is analogical abduction: If one finds a similar set of phenomena in another field that is better understood, then one can “borrow” explanatory principles from that field to inform one’s own.“</p>
+</blockquote>
+<div class="footer">
+<p>Borsboom et al., 2021, p.&nbsp;761</p>
+</div>
+</section>
+<section id="tcm-step-3" class="level2">
+<h2 class="anchored" data-anchor-id="tcm-step-3">TCM: Step 3</h2>
+<ol start="3" type="1">
+<li>Developing a formal model</li>
+</ol>
+<div class="footer">
+<p>Borsboom et al., 2021, p.&nbsp;761</p>
+</div>
+</section>
+<section id="tcm-step-4" class="level2">
+<h2 class="anchored" data-anchor-id="tcm-step-4">TCM: Step 4</h2>
+<ol start="4" type="1">
+<li>Checking the adequacy of the formal model</li>
+</ol>
+<ul>
+<li>“To investigate this question, one must parse the phenomena in the same formal language as the theory. This means that the phenomena themselves have to be formalized.”</li>
+<li>Before you observe any real data, ask (and test): <em>Does the model even work in principle?</em>
+<ul>
+<li>Simulate data from the model</li>
+<li>Does it produce the target phenomena?</li>
+<li>Sensitivity analysis: What happens if parameters of the model are changed / pushed to the extreme? When does it break?</li>
+</ul></li>
+<li>Which phenomena can be actually produced by the model? (Assuming that multiple phenomena are predicted)</li>
+<li>Which choices of the model are arbitrary?</li>
+<li>Sensitivity analysis: How robust is the explanation across (realistic) changes of parameter settings?</li>
+<li>Explanatory relevance: Are the explanatory principles actually necessary to explain phenomena? (e.g., it could happen that you remove an element in the model, and the phenomenon still is produced.)</li>
+</ul>
+<div class="footer">
+<p>Borsboom et al., 2021, p.&nbsp;761</p>
+</div>
+</section>
+<section id="tcm-step-5" class="level2">
+<h2 class="anchored" data-anchor-id="tcm-step-5">TCM: Step 5</h2>
+<ol start="5" type="1">
+<li>Evaluating the overall worth of the constructed theory</li>
+</ol>
+<div class="footer">
+<p>Borsboom et al., 2021, p.&nbsp;761</p>
+</div>
+</section>
+<section id="creative-hypothesis-generating-in-psychology-some-useful-heuristics" class="level2">
+<h2 class="anchored" data-anchor-id="creative-hypothesis-generating-in-psychology-some-useful-heuristics">Creative hypothesis generating in psychology: Some useful heuristics</h2>
+<p>TODO</p>
+<div class="footer">
+<p>See McGuire, W. J. (1997). Creative hypothesis generating in psychology: Some useful heuristics. <em>Annual Review of Psychology, 48</em>, 1–30. <a href="https://doi.org/10.1146/annurev.psych.48.1.1">https://doi.org/10.1146/annurev.psych.48.1.1</a></p>
+</div>
+</section>
+</section>
+<section id="resources" class="level1">
+<h1>Resources</h1>
+<ul>
+<li><a href="https://video.uu.nl/videos/helmholtz-lecture-2023-02-10-prof-denny-borsboom/#timeline">Talk</a> (1h:05; 2023-02-10) by Denny Borsboom</li>
+<li><a href="https://zpid.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=436e9d94-31be-4e66-b4c3-aee500ba2e9b">Talk</a> (01h:17; 2022-05-19) by Karolin Salmen</li>
+</ul>
+</section>
+<section id="speicher" class="level1">
+<h1>Speicher</h1>
+<section id="makeism" class="level2">
+<h2 class="anchored" data-anchor-id="makeism">“Makeism”</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is makeism?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Makeism: The view that computationalism implies that (a) it is <em>possible</em> to (re)make cognition computationally; (b) if we (re)make cognition then we can <em>explain</em> and/or understand it; and possibly (c) explaining and/or understanding cognition <em>requires</em> (re)making cognition itself.</p>
+<p>Note that it is especially easy for makeists to fall into map-territory confusion - mistaking their modeling artefacts for cognition itself - due to the view that the made thing <em>could</em> be cognition.</p>
+</div>
+</div>
+<p>➙ “Design and development as a research methodology” (Bisig &amp; Pfeifer, 2008)</p>
+<div class="footer">
+<p>Abridged quote from van Rooij et al.&nbsp;(2023, August 1). Reclaiming AI as a theoretical tool for cognitive science. <a href="https://doi.org/10.31234/osf.io/4cbuv">https://doi.org/10.31234/osf.io/4cbuv</a></p>
+</div>
+</section>
+<section id="is-the-demiurgic-approach-makeism" class="level2">
+<h2 class="anchored" data-anchor-id="is-the-demiurgic-approach-makeism">Is the demiurgic approach “makeism”?</h2>
+<table class="table">
+<colgroup>
+<col style="width: 44%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Makeism</th>
+<th>Demiurg</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>(a) it is <strong>possible</strong> to (re)make natural phenomena computationally</td>
+<td>Yes - the systemic structure can be recreated as a (simplfied) model.</td>
+</tr>
+<tr class="even">
+<td>(b) (Re)makeing a natural phenomenon is <strong>sufficient</strong> for being able to explain it</td>
+<td>It is an explanation (cf.&nbsp;productive explanation). But its quality is only as good as its assumptions*.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>“I assume an omnipotent agent, which knows everything about the world, its current state, and its history. With unlimited computing power, it determines the optimal action.”</li>
+</ul>
+</section>
+<section id="about-simulations-as-tools" class="level2">
+<h2 class="anchored" data-anchor-id="about-simulations-as-tools">About simulations as tools</h2>
+<blockquote class="blockquote">
+<p>Computer simulations support and extend a scientist’s thinking capacity, and enable computerised ‘thought experiments’ (R. Cooper, 2005) to reason through ‘what ifs’ and answer questions like ‘how possibly’. These simulations […] are necessarily abstract and idealised</p>
+</blockquote>
+<div class="footer">
+<p>van Rooij et al.&nbsp;(2023, August 1). Reclaiming AI as a theoretical tool for cognitive science. <a href="https://doi.org/10.31234/osf.io/4cbuv">https://doi.org/10.31234/osf.io/4cbuv</a>, p.&nbsp;13</p>
+</div>
+</section>
+<section id="underdeterminism-of-theories" class="level2">
+<h2 class="anchored" data-anchor-id="underdeterminism-of-theories">Underdeterminism of theories</h2>
+<blockquote class="blockquote">
+<p>“[…] first, one and the same problem can be <strong>computed by different algorithms</strong>, and second, one and the same algorithm can be <strong>physically realised in different ways.</strong></p>
+<p>This implies that we are dealing with massive underdetermination of theory by data: i.e., if we observe behaviours consistent with a computational level theory, we cannot infer which algorithms or neural processes underlie the behaviour.</p>
+</blockquote>
+<div class="footer">
+<p>Van Rooij et al.&nbsp;(2023). Reclaiming AI as a theoretical tool for cognitive science [Preprint]. PsyArXiv. https://doi.org/10.31234/osf.io/4cbuv</p>
+</div>
+</section>
+<section id="comparison-chart-of-methodologies" class="level2">
+<h2 class="anchored" data-anchor-id="comparison-chart-of-methodologies">Comparison chart of methodologies</h2>
+<div class="r-fit-text">
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">TCM</th>
+<th style="text-align: left;">Demiurg</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Starting point</td>
+<td style="text-align: left;">set of relevant phenomena in need for explanation</td>
+<td style="text-align: left;">an (evolutionary) problem that needs to be solved (v1) + prior knowledge about precursing organisms (v2)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Primary heuristic for searching explanations</td>
+<td style="text-align: left;">Look for analogous models/phenomena in other scientific disciplines</td>
+<td style="text-align: left;">Look at existing capabilities of simpler organisms (biology); search for the simplest implementation (given existing biological structures)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">End state</td>
+<td style="text-align: left;">A theory that offers a putative explanation of the phenomena</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

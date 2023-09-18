@@ -4,6 +4,7 @@
 .Ruserdata
 
 /.quarto/
+/doc/
 
 /.luarc.json
 

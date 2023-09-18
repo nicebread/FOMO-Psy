@@ -23,11 +23,11 @@ website:
 
 format:
   html:
-    theme: spacelab
+    theme: flatly
     css: styles.css
     toc: true
 
-editor: visual
+editor: source
 
 execute:
   freeze: auto

@@ -19,11 +19,13 @@ format:
   html: default
 revealjs-plugins:
   - attribution 
+editor: 
+  render-on-save: true
 ---
 
 ## What constitutes a good theory?
 
-1. Inherent quality criteria
+1. Inherent quality criteria - before the theory gets in contact with empirical data.
 
 ::: {.callout-note}
 # „experimental tests are often superfluous and we should instead focus more on nonempirical evaluations of the quality of our theories" (Szollosi & Donkin, 2021)

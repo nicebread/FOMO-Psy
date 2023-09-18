@@ -1,0 +1,76 @@
+---
+title: "Call for theory submissions"
+toc: false
+date: 2023-09-16
+description: "This is the email I sent to the colleagues in my department, asking for the submission of theories for the formalization exercise."
+---
+
+This is the email I sent to the colleagues in my department:
+
+<hr>
+
+**Subject**: We formalize your theory!
+<hr>
+**Body**:
+
+Dear colleagues,
+
+this semester, we want to explore something new. In my upcoming Empra (for 5th semester students), the participants get acquainted with formal modeling of psychological theories. The goal is to develop a mathematical or agent-based model of a verbal theory. In this project, ...
+
+- the central phenomena are listed (What is to be explained?)
+- the verbal theory is explicated, and
+- a theory formalization is attempted (in a way that data can be simulated from the model).
+
+
+**We wanted to ask you - the colleagues in the department - if you want to submit a theory for this exercise.** 
+
+Here are some FAQs:
+
+### What theory would be a good fit?
+- A theory that is sufficiently precise and has a defined and not too large scope
+- Its core premises are formulated in a clear and concise form on one (or only few) pages.
+- There doesn't exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).
+
+### What theory would not be a good fit?
+- You need to read three books to understand the theory.
+- The “all-encompassing theory of human nature”
+- You need a lot of expert input and judgement to fill in the gaps of the underspecified theory.
+- You need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.
+
+### But don't you lack domain knowledge?
+In an ideal world, theories are so well specified that they can be formalized without further expert opinions. But as this is unrealistic in psychology, we need your input (see next question).
+
+### What is my necessary commitment?
+- Provide the written material for the theory.
+- Two or three meetings (each lasting ~2h) during the Empra's teaching hours (XXX):
+  - *Meeting 1* where you give a very short overview of the theory (after the students have already read the written material) and we discuss first steps.
+  - *Meeting 2* where students present intermediate results and can ask questions for clarification.
+  - (optional) *Meeting 3*, where students present their results to you.
+  - If you enjoy and benefit from the scientific discussion, of course more meetings are possible and welcome.
+
+### What happens with the results?
+The created models will be published with a CC-BY license. That means, you can reuse everything with a proper citation. If the models are really helpful (and more than just a vague inspiration for further work), we can think about a follow-up collaboration and write-up (where collaboration and co-authorship is offered to the student creators of the model).
+
+### The procedure would be as follows:
+- We collect candidate theories for formalization until 30.10.2023.
+- We screen all submissions and select one or two theories (depending on their complexity). 
+- If your theory is selected, we will meet:
+    - For the introductory meeting (xx.xx.2023, ~2h)
+    - For the intermediate meeting (xx.xx.2024, ~2h)
+    - For the results presentation (xx.xx.2024, ~2h)
+
+If you want to participate, please send an email to xxx by xx.xx.2023, containing a short description of the theory (max. 200 words) and a link to a central paper describing the theory. It can be "your" theory, or an existing theory that you work with.
+
+A final caveat: We are aware that this collaboration requires a non-negligible time investment from you. At the same time, this is highly experimental and we cannot promise any success or even progress. But in any case we expect good scientific discussions and are convinced that the exercise is fruitful for all parties.
+
+If you have any questions, drop me an email.
+
+<hr>
+
+Here are some (anonymized) reactions I got:
+
+- "EPIC!"
+- "A very good idea. Just trying it would fulfil my heart's desire"
+
+
+At the end, XX theories got submitted. We discussed them and selected YY of them

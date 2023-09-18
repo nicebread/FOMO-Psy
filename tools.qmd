@@ -1,0 +1,44 @@
+---
+title: "Thinking Tools for building theories"
+from: markdown+emoji
+---
+
+The following tools can help to build a model collaboratively.
+They are ordered in increasing complexity and versatility:
+
+## Participatory System Mapper (PRSM)
+
+The [Participatory System Mapper (PRSM)](https://www.prsm.uk) is a free, open-source and secure tool for mind-mapping and system visualisation. It's only for drawing stuff, not for simulating data.
+
+:nerd_face: :arrow_forward: Tutorial [webinar](https://www.youtube.com/watch?v=L_o2l2nq6QI) (1h).
+
+{{< fa code-fork >}}  ✅
+This format is trackable in git. You can export the graph in two text file representations (`.gv` and `.gml` files). Both are relatively well human-readable.
+
+
+## Loopy
+
+[Loopy](https://ncase.me/loopy/) is an intuitive open source tool created by Nicky Case. With Loopy, you can build (and simulate) dynamic systems simply by drawing nodes and arrows with your mouse. It is great for quick prototyping and testing, but does not allow specific functional relationships or data export of the simulations.
+
+:nerd_face: :arrow_forward: [Short tutorial](https://www.youtube.com/watch?v=g8X5VexpTXQ&t=144s) (6 min.)
+
+{{< fa code-fork >}}  ✅
+This format is trackable in git. You can export a text file representation of the model. This is, however, not very human-readable.
+
+## Insight Maker
+
+[Insight Maker](https://insightmaker.com) is a free tool that allows to build system dynamics models and agent-based models in the browser, simulate data, and to share the models with others.
+
+:nerd_face: :arrow_forward: Collection of short [tutorial clips](https://www.youtube.com/playlist?list=PLzodzhjsiEx5wLeSCx4a_yAlJWKNujJBi) (~35 min. overall).
+
+{{< fa code-fork >}}  ❌
+This format is **not** trackable in git. I could not find a way to export the model as a text file (or any local file format).
+
+## Netlogo
+
+[NetLogo]([ccl.northwestern.edu/netlogo/index.shtml](https://ccl.northwestern.edu/netlogo/)) is *the* classical tool for agent-based modeling. Being there since 1999, it has the charm of early-days internet software, but offers the most functions and flexibility. It has an open license, is still actively maintained, and is probably the best way for exploring ABMs with quick results and less frustrations. Netlogo has its own programming language, which is easy to learn. The model library gives a head-start for your own ideas.
+
+:nerd_face: :arrow_forward: [Free, self-paced online course](https://www.complexityexplorer.org/courses/84-fundamentals-of-netlogo/materials) with several short videos (total video material ~2h; in addition, one can do quizzes and "homework" that can be compared to solutions).
+
+{{< fa code-fork >}}  ✅
+This format is trackable in git. You can export a text file representation of the model as `.nlogo` files. This contains the actually code (from Netlogo's "Code" pane) on the top, followed by code describing the "Interface" and the "Info" pane (i.e., locations and properties of sliders, buttons, etc.).

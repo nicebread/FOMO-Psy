@@ -30,5 +30,6 @@ TBD
 Thanks goes to:
 
 - Noah van Dongen and Denny Borsboom for great inspiration from the *ManyModelers Project* (performed on SIPS 2022)
+- Noah van Dongen for providing his material for an TCM course
 - Lena Schiestel for her course material on constructs
 - ...

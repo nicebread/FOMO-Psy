@@ -11,12 +11,15 @@ footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilia
 format:   
   clean-revealjs: 
     output-ext: slide.html
-    theme: default
     transition: slide
     background-transition: fade
     touch: true
     embed-resources: true
   html: default
+revealjs-plugins:
+  - attribution 
+editor: 
+  render-on-save: true
 ---
 
 # Theory Construction Methodology
@@ -71,7 +74,7 @@ flowchart LR
 ```
 
 ::: {.r-fit-text}
-**Phenomena**: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the *explanandum*)
+**Phenomena**: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the *explanandum*). In psychology often called "effects".
 
 **Data**: Relatively direct observations. Refer to *particular* empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).
 
@@ -136,6 +139,8 @@ Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science 
 > Papers [...] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process. 
 > 
 > Such lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations [...], but they do not constitute theory.
+
+Lists of constructs (without an explicit definition of their causal relationship) often are called a *framework*.
 :::
 
 ::: footer
@@ -256,11 +261,11 @@ flowchart LR
 ```
 
 ::: {.r-fit-text}
-**Phenomena**: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the *explanandum*)
+**Phenomena**: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the *explanandum*). In psychology often called "effects".
 
 **Data**: Relatively direct observations. Refer to *particular* empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).
 
-**[Explanatory]{.alert} Theories** are constructed to explain the empirical phenomena that are evidenced by data (i.e., they are the *explanans*). Explanatory theories can be expressed in terms of a set of linked propositions, at least one of which expresses a general principle.
+**[Explanatory]{.alert} Theories** are constructed to explain the empirical phenomena that are evidenced by data (i.e., they are the *explanans*). Explanatory theories can be expressed in terms of a set of linked propositions referring to latent psychological constructs. At least one of these propositions expresses a general principle.
 
 > “theory T putatively explains phenomenon P” means “if the world were as T says it is, P would follow as a matter of course.” Although this notion of explanation is arguably incomplete, it has the advantages of being close to the commonsense understanding of the concept and being easy to implement in a formal model—namely by creating a virtual world in which theory T is true and showing that this world will indeed produce phenomenon P.
 :::
@@ -273,8 +278,8 @@ See Borsboom et al. (2021). [https://doi.org/10.1177/1745691620969647](https://d
 ## Theory: Definition
 
 ::: {.callout-important}
-# What is an explanatory theory?
-A set of linked propositions, at least one of which expresses a general principle, 
+# What is an (explanatory) theory?
+A theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (*explanans*)
 :::
 
 ::: {.callout-important}
@@ -292,19 +297,28 @@ van Dongen, N. N. N. et al. (2022, April 13). Productive Explanation: A Framewor
 
 # Let's practice!
 
-## Zentrale Begriffe
+## Elements of a theory
 
 ::: {.r-fit-text}
 - **Phänomen**: Eine Eigenschaft der Welt, die hinreichend wenig flüchtig ist, so dass wir diese wahrnehmen und beschreiben können (Explanandum einer Theorie)
 - **Begriff / Konzept**: Semantische Einheit (Konzept), die die Merkmale eines Gegenstandes oder Sachverhaltes vereint. ≠ Wort/Wortmarke
-- **Theorie**: Eine Theorie ist eine Reihe von Aussagen über die Beziehung(en) zwischen zwei oder mehreren Begriffen (Konzepten) mit nomologischem (also Gesetzes-)Charakter. (Explanans)
+- **Relationship**
 - **Modell**: Vereinfachte Abbildung eines Ausschnitts der Wirklichkeit. Alle Strukturen, die die Sätze einer Theorie erfüllen, sind Modelle dieser Theorie. Oder andersherum ausgedrückt: Eine Theorie kann meist in verschiedenen Modellen implementiert werden, die alle kompatibel zur Theorie sind.
 - **Operationalisierung**: Präzise Angabe (inkl. Begründung), wie ein Begriff (s.o.), zu messen ist. 
 - **Daten**: Daten sind öffentliche Aufzeichnungen, die durch Messungen und Experimente erzeugt werden und als Beweis für die Existenz oder Merkmale von Phänomenen dienen. (Woodward, 2009). Daten enthalten das Phänomen, an dem wir interessiert sind, aber auch Rauschen (Messfehler, Verzerrung durch den Experimentator, Transkriptionsfehler). Deshalb erklären Theorien die Phänomene, nicht die Daten. (Fried, 2021)
 :::
 
+## Elements of a theory
+
+- Phenomenon or phenomena to be explained (explanandum, explananda)
+- constructs (explanans, explanantia)
+- their operationalizations
+- their interconnections/relationships
+- Explanations/mechanisms for these relationships (how does × affect y?)
+- auxiliary assumptions and boundary conditions
+
 ::: footer
-This slide is copied from Lena Schiestel's presentation
+cf. Cronbach & Meehl (1955)
 :::
 
 
@@ -320,7 +334,7 @@ This slide is copied from Lena Schiestel's presentation
 ```{mermaid}
 flowchart LR
 P[Phenomenon]
-C["Concept (Definition)""]
+C["Concept (Definition)"]
 T[Theory]
 M[Model]
 O[Operationalization]
@@ -345,12 +359,19 @@ Lee, D. G., Daunizeau, J., & Pezzulo, G. (2023). Evidence or Confidence: What Is
 
 # TCM: Concrete Steps
 
+::: {.r-fit-text}
 1. Identifying relevant phenomena 
 2. Formulating a prototheory
+   a. This includes defining the constructs as a first step
 3. Developing a formal model
 4. Checking the adequacy of the formal model
 5. Evaluating the overall worth of the constructed theory
 
+::: {.callout-note}
+This methodology is "structured creativity" - you are allowed to tinker around as much as you like. The five steps are mere tools that help to structure your creative process.
+:::
+
+:::
 
 ## TCM: Step 1
 
@@ -387,6 +408,18 @@ Borsboom et al., 2021, p. 761
 
 4. Checking the adequacy of the formal model
 
+- "To investigate this question, one must parse the phenomena in the same formal language as the theory. This means that the phenomena themselves have to be formalized."
+- Before you observe any real data, ask (and test): *Does the model even work in principle?*
+  - Simulate data from the model
+  - Does it produce the target phenomena?
+  - Sensitivity analysis: What happens if parameters of the model are changed / pushed to the extreme? When does it break?
+
+- Which phenomena can be actually produced by the model? (Assuming that multiple phenomena are predicted)
+- Which choices of the model are arbitrary?
+- Sensitivity analysis: How robust is the explanation across (realistic) changes of parameter settings?
+- Explanatory relevance: Are the explanatory principles actually necessary to explain phenomena? (e.g., it could happen that you remove an element in the model, and the phenomenon still is produced.)
+
+
 ::: footer
 Borsboom et al., 2021, p. 761
 :::
@@ -401,12 +434,68 @@ Borsboom et al., 2021, p. 761
 
 
 
+## Creative hypothesis generating in psychology: Some useful heuristics
+
+TODO
+
+::: footer
+See McGuire, W. J. (1997). Creative hypothesis generating in psychology: Some useful heuristics. *Annual Review of Psychology, 48*, 1–30. [https://doi.org/10.1146/annurev.psych.48.1.1](https://doi.org/10.1146/annurev.psych.48.1.1)
+:::
+
+
+
 # Resources
 
-- [Lecture](https://video.uu.nl/videos/helmholtz-lecture-2023-02-10-prof-denny-borsboom/#timeline) (1h; 2023-02-10) by Denny Borsboom
+- [Talk](https://video.uu.nl/videos/helmholtz-lecture-2023-02-10-prof-denny-borsboom/#timeline) (1h:05; 2023-02-10) by Denny Borsboom
+- [Talk](https://zpid.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=436e9d94-31be-4e66-b4c3-aee500ba2e9b) (01h:17; 2022-05-19) by Karolin Salmen
 
 
 # Speicher
+
+## "Makeism"
+
+::: {.callout-note}
+# What is makeism?
+
+Makeism: The view that computationalism implies that (a) it is *possible* to (re)make cognition computationally; (b) if we (re)make cognition then we can *explain* and/or understand it; and possibly (c) explaining and/or understanding cognition *requires* (re)making cognition itself.
+
+Note that it is especially easy for makeists to fall into map-territory confusion - mistaking their modeling artefacts for cognition itself - due to the view that the made thing *could* be cognition.
+:::
+
+➙ "Design and development as a research methodology" (Bisig & Pfeifer, 2008)
+
+::: footer
+Abridged quote from van Rooij et al. (2023, August 1). Reclaiming AI as a theoretical tool for cognitive science. [https://doi.org/10.31234/osf.io/4cbuv](https://doi.org/10.31234/osf.io/4cbuv)
+:::
+
+## Is the demiurgic approach "makeism"?
+
+| Makeism                                                                             | Demiurg                                                                                                |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| (a) it is **possible** to (re)make natural phenomena computationally                | Yes - the systemic structure can be recreated as a (simplfied) model.                                  |
+| (b) (Re)makeing a natural phenomenon is **sufficient** for being able to explain it | It is an explanation (cf. productive explanation). But its quality is only as good as its assumptions*. |
+
+* "I assume an omnipotent agent, which knows everything about the world, its current state, and its history. With unlimited computing power, it determines the optimal action."
+
+## About simulations as tools
+
+> Computer simulations support and extend a scientist’s thinking capacity, and enable computerised ‘thought experiments’ (R. Cooper, 2005) to reason through ‘what ifs’ and answer questions like ‘how possibly’. These simulations [...] are necessarily abstract and idealised
+
+::: footer
+van Rooij et al. (2023, August 1). Reclaiming AI as a theoretical tool for cognitive science. [https://doi.org/10.31234/osf.io/4cbuv](https://doi.org/10.31234/osf.io/4cbuv), p. 13
+:::
+
+
+## Underdeterminism of theories
+
+> "[...] first, one and the same problem can be **computed by different algorithms**, and second, one and the same algorithm can be **physically realised in different ways.** 
+> 
+> This implies that we are dealing with massive underdetermination of theory by data: i.e., if we observe behaviours consistent with a computational level theory, we cannot infer which algorithms or neural processes underlie the behaviour.
+
+::: footer
+Van Rooij et al. (2023). Reclaiming AI as a theoretical tool for cognitive science [Preprint]. PsyArXiv. https://doi.org/10.31234/osf.io/4cbuv
+:::
+
 
 ## Comparison chart of methodologies
 

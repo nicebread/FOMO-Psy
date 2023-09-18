@@ -1,0 +1,4 @@
+{
+    "quarto.render.renderOnSave": true,
+    "quarto.assist.updateMode": "live"
+}

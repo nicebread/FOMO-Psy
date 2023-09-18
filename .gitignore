@@ -4,3 +4,7 @@
 .Ruserdata
 
 /.quarto/
+
+/.luarc.json
+
+*.code-workspace

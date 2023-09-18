@@ -19,9 +19,23 @@ Das Empra stellt etwas höhere Anforderungen an mathematisches und formales Denk
 You need:
 
 - quarto > 1.3.45
-- [Font Awesome Extension for Quarto](https://github.com/quarto-ext/fontawesome) (`quarto add quarto-ext/fontawesome`)
+- [Font Awesome Extension for Quarto](https://github.com/quarto-ext/fontawesome)
+- [Attribution Extension](https://github.com/quarto-ext/attribution)
 - [Quarto clean theme](https://github.com/grantmcdermott/quarto-revealjs-clean/tree/main)
+
+Run the following commands in the directory of your presentation:
+
+```
+quarto add quarto-ext/attribution
+quarto add quarto-ext/fontawesome
+quarto install extension grantmcdermott/quarto-revealjs-clean
+```
 
 ## Notes to self:
 
 - The default presentation size is 1050 x 700.
+
+## Notes
+
+- Operationalisierung gehört zur Theoriearbeit
+- 

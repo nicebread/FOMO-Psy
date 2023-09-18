@@ -11,6 +11,10 @@ website:
         text: Home
       - text: "Slides"
         file: slides/slide_overview.qmd
+      - href: tools.qmd
+        text: Thinking Tools
+      - href: orga_material.qmd
+        text: Organizational Material
       - about.qmd
     right:
       - icon: github

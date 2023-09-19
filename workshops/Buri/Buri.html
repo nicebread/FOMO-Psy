@@ -198,8 +198,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="buridans-ass" class="level1" data-background-color="#40666e">
-<h1 data-background-color="#40666e">Buridan’s Ass</h1>
+<section id="buridans-ass" class="level1">
+<h1>Buridan’s Ass</h1>
 <div class="columns">
 <div class="column r-fit-text" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
@@ -363,6 +363,44 @@ Note
 <li id="fn1"><p>griechisch τέλος (telos): ‚Zweck‘, ‚Ziel‘, ‚Ende‘. Der Zweck ist hier evolutionär gedacht: Was hilft dem Überleben und der Fortpflanzung?<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
+
+<script>
+  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+  // slide changes (different for each slide format).
+  (function () {
+    // dispatch for htmlwidgets
+    function fireSlideEnter() {
+      const event = window.document.createEvent("Event");
+      event.initEvent("slideenter", true, true);
+      window.document.dispatchEvent(event);
+    }
+
+    function fireSlideChanged(previousSlide, currentSlide) {
+      fireSlideEnter();
+
+      // dispatch for shiny
+      if (window.jQuery) {
+        if (previousSlide) {
+          window.jQuery(previousSlide).trigger("hidden");
+        }
+        if (currentSlide) {
+          window.jQuery(currentSlide).trigger("shown");
+        }
+      }
+    }
+
+    // hookup for slidy
+    if (window.w3c_slidy) {
+      window.w3c_slidy.add_observer(function (slide_num) {
+        // slide_num starts at position 1
+        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+      });
+    }
+
+  })();
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

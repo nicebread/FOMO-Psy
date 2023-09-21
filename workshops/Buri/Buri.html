@@ -151,10 +151,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#buridans-ass-level-1-intuitive-modeling" id="toc-buridans-ass-level-1-intuitive-modeling" class="nav-link" data-scroll-target="#buridans-ass-level-1-intuitive-modeling">Buridan’s ass, level 1: Intuitive modeling</a>
   <ul class="collapse">
-  <li><a href="#fa-people-group-size1x-group-exercise-cover-your-ass-level-1" id="toc-fa-people-group-size1x-group-exercise-cover-your-ass-level-1" class="nav-link" data-scroll-target="#fa-people-group-size1x-group-exercise-cover-your-ass-level-1"><span class="r-fit-text"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Group exercise: Cover your ass, Level 1</span></a>
-  <ul class="collapse">
-  <li><a href="#intuitive-modeling" id="toc-intuitive-modeling" class="nav-link" data-scroll-target="#intuitive-modeling">Intuitive modeling</a></li>
-  </ul></li>
+  <li><a href="#fa-people-group-size1x-group-exercise-cover-your-ass-level-1" id="toc-fa-people-group-size1x-group-exercise-cover-your-ass-level-1" class="nav-link" data-scroll-target="#fa-people-group-size1x-group-exercise-cover-your-ass-level-1"><span class="r-fit-text"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Group exercise: Cover your ass, Level 1</span></a></li>
   </ul></li>
   <li><a href="#buridans-ass-level-2-draw-your-diagram" id="toc-buridans-ass-level-2-draw-your-diagram" class="nav-link" data-scroll-target="#buridans-ass-level-2-draw-your-diagram">Buridan’s ass, level 2: Draw your diagram</a>
   <ul class="collapse">
@@ -178,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#fa-people-group-size1x-group-exercise-cover-your-ass-level-4" id="toc-fa-people-group-size1x-group-exercise-cover-your-ass-level-4" class="nav-link" data-scroll-target="#fa-people-group-size1x-group-exercise-cover-your-ass-level-4"><span class="r-fit-text"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Group exercise: Cover your ass, Level 4</span></a>
   <ul class="collapse">
-  <li><a href="#netlogo-implementation-variable-scaling" id="toc-netlogo-implementation-variable-scaling" class="nav-link" data-scroll-target="#netlogo-implementation-variable-scaling">Netlogo Implementation &amp; Variable Scaling</a></li>
+  <li><a href="#variable-scaling-netlogo-implementation" id="toc-variable-scaling-netlogo-implementation" class="nav-link" data-scroll-target="#variable-scaling-netlogo-implementation">Variable Scaling &amp; Netlogo Implementation</a></li>
   </ul></li>
   </ul></li>
   <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a>
@@ -316,8 +313,6 @@ Note
 <h1 data-background-color="#40666e">Buridan’s ass, level 1: Intuitive modeling</h1>
 <section id="fa-people-group-size1x-group-exercise-cover-your-ass-level-1" class="level2">
 <h2 class="anchored" data-anchor-id="fa-people-group-size1x-group-exercise-cover-your-ass-level-1"><span class="r-fit-text"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Group exercise: Cover your ass, Level 1</span></h2>
-<section id="intuitive-modeling" class="level3">
-<h3 class="anchored" data-anchor-id="intuitive-modeling">Intuitive modeling</h3>
 <div class="r-fit-text">
 <p><strong>Scenario</strong>: The environment has a source of food and a source of water, in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body; this consumption is higher during physical activity. As soon as one of the two reserves in the body drops to zero, the donkey dies.</p>
 <p><strong>(Simplifying) assumptions</strong>:</p>
@@ -335,7 +330,6 @@ Note
 </figure>
 </div>
 </div>
-</section>
 </section>
 </section>
 <section id="buridans-ass-level-2-draw-your-diagram" class="level1" data-background-color="#40666e">
@@ -433,17 +427,25 @@ Note
 <h1 data-background-color="#40666e">Buridan’s ass, level 4</h1>
 <section id="fa-people-group-size1x-group-exercise-cover-your-ass-level-4" class="level2">
 <h2 class="anchored" data-anchor-id="fa-people-group-size1x-group-exercise-cover-your-ass-level-4"><span class="r-fit-text"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Group exercise: Cover your ass, Level 4</span></h2>
-<section id="netlogo-implementation-variable-scaling" class="level3">
-<h3 class="anchored" data-anchor-id="netlogo-implementation-variable-scaling">Netlogo Implementation &amp; Variable Scaling</h3>
-<p>You learned</p>
+<section id="variable-scaling-netlogo-implementation" class="level3">
+<h3 class="anchored" data-anchor-id="variable-scaling-netlogo-implementation">Variable Scaling &amp; Netlogo Implementation</h3>
 <div class="r-fit-text">
-<p>Define the variables in the formal model: Possible range/values (define the set); prior probabilities (justify! empirical evidence?); interpretability (what does a value of 0.7 mean?) Funktionskurven definieren</p>
 <ul>
-<li>Implement the model in Netlogo</li>
+<li>Define the <strong>variables</strong> in the formal model:
+<ul>
+<li>Scale level</li>
+<li>Possible range/values (define the set)</li>
+<li>Interpretability (what does a value of 0.7 mean?)
+<ul>
+<li>Maybe define operationalization that gives a meaning to the numbers</li>
+</ul></li>
+</ul></li>
+<li>Define compuations for each <strong>box</strong>: How exactly are input variables transformed into the output variables? You need a concrete formula for that. Theories rarely are so specific that you can directly derive a formula; need to fill many gaps.</li>
+<li><strong>Implement</strong> the model in Netlogo</li>
 <li>Push the <code>.nlogo</code> to your group’s Github repo.
 <ul>
 <li>Write a meaningful commit message that explains the changes.</li>
-<li>Create a <code>CHANGELOG.md</code> file that explains the changes in the model in more detail.</li>
+<li>Create a <code>CHANGELOG.md</code> file that explains the changes in the model in more detail. Justify the changes!</li>
 </ul></li>
 </ul>
 </div>

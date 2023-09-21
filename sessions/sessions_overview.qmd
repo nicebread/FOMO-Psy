@@ -1,0 +1,9 @@
+---
+title: "Overview of sessions"
+listing:
+  sort: "title"
+  type: "table"
+  table-striped: true
+  fields: [title, description]
+---
+

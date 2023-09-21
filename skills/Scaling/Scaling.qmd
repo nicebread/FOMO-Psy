@@ -1,0 +1,46 @@
+---
+title: "Scaling of variables"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: today
+footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format: 
+  clean-revealjs: 
+    output-ext: slide.html
+    transition: slide
+    background-transition: fade
+    touch: true
+    embed-resources: true
+  html: default
+revealjs-plugins:
+  - attribution 
+---
+
+# How deep is your love? {background-color="#40666e"}
+
+![](img/How_deep_is_your_love.png)
+
+. . .
+
+Answer: -136.7
+
+## Finding a scale
+### Some guiding questions and heuristics
+
+- Scale level of measurement (Stevens's typology): <br>Nominal &rarr; Ordinal &rarr; Interval &rarr; Ratio
+- Is the variable naturally bounded? On both sides or only one?
+- How can the numbers be interpreted?
+  - Natural/objective scale (e.g. physical distance)
+  - As standardized *z*-scores?
+  - Normalized to a value between 0 and 1?
+  - Can we find an empirical calibration?
+    - Just noticable difference
+    - 100 = "largest realistically imaginable quantity of that variable"
+
+
+<!-- Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```

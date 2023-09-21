@@ -1,18 +1,20 @@
 ---
-title: "Session 1 - Introduction"
+title: Session 1 - Introduction
 number-sections: true
-editor: 
-  render-on-save: true
+description: Intro to theory 1 - First steps in modeling
 ---
 
 # Overview
 
-| Topic                 | Duration | Notes                                                                          |
-| --------------------- | -------- | ------------------------------------------------------------------------------ |
-| Introduction          | 5        | Lectures introduction                                                          |
-| Introduction students in the plenum | 15       | Guiding questions: Name, home town, why chose this Empra. Write your name tag. |
-| Group formation       | 30       | See @sec-group_formation                                                       |
-|                       |          |                                                                                |
+| Topic                                        | Duration | Notes                                                                          |
+| -------------------------------------------- | -------- | ------------------------------------------------------------------------------ |
+| Introduction                                 | 5        | Lecturer introduction                                                          |
+| Introduction of students in the plenum       | 15       | Guiding questions: Name, home town, why chose this Empra. Write your name tag. |
+| Group formation                              | 30       | See @sec-group_formation                                                       |
+| **Skill**: Git Intro                         | 30       | See @sec-git                                                       |
+| **Lecture**: Introducion: Theory crisis      | 45       | [Slides](../lectures/Introduction/Introduction.qmd)                            |
+| **Workshop**: Group Exercise: Buri (Level 1) | 60       | [Slides](../workshops/Buri/Buri.qmd)                                           |
+| **[Homework]**: Git Tutorial                 | -        |                                                                                |
 
 : {.striped}
 
@@ -32,7 +34,7 @@ editor:
 While carrying their name tags, students find their position between two corners of the rooms, described as:
 
 1. "No programming knowledge at all, I even forgot everything I learned about R programming in the first semester"
-2. "I actively write computer programs (in any language)"
+2. "I actively coded (in any language) in the last 3 months"
 
 ## Semi-randomised allocation:
 
@@ -48,3 +50,16 @@ While carrying their name tags, students find their position between two corners
   - Career goals / type of psychologist they want to become
   - Specific programming skills
 
+
+# Git Intro {#sec-git}
+
+1. Showcase how git works
+   1. Create a private project on Github. This will be the central project for submitting homework
+   2. Show how to commit, push, pull changes.
+2. We start the [OSC git tutorial](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/) together to weed out technical hurdles. The rest of tutorial is homework.
+
+
+# Homework {#sec-homework}
+
+Please continue the tutorial ["Introduction to Version Control in R with RStudio, Git, and Github"](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/), **and** complete the follow-up tutorial "[Collaborative coding with GitHub and RStudio](https://malikaihle.github.io/Collaborative-RStudio-GitHub/)".
+Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.

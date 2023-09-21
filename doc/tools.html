@@ -88,15 +88,27 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./slides/slide_overview.html" rel="" target="">
- <span class="menu-text">Slides</span></a>
+    <a class="nav-link" href="./sessions/sessions_overview.html" rel="" target="">
+ <span class="menu-text">Sessions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./lectures/lecture_overview.html" rel="" target="">
+ <span class="menu-text">Lectures</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./skills/skills_overview.html" rel="" target="">
+ <span class="menu-text">Skills</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./workshops/workshop_overview.html" rel="" target="">
+ <span class="menu-text">Workshops</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./tools.html" rel="" target="" aria-current="page">
  <span class="menu-text">Thinking Tools</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./orga_material.html" rel="" target="">
+    <a class="nav-link" href="./orga_material/orga_material.html" rel="" target="">
  <span class="menu-text">Organizational Material</span></a>
   </li>  
   <li class="nav-item">
@@ -127,6 +139,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#participatory-system-mapper-prsm" id="toc-participatory-system-mapper-prsm" class="nav-link active" data-scroll-target="#participatory-system-mapper-prsm">Participatory System Mapper (PRSM)</a></li>
+  <li><a href="#draw.io" id="toc-draw.io" class="nav-link" data-scroll-target="#draw.io">Draw.io</a></li>
   <li><a href="#loopy" id="toc-loopy" class="nav-link" data-scroll-target="#loopy">Loopy</a></li>
   <li><a href="#insight-maker" id="toc-insight-maker" class="nav-link" data-scroll-target="#insight-maker">Insight Maker</a></li>
   <li><a href="#netlogo" id="toc-netlogo" class="nav-link" data-scroll-target="#netlogo">Netlogo</a></li>
@@ -154,29 +167,49 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>The following tools can help to build a model collaboratively. They are ordered in increasing complexity and versatility:</p>
+<hr>
+<hr>
 <section id="participatory-system-mapper-prsm" class="level2">
 <h2 class="anchored" data-anchor-id="participatory-system-mapper-prsm">Participatory System Mapper (PRSM)</h2>
 <p>The <a href="https://www.prsm.uk">Participatory System Mapper (PRSM)</a> is a free, open-source and secure tool for mind-mapping and system visualisation. It’s only for drawing stuff, not for simulating data.</p>
+<p><strong>Pro</strong>: No login needed.</p>
+<p><strong>Con</strong>: It only supports Mason diagrams, not Bischof diagrams (where arrows are variables).</p>
 <p><span class="emoji" data-emoji="nerd_face">🤓</span> <span class="emoji" data-emoji="arrow_forward">▶️</span> Tutorial <a href="https://www.youtube.com/watch?v=L_o2l2nq6QI">webinar</a> (1h).</p>
 <p><i class="fa-solid fa-code-fork" aria-label="code-fork"></i> ✅ This format is trackable in git. You can export the graph in two text file representations (<code>.gv</code> and <code>.gml</code> files). Both are relatively well human-readable.</p>
+<hr>
+<hr>
+</section>
+<section id="draw.io" class="level2">
+<h2 class="anchored" data-anchor-id="draw.io">Draw.io</h2>
+<p>https://app.diagrams.net</p>
+<p><strong>Pro</strong>: No login needed. Open Source.</p>
+<p><strong>Con</strong>: Needs Google Drive for collaborative editing.</p>
+<p><span class="emoji" data-emoji="nerd_face">🤓</span> <span class="emoji" data-emoji="arrow_forward">▶️</span> TODO.</p>
+<p><i class="fa-solid fa-code-fork" aria-label="code-fork"></i> ✅ This format is trackable in git. You can export the graph as <code>.xml</code> file (Datei → Exportieren als → XML…). This file is, however, not very human-readable.</p>
+<hr>
+<hr>
 </section>
 <section id="loopy" class="level2">
 <h2 class="anchored" data-anchor-id="loopy">Loopy</h2>
 <p><a href="https://ncase.me/loopy/">Loopy</a> is an intuitive open source tool created by Nicky Case. With Loopy, you can build (and simulate) dynamic systems simply by drawing nodes and arrows with your mouse. It is great for quick prototyping and testing, but does not allow specific functional relationships or data export of the simulations.</p>
 <p><span class="emoji" data-emoji="nerd_face">🤓</span> <span class="emoji" data-emoji="arrow_forward">▶️</span> <a href="https://www.youtube.com/watch?v=g8X5VexpTXQ&amp;t=144s">Short tutorial</a> (6 min.)</p>
 <p><i class="fa-solid fa-code-fork" aria-label="code-fork"></i> ✅ This format is trackable in git. You can export a text file representation of the model. This is, however, not very human-readable.</p>
+<hr>
+<hr>
 </section>
 <section id="insight-maker" class="level2">
 <h2 class="anchored" data-anchor-id="insight-maker">Insight Maker</h2>
 <p><a href="https://insightmaker.com">Insight Maker</a> is a free tool that allows to build system dynamics models and agent-based models in the browser, simulate data, and to share the models with others.</p>
 <p><span class="emoji" data-emoji="nerd_face">🤓</span> <span class="emoji" data-emoji="arrow_forward">▶️</span> Collection of short <a href="https://www.youtube.com/playlist?list=PLzodzhjsiEx5wLeSCx4a_yAlJWKNujJBi">tutorial clips</a> (~35 min. overall).</p>
 <p><i class="fa-solid fa-code-fork" aria-label="code-fork"></i> ❌ This format is <strong>not</strong> trackable in git. I could not find a way to export the model as a text file (or any local file format).</p>
+<hr>
+<hr>
 </section>
 <section id="netlogo" class="level2">
 <h2 class="anchored" data-anchor-id="netlogo">Netlogo</h2>
 <p><a href="[ccl.northwestern.edu/netlogo/index.shtml](https://ccl.northwestern.edu/netlogo/)">NetLogo</a> is <em>the</em> classical tool for agent-based modeling. Being there since 1999, it has the charm of early-days internet software, but offers the most functions and flexibility. It has an open license, is still actively maintained, and is probably the best way for exploring ABMs with quick results and less frustrations. Netlogo has its own programming language, which is easy to learn. The model library gives a head-start for your own ideas.</p>
 <p><span class="emoji" data-emoji="nerd_face">🤓</span> <span class="emoji" data-emoji="arrow_forward">▶️</span> <a href="https://www.complexityexplorer.org/courses/84-fundamentals-of-netlogo/materials">Free, self-paced online course</a> with several short videos (total video material ~2h; in addition, one can do quizzes and “homework” that can be compared to solutions).</p>
-<p><i class="fa-solid fa-code-fork" aria-label="code-fork"></i> ✅ This format is trackable in git. You can export a text file representation of the model as <code>.nlogo</code> files. This contains the actually code (from Netlogo’s “Code” pane) on the top, followed by code describing the “Interface” and the “Info” pane (i.e., locations and properties of sliders, buttons, etc.).</p>
+<p><i class="fa-solid fa-code-fork" aria-label="code-fork"></i> ✅ This format is trackable in git. You can export a text file representation of the model as <code>.nlogo</code> files. This contains the actual code (from Netlogo’s “Code” pane) on the top, followed by code describing the “Interface” and the “Info” pane (i.e., locations and properties of sliders, buttons, etc.).</p>
 
 
 </section>

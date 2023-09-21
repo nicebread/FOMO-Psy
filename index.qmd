@@ -1,9 +1,17 @@
 ---
 title: "FOMO-Psy: Formal Modeling of Psychological Theories"
-subtitle: "A 14-week course"
+subtitle: "A 15-week course"
 ---
 
-*Note: The material will (initially) be a crude mixture of German and English. Your mileage may vary.*
+*Note: The material will (initially) be some mixture of German and English. Your mileage may vary.*
+
+The course has 15 [sessions](sessions/sessions_overview.qmd), each lasting 4h. In between sessions, homework is given.
+
+Each session will be a **mix of three elements**:
+
+1. Theoretical input (see [Lectures](lectures/lecture_overview.qmd))
+2. [Skills](skills/skills_overview.qmd): Learn new skills (e.g., git, Netlogo).
+3. [Workshop](workshops/workshop_overview.qmd): Apply your new skills while you work collaboratively on your models.
 
 # Sessions Overview
 

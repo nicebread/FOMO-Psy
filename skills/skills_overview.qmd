@@ -1,16 +1,15 @@
 ---
-title: "Slides Overview"
+title: "Skills Overview"
 ---
 
-Here will be a listing of the slides.
+These are all slides used for the "skills" part of the course:
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 # code inspired by https://github.com/ShKlinkenberg/statistics-lectures/blob/master/courses/SSR/2022-2023/SSR.qmd
 files <- list.files(full.names = FALSE, pattern = "\\.qmd", recursive = T)
 
-# exclude the overview file and common files
-files <- files[grep("slide_overview.qmd", files, invert = TRUE)]
-files <- files[grep("common", files, invert = TRUE)]
+# exclude the overview file
+files <- files[grep("skills_overview.qmd", files, invert = TRUE)]
 
 lectures <- data.frame()
 n <- length(files)
@@ -36,7 +35,10 @@ lecture.list <- data.frame(Date    = lectures$date,
 library("dplyr")
 library('kableExtra')
 
-# Print table with kable as set in YAML
-knitr::kable(dplyr::arrange(lecture.list, desc(Date)), escape = FALSE) %>%
+knitr::kable(
+    dplyr::arrange(lecture.list, desc(Date)), 
+    col.names = c("Date", "Topic", "Slides (as a single website)", "Slides (presentation mode)"),
+    escape = FALSE
+  ) %>%
   kable_styling(full_width = TRUE)
 ```

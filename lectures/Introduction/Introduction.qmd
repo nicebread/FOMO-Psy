@@ -46,7 +46,7 @@ See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framewo
 :::
 
 
-## The relation of data and phenomena 1
+## The relation of data and phenomena
 ```{mermaid}
 %%| fig-width: 6
 %%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
@@ -58,7 +58,7 @@ flowchart LR
   D -- "Generalization" --> P
 ```
 
-**Phenomena**: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories. In psychology often called "effects".
+**Phenomena**: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories. In psychology often called "effects" or "findings".
 
 **Data**: Relatively direct observations. Refer to *particular* empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).
 
@@ -69,7 +69,8 @@ See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framewo
 
 
 
-## The relation of data and phenomena 2 {.r-fit-text}
+## The relation of data and phenomena
+### Generalization
 ```{mermaid}
 %%| fig-width: 6
 %%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
@@ -83,13 +84,26 @@ flowchart LR
   linkStyle 1 stroke-width:2px,stroke:red,color:red;
 ```
 
+::: {.r-fit-text}
 Data provide evidence for the existence of empirical phenomena: You <span style="color:red;">generalize</span> from one or more data sets with strong evidence to a general phenomenon.
+
+Generalize to *what*? UTOS framework:
+
+- [U]{.bg style='--col: #fff100'}nits (i.e., sample characteristics): To which other types of tested units does it generalize?
+- [T]{.bg style='--col: #fff100'}reatments: Does it generalize to other operationalizations of the independent variable/treatment?
+- [O]{.bg style='--col: #fff100'}utcomes: Does it generalize to other operationalizations of the dependent variable/outcome?
+- [S]{.bg style='--col: #fff100'}ettings: Does it generalize to other settings, e.g. lab vs. field, other countries?
 
 To claim a (robust) phenomenon, you ideally need:
 
-- Independent replications of specific operationalizations.
-- Conceptual replications with different operationalizations.
+- Independent replications of specific operationalizations (U, maybe S)
+- Conceptual replications with different operationalizations (UTOS).
+:::
 
+::: footer
+UTOS framework from Cronbach & Shapiro (1982); for an update to "M-STOUT", including *mechanims* and *time*, see Findley et al. (2021). External Validity. Annual Review of Political Science, 24(1), 365–393. [https://doi.org/10.1146/annurev-polisci-041719-102556](https://doi.org/10.1146/annurev-polisci-041719-102556)
+
+:::
 
 ## The relation of data and phenomena 3
 ```{mermaid}
@@ -105,20 +119,23 @@ flowchart LR
   linkStyle 1 stroke-width:2px,stroke:red,color:red;
 ```
 
-Probably most of psychology is about *establishing effects* (disguised as "theories").
+Probably most of psychology is about *establishing phenomena* (disguised as "theories").
 
 Techniques used to detect data patterns:
+
 - Factor analysis
 - Principal components analysis
 - Regression
 - ANOVA
+- ...
 
 ::: footer
 See [presentation](https://video.uu.nl/videos/helmholtz-lecture-2023-02-10-prof-denny-borsboom/#timeline) of Denny Borsboom
 :::
 
 
-## The relation of data and phenomena 3 {.r-fit-text}
+## The relation of data and phenomena
+### Prediction
 ```{mermaid}
 %%| fig-width: 6
 %%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
@@ -132,17 +149,19 @@ flowchart LR
   linkStyle 0 stroke-width:2px,stroke:red,color:red;
 ```
 
-Phenomena (once their existence has been established) <span style="color:red;">predict</span> similar data patterns in new data sets of the *same* operationalization (as in "direct replication") and ideally also for *new* operationalizations (as in "conceptual replication").
+Phenomena (once their existence has been established) [predict]{style="color:red"} similar data patterns in new data sets of the *same* operationalization (as in "direct replication") and ideally also for *new* operationalizations (as in "conceptual replication", changing more UTOS dimensions).
 
 ## Interlude: The risky shift phenomenon 1
 
 ::: {.r-fit-text}
 **The risky shift phenomenon**: A group's decisions are riskier than the average of the individual decisions of members before the group met (i.e., the group discussion made individuals riskier).
 
-- Area of very active research in social psychology in the 1960s
-- "It could be easily replicated. Most of the replication studies [...] employed the CDQ as their stimulus set, and they generally had no trouble obtaining the basic risky shift result."
+::: {.incremental}
+- Area of very active research in social psychology in the 1960s.
+- "It could be easily replicated. Most of the replication studies [...] employed the CDQ [Choice Dilemma Questionnaire] as their stimulus set, and they generally had no trouble obtaining the basic risky shift result."
 - **Today we know that there is no risky shift.** "It is now clear that the items contained in the original CDQ are in no sense a representative sample of the universe of all possible items. Instruments similar to the CDQ could readily be constructed whose scores would display risky shifts, cautious ones, or none at all" (Cartwright, 1971, p. 368).
 - In the early risky shift literature, theoretical progress was unnecessarily impeded by multiple generations of replication studies (*k* ⋍ 200), nearly all relying on the same CQD questionnaire.
+:::
 :::
 
 ::: footer
@@ -151,17 +170,20 @@ See Westfall et al. (2015). Replicating Studies in Which Samples of Participants
 
 ## Interlude: The risky shift phenomenon 2
 
+**{{< fa people-group size=2x >}} Questions for discussion (10 min.):**
 
-**{{< fa people-group size=2x >}} Question for discussion: Is the "risky shift" finding - as demonstrated in the early publications - a *phenomenon*?**
+- Analyse the situation in the UTOS dimensions (units, treatments, outcomes, settings): To which dimensions did the successful replications (not) refer to?
+- Is the "risky shift" finding - as demonstrated in the early publications - a *phenomenon*?
 
-. . .
+. . . 
 
-*My take*: It is a phenomenon (though a weak one), as it generalizes to new instances (data sets) of the same operationalization. It is a phenomenon of this specific stimulus set and suggests certain types of research questions (e.g., "What is so specific to this stimulus set?").
+*My take*: It *is* a phenomenon (though a weak one), as it generalizes to new units (i.e., data sets) of the same operationalization. But the generalizability was much weaker than initially expected. It is a phenomenon of this specific stimulus set (*treatment operationalization*) and suggests certain types of research questions (e.g., "What is so specific to this stimulus set?").
 
 
-## Replication crisis: Focus on phenomena <--> data 1
 
-::: {.r-fit-text}
+## Replication crisis
+### Focus on phenomena
+
 ```{mermaid}
 %%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
 flowchart LR
@@ -174,12 +196,12 @@ flowchart LR
 
 The concerns of the replication crisis typically referred to the relation between *data* and *phenomena*:
 
-- Does a pattern in a specific data set even *exist*? (Or is it a false positive?)
+- Does an empirical pattern even *exist*? (Or is it a false positive?)
 - If we found a reproducible pattern with a specific operationalization: Is it *generalizable* (to other measures, other cultural contexts, other samples)?
-- Do we even have a phenomenon in a particular research line? How strongly should I belief in the existence of a phenomenon, given the empirical evidence?
-:::
+- Do we even have a phenomenon in a particular research line? And how strongly should I belief in the existence of a phenomenon, given the empirical evidence?
 
-## Replication crisis: Focus on phenomena <--> data 2
+## Replication crisis
+### Focus on phenomena
 
 ```{mermaid}
 %%| fig-width: 6
@@ -198,7 +220,7 @@ flowchart LR
   linkStyle 3 stroke-width:2px,stroke:red,color:red;
 ```
 
-Doubt about phenomena propagates to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete.
+Doubts about phenomena propagate to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete.
 
 # From replication crisis to theory crisis
 
@@ -242,97 +264,7 @@ See Bischof (2021), "Struktur und Bedeutung"
 :::
 
 
-# Buridan's Ass
-
-:::: {.columns}
-::: {.column width='40%' .r-fit-text}
-![](img/Buridans_ass.jpeg){fig-align="center" height="400"}
-:::
-
-::: {.column width='60%'}
-> „The man who is violently, but equally, hungry and thirsty, and stands at an equal distance from food and drink, and who therefore must remain where he is.“
->
-> <div style="text-align: right; font-size: 70%">Aristoteles: _De Caelo/On the Heavens_. Trans. W. K. C. Guthrie, Heinemann, London 1938, 2:13:295b (S. 237)</div>
-:::
-::::
-
-::: {.attribution}
-https://p8.storage.canalblog.com/87/85/553105/80715840.jpeg
-:::
-::: footer
-See [Wikipedia](https://de.wikipedia.org/wiki/Buridans_Esel)
-:::
-
-
-# The demiurg {auto-animate=true}
-
-:::: {.columns}
-
-::: {.column width="40%"}
-![](img/Urizen_with_his_net_-_The_Book_of_Urizen,_copy_G,_object_27_c1818_(Library_of_Congress)_Detail.jpg){fig-align="center" height="400"}
-:::
-
-::: {.column width="60%"}
-> "Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen"
-> <div style="text-align: right; font-size: 70%">*N. Bischof (in prep, S. 143)*</div>
-:::
-::::
-
-::: {.attribution}
-By [Dmitrismirnov - Own work](https://commons.wikimedia.org/w/index.php?curid=28922594), CC BY-SA 3.0
-:::
-
-## Das demiurgische Prinzip
-
-
-> Der Forscher, der eine komplexe Struktur verstehen will, ist gut beraten, wenn er sich in die Rolle eines solchen Demiurgen versetzt und sich vorstellt, er hätte sie selbst konstruieren müssen. Natürlich muss er dafür eine begründete Vermutung haben, was sie leisten soll. Leistung schließt immer eine Zielvorgabe ein, die Arbeit des Demiurgen läuft also naturgemäß im Rahmen einer telischen Heuristik ^[griechisch τέλος (telos): ‚Zweck‘, ‚Ziel‘, ‚Ende‘. Der Zweck ist hier evolutionär gedacht: Was hilft dem Überleben und der Fortpflanzung?] ab.
-> <div style="text-align: right; font-size: 70%">*N. Bischof (in prep, S. 143)*</div>
-
-
-
-## Demiurgisches Prinzip (vorläufige Fassung)
-
-::: {.callout-note}
-Wäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen?
-:::
-
-::: footer
-Bischof (in prep, S. 143)
-:::
-
-
-
-## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 1]{.r-fit-text}
-
-::: {.r-fit-text}
-**Scenario**: The environment has a source of food and a source of water, substantially distant from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body; this consumption is higher during physical activity. As soon as one of the two reserves in the body drops to zero, the donkey dies.
-
-**(Simplifying) assumptions**: 
-
-- Fixed velocity *v* of the donkey.
-- Linear decrease in both water and food reserves in the body, higher under activity.
-- No other needs or tasks (no predators etc., no sleep necessary).
-- Eating and drinking takes a substantial amount of time and takes place in gulps (1 unit per time step).
-- The donkey has a representation of the environment and knows where the two sources are.
-
-**Task**: Construct an organism, with as few assumptions as possible, that survives as long as possible. Which constructs / sensors / abilities are necessary for this?
-
-![](img/buri1.png){fig-align="center" height="70"}
-:::
-
-## Demiurgisches Prinzip (endgültige Fassung)
-
-::: {.callout-note}
-Wäre ich ein Ingenieur, der, *aufbauend auf der letzten funktionstüchtigen Vorform*, einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen?
-:::
-
-::: footer
-Bischof (in prep, S. 143)
-:::
-
-
 
 <!-- Footer insert below -->
-
-```{r child="../common/lastslide.qmd"}
+```{r child="../../common/lastslide.qmd"}
 ```

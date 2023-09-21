@@ -1,0 +1,142 @@
+---
+title: "Bischof notation"
+subtitle: "Not a DAG"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: today
+footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format: 
+  clean-revealjs: 
+    output-ext: slide.html
+    transition: slide
+    background-transition: fade
+    touch: true
+    embed-resources: true
+  html: default
+revealjs-plugins:
+  - attribution 
+---
+
+# Not a DAG
+
+## Two types of block diagrams
+### ...for cybernetic models
+
+:::: {.columns}
+::: {.column width='60%' .r-fit-text}
+Mason diagrams (used in DAGs, SEM) vs. Bischof diagrams:
+
+| Type                                           | Mason (left panel) | Bischof (right panel) |
+| ---------------------------------------------- | ------------------ | --------------------- |
+| Signals/variables displayes as ...             | Circles            | Arrows                |
+| Transfer elements/computations displayed as .. | Arrows             | Circles               |
+
+Both are interchangeable; we will typically use the Bischof style.
+:::
+
+::: {.column width='40%'}
+![](img/Mason-Diagramme.jpg)
+:::
+::::
+
+
+## Block diagrams for cybernetic models: Properties
+
+::: {.r-fit-text}
+- Arrows are causal directions, not temporal links!
+  - This is *not* a flow diagram or process model
+  - Everything "happens at the same time"
+- Blocks can be placeholders for encapsulated subsystems (sometimes "black boxes")
+  - e.g. the eye as a black box: We might not care how exactly the neuronal pattern in the retina is transformed into the signal "distance from object"
+  - One general "super-block" in ABMs: The organism (delineated from the environment)
+- No arrow may directly cross a block border (see below "sensors" and "actors")
+:::
+
+## Common errors
+
+:::: {.columns}
+::: {.column width='40%'}
+![](img/Common-errors.jpg)
+:::
+::: {.column width='60%' .incremental}
+- (a, b): Blocks without input or output are useless and can be reduced
+- (c): We need another block which has $x$ and $y$ as input and a new variable as output
+- (d): This reduces to $x = f(x)$ &rarr; $x$ = const.
+- (e): A block with only inputs but no outputs is useless
+- (f): This implies that $x$ and $y$ are constant.
+:::
+::::
+
+
+## Sensors
+### Perceiving the environment
+
+Organisms have a vast range of sensors for perceiving their environment. These have been adapted to selection pressures:
+
+- Humans don't have sensors for ultraviolet light (bees do)
+- We have no sensors for radioactivity, as this was no relevant selective force
+- Single-celled organism have, for example ...
+    - chemoreceptors for sugar
+    - tactile sense (simple membranes transmitting changes in pressure)
+
+
+## Sensors
+### Brunswick's lens model
+
+::: {.r-fit-text .incremental}
+- Organisms constantly need to form a [judgement]{.bg style='--col: #fff100'} about latent properties of situations and objects (the [criterion]{.bg style='--col: #fff100'})
+- Most criteria are not directly observable, but need to be inferred via [cues]{.bg style='--col: #fff100'}. Example: 
+  - Latent property: The caloric energy of a dessert
+  - Cues: Size, taste, color
+- Cues often are not perfect indicators, but rather statistically correlated with the criterion. 
+<br>Higher correlation &rarr; higher [cue validity]{.bg style='--col: #fff100'}
+- Not all cues are used (with the same weight) in judgement formation &rarr; [cue utilization]{.bg style='--col: #fff100'}
+:::
+
+::: footer
+Brunswik, E. (1952). The conceptual framework of psychology. (Int. Encycl. unified Sci., v. 1, no. 10.). Oxford, England: Univ. Chicago Press.
+:::
+
+## Sensors
+### Brunswick's lens model
+
+![](img/lens_model.png){.r-stretch}
+
+::: footer
+Fig. 1 from Hirschmüller et al. (2013). The dual lens model: A comprehensive framework for understanding self–other agreement of personality judgments at zero acquaintance. JPSP, 104, 335–353. [https://doi.org/10.1037/a0030383](https://doi.org/10.1037/a0030383)
+:::
+
+
+## Sensors
+### Implementing the lens model as a demiurg
+
+:::: {.columns}
+::: {.column width='60%' .r-fit-text}
+Principle:
+
+- Any external information must enter the organism via a *sensor*
+- Arrows going into a sensor must be observable cues
+- Arrows going out of sensors are the organism's representation of the criterion
+- The lens model itself (i.e., the weights of cue validity and utilization) is implemented in the sensor box
+:::
+
+::: {.column width='40%'}
+![](img/BSB_sensor.png){width=600}
+:::
+::::
+
+
+
+## Actors
+
+![](img/BSB_actor.png)
+
+Sensing the environment only makes sense when organisms are able to react on this information. Devices that allow to manipulate the environment (or the organism's position within the environment) are called [actors]{.bg style='--col: #fff100'}.
+
+
+<!-- Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```

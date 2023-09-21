@@ -1,0 +1,42 @@
+---
+title: Session 2 - Introduction Theories
+number-sections: true
+description: Intro to theory 2; Bischof notation
+---
+
+# Overview
+
+| Topic                                        | Duration | Notes                                                     |
+| -------------------------------------------- | -------- | --------------------------------------------------------- |
+| Homework wrap-up: Git troubleshooting        | 20       |                                                           |
+| **Lecture**: Introducion: What is a theory?  | 45       | [Slides](../lectures/TODO)                                |
+| **Skill**: Bischof-Notation; draw.io         | 50       | [Slides](../skills/Bischof-Notation/Bischof-Notation.qmd) |
+| **Workshop**: Group Exercise: Buri (Level 2) | 60       | [Slides](../workshops/Buri/Buri.qmd)                      |
+| **[Homework]**: Netlogo Tutorial + Exercise  | -        |                                                           |
+
+: {.striped}
+
+
+
+# Homework {#sec-homework}
+
+## [Install Netlogo](https://ccl.northwestern.edu/netlogo/bind/article/getting-started-with-netlogo.html). 
+If you have technical problems, please contact me! You should be prepared for the next session.
+
+## Do a basic tutorial. There are several options, which all teach the basics:
+   a) A [free, self-paced online course](https://www.complexityexplorer.org/courses/84-fundamentals-of-netlogo/materials) with several short videos (total video material ~2h; in addition, one can do quizzes and "homework" that can be compared to solutions).
+   b) If you prefer written material, you can do the official tutorials [1](https://ccl.northwestern.edu/netlogo/docs/tutorial1.html), [2](https://ccl.northwestern.edu/netlogo/docs/tutorial2.html), and [3](https://ccl.northwestern.edu/netlogo/docs/tutorial3.html).
+   c) The [Beginner's Interactive NetLogo Dictionary](https://ccl.northwestern.edu/netlogo/bind/) is a great resources with references and examples for all commands.
+
+## Have you understood the basics? Do the exercise
+
+Please do the following exercise. Not every step might have been covered by the tutorials; in this case follow the links given at each task. 
+Push the resulting `.nlogo` file to the joint Github project (subfolder `/homework/netlogo-tutorial`, filename is `netlogo1_YOURNAME.nlogo`). Please push whatever you came up with, even if you did not manage to achieve all goals.
+
+- [ ] Give turtles two variables: `food_reservoir` and `water_reservoir` (see [`turtles-own`](https://ccl.northwestern.edu/netlogo/bind/primitive/turtles-own.html))
+- [ ] In the `setup` procedure ... 
+  - [ ] create 10 sheep-shaped turtles
+  - [ ] assign a random number between 0 and 100 to their `food_reservoir` and their `water_reservoir`. 
+  - [ ] Place them at a random position of the environment ([hint](https://ccl.northwestern.edu/netlogo/docs/tutorial3.html))
+- [ ] Create a "Setup" button in the interface that triggers the `setup` procedure.
+- [ ] Create a procedure

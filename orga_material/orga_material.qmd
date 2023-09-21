@@ -1,8 +1,7 @@
 ---
 title: "Organizational Material"
 listing:
-  contents: orga_material
-  sort: "title desc"
+  sort: "date"
   type: "table"
   table-striped: true
   fields: [date, title, description]

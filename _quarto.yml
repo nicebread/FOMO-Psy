@@ -9,11 +9,17 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: "Slides"
-        file: slides/slide_overview.qmd
+      - text: "Sessions"
+        file: sessions/sessions_overview.qmd  
+      - text: "Lectures"
+        file: lectures/lecture_overview.qmd
+      - text: "Skills"
+        file: skills/skills_overview.qmd  
+      - text: "Workshops"
+        file: workshops/workshop_overview.qmd  
       - href: tools.qmd
         text: Thinking Tools
-      - href: orga_material.qmd
+      - file: orga_material/orga_material.qmd
         text: Organizational Material
       - about.qmd
     right:
@@ -31,4 +37,3 @@ editor: source
 
 execute:
   freeze: auto
-  

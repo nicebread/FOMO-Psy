@@ -1,15 +1,17 @@
 [
   {
-    "listing": "/orga_material.html",
+    "listing": "/sessions/sessions_overview.html",
     "items": [
-      "/orga_material/course_announcement.html",
-      "/orga_material/call_for_submissions.html"
+      "/sessions/S2-Introduction.html",
+      "/sessions/S1-Introduction.html"
     ]
   },
   {
-    "listing": "/sessions/sessions_overview.html",
+    "listing": "/orga_material/orga_material.html",
     "items": [
-      "/sessions/S1-Introduction.html"
+      "/orga_material/course_announcement.html",
+      "/orga_material/call_for_submissions.html",
+      "/orga_material/instructions_before_course.html"
     ]
   }
 ]

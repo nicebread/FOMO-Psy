@@ -2,94 +2,122 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nicebread.github.io/FOMO-Psy/lectures/Versioning/(Theory) Versioning.slide.html</loc>
-    <lastmod>2023-09-19T12:46:59.230Z</lastmod>
+    <lastmod>2023-09-21T18:42:17.281Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/FOMO-Psy/lectures/Versioning/(Theory) Versioning.html</loc>
-    <lastmod>2023-09-19T12:46:59.103Z</lastmod>
+    <lastmod>2023-09-21T18:42:17.120Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/FOMO-Psy/lectures/lecture_overview.html</loc>
-    <lastmod>2023-09-19T12:46:58.264Z</lastmod>
+    <lastmod>2023-09-21T18:42:15.917Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/FOMO-Psy/lectures/Introduction/Introduction.slide.html</loc>
-    <lastmod>2023-09-19T12:46:55.728Z</lastmod>
+    <lastmod>2023-09-21T18:42:12.664Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/FOMO-Psy/lectures/Introduction/Introduction.html</loc>
-    <lastmod>2023-09-19T12:46:55.010Z</lastmod>
+    <lastmod>2023-09-21T18:42:11.499Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/orga_material.html</loc>
-    <lastmod>2023-09-19T12:46:52.940Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/skills/Bischof-Notation/Bischof-Notation.slide.html</loc>
+    <lastmod>2023-09-21T18:42:08.775Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/sessions/S1-Introduction.html</loc>
-    <lastmod>2023-09-19T12:46:52.394Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/skills/Bischof-Notation/Bischof-Notation.html</loc>
+    <lastmod>2023-09-21T18:42:07.575Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/about.html</loc>
-    <lastmod>2023-09-19T12:46:51.811Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/TODO.html</loc>
-    <lastmod>2023-09-19T12:46:51.233Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/workshops/workshop_overview.html</loc>
-    <lastmod>2023-09-19T12:46:50.643Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/orga_material/call_for_submissions.html</loc>
-    <lastmod>2023-09-19T12:46:47.273Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/orga_material/course_announcement.html</loc>
-    <lastmod>2023-09-19T12:46:46.862Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/workshops/Buri/Buri.html</loc>
-    <lastmod>2023-09-19T12:46:49.537Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/workshops/Buri/Buri.slide.html</loc>
-    <lastmod>2023-09-19T12:46:50.336Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/tools.html</loc>
-    <lastmod>2023-09-19T12:46:50.983Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/index.html</loc>
-    <lastmod>2023-09-19T12:46:51.548Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/common/lastslide.html</loc>
-    <lastmod>2023-09-19T12:46:52.068Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/skills/skills_overview.html</loc>
+    <lastmod>2023-09-21T18:42:03.514Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/FOMO-Psy/sessions/sessions_overview.html</loc>
-    <lastmod>2023-09-19T12:46:52.662Z</lastmod>
+    <lastmod>2023-09-21T18:42:02.761Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/common/lastslide.html</loc>
+    <lastmod>2023-09-21T18:42:01.966Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/index.html</loc>
+    <lastmod>2023-09-21T18:42:01.325Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/tools.html</loc>
+    <lastmod>2023-09-21T18:42:00.629Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/workshops/Buri/Buri.slide.html</loc>
+    <lastmod>2023-09-21T18:41:59.823Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/workshops/Buri/Buri.html</loc>
+    <lastmod>2023-09-21T18:41:58.367Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/orga_material/instructions_before_course.html</loc>
+    <lastmod>2023-09-21T18:41:56.604Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/orga_material/course_announcement.html</loc>
+    <lastmod>2023-09-21T18:41:55.738Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/orga_material/call_for_submissions.html</loc>
+    <lastmod>2023-09-21T18:41:56.236Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/orga_material/orga_material.html</loc>
+    <lastmod>2023-09-21T18:41:57.008Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/workshops/workshop_overview.html</loc>
+    <lastmod>2023-09-21T18:42:00.208Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/TODO.html</loc>
+    <lastmod>2023-09-21T18:42:00.935Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/about.html</loc>
+    <lastmod>2023-09-21T18:42:01.643Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/sessions/S1-Introduction.html</loc>
+    <lastmod>2023-09-21T18:42:02.406Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/sessions/S2-Introduction.html</loc>
+    <lastmod>2023-09-21T18:42:03.174Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/skills/Scaling/Scaling.html</loc>
+    <lastmod>2023-09-21T18:42:04.331Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/skills/Scaling/Scaling.slide.html</loc>
+    <lastmod>2023-09-21T18:42:05.352Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/FOMO-Psy/lectures/Theory_Properties/Theory_Properties.html</loc>
-    <lastmod>2023-09-19T12:46:53.581Z</lastmod>
+    <lastmod>2023-09-21T18:42:09.655Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/FOMO-Psy/lectures/Theory_Properties/Theory_Properties.slide.html</loc>
-    <lastmod>2023-09-19T12:46:53.845Z</lastmod>
+    <lastmod>2023-09-21T18:42:10.024Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/FOMO-Psy/lectures/TCM/TCM.html</loc>
-    <lastmod>2023-09-19T12:46:57.609Z</lastmod>
+    <lastmod>2023-09-21T18:42:15.080Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/FOMO-Psy/lectures/TCM/TCM.slide.html</loc>
-    <lastmod>2023-09-19T12:46:57.940Z</lastmod>
+    <lastmod>2023-09-21T18:42:15.510Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/FOMO-Psy/lectures/test.html</loc>
-    <lastmod>2023-09-19T12:46:58.546Z</lastmod>
+    <lastmod>2023-09-21T18:42:16.301Z</lastmod>
   </url>
 </urlset>

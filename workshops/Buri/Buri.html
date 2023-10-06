@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felix Schönbrodt">
-<meta name="dcterms.date" content="2023-09-21">
+<meta name="dcterms.date" content="2023-10-06">
 
 <title>FOMO-Psy: Formal Modeling of Psychological Theories - Buridan’s ass</title>
 <style>
@@ -183,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
   </ul></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Buri.slide.html"><i class="bi bi-file-slides"></i>RevealJS (clean)</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Buri.slide.html"><i class="bi bi-file-slides"></i>RevealJS (FOMO)</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -215,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 21, 2023</p>
+      <p class="date">October 6, 2023</p>
     </div>
   </div>
   
@@ -314,16 +314,16 @@ Note
 <section id="fa-people-group-size1x-group-exercise-cover-your-ass-level-1" class="level2">
 <h2 class="anchored" data-anchor-id="fa-people-group-size1x-group-exercise-cover-your-ass-level-1"><span class="r-fit-text"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Group exercise: Cover your ass, Level 1</span></h2>
 <div class="r-fit-text">
-<p><strong>Scenario</strong>: The environment has a source of food and a source of water, in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body; this consumption is higher during physical activity. As soon as one of the two reserves in the body drops to zero, the donkey dies.</p>
+<p><strong>Scenario</strong>: The environment has two sources (food and water), in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body. As soon as one of the two reserves in the body drops to zero, the donkey dies.</p>
 <p><strong>(Simplifying) assumptions</strong>:</p>
 <ul>
-<li>The donkey has a fixed velocity.</li>
-<li>Linear decrease in both water and food reserves in the body, higher under activity.</li>
-<li>No other needs or tasks (no predators etc., no sleep necessary).</li>
-<li>Eating &amp; drinking takes a substantial amount of time (1 unit/time step).</li>
+<li>Linear decrease in both water and food reserves in the body, higher under activity (e.g., traveling).</li>
+<li>No other needs or tasks (e.g., no predators, no sleep necessary).</li>
+<li>Eating, drinking, and traveling takes a substantial amount of time.</li>
 <li>The donkey has a representation of the environment and knows where the two sources are.</li>
 </ul>
 <p><strong>Task</strong>: Construct an organism, with as few assumptions as possible, that survives as long as possible. Which constructs / sensors / abilities are necessary for this?</p>
+<p><strong>Deliverable</strong>: A markdown text file with a verbal description of the organism. Give it the version number <code>0.1.0</code> (cf.&nbsp;<a href="https://semver.org"><span class="button">Semantic Versioning</span></a>).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/buri1.png" height="70" class="figure-img"></p>
@@ -352,7 +352,7 @@ Note
 </div>
 </div>
 <div class="r-fit-text">
-<p><span class="bg" style="--col: #fff100">→ Assume realistic capabilities, which respect the evolutionary path dependency.</span></p>
+<p><span class="hl">→ Assume realistic capabilities, which respect the evolutionary path dependency.</span></p>
 <p>E.g., don’t assume …</p>
 <ul>
 <li>Mammal organisms that need 3 hands to perform a task</li>
@@ -370,22 +370,17 @@ Note
 <section id="draw-a-graphical-model-bischof-style" class="level3">
 <h3 class="anchored" data-anchor-id="draw-a-graphical-model-bischof-style">Draw a graphical model, Bischof-style</h3>
 <div class="r-fit-text">
-<ul>
-<li>Consider the underlying psychological research question: How can an organism solve an approach-approach conflict?</li>
-<li>Sketch your intial model in the <a href="../../skills/Bischof-Notation/Bischof-Notation.html">style of Bischof</a>. Refine where necessary, e.g.:
+<p>Consider the underlying psychological research question: <em>How can an organism solve an approach-approach conflict?</em></p>
+<p><strong>Task</strong>: Sketch your initial verbal model in the <a href="../../skills/Bischof-Notation/Bischof-Notation.html">style of Bischof</a>. Refine and extend where necessary, e.g.:</p>
 <ul>
 <li>Think about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary</li>
-<li>Are the inputs to sensors cues that are realistically observable by a simple organism?</li>
-<li>Give a label to every variable (i.e., every arrow).</li>
-</ul></li>
-<li>Draw the model collaboratively in <a href="https://www.drawio.com">draw.io</a>
+<li>Give a label to every variable (i.e., every arrow in the graphical model).</li>
+</ul>
+<p><strong>Deliverables</strong>:</p>
 <ul>
-<li>In a corner, add the version number 0.1 and today’s date (simply as a text box)</li>
-</ul></li>
-<li>Export the model as an xml file and push it to your group’s Github repo
-<ul>
-<li>Write a meaningful commit message, e.g.&nbsp;<code>Initial commit; model version 0.1</code></li>
-</ul></li>
+<li>Draw the model collaboratively in <a href="https://www.drawio.com">draw.io</a>. In one corner, add the version number <code>0.2.0</code> and today’s date (simply as a text box).</li>
+<li>Export the model as an <code>xml</code> file and push it to your group’s Github repo.</li>
+<li>Write a meaningful commit message, e.g.&nbsp;<code>Initial commit; model version 0.2.0</code></li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -402,22 +397,27 @@ Note
 <h2 class="anchored" data-anchor-id="fa-people-group-size1x-group-exercise-cover-your-ass-level-3"><span class="r-fit-text"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Group exercise: Cover your ass, Level 3</span></h2>
 <section id="construct-and-variable-definitions" class="level3">
 <h3 class="anchored" data-anchor-id="construct-and-variable-definitions">Construct and variable definitions</h3>
-<div class="r-fit-text">
-<p>In the lecture, you learned how a good construct definition looks like. Apply that new skill to your model!</p>
+<div class="columns">
+<div class="column smallest" style="width:60%;">
+<p>In the previous lecture, you learned how a good construct definition looks like. Apply that new skill to your model!</p>
+<p><strong>Task</strong>:</p>
 <ul>
 <li>Develop proper definitions for <em>all</em> variables and concepts in your model</li>
-<li>If necessary, udpate the model structure in <a href="https://www.drawio.com">draw.io</a>, export a new <code>xml</code> file.</li>
-<li>Provide the definitions of the model’s variables and constructs in a separate markdown file.</li>
-<li>Push both files to your group’s Github repo.
-<ul>
-<li>Write a meaningful commit message that explains the changes.</li>
-<li>Create a <code>CHANGELOG.md</code> file that explains the changes in the model in more detail.</li>
-</ul></li>
+<li>If necessary, update the model structure in <a href="https://www.drawio.com">draw.io</a>; increase either the <em>minor</em> version (e.g., to <code>0.3.0</code>) or only the <em>patch</em> version (e.g., <code>0.2.1</code>); export a new <code>xml</code> file.</li>
+<li>Provide the definitions of the model’s variables and constructs in a separate markdown file (<code>Definitions.md</code>).</li>
 </ul>
+<p><strong>Deliverables</strong>:</p>
+<ul>
+<li>Create a <code>CHANGELOG.md</code> file that explains the changes in the model in more detail.</li>
+<li>Push all new files to your group’s Github repo.</li>
+<li>Write a meaningful commit message that explains the changes.</li>
+</ul>
+</div><div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center" style="filter: drop-shadow(6px 6px 8px #555555);">
 <figure class="figure">
-<p><img src="img/changelog_example.png" height="250" class="figure-img"></p>
+<p><img src="img/changelog_example.png" class="img-fluid figure-img"></p>
 </figure>
+</div>
 </div>
 </div>
 </section>
@@ -429,24 +429,27 @@ Note
 <h2 class="anchored" data-anchor-id="fa-people-group-size1x-group-exercise-cover-your-ass-level-4"><span class="r-fit-text"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Group exercise: Cover your ass, Level 4</span></h2>
 <section id="variable-scaling-netlogo-implementation" class="level3">
 <h3 class="anchored" data-anchor-id="variable-scaling-netlogo-implementation">Variable Scaling &amp; Netlogo Implementation</h3>
-<div class="r-fit-text">
+<div class="smallest">
+<p><strong>Tasks</strong>:</p>
 <ul>
-<li>Define the <strong>variables</strong> in the formal model:
+<li>Define the <strong>variables</strong> in the implemented model:
 <ul>
 <li>Scale level</li>
-<li>Possible range/values (define the set)</li>
+<li>Possible range or discrete values (define the set)</li>
 <li>Interpretability (what does a value of 0.7 mean?)
 <ul>
-<li>Maybe define operationalization that gives a meaning to the numbers</li>
+<li>Maybe define operationalizations that give a meaning to the numbers</li>
 </ul></li>
 </ul></li>
-<li>Define compuations for each <strong>box</strong>: How exactly are input variables transformed into the output variables? You need a concrete formula for that. Theories rarely are so specific that you can directly derive a formula; need to fill many gaps.</li>
+<li>Define computations for each <strong>box</strong>: How exactly are input variables transformed into the output variables? You need a concrete formula for that. Theories rarely are so specific that you can directly derive a formula; you probably need to fill many gaps with ad-hoc assumptions.</li>
 <li><strong>Implement</strong> the model in Netlogo</li>
-<li>Push the <code>.nlogo</code> to your group’s Github repo.
+</ul>
+<p><strong>Deliverables</strong>:</p>
 <ul>
-<li>Write a meaningful commit message that explains the changes.</li>
-<li>Create a <code>CHANGELOG.md</code> file that explains the changes in the model in more detail. Justify the changes!</li>
-</ul></li>
+<li>Push the <code>.nlogo</code> file to your group’s Github repo.</li>
+<li>Update all written model descriptions, increase model version.</li>
+<li>Explain &amp; justify the changes in the model in your <code>CHANGELOG.md</code>.</li>
+<li>Write a meaningful commit message.</li>
 </ul>
 </div>
 <!-- Footer insert below -->
@@ -466,14 +469,18 @@ Note
 <i class="fa-li fa fa-envelope-o"></i> <a style="unicode-bidi:bidi-override; direction: rtl; color:black" href="javascript:window.location.href = 'mailto:' + ['felix.schoenbrodt','psy.lmu.de'].join('@')">ed.uml.ysp@tdorbneohcs.xilef</a>
 </li>
 <li>
-<i class="fa-li fa fa-github"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">nicebread</a>
+<i class="fa-li fa-solid fa-globe"></i> <a href="https://www.nicebread.de" target="_blank" style="color:black; border-bottom:none;">https://www.nicebread.de</a>
 </li>
 </ul>
+<li>
+<i class="fa-li fa fa-github" aria-hidden="true"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">nicebread</a>
+</li>
+
 <p><small style="text-align:left;"></small></p><small style="text-align:left;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" class="img-fluid figure-img"></a></p>
-<figcaption class="figure-caption">CC BY 4.0</figcaption>
+<p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">CC-BY-SA 4.0</figcaption>
 </figure>
 </div>
 </small><p><small style="text-align:left;"></small></p>

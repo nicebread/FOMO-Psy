@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felix Schönbrodt">
-<meta name="dcterms.date" content="2023-09-21">
+<meta name="dcterms.date" content="2023-10-06">
 
 <title>FOMO-Psy: Formal Modeling of Psychological Theories - Bischof notation</title>
 <style>
@@ -171,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
   </ul></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Bischof-Notation.slide.html"><i class="bi bi-file-slides"></i>RevealJS (clean)</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Bischof-Notation.slide.html"><i class="bi bi-file-slides"></i>RevealJS (FOMO)</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -203,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 21, 2023</p>
+      <p class="date">October 6, 2023</p>
     </div>
   </div>
   
@@ -221,17 +221,17 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="for-cybernetic-models">…for cybernetic models</h3>
 <div class="columns">
 <div class="column r-fit-text" style="width:60%;">
-<p>Mason diagrams (used in DAGs, SEM) vs.&nbsp;Bischof diagrams:</p>
+<p>Mason diagrams (used in DAGs, SEM, VAST) vs.&nbsp;Bischof diagrams:</p>
 <table class="table">
 <colgroup>
-<col style="width: 54%">
-<col style="width: 21%">
-<col style="width: 24%">
+<col style="width: 51%">
+<col style="width: 25%">
+<col style="width: 23%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Type</th>
-<th>Mason (left panel)</th>
+<th>Mason/VAST (left panel)</th>
 <th>Bischof (right panel)</th>
 </tr>
 </thead>
@@ -248,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>Both are interchangeable; we will typically use the Bischof style.</p>
+<p>Both are interchangeable; we will use both styles.</p>
 </div><div class="column" style="width:40%;">
 <p><img src="img/Mason-Diagramme.jpg" class="img-fluid"></p>
 </div>
@@ -375,14 +375,18 @@ ul.task-list li input[type="checkbox"] {
 <i class="fa-li fa fa-envelope-o"></i> <a style="unicode-bidi:bidi-override; direction: rtl; color:black" href="javascript:window.location.href = 'mailto:' + ['felix.schoenbrodt','psy.lmu.de'].join('@')">ed.uml.ysp@tdorbneohcs.xilef</a>
 </li>
 <li>
-<i class="fa-li fa fa-github"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">nicebread</a>
+<i class="fa-li fa-solid fa-globe"></i> <a href="https://www.nicebread.de" target="_blank" style="color:black; border-bottom:none;">https://www.nicebread.de</a>
 </li>
 </ul>
+<li>
+<i class="fa-li fa fa-github"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">nicebread</a>
+</li>
+
 <p><small style="text-align:left;"></small></p><small style="text-align:left;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" class="img-fluid figure-img"></a></p>
-<figcaption class="figure-caption">CC BY 4.0</figcaption>
+<p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">CC-BY-SA 4.0</figcaption>
 </figure>
 </div>
 </small><p><small style="text-align:left;"></small></p>
@@ -392,44 +396,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
-
-<script>
-  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-  // slide changes (different for each slide format).
-  (function () {
-    // dispatch for htmlwidgets
-    function fireSlideEnter() {
-      const event = window.document.createEvent("Event");
-      event.initEvent("slideenter", true, true);
-      window.document.dispatchEvent(event);
-    }
-
-    function fireSlideChanged(previousSlide, currentSlide) {
-      fireSlideEnter();
-
-      // dispatch for shiny
-      if (window.jQuery) {
-        if (previousSlide) {
-          window.jQuery(previousSlide).trigger("hidden");
-        }
-        if (currentSlide) {
-          window.jQuery(currentSlide).trigger("shown");
-        }
-      }
-    }
-
-    // hookup for slidy
-    if (window.w3c_slidy) {
-      window.w3c_slidy.add_observer(function (slide_num) {
-        // slide_num starts at position 1
-        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-      });
-    }
-
-  })();
-</script>
-
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

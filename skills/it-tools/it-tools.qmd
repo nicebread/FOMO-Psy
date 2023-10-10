@@ -158,7 +158,7 @@ Is every commit a new version? That would be very tedious, especially if you are
 ## How to create a release?
 
 
-* use [GitHub's inbuild relase mechanism](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
+* use [GitHub's inbuild release mechanism](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
 * remember to set the tag to the correct version number
 * copy the content of your `CHANGELOG.md` into the release notes.
 * optional: create a DOI for your release, and archive it with [Zenodo](https://docs.github.com/de/repositories/archiving-a-github-repository/referencing-and-citing-content)

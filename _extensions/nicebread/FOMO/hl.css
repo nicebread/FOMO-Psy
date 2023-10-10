@@ -1,0 +1,9 @@
+/*  */
+
+.hl {
+  background: url("pen-brushes.svg");
+  margin: -2px -6px;
+  padding:  2px  6px;
+  display: inline-block;
+}
+

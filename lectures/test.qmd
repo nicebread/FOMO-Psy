@@ -1,7 +1,7 @@
 ---
 title: A title
 subtitle: A subtitle
-format: clean-revealjs
+format: FOMO-revealjs
 author:
   - name: Your Name
     orcid: 0000-0000-0000-0000

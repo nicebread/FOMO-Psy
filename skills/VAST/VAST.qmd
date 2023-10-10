@@ -1,0 +1,39 @@
+---
+title: "Visual Argument Structure Tool (VAST) V1.0"
+subtitle: "by Leising, Grenke & Cramer"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: today
+footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format: 
+  FOMO-revealjs: 
+    output-ext: slide.html
+    transition: slide
+    background-transition: fade
+    touch: true
+    embed-resources: true
+  html: default
+revealjs-plugins:
+  - attribution 
+---
+
+## Fuzziness
+
+- The goal are *precise* theories - but in reality, they are (partially) vague and fuzzy
+- VAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. "weakly positive", "strong"
+  - Better than assigning an arbitrary, pseudo-accurat number
+  - It's about formalizing the current state/precision of a verbal theory - if it is imprecise, let's show it!
+
+## Theory vs. Model
+
+In order to translate a theory into a model, one needs to ...
+
+- give a scale to every variable (e.g. by defining it's measurement/operationalization)
+- 
+
+<!-- Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```

@@ -9,7 +9,7 @@ date: today
 date-format: iso
 footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format:   
-  clean-revealjs: 
+  FOMO-revealjs: 
     output-ext: slide.html
     transition: slide
     background-transition: fade
@@ -36,6 +36,13 @@ See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framewo
 - Falsificationism starts with a (tentative) theory, which is repeatedly tested, refuted, and refined.
 - But where does the initial theory come from? "Flair"? Flash of inspiration in the shower?
 - Popper did not care much about the first stage of creating theories - just about the later testing of theories.
+
+
+**Conjecture**: We have a refined methodology¹ to *test* theories (e.g., experimental designs, statistical methods, preregistration, ...). [But we had (so far) no good methodology for constructing theories.]{.bg style="--col: #fff100"}
+
+::: {style="font-size: 50%;"}
+¹ "A scientific methodology is an ordered series of steps that assist a researcher in reaching a desired end state from a specified starting point." (Borsboom et al., 2021)
+:::
 :::
 
 ::: {.column width='30%'}
@@ -43,13 +50,7 @@ See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framewo
 :::
 ::::
 
-. . .
 
-**Conjecture**: We have a refined methodology¹ to *test* theories (e.g., experimental designs, statistical methods, preregistration, ...). [But we had (so far) no good methodology for constructing theories.]{.bg style="--col: #fff100"}
-
-::: {style="font-size: 50%;"}
-¹ "A scientific methodology is an ordered series of steps that assist a researcher in reaching a desired end state from a specified starting point." (Borsboom et al., 2021)
-:::
 
 
 ## TCM: A methodology for constructing theories
@@ -95,9 +96,9 @@ Cited from Sutton, R. I., & Staw, B. M. (1995). What theory is not. Administrati
 
 ## What is *not* a theory? 1
 
-::: {.r-fit-text}
-*(Note: While these features of a scholarly article do not constitute a theory, they might be important in their own right)*
+[*(Note: While these features of a scholarly article do not constitute a theory, they might be important in their own right)*]{style="font-size: 70%;"}
 
+::: {style="font-size: 70%;"}
 1. References Are Not Theory
 
 > A manuscript that Robert Sutton edited had strong data, but all three reviewers emphasized that it had "weak theory" and "poorly motivated hypotheses." The author responded to these concerns by writing a new introduction that added citations to many papers containing theory and many terms like "psycho-social theory," "identity theory," and "social comparison theory."

@@ -10,7 +10,7 @@ date: today
 date-format: iso
 footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
-  clean-revealjs: 
+  FOMO-revealjs: 
     output-ext: slide.html
     transition: slide
     background-transition: fade
@@ -41,6 +41,7 @@ A good theory ...
 - specifies the domain
 - builds internally consistent relationships
 - makes specific predictions about phenomena that have not yet been observed (only specific predictions, which can also be false, allow falsifications)
+- unifies (seemingly) disparate phenomena
 
 ::: {.callout-note}
 # {{< fa people-group size=1x >}} Wenn der Hahn kräht auf dem Mist, ändert sich's Wetter oder bleibt wie es ist.
@@ -54,9 +55,18 @@ A good theory ...
 Slide from Karolin Salmen's [talk](https://zpid.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=436e9d94-31be-4e66-b4c3-aee500ba2e9b) @ ZPID
 :::
 
+
+# One of my favorite theories:
+
+[$rB>C$]{.hl}
+
+<!-- TODO Hamilton -->
+
+
 # A good theory is falsifiable?
 
 Very difficult topic ...
+
 - Quine-Duhem problem: A failed test always can either be attributed to (a) a core hypothesis (which would falsify / weaken the theory) or (b) an auxiliary hypothesis ("The manipulation did not work; the measurement was unreliable")
 - Lakatosian defense (blaming the auxiliary, creating new ad-hoc auxiliary hypotheses)
 

@@ -9,7 +9,7 @@ author:
 date: today
 footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
-  clean-revealjs: 
+  FOMO-revealjs: 
     output-ext: slide.html
     transition: slide
     background-transition: fade
@@ -27,14 +27,14 @@ revealjs-plugins:
 
 :::: {.columns}
 ::: {.column width='60%' .r-fit-text}
-Mason diagrams (used in DAGs, SEM) vs. Bischof diagrams:
+Mason diagrams (used in DAGs, SEM, VAST) vs. Bischof diagrams:
 
-| Type                                           | Mason (left panel) | Bischof (right panel) |
-| ---------------------------------------------- | ------------------ | --------------------- |
-| Signals/variables displayes as ...             | Circles            | Arrows                |
-| Transfer elements/computations displayed as .. | Arrows             | Circles               |
+| Type                                           | Mason/VAST (left panel) | Bischof (right panel) |
+| ---------------------------------------------- | ----------------------- | --------------------- |
+| Signals/variables displayes as ...             | Circles                 | Arrows                |
+| Transfer elements/computations displayed as .. | Arrows                  | Circles               |
 
-Both are interchangeable; we will typically use the Bischof style.
+Both are interchangeable; we will use both styles.
 :::
 
 ::: {.column width='40%'}

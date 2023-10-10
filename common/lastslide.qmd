@@ -10,16 +10,20 @@
 
 <li><i class="fa-li fa fa-envelope-o"></i> <a style="unicode-bidi:bidi-override; direction: rtl; color:black" href="javascript:window.location.href = 'mailto:' + ['felix.schoenbrodt','psy.lmu.de'].join('@')">ed.uml.ysp@tdorbneohcs.xilef</a></li>
 
-<li><i class="fa-li fa fa-github"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">nicebread</a></li>
+<li><i class="fa-li fa-solid fa-globe"></i> <a href="https://www.nicebread.de" target="_blank" style="color:black; border-bottom:none;">https://www.nicebread.de</a></li>
+</ul>
+
+
+<li><i class="fa-li fa fa-github" aria-hidden="true"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">nicebread</a></li>
 </ul>
 
 <small style="text-align:left;">
 
 
-[![CC BY 4.0][cc-by-image]][cc-by]
+[![CC-BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://licensebuttons.net/l/by/4.0/88x31.png
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY%20SA4.0-lightgrey.svg
 
 </small>

@@ -1,8 +1,10 @@
 {
-  "hash": "2455b942bfecafb1f2961724bd8e937c",
+  "hash": "64698dd7687927b788fd62b4ad10e118",
   "result": {
     "markdown": "---\ntitle: \"Workshop Overview\"\n---\n\n\nThese are all slides used for the \"workshop\" part of the course:\n\n\n::: {.cell}\n::: {.cell-output-display}\n`````{=html}\n<table class=\"table\" style=\"margin-left: auto; margin-right: auto;\">\n <thead>\n  <tr>\n   <th style=\"text-align:left;\"> Date </th>\n   <th style=\"text-align:left;\"> Topic </th>\n   <th style=\"text-align:left;\"> Slides (as a single website) </th>\n   <th style=\"text-align:left;\"> Slides (presentation mode) </th>\n  </tr>\n </thead>\n<tbody>\n  <tr>\n   <td style=\"text-align:left;\"> today </td>\n   <td style=\"text-align:left;\"> Buridan's ass </td>\n   <td style=\"text-align:left;\"> <a href=\"Buri/Buri.html\" target=\"_blank\" class=\"external\">link</a> </td>\n   <td style=\"text-align:left;\"> <a href=\"Buri/Buri.slide.html\" target=\"_blank\" class=\"external\">link</a> </td>\n  </tr>\n</tbody>\n</table>\n\n`````\n:::\n:::\n",
-    "supporting": [],
+    "supporting": [
+      "workshop_overview_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

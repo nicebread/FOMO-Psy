@@ -4,7 +4,7 @@ title: "Skills Overview"
 
 These are all slides used for the "skills" part of the course:
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
+```{r, echo=FALSE, warning=FALSE, message=FALSE, cache=FALSE}
 # code inspired by https://github.com/ShKlinkenberg/statistics-lectures/blob/master/courses/SSR/2022-2023/SSR.qmd
 files <- list.files(full.names = FALSE, pattern = "\\.qmd", recursive = T)
 

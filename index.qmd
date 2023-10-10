@@ -5,7 +5,7 @@ subtitle: "A 15-week course"
 
 *Note: The material will (initially) be some mixture of German and English. Your mileage may vary.*
 
-The course has 15 [sessions](sessions/sessions_overview.qmd), each lasting 4h. In between sessions, homework is given.
+The course has 15 [sessions](sessions/sessions_overview.qmd), each lasting 3.5h. In between sessions, homework is given.
 
 Each session will be a **mix of three elements**:
 
@@ -21,7 +21,7 @@ TBD
 
 # Relevant literature
 
-## Modeling methodologgy
+## Modeling methodology
 
 - Borsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647
 - Guest, O., & Martin, A. E. (2021). How Computational Modeling Can Force Theory Building in Psychological Science. Perspectives on Psychological Science, 16(4), 789–802. https://doi.org/10.1177/1745691620970585

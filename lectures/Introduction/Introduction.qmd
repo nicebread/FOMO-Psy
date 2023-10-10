@@ -10,7 +10,7 @@ date: today
 date-format: iso
 footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
-  clean-revealjs: 
+  FOMO-revealjs: 
     output-ext: slide.html
     transition: slide
     background-transition: fade

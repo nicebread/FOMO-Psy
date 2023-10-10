@@ -9,12 +9,14 @@ author:
 date: today
 footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
-  clean-revealjs: 
+  FOMO-revealjs: 
     output-ext: slide.html
     transition: slide
     background-transition: fade
     touch: true
     embed-resources: true
+    template-partials:
+      - title-slide.html
   html: default
 revealjs-plugins:
   - attribution 
@@ -93,17 +95,18 @@ Bischof (in prep, S. 143)
 ## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 1]{.r-fit-text}
 
 ::: {.r-fit-text}
-**Scenario**: The environment has a source of food and a source of water, in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body; this consumption is higher during physical activity. As soon as one of the two reserves in the body drops to zero, the donkey dies.
+**Scenario**: The environment has two sources (food and water), in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body. As soon as one of the two reserves in the body drops to zero, the donkey dies.
 
 **(Simplifying) assumptions**: 
 
-- The donkey has a fixed velocity.
-- Linear decrease in both water and food reserves in the body, higher under activity.
-- No other needs or tasks (no predators etc., no sleep necessary).
-- Eating & drinking takes a substantial amount of time (1 unit/time step).
+- Linear decrease in both water and food reserves in the body, higher under activity (e.g., traveling).
+- No other needs or tasks (e.g., no predators, no sleep necessary).
+- Eating, drinking, and traveling takes a substantial amount of time.
 - The donkey has a representation of the environment and knows where the two sources are.
 
 **Task**: Construct an organism, with as few assumptions as possible, that survives as long as possible. Which constructs / sensors / abilities are necessary for this?
+
+**Deliverable**: A markdown text file with a verbal description of the organism. Give it the version number `0.1.0` (cf. [[Semantic Versioning]{.button}](https://semver.org)).
 
 ![](img/buri1.png){fig-align="center" height="70"}
 :::
@@ -126,7 +129,7 @@ Wäre ich ein Ingenieur, der, *aufbauend auf der letzten funktionstüchtigen V
 :::
 
 ::: {.r-fit-text}
-[&rarr; Assume realistic capabilities, which respect the evolutionary path dependency.]{.bg style='--col: #fff100'}
+[&rarr; Assume realistic capabilities, which respect the evolutionary path dependency.]{.hl}
 
 E.g., don't assume ...
 
@@ -146,15 +149,18 @@ Bischof (in prep, S. 143)
 ### Draw a graphical model, Bischof-style
 
 ::: {.r-fit-text}
-- Consider the underlying psychological research question: How can an organism solve an approach-approach conflict?
-- Sketch your intial model in the [style of Bischof](../../skills/Bischof-Notation/Bischof-Notation.qmd). Refine where necessary, e.g.:
+Consider the underlying psychological research question: *How can an organism solve an approach-approach conflict?*
+
+**Task**: Sketch your initial verbal model in the [style of Bischof](../../skills/Bischof-Notation/Bischof-Notation.qmd). Refine and extend where necessary, e.g.:
+
   - Think about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary
-  - Are the inputs to sensors cues that are realistically observable by a simple organism?
-  - Give a label to every variable (i.e., every arrow).
-- Draw the model collaboratively in [draw.io](https://www.drawio.com)
-  - In a corner, add the version number 0.1 and today's date (simply as a text box)
-- Export the model as an xml file and push it to your group's Github repo
-  - Write a meaningful commit message, e.g. `Initial commit; model version 0.1`
+  - Give a label to every variable (i.e., every arrow in the graphical model).
+
+**Deliverables**: 
+
+- Draw the model collaboratively in [draw.io](https://www.drawio.com). In one corner, add the version number `0.2.0` and today's date (simply as a text box).
+- Export the model as an `xml` file and push it to your group's Github repo.
+- Write a meaningful commit message, e.g. `Initial commit; model version 0.2.0`
 
 ![](img/buri1.png){fig-align="center" height="70"}
 :::
@@ -167,19 +173,29 @@ Bischof (in prep, S. 143)
 ## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 3]{.r-fit-text}
 ### Construct and variable definitions
 
-::: {.r-fit-text}
-In the lecture, you learned how a good construct definition looks like. Apply that new skill to your model!
+:::: {.columns}
 
+::: {.column width='60%' .smallest}
+In the previous lecture, you learned how a good construct definition looks like. Apply that new skill to your model!
+
+**Task**:
 
 - Develop proper definitions for *all* variables and concepts in your model
-- If necessary, udpate the model structure in [draw.io](https://www.drawio.com), export a new `xml` file.
-- Provide the definitions of the model's variables and constructs in a separate markdown file. 
-- Push both files to your group's Github repo. 
-  - Write a meaningful commit message that explains the changes.
-  - Create a `CHANGELOG.md` file that explains the changes in the model in more detail.
+- If necessary, update the model structure in [draw.io](https://www.drawio.com); increase either the *minor* version (e.g., to `0.3.0`) or only the *patch* version (e.g., `0.2.1`); export a new `xml` file.
+- Provide the definitions of the model's variables and constructs in a separate markdown file (`Definitions.md`).
 
-![](img/changelog_example.png){fig-align="center" height="250" style="filter: drop-shadow(6px 6px 8px #555555);"}
+**Deliverables**:
+
+- Create a `CHANGELOG.md` file that explains the changes in the model in more detail.
+- Push all new files to your group's Github repo. 
+- Write a meaningful commit message that explains the changes.
 :::
+
+::: {.column width='40%'}
+![](img/changelog_example.png){fig-align="center" style="filter: drop-shadow(6px 6px 8px #555555);"}
+:::
+
+::::
 
 
 # Buridan's ass, level 4 {background-color="#40666e"}
@@ -187,17 +203,24 @@ In the lecture, you learned how a good construct definition looks like. Apply th
 ## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 4]{.r-fit-text}
 ### Variable Scaling & Netlogo Implementation
 
-::: {.r-fit-text}
-- Define the **variables** in the formal model: 
+::: {.smallest}
+
+**Tasks**:
+
+- Define the **variables** in the implemented model: 
   - Scale level
-  - Possible range/values (define the set)
+  - Possible range or discrete values (define the set)
   - Interpretability (what does a value of 0.7 mean?)
-    - Maybe define operationalization that gives a meaning to the numbers
-- Define compuations for each **box**: How exactly are input variables transformed into the output variables? You need a concrete formula for that. Theories rarely are so specific that you can directly derive a formula; need to fill many gaps.
+    - Maybe define operationalizations that give a meaning to the numbers
+- Define computations for each **box**: How exactly are input variables transformed into the output variables? You need a concrete formula for that. Theories rarely are so specific that you can directly derive a formula; you probably need to fill many gaps with ad-hoc assumptions.
 - **Implement** the model in Netlogo
-- Push the `.nlogo` to your group's Github repo. 
-  - Write a meaningful commit message that explains the changes.
-  - Create a `CHANGELOG.md` file that explains the changes in the model in more detail. Justify the changes!
+
+**Deliverables**:
+
+- Push the `.nlogo` file to your group's Github repo.
+- Update all written model descriptions, increase model version.
+- Explain & justify the changes in the model in your `CHANGELOG.md`. 
+- Write a meaningful commit message.
 :::
 
 

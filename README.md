@@ -13,12 +13,12 @@ You need:
 - [Attribution Extension](https://github.com/quarto-ext/attribution)
 - [Quarto clean theme](https://github.com/grantmcdermott/quarto-revealjs-clean/tree/main)
 
-Run the following commands in the directory of your presentation:
+Run the following commands in the project's root directory:
 
 ```
 quarto add quarto-ext/attribution
 quarto add quarto-ext/fontawesome
-quarto install extension grantmcdermott/quarto-revealjs-clean
+quarto install extension nicebread/quarto-revealjs-clean-FS
 ```
 
 ## Notes to self:

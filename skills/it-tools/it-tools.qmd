@@ -123,6 +123,8 @@ See [https://semver.org](https://semver.org)
 So what changes warrant what kind of version increments?
 For theories it makes sense to think in terms of predictions.
 
+::: {.smaller}
+
 patch
 : The predictions your theory makes do not change, instead you have clarified things, defined terminology, fixed typos, added references etc.
 
@@ -130,9 +132,9 @@ minor
 : The predictions your theory makes have expanded but previous predictions are substantively compatible, i.e. the theory makes the same prediction as older versions for the same settings. All things that would have confirmed, or falsified the older version, still apply to the new version. You have included more settings your theory covers, you added more previously unrecognized variables; you became more certain about some predictions (i.e. range predictions became narrower); you added more operationalizations for constructs etc.
 
 major
-: Evidence that would have confirmed or falsified the previous version does differently affect this version. You changed core tenets of the definition of constructs or their operationalization, changed the functional relationship between two variables, changed the type of a relation (causation to correlation) or the timescale of a process.
+: Evidence that would have confirmed or falsified the previous version does differently affect this version. You changed core tenets of the definition of constructs or their operationalization, changed the functional relationship between two variables, changed the type of a relation (causation to correlation) or the timescale of a process, etc.
 
-  
+:::
 
 ## Git best practice
 

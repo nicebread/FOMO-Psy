@@ -462,11 +462,11 @@
     "text": "Note: The material will (initially) be some mixture of German and English. Your mileage may vary.\nThe course has 15 sessions, each lasting 3.5h. In between sessions, homework is given.\nEach session will be a mix of three elements:"
   },
   {
-    "objectID": "index.html#modeling-methodologgy",
-    "href": "index.html#modeling-methodologgy",
+    "objectID": "index.html#modeling-methodology",
+    "href": "index.html#modeling-methodology",
     "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
-    "section": "Modeling methodologgy",
-    "text": "Modeling methodologgy\n\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nGuest, O., & Martin, A. E. (2021). How Computational Modeling Can Force Theory Building in Psychological Science. Perspectives on Psychological Science, 16(4), 789–802. https://doi.org/10.1177/1745691620970585\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://doi.org/10.15626/MP.2021.2911\nWilson, R. C., & Collins, A. G. (2019). Ten simple rules for the computational modeling of behavioral data. ELife, 8, e49547. https://doi.org/10.7554/eLife.49547"
+    "section": "Modeling methodology",
+    "text": "Modeling methodology\n\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nGuest, O., & Martin, A. E. (2021). How Computational Modeling Can Force Theory Building in Psychological Science. Perspectives on Psychological Science, 16(4), 789–802. https://doi.org/10.1177/1745691620970585\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://doi.org/10.15626/MP.2021.2911\nWilson, R. C., & Collins, A. G. (2019). Ten simple rules for the computational modeling of behavioral data. ELife, 8, e49547. https://doi.org/10.7554/eLife.49547"
   },
   {
     "objectID": "index.html#about-theories",
@@ -854,11 +854,25 @@
     "text": "Example\n\nFirst commit to repository: 0.1.0\nOh, I found and corrected a typo: 0.1.1\nImplemented a minor new feature (that does not break the functionality of the existing features): 0.2.0\n\nAlways reset the patch number to zero when increasing the minor or major number\n\nBy and by, more features get implemented: 0.3.0 → 0.4.0 → ... → 0.12.6\nNow we are ready to tag our first public release! 0.12.6 → 1.0.0\n…\nAfter years of work and minor version updates (e.g., 1.4.0), we made a huge change that makes the product incompatible to version 1: 2.0.0"
   },
   {
+    "objectID": "skills/it-tools/it-tools.html#patch-minor-major-changes",
+    "href": "skills/it-tools/it-tools.html#patch-minor-major-changes",
+    "title": "IT tools for theory versioning",
+    "section": "Patch, Minor, Major changes",
+    "text": "Patch, Minor, Major changes\nSo what changes warrant what kind of version increments? For theories it makes sense to think in terms of predictions.\n\n\npatch\n\nThe predictions your theory makes do not change, instead you have clarified things, defined terminology, fixed typos, added references etc.\n\nminor\n\nThe predictions your theory makes have expanded but previous predictions are substantively compatible, i.e. the theory makes the same prediction as older versions for the same settings. All things that would have confirmed or falsified the older version, still apply to the new version. For example, you have included more settings your theory covers; added more previously unrecognized variables; became more certain about some predictions (i.e. range predictions became narrower); added more operationalizations for constructs.\n\nmajor\n\nEvidence that would have confirmed or falsified the previous version does differently affect this version. You changed core tenets of the definition of constructs or their operationalization, changed the functional relationship between two variables, changed the type of a relation (causation to correlation) or the timescale of a process, etc."
+  },
+  {
     "objectID": "skills/it-tools/it-tools.html#git-best-practice",
     "href": "skills/it-tools/it-tools.html#git-best-practice",
     "title": "IT tools for theory versioning",
     "section": "Git best practice",
-    "text": "Git best practice\n\nThe version number is recorded in two places:\n\nIn the .cff file\nIn the names of all tags or releases\n\nIs every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nGive a new version number in the .cff file\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag."
+    "text": "Git best practice\n\nThe version number is recorded in two places:\n\nIn the .cff file\nIn the names of all tags or releases\n\nIs every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the .cff file\nRecord the substantive changes in your CHANGELOG.md\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also next slide, “How to create a release?”)"
+  },
+  {
+    "objectID": "skills/it-tools/it-tools.html#how-to-create-a-release",
+    "href": "skills/it-tools/it-tools.html#how-to-create-a-release",
+    "title": "IT tools for theory versioning",
+    "section": "How to create a release?",
+    "text": "How to create a release?\n\nuse GitHub’s inbuild release mechanism\nremember to set the tag to the correct version number\ncopy the content of your CHANGELOG.md into the release notes.\noptional: create a DOI for your release, and archive it with Zenodo\noptional: update your .cff file to include the new DOI"
   },
   {
     "objectID": "skills/it-tools/it-tools.html#contact",
@@ -903,11 +917,25 @@
     "text": "Example\n\nFirst commit to repository: 0.1.0\nOh, I found and corrected a typo: 0.1.1\nImplemented a minor new feature (that does not break the functionality of the existing features): 0.2.0\n\nAlways reset the patch number to zero when increasing the minor or major number\n\nBy and by, more features get implemented: 0.3.0 → 0.4.0 → ... → 0.12.6\nNow we are ready to tag our first public release! 0.12.6 → 1.0.0\n…\nAfter years of work and minor version updates (e.g., 1.4.0), we made a huge change that makes the product incompatible to version 1: 2.0.0"
   },
   {
+    "objectID": "skills/it-tools/it-tools.slide.html#patch-minor-major-changes",
+    "href": "skills/it-tools/it-tools.slide.html#patch-minor-major-changes",
+    "title": "IT tools for theory versioning",
+    "section": "Patch, Minor, Major changes",
+    "text": "Patch, Minor, Major changes\nSo what changes warrant what kind of version increments? For theories it makes sense to think in terms of predictions.\n\n\npatch\n\nThe predictions your theory makes do not change, instead you have clarified things, defined terminology, fixed typos, added references etc.\n\nminor\n\nThe predictions your theory makes have expanded but previous predictions are substantively compatible, i.e. the theory makes the same prediction as older versions for the same settings. All things that would have confirmed or falsified the older version, still apply to the new version. For example, you have included more settings your theory covers; added more previously unrecognized variables; became more certain about some predictions (i.e. range predictions became narrower); added more operationalizations for constructs.\n\nmajor\n\nEvidence that would have confirmed or falsified the previous version does differently affect this version. You changed core tenets of the definition of constructs or their operationalization, changed the functional relationship between two variables, changed the type of a relation (causation to correlation) or the timescale of a process, etc."
+  },
+  {
     "objectID": "skills/it-tools/it-tools.slide.html#git-best-practice",
     "href": "skills/it-tools/it-tools.slide.html#git-best-practice",
     "title": "IT tools for theory versioning",
     "section": "Git best practice",
-    "text": "Git best practice\n\nThe version number is recorded in two places:\n\nIn the .cff file\nIn the names of all tags or releases\n\nIs every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nGive a new version number in the .cff file\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag."
+    "text": "Git best practice\n\nThe version number is recorded in two places:\n\nIn the .cff file\nIn the names of all tags or releases\n\nIs every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the .cff file\nRecord the substantive changes in your CHANGELOG.md\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also next slide, “How to create a release?”)"
+  },
+  {
+    "objectID": "skills/it-tools/it-tools.slide.html#how-to-create-a-release",
+    "href": "skills/it-tools/it-tools.slide.html#how-to-create-a-release",
+    "title": "IT tools for theory versioning",
+    "section": "How to create a release?",
+    "text": "How to create a release?\n\nuse GitHub’s inbuild release mechanism\nremember to set the tag to the correct version number\ncopy the content of your CHANGELOG.md into the release notes.\noptional: create a DOI for your release, and archive it with Zenodo\noptional: update your .cff file to include the new DOI"
   },
   {
     "objectID": "skills/it-tools/it-tools.slide.html#contact",

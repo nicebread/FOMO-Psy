@@ -6,6 +6,10 @@ author:
     orcid: 0000-0002-8282-3910
     email: felix.schoenbrodt@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München
+  - name: Aaron Peikert
+    orcid: 0000-0001-7813-818X
+    email: peikert@mpib-berlin.mpg.de
+    affiliations: Max Planck Institute for Human Development  
 date: today
 footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
@@ -129,7 +133,7 @@ patch
 : The predictions your theory makes do not change, instead you have clarified things, defined terminology, fixed typos, added references etc.
 
 minor
-: The predictions your theory makes have expanded but previous predictions are substantively compatible, i.e. the theory makes the same prediction as older versions for the same settings. All things that would have confirmed, or falsified the older version, still apply to the new version. You have included more settings your theory covers, you added more previously unrecognized variables; you became more certain about some predictions (i.e. range predictions became narrower); you added more operationalizations for constructs etc.
+: The predictions your theory makes have expanded but previous predictions are substantively compatible, i.e. the theory makes the same prediction as older versions for the same settings. All things that would have confirmed or falsified the older version, still apply to the new version. For example, you have included more settings your theory covers; added more previously unrecognized variables; became more certain about some predictions (i.e. range predictions became narrower); added more operationalizations for constructs.
 
 major
 : Evidence that would have confirmed or falsified the previous version does differently affect this version. You changed core tenets of the definition of constructs or their operationalization, changed the functional relationship between two variables, changed the type of a relation (causation to correlation) or the timescale of a process, etc.
@@ -149,8 +153,9 @@ Is every commit a new version? That would be very tedious, especially if you are
 - Maintain a `developer` branch for ongoing development. It is not necessary to update the version number in each development step.
 - Whenever a stable stage has been reached:
   - Increase the version number in the `.cff` file
+  - Record the substantive changes in your `CHANGELOG.md`
   - Push the development branch to the `main` branch
-  - Create a *tag*  or *release* on the main branch and write the version number into the label of the tag.
+  - Create a *tag*  or *release* on the main branch and write the version number into the label of the tag (see also [next slide](#how-to-create-a-release), "How to create a release?")
 
 
 :::

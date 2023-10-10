@@ -907,7 +907,7 @@
     "href": "skills/it-tools/it-tools.slide.html#git-best-practice",
     "title": "IT tools for theory versioning",
     "section": "Git best practice",
-    "text": "Git best practice\n\nThe version number is recorded in two places:\n\nIn the .cff file\nIn the names of all tags or releases\n\nIs every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the .cff file\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag."
+    "text": "Git best practice\n\nThe version number is recorded in two places:\n\nIn the .cff file\nIn the names of all tags or releases\n\nIs every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the .cff file\nRecord the substantive changes in your CHANGELOG.md\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also next slide, “How to create a release?”)"
   },
   {
     "objectID": "skills/it-tools/it-tools.slide.html#contact",
@@ -1391,5 +1391,19 @@
     "title": "A title",
     "section": "Summary",
     "text": "Summary\nA minimal and elegant presentation theme\nThe Quarto reveal.js clean theme aims to be a minimal and elegant presention theme.\nInstall the theme.\nquarto install extension grantmcdermott/quarto-revealjs-clean\nUse this lean template.\nquarto use template grantmcdermott/quarto-revealjs-clean\nUse the longer demo template.\nquarto use template grantmcdermott/quarto-revealjs-clean-demo"
+  },
+  {
+    "objectID": "skills/it-tools/it-tools.slide.html#patch-minor-major-changes",
+    "href": "skills/it-tools/it-tools.slide.html#patch-minor-major-changes",
+    "title": "IT tools for theory versioning",
+    "section": "Patch, Minor, Major changes",
+    "text": "Patch, Minor, Major changes\nSo what changes warrant what kind of version increments? For theories it makes sense to think in terms of predictions.\n\n\npatch\n\nThe predictions your theory makes do not change, instead you have clarified things, defined terminology, fixed typos, added references etc.\n\nminor\n\nThe predictions your theory makes have expanded but previous predictions are substantively compatible, i.e. the theory makes the same prediction as older versions for the same settings. All things that would have confirmed or falsified the older version, still apply to the new version. For example, you have included more settings your theory covers; added more previously unrecognized variables; became more certain about some predictions (i.e. range predictions became narrower); added more operationalizations for constructs.\n\nmajor\n\nEvidence that would have confirmed or falsified the previous version does differently affect this version. You changed core tenets of the definition of constructs or their operationalization, changed the functional relationship between two variables, changed the type of a relation (causation to correlation) or the timescale of a process, etc."
+  },
+  {
+    "objectID": "skills/it-tools/it-tools.slide.html#how-to-create-a-release",
+    "href": "skills/it-tools/it-tools.slide.html#how-to-create-a-release",
+    "title": "IT tools for theory versioning",
+    "section": "How to create a release?",
+    "text": "How to create a release?\n\nuse GitHub’s inbuild release mechanism\nremember to set the tag to the correct version number\ncopy the content of your CHANGELOG.md into the release notes.\noptional: create a DOI for your release, and archive it with Zenodo\noptional: update your .cff file to include the new DOI"
   }
 ]

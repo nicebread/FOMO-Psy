@@ -697,14 +697,14 @@
     "href": "common/lastslide.html",
     "title": "End",
     "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n\n nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
     "objectID": "common/lastslide.html#contact",
     "href": "common/lastslide.html#contact",
     "title": "End",
     "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n\n nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
     "objectID": "index.html",
@@ -970,7 +970,7 @@
     "href": "sessions/S1-Introduction.html",
     "title": "Session 1 - Introduction",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nLecturer introduction\n\n\nFormalia\n10\nSlides\n\n\nIntroduction of students in the plenum\n10\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nGroup formation\n20\nSee Section 2\n\n\nSkill: Git Intro\n30\nSee Section 3\n\n\nLecture: Introducion: Theory crisis\n45\nSlides\n\n\nWorkshop: Group Exercise: Buri (Level 1)\n60\nSlides\n\n\nHomework 1: Git Tutorial\n-\n\n\n\nHomework 2: Smaldino (2013), Chapter 1\n-"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nLecturer introduction\n\n\nIntroduction of students in the plenum\n10\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n10\nSlides\n\n\nGroup formation\n20\nSee Section 2\n\n\nSkill: Git Intro\n30\nSee Section 3\n\n\nLecture: Introducion: Theory crisis\n45\nSlides\n\n\nWorkshop: Group Exercise: Buri (Level 1)\n60\nSlides\n\n\nHomework 1: Git Tutorial\n-\n\n\n\nHomework 2: Smaldino (2013), Chapter 1\n-"
   },
   {
     "objectID": "sessions/S1-Introduction.html#goal",
@@ -1250,7 +1250,7 @@
     "href": "lectures/Empra-Orga/Empra-Orga.html#content",
     "title": "Formal modeling in psychology",
     "section": "Content",
-    "text": "Content\nMost session consist of three parts:\n\nLectures: gain knowledge\nSkills: learn new tools\nWorkshop: Apply tools and knowledge to a research question"
+    "text": "Content\nMost session consist of three parts:\n\nLectures: gain knowledge\nSkills: learn new tools\nWorkshop: Apply tools and knowledge to a research question\n\nAll slides, homework instructions, etc. are on this website: https://nicebread.github.io/FOMO-Psy/.\nAll homework will be submitted to a private Git repo."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#formalia",
@@ -1299,7 +1299,7 @@
     "href": "lectures/Empra-Orga/Empra-Orga.html#contact",
     "title": "Formal modeling in psychology",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n\n nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#goals",
@@ -1313,7 +1313,7 @@
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#content",
     "title": "Formal modeling in psychology",
     "section": "Content",
-    "text": "Content\nMost session consist of three parts:\n\nLectures: gain knowledge\nSkills: learn new tools\nWorkshop: Apply tools and knowledge to a research question"
+    "text": "Content\nMost session consist of three parts:\n\nLectures: gain knowledge\nSkills: learn new tools\nWorkshop: Apply tools and knowledge to a research question\n\nAll slides, homework instructions, etc. are on this website: https://nicebread.github.io/FOMO-Psy/.\nAll homework will be submitted to a private Git repo."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#formalia",
@@ -1362,182 +1362,196 @@
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#contact",
     "title": "Formal modeling in psychology",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n\n nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "lectures/Introduction/Introduction.html",
     "href": "lectures/Introduction/Introduction.html",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "",
-    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories. In psychology often called “effects” or “findings”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\n\n\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\nData provide evidence for the existence of empirical phenomena: You generalize from one or more data sets with strong evidence to a general phenomenon.\nGeneralize to what? UTOS framework:\n\nUnits (i.e., sample characteristics): To which other types of tested units does it generalize?\nTreatments: Does it generalize to other operationalizations of the independent variable/treatment?\nOutcomes: Does it generalize to other operationalizations of the dependent variable/outcome?\nSettings: Does it generalize to other settings, e.g. lab vs. field, other countries?\n\nTo claim a (robust) phenomenon, you ideally need:\n\nIndependent replications of specific operationalizations (U, maybe S)\nConceptual replications with different operationalizations (UTOS).\n\n\n\nUTOS framework from Cronbach & Shapiro (1982); for an update to “M-STOUT”, including mechanims and time, see Findley et al. (2021). External Validity. Annual Review of Political Science, 24(1), 365–393. https://doi.org/10.1146/annurev-polisci-041719-102556\n\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nProbably most of psychology is about establishing phenomena (disguised as “theories”).\nTechniques used to detect data patterns:\n\nFactor analysis\nPrincipal components analysis\nRegression\nANOVA\n…\n\n\nSee presentation of Denny Borsboom\n\n\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 0 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nPhenomena (once their existence has been established) predict similar data patterns in new data sets of the same operationalization (as in “direct replication”) and ideally also for new operationalizations (as in “conceptual replication”, changing more UTOS dimensions).\n\n\n\n\n\nThe risky shift phenomenon: A group’s decisions are riskier than the average of the individual decisions of members before the group met (i.e., the group discussion made individuals riskier).\n\n\nArea of very active research in social psychology in the 1960s.\n“It could be easily replicated. Most of the replication studies […] employed the CDQ [Choice Dilemma Questionnaire] as their stimulus set, and they generally had no trouble obtaining the basic risky shift result.”\nToday we know that there is no risky shift. “It is now clear that the items contained in the original CDQ are in no sense a representative sample of the universe of all possible items. Instruments similar to the CDQ could readily be constructed whose scores would display risky shifts, cautious ones, or none at all” (Cartwright, 1971, p. 368).\nIn the early risky shift literature, theoretical progress was unnecessarily impeded by multiple generations of replication studies (k ⋍ 200), nearly all relying on the same CQD questionnaire.\n\n\n\n\nSee Westfall et al. (2015). Replicating Studies in Which Samples of Participants Respond to Samples of Stimuli. Perspectives on Psychological Science, 10(3), 390–399. https://doi.org/10.1177/1745691614564879\n\n\n\n\n Questions for discussion (10 min.):\n\nAnalyse the situation in the UTOS dimensions (units, treatments, outcomes, settings): To which dimensions did the successful replications (not) refer to?\nIs the “risky shift” finding - as demonstrated in the early publications - a phenomenon?\n\n. . .\nMy take: It is a phenomenon (though a weak one), as it generalizes to new units (i.e., data sets) of the same operationalization. But the generalizability was much weaker than initially expected. It is a phenomenon of this specific stimulus set (treatment operationalization) and suggests certain types of research questions (e.g., “What is so specific to this stimulus set?”).\n\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\nThe concerns of the replication crisis typically referred to the relation between data and phenomena:\n\nDoes an empirical pattern even exist? (Or is it a false positive?)\nIf we found a reproducible pattern with a specific operationalization: Is it generalizable (to other measures, other cultural contexts, other samples)?\nDo we even have a phenomenon in a particular research line? And how strongly should I belief in the existence of a phenomenon, given the empirical evidence?\n\n\n\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(?? Phenomena ??)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P ---&gt; D\n  D -. \"?? Generalization ??\" .-&gt; P\n  \n  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;\n  linkStyle 3 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nDoubts about phenomena propagate to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete."
+    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories. In psychology often called “effects” or “findings”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\n\n\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\nData provide evidence for the existence of empirical phenomena: You generalize from one or more data sets with strong evidence to a general phenomenon.\nGeneralize to what? UTOS framework:\n\nUnits (i.e., sample characteristics): To which other types of tested units does it generalize?\nTreatments: Does it generalize to other operationalizations of the independent variable/treatment?\nOutcomes: Does it generalize to other operationalizations of the dependent variable/outcome?\nSettings: Does it generalize to other settings, e.g. lab vs. field, other countries?\n\nTo claim a (robust) phenomenon, you ideally need:\n\nIndependent replications with the same operationalizations (U, maybe S is varied): Often called “direct”, “exact”, or “close” replications\nReplications with different operationalizations (UTOS is varied): Often called “conceptual” replications\n\n\n\nUTOS framework from Cronbach & Shapiro (1982); for an update to “M-STOUT”, including mechanims and time, see Findley et al. (2021).\n\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nProbably most of psychological research is about establishing phenomena (disguised as “theories”).\nTechniques used to detect data patterns:\n\nFactor analysis\nPrincipal components analysis\nRegression\nANOVA\n…\n\n\nSee presentation of Denny Borsboom\n\n\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 0 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nPhenomena (once their existence has been established) predict similar data patterns in new data sets of the same operationalization (as in “direct replication”) and ideally also for new operationalizations (as in “conceptual replication”, changing more UTOS dimensions).\n\n\n\n\n\nThe risky shift phenomenon: A group’s decisions are riskier than the average of the individual decisions of members before the group met (i.e., the group discussion made individuals riskier).\n\n\nArea of very active research in social psychology in the 1960s.\n“It could be easily replicated. Most of the replication studies […] employed the CDQ [Choice Dilemma Questionnaire] as their stimulus set, and they generally had no trouble obtaining the basic risky shift result.”\nToday we know that there is no risky shift. “It is now clear that the items contained in the original CDQ are in no sense a representative sample of the universe of all possible items. Instruments similar to the CDQ could readily be constructed whose scores would display risky shifts, cautious ones, or none at all” (Cartwright, 1971, p. 368).\nIn the early risky shift literature, theoretical progress was unnecessarily impeded by multiple generations of replication studies (k ⋍ 200), nearly all relying on the same CQD questionnaire.\n\n\n\n\nSee Westfall et al. (2015). Replicating Studies in Which Samples of Participants Respond to Samples of Stimuli. Perspectives on Psychological Science, 10(3), 390–399. https://doi.org/10.1177/1745691614564879\n\n\n\n\n Questions for discussion (10 min.):\n\nAnalyse the situation in the UTOS dimensions (units, treatments, outcomes, settings): To which dimensions did the successful replications (not) refer to?\nIs the “risky shift” finding - as demonstrated in the early publications - a phenomenon?\n\n. . .\nMy take: It is a phenomenon (though a weak one), as it generalizes to new units (i.e., new participants) of the same operationalization. But the generalizability was much weaker than initially expected. It is a phenomenon of this specific stimulus set (treatment operationalization) and suggests certain types of research questions (e.g., “What is so specific to this stimulus set?”).\n\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\nThe concerns of the replication crisis typically referred to the relation between data and phenomena:\n\nDoes an empirical pattern even exist? (Or is it a false positive?)\nIf we found a reproducible pattern with a specific operationalization: Is it generalizable (to other measures, other cultural contexts, other samples)?\nDo we even have a phenomenon in a particular research line? And how strongly should I belief in the existence of a phenomenon, given the empirical evidence?\n\n\n\n\n\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(?? Phenomena ??)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P ---&gt; D\n  D -. \"?? Generalization ??\" .-&gt; P\n  \n  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;\n  linkStyle 3 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nDoubts about phenomena propagate to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete."
   },
   {
     "objectID": "lectures/Introduction/Introduction.html#the-relation-of-data-and-phenomena",
     "href": "lectures/Introduction/Introduction.html#the-relation-of-data-and-phenomena",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "",
     "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647"
   },
   {
     "objectID": "lectures/Introduction/Introduction.html#the-relation-of-data-and-phenomena-1",
     "href": "lectures/Introduction/Introduction.html#the-relation-of-data-and-phenomena-1",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "",
     "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories. In psychology often called “effects” or “findings”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647"
   },
   {
     "objectID": "lectures/Introduction/Introduction.html#the-relation-of-data-and-phenomena-2",
     "href": "lectures/Introduction/Introduction.html#the-relation-of-data-and-phenomena-2",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "",
-    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\nData provide evidence for the existence of empirical phenomena: You generalize from one or more data sets with strong evidence to a general phenomenon.\nGeneralize to what? UTOS framework:\n\nUnits (i.e., sample characteristics): To which other types of tested units does it generalize?\nTreatments: Does it generalize to other operationalizations of the independent variable/treatment?\nOutcomes: Does it generalize to other operationalizations of the dependent variable/outcome?\nSettings: Does it generalize to other settings, e.g. lab vs. field, other countries?\n\nTo claim a (robust) phenomenon, you ideally need:\n\nIndependent replications of specific operationalizations (U, maybe S)\nConceptual replications with different operationalizations (UTOS).\n\n\n\nUTOS framework from Cronbach & Shapiro (1982); for an update to “M-STOUT”, including mechanims and time, see Findley et al. (2021). External Validity. Annual Review of Political Science, 24(1), 365–393. https://doi.org/10.1146/annurev-polisci-041719-102556"
+    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\nData provide evidence for the existence of empirical phenomena: You generalize from one or more data sets with strong evidence to a general phenomenon.\nGeneralize to what? UTOS framework:\n\nUnits (i.e., sample characteristics): To which other types of tested units does it generalize?\nTreatments: Does it generalize to other operationalizations of the independent variable/treatment?\nOutcomes: Does it generalize to other operationalizations of the dependent variable/outcome?\nSettings: Does it generalize to other settings, e.g. lab vs. field, other countries?\n\nTo claim a (robust) phenomenon, you ideally need:\n\nIndependent replications with the same operationalizations (U, maybe S is varied): Often called “direct”, “exact”, or “close” replications\nReplications with different operationalizations (UTOS is varied): Often called “conceptual” replications\n\n\n\nUTOS framework from Cronbach & Shapiro (1982); for an update to “M-STOUT”, including mechanims and time, see Findley et al. (2021)."
   },
   {
     "objectID": "lectures/Introduction/Introduction.html#the-relation-of-data-and-phenomena-3",
     "href": "lectures/Introduction/Introduction.html#the-relation-of-data-and-phenomena-3",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "",
-    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nProbably most of psychology is about establishing phenomena (disguised as “theories”).\nTechniques used to detect data patterns:\n\nFactor analysis\nPrincipal components analysis\nRegression\nANOVA\n…\n\n\nSee presentation of Denny Borsboom"
+    "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nProbably most of psychological research is about establishing phenomena (disguised as “theories”).\nTechniques used to detect data patterns:\n\nFactor analysis\nPrincipal components analysis\nRegression\nANOVA\n…\n\n\nSee presentation of Denny Borsboom"
   },
   {
     "objectID": "lectures/Introduction/Introduction.html#the-relation-of-data-and-phenomena-4",
     "href": "lectures/Introduction/Introduction.html#the-relation-of-data-and-phenomena-4",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "",
     "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 0 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nPhenomena (once their existence has been established) predict similar data patterns in new data sets of the same operationalization (as in “direct replication”) and ideally also for new operationalizations (as in “conceptual replication”, changing more UTOS dimensions)."
   },
   {
     "objectID": "lectures/Introduction/Introduction.html#interlude-the-risky-shift-phenomenon-1",
     "href": "lectures/Introduction/Introduction.html#interlude-the-risky-shift-phenomenon-1",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "",
     "text": "The risky shift phenomenon: A group’s decisions are riskier than the average of the individual decisions of members before the group met (i.e., the group discussion made individuals riskier).\n\n\nArea of very active research in social psychology in the 1960s.\n“It could be easily replicated. Most of the replication studies […] employed the CDQ [Choice Dilemma Questionnaire] as their stimulus set, and they generally had no trouble obtaining the basic risky shift result.”\nToday we know that there is no risky shift. “It is now clear that the items contained in the original CDQ are in no sense a representative sample of the universe of all possible items. Instruments similar to the CDQ could readily be constructed whose scores would display risky shifts, cautious ones, or none at all” (Cartwright, 1971, p. 368).\nIn the early risky shift literature, theoretical progress was unnecessarily impeded by multiple generations of replication studies (k ⋍ 200), nearly all relying on the same CQD questionnaire.\n\n\n\n\nSee Westfall et al. (2015). Replicating Studies in Which Samples of Participants Respond to Samples of Stimuli. Perspectives on Psychological Science, 10(3), 390–399. https://doi.org/10.1177/1745691614564879"
   },
   {
     "objectID": "lectures/Introduction/Introduction.html#interlude-the-risky-shift-phenomenon-2",
     "href": "lectures/Introduction/Introduction.html#interlude-the-risky-shift-phenomenon-2",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "",
-    "text": "Questions for discussion (10 min.):\n\nAnalyse the situation in the UTOS dimensions (units, treatments, outcomes, settings): To which dimensions did the successful replications (not) refer to?\nIs the “risky shift” finding - as demonstrated in the early publications - a phenomenon?\n\n. . .\nMy take: It is a phenomenon (though a weak one), as it generalizes to new units (i.e., data sets) of the same operationalization. But the generalizability was much weaker than initially expected. It is a phenomenon of this specific stimulus set (treatment operationalization) and suggests certain types of research questions (e.g., “What is so specific to this stimulus set?”)."
+    "text": "Questions for discussion (10 min.):\n\nAnalyse the situation in the UTOS dimensions (units, treatments, outcomes, settings): To which dimensions did the successful replications (not) refer to?\nIs the “risky shift” finding - as demonstrated in the early publications - a phenomenon?\n\n. . .\nMy take: It is a phenomenon (though a weak one), as it generalizes to new units (i.e., new participants) of the same operationalization. But the generalizability was much weaker than initially expected. It is a phenomenon of this specific stimulus set (treatment operationalization) and suggests certain types of research questions (e.g., “What is so specific to this stimulus set?”)."
   },
   {
     "objectID": "lectures/Introduction/Introduction.html#replication-crisis",
     "href": "lectures/Introduction/Introduction.html#replication-crisis",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "",
     "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\nThe concerns of the replication crisis typically referred to the relation between data and phenomena:\n\nDoes an empirical pattern even exist? (Or is it a false positive?)\nIf we found a reproducible pattern with a specific operationalization: Is it generalizable (to other measures, other cultural contexts, other samples)?\nDo we even have a phenomenon in a particular research line? And how strongly should I belief in the existence of a phenomenon, given the empirical evidence?"
   },
   {
     "objectID": "lectures/Introduction/Introduction.html#replication-crisis-1",
     "href": "lectures/Introduction/Introduction.html#replication-crisis-1",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "",
     "text": "%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(?? Phenomena ??)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P ---&gt; D\n  D -. \"?? Generalization ??\" .-&gt; P\n  \n  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;\n  linkStyle 3 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nDoubts about phenomena propagate to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete."
   },
   {
-    "objectID": "lectures/Introduction/Introduction.html#addressing-the-theory-crisis-in-psychology",
-    "href": "lectures/Introduction/Introduction.html#addressing-the-theory-crisis-in-psychology",
-    "title": "Introduction to formal modeling in psychology 1",
-    "section": "“Addressing the theory crisis in psychology”",
-    "text": "“Addressing the theory crisis in psychology”\n“We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests.”\n\nSee Oberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2"
+    "objectID": "lectures/Introduction/Introduction.html#reimagining-psychology-as-a-science",
+    "href": "lectures/Introduction/Introduction.html#reimagining-psychology-as-a-science",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
+    "section": "Reimagining psychology as a science",
+    "text": "Reimagining psychology as a science"
   },
   {
-    "objectID": "lectures/Introduction/Introduction.html#from-replication-crisis-to-theory-crisis-2",
-    "href": "lectures/Introduction/Introduction.html#from-replication-crisis-to-theory-crisis-2",
-    "title": "Introduction to formal modeling in psychology 1",
-    "section": "From replication crisis to theory crisis 2",
-    "text": "From replication crisis to theory crisis 2\nObstacles to building useful theories in psychology:\n\nrelative lack of robust phenomena that impose constraints on possible theories\nproblems of validity of psychological constructs\nobstacles to discovering causal relationships between psychological variables\n\n\nSlide by Karolin Salmen, CC-BY\n\n\nSee Eronen & Bringmann (2021)"
+    "objectID": "lectures/Introduction/Introduction.html#addressing-the-theory-crisis-in-psychology",
+    "href": "lectures/Introduction/Introduction.html#addressing-the-theory-crisis-in-psychology",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
+    "section": "“Addressing the theory crisis in psychology”",
+    "text": "“Addressing the theory crisis in psychology”\n\n\n“We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests. […] A strong link between theories and hypotheses is best achieved by formalizing theories as computational models.”\n“Many of these proposals are helpful ideas for raising the standards of good research practice, primarily ensuring more trustworthy inferences on the empirical level of scientific inference — the level connecting observations to empirical generalizations. Our concern is that shoring up the strength of inferences on the empirical level does not by itself address deficits on the theory level — the level connecting empirical generalizations to theories.”\n\nOverauer & Lewandowsky (2019)\n\n\n\n\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2"
+  },
+  {
+    "objectID": "lectures/Introduction/Introduction.html#obstacles-to-building-useful-theories-in-psychology",
+    "href": "lectures/Introduction/Introduction.html#obstacles-to-building-useful-theories-in-psychology",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
+    "section": "Obstacles to building useful theories in psychology",
+    "text": "Obstacles to building useful theories in psychology\n\nRelative lack of robust phenomena that impose constraints on possible theories\nProblems of validity of psychological constructs\nObstacles to discovering causal relationships between psychological variables\nProbably the most complex research object in the known universe …\n… and ridiculously small samples.\n\n\nSlide adapted from Karolin Salmen, CC-BY\n\n\nSee Eronen & Bringmann (2021)"
   },
   {
     "objectID": "lectures/Introduction/Introduction.html#contact",
     "href": "lectures/Introduction/Introduction.html#contact",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n\n nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
     "objectID": "lectures/Introduction/Introduction.slide.html#the-relation-of-data-and-phenomena",
     "href": "lectures/Introduction/Introduction.slide.html#the-relation-of-data-and-phenomena",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "The relation of data and phenomena",
     "text": "The relation of data and phenomena\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647"
   },
   {
     "objectID": "lectures/Introduction/Introduction.slide.html#the-relation-of-data-and-phenomena-1",
     "href": "lectures/Introduction/Introduction.slide.html#the-relation-of-data-and-phenomena-1",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "The relation of data and phenomena",
     "text": "The relation of data and phenomena\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories. In psychology often called “effects” or “findings”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647"
   },
   {
     "objectID": "lectures/Introduction/Introduction.slide.html#the-relation-of-data-and-phenomena-2",
     "href": "lectures/Introduction/Introduction.slide.html#the-relation-of-data-and-phenomena-2",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "The relation of data and phenomena",
-    "text": "The relation of data and phenomena\nGeneralization\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\nData provide evidence for the existence of empirical phenomena: You generalize from one or more data sets with strong evidence to a general phenomenon.\nGeneralize to what? UTOS framework:\n\nUnits (i.e., sample characteristics): To which other types of tested units does it generalize?\nTreatments: Does it generalize to other operationalizations of the independent variable/treatment?\nOutcomes: Does it generalize to other operationalizations of the dependent variable/outcome?\nSettings: Does it generalize to other settings, e.g. lab vs. field, other countries?\n\nTo claim a (robust) phenomenon, you ideally need:\n\nIndependent replications of specific operationalizations (U, maybe S)\nConceptual replications with different operationalizations (UTOS).\n\n\n\nUTOS framework from Cronbach & Shapiro (1982); for an update to “M-STOUT”, including mechanims and time, see Findley et al. (2021). External Validity. Annual Review of Political Science, 24(1), 365–393. https://doi.org/10.1146/annurev-polisci-041719-102556"
+    "text": "The relation of data and phenomena\nGeneralization\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\nData provide evidence for the existence of empirical phenomena: You generalize from one or more data sets with strong evidence to a general phenomenon.\nGeneralize to what? UTOS framework:\n\nUnits (i.e., sample characteristics): To which other types of tested units does it generalize?\nTreatments: Does it generalize to other operationalizations of the independent variable/treatment?\nOutcomes: Does it generalize to other operationalizations of the dependent variable/outcome?\nSettings: Does it generalize to other settings, e.g. lab vs. field, other countries?\n\nTo claim a (robust) phenomenon, you ideally need:\n\nIndependent replications with the same operationalizations (U, maybe S is varied): Often called “direct”, “exact”, or “close” replications\nReplications with different operationalizations (UTOS is varied): Often called “conceptual” replications\n\n\n\nUTOS framework from Cronbach & Shapiro (1982); for an update to “M-STOUT”, including mechanims and time, see Findley et al. (2021)."
   },
   {
     "objectID": "lectures/Introduction/Introduction.slide.html#the-relation-of-data-and-phenomena-3",
     "href": "lectures/Introduction/Introduction.slide.html#the-relation-of-data-and-phenomena-3",
-    "title": "Introduction to formal modeling in psychology 1",
-    "section": "The relation of data and phenomena 3",
-    "text": "The relation of data and phenomena 3\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nProbably most of psychology is about establishing phenomena (disguised as “theories”).\nTechniques used to detect data patterns:\n\nFactor analysis\nPrincipal components analysis\nRegression\nANOVA\n…\n\n\nSee presentation of Denny Borsboom"
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
+    "section": "The relation of data and phenomena",
+    "text": "The relation of data and phenomena\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nProbably most of psychological research is about establishing phenomena (disguised as “theories”).\nTechniques used to detect data patterns:\n\nFactor analysis\nPrincipal components analysis\nRegression\nANOVA\n…\n\n\nSee presentation of Denny Borsboom"
   },
   {
     "objectID": "lectures/Introduction/Introduction.slide.html#the-relation-of-data-and-phenomena-4",
     "href": "lectures/Introduction/Introduction.slide.html#the-relation-of-data-and-phenomena-4",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "The relation of data and phenomena",
     "text": "The relation of data and phenomena\nPrediction\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 0 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nPhenomena (once their existence has been established) predict similar data patterns in new data sets of the same operationalization (as in “direct replication”) and ideally also for new operationalizations (as in “conceptual replication”, changing more UTOS dimensions)."
   },
   {
     "objectID": "lectures/Introduction/Introduction.slide.html#interlude-the-risky-shift-phenomenon-1",
     "href": "lectures/Introduction/Introduction.slide.html#interlude-the-risky-shift-phenomenon-1",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "Interlude: The risky shift phenomenon 1",
     "text": "Interlude: The risky shift phenomenon 1\n\nThe risky shift phenomenon: A group’s decisions are riskier than the average of the individual decisions of members before the group met (i.e., the group discussion made individuals riskier).\n\n\nArea of very active research in social psychology in the 1960s.\n“It could be easily replicated. Most of the replication studies […] employed the CDQ [Choice Dilemma Questionnaire] as their stimulus set, and they generally had no trouble obtaining the basic risky shift result.”\nToday we know that there is no risky shift. “It is now clear that the items contained in the original CDQ are in no sense a representative sample of the universe of all possible items. Instruments similar to the CDQ could readily be constructed whose scores would display risky shifts, cautious ones, or none at all” (Cartwright, 1971, p. 368).\nIn the early risky shift literature, theoretical progress was unnecessarily impeded by multiple generations of replication studies (k ⋍ 200), nearly all relying on the same CQD questionnaire.\n\n\n\n\nSee Westfall et al. (2015). Replicating Studies in Which Samples of Participants Respond to Samples of Stimuli. Perspectives on Psychological Science, 10(3), 390–399. https://doi.org/10.1177/1745691614564879"
   },
   {
     "objectID": "lectures/Introduction/Introduction.slide.html#interlude-the-risky-shift-phenomenon-2",
     "href": "lectures/Introduction/Introduction.slide.html#interlude-the-risky-shift-phenomenon-2",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "Interlude: The risky shift phenomenon 2",
-    "text": "Interlude: The risky shift phenomenon 2\n Questions for discussion (10 min.):\n\nAnalyse the situation in the UTOS dimensions (units, treatments, outcomes, settings): To which dimensions did the successful replications (not) refer to?\nIs the “risky shift” finding - as demonstrated in the early publications - a phenomenon?\n\n\nMy take: It is a phenomenon (though a weak one), as it generalizes to new units (i.e., data sets) of the same operationalization. But the generalizability was much weaker than initially expected. It is a phenomenon of this specific stimulus set (treatment operationalization) and suggests certain types of research questions (e.g., “What is so specific to this stimulus set?”)."
+    "text": "Interlude: The risky shift phenomenon 2\n Questions for discussion (10 min.):\n\nAnalyse the situation in the UTOS dimensions (units, treatments, outcomes, settings): To which dimensions did the successful replications (not) refer to?\nIs the “risky shift” finding - as demonstrated in the early publications - a phenomenon?\n\n\nMy take: It is a phenomenon (though a weak one), as it generalizes to new units (i.e., new participants) of the same operationalization. But the generalizability was much weaker than initially expected. It is a phenomenon of this specific stimulus set (treatment operationalization) and suggests certain types of research questions (e.g., “What is so specific to this stimulus set?”)."
   },
   {
     "objectID": "lectures/Introduction/Introduction.slide.html#replication-crisis",
     "href": "lectures/Introduction/Introduction.slide.html#replication-crisis",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "Replication crisis",
     "text": "Replication crisis\nFocus on phenomena\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\nThe concerns of the replication crisis typically referred to the relation between data and phenomena:\n\nDoes an empirical pattern even exist? (Or is it a false positive?)\nIf we found a reproducible pattern with a specific operationalization: Is it generalizable (to other measures, other cultural contexts, other samples)?\nDo we even have a phenomenon in a particular research line? And how strongly should I belief in the existence of a phenomenon, given the empirical evidence?"
   },
   {
     "objectID": "lectures/Introduction/Introduction.slide.html#replication-crisis-1",
     "href": "lectures/Introduction/Introduction.slide.html#replication-crisis-1",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "Replication crisis",
     "text": "Replication crisis\nFocus on phenomena\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(?? Phenomena ??)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P ---&gt; D\n  D -. \"?? Generalization ??\" .-&gt; P\n  \n  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;\n  linkStyle 3 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\nDoubts about phenomena propagate to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete."
   },
   {
-    "objectID": "lectures/Introduction/Introduction.slide.html#addressing-the-theory-crisis-in-psychology",
-    "href": "lectures/Introduction/Introduction.slide.html#addressing-the-theory-crisis-in-psychology",
-    "title": "Introduction to formal modeling in psychology 1",
-    "section": "“Addressing the theory crisis in psychology”",
-    "text": "“Addressing the theory crisis in psychology”\n“We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests.”\n\nSee Oberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2"
+    "objectID": "lectures/Introduction/Introduction.slide.html#reimagining-psychology-as-a-science",
+    "href": "lectures/Introduction/Introduction.slide.html#reimagining-psychology-as-a-science",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
+    "section": "Reimagining psychology as a science",
+    "text": "Reimagining psychology as a science"
   },
   {
-    "objectID": "lectures/Introduction/Introduction.slide.html#from-replication-crisis-to-theory-crisis-2",
-    "href": "lectures/Introduction/Introduction.slide.html#from-replication-crisis-to-theory-crisis-2",
-    "title": "Introduction to formal modeling in psychology 1",
-    "section": "From replication crisis to theory crisis 2",
-    "text": "From replication crisis to theory crisis 2\nObstacles to building useful theories in psychology:\n\nrelative lack of robust phenomena that impose constraints on possible theories\nproblems of validity of psychological constructs\nobstacles to discovering causal relationships between psychological variables\n\n\nSlide by Karolin Salmen, CC-BY\n\n\nSee Eronen & Bringmann (2021)"
+    "objectID": "lectures/Introduction/Introduction.slide.html#addressing-the-theory-crisis-in-psychology",
+    "href": "lectures/Introduction/Introduction.slide.html#addressing-the-theory-crisis-in-psychology",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
+    "section": "“Addressing the theory crisis in psychology”",
+    "text": "“Addressing the theory crisis in psychology”\n\n\n“We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests. […] A strong link between theories and hypotheses is best achieved by formalizing theories as computational models.”\n“Many of these proposals are helpful ideas for raising the standards of good research practice, primarily ensuring more trustworthy inferences on the empirical level of scientific inference — the level connecting observations to empirical generalizations. Our concern is that shoring up the strength of inferences on the empirical level does not by itself address deficits on the theory level — the level connecting empirical generalizations to theories.”\n\nOverauer & Lewandowsky (2019)\n\n\n\n\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2"
+  },
+  {
+    "objectID": "lectures/Introduction/Introduction.slide.html#obstacles-to-building-useful-theories-in-psychology",
+    "href": "lectures/Introduction/Introduction.slide.html#obstacles-to-building-useful-theories-in-psychology",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
+    "section": "Obstacles to building useful theories in psychology",
+    "text": "Obstacles to building useful theories in psychology\n\nRelative lack of robust phenomena that impose constraints on possible theories\nProblems of validity of psychological constructs\nObstacles to discovering causal relationships between psychological variables\nProbably the most complex research object in the known universe …\n… and ridiculously small samples.\n\n\nSlide adapted from Karolin Salmen, CC-BY\n\n\nSee Eronen & Bringmann (2021)"
   },
   {
     "objectID": "lectures/Introduction/Introduction.slide.html#contact",
     "href": "lectures/Introduction/Introduction.slide.html#contact",
-    "title": "Introduction to formal modeling in psychology 1",
+    "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n\n nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "lectures/lecture_overview.html",

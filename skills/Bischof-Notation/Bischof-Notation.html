@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felix Schönbrodt">
-<meta name="dcterms.date" content="2023-10-20">
+<meta name="dcterms.date" content="2023-10-27">
 
-<title>FOMO-Psy: Formal Modeling of Psychological Theories - Bischof notation</title>
+<title>FOMO-Psy: Formal Modeling of Psychological Theories - Visualizing cybernetic systems</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,6 +41,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,6 +63,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -140,13 +145,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#not-a-dag" id="toc-not-a-dag" class="nav-link active" data-scroll-target="#not-a-dag">Not a DAG</a>
+  <li><a href="#two-types-of-block-diagrams" id="toc-two-types-of-block-diagrams" class="nav-link active" data-scroll-target="#two-types-of-block-diagrams">Two types of block diagrams</a>
   <ul class="collapse">
-  <li><a href="#two-types-of-block-diagrams" id="toc-two-types-of-block-diagrams" class="nav-link" data-scroll-target="#two-types-of-block-diagrams">Two types of block diagrams</a>
-  <ul class="collapse">
-  <li><a href="#for-cybernetic-models" id="toc-for-cybernetic-models" class="nav-link" data-scroll-target="#for-cybernetic-models">…for cybernetic models</a></li>
+  <li><a href="#for-cybernetic-models" id="toc-for-cybernetic-models" class="nav-link" data-scroll-target="#for-cybernetic-models">…for cybernetic* models</a></li>
   </ul></li>
-  <li><a href="#block-diagrams-for-cybernetic-models-properties" id="toc-block-diagrams-for-cybernetic-models-properties" class="nav-link" data-scroll-target="#block-diagrams-for-cybernetic-models-properties">Block diagrams for cybernetic models: Properties</a></li>
+  <li><a href="#block-diagrams-for-cybernetic-models" id="toc-block-diagrams-for-cybernetic-models" class="nav-link" data-scroll-target="#block-diagrams-for-cybernetic-models">Block diagrams for cybernetic models</a>
+  <ul class="collapse">
+  <li><a href="#properties" id="toc-properties" class="nav-link" data-scroll-target="#properties">Properties</a></li>
+  </ul></li>
+  <li><a href="#block-diagrams-for-cybernetic-models-1" id="toc-block-diagrams-for-cybernetic-models-1" class="nav-link" data-scroll-target="#block-diagrams-for-cybernetic-models-1">Block diagrams for cybernetic models</a>
+  <ul class="collapse">
+  <li><a href="#properties-1" id="toc-properties-1" class="nav-link" data-scroll-target="#properties-1">Properties</a></li>
+  </ul></li>
   <li><a href="#common-errors" id="toc-common-errors" class="nav-link" data-scroll-target="#common-errors">Common errors</a></li>
   <li><a href="#sensors" id="toc-sensors" class="nav-link" data-scroll-target="#sensors">Sensors</a>
   <ul class="collapse">
@@ -165,6 +175,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#implementing-the-lens-model-as-a-demiurg" id="toc-implementing-the-lens-model-as-a-demiurg" class="nav-link" data-scroll-target="#implementing-the-lens-model-as-a-demiurg">Implementing the lens model as a demiurg</a></li>
   </ul></li>
   <li><a href="#actors" id="toc-actors" class="nav-link" data-scroll-target="#actors">Actors</a></li>
+  <li><a href="#bdi-model-belief-desire-intention" id="toc-bdi-model-belief-desire-intention" class="nav-link" data-scroll-target="#bdi-model-belief-desire-intention">BDI model:<br>Belief → Desire → Intention</a>
+  <ul class="collapse">
+  <li><a href="#bdi-model-belief-desire-intention-1" id="toc-bdi-model-belief-desire-intention-1" class="nav-link" data-scroll-target="#bdi-model-belief-desire-intention-1">BDI model: Belief → Desire → Intention</a></li>
+  <li><a href="#bdi-model-belief-desire-intention-2" id="toc-bdi-model-belief-desire-intention-2" class="nav-link" data-scroll-target="#bdi-model-belief-desire-intention-2">BDI model: Belief → Desire → Intention</a>
+  <ul class="collapse">
+  <li><a href="#two-examples" id="toc-two-examples" class="nav-link" data-scroll-target="#two-examples">Two examples</a></li>
+  </ul></li>
+  <li><a href="#one-possible-bdi-implementation-in-bischof-style" id="toc-one-possible-bdi-implementation-in-bischof-style" class="nav-link" data-scroll-target="#one-possible-bdi-implementation-in-bischof-style">One possible BDI implementation in Bischof-style</a></li>
   </ul></li>
   <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a>
   <ul class="collapse">
@@ -178,8 +196,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Bischof notation</h1>
-<p class="subtitle lead">Not a DAG</p>
+<h1 class="title">Visualizing cybernetic systems</h1>
+<p class="subtitle lead">Bischof notation &amp; BDI architecture</p>
 </div>
 
 
@@ -203,7 +221,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 20, 2023</p>
+      <p class="date">October 27, 2023</p>
     </div>
   </div>
   
@@ -213,12 +231,10 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="not-a-dag" class="level1">
-<h1>Not a DAG</h1>
 <section id="two-types-of-block-diagrams" class="level2">
 <h2 class="anchored" data-anchor-id="two-types-of-block-diagrams">Two types of block diagrams</h2>
 <section id="for-cybernetic-models" class="level3">
-<h3 class="anchored" data-anchor-id="for-cybernetic-models">…for cybernetic models</h3>
+<h3 class="anchored" data-anchor-id="for-cybernetic-models">…for cybernetic* models</h3>
 <div class="columns">
 <div class="column r-fit-text" style="width:60%;">
 <p>Mason diagrams (used in DAGs, SEM, VAST) vs.&nbsp;Bischof diagrams:</p>
@@ -237,14 +253,14 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Signals/variables displayes as …</td>
-<td>Circles</td>
+<td>Signals/variables displayed as …</td>
+<td>Circles/Boxes</td>
 <td>Arrows</td>
 </tr>
 <tr class="even">
-<td>Transfer elements/computations displayed as ..</td>
+<td>Transfer elements/ computations/ relationships displayed as ..</td>
 <td>Arrows</td>
-<td>Circles</td>
+<td>Boxes</td>
 </tr>
 </tbody>
 </table>
@@ -253,25 +269,62 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="img/Mason-Diagramme.jpg" class="img-fluid"></p>
 </div>
 </div>
+<div class="footer">
+<ul>
+<li>κυβερνήτης (kybernetes) = helmsperson (Steuermann)</li>
+</ul>
+</div>
 </section>
 </section>
-<section id="block-diagrams-for-cybernetic-models-properties" class="level2">
-<h2 class="anchored" data-anchor-id="block-diagrams-for-cybernetic-models-properties">Block diagrams for cybernetic models: Properties</h2>
-<div class="r-fit-text">
+<section id="block-diagrams-for-cybernetic-models" class="level2">
+<h2 class="anchored" data-anchor-id="block-diagrams-for-cybernetic-models">Block diagrams for cybernetic models</h2>
+<section id="properties" class="level3">
+<h3 class="anchored" data-anchor-id="properties">Properties</h3>
 <ul>
 <li>Arrows are causal directions, not temporal links!
 <ul>
 <li>This is <em>not</em> a flow diagram or process model</li>
 <li>Everything “happens at the same time”</li>
 </ul></li>
+<li>Boxes are functions / computational transformations
+<ul>
+<li>All arrows going <em>into</em> a box are inputs (independent variables)</li>
+<li>The arrow going <em>out of</em> a box (typically only one) is the function value (dependent variable)</li>
+</ul></li>
+</ul>
+<div class="cell" data-fig-width="18">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+graph LR
+    START[ ] -- x1 --&gt; f[y = 3 + 0.5*x1 + 2*x]
+    START2[ ] -- x2 --&gt; f
+    f -- y --&gt; STOP[ ]
+
+    style START fill-opacity:0, stroke-opacity:0;
+    style START2 fill-opacity:0, stroke-opacity:0;
+    style STOP  fill-opacity:0, stroke-opacity:0;
+</pre>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="block-diagrams-for-cybernetic-models-1" class="level2">
+<h2 class="anchored" data-anchor-id="block-diagrams-for-cybernetic-models-1">Block diagrams for cybernetic models</h2>
+<section id="properties-1" class="level3">
+<h3 class="anchored" data-anchor-id="properties-1">Properties</h3>
+<ul>
 <li>Blocks can be placeholders for encapsulated subsystems (sometimes “black boxes”)
 <ul>
 <li>e.g.&nbsp;the eye as a black box: We might not care how exactly the neuronal pattern in the retina is transformed into the signal “distance from object”</li>
 <li>One general “super-block” in ABMs: The organism (delineated from the environment)</li>
 </ul></li>
-<li>No arrow may directly cross a block border (see below “sensors” and “actors”)</li>
+<li>Arrow may originate in “nowhere” - then these are <em>free inputs</em>. These can be variables or constants (although constants also can be defined within the formula in a box).</li>
 </ul>
-</div>
+</section>
 </section>
 <section id="common-errors" class="level2">
 <h2 class="anchored" data-anchor-id="common-errors">Common errors</h2>
@@ -341,15 +394,16 @@ ul.task-list li input[type="checkbox"] {
 <section id="implementing-the-lens-model-as-a-demiurg" class="level3">
 <h3 class="anchored" data-anchor-id="implementing-the-lens-model-as-a-demiurg">Implementing the lens model as a demiurg</h3>
 <div class="columns">
-<div class="column r-fit-text" style="width:60%;">
+<div class="column r-fit-text" style="width:40%;">
 <p>Principle:</p>
 <ul>
 <li>Any external information must enter the organism via a <em>sensor</em></li>
 <li>Arrows going into a sensor must be observable cues</li>
-<li>Arrows going out of sensors are the organism’s representation of the criterion</li>
+<li>Arrows going out of sensors are the organism’s representation of the phenomenon in the environment</li>
 <li>The lens model itself (i.e., the weights of cue validity and utilization) is implemented in the sensor box</li>
+<li>No arrow may directly cross a block border</li>
 </ul>
-</div><div class="column" style="width:40%;">
+</div><div class="column" style="width:60%;">
 <p><img src="img/BSB_sensor.png" class="img-fluid" width="600"></p>
 </div>
 </div>
@@ -359,6 +413,41 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="actors">Actors</h2>
 <p><img src="img/BSB_actor.png" class="img-fluid"></p>
 <p>Sensing the environment only makes sense when organisms are able to react on this information. Devices that allow to manipulate the environment (or the organism’s position within the environment) are called <span class="bg" style="--col: #fff100">actors</span>.</p>
+</section>
+<section id="bdi-model-belief-desire-intention" class="level1" data-background-color="#40666e">
+<h1 data-background-color="#40666e">BDI model:<br>Belief → Desire → Intention</h1>
+<section id="bdi-model-belief-desire-intention-1" class="level2">
+<h2 class="anchored" data-anchor-id="bdi-model-belief-desire-intention-1">BDI model: Belief → Desire → Intention</h2>
+<p>A common model from software architecture is the <span class="hl">BDI model</span>:</p>
+<ul>
+<li><strong>Beliefs</strong> about the world (including itself and other agents)</li>
+<li><strong>Desires</strong> represent the motivational state of the agent - what the agent would <em>like</em> to accomplish.</li>
+<li><strong>Intentions</strong> represent the deliberative state of the agent – what the agent has <em>chosen</em> to do.</li>
+</ul>
+<div class="footer">
+<p>Text abridged from Wikipedia: <a href="https://en.wikipedia.org/wiki/Belief–desire–intention_software_model">Belief–desire–intention software model</a></p>
+</div>
+</section>
+<section id="bdi-model-belief-desire-intention-2" class="level2">
+<h2 class="anchored" data-anchor-id="bdi-model-belief-desire-intention-2">BDI model: Belief → Desire → Intention</h2>
+<section id="two-examples" class="level3">
+<h3 class="anchored" data-anchor-id="two-examples">Two examples</h3>
+<p><strong><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Group exercise (15 min.):</strong> Convert these plots into a proper Bischof-style diagram. Add variables/boxes where necessary.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img src="img/BDI_example1.png" class="img-fluid"></p>
+</div><div class="column" style="width:50%;">
+<p><img src="img/BDI_example2.jpeg" class="img-fluid"></p>
+</div>
+</div>
+<div class="footer">
+<p>Left: <a href="https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/14e50a72-5f2c-531e-bbf3-a536a7f2ec9f/content">Norling (2009, p.&nbsp;13)</a> | Right: <a href="https://github.com/ingridnunes/bdi4jade">BDI4JADE</a></p>
+</div>
+</section>
+</section>
+<section id="one-possible-bdi-implementation-in-bischof-style" class="level2">
+<h2 class="anchored" data-anchor-id="one-possible-bdi-implementation-in-bischof-style">One possible BDI implementation in Bischof-style</h2>
+<p><img src="img/BSB_BDI.png" class="img-fluid"></p>
 <!-- Footer insert below -->
 </section>
 </section>
@@ -377,11 +466,10 @@ ul.task-list li input[type="checkbox"] {
 <li>
 <i class="fa-li fa-solid fa-globe"></i> <a href="https://www.nicebread.de" target="_blank" style="color:black; border-bottom:none;">https://www.nicebread.de</a>
 </li>
-</ul>
 <li>
-<i class="fa-li fa fa-github" aria-hidden="true"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">nicebread</a>
+<i class="fa-li fa fa-github" aria-hidden="true"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">https://github.com/nicebread</a>
 </li>
-
+</ul>
 <p><small style="text-align:left;"></small></p><small style="text-align:left;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">

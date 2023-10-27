@@ -67,6 +67,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
 <link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -145,28 +147,58 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#what-is-a-theory" id="toc-what-is-a-theory" class="nav-link active" data-scroll-target="#what-is-a-theory">What is a <span class="alert">theory</span>?</a>
   <ul class="collapse">
-  <li><a href="#what-is-not-a-theory-1" id="toc-what-is-not-a-theory-1" class="nav-link" data-scroll-target="#what-is-not-a-theory-1">What is <em>not</em> a theory? 1</a></li>
-  <li><a href="#what-is-not-a-theory-2" id="toc-what-is-not-a-theory-2" class="nav-link" data-scroll-target="#what-is-not-a-theory-2">What is <em>not</em> a theory? 2</a></li>
-  <li><a href="#what-is-not-a-theory-3" id="toc-what-is-not-a-theory-3" class="nav-link" data-scroll-target="#what-is-not-a-theory-3">What is <em>not</em> a theory? 3</a></li>
-  <li><a href="#what-is-not-a-theory-4" id="toc-what-is-not-a-theory-4" class="nav-link" data-scroll-target="#what-is-not-a-theory-4">What is <em>not</em> a theory? 4</a></li>
-  <li><a href="#what-is-not-a-theory-4-1" id="toc-what-is-not-a-theory-4-1" class="nav-link" data-scroll-target="#what-is-not-a-theory-4-1">What is <em>not</em> a theory? 4</a></li>
-  <li><a href="#what-is-not-a-theory-4-2" id="toc-what-is-not-a-theory-4-2" class="nav-link" data-scroll-target="#what-is-not-a-theory-4-2">What is <em>not</em> a theory? 4</a></li>
-  <li><a href="#what-is-not-a-theory-4-3" id="toc-what-is-not-a-theory-4-3" class="nav-link" data-scroll-target="#what-is-not-a-theory-4-3">What is <em>not</em> a theory? 4</a></li>
-  <li><a href="#what-is-not-a-theory-4-4" id="toc-what-is-not-a-theory-4-4" class="nav-link" data-scroll-target="#what-is-not-a-theory-4-4">What is <em>not</em> a theory? 4</a></li>
-  <li><a href="#what-is-not-a-theory-5" id="toc-what-is-not-a-theory-5" class="nav-link" data-scroll-target="#what-is-not-a-theory-5">What is <em>not</em> a theory? 5</a></li>
+  <li><a href="#what-is-not-a-theory" id="toc-what-is-not-a-theory" class="nav-link" data-scroll-target="#what-is-not-a-theory">What is <em>not</em> a theory?</a>
+  <ul class="collapse">
+  <li><a href="#references-to-theory-are-not-theory" id="toc-references-to-theory-are-not-theory" class="nav-link" data-scroll-target="#references-to-theory-are-not-theory">1. References To Theory Are Not Theory</a></li>
+  </ul></li>
+  <li><a href="#what-is-not-a-theory-1" id="toc-what-is-not-a-theory-1" class="nav-link" data-scroll-target="#what-is-not-a-theory-1">What is <em>not</em> a theory?</a>
+  <ul class="collapse">
+  <li><a href="#data-are-not-theory" id="toc-data-are-not-theory" class="nav-link" data-scroll-target="#data-are-not-theory">2. Data Are Not Theory</a></li>
+  </ul></li>
+  <li><a href="#what-is-not-a-theory-2" id="toc-what-is-not-a-theory-2" class="nav-link" data-scroll-target="#what-is-not-a-theory-2">What is <em>not</em> a theory?</a>
+  <ul class="collapse">
+  <li><a href="#lists-of-variables-or-constructs-are-not-theory" id="toc-lists-of-variables-or-constructs-are-not-theory" class="nav-link" data-scroll-target="#lists-of-variables-or-constructs-are-not-theory">3. Lists of Variables or Constructs Are Not Theory</a></li>
+  </ul></li>
+  <li><a href="#what-is-not-a-theory-3" id="toc-what-is-not-a-theory-3" class="nav-link" data-scroll-target="#what-is-not-a-theory-3">What is <em>not</em> a theory?</a>
+  <ul class="collapse">
+  <li><a href="#diagrams-alone-are-not-theory" id="toc-diagrams-alone-are-not-theory" class="nav-link" data-scroll-target="#diagrams-alone-are-not-theory">4. Diagrams (Alone) Are Not Theory</a></li>
+  </ul></li>
+  <li><a href="#diagrams-alone-are-not-theory-1" id="toc-diagrams-alone-are-not-theory-1" class="nav-link" data-scroll-target="#diagrams-alone-are-not-theory-1">4. Diagrams (Alone) Are Not Theory</a></li>
+  <li><a href="#diagrams-alone-are-not-theory-2" id="toc-diagrams-alone-are-not-theory-2" class="nav-link" data-scroll-target="#diagrams-alone-are-not-theory-2">4. Diagrams (Alone) Are Not Theory</a></li>
+  <li><a href="#diagrams-alone-are-not-theory-3" id="toc-diagrams-alone-are-not-theory-3" class="nav-link" data-scroll-target="#diagrams-alone-are-not-theory-3">4. Diagrams (Alone) Are Not Theory</a></li>
+  <li><a href="#what-is-not-a-theory-4" id="toc-what-is-not-a-theory-4" class="nav-link" data-scroll-target="#what-is-not-a-theory-4">What is <em>not</em> a theory? 4</a>
+  <ul class="collapse">
+  <li><a href="#diagrams-alone-are-not-theory-4" id="toc-diagrams-alone-are-not-theory-4" class="nav-link" data-scroll-target="#diagrams-alone-are-not-theory-4">4. Diagrams (Alone) Are Not Theory</a></li>
+  </ul></li>
+  <li><a href="#what-is-not-a-theory-5" id="toc-what-is-not-a-theory-5" class="nav-link" data-scroll-target="#what-is-not-a-theory-5">What is <em>not</em> a theory?</a>
+  <ul class="collapse">
+  <li><a href="#hypotheses-or-predictions-are-not-theory." id="toc-hypotheses-or-predictions-are-not-theory." class="nav-link" data-scroll-target="#hypotheses-or-predictions-are-not-theory.">5. Hypotheses (or Predictions) Are Not Theory.</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#but-then-what-is-a-theory" id="toc-but-then-what-is-a-theory" class="nav-link" data-scroll-target="#but-then-what-is-a-theory">But, then:<br>What <span class="alert">is</span> a theory?</a>
   <ul class="collapse">
   <li><a href="#theories-as-causal-explanations" id="toc-theories-as-causal-explanations" class="nav-link" data-scroll-target="#theories-as-causal-explanations">Theories as causal explanations</a></li>
   <li><a href="#tcm-a-methodology-for-constructing-theories" id="toc-tcm-a-methodology-for-constructing-theories" class="nav-link" data-scroll-target="#tcm-a-methodology-for-constructing-theories">TCM: A methodology for constructing theories</a></li>
   <li><a href="#definitions-1" id="toc-definitions-1" class="nav-link" data-scroll-target="#definitions-1">Definitions (1)</a></li>
-  <li><a href="#what-is-a-formalmathematicalcomputational-model" id="toc-what-is-a-formalmathematicalcomputational-model" class="nav-link" data-scroll-target="#what-is-a-formalmathematicalcomputational-model">What is a formal/mathematical/computational model?</a></li>
-  <li><a href="#formal-models-one-possible-implementation" id="toc-formal-models-one-possible-implementation" class="nav-link" data-scroll-target="#formal-models-one-possible-implementation">Formal models: One possible implementation</a></li>
-  <li><a href="#what-is-a-formalmathematicalcomputational-model-1" id="toc-what-is-a-formalmathematicalcomputational-model-1" class="nav-link" data-scroll-target="#what-is-a-formalmathematicalcomputational-model-1">What is a formal/mathematical/computational model?</a>
+  <li><a href="#what-is-a-model" id="toc-what-is-a-model" class="nav-link" data-scroll-target="#what-is-a-model">What is a <span class="alert">model</span>?</a></li>
+  <li><a href="#explicating-a-verbal-theory-into-formal-models" id="toc-explicating-a-verbal-theory-into-formal-models" class="nav-link" data-scroll-target="#explicating-a-verbal-theory-into-formal-models">Explicating a verbal theory into formal model(s)</a>
+  <ul class="collapse">
+  <li><a href="#example-van-dongen-et-al-2023-on-ego-depletion" id="toc-example-van-dongen-et-al-2023-on-ego-depletion" class="nav-link" data-scroll-target="#example-van-dongen-et-al-2023-on-ego-depletion">Example: van Dongen et al (2023) on Ego Depletion</a></li>
+  </ul></li>
+  <li><a href="#explicating-a-verbal-theory-into-formal-models-1" id="toc-explicating-a-verbal-theory-into-formal-models-1" class="nav-link" data-scroll-target="#explicating-a-verbal-theory-into-formal-models-1">Explicating a verbal theory into formal model(s)</a>
+  <ul class="collapse">
+  <li><a href="#key-theoretical-principles-of-the-verbal-theory" id="toc-key-theoretical-principles-of-the-verbal-theory" class="nav-link" data-scroll-target="#key-theoretical-principles-of-the-verbal-theory">Key theoretical principles of the verbal theory</a></li>
+  </ul></li>
+  <li><a href="#explicating-a-verbal-theory-into-formal-models-2" id="toc-explicating-a-verbal-theory-into-formal-models-2" class="nav-link" data-scroll-target="#explicating-a-verbal-theory-into-formal-models-2">Explicating a verbal theory into formal model(s)</a>
+  <ul class="collapse">
+  <li><a href="#multiple-possible-implementations" id="toc-multiple-possible-implementations" class="nav-link" data-scroll-target="#multiple-possible-implementations">Multiple possible implementations</a></li>
+  </ul></li>
+  <li><a href="#what-is-a-formalmathematicalcomputational-model" id="toc-what-is-a-formalmathematicalcomputational-model" class="nav-link" data-scroll-target="#what-is-a-formalmathematicalcomputational-model">What is a formal/mathematical/computational model?</a>
   <ul class="collapse">
   <li><a href="#in-a-nutshell" id="toc-in-a-nutshell" class="nav-link" data-scroll-target="#in-a-nutshell">In a nutshell</a></li>
   </ul></li>
   <li><a href="#fa-people-group-size1x-exercise-15-min-apply-to-your-buridan-model" id="toc-fa-people-group-size1x-exercise-15-min-apply-to-your-buridan-model" class="nav-link" data-scroll-target="#fa-people-group-size1x-exercise-15-min-apply-to-your-buridan-model"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Exercise (15 min): Apply to your Buridan model</a></li>
+  <li><a href="#what-are-explanations" id="toc-what-are-explanations" class="nav-link" data-scroll-target="#what-are-explanations">What are explanations?</a></li>
   <li><a href="#definitions-2" id="toc-definitions-2" class="nav-link" data-scroll-target="#definitions-2">Definitions (2)</a></li>
   </ul></li>
   <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a>
@@ -227,18 +259,17 @@ Like so many words that are bandied about, the word theory threatens to become m
 <div class="footer">
 <p>Cited from Sutton, R. I., &amp; Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
 </div>
-<section id="what-is-not-a-theory-1" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-1">What is <em>not</em> a theory? 1</h2>
-<p><span style="font-size: 70%;"><em>(Note: While these features of a scholarly article do not constitute a theory, they might be important in their own right)</em></span></p>
-<div style="font-size: 70%;">
-<ol type="1">
-<li>References Are Not Theory</li>
-</ol>
+<section id="what-is-not-a-theory" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-not-a-theory">What is <em>not</em> a theory?</h2>
+<section id="references-to-theory-are-not-theory" class="level3">
+<h3 class="anchored" data-anchor-id="references-to-theory-are-not-theory">1. References To Theory Are Not Theory</h3>
+<p><span style="font-size: 70%;"><em>(Note: While the following features of a scholarly article do not constitute a theory, they might be important in their own right)</em></span></p>
+<div class="smallest">
 <blockquote class="blockquote">
 <p>A manuscript that Robert Sutton edited had strong data, but all three reviewers emphasized that it had “weak theory” and “poorly motivated hypotheses.” The author responded to these concerns by writing a new introduction that added citations to many papers containing theory and many terms like “psycho-social theory,” “identity theory,” and “social comparison theory.”</p>
 <p><strong>But it still contained no discussion of what these theories were about and no discussion of the logical arguments why these theories led to the author’s predictions.</strong> The result was that this paper contained almost no theory, despite the author’s assertion that much had been added.</p>
 </blockquote>
-<p>Solution:</p>
+<p><strong>Solution</strong>:</p>
 <blockquote class="blockquote">
 <p>Authors need to explicate which concepts and causal arguments are adopted from cited sources and how they are linked to the theory being developed or tested.</p>
 </blockquote>
@@ -247,28 +278,28 @@ Like so many words that are bandied about, the word theory threatens to become m
 <p>Sutton, R. I., &amp; Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
 </div>
 </section>
-<section id="what-is-not-a-theory-2" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-2">What is <em>not</em> a theory? 2</h2>
+</section>
+<section id="what-is-not-a-theory-1" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-not-a-theory-1">What is <em>not</em> a theory?</h2>
+<section id="data-are-not-theory" class="level3">
+<h3 class="anchored" data-anchor-id="data-are-not-theory">2. Data Are Not Theory</h3>
 <div class="r-fit-text">
-<ol start="2" type="1">
-<li>Data Are Not Theory</li>
-</ol>
 <blockquote class="blockquote">
 <p>Empirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.</p>
 <p>Kaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: <strong>Data describe <em>which</em> empirical patterns were observed and theory explains <em>why</em> empirical patterns were observed or are expected to be observed.</strong></p>
 </blockquote>
-<p>Also: Theories do not explain data - theories explain <em>phenomena</em>!</p>
+<p><strong>Furthermore</strong>: Theories do not explain data - theories explain <em>phenomena</em>!</p>
 </div>
 <div class="footer">
 <p>Sutton, R. I., &amp; Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
 </div>
 </section>
-<section id="what-is-not-a-theory-3" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-3">What is <em>not</em> a theory? 3</h2>
+</section>
+<section id="what-is-not-a-theory-2" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-not-a-theory-2">What is <em>not</em> a theory?</h2>
+<section id="lists-of-variables-or-constructs-are-not-theory" class="level3">
+<h3 class="anchored" data-anchor-id="lists-of-variables-or-constructs-are-not-theory">3. Lists of Variables or Constructs Are Not Theory</h3>
 <div class="r-fit-text">
-<ol start="3" type="1">
-<li>Lists of Variables or Constructs Are Not Theory</li>
-</ol>
 <blockquote class="blockquote">
 <p>Papers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.</p>
 <p>Such lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.</p>
@@ -279,11 +310,11 @@ Like so many words that are bandied about, the word theory threatens to become m
 <p>Sutton, R. I., &amp; Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
 </div>
 </section>
-<section id="what-is-not-a-theory-4" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4">What is <em>not</em> a theory? 4</h2>
-<ol start="4" type="1">
-<li>Diagrams (Alone) Are Not Theory</li>
-</ol>
+</section>
+<section id="what-is-not-a-theory-3" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-not-a-theory-3">What is <em>not</em> a theory?</h2>
+<section id="diagrams-alone-are-not-theory" class="level3">
+<h3 class="anchored" data-anchor-id="diagrams-alone-are-not-theory">4. Diagrams (Alone) Are Not Theory</h3>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -297,14 +328,14 @@ This is an extension of (3) “List of constructs”: Put each construct that yo
 
 </div>
 </div>
-<p>. . .</p>
-<p><img src="img/fpsyg-12-620838-g001.jpg" height="500"></p>
+<p><img src="img/fpsyg-12-620838-g001.jpg" height="400"></p>
 <div class="footer">
-<p>Iqbal, S., Zakar, R., &amp; Fischer, F. (2021). Extended Theoretical Framework of Parental Internet Mediation: Use of Multiple Theoretical Stances for Understanding Socio-Ecological Predictors. Frontiers in Psychology, 12, 620838. https://doi.org/10.3389/fpsyg.2021.620838</p>
+<p>Iqbal, S. et al.&nbsp;(2021). <a href="https://doi.org/10.3389/fpsyg.2021.620838">https://doi.org/10.3389/fpsyg.2021.620838</a></p>
 </div>
 </section>
-<section id="what-is-not-a-theory-4-1" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4-1">What is <em>not</em> a theory? 4</h2>
+</section>
+<section id="diagrams-alone-are-not-theory-1" class="level2">
+<h2 class="anchored" data-anchor-id="diagrams-alone-are-not-theory-1">4. Diagrams (Alone) Are Not Theory</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/societies-13-00113-g001.png" class="r-stretch img-fluid figure-img"></p>
@@ -315,26 +346,25 @@ This is an extension of (3) “List of constructs”: Put each construct that yo
 <p>Norozi, S. A. (2023). The Nexus of Holistic Wellbeing and School Education: A Literature-Informed Theoretical Framework. Societies, 13(5), 113. https://doi.org/10.3390/soc13050113</p>
 </div>
 </section>
-<section id="what-is-not-a-theory-4-2" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4-2">What is <em>not</em> a theory? 4</h2>
+<section id="diagrams-alone-are-not-theory-2" class="level2">
+<h2 class="anchored" data-anchor-id="diagrams-alone-are-not-theory-2">4. Diagrams (Alone) Are Not Theory</h2>
 <p><img src="img/7_Instances.jpg" class="r-stretch img-fluid"></p>
 <div class="footer">
 <p>CBCB, CC BY-SA 3.0 <a href="https://creativecommons.org/licenses/by-sa/3.0" class="uri">https://creativecommons.org/licenses/by-sa/3.0</a>, via Wikimedia Commons</p>
 </div>
 </section>
-<section id="what-is-not-a-theory-4-3" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4-3">What is <em>not</em> a theory? 4</h2>
+<section id="diagrams-alone-are-not-theory-3" class="level2">
+<h2 class="anchored" data-anchor-id="diagrams-alone-are-not-theory-3">4. Diagrams (Alone) Are Not Theory</h2>
 <p><img src="img/Virgin.gif" height="650"></p>
 <div class="footer">
 <p>http://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html</p>
 </div>
 </section>
-<section id="what-is-not-a-theory-4-4" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4-4">What is <em>not</em> a theory? 4</h2>
+<section id="what-is-not-a-theory-4" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4">What is <em>not</em> a theory? 4</h2>
+<section id="diagrams-alone-are-not-theory-4" class="level3">
+<h3 class="anchored" data-anchor-id="diagrams-alone-are-not-theory-4">4. Diagrams (Alone) Are Not Theory</h3>
 <div class="r-fit-text">
-<ol start="4" type="1">
-<li>Diagrams (Alone) Are Not Theory</li>
-</ol>
 <blockquote class="blockquote">
 <p>Diagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. […]</p>
 <p>More helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]</p>
@@ -345,12 +375,12 @@ This is an extension of (3) “List of constructs”: Put each construct that yo
 <p>Sutton, R. I., &amp; Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
 </div>
 </section>
+</section>
 <section id="what-is-not-a-theory-5" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-5">What is <em>not</em> a theory? 5</h2>
+<h2 class="anchored" data-anchor-id="what-is-not-a-theory-5">What is <em>not</em> a theory?</h2>
+<section id="hypotheses-or-predictions-are-not-theory." class="level3">
+<h3 class="anchored" data-anchor-id="hypotheses-or-predictions-are-not-theory.">5. Hypotheses (or Predictions) Are Not Theory.</h3>
 <div class="r-fit-text">
-<ol start="5" type="1">
-<li>Hypotheses (or Predictions) Are Not Theory.</li>
-</ol>
 <blockquote class="blockquote">
 <p>Hypotheses can be an important part of a well-crafted conceptual argument. They serve as crucial bridges between theory and data, making explicit how the variables and relationships that follow from a logical argument will be operationalized. […]</p>
 <p>Hypotheses do not (and should not) contain logical arguments about why empirical relationships are expected to occur. <span class="bg" style="--col: #fff100">Hypotheses are concise statements about <em>what</em> is expected to occur, not <em>why</em> it is expected to occur.</span></p>
@@ -361,17 +391,22 @@ This is an extension of (3) “List of constructs”: Put each construct that yo
 </div>
 </section>
 </section>
+</section>
 <section id="but-then-what-is-a-theory" class="level1">
 <h1>But, then:<br>What <span class="alert">is</span> a theory?</h1>
 <section id="theories-as-causal-explanations" class="level2">
 <h2 class="anchored" data-anchor-id="theories-as-causal-explanations">Theories as causal explanations</h2>
 <blockquote class="blockquote">
-<p>“It may be said… that an explanation is not fully adequate unless its explanans, if taken account of in time, could have served as a basis for predicting the phenomenon under consideration…</p>
-It is this potential predictive force which gives scientific explanation its importance: Only to the extent that we are able to explain empirical facts can we attain the major objective of scientific research, <span class="bg" style="--col: #fff100">namely not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment</span>”
+<p>“It may be said… that an explanation is not fully adequate unless its explanans […] could have served as a basis for predicting the phenomenon under consideration.</p>
+… not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to <span class="hl">anticipate new occurrences</span> and to <span class="hl">control, at least to some extent, the changes in our environment</span>”
 <div style="text-align: right; font-size: 70%">
 <em> Hempel &amp; Oppenheim, 1948, (p.&nbsp;138)</em>
 </div>
 </blockquote>
+<ol type="1">
+<li>Predict new (unseen) data</li>
+<li>Have (causal) control through manipulation</li>
+</ol>
 </section>
 <section id="tcm-a-methodology-for-constructing-theories" class="level2">
 <h2 class="anchored" data-anchor-id="tcm-a-methodology-for-constructing-theories">TCM: A methodology for constructing theories</h2>
@@ -403,11 +438,6 @@ flowchart LR
 <p><strong>Phenomena</strong>: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the <em>explanandum</em>). In psychology often called “effects”.</p>
 <p><strong>Data</strong>: Relatively direct observations. Refer to <em>particular</em> empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).</p>
 <p><strong><span class="alert">Explanatory</span> Theories</strong> are constructed to explain the empirical phenomena that are evidenced by data (i.e., they are the <em>explanans</em>). Explanatory theories can be expressed in terms of a set of linked propositions referring to latent psychological constructs. At least one of these propositions expresses a general principle.</p>
-<div class="smaller">
-<blockquote class="blockquote">
-<p>“theory T putatively explains phenomenon P” means “if the world were as T says it is, P would follow as a matter of course.” Although this notion of explanation is arguably incomplete, it has the advantages of being close to the commonsense understanding of the concept and being easy to implement in a formal model—namely by creating a virtual world in which theory T is true and showing that this world will indeed produce phenomenon P.</p>
-</blockquote>
-</div>
 </div>
 <div class="footer">
 <p>See Borsboom et al.&nbsp;(2021). <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a></p>
@@ -432,30 +462,104 @@ What is an (explanatory) theory?
 <p>Borsboom et al.&nbsp;(2021). <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a></p>
 </div>
 </section>
+<section id="what-is-a-model" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-model">What is a <span class="alert">model</span>?</h2>
+<p>A {formal|mathematical|computational} model is a precise, mathematical or algorithmic representation of the theory’s principles and relationships. It serves as a bridge between abstract theoretical principles and the empirical world.</p>
+<p>Sometimes a theory is so highly formalized that it is virtually <span class="alert">identical</span> to a model of it. But more often, there is a <span class="hl">gap</span> between theory and implemented models: We need more assumptions to implement a model in computer code. In this case, multiple models can satisfy the axioms and constraints of a theory.</p>
+</section>
+<section id="explicating-a-verbal-theory-into-formal-models" class="level2">
+<h2 class="anchored" data-anchor-id="explicating-a-verbal-theory-into-formal-models">Explicating a verbal theory into formal model(s)</h2>
+<section id="example-van-dongen-et-al-2023-on-ego-depletion" class="level3">
+<h3 class="anchored" data-anchor-id="example-van-dongen-et-al-2023-on-ego-depletion">Example: van Dongen et al (2023) on Ego Depletion</h3>
+<div class="smaller">
+<ul>
+<li>The regulatory resource theory pertains to <strong>self-control</strong>: cognitive processes that inhibit and suppress immediate thoughts, impulses, expression of emotions, and behaviors that deviate from standards or goals.</li>
+<li>The theory postulates that one’s ability for self-control depends on a <strong>finite resource</strong>: a stored supply of energy, for which some use the term willpower. Every act of self-control reduces the amount of willpower, so that one’s ability to inhibit or suppress the next unwanted impulse is diminished</li>
+<li>The theory is said to explain the <strong>phenomenon of ego depletion</strong>: people perform worse on a task that requires self-control, right after having done something else that used this resource.</li>
+</ul>
+</div>
+<div class="footer">
+<p>Abridged from van Dongen et al.&nbsp;(2022). Improving psychological explanations. <em>PsyArXiv.</em> <a href="https://doi.org/10.31234/osf.io/qd69g">https://doi.org/10.31234/osf.io/qd69g</a></p>
+</div>
+</section>
+</section>
+<section id="explicating-a-verbal-theory-into-formal-models-1" class="level2">
+<h2 class="anchored" data-anchor-id="explicating-a-verbal-theory-into-formal-models-1">Explicating a verbal theory into formal model(s)</h2>
+<section id="key-theoretical-principles-of-the-verbal-theory" class="level3">
+<h3 class="anchored" data-anchor-id="key-theoretical-principles-of-the-verbal-theory">Key theoretical principles of the verbal theory</h3>
+<div class="smaller">
+<ol type="a">
+<li>there is a domain-general “resource” called willpower (<span class="math inline">\(W\)</span>)</li>
+<li>tasks requiring willpower deplete this resource (e.g., a task that requires self-control depletes the resource, but a task that requires no self-control does not), and</li>
+<li>the resource is replenished at some rate after the task ends.</li>
+</ol>
+</div>
+<div class="smaller">
+<p>To these, we add the following auxiliary assumptions:</p>
+<ul>
+<li>willpower <span class="math inline">\(W\)</span> is a positive valued quantitative variable (<span class="math inline">\(W \in \mathbb{R}^{+}\)</span>)</li>
+<li>willpower changes continuously in time, and</li>
+<li>willpower has a default value when at rest ( i.e., when there is no task that requires willpower; <span class="math inline">\(W^r\)</span>).</li>
+</ul>
+</div>
+<div class="footer">
+<p>van Dongen et al.&nbsp;(2022). <a href="https://doi.org/10.31234/osf.io/qd69g">https://doi.org/10.31234/osf.io/qd69g</a></p>
+</div>
+</section>
+</section>
+<section id="explicating-a-verbal-theory-into-formal-models-2" class="level2">
+<h2 class="anchored" data-anchor-id="explicating-a-verbal-theory-into-formal-models-2">Explicating a verbal theory into formal model(s)</h2>
+<section id="multiple-possible-implementations" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-possible-implementations">Multiple possible implementations</h3>
+<div class="smaller">
+<p>The theoretical key principles are not precise enough yet to program an implementation - e.g.: Is the decrease of the resouce linear or curved? How fast does the resource recover under rest?</p>
+<p>These additional auxiliary assumptions (which are not in the core of the theory) can lead to very different possible implementations - <span class="hl">all of which are compatible with the theory</span>:</p>
+</div>
+<div class="columns">
+<div class="column" style="width:33%;">
+<p><img src="img/ego_depletion1.png" class="img-fluid"></p>
+</div><div class="column" style="width:33%;">
+<p><img src="img/ego_depletion2.png" class="img-fluid"></p>
+</div><div class="column" style="width:33%;">
+<p><img src="img/ego_depletion3.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="footer">
+<p><a href="https://github.com/jmbh/explanationpaper">https://github.com/jmbh/explanationpaper</a></p>
+</div>
+</section>
+</section>
 <section id="what-is-a-formalmathematicalcomputational-model" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-a-formalmathematicalcomputational-model">What is a formal/mathematical/computational model?</h2>
-<p>A {formal|mathematical|computational} model is a precise, mathematical representation of the theory’s principles and relationships. It serves as a bridge between abstract theoretical principles and the empirical world.</p>
-<p>Sometimes a theory is so highly formalized that it is virtually <span class="alert">identical</span> to a model of it. But more often, there is a <span class="hl">gap</span> between theory and implemented models: We need more assumptions to implement a model in computer code. In this case, multiple models can satisfy the axioms and constraints of a theory (see next slide).</p>
-</section>
-<section id="formal-models-one-possible-implementation" class="level2">
-<h2 class="anchored" data-anchor-id="formal-models-one-possible-implementation">Formal models: One possible implementation</h2>
-</section>
-<section id="what-is-a-formalmathematicalcomputational-model-1" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-a-formalmathematicalcomputational-model-1">What is a formal/mathematical/computational model?</h2>
 <section id="in-a-nutshell" class="level3">
 <h3 class="anchored" data-anchor-id="in-a-nutshell">In a nutshell</h3>
-<p>A model is a function that transforms input variables into an output variable (the dependent variable).</p>
+<p>A model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms input variables into an output variable (the dependent variable).</p>
 <p>Type of input variables:</p>
 <ul>
 <li><strong>Fixed parameters</strong>: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).</li>
 <li><strong>Free parameters</strong>: Can be adjusted to optimize the fit of the model to data. They are <em>estimated</em> from empirical data.</li>
-<li><strong>Nuisance parameters</strong>:</li>
+<li>(<strong>Nuisance parameters</strong>)</li>
 </ul>
 </section>
 </section>
 <section id="fa-people-group-size1x-exercise-15-min-apply-to-your-buridan-model" class="level2">
 <h2 class="anchored" data-anchor-id="fa-people-group-size1x-exercise-15-min-apply-to-your-buridan-model"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Exercise (15 min): Apply to your Buridan model</h2>
-<p>List all parameters that you have in your model. Sort them into <em>fixed</em> and <em>free</em> parameters.</p>
+<ul>
+<li>List all parameters that you have in your model.</li>
+<li>Sort them into <em>fixed</em> and <em>free</em> parameters.</li>
+</ul>
+</section>
+<section id="what-are-explanations" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-explanations">What are explanations?</h2>
+<p>With the definition of <span class="alert">explanatory theories</span> and <span class="alert">formal models</span>, a definition of <span class="hl">explanations</span> can be proposed:</p>
+<blockquote class="blockquote">
+<p><em>“Theory T putatively explains phenomenon P”</em> means:</p>
+<p><strong>“if the world were as T says it is, P would follow as a matter of course.”</strong></p>
+<p>Although this notion of explanation is arguably incomplete, it has the advantages of being close to the commonsense understanding of the concept and being easy to implement in a formal model—namely by creating a virtual world in which theory T is true and showing that this world will indeed produce phenomenon P.</p>
+</blockquote>
+<div class="footer">
+<p>Charles S. Peirce (1931, p.&nbsp;185); Borsboom et al.&nbsp;(2021). <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a></p>
+</div>
 </section>
 <section id="definitions-2" class="level2">
 <h2 class="anchored" data-anchor-id="definitions-2">Definitions (2)</h2>
@@ -469,7 +573,7 @@ What is an (explanatory) theory?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>A theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e.&nbsp;law-like) character. (<em>explanans</em>)</p>
+<p>A theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e.&nbsp;law-like) character.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -478,11 +582,11 @@ What is an (explanatory) theory?
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-What is a computational model?
+What is a formal model?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>TODO</p>
+<p>A formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory <em>and</em> the model are sufficiently accurate.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -499,8 +603,7 @@ What is an explanation?
 </div>
 </div>
 <div class="footer">
-<p>Borsboom et al.&nbsp;(2021). <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a></p>
-<p>van Dongen, N. N. N. et al.&nbsp;(2022, April 13). Productive Explanation: A Framework for Evaluating Explanations in Psychological Science. https://doi.org/10.31234/osf.io/qd69g</p>
+<p>Borsboom et al.&nbsp;(2021). <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a>; van Dongen et al.&nbsp;(2023). <a href="https://doi.org/10.31234/osf.io/qd69g">https://doi.org/10.31234/osf.io/qd69g</a></p>
 </div>
 <!-- Footer insert below -->
 </section>

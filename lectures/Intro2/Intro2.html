@@ -197,7 +197,6 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#in-a-nutshell" id="toc-in-a-nutshell" class="nav-link" data-scroll-target="#in-a-nutshell">In a nutshell</a></li>
   </ul></li>
-  <li><a href="#fa-people-group-size1x-exercise-15-min-apply-to-your-buridan-model" id="toc-fa-people-group-size1x-exercise-15-min-apply-to-your-buridan-model" class="nav-link" data-scroll-target="#fa-people-group-size1x-exercise-15-min-apply-to-your-buridan-model"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Exercise (15 min): Apply to your Buridan model</a></li>
   <li><a href="#what-are-explanations" id="toc-what-are-explanations" class="nav-link" data-scroll-target="#what-are-explanations">What are explanations?</a></li>
   <li><a href="#definitions-2" id="toc-definitions-2" class="nav-link" data-scroll-target="#definitions-2">Definitions (2)</a></li>
   </ul></li>
@@ -247,6 +246,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<!-- Duration: 1h (without group exercises) -->
 <section id="what-is-a-theory" class="level1">
 <h1>What is a <span class="alert">theory</span>?</h1>
 <blockquote class="blockquote">
@@ -527,6 +527,7 @@ What is an (explanatory) theory?
 <div class="footer">
 <p><a href="https://github.com/jmbh/explanationpaper">https://github.com/jmbh/explanationpaper</a></p>
 </div>
+<!-- TODO: Die Frage mit free udn fixed parameters das nächste Mal später machen / separat machen -->
 </section>
 </section>
 <section id="what-is-a-formalmathematicalcomputational-model" class="level2">
@@ -534,20 +535,27 @@ What is an (explanatory) theory?
 <section id="in-a-nutshell" class="level3">
 <h3 class="anchored" data-anchor-id="in-a-nutshell">In a nutshell</h3>
 <p>A model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms input variables into an output variable (the dependent variable).</p>
-<p>Type of input variables:</p>
+<p>Types of parameters:</p>
 <ul>
 <li><strong>Fixed parameters</strong>: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).</li>
 <li><strong>Free parameters</strong>: Can be adjusted to optimize the fit of the model to data. They are <em>estimated</em> from empirical data.</li>
 <li>(<strong>Nuisance parameters</strong>)</li>
 </ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Virtually all parameters (except natural constants) could be imagined as being free. It is a <em>choice</em> to fix some of them in order to simplify the model.</p>
+</div>
+</div>
+<!-- ----------------- -->
 </section>
-</section>
-<section id="fa-people-group-size1x-exercise-15-min-apply-to-your-buridan-model" class="level2">
-<h2 class="anchored" data-anchor-id="fa-people-group-size1x-exercise-15-min-apply-to-your-buridan-model"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Exercise (15 min): Apply to your Buridan model</h2>
-<ul>
-<li>List all parameters that you have in your model.</li>
-<li>Sort them into <em>fixed</em> and <em>free</em> parameters.</li>
-</ul>
 </section>
 <section id="what-are-explanations" class="level2">
 <h2 class="anchored" data-anchor-id="what-are-explanations">What are explanations?</h2>
@@ -665,6 +673,7 @@ What is an explanation?
 ::: {.column width='40%'}
 
 
+
 :::{.cell}
 
 :::{.cell-output-display}
@@ -687,6 +696,7 @@ D[Data]
 :::
 
 
+
 :::
 
 ::::
@@ -701,44 +711,6 @@ D[Data]
 </section>
 
 </main> <!-- /main -->
-
-<script>
-  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-  // slide changes (different for each slide format).
-  (function () {
-    // dispatch for htmlwidgets
-    function fireSlideEnter() {
-      const event = window.document.createEvent("Event");
-      event.initEvent("slideenter", true, true);
-      window.document.dispatchEvent(event);
-    }
-
-    function fireSlideChanged(previousSlide, currentSlide) {
-      fireSlideEnter();
-
-      // dispatch for shiny
-      if (window.jQuery) {
-        if (previousSlide) {
-          window.jQuery(previousSlide).trigger("hidden");
-        }
-        if (currentSlide) {
-          window.jQuery(currentSlide).trigger("shown");
-        }
-      }
-    }
-
-    // hookup for slidy
-    if (window.w3c_slidy) {
-      window.w3c_slidy.add_observer(function (slide_num) {
-        // slide_num starts at position 1
-        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-      });
-    }
-
-  })();
-</script>
-
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

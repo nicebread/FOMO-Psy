@@ -389,14 +389,7 @@
     "href": "lectures/Intro2/Intro2.slide.html#what-is-a-formalmathematicalcomputational-model",
     "title": "What are (Not) Theories & Models?",
     "section": "What is a formal/mathematical/computational model?",
-    "text": "What is a formal/mathematical/computational model?\nIn a nutshell\nA model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms input variables into an output variable (the dependent variable).\nType of input variables:\n\nFixed parameters: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters: Can be adjusted to optimize the fit of the model to data. They are estimated from empirical data.\n(Nuisance parameters)"
-  },
-  {
-    "objectID": "lectures/Intro2/Intro2.slide.html#fa-people-group-size1x-exercise-15-min-apply-to-your-buridan-model",
-    "href": "lectures/Intro2/Intro2.slide.html#fa-people-group-size1x-exercise-15-min-apply-to-your-buridan-model",
-    "title": "What are (Not) Theories & Models?",
-    "section": " Exercise (15 min): Apply to your Buridan model",
-    "text": "Exercise (15 min): Apply to your Buridan model\n\nList all parameters that you have in your model.\nSort them into fixed and free parameters."
+    "text": "What is a formal/mathematical/computational model?\nIn a nutshell\nA model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms input variables into an output variable (the dependent variable).\nTypes of parameters:\n\nFixed parameters: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters: Can be adjusted to optimize the fit of the model to data. They are estimated from empirical data.\n(Nuisance parameters)\n\n\n\n\n\n\n\nNote\n\n\nVirtually all parameters (except natural constants) could be imagined as being free. It is a choice to fix some of them in order to simplify the model."
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#what-are-explanations",
@@ -543,14 +536,7 @@
     "href": "lectures/Intro2/Intro2.html#what-is-a-formalmathematicalcomputational-model",
     "title": "What are (Not) Theories & Models?",
     "section": "What is a formal/mathematical/computational model?",
-    "text": "What is a formal/mathematical/computational model?\n\nIn a nutshell\nA model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms input variables into an output variable (the dependent variable).\nType of input variables:\n\nFixed parameters: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters: Can be adjusted to optimize the fit of the model to data. They are estimated from empirical data.\n(Nuisance parameters)"
-  },
-  {
-    "objectID": "lectures/Intro2/Intro2.html#fa-people-group-size1x-exercise-15-min-apply-to-your-buridan-model",
-    "href": "lectures/Intro2/Intro2.html#fa-people-group-size1x-exercise-15-min-apply-to-your-buridan-model",
-    "title": "What are (Not) Theories & Models?",
-    "section": " Exercise (15 min): Apply to your Buridan model",
-    "text": "Exercise (15 min): Apply to your Buridan model\n\nList all parameters that you have in your model.\nSort them into fixed and free parameters."
+    "text": "What is a formal/mathematical/computational model?\n\nIn a nutshell\nA model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms input variables into an output variable (the dependent variable).\nTypes of parameters:\n\nFixed parameters: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters: Can be adjusted to optimize the fit of the model to data. They are estimated from empirical data.\n(Nuisance parameters)\n\n\n\n\n\n\n\nNote\n\n\n\nVirtually all parameters (except natural constants) could be imagined as being free. It is a choice to fix some of them in order to simplify the model."
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#what-are-explanations",
@@ -621,6 +607,13 @@
     "title": "IT tools for theory versioning",
     "section": "Some rules & conventions:",
     "text": "Some rules & conventions:\n\nThe first development version starts with 0.1.0\nThe first stable public release is 1.0.0\nOnce a versioned package has been released, the contents of that version must not be modified. Any modifications must be released as a new version.\nMajor version X (X.y.z) must be incremented if any backward incompatible changes are introduced. Patch and minor versions must be reset to 0 when the major version is incremented.\nIn git: Create a tag or a release whenever a major or minor version is released:\n\nWith tags and releases, you can “pin” and label important commits in your history.\nUsers can quickly go to a specific “frozen” version of your repository.\nIn our context, there is no real difference between tags and releases, you can use either.\n\n\n\nSee https://semver.org"
+  },
+  {
+    "objectID": "skills/it-tools/it-tools.slide.html#applied-to-versioned-theories",
+    "href": "skills/it-tools/it-tools.slide.html#applied-to-versioned-theories",
+    "title": "IT tools for theory versioning",
+    "section": "Applied to versioned theories",
+    "text": "Applied to versioned theories\n\nInternal development versions do not automatically get a new version number; the commit hash is a sufficient identifier, if specific versions in the history need to be referenced.\nEvery release in Github needs an incremented minor or major version."
   },
   {
     "objectID": "skills/it-tools/it-tools.slide.html#example",
@@ -707,6 +700,13 @@
     "text": "Some rules & conventions:\n\nThe first development version starts with 0.1.0\nThe first stable public release is 1.0.0\nOnce a versioned package has been released, the contents of that version must not be modified. Any modifications must be released as a new version.\nMajor version X (X.y.z) must be incremented if any backward incompatible changes are introduced. Patch and minor versions must be reset to 0 when the major version is incremented.\nIn git: Create a tag or a release whenever a major or minor version is released:\n\nWith tags and releases, you can “pin” and label important commits in your history.\nUsers can quickly go to a specific “frozen” version of your repository.\nIn our context, there is no real difference between tags and releases, you can use either.\n\n\n\nSee https://semver.org"
   },
   {
+    "objectID": "skills/it-tools/it-tools.html#applied-to-versioned-theories",
+    "href": "skills/it-tools/it-tools.html#applied-to-versioned-theories",
+    "title": "IT tools for theory versioning",
+    "section": "Applied to versioned theories",
+    "text": "Applied to versioned theories\n\nInternal development versions do not automatically get a new version number; the commit hash is a sufficient identifier, if specific versions in the history need to be referenced.\nEvery release in Github needs an incremented minor or major version."
+  },
+  {
     "objectID": "skills/it-tools/it-tools.html#example",
     "href": "skills/it-tools/it-tools.html#example",
     "title": "IT tools for theory versioning",
@@ -781,49 +781,280 @@
     "href": "sessions/S2-Introduction.html",
     "title": "Session 2 - Introduction Theories",
     "section": "",
-    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: Chapter, Git troubleshooting\n15\n\n\n\nSkill 1: CFF-files\n10\nSlides\n\n\nLecture: Introduction: What is a theory?\n60\nSlides\n\n\nSkill 2: Bischof-Notation\n45\nSlides\n\n\nSkill 3: draw.io\n15\ndraw.io -&gt; Connect to Github\n\n\nWorkshop: Group Exercise: Buri (Level 2)\n30\nSlides\n\n\nHomework 1: Read van Dongen et al (2023)\n-\n\n\n\nHomework 2: Create a CFF file\n-\n\n\n\n\n\n\n2 Homework 1\nRead van Dongen et al. (2022). Improving psychological explanations. PsyArXiv. https://doi.org/10.31234/osf.io/qd69g and answer the following guiding questions:\n\nTBD\n\n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/session2 and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\n\n\n3 Homework 2\n\nCreate a CFF file and upload it to your group’s subfolder"
+    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: Chapter, Git troubleshooting\n15\n\n\n\nSkill 1: CFF-files & semantic versioning\n45\nSlides\n\n\nLecture: Introduction: What is a theory?\n60\nSlides\n\n\nWorkshop: Group Exercise: Buri (Level 2)\n60\nSlides\n\n\n[Homework 1]: Read van Dongen et al (2023)\n-\n\n\n\n[Homework 2]: Create a CFF file\n-\n\n\n\n\n\n\n2 Homework 1 (individually)\nRead van Dongen et al. (2022). Improving psychological explanations. PsyArXiv. https://doi.org/10.31234/osf.io/qd69g and answer the following guiding questions:\n\nWhat is the role an original authors should play when predictions are derived from a theory?\n\n\n\nAre phenomena, according to Bogen and Woodward, directly observable?\n\n\n\nWhat is the role of statistical patterns in the Productive Explanation Model?\n\n\n\nList the three steps of productive explanation.\n\n\n\nDoes Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?\n\n\n\nNot every explanation has the same quality. Describe the three quality criteria provided in the paper in one or two sentences each.\n\n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/session2 and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\n\n\n3 Homework 2 (as a group)\n\nCreate a CFF file and upload it to your group’s subfolder"
   },
   {
     "objectID": "sessions/sessions_overview.html",
     "href": "sessions/sessions_overview.html",
     "title": "Overview of sessions",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 1 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\nSession 2 - Introduction Theories\n\n\nIntro to theory 2; Bischof notation; CFF files\n\n\n\n\nSession 3 - How to define constructs\n\n\nHow to define constructs; semantic versioning\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 1 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\nSession 2 - Introduction Theories\n\n\nIntro to theory 2; Bischof notation; CFF files\n\n\n\n\nSession 3 - How to define constructs\n\n\nHow to define constructs; semantic versioning\n\n\n\n\nSession 4 - Bischof notation\n\n\nTBD\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "common/lastslide.html",
-    "href": "common/lastslide.html",
-    "title": "End",
+    "objectID": "sessions/S1-Introduction.html",
+    "href": "sessions/S1-Introduction.html",
+    "title": "Session 1 - Introduction",
     "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nLecturer introduction\n\n\nIntroduction of students in the plenum\n5\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nGroup formation\n10\nSee Section 2\n\n\nSkill: Git Intro\n30\nSee Section 3\n\n\nLecture: Introducion: Theory crisis\n45\nSlides\n\n\nWorkshop: Group Exercise: Buri (Level 1)\n60\nSlides\n\n\n[Homework 1]: Git Tutorial\n-\n\n\n\n[Homework 2]: Smaldino (2013), Chapter 1\n-"
   },
   {
-    "objectID": "common/lastslide.html#contact",
-    "href": "common/lastslide.html#contact",
-    "title": "End",
+    "objectID": "sessions/S1-Introduction.html#goal",
+    "href": "sessions/S1-Introduction.html#goal",
+    "title": "Session 1 - Introduction",
+    "section": "2.1 Goal:",
+    "text": "2.1 Goal:\n\nPut together groups where also unacquainted people meet -&gt; increase network size.\nAllow a certain freedom of choice, not completely random.\nEnsure that at least one person is knowledgable of programming."
+  },
+  {
+    "objectID": "sessions/S1-Introduction.html#create-a-visual-analog-scale-vas-of-programming-skills-in-the-room",
+    "href": "sessions/S1-Introduction.html#create-a-visual-analog-scale-vas-of-programming-skills-in-the-room",
+    "title": "Session 1 - Introduction",
+    "section": "2.2 Create a “visual analog scale” (VAS) of programming skills in the room",
+    "text": "2.2 Create a “visual analog scale” (VAS) of programming skills in the room\nWhile carrying their name tags, students find their position between two corners of the rooms, described as:\n\n“No programming knowledge at all, I even forgot everything I learned about R programming in the first semester”\n“I actively coded (in any language) in the last 3 months”"
+  },
+  {
+    "objectID": "sessions/S1-Introduction.html#semi-randomised-allocation",
+    "href": "sessions/S1-Introduction.html#semi-randomised-allocation",
+    "title": "Session 1 - Introduction",
+    "section": "2.3 Semi-randomised allocation:",
+    "text": "2.3 Semi-randomised allocation:\n\nCollect all name tags, in the order of programming skills in the VAS.\nBuild 4 working islands (push tables together).\nDistribute the name tags of the 4 most capable programmers in the room on the 4 tables.\nThen select the next 4 names, who choose an island to join. But only 1 person is allowed to join each island at each round."
+  },
+  {
+    "objectID": "sessions/S1-Introduction.html#round-of-introductions-within-the-group-10-min",
+    "href": "sessions/S1-Introduction.html#round-of-introductions-within-the-group-10-min",
+    "title": "Session 1 - Introduction",
+    "section": "2.4 Round of introductions within the group (10 min)",
+    "text": "2.4 Round of introductions within the group (10 min)\n\nTask: Think of a funny name for a donkey. This will be the group’s name.\nGive a more detailed introduction to the other group members:\n\nCareer goals / type of psychologist they want to become\nSpecific programming skills"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "This is material for the course “P19 Empirisch-psychologisches Praktikum” at the Ludwig-Maximilians-Universität München. The course is given in the winter term 2023/24 by Prof. Dr. Felix Schönbrodt."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "TODO.html",
+    "href": "TODO.html",
     "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
     "section": "",
-    "text": "Note: The material will (initially) be some mixture of German and English. Your mileage may vary.\nThe course has 15 sessions, each lasting 3.5h. In between sessions, homework is given.\nEach session will be a mix of three elements:"
+    "text": "Operationalisierung gehört zur Theoriearbeit"
   },
   {
-    "objectID": "index.html#modeling-methodology",
-    "href": "index.html#modeling-methodology",
+    "objectID": "TODO.html#notes",
+    "href": "TODO.html#notes",
     "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
-    "section": "Modeling methodology",
-    "text": "Modeling methodology\n\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nGuest, O., & Martin, A. E. (2021). How Computational Modeling Can Force Theory Building in Psychological Science. Perspectives on Psychological Science, 16(4), 789–802. https://doi.org/10.1177/1745691620970585\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://doi.org/10.15626/MP.2021.2911\nWilson, R. C., & Collins, A. G. (2019). Ten simple rules for the computational modeling of behavioral data. ELife, 8, e49547. https://doi.org/10.7554/eLife.49547"
+    "section": "",
+    "text": "Operationalisierung gehört zur Theoriearbeit"
   },
   {
-    "objectID": "index.html#about-theories",
-    "href": "index.html#about-theories",
+    "objectID": "TODO.html#cff-files",
+    "href": "TODO.html#cff-files",
     "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
-    "section": "About theories",
-    "text": "About theories\n\nGlöckner, A., Fiedler, S., & Renkewitz, F. (2018). Belastbare und effiziente Wissenschaft: Strategische Ausrichtung von Forschungsprozessen als Weg aus der Replikationskrise. Psychologische Rundschau, 69(1), 22–36. https://doi.org/10.1026/0033-3042/a000384\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2\nSutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "section": "CFF files",
+    "text": "CFF files\nCFF files: mention whether this theory version was peer-reviewed (or what the last peer-reviewed version was), with a link to the doi of the peer-reviewed publication and ideally the open peer reviews. How does “release” relate to “peer review”? Principally it’s independent."
+  },
+  {
+    "objectID": "TODO.html#ablauf-intro-2",
+    "href": "TODO.html#ablauf-intro-2",
+    "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
+    "section": "Ablauf Intro 2:",
+    "text": "Ablauf Intro 2:\nNächstes Mal zuerst die Bischof-Notation einführen, und dann erst die Unterscheidung zwischen fixed und free parameters. Dann kann man das sofort sinnvoll visualisieren. Zwei Varianten für fixed parameters: Entweder als hard-coded constant im Block, oder als freier Eingang in einen Block, der aber einen anderen visuellen Stil hat (um klar zumachen, dass es keine Variable ist; z.B. gestrichelt)."
+  },
+  {
+    "objectID": "TODO.html#theory-versioning",
+    "href": "TODO.html#theory-versioning",
+    "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
+    "section": "THEORY versioning",
+    "text": "THEORY versioning\nminor: - do we require (a) perfect identity of predictions, or (b) “substantively the same”? - if (a), nearly every change would be a “major” change - “substantively” is vague -&gt; if the interpretation of all previous studies does not change, it is not a substantial change - no qualitative changes (only minor quantitative) –&gt; what is a qualitative change? - adding variables probably always changes the specific predictions (at least a little bit)\nMittelwert vs. Range -&gt; wenn es unter einer Änderung epsilon bleibt, ist es minor; epslion muss definiert werden.\nEvery major change needs a new peer review."
+  },
+  {
+    "objectID": "workshops/workshop_overview.html",
+    "href": "workshops/workshop_overview.html",
+    "title": "Workshop Overview",
+    "section": "",
+    "text": "These are all slides used for the “workshop” part of the course:\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\n2023-10-20\nBuridan's ass\nlink\nlink"
+  },
+  {
+    "objectID": "orga_material/orga_material.html",
+    "href": "orga_material/orga_material.html",
+    "title": "Organizational Material",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nAug 1, 2023\n\n\nCourse announcement\n\n\nAnnouncement in the university’s course management system\n\n\n\n\nSep 16, 2023\n\n\nCall for theory submissions\n\n\nThis is the email I sent to the colleagues in my department, asking for the submission of theories for the formalization exercise.\n\n\n\n\nOct 1, 2023\n\n\nInstructions before course\n\n\nSome instructions for students before the course starts\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "orga_material/call_for_submissions.html",
+    "href": "orga_material/call_for_submissions.html",
+    "title": "Call for theory submissions",
+    "section": "",
+    "text": "This is the email I sent to the colleagues in my department:\n\nSubject: We formalize your theory!\n\nBody:\nDear colleagues,\nthis semester, we want to explore something new. In my upcoming Empra (for 5th semester students), the participants get acquainted with formal modeling of psychological theories. The goal is to develop a mathematical or agent-based model of a verbal theory. In this project, …\n\nthe central phenomena are listed (What is to be explained?)\nthe verbal theory is explicated, and\na theory formalization is attempted (in a way that data can be simulated from the model).\n\nWe wanted to ask you - the colleagues in the department - if you want to submit a theory for this exercise.\nHere are some FAQs:\n\nWhat theory would be a good fit?\n\nA theory that is sufficiently precise and has a defined and not too large scope\nIts core premises are formulated in a clear and concise form on one (or only few) pages.\nThere doesn’t exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).\n\n\n\nWhat theory would not be a good fit?\n\nYou need to read three books to understand the theory.\nThe “all-encompassing theory of human nature”\nYou need a lot of expert input and judgement to fill in the gaps of the underspecified theory.\nYou need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.\n\n\n\nBut don’t you lack domain knowledge?\nIn an ideal world, theories are so well specified that they can be formalized without further expert opinions. But as this is unrealistic in psychology, we need your input (see next question).\n\n\nWhat is my necessary commitment?\n\nProvide the written material for the theory.\nTwo or three meetings (each lasting ~2h) during the Empra’s teaching hours (XXX):\n\nMeeting 1 where you give a very short overview of the theory (after the students have already read the written material) and we discuss first steps.\nMeeting 2 where students present intermediate results and can ask questions for clarification.\n(optional) Meeting 3, where students present their results to you.\nIf you enjoy and benefit from the scientific discussion, of course more meetings are possible and welcome.\n\n\n\n\nWhat happens with the results?\nThe created models will be published with a CC-BY license. That means, you can reuse everything with a proper citation. If the models are really helpful (and more than just a vague inspiration for further work), we can think about a follow-up collaboration and write-up (where collaboration and co-authorship is offered to the student creators of the model).\n\n\nThe procedure would be as follows:\n\nWe collect candidate theories for formalization until 30.10.2023.\nWe screen all submissions and select one or two theories (depending on their complexity).\nIf your theory is selected, we will meet:\n\nFor the introductory meeting (xx.xx.2023, ~2h)\nFor the intermediate meeting (xx.xx.2024, ~2h)\nFor the results presentation (xx.xx.2024, ~2h)\n\n\nIf you want to participate, please send an email to xxx by xx.xx.2023, containing a short description of the theory (max. 200 words) and a link to a central paper describing the theory. It can be “your” theory, or an existing theory that you work with.\nA final caveat: We are aware that this collaboration requires a non-negligible time investment from you. At the same time, this is highly experimental and we cannot promise any success or even progress. But in any case we expect good scientific discussions and are convinced that the exercise is fruitful for all parties.\nIf you have any questions, drop me an email.\n\nHere are some (anonymized) reactions I got:\n\n“EPIC!”\n“A very good idea. Just trying it would fulfil my heart’s desire”\n\nAt the end, XX theories got submitted. We discussed them and selected YY of them"
+  },
+  {
+    "objectID": "orga_material/course_announcement.html",
+    "href": "orga_material/course_announcement.html",
+    "title": "Course announcement",
+    "section": "",
+    "text": "Im Empirisch-psychologischen Praktikum “Formale Modellierung in der Psychologie” tauchen die Studierenden in die Welt der quantitativen Darstellung psychologischer Theorien ein. Dabei geht es nicht um die quantitative Auswertung von Daten mit Hilfe statistischer Modelle, sondern um Theorien und datengenerierende Modelle, die so präzise sind, dass man konkrete Daten vorhersagen kann.\nAls eine Reaktion auf die Replikationskrise wurde der Ruf nach besseren Theorien laut, mit dem Ziel, verbale und konzeptionelle Theorien in formale, mathematische Modelle zu übersetzen. Diese Modelle dienen mehreren Zwecken: Sie ermöglichen eine rigorose Prüfung von Hypothesen, bieten klarere Vorhersagen und bilden einen Rahmen, um scheinbar disparate Ergebnisse zu vereinheitlichen. Außerdem schärfen sie den Blick auf “Leerstellen” in den meist hoffnungslos unterspezifizierten Theorien in der Psychologie.\nIn diesem Kurs werden die Studierenden in die grundlegenden Prinzipien der formalen Modellierung und ihre verschiedenen Varianten eingeführt (z.B. mathematische Modelle, Regelkreismodelle, agentenbasierte Modelle) und mit den Werkzeugen ausgestattet, die sie benötigen, um aus vorhandenen verbalen Theorien Modelle abzuleiten. Entsprechend werden wir uns viel mit der Implementierung in Programmiersprachen befassen. Wir werden dabei vermutlich viel in R programmieren, ggf. auch in NetLogo (für ABMs).\nWir werden versuchen, kollaborativ verbale psychologische Theorien soweit zu formalisieren, dass man sie in ein datengenerierendes Modell übersetzen und implementieren kann, um die generierten Daten dann zur Prüfung mit echten Daten zu vergleichen.\nWir werden Aspekte der Qualitätssicherung bei diesem Forschungsaspekt diskutieren und anwenden (Reproduzierbarkeit, Versionskontrolle, Sensitivitätsanalysen, gut dokumentierter Code / unit testing).\nDas Empra stellt etwas höhere Anforderungen an mathematisches und formales Denken, sowie ihre Programmierfähigkeit. Als Minimum werden die R-Kenntnisse vorausgesetzt, die im Rahmen der Seminare zu Statistik 1 und 2 gelehrt wurden, sowie die Bereitschaft, sich auch selbständig (anhand von bereitgestelltem Material) in Themen der Programmierung einzuarbeiten."
+  },
+  {
+    "objectID": "orga_material/instructions_before_course.html",
+    "href": "orga_material/instructions_before_course.html",
+    "title": "Instructions before course",
+    "section": "",
+    "text": "Liebe Studierende,\nich freue mich schon auf unser Empra zur formalen Modellierung psychologischer Theorien. Hier kommen einige Hinweise für den Start:\n\nIch würde gerne den Start von 8:15 auf 8:30 verlegen. Die Sitzung geht dann bis 11:45.\nWir werden in fast jeder Sitzung am Computer arbeiten - z.B. Code schreiben, Diagramme zeichnen, oder Dateien in git einchecken. Daher wäre es gut, wenn sie, wenn möglich, immer ihren Laptop mitbringen. Wenn Sie keinen Laptop haben, können Sie auch bei Kommilitonen reinschauen und im “pair programming” Modus arbeiten.\nWenn das letzte Programmieren in R schon etwas länger her ist, frischen sie gerne vorab ihre Kenntnisse auf. Das Empra wird keine Auffrischung in R beinhalten. Hier sind einige Ressourcen:\n\nDie Tutorialfolien aus Statistik 1\nMoodle Kurs “R Tutorials”. Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR\nYouTube-Video: “Want to learn R (#rstats) in 4 hours with NO programming experience?”\nhttps://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf (12 page PDF document)\nhttps://github.com/jobreu/r-intro-gesis-2021 (5 day course: slides & exercises)\n\nDie Kommunikation wird ab jetzt über den Moodle-Kurs laufen: https://moodle.lmu.de/course/view.php?id=30162 Der Einschreibeschlüssel lautet: “theorie”. Bitte schreiben Sie sich schon zeitnah ein; ich verschicke ab jetzt die Emails über den Kurs.\n\nDann sehen wir uns am Freitag, 20.10.23, um 8:30 in Raum 1208 zur ersten Sitzung! Bei Fragen können Sie sich gerne auch vorab schon bei mir melden.\nViele Grüße, Felix Schönbrodt"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.html",
+    "href": "workshops/Buri/Buri.html",
+    "title": "Buridan’s ass",
+    "section": "",
+    "text": "„The man who is violently, but equally, hungry and thirsty, and stands at an equal distance from food and drink, and who therefore must remain where he is.“\n\nAristoteles: De Caelo/On the Heavens. Trans. W. K. C. Guthrie, Heinemann, London 1938, 2:13:295b (S. 237)\n\n\n\n\n\nhttps://p8.storage.canalblog.com/87/85/553105/80715840.jpeg\n\n\nSee Wikipedia\n\n\n\n\n\n\n\n\n\n\n\n\n“Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen”\n\nN. Bischof (in prep, S. 143)\n\n\n\nThe gnosis knew the figure of the Demiurge, a creator god of lower rank, who had received the commission from the High Deity to build the cosmos\n\n\n\n\nBy Dmitrismirnov - Own work, CC BY-SA 3.0\n\n\n\n\n\n\nDer Forscher, der eine komplexe Struktur verstehen will, ist gut beraten, wenn er sich in die Rolle eines solchen Demiurgen versetzt und sich vorstellt, er hätte sie selbst konstruieren müssen. Natürlich muss er dafür eine begründete Vermutung haben, was sie leisten soll. Leistung schließt immer eine Zielvorgabe ein, die Arbeit des Demiurgen läuft also naturgemäß im Rahmen einer telischen Heuristik 1 ab.\n\nN. Bischof (in prep, S. 143)\n\n\nThe researcher who wants to understand a complex structure is well advised to put himself in the role of such a demiurge and imagine that he would have had to construct it himself. Of course, to do this he must have an educated guess as to what it should perform. Performance always includes a target, so the demiurge’s work naturally runs within the framework of a telic heuristic.\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nWäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen? If I were an engineer and I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\nBischof (in prep, S. 143)"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.html#the-demiurg",
+    "href": "workshops/Buri/Buri.html#the-demiurg",
+    "title": "Buridan’s ass",
+    "section": "",
+    "text": "“Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen”\n\nN. Bischof (in prep, S. 143)\n\n\n\nThe gnosis knew the figure of the Demiurge, a creator god of lower rank, who had received the commission from the High Deity to build the cosmos\n\n\n\n\nBy Dmitrismirnov - Own work, CC BY-SA 3.0"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.html#das-demiurgische-prinzip",
+    "href": "workshops/Buri/Buri.html#das-demiurgische-prinzip",
+    "title": "Buridan’s ass",
+    "section": "",
+    "text": "Der Forscher, der eine komplexe Struktur verstehen will, ist gut beraten, wenn er sich in die Rolle eines solchen Demiurgen versetzt und sich vorstellt, er hätte sie selbst konstruieren müssen. Natürlich muss er dafür eine begründete Vermutung haben, was sie leisten soll. Leistung schließt immer eine Zielvorgabe ein, die Arbeit des Demiurgen läuft also naturgemäß im Rahmen einer telischen Heuristik 1 ab.\n\nN. Bischof (in prep, S. 143)\n\n\nThe researcher who wants to understand a complex structure is well advised to put himself in the role of such a demiurge and imagine that he would have had to construct it himself. Of course, to do this he must have an educated guess as to what it should perform. Performance always includes a target, so the demiurge’s work naturally runs within the framework of a telic heuristic."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.html#the-demiurgic-principle",
+    "href": "workshops/Buri/Buri.html#the-demiurgic-principle",
+    "title": "Buridan’s ass",
+    "section": "",
+    "text": "Note\n\n\n\nWäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen? If I were an engineer and I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\nBischof (in prep, S. 143)"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-1",
+    "href": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-1",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 1",
+    "text": "Group exercise: Cover your ass, Level 1\n\nScenario: The environment has two unlimited sources (food and water), in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body. If any of the two reserves drops to zero, the donkey dies.\n(Simplifying) assumptions:\n\nLinear decrease in both water and food reserves in the body, higher under activity (e.g., traveling).\nNo other needs or tasks (e.g., no predators, no sleep necessary).\nEating, drinking, and traveling takes a substantial amount of time.\nThe donkey has a representation of the environment and knows where the two sources are.\n\nTask: Construct an organism, with as few assumptions as possible, that survives as long as possible. Which constructs / sensors / abilities are necessary for this? Assume as simple abilities as possible - certainly not super-human abilities. (Rather think of an amoeba, not a super-AI).\nDeliverable: A markdown text file with a verbal description of the organism. Give it the version number 0.1.0. Upload to the Git repo."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2",
+    "href": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 2",
+    "text": "Group exercise: Cover your ass, Level 2\n\nExhaustive list of fixed and free parameters\nTask:\n\nList all parameters of your model (on the top of your markdown file). → As a heuristic: Every conrete number that you need for your simulation is a parameter.\nCategorize them into fixed and free parameters. → Virtually all parameters (except natural constants) could be imagined as being free. It is usually a choice to fix some of them in order to simplify the model.\n\n\n\n\n\n\n\nReminder: free vs fixed parameters\n\n\n\n\nFixed parameters are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters can be adjusted to optimize the fit of the model to data. They are estimated from empirical data."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2-1",
+    "href": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2-1",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 2",
+    "text": "Group exercise: Cover your ass, Level 2\n\nDraw a graphical model, Bischof-style\n\nTask: Sketch your initial verbal model in the style of Bischof. Refine and extend where necessary, e.g.:\n\nThink about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary\nGive a label to every variable (i.e., every arrow in the graphical model).\nEvery parameter that you identified should be an arrow in your visual model\n\nDeliverables:\n\nDraw the model collaboratively in draw.io. In one corner, add the version number 0.2.0 and today’s date (simply as a text box).\nExport the model as an xml file and push it to the Github repo.\nWrite a meaningful commit message, e.g. Initial commit; model version 0.2.0"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.html#the-demiurgic-principle-1",
+    "href": "workshops/Buri/Buri.html#the-demiurgic-principle-1",
+    "title": "Buridan’s ass",
+    "section": "The Demiurgic Principle",
+    "text": "The Demiurgic Principle\n\nFinal version\n\n\n\n\n\n\nNote\n\n\n\nWäre ich ein Ingenieur, der, aufbauend auf der letzten funktionstüchtigen Vorform, einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen?  If I were an engineer and, building upon the last functional (evolutionary) preform, I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\n→ Assume realistic capabilities, which respect the evolutionary path dependency.\nE.g., don’t assume …\n\nMammal organisms that need 3 hands to perform a task\nOmniscient knowledge about the environment, probabilities, distant events, the future, …\nUnlimited cognitive processing capabilities (“In the first 2ms, the simulated amoeba performs a multidimensional Bayesian optimization task”)\n\n\n\nBischof (in prep, S. 143)"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-4",
+    "href": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-4",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 4",
+    "text": "Group exercise: Cover your ass, Level 4\n\nConstruct and variable definitions\n\n\nIn the previous lecture, you learned how a good construct definition looks like. Apply that new skill to your model!\nTask:\n\nDevelop proper definitions for all variables and concepts in your model\nIf necessary, update the model structure in draw.io; increase either the minor version (e.g., to 0.3.0) or only the patch version (e.g., 0.2.1); export a new xml file.\nProvide the definitions of the model’s variables and constructs in a separate markdown file (Definitions.md).\n\nDeliverables:\n\nCreate a CHANGELOG.md file that explains the changes in the model in more detail.\nPush all new files to your group’s Github repo.\nWrite a meaningful commit message that explains the changes."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-5",
+    "href": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-5",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 5",
+    "text": "Group exercise: Cover your ass, Level 5\n\nVariable Scaling & Netlogo Implementation\n\nTasks:\n\nDefine the variables in the implemented model:\n\nScale level\nPossible range or discrete values (define the set)\nInterpretability (what does a value of 0.7 mean?)\n\nMaybe define operationalizations that give a meaning to the numbers\n\n\nDefine computations for each box: How exactly are input variables transformed into the output variables? You need a concrete formula for that. Theories rarely are so specific that you can directly derive a formula; you probably need to fill many gaps with ad-hoc assumptions.\nImplement the model in Netlogo\n\nDeliverables:\n\nPush the .nlogo file to your group’s Github repo.\nUpdate all written model descriptions, increase model version.\nExplain & justify the changes in the model in your CHANGELOG.md.\nWrite a meaningful commit message."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.html#contact",
+    "href": "workshops/Buri/Buri.html#contact",
+    "title": "Buridan’s ass",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.html#footnotes",
+    "href": "workshops/Buri/Buri.html#footnotes",
+    "title": "Buridan’s ass",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\ngriechisch τέλος (telos): ‚Zweck‘, ‚Ziel‘, ‚Ende‘. Der Zweck ist hier evolutionär gedacht: Was hilft dem Überleben und der Fortpflanzung?↩︎"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#the-demiurg",
+    "href": "workshops/Buri/Buri.slide.html#the-demiurg",
+    "title": "Buridan’s ass",
+    "section": "The demiurg",
+    "text": "The demiurg\n\n\n\n\n\n\n\n\n\n“Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen”\n\nN. Bischof (in prep, S. 143)\n\n\n\nThe gnosis knew the figure of the Demiurge, a creator god of lower rank, who had received the commission from the High Deity to build the cosmos\n\n\n\n\nBy Dmitrismirnov - Own work, CC BY-SA 3.0"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#das-demiurgische-prinzip",
+    "href": "workshops/Buri/Buri.slide.html#das-demiurgische-prinzip",
+    "title": "Buridan’s ass",
+    "section": "Das demiurgische Prinzip",
+    "text": "Das demiurgische Prinzip\n\n\nDer Forscher, der eine komplexe Struktur verstehen will, ist gut beraten, wenn er sich in die Rolle eines solchen Demiurgen versetzt und sich vorstellt, er hätte sie selbst konstruieren müssen. Natürlich muss er dafür eine begründete Vermutung haben, was sie leisten soll. Leistung schließt immer eine Zielvorgabe ein, die Arbeit des Demiurgen läuft also naturgemäß im Rahmen einer telischen Heuristik 1 ab.\n\nN. Bischof (in prep, S. 143)\n\n\nThe researcher who wants to understand a complex structure is well advised to put himself in the role of such a demiurge and imagine that he would have had to construct it himself. Of course, to do this he must have an educated guess as to what it should perform. Performance always includes a target, so the demiurge’s work naturally runs within the framework of a telic heuristic.\n\ngriechisch τέλος (telos): ‚Zweck‘, ‚Ziel‘, ‚Ende‘. Der Zweck ist hier evolutionär gedacht: Was hilft dem Überleben und der Fortpflanzung?"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#the-demiurgic-principle",
+    "href": "workshops/Buri/Buri.slide.html#the-demiurgic-principle",
+    "title": "Buridan’s ass",
+    "section": "The Demiurgic Principle",
+    "text": "The Demiurgic Principle\nPreliminary version\n\n\n\n\n\n\nNote\n\n\nWäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen? If I were an engineer and I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\n\nBischof (in prep, S. 143)"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-1",
+    "href": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-1",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 1",
+    "text": "Group exercise: Cover your ass, Level 1\n\nScenario: The environment has two unlimited sources (food and water), in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body. If any of the two reserves drops to zero, the donkey dies.\n(Simplifying) assumptions:\n\nLinear decrease in both water and food reserves in the body, higher under activity (e.g., traveling).\nNo other needs or tasks (e.g., no predators, no sleep necessary).\nEating, drinking, and traveling takes a substantial amount of time.\nThe donkey has a representation of the environment and knows where the two sources are.\n\nTask: Construct an organism, with as few assumptions as possible, that survives as long as possible. Which constructs / sensors / abilities are necessary for this? Assume as simple abilities as possible - certainly not super-human abilities. (Rather think of an amoeba, not a super-AI).\nDeliverable: A markdown text file with a verbal description of the organism. Give it the version number 0.1.0. Upload to the Git repo."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2",
+    "href": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 2",
+    "text": "Group exercise: Cover your ass, Level 2\nExhaustive list of fixed and free parameters\nTask:\n\nList all parameters of your model (on the top of your markdown file). → As a heuristic: Every conrete number that you need for your simulation is a parameter.\nCategorize them into fixed and free parameters. → Virtually all parameters (except natural constants) could be imagined as being free. It is usually a choice to fix some of them in order to simplify the model.\n\n\n\n\n\n\n\nReminder: free vs fixed parameters\n\n\n\nFixed parameters are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters can be adjusted to optimize the fit of the model to data. They are estimated from empirical data."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2-1",
+    "href": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2-1",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 2",
+    "text": "Group exercise: Cover your ass, Level 2\nDraw a graphical model, Bischof-style\n\nTask: Sketch your initial verbal model in the style of Bischof. Refine and extend where necessary, e.g.:\n\nThink about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary\nGive a label to every variable (i.e., every arrow in the graphical model).\nEvery parameter that you identified should be an arrow in your visual model\n\nDeliverables:\n\nDraw the model collaboratively in draw.io. In one corner, add the version number 0.2.0 and today’s date (simply as a text box).\nExport the model as an xml file and push it to the Github repo.\nWrite a meaningful commit message, e.g. Initial commit; model version 0.2.0"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#the-demiurgic-principle-1",
+    "href": "workshops/Buri/Buri.slide.html#the-demiurgic-principle-1",
+    "title": "Buridan’s ass",
+    "section": "The Demiurgic Principle",
+    "text": "The Demiurgic Principle\nFinal version\n\n\n\n\n\n\nNote\n\n\nWäre ich ein Ingenieur, der, aufbauend auf der letzten funktionstüchtigen Vorform, einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen?  If I were an engineer and, building upon the last functional (evolutionary) preform, I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\n\n→ Assume realistic capabilities, which respect the evolutionary path dependency.\nE.g., don’t assume …\n\nMammal organisms that need 3 hands to perform a task\nOmniscient knowledge about the environment, probabilities, distant events, the future, …\nUnlimited cognitive processing capabilities (“In the first 2ms, the simulated amoeba performs a multidimensional Bayesian optimization task”)\n\n\n\nBischof (in prep, S. 143)"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-4",
+    "href": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-4",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 4",
+    "text": "Group exercise: Cover your ass, Level 4\nConstruct and variable definitions\n\n\nIn the previous lecture, you learned how a good construct definition looks like. Apply that new skill to your model!\nTask:\n\nDevelop proper definitions for all variables and concepts in your model\nIf necessary, update the model structure in draw.io; increase either the minor version (e.g., to 0.3.0) or only the patch version (e.g., 0.2.1); export a new xml file.\nProvide the definitions of the model’s variables and constructs in a separate markdown file (Definitions.md).\n\nDeliverables:\n\nCreate a CHANGELOG.md file that explains the changes in the model in more detail.\nPush all new files to your group’s Github repo.\nWrite a meaningful commit message that explains the changes."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-5",
+    "href": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-5",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 5",
+    "text": "Group exercise: Cover your ass, Level 5\nVariable Scaling & Netlogo Implementation\n\nTasks:\n\nDefine the variables in the implemented model:\n\nScale level\nPossible range or discrete values (define the set)\nInterpretability (what does a value of 0.7 mean?)\n\nMaybe define operationalizations that give a meaning to the numbers\n\n\nDefine computations for each box: How exactly are input variables transformed into the output variables? You need a concrete formula for that. Theories rarely are so specific that you can directly derive a formula; you probably need to fill many gaps with ad-hoc assumptions.\nImplement the model in Netlogo\n\nDeliverables:\n\nPush the .nlogo file to your group’s Github repo.\nUpdate all written model descriptions, increase model version.\nExplain & justify the changes in the model in your CHANGELOG.md.\nWrite a meaningful commit message."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#contact",
+    "href": "workshops/Buri/Buri.slide.html#contact",
+    "title": "Buridan’s ass",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "tools.html",
@@ -868,242 +1099,74 @@
     "text": "Netlogo\nNetLogo is the classical tool for agent-based modeling. Being there since 1999, it has the charm of early-days internet software, but offers the most functions and flexibility. It has an open license, is still actively maintained, and is probably the best way for exploring ABMs with quick results and less frustrations. Netlogo has its own programming language, which is easy to learn. The model library gives a head-start for your own ideas.\n🤓 ▶️ Free, self-paced online course with several short videos (total video material ~2h; in addition, one can do quizzes and “homework” that can be compared to solutions).\n ✅ This format is trackable in git. You can export a text file representation of the model as .nlogo files. This contains the actual code (from Netlogo’s “Code” pane) on the top, followed by code describing the “Interface” and the “Info” pane (i.e., locations and properties of sliders, buttons, etc.)."
   },
   {
-    "objectID": "workshops/Buri/Buri.slide.html#the-demiurg",
-    "href": "workshops/Buri/Buri.slide.html#the-demiurg",
-    "title": "Buridan’s ass",
-    "section": "The demiurg",
-    "text": "The demiurg\n\n\n\n\n\n\n\n\n\n“Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen”\n\nN. Bischof (in prep, S. 143)\n\n\n\nThe gnosis knew the figure of the Demiurge, a creator god of lower rank, who had received the commission from the High Deity to build the cosmos\n\n\n\n\nBy Dmitrismirnov - Own work, CC BY-SA 3.0"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#das-demiurgische-prinzip",
-    "href": "workshops/Buri/Buri.slide.html#das-demiurgische-prinzip",
-    "title": "Buridan’s ass",
-    "section": "Das demiurgische Prinzip",
-    "text": "Das demiurgische Prinzip\n\n\nDer Forscher, der eine komplexe Struktur verstehen will, ist gut beraten, wenn er sich in die Rolle eines solchen Demiurgen versetzt und sich vorstellt, er hätte sie selbst konstruieren müssen. Natürlich muss er dafür eine begründete Vermutung haben, was sie leisten soll. Leistung schließt immer eine Zielvorgabe ein, die Arbeit des Demiurgen läuft also naturgemäß im Rahmen einer telischen Heuristik 1 ab.\n\nN. Bischof (in prep, S. 143)\n\n\nThe researcher who wants to understand a complex structure is well advised to put himself in the role of such a demiurge and imagine that he would have had to construct it himself. Of course, to do this he must have an educated guess as to what it should perform. Performance always includes a target, so the demiurge’s work naturally runs within the framework of a telic heuristic.\n\ngriechisch τέλος (telos): ‚Zweck‘, ‚Ziel‘, ‚Ende‘. Der Zweck ist hier evolutionär gedacht: Was hilft dem Überleben und der Fortpflanzung?"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#the-demiurgic-principle",
-    "href": "workshops/Buri/Buri.slide.html#the-demiurgic-principle",
-    "title": "Buridan’s ass",
-    "section": "The Demiurgic Principle",
-    "text": "The Demiurgic Principle\nPreliminary version\n\n\n\n\n\n\nNote\n\n\nWäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen? If I were an engineer and I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\n\nBischof (in prep, S. 143)"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-1",
-    "href": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-1",
-    "title": "Buridan’s ass",
-    "section": " Group exercise: Cover your ass, Level 1",
-    "text": "Group exercise: Cover your ass, Level 1\n\nScenario: The environment has two unlimited sources (food and water), in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body. If any of the two reserves drops to zero, the donkey dies.\n(Simplifying) assumptions:\n\nLinear decrease in both water and food reserves in the body, higher under activity (e.g., traveling).\nNo other needs or tasks (e.g., no predators, no sleep necessary).\nEating, drinking, and traveling takes a substantial amount of time.\nThe donkey has a representation of the environment and knows where the two sources are.\n\nTask: Construct an organism, with as few assumptions as possible, that survives as long as possible. Which constructs / sensors / abilities are necessary for this? Assume as simple abilities as possible - certainly not super-human abilities. (Rather think of an amoeba, not a super-AI).\nDeliverable: A markdown text file with a verbal description of the organism. Give it the version number 0.1.0. Upload to the Git repo."
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2",
-    "href": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2",
-    "title": "Buridan’s ass",
-    "section": " Group exercise: Cover your ass, Level 2",
-    "text": "Group exercise: Cover your ass, Level 2\nDraw a graphical model, Bischof-style\n\nTask: Sketch your initial verbal model in the style of Bischof. Refine and extend where necessary, e.g.:\n\nThink about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary\nGive a label to every variable (i.e., every arrow in the graphical model).\nEvery parameter that you identified should be an arrow in your visual model\n\nDeliverables:\n\nDraw the model collaboratively in draw.io. In one corner, add the version number 0.2.0 and today’s date (simply as a text box).\nExport the model as an xml file and push it to the Github repo.\nWrite a meaningful commit message, e.g. Initial commit; model version 0.2.0"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#the-demiurgic-principle-1",
-    "href": "workshops/Buri/Buri.slide.html#the-demiurgic-principle-1",
-    "title": "Buridan’s ass",
-    "section": "The Demiurgic Principle",
-    "text": "The Demiurgic Principle\nFinal version\n\n\n\n\n\n\nNote\n\n\nWäre ich ein Ingenieur, der, aufbauend auf der letzten funktionstüchtigen Vorform, einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen?  If I were an engineer and, building upon the last functional (evolutionary) preform, I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\n\n→ Assume realistic capabilities, which respect the evolutionary path dependency.\nE.g., don’t assume …\n\nMammal organisms that need 3 hands to perform a task\nOmniscient knowledge about the environment, probabilities, distant events, the future, …\nUnlimited cognitive processing capabilities (“In the first 2ms, the simulated amoeba performs a multidimensional Bayesian optimization task”)\n\n\n\nBischof (in prep, S. 143)"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-3",
-    "href": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-3",
-    "title": "Buridan’s ass",
-    "section": " Group exercise: Cover your ass, Level 3",
-    "text": "Group exercise: Cover your ass, Level 3\nConstruct and variable definitions\n\n\nIn the previous lecture, you learned how a good construct definition looks like. Apply that new skill to your model!\nTask:\n\nDevelop proper definitions for all variables and concepts in your model\nIf necessary, update the model structure in draw.io; increase either the minor version (e.g., to 0.3.0) or only the patch version (e.g., 0.2.1); export a new xml file.\nProvide the definitions of the model’s variables and constructs in a separate markdown file (Definitions.md).\n\nDeliverables:\n\nCreate a CHANGELOG.md file that explains the changes in the model in more detail.\nPush all new files to your group’s Github repo.\nWrite a meaningful commit message that explains the changes."
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-4",
-    "href": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-4",
-    "title": "Buridan’s ass",
-    "section": " Group exercise: Cover your ass, Level 4",
-    "text": "Group exercise: Cover your ass, Level 4\nVariable Scaling & Netlogo Implementation\n\nTasks:\n\nDefine the variables in the implemented model:\n\nScale level\nPossible range or discrete values (define the set)\nInterpretability (what does a value of 0.7 mean?)\n\nMaybe define operationalizations that give a meaning to the numbers\n\n\nDefine computations for each box: How exactly are input variables transformed into the output variables? You need a concrete formula for that. Theories rarely are so specific that you can directly derive a formula; you probably need to fill many gaps with ad-hoc assumptions.\nImplement the model in Netlogo\n\nDeliverables:\n\nPush the .nlogo file to your group’s Github repo.\nUpdate all written model descriptions, increase model version.\nExplain & justify the changes in the model in your CHANGELOG.md.\nWrite a meaningful commit message."
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#contact",
-    "href": "workshops/Buri/Buri.slide.html#contact",
-    "title": "Buridan’s ass",
-    "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.html",
-    "href": "workshops/Buri/Buri.html",
-    "title": "Buridan’s ass",
-    "section": "",
-    "text": "„The man who is violently, but equally, hungry and thirsty, and stands at an equal distance from food and drink, and who therefore must remain where he is.“\n\nAristoteles: De Caelo/On the Heavens. Trans. W. K. C. Guthrie, Heinemann, London 1938, 2:13:295b (S. 237)\n\n\n\n\n\nhttps://p8.storage.canalblog.com/87/85/553105/80715840.jpeg\n\n\nSee Wikipedia\n\n\n\n\n\n\n\n\n\n\n\n\n“Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen”\n\nN. Bischof (in prep, S. 143)\n\n\n\nThe gnosis knew the figure of the Demiurge, a creator god of lower rank, who had received the commission from the High Deity to build the cosmos\n\n\n\n\nBy Dmitrismirnov - Own work, CC BY-SA 3.0\n\n\n\n\n\n\nDer Forscher, der eine komplexe Struktur verstehen will, ist gut beraten, wenn er sich in die Rolle eines solchen Demiurgen versetzt und sich vorstellt, er hätte sie selbst konstruieren müssen. Natürlich muss er dafür eine begründete Vermutung haben, was sie leisten soll. Leistung schließt immer eine Zielvorgabe ein, die Arbeit des Demiurgen läuft also naturgemäß im Rahmen einer telischen Heuristik 1 ab.\n\nN. Bischof (in prep, S. 143)\n\n\nThe researcher who wants to understand a complex structure is well advised to put himself in the role of such a demiurge and imagine that he would have had to construct it himself. Of course, to do this he must have an educated guess as to what it should perform. Performance always includes a target, so the demiurge’s work naturally runs within the framework of a telic heuristic.\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nWäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen? If I were an engineer and I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\nBischof (in prep, S. 143)"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.html#the-demiurg",
-    "href": "workshops/Buri/Buri.html#the-demiurg",
-    "title": "Buridan’s ass",
-    "section": "",
-    "text": "“Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen”\n\nN. Bischof (in prep, S. 143)\n\n\n\nThe gnosis knew the figure of the Demiurge, a creator god of lower rank, who had received the commission from the High Deity to build the cosmos\n\n\n\n\nBy Dmitrismirnov - Own work, CC BY-SA 3.0"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.html#das-demiurgische-prinzip",
-    "href": "workshops/Buri/Buri.html#das-demiurgische-prinzip",
-    "title": "Buridan’s ass",
-    "section": "",
-    "text": "Der Forscher, der eine komplexe Struktur verstehen will, ist gut beraten, wenn er sich in die Rolle eines solchen Demiurgen versetzt und sich vorstellt, er hätte sie selbst konstruieren müssen. Natürlich muss er dafür eine begründete Vermutung haben, was sie leisten soll. Leistung schließt immer eine Zielvorgabe ein, die Arbeit des Demiurgen läuft also naturgemäß im Rahmen einer telischen Heuristik 1 ab.\n\nN. Bischof (in prep, S. 143)\n\n\nThe researcher who wants to understand a complex structure is well advised to put himself in the role of such a demiurge and imagine that he would have had to construct it himself. Of course, to do this he must have an educated guess as to what it should perform. Performance always includes a target, so the demiurge’s work naturally runs within the framework of a telic heuristic."
-  },
-  {
-    "objectID": "workshops/Buri/Buri.html#the-demiurgic-principle",
-    "href": "workshops/Buri/Buri.html#the-demiurgic-principle",
-    "title": "Buridan’s ass",
-    "section": "",
-    "text": "Note\n\n\n\nWäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen? If I were an engineer and I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\nBischof (in prep, S. 143)"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-1",
-    "href": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-1",
-    "title": "Buridan’s ass",
-    "section": " Group exercise: Cover your ass, Level 1",
-    "text": "Group exercise: Cover your ass, Level 1\n\nScenario: The environment has two unlimited sources (food and water), in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body. If any of the two reserves drops to zero, the donkey dies.\n(Simplifying) assumptions:\n\nLinear decrease in both water and food reserves in the body, higher under activity (e.g., traveling).\nNo other needs or tasks (e.g., no predators, no sleep necessary).\nEating, drinking, and traveling takes a substantial amount of time.\nThe donkey has a representation of the environment and knows where the two sources are.\n\nTask: Construct an organism, with as few assumptions as possible, that survives as long as possible. Which constructs / sensors / abilities are necessary for this? Assume as simple abilities as possible - certainly not super-human abilities. (Rather think of an amoeba, not a super-AI).\nDeliverable: A markdown text file with a verbal description of the organism. Give it the version number 0.1.0. Upload to the Git repo."
-  },
-  {
-    "objectID": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2",
-    "href": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2",
-    "title": "Buridan’s ass",
-    "section": " Group exercise: Cover your ass, Level 2",
-    "text": "Group exercise: Cover your ass, Level 2\n\nDraw a graphical model, Bischof-style\n\nTask: Sketch your initial verbal model in the style of Bischof. Refine and extend where necessary, e.g.:\n\nThink about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary\nGive a label to every variable (i.e., every arrow in the graphical model).\nEvery parameter that you identified should be an arrow in your visual model\n\nDeliverables:\n\nDraw the model collaboratively in draw.io. In one corner, add the version number 0.2.0 and today’s date (simply as a text box).\nExport the model as an xml file and push it to the Github repo.\nWrite a meaningful commit message, e.g. Initial commit; model version 0.2.0"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.html#the-demiurgic-principle-1",
-    "href": "workshops/Buri/Buri.html#the-demiurgic-principle-1",
-    "title": "Buridan’s ass",
-    "section": "The Demiurgic Principle",
-    "text": "The Demiurgic Principle\n\nFinal version\n\n\n\n\n\n\nNote\n\n\n\nWäre ich ein Ingenieur, der, aufbauend auf der letzten funktionstüchtigen Vorform, einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen?  If I were an engineer and, building upon the last functional (evolutionary) preform, I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\n→ Assume realistic capabilities, which respect the evolutionary path dependency.\nE.g., don’t assume …\n\nMammal organisms that need 3 hands to perform a task\nOmniscient knowledge about the environment, probabilities, distant events, the future, …\nUnlimited cognitive processing capabilities (“In the first 2ms, the simulated amoeba performs a multidimensional Bayesian optimization task”)\n\n\n\nBischof (in prep, S. 143)"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-3",
-    "href": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-3",
-    "title": "Buridan’s ass",
-    "section": " Group exercise: Cover your ass, Level 3",
-    "text": "Group exercise: Cover your ass, Level 3\n\nConstruct and variable definitions\n\n\nIn the previous lecture, you learned how a good construct definition looks like. Apply that new skill to your model!\nTask:\n\nDevelop proper definitions for all variables and concepts in your model\nIf necessary, update the model structure in draw.io; increase either the minor version (e.g., to 0.3.0) or only the patch version (e.g., 0.2.1); export a new xml file.\nProvide the definitions of the model’s variables and constructs in a separate markdown file (Definitions.md).\n\nDeliverables:\n\nCreate a CHANGELOG.md file that explains the changes in the model in more detail.\nPush all new files to your group’s Github repo.\nWrite a meaningful commit message that explains the changes."
-  },
-  {
-    "objectID": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-4",
-    "href": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-4",
-    "title": "Buridan’s ass",
-    "section": " Group exercise: Cover your ass, Level 4",
-    "text": "Group exercise: Cover your ass, Level 4\n\nVariable Scaling & Netlogo Implementation\n\nTasks:\n\nDefine the variables in the implemented model:\n\nScale level\nPossible range or discrete values (define the set)\nInterpretability (what does a value of 0.7 mean?)\n\nMaybe define operationalizations that give a meaning to the numbers\n\n\nDefine computations for each box: How exactly are input variables transformed into the output variables? You need a concrete formula for that. Theories rarely are so specific that you can directly derive a formula; you probably need to fill many gaps with ad-hoc assumptions.\nImplement the model in Netlogo\n\nDeliverables:\n\nPush the .nlogo file to your group’s Github repo.\nUpdate all written model descriptions, increase model version.\nExplain & justify the changes in the model in your CHANGELOG.md.\nWrite a meaningful commit message."
-  },
-  {
-    "objectID": "workshops/Buri/Buri.html#contact",
-    "href": "workshops/Buri/Buri.html#contact",
-    "title": "Buridan’s ass",
-    "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.html#footnotes",
-    "href": "workshops/Buri/Buri.html#footnotes",
-    "title": "Buridan’s ass",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\ngriechisch τέλος (telos): ‚Zweck‘, ‚Ziel‘, ‚Ende‘. Der Zweck ist hier evolutionär gedacht: Was hilft dem Überleben und der Fortpflanzung?↩︎"
-  },
-  {
-    "objectID": "orga_material/instructions_before_course.html",
-    "href": "orga_material/instructions_before_course.html",
-    "title": "Instructions before course",
-    "section": "",
-    "text": "Liebe Studierende,\nich freue mich schon auf unser Empra zur formalen Modellierung psychologischer Theorien. Hier kommen einige Hinweise für den Start:\n\nIch würde gerne den Start von 8:15 auf 8:30 verlegen. Die Sitzung geht dann bis 11:45.\nWir werden in fast jeder Sitzung am Computer arbeiten - z.B. Code schreiben, Diagramme zeichnen, oder Dateien in git einchecken. Daher wäre es gut, wenn sie, wenn möglich, immer ihren Laptop mitbringen. Wenn Sie keinen Laptop haben, können Sie auch bei Kommilitonen reinschauen und im “pair programming” Modus arbeiten.\nWenn das letzte Programmieren in R schon etwas länger her ist, frischen sie gerne vorab ihre Kenntnisse auf. Das Empra wird keine Auffrischung in R beinhalten. Hier sind einige Ressourcen:\n\nDie Tutorialfolien aus Statistik 1\nMoodle Kurs “R Tutorials”. Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR\nYouTube-Video: “Want to learn R (#rstats) in 4 hours with NO programming experience?”\nhttps://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf (12 page PDF document)\nhttps://github.com/jobreu/r-intro-gesis-2021 (5 day course: slides & exercises)\n\nDie Kommunikation wird ab jetzt über den Moodle-Kurs laufen: https://moodle.lmu.de/course/view.php?id=30162 Der Einschreibeschlüssel lautet: “theorie”. Bitte schreiben Sie sich schon zeitnah ein; ich verschicke ab jetzt die Emails über den Kurs.\n\nDann sehen wir uns am Freitag, 20.10.23, um 8:30 in Raum 1208 zur ersten Sitzung! Bei Fragen können Sie sich gerne auch vorab schon bei mir melden.\nViele Grüße, Felix Schönbrodt"
-  },
-  {
-    "objectID": "orga_material/course_announcement.html",
-    "href": "orga_material/course_announcement.html",
-    "title": "Course announcement",
-    "section": "",
-    "text": "Im Empirisch-psychologischen Praktikum “Formale Modellierung in der Psychologie” tauchen die Studierenden in die Welt der quantitativen Darstellung psychologischer Theorien ein. Dabei geht es nicht um die quantitative Auswertung von Daten mit Hilfe statistischer Modelle, sondern um Theorien und datengenerierende Modelle, die so präzise sind, dass man konkrete Daten vorhersagen kann.\nAls eine Reaktion auf die Replikationskrise wurde der Ruf nach besseren Theorien laut, mit dem Ziel, verbale und konzeptionelle Theorien in formale, mathematische Modelle zu übersetzen. Diese Modelle dienen mehreren Zwecken: Sie ermöglichen eine rigorose Prüfung von Hypothesen, bieten klarere Vorhersagen und bilden einen Rahmen, um scheinbar disparate Ergebnisse zu vereinheitlichen. Außerdem schärfen sie den Blick auf “Leerstellen” in den meist hoffnungslos unterspezifizierten Theorien in der Psychologie.\nIn diesem Kurs werden die Studierenden in die grundlegenden Prinzipien der formalen Modellierung und ihre verschiedenen Varianten eingeführt (z.B. mathematische Modelle, Regelkreismodelle, agentenbasierte Modelle) und mit den Werkzeugen ausgestattet, die sie benötigen, um aus vorhandenen verbalen Theorien Modelle abzuleiten. Entsprechend werden wir uns viel mit der Implementierung in Programmiersprachen befassen. Wir werden dabei vermutlich viel in R programmieren, ggf. auch in NetLogo (für ABMs).\nWir werden versuchen, kollaborativ verbale psychologische Theorien soweit zu formalisieren, dass man sie in ein datengenerierendes Modell übersetzen und implementieren kann, um die generierten Daten dann zur Prüfung mit echten Daten zu vergleichen.\nWir werden Aspekte der Qualitätssicherung bei diesem Forschungsaspekt diskutieren und anwenden (Reproduzierbarkeit, Versionskontrolle, Sensitivitätsanalysen, gut dokumentierter Code / unit testing).\nDas Empra stellt etwas höhere Anforderungen an mathematisches und formales Denken, sowie ihre Programmierfähigkeit. Als Minimum werden die R-Kenntnisse vorausgesetzt, die im Rahmen der Seminare zu Statistik 1 und 2 gelehrt wurden, sowie die Bereitschaft, sich auch selbständig (anhand von bereitgestelltem Material) in Themen der Programmierung einzuarbeiten."
-  },
-  {
-    "objectID": "orga_material/call_for_submissions.html",
-    "href": "orga_material/call_for_submissions.html",
-    "title": "Call for theory submissions",
-    "section": "",
-    "text": "This is the email I sent to the colleagues in my department:\n\nSubject: We formalize your theory!\n\nBody:\nDear colleagues,\nthis semester, we want to explore something new. In my upcoming Empra (for 5th semester students), the participants get acquainted with formal modeling of psychological theories. The goal is to develop a mathematical or agent-based model of a verbal theory. In this project, …\n\nthe central phenomena are listed (What is to be explained?)\nthe verbal theory is explicated, and\na theory formalization is attempted (in a way that data can be simulated from the model).\n\nWe wanted to ask you - the colleagues in the department - if you want to submit a theory for this exercise.\nHere are some FAQs:\n\nWhat theory would be a good fit?\n\nA theory that is sufficiently precise and has a defined and not too large scope\nIts core premises are formulated in a clear and concise form on one (or only few) pages.\nThere doesn’t exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).\n\n\n\nWhat theory would not be a good fit?\n\nYou need to read three books to understand the theory.\nThe “all-encompassing theory of human nature”\nYou need a lot of expert input and judgement to fill in the gaps of the underspecified theory.\nYou need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.\n\n\n\nBut don’t you lack domain knowledge?\nIn an ideal world, theories are so well specified that they can be formalized without further expert opinions. But as this is unrealistic in psychology, we need your input (see next question).\n\n\nWhat is my necessary commitment?\n\nProvide the written material for the theory.\nTwo or three meetings (each lasting ~2h) during the Empra’s teaching hours (XXX):\n\nMeeting 1 where you give a very short overview of the theory (after the students have already read the written material) and we discuss first steps.\nMeeting 2 where students present intermediate results and can ask questions for clarification.\n(optional) Meeting 3, where students present their results to you.\nIf you enjoy and benefit from the scientific discussion, of course more meetings are possible and welcome.\n\n\n\n\nWhat happens with the results?\nThe created models will be published with a CC-BY license. That means, you can reuse everything with a proper citation. If the models are really helpful (and more than just a vague inspiration for further work), we can think about a follow-up collaboration and write-up (where collaboration and co-authorship is offered to the student creators of the model).\n\n\nThe procedure would be as follows:\n\nWe collect candidate theories for formalization until 30.10.2023.\nWe screen all submissions and select one or two theories (depending on their complexity).\nIf your theory is selected, we will meet:\n\nFor the introductory meeting (xx.xx.2023, ~2h)\nFor the intermediate meeting (xx.xx.2024, ~2h)\nFor the results presentation (xx.xx.2024, ~2h)\n\n\nIf you want to participate, please send an email to xxx by xx.xx.2023, containing a short description of the theory (max. 200 words) and a link to a central paper describing the theory. It can be “your” theory, or an existing theory that you work with.\nA final caveat: We are aware that this collaboration requires a non-negligible time investment from you. At the same time, this is highly experimental and we cannot promise any success or even progress. But in any case we expect good scientific discussions and are convinced that the exercise is fruitful for all parties.\nIf you have any questions, drop me an email.\n\nHere are some (anonymized) reactions I got:\n\n“EPIC!”\n“A very good idea. Just trying it would fulfil my heart’s desire”\n\nAt the end, XX theories got submitted. We discussed them and selected YY of them"
-  },
-  {
-    "objectID": "orga_material/orga_material.html",
-    "href": "orga_material/orga_material.html",
-    "title": "Organizational Material",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nAug 1, 2023\n\n\nCourse announcement\n\n\nAnnouncement in the university’s course management system\n\n\n\n\nSep 16, 2023\n\n\nCall for theory submissions\n\n\nThis is the email I sent to the colleagues in my department, asking for the submission of theories for the formalization exercise.\n\n\n\n\nOct 1, 2023\n\n\nInstructions before course\n\n\nSome instructions for students before the course starts\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "workshops/workshop_overview.html",
-    "href": "workshops/workshop_overview.html",
-    "title": "Workshop Overview",
-    "section": "",
-    "text": "These are all slides used for the “workshop” part of the course:\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\n2023-10-20\nBuridan's ass\nlink\nlink"
-  },
-  {
-    "objectID": "TODO.html",
-    "href": "TODO.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
     "section": "",
-    "text": "Operationalisierung gehört zur Theoriearbeit"
+    "text": "Note: The material will (initially) be some mixture of German and English. Your mileage may vary.\nThe course has 15 sessions, each lasting 3.5h. In between sessions, homework is given.\nEach session will be a mix of three elements:"
   },
   {
-    "objectID": "TODO.html#notes",
-    "href": "TODO.html#notes",
+    "objectID": "index.html#modeling-methodology",
+    "href": "index.html#modeling-methodology",
     "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
+    "section": "Modeling methodology",
+    "text": "Modeling methodology\n\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nGuest, O., & Martin, A. E. (2021). How Computational Modeling Can Force Theory Building in Psychological Science. Perspectives on Psychological Science, 16(4), 789–802. https://doi.org/10.1177/1745691620970585\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://doi.org/10.15626/MP.2021.2911\nWilson, R. C., & Collins, A. G. (2019). Ten simple rules for the computational modeling of behavioral data. ELife, 8, e49547. https://doi.org/10.7554/eLife.49547"
+  },
+  {
+    "objectID": "index.html#about-theories",
+    "href": "index.html#about-theories",
+    "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
+    "section": "About theories",
+    "text": "About theories\n\nGlöckner, A., Fiedler, S., & Renkewitz, F. (2018). Belastbare und effiziente Wissenschaft: Strategische Ausrichtung von Forschungsprozessen als Weg aus der Replikationskrise. Psychologische Rundschau, 69(1), 22–36. https://doi.org/10.1026/0033-3042/a000384\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2\nSutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+  },
+  {
+    "objectID": "common/lastslide.html",
+    "href": "common/lastslide.html",
+    "title": "End",
     "section": "",
-    "text": "Operationalisierung gehört zur Theoriearbeit"
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "common/lastslide.html#contact",
+    "href": "common/lastslide.html#contact",
+    "title": "End",
     "section": "",
-    "text": "This is material for the course “P19 Empirisch-psychologisches Praktikum” at the Ludwig-Maximilians-Universität München. The course is given in the winter term 2023/24 by Prof. Dr. Felix Schönbrodt."
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
-    "objectID": "sessions/S1-Introduction.html",
-    "href": "sessions/S1-Introduction.html",
-    "title": "Session 1 - Introduction",
+    "objectID": "sessions/S4-Bischof_Notation.html",
+    "href": "sessions/S4-Bischof_Notation.html",
+    "title": "Session 4 - Bischof notation",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nLecturer introduction\n\n\nIntroduction of students in the plenum\n5\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nGroup formation\n10\nSee Section 2\n\n\nSkill: Git Intro\n30\nSee Section 3\n\n\nLecture: Introducion: Theory crisis\n45\nSlides\n\n\nWorkshop: Group Exercise: Buri (Level 1)\n60\nSlides\n\n\nHomework 1: Git Tutorial\n-\n\n\n\nHomework 2: Smaldino (2013), Chapter 1\n-"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nHomework wrap-up:\n15\n\n\n\nSkill 1: Bischof-Notation\n45\nSlides\n\n\nSkill 2: draw.io\n15\ndraw.io -&gt; Connect to Github\n\n\nWorkshop: Group Exercise: Buri (Level 3)\n30\nSlides\n\n\n[Homework 1]: Netlogo Tutorial + Exercise\n-"
   },
   {
-    "objectID": "sessions/S1-Introduction.html#goal",
-    "href": "sessions/S1-Introduction.html#goal",
-    "title": "Session 1 - Introduction",
-    "section": "2.1 Goal:",
-    "text": "2.1 Goal:\n\nPut together groups where also unacquainted people meet -&gt; increase network size.\nAllow a certain freedom of choice, not completely random.\nEnsure that at least one person is knowledgable of programming."
+    "objectID": "sessions/S4-Bischof_Notation.html#install-netlogo.",
+    "href": "sessions/S4-Bischof_Notation.html#install-netlogo.",
+    "title": "Session 4 - Bischof notation",
+    "section": "2.1 Install Netlogo.",
+    "text": "2.1 Install Netlogo.\nIf you have technical problems, please contact me! You should be prepared for the next session."
   },
   {
-    "objectID": "sessions/S1-Introduction.html#create-a-visual-analog-scale-vas-of-programming-skills-in-the-room",
-    "href": "sessions/S1-Introduction.html#create-a-visual-analog-scale-vas-of-programming-skills-in-the-room",
-    "title": "Session 1 - Introduction",
-    "section": "2.2 Create a “visual analog scale” (VAS) of programming skills in the room",
-    "text": "2.2 Create a “visual analog scale” (VAS) of programming skills in the room\nWhile carrying their name tags, students find their position between two corners of the rooms, described as:\n\n“No programming knowledge at all, I even forgot everything I learned about R programming in the first semester”\n“I actively coded (in any language) in the last 3 months”"
+    "objectID": "sessions/S4-Bischof_Notation.html#do-a-basic-tutorial.-there-are-several-options-which-all-teach-the-basics",
+    "href": "sessions/S4-Bischof_Notation.html#do-a-basic-tutorial.-there-are-several-options-which-all-teach-the-basics",
+    "title": "Session 4 - Bischof notation",
+    "section": "2.2 Do a basic tutorial. There are several options, which all teach the basics:",
+    "text": "2.2 Do a basic tutorial. There are several options, which all teach the basics:\n\nA free, self-paced online course with several short videos (total video material ~2h; in addition, one can do quizzes and “homework” that can be compared to solutions).\nIf you prefer written material, you can do the official tutorials 1, 2, and 3.\nThe Beginner’s Interactive NetLogo Dictionary is a great resources with references and examples for all commands."
   },
   {
-    "objectID": "sessions/S1-Introduction.html#semi-randomised-allocation",
-    "href": "sessions/S1-Introduction.html#semi-randomised-allocation",
-    "title": "Session 1 - Introduction",
-    "section": "2.3 Semi-randomised allocation:",
-    "text": "2.3 Semi-randomised allocation:\n\nCollect all name tags, in the order of programming skills in the VAS.\nBuild 4 working islands (push tables together).\nDistribute the name tags of the 4 most capable programmers in the room on the 4 tables.\nThen select the next 4 names, who choose an island to join. But only 1 person is allowed to join each island at each round."
-  },
-  {
-    "objectID": "sessions/S1-Introduction.html#round-of-introductions-within-the-group-10-min",
-    "href": "sessions/S1-Introduction.html#round-of-introductions-within-the-group-10-min",
-    "title": "Session 1 - Introduction",
-    "section": "2.4 Round of introductions within the group (10 min)",
-    "text": "2.4 Round of introductions within the group (10 min)\n\nTask: Think of a funny name for a donkey. This will be the group’s name.\nGive a more detailed introduction to the other group members:\n\nCareer goals / type of psychologist they want to become\nSpecific programming skills"
+    "objectID": "sessions/S4-Bischof_Notation.html#have-you-understood-the-basics-do-the-exercise",
+    "href": "sessions/S4-Bischof_Notation.html#have-you-understood-the-basics-do-the-exercise",
+    "title": "Session 4 - Bischof notation",
+    "section": "2.3 Have you understood the basics? Do the exercise",
+    "text": "2.3 Have you understood the basics? Do the exercise\nPlease do the following exercise. Not every step might have been covered by the tutorials; in this case follow the links given at each task. Push the resulting .nlogo file to the joint Github project (subfolder /homework/netlogo-tutorial, filename is netlogo1_YOURNAME.nlogo). Please push whatever you came up with, even if you did not manage to achieve all goals.\n\nGive turtles two variables: food_reservoir and water_reservoir (see turtles-own)\nIn the setup procedure …\n\ncreate 10 sheep-shaped turtles\nassign a random number between 0 and 100 to their food_reservoir and their water_reservoir.\nPlace them at a random position of the environment (hint)\n\nCreate a “Setup” button in the interface that triggers the setup procedure.\nCreate a go procedure, in which your turtles (a) turn 10 degrees to the right and (b) walk 1 step forward"
   },
   {
     "objectID": "sessions/S3-Constructs.html",
     "href": "sessions/S3-Constructs.html",
     "title": "Session 3 - How to define constructs",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: van Dongen Paper, CFF troubleshooting\n15\n\n\n\nSkill 1: Semantic versioning\n15\nSlides\n\n\nLecture (Lena Schiestel): How to create constructs\n60\nSlides\n\n\nWorkshop: Group Exercise: Buri (Level 3)\n30\nSlides\n\n\nHomework 1: Netlogo Tutorial + Exercise\n-"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: van Dongen Paper, CFF troubleshooting\n15\n\n\n\nLecture (Lena Schiestel): How to create constructs\n60\n(Slides not available here yet)\n\n\nWorkshop: Group Exercise: Buri (Level 3)\n60\nSlides\n\n\n[Homework 1]: Netlogo Tutorial + Exercise\n-"
   },
   {
     "objectID": "sessions/S3-Constructs.html#install-netlogo.",
@@ -1167,6 +1230,13 @@
     "title": "Visualizing cybernetic systems",
     "section": "Common errors",
     "text": "Common errors\n\n\n\n\n\n(a, b): Blocks without input or output are useless and can be reduced\n(c): We need another block which has \\(x\\) and \\(y\\) as input and a new variable as output\n(d): This reduces to \\(x = f(x)\\) → \\(x\\) = const.\n(e): A block with only inputs but no outputs is useless\n(f): This implies that \\(x\\) and \\(y\\) are constant."
+  },
+  {
+    "objectID": "skills/Bischof-Notation/Bischof-Notation.html#parameters-of-the-model",
+    "href": "skills/Bischof-Notation/Bischof-Notation.html#parameters-of-the-model",
+    "title": "Visualizing cybernetic systems",
+    "section": "Parameters of the model",
+    "text": "Parameters of the model\nArrows are variables. Parameters are concrete numbers for the computations in the boxes."
   },
   {
     "objectID": "skills/Bischof-Notation/Bischof-Notation.html#sensors",
@@ -1258,6 +1328,13 @@
     "title": "Visualizing cybernetic systems",
     "section": "Common errors",
     "text": "Common errors\n\n\n\n\n\n(a, b): Blocks without input or output are useless and can be reduced\n(c): We need another block which has \\(x\\) and \\(y\\) as input and a new variable as output\n(d): This reduces to \\(x = f(x)\\) → \\(x\\) = const.\n(e): A block with only inputs but no outputs is useless\n(f): This implies that \\(x\\) and \\(y\\) are constant."
+  },
+  {
+    "objectID": "skills/Bischof-Notation/Bischof-Notation.slide.html#parameters-of-the-model",
+    "href": "skills/Bischof-Notation/Bischof-Notation.slide.html#parameters-of-the-model",
+    "title": "Visualizing cybernetic systems",
+    "section": "Parameters of the model",
+    "text": "Parameters of the model\nArrows are variables. Parameters are concrete numbers for the computations in the boxes."
   },
   {
     "objectID": "skills/Bischof-Notation/Bischof-Notation.slide.html#sensors",
@@ -1908,6 +1985,6 @@
     "href": "lectures/lecture_overview.html",
     "title": "Lectures Overview",
     "section": "",
-    "text": "These are all slides used for the “lecture” part of the course:\n\n\n\n\n\n\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\ntoday\nFormal modeling in psychology\nlink\nlink\n\n\ntoday\nTheory Construction Methodology\nlink\nlink\n\n\ntoday\nProperties of Theories\nlink\nlink\n\n\ntoday\n(Theory) Versioning\nlink\nlink\n\n\n2023-10-20\nFOMO-Psy 1: Data, phenomena,\nand the replication crisis\nlink\nlink"
+    "text": "These are all slides used for the “lecture” part of the course:\n\n\n\n\n\n\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\ntoday\nFormal modeling in psychology\nlink\nlink\n\n\ntoday\nTheory Construction Methodology\nlink\nlink\n\n\ntoday\nProperties of Theories\nlink\nlink\n\n\ntoday\n(Theory) Versioning\nlink\nlink\n\n\n2023-10-27\nWhat are (Not) Theories & Models?\nlink\nlink\n\n\n2023-10-20\nFOMO-Psy 1: Data, phenomena,\nand the replication crisis\nlink\nlink"
   }
 ]

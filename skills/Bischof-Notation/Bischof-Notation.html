@@ -158,6 +158,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#properties-1" id="toc-properties-1" class="nav-link" data-scroll-target="#properties-1">Properties</a></li>
   </ul></li>
   <li><a href="#common-errors" id="toc-common-errors" class="nav-link" data-scroll-target="#common-errors">Common errors</a></li>
+  <li><a href="#parameters-of-the-model" id="toc-parameters-of-the-model" class="nav-link" data-scroll-target="#parameters-of-the-model">Parameters of the model</a></li>
   <li><a href="#sensors" id="toc-sensors" class="nav-link" data-scroll-target="#sensors">Sensors</a>
   <ul class="collapse">
   <li><a href="#perceiving-the-environment" id="toc-perceiving-the-environment" class="nav-link" data-scroll-target="#perceiving-the-environment">Perceiving the environment</a></li>
@@ -342,6 +343,10 @@ graph LR
 </div>
 </div>
 </section>
+<section id="parameters-of-the-model" class="level2">
+<h2 class="anchored" data-anchor-id="parameters-of-the-model">Parameters of the model</h2>
+<p>Arrows are variables. Parameters are concrete numbers for the computations in the boxes.</p>
+</section>
 <section id="sensors" class="level2">
 <h2 class="anchored" data-anchor-id="sensors">Sensors</h2>
 <section id="perceiving-the-environment" class="level3">
@@ -484,44 +489,6 @@ graph LR
 </section>
 
 </main> <!-- /main -->
-
-<script>
-  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-  // slide changes (different for each slide format).
-  (function () {
-    // dispatch for htmlwidgets
-    function fireSlideEnter() {
-      const event = window.document.createEvent("Event");
-      event.initEvent("slideenter", true, true);
-      window.document.dispatchEvent(event);
-    }
-
-    function fireSlideChanged(previousSlide, currentSlide) {
-      fireSlideEnter();
-
-      // dispatch for shiny
-      if (window.jQuery) {
-        if (previousSlide) {
-          window.jQuery(previousSlide).trigger("hidden");
-        }
-        if (currentSlide) {
-          window.jQuery(currentSlide).trigger("shown");
-        }
-      }
-    }
-
-    // hookup for slidy
-    if (window.w3c_slidy) {
-      window.w3c_slidy.add_observer(function (slide_num) {
-        // slide_num starts at position 1
-        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-      });
-    }
-
-  })();
-</script>
-
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

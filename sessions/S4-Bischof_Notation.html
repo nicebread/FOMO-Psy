@@ -138,13 +138,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">1</span> Overview</a></li>
-  <li><a href="#sec-homework" id="toc-sec-homework" class="nav-link" data-scroll-target="#sec-homework"><span class="header-section-number">2</span> Homework 1 (individually)</a>
-  <ul class="collapse">
-  <li><a href="#install-netlogo." id="toc-install-netlogo." class="nav-link" data-scroll-target="#install-netlogo."><span class="header-section-number">2.1</span> Install Netlogo.</a></li>
-  <li><a href="#do-a-basic-tutorial.-there-are-several-options-which-all-teach-the-basics" id="toc-do-a-basic-tutorial.-there-are-several-options-which-all-teach-the-basics" class="nav-link" data-scroll-target="#do-a-basic-tutorial.-there-are-several-options-which-all-teach-the-basics"><span class="header-section-number">2.2</span> Do a basic tutorial. There are several options, which all teach the basics:</a></li>
-  <li><a href="#have-you-understood-the-basics-do-the-exercise" id="toc-have-you-understood-the-basics-do-the-exercise" class="nav-link" data-scroll-target="#have-you-understood-the-basics-do-the-exercise"><span class="header-section-number">2.3</span> Have you understood the basics? Do the exercise</a></li>
-  </ul></li>
-  <li><a href="#homework-2" id="toc-homework-2" class="nav-link" data-scroll-target="#homework-2"><span class="header-section-number">3</span> Homework 2</a></li>
+  <li><a href="#homework-1-continuing-individually-two-weeks-learn-netlogo-basics" id="toc-homework-1-continuing-individually-two-weeks-learn-netlogo-basics" class="nav-link" data-scroll-target="#homework-1-continuing-individually-two-weeks-learn-netlogo-basics"><span class="header-section-number">2</span> Homework 1 continuing (individually, two-weeks): Learn Netlogo basics</a></li>
   </ul>
 </nav>
     </div>
@@ -192,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td><strong>Skill 1</strong>: Bischof-Notation</td>
-<td>45</td>
+<td>75</td>
 <td><a href="../skills/Bischof-Notation/Bischof-Notation.html">Slides</a></td>
 </tr>
 <tr class="odd">
@@ -201,8 +195,8 @@ ul.task-list li input[type="checkbox"] {
 <td><a href="https://app.diagrams.net">draw.io</a> -&gt; Connect to Github</td>
 </tr>
 <tr class="even">
-<td><strong>Workshop</strong>: Group Exercise: Buri (Level 3)</td>
-<td>30</td>
+<td><strong>Workshop</strong>: Group Exercise: Buri (Level 4)</td>
+<td>60</td>
 <td><a href="../workshops/Buri/Buri.html">Slides</a></td>
 </tr>
 <tr class="odd">
@@ -213,41 +207,9 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="sec-homework" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Homework 1 (individually)</h1>
-<section id="install-netlogo." class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="install-netlogo."><span class="header-section-number">2.1</span> <a href="https://ccl.northwestern.edu/netlogo/bind/article/getting-started-with-netlogo.html">Install Netlogo</a>.</h2>
-<p>If you have technical problems, please contact me! You should be prepared for the next session.</p>
-</section>
-<section id="do-a-basic-tutorial.-there-are-several-options-which-all-teach-the-basics" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="do-a-basic-tutorial.-there-are-several-options-which-all-teach-the-basics"><span class="header-section-number">2.2</span> Do a basic tutorial. There are several options, which all teach the basics:</h2>
-<ol type="a">
-<li>A <a href="https://www.complexityexplorer.org/courses/84-fundamentals-of-netlogo/materials">free, self-paced online course</a> with several short videos (total video material ~2h; in addition, one can do quizzes and “homework” that can be compared to solutions).</li>
-<li>If you prefer written material, you can do the official tutorials <a href="https://ccl.northwestern.edu/netlogo/docs/tutorial1.html">1</a>, <a href="https://ccl.northwestern.edu/netlogo/docs/tutorial2.html">2</a>, and <a href="https://ccl.northwestern.edu/netlogo/docs/tutorial3.html">3</a>.</li>
-<li>The <a href="https://ccl.northwestern.edu/netlogo/bind/">Beginner’s Interactive NetLogo Dictionary</a> is a great resources with references and examples for all commands.</li>
-</ol>
-</section>
-<section id="have-you-understood-the-basics-do-the-exercise" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="have-you-understood-the-basics-do-the-exercise"><span class="header-section-number">2.3</span> Have you understood the basics? Do the exercise</h2>
-<p>Please do the following exercise. Not every step might have been covered by the tutorials; in this case follow the links given at each task. Push the resulting <code>.nlogo</code> file to the joint Github project (subfolder <code>/homework/netlogo-tutorial</code>, filename is <code>netlogo1_YOURNAME.nlogo</code>). Please push whatever you came up with, even if you did not manage to achieve all goals.</p>
-<ul class="task-list">
-<li><input type="checkbox">Give turtles two variables: <code>food_reservoir</code> and <code>water_reservoir</code> (see <a href="https://ccl.northwestern.edu/netlogo/bind/primitive/turtles-own.html"><code>turtles-own</code></a>)</li>
-<li><input type="checkbox">In the <code>setup</code> procedure …
-<ul class="task-list">
-<li><input type="checkbox">create 10 sheep-shaped turtles</li>
-<li><input type="checkbox">assign a random number between 0 and 100 to their <code>food_reservoir</code> and their <code>water_reservoir</code>.</li>
-<li><input type="checkbox">Place them at a random position of the environment (<a href="https://ccl.northwestern.edu/netlogo/docs/tutorial3.html">hint</a>)</li>
-</ul></li>
-<li><input type="checkbox">Create a “Setup” button in the interface that triggers the <code>setup</code> procedure.</li>
-<li><input type="checkbox">Create a <code>go</code> procedure, in which your turtles (a) turn 10 degrees to the right and (b) walk 1 step forward</li>
-</ul>
-</section>
-</section>
-<section id="homework-2" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Homework 2</h1>
-<ul class="task-list">
-<li><input type="checkbox">Create a CFF file and upload it to your group’s subfolder</li>
-</ul>
+<section id="homework-1-continuing-individually-two-weeks-learn-netlogo-basics" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Homework 1 continuing (individually, two-weeks): Learn Netlogo basics</h1>
+<p>See instructions from <a href="../sessions/S3-Constructs.html">previous session</a>.</p>
 
 
 </section>

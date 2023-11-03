@@ -152,6 +152,10 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#how-to-create" id="toc-how-to-create" class="nav-link" data-scroll-target="#how-to-create">How to create</a></li>
   </ul></li>
+  <li><a href="#citation-file-format-schema-version-1.2.0-2" id="toc-citation-file-format-schema-version-1.2.0-2" class="nav-link" data-scroll-target="#citation-file-format-schema-version-1.2.0-2">Citation File Format schema version 1.2.0</a>
+  <ul class="collapse">
+  <li><a href="#peer-review-status" id="toc-peer-review-status" class="nav-link" data-scroll-target="#peer-review-status">Peer review status</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#semantic-versioning" id="toc-semantic-versioning" class="nav-link" data-scroll-target="#semantic-versioning">Semantic Versioning</a>
   <ul class="collapse">
@@ -254,7 +258,7 @@ ul.task-list li input[type="checkbox"] {
 title: 'AST: Action selection theory'
 message: &gt;-
   If you refer to this theory, please cite it using the
-  metadata from this file.
+  metadata from this file. This theory has not been peer reviewed yet.
 type: report
 authors:
   - given-names: Felix
@@ -290,6 +294,22 @@ type: report </code></pre>
 <ol start="2" type="1">
 <li>Save the <code>.cff</code> file in the top level folder of your repository.</li>
 </ol>
+</section>
+</section>
+<section id="citation-file-format-schema-version-1.2.0-2" class="level2">
+<h2 class="anchored" data-anchor-id="citation-file-format-schema-version-1.2.0-2">Citation File Format schema version 1.2.0</h2>
+<section id="peer-review-status" class="level3">
+<h3 class="anchored" data-anchor-id="peer-review-status">Peer review status</h3>
+<ul>
+<li>For users of your theory, it is helpful if the peer review status is made explicit.</li>
+<li>This can be done in the <code>message</code> field, e.g.:
+<ul>
+<li>“This theory has not been peer-reviewed yet.”</li>
+<li>If the current version is, say, <code>2.1.0</code>: “The last peer-reviewed version was <code>1.0.4</code>”</li>
+<li>“An open peer review of version <code>1.0.2</code> is published at doi …”</li>
+</ul></li>
+<li>In <a href="https://github.com/citation-file-format/citation-file-format/issues/455#issuecomment-1729232196">future versions of the cff schema</a>, one could also use the <code>isReviewedBy</code> annotation of an identifier.</li>
+</ul>
 </section>
 </section>
 </section>
@@ -398,7 +418,10 @@ Evidence that would have confirmed or falsified the previous version does differ
 <li>remember to set the tag to the correct version number</li>
 <li>copy the content of your <code>CHANGELOG.md</code> into the release notes.</li>
 <li>optional: create a DOI for your release, and archive it with <a href="https://docs.github.com/de/repositories/archiving-a-github-repository/referencing-and-citing-content">Zenodo</a></li>
-<li>optional: update your <code>.cff</code> file to include the new DOI</li>
+<li>optional: update your <code>.cff</code> file to include the new DOI
+<ul>
+<li>This is a hen/egg problem: The doi will not be in the release itself, as it is assigned only <em>after</em> the release.</li>
+</ul></li>
 </ul>
 <!-- Footer insert below -->
 </section>
@@ -436,6 +459,44 @@ Evidence that would have confirmed or falsified the previous version does differ
 </section>
 
 </main> <!-- /main -->
+
+<script>
+  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+  // slide changes (different for each slide format).
+  (function () {
+    // dispatch for htmlwidgets
+    function fireSlideEnter() {
+      const event = window.document.createEvent("Event");
+      event.initEvent("slideenter", true, true);
+      window.document.dispatchEvent(event);
+    }
+
+    function fireSlideChanged(previousSlide, currentSlide) {
+      fireSlideEnter();
+
+      // dispatch for shiny
+      if (window.jQuery) {
+        if (previousSlide) {
+          window.jQuery(previousSlide).trigger("hidden");
+        }
+        if (currentSlide) {
+          window.jQuery(currentSlide).trigger("shown");
+        }
+      }
+    }
+
+    // hookup for slidy
+    if (window.w3c_slidy) {
+      window.w3c_slidy.add_observer(function (slide_num) {
+        // slide_num starts at position 1
+        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+      });
+    }
+
+  })();
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

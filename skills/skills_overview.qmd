@@ -36,7 +36,7 @@ library("dplyr")
 library('kableExtra')
 
 knitr::kable(
-    dplyr::arrange(lecture.list, desc(Date)), 
+    dplyr::arrange(lecture.list, Date), 
     col.names = c("Date", "Topic", "Slides (as a single website)", "Slides (presentation mode)"),
     escape = FALSE
   ) %>%

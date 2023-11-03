@@ -1,42 +1,69 @@
 ---
 title: Session 2 - Introduction Theories
 number-sections: true
-description: Intro to theory 2; Bischof notation
+description: Intro to theory 2; Bischof notation; CFF files
 ---
 
 # Overview
 
-| Topic                                        | Duration | Notes                                                     |
-| -------------------------------------------- | -------- | --------------------------------------------------------- |
-| Homework wrap-up: Git troubleshooting        | 20       |                                                           |
-| **Lecture**: Introducion: What is a theory?  | 45       | [Slides](../lectures/TODO)                                |
-| **Skill**: Bischof-Notation; draw.io         | 50       | [Slides](../skills/Bischof-Notation/Bischof-Notation.qmd) |
-| **Workshop**: Group Exercise: Buri (Level 2) | 60       | [Slides](../workshops/Buri/Buri.qmd)                      |
-| **[Homework]**: Netlogo Tutorial + Exercise  | -        |                                                           |
+| Topic                                          | Duration | Notes                                                     |
+| ---------------------------------------------- | -------- | --------------------------------------------------------- |
+| Homework wrap-up: Chapter, Git troubleshooting | 15       |                                                           |
+| **Skill 1**: CFF-files & semantic versioning   | 45       | [Slides](../skills/it-tools/it-tools.qmd)                 |
+| **Lecture**: Introduction: What is a theory?   | 60       | [Slides](../lectures/Intro2/Intro2.qmd)                   |
+| **Workshop**: Group Exercise: Buri (Level 2)   | 60       | [Slides](../workshops/Buri/Buri.qmd)                      |
+| **[Homework 1]**: Read van Dongen et al (2023) | -        |                                                           |
+| **[Homework 2]**: Create a CFF file            | -        |                                                           |
 
 : {.striped}
 
 
 
-# Homework {#sec-homework}
+# Homework 1 (individually) {#sec-homework}
 
-## [Install Netlogo](https://ccl.northwestern.edu/netlogo/bind/article/getting-started-with-netlogo.html). 
-If you have technical problems, please contact me! You should be prepared for the next session.
+Read van Dongen et al. (2022). Improving psychological explanations. *PsyArXiv.* [https://doi.org/10.31234/osf.io/qd69g](https://doi.org/10.31234/osf.io/qd69g) and answer the following guiding questions:
 
-## Do a basic tutorial. There are several options, which all teach the basics:
-   a) A [free, self-paced online course](https://www.complexityexplorer.org/courses/84-fundamentals-of-netlogo/materials) with several short videos (total video material ~2h; in addition, one can do quizzes and "homework" that can be compared to solutions).
-   b) If you prefer written material, you can do the official tutorials [1](https://ccl.northwestern.edu/netlogo/docs/tutorial1.html), [2](https://ccl.northwestern.edu/netlogo/docs/tutorial2.html), and [3](https://ccl.northwestern.edu/netlogo/docs/tutorial3.html).
-   c) The [Beginner's Interactive NetLogo Dictionary](https://ccl.northwestern.edu/netlogo/bind/) is a great resources with references and examples for all commands.
+1. What is the role an original authors should play when predictions are derived from a theory?
 
-## Have you understood the basics? Do the exercise
+<!-- Answer: None. -->
 
-Please do the following exercise. Not every step might have been covered by the tutorials; in this case follow the links given at each task. 
-Push the resulting `.nlogo` file to the joint Github project (subfolder `/homework/netlogo-tutorial`, filename is `netlogo1_YOURNAME.nlogo`). Please push whatever you came up with, even if you did not manage to achieve all goals.
+2. Are phenomena, according to Bogen and Woodward, directly observable?
 
-- [ ] Give turtles two variables: `food_reservoir` and `water_reservoir` (see [`turtles-own`](https://ccl.northwestern.edu/netlogo/bind/primitive/turtles-own.html))
-- [ ] In the `setup` procedure ... 
-  - [ ] create 10 sheep-shaped turtles
-  - [ ] assign a random number between 0 and 100 to their `food_reservoir` and their `water_reservoir`. 
-  - [ ] Place them at a random position of the environment ([hint](https://ccl.northwestern.edu/netlogo/docs/tutorial3.html))
-- [ ] Create a "Setup" button in the interface that triggers the `setup` procedure.
-- [ ] Create a procedure
+<!-- Answer: No. Although they are *established* by evidence from observations, they transcend any particular set of structured or unstructured data. -->
+
+3. What is the role of statistical patterns in the Productive Explanation Model?
+
+<!-- Answer: Statistical patterns are abstractions and generalizations of concrete structured data. They represent phenomena (i.e., they are their empirical anchor) and are produced by formal models. -->
+
+4. List the three steps of productive explanation.
+
+<!-- Answer: 
+- Step 1: Represent the phenomenon as a statistical pattern.
+- Step 2: Explicate the verbal theory as a formal model.
+- Step 3: Evaluate whether the formal model produces the statistical pattern.
+ -->
+
+5. Does Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?
+
+<!-- Answer: 
+With the specifically chosen parameters: Yes. But it "depends on a quite delicate balance between parameters that characterize the interplay between task demand and willpower." 
+ -->
+
+6. Not every explanation has the same quality. Describe the three quality criteria provided in the paper in one or two sentences each.
+
+<!-- Answer:
+Precision: Precise theories already specify many aspects of the formal model. Hence the set of formal models that are consistent with the verbal theory is relatively small.
+
+Robustness: assess the impact of auxiliary assumptions that are necessary to specify a formal model but are not specified by the theory.
+
+Empirical relevance: 
+ -->
+
+
+**Deliverable**: Submit answers to the guiding questions as a plain text/markdown file to the course's Github repo (go to `homework/session2` and upload an `.md` file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don't do the homework at all (after all, the goal of this exercise is that you *learn* something, not that you make your lecturer happy).
+
+
+# Homework 2 (as a group)
+
+- [ ] Create a CFF file and upload it to your group's subfolder
+

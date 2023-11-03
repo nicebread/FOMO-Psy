@@ -1,12 +1,12 @@
 ---
-title: "Bischof notation"
-subtitle: "Not a DAG"
+title: "Visualizing cybernetic systems"
+subtitle: "Bischof notation & BDI architecture"
 author:
   - name: Felix Schönbrodt
     orcid: 0000-0002-8282-3910
     email: felix.schoenbrodt@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München
-date: today
+date: 2023-11-10
 footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
   FOMO-revealjs: 
@@ -20,10 +20,8 @@ revealjs-plugins:
   - attribution 
 ---
 
-# Not a DAG
-
 ## Two types of block diagrams
-### ...for cybernetic models
+### ...for cybernetic* models
 
 :::: {.columns}
 ::: {.column width='60%' .r-fit-text}
@@ -31,8 +29,8 @@ Mason diagrams (used in DAGs, SEM, VAST) vs. Bischof diagrams:
 
 | Type                                           | Mason/VAST (left panel) | Bischof (right panel) |
 | ---------------------------------------------- | ----------------------- | --------------------- |
-| Signals/variables displayes as ...             | Circles                 | Arrows                |
-| Transfer elements/computations displayed as .. | Arrows                  | Circles               |
+| Signals/variables displayed as ...             | Circles/Boxes           | Arrows                |
+| Transfer elements/ computations/ relationships displayed as .. | Arrows                  | Boxes                 |
 
 Both are interchangeable; we will use both styles.
 :::
@@ -42,18 +40,42 @@ Both are interchangeable; we will use both styles.
 :::
 ::::
 
+::: footer
+* κυβερνήτης (kybernetes) = helmsperson (Steuermann)
+:::
 
-## Block diagrams for cybernetic models: Properties
+## Block diagrams for cybernetic models
+### Properties
 
-::: {.r-fit-text}
 - Arrows are causal directions, not temporal links!
   - This is *not* a flow diagram or process model
   - Everything "happens at the same time"
+- Boxes are functions / computational transformations
+  - All arrows going *into* a box are inputs (independent variables)
+  - The arrow going *out of* a box (typically only one) is the function value (dependent variable)
+
+```{mermaid}
+%%| fig-width: 18
+%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+graph LR
+    START[ ] -- x1 --> f[y = 3 + 0.5*x1 + 2*x]
+    START2[ ] -- x2 --> f
+    f -- y --> STOP[ ]
+
+    style START fill-opacity:0, stroke-opacity:0;
+    style START2 fill-opacity:0, stroke-opacity:0;
+    style STOP  fill-opacity:0, stroke-opacity:0;
+```
+
+
+## Block diagrams for cybernetic models
+### Properties
+
 - Blocks can be placeholders for encapsulated subsystems (sometimes "black boxes")
   - e.g. the eye as a black box: We might not care how exactly the neuronal pattern in the retina is transformed into the signal "distance from object"
   - One general "super-block" in ABMs: The organism (delineated from the environment)
-- No arrow may directly cross a block border (see below "sensors" and "actors")
-:::
+- Arrow may originate in "nowhere" - then these are *free inputs*. These can be variables or constants (although constants also can be defined within the formula in a box).
+
 
 ## Common errors
 
@@ -71,6 +93,12 @@ Both are interchangeable; we will use both styles.
 ::::
 
 
+## Parameters of the model
+
+Arrows are variables.
+Parameters are concrete numbers for the computations in the boxes.
+
+
 ## Sensors
 ### Perceiving the environment
 
@@ -84,7 +112,7 @@ Organisms have a vast range of sensors for perceiving their environment. These h
 
 
 ## Sensors
-### Brunswick's lens model
+### Brunswik's lens model
 
 ::: {.r-fit-text .incremental}
 - Organisms constantly need to form a [judgement]{.bg style='--col: #fff100'} about latent properties of situations and objects (the [criterion]{.bg style='--col: #fff100'})
@@ -101,12 +129,12 @@ Brunswik, E. (1952). The conceptual framework of psychology. (Int. Encycl. unifi
 :::
 
 ## Sensors
-### Brunswick's lens model
+### Brunswik's lens model
 
 ![](img/lens_model.png){.r-stretch}
 
 ::: footer
-Fig. 1 from Hirschmüller et al. (2013). The dual lens model: A comprehensive framework for understanding self–other agreement of personality judgments at zero acquaintance. JPSP, 104, 335–353. [https://doi.org/10.1037/a0030383](https://doi.org/10.1037/a0030383)
+Fig. 1 from Hirschmüller et al. (2013). [https://doi.org/10.1037/a0030383](https://doi.org/10.1037/a0030383)
 :::
 
 
@@ -114,16 +142,17 @@ Fig. 1 from Hirschmüller et al. (2013). The dual lens model: A comprehensive fr
 ### Implementing the lens model as a demiurg
 
 :::: {.columns}
-::: {.column width='60%' .r-fit-text}
+::: {.column width='40%' .r-fit-text}
 Principle:
 
 - Any external information must enter the organism via a *sensor*
 - Arrows going into a sensor must be observable cues
-- Arrows going out of sensors are the organism's representation of the criterion
+- Arrows going out of sensors are the organism's representation of the phenomenon in the environment
 - The lens model itself (i.e., the weights of cue validity and utilization) is implemented in the sensor box
+- No arrow may directly cross a block border
 :::
 
-::: {.column width='40%'}
+::: {.column width='60%'}
 ![](img/BSB_sensor.png){width=600}
 :::
 ::::
@@ -135,6 +164,45 @@ Principle:
 ![](img/BSB_actor.png)
 
 Sensing the environment only makes sense when organisms are able to react on this information. Devices that allow to manipulate the environment (or the organism's position within the environment) are called [actors]{.bg style='--col: #fff100'}.
+
+# BDI model:<br>Belief → Desire → Intention {background-color="#40666e"}
+
+## BDI model: Belief → Desire → Intention
+A common model from software architecture is the [BDI model]{.hl}:
+
+- **Beliefs** about the world (including itself and other agents)
+- **Desires** represent the motivational state of the agent - what the agent would *like* to accomplish.
+- **Intentions** represent the deliberative state of the agent – what the agent has *chosen* to do.
+
+::: footer
+Text abridged from Wikipedia: [Belief–desire–intention software model](https://en.wikipedia.org/wiki/Belief–desire–intention_software_model)
+:::
+
+## BDI model: Belief → Desire → Intention
+### Two examples
+
+**{{< fa people-group size=1x >}} Group exercise (15 min.):**
+Convert these plots into a proper Bischof-style diagram. Add variables/boxes where necessary.
+
+:::: {.columns}
+::: {.column width='50%'}
+![](img/BDI_example1.png)
+:::
+
+::: {.column width='50%'}
+![](img/BDI_example2.jpeg)
+:::
+::::
+
+::: footer
+Left: [Norling (2009, p. 13)](https://rest.neptune-prod.its.unimelb.edu.au/server/api/core/bitstreams/14e50a72-5f2c-531e-bbf3-a536a7f2ec9f/content) | Right: [BDI4JADE](https://github.com/ingridnunes/bdi4jade)
+:::
+
+
+
+## One possible BDI implementation in Bischof-style
+
+![](img/BSB_BDI.png)
 
 
 <!-- Footer insert below -->

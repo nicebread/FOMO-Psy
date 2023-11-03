@@ -38,7 +38,7 @@ See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framewo
 - Popper did not care much about the first stage of creating theories - just about the later testing of theories.
 
 
-**Conjecture**: We have a refined methodology¹ to *test* theories (e.g., experimental designs, statistical methods, preregistration, ...). [But we had (so far) no good methodology for constructing theories.]{.bg style="--col: #fff100"}
+**Conjecture**: We have a refined methodology¹ to *test* theories (e.g., experimental designs, statistical methods, preregistration, ...). [But we had (so far) no good methodology for constructing theories.]{.hl}
 
 ::: {style="font-size: 50%;"}
 ¹ "A scientific methodology is an ordered series of steps that assist a researcher in reaching a desired end state from a specified starting point." (Borsboom et al., 2021)
@@ -309,18 +309,6 @@ van Dongen, N. N. N. et al. (2022, April 13). Productive Explanation: A Framewor
 - **Daten**: Daten sind öffentliche Aufzeichnungen, die durch Messungen und Experimente erzeugt werden und als Beweis für die Existenz oder Merkmale von Phänomenen dienen. (Woodward, 2009). Daten enthalten das Phänomen, an dem wir interessiert sind, aber auch Rauschen (Messfehler, Verzerrung durch den Experimentator, Transkriptionsfehler). Deshalb erklären Theorien die Phänomene, nicht die Daten. (Fried, 2021)
 :::
 
-## Elements of a theory
-
-- Phenomenon or phenomena to be explained (explanandum, explananda)
-- constructs (explanans, explanantia)
-- their operationalizations
-- their interconnections/relationships
-- Explanations/mechanisms for these relationships (how does × affect y?)
-- auxiliary assumptions and boundary conditions
-
-::: footer
-cf. Cronbach & Meehl (1955)
-:::
 
 
 ## {{< fa people-group size=1x >}} Exercise

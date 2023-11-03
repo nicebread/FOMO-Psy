@@ -1,0 +1,51 @@
+---
+title: Session 3 - How to define constructs
+number-sections: true
+description: Create proper definitions for the constructs in our Buri model
+---
+
+# Overview
+
+| Topic                                                   | Duration | Notes                                                                  |
+| ------------------------------------------------------- | -------- | ---------------------------------------------------------------------- |
+| Homework wrap-up: van Dongen Paper, CFF troubleshooting | 30       |                                                                        |
+| **Skills**: Our first theory release                    | 15       | Create `dev` branch, make first release on `main`                      |
+| **Lecture (Lena Schiestel)**: How to create constructs  | 40-60    | [Slides](../external_material/2023_Empra_Theoriebildung_Schiestel.pdf) |
+| **Workshop**: Group Exercise: Buri (Level 3)            | 40       | [Slides](../workshops/Buri/Buri.qmd)                                   |
+| Theory submissions from the department                  | 30       |                                                                        |
+| **[Homework 1]**: Scan Theory Submissions               | -        |                                                                        |
+| **[Homework 2]**: Netlogo Tutorial + Exercise           | -        | This is a two-week assignment                                          |
+
+: {.striped}
+
+
+# Homework 1 (in three groups): Theory submissions
+
+Each of the three groups skims one theory submission.
+
+**Deliverable**: Give a 3 min. presentation of the theory and an assessment whether this theory is suitable for (a) formalization and (b) implementation in a computational model.
+
+
+# Homework 2 (individually, two-weeks): Learn Netlogo basics
+
+## [Install Netlogo](https://ccl.northwestern.edu/netlogo/bind/article/getting-started-with-netlogo.html). 
+If you have technical problems, please contact me! You should be prepared for the next session.
+
+## Do a basic tutorial. There are several options, which all teach the basics:
+   a) A [free, self-paced online course](https://www.complexityexplorer.org/courses/84-fundamentals-of-netlogo/materials) with several short videos (total video material ~2h; in addition, one can do quizzes and "homework" that can be compared to solutions).
+   b) If you prefer written material, you can do the official tutorials [1](https://ccl.northwestern.edu/netlogo/docs/tutorial1.html), [2](https://ccl.northwestern.edu/netlogo/docs/tutorial2.html), and [3](https://ccl.northwestern.edu/netlogo/docs/tutorial3.html).
+   c) The [Beginner's Interactive NetLogo Dictionary](https://ccl.northwestern.edu/netlogo/bind/) is a great resources with references and examples for all commands.
+
+## Have you understood the basics? Do the exercise
+
+Please do the following exercise. Not every step might have been covered by the tutorials; in this case follow the links given at each task. 
+Push the resulting `.nlogo` file to the joint Github project (subfolder `/homework/netlogo-tutorial`, filename is `netlogo1_YOURNAME.nlogo`). Please push whatever you came up with, even if you did not manage to achieve all goals.
+
+- [ ] Give turtles two variables: `food_reservoir` and `water_reservoir` (see [`turtles-own`](https://ccl.northwestern.edu/netlogo/bind/primitive/turtles-own.html))
+- [ ] In the `setup` procedure ... 
+  - [ ] create 10 sheep-shaped turtles
+  - [ ] assign a random number between 0 and 100 to their `food_reservoir` and their `water_reservoir`. 
+  - [ ] Place them at a random position of the environment ([hint](https://ccl.northwestern.edu/netlogo/docs/tutorial3.html))
+- [ ] Create a "Setup" button in the interface that triggers the `setup` procedure.
+- [ ] Create a `go` procedure, in which your turtles (a) turn 10 degrees to the right and (b) walk 1 step forward 
+

@@ -11,10 +11,9 @@
 <li><i class="fa-li fa fa-envelope-o"></i> <a style="unicode-bidi:bidi-override; direction: rtl; color:black" href="javascript:window.location.href = 'mailto:' + ['felix.schoenbrodt','psy.lmu.de'].join('@')">ed.uml.ysp@tdorbneohcs.xilef</a></li>
 
 <li><i class="fa-li fa-solid fa-globe"></i> <a href="https://www.nicebread.de" target="_blank" style="color:black; border-bottom:none;">https://www.nicebread.de</a></li>
-</ul>
 
 
-<li><i class="fa-li fa fa-github" aria-hidden="true"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">nicebread</a></li>
+<li><i class="fa-li fa fa-github" aria-hidden="true"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">https://github.com/nicebread</a></li>
 </ul>
 
 <small style="text-align:left;">

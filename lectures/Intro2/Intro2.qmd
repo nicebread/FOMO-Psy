@@ -1,0 +1,400 @@
+---
+title: "What are (Not) Theories & Models?"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: 2023-10-27
+date-format: iso
+footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format:   
+  FOMO-revealjs: 
+    output-ext: slide.html
+    transition: slide
+  html: default
+revealjs-plugins:
+  - attribution 
+editor: 
+  render-on-save: true
+---
+
+<!-- Duration: 1h (without group exercises) -->
+
+# What is a [theory]{.alert}?
+
+> Like so many words that are bandied about, the word theory threatens to become meaningless. Because its referents are so diverse - including everything from minor working hypotheses, through comprehensive but vague and unordered speculations,to axiomatic systems of thought - use of the word often obscures rather than creates understanding.
+> <div style="text-align: right; font-size: 70%">*Merton (1967, p. 39)*</div>
+
+Maybe an easier question for the start: But what is [not]{.alert} a theory?
+
+::: footer
+Cited from Sutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788
+:::
+
+## What is *not* a theory?
+### 1. References To Theory Are Not Theory
+
+[*(Note: While the following features of a scholarly article do not constitute a theory, they might be important in their own right)*]{style="font-size: 70%;"}
+
+::: {.smallest}
+> A manuscript that Robert Sutton edited had strong data, but all three reviewers emphasized that it had "weak theory" and "poorly motivated hypotheses." The author responded to these concerns by writing a new introduction that added citations to many papers containing theory and many terms like "psycho-social theory," "identity theory," and "social comparison theory."
+> 
+>  **But it still contained no discussion of what these theories were about and no discussion of the logical arguments why these theories led to the author's predictions.** The result was that this paper contained almost no theory, despite the author's assertion that much had been added.
+
+**Solution**:
+
+> Authors need to explicate which concepts and causal arguments are adopted from cited sources and how they are linked to the theory being developed or tested.
+:::
+
+::: footer
+Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788
+:::
+
+
+## What is *not* a theory?
+### 2. Data Are Not Theory
+
+::: {.r-fit-text}
+> Empirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations. 
+> 
+> Kaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: **Data describe *which* empirical patterns were observed and theory explains *why* empirical patterns were observed or are expected to be observed.**
+
+**Furthermore**: Theories do not explain data - theories explain *phenomena*!
+:::
+
+::: footer
+Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788
+:::
+
+
+## What is *not* a theory?
+### 3. Lists of Variables or Constructs Are Not Theory
+
+::: {.r-fit-text}
+> Papers [...] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process. 
+> 
+> Such lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations [...], but they do not constitute theory.
+
+Lists of constructs (without an explicit definition of their causal relationship) often are called a *framework*.
+:::
+
+::: footer
+Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788
+:::
+
+
+## What is *not* a theory?
+### 4. Diagrams (Alone) Are Not Theory
+
+::: {.callout-note}
+# This is an extension of (3) "List of constructs": Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)
+:::
+
+![](img/fpsyg-12-620838-g001.jpg){height=400}
+
+::: footer
+Iqbal, S. et al. (2021). [https://doi.org/10.3389/fpsyg.2021.620838](https://doi.org/10.3389/fpsyg.2021.620838)
+:::
+
+
+
+## 4. Diagrams (Alone) Are Not Theory
+
+![Figure 1. Holistic wellbeing model for school education.](img/societies-13-00113-g001.png){.r-stretch}
+
+::: footer
+Norozi, S. A. (2023). The Nexus of Holistic Wellbeing and School Education: A Literature-Informed Theoretical Framework. Societies, 13(5), 113. https://doi.org/10.3390/soc13050113
+:::
+
+
+
+## 4. Diagrams (Alone) Are Not Theory
+
+![](img/7_Instances.jpg){.r-stretch}
+
+::: footer
+CBCB, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
+:::
+
+
+## 4. Diagrams (Alone) Are Not Theory
+
+![](img/Virgin.gif){height=650}
+
+::: footer
+http://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html
+:::
+
+
+## What is *not* a theory? 4
+### 4. Diagrams (Alone) Are Not Theory
+
+::: {.r-fit-text}
+> Diagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. [...] 
+> 
+> More helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. [...]
+> 
+> As Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, **they rarely explain *why* the proposed connections will be observed. Some verbal explication is almost always necessary**.
+:::
+
+::: footer
+Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788
+:::
+
+
+
+## What is *not* a theory?
+### 5. Hypotheses (or Predictions) Are Not Theory.
+
+::: {.r-fit-text}
+> Hypotheses can be an important part of a well-crafted conceptual argument. They serve as crucial bridges between theory and data, making explicit how the variables and relationships that follow from a logical argument will be operationalized. [...] 
+> 
+> Hypotheses do not (and should not) contain logical arguments about why empirical relationships are expected to occur. [Hypotheses are concise statements about *what* is expected to occur, not *why* it is expected to occur.]{.bg style='--col: #fff100'}
+:::
+
+::: footer
+Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788
+:::
+
+
+
+
+# But, then:<br>What [is]{.alert} a theory?
+
+## Theories as causal explanations
+
+> "It may be said... that an explanation is not fully adequate unless its explanans [...] could have served as a basis for predicting the phenomenon under consideration.
+> 
+> ... not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to [anticipate new occurrences]{.hl} and to [control, at least to some extent, the changes in our environment]{.hl}"
+> <div style="text-align: right; font-size: 70%">* Hempel & Oppenheim, 1948, (p. 138)*</div>
+
+1. Predict new (unseen) data
+2. Have (causal) control through manipulation
+
+## TCM: A methodology for constructing theories
+
+```{mermaid}
+%%| fig-width: 6
+%%{
+  init: {
+    'theme': 'base',
+    'flowchart': { 'curve': 'natural' }
+  }
+}%%
+flowchart LR
+  T(Theory)
+  P(Phenomena)
+  D(Data)
+  
+  T -- "Explanation" --> P
+  P -- "Abduction" --> T
+  P -- "Prediction" --> D
+  D -- "Generalization" --> P
+```
+
+::: {.r-fit-text}
+**Phenomena**: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the *explanandum*). In psychology often called "effects".
+
+**Data**: Relatively direct observations. Refer to *particular* empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).
+
+**[Explanatory]{.alert} Theories** are constructed to explain the empirical phenomena that are evidenced by data (i.e., they are the *explanans*). Explanatory theories can be expressed in terms of a set of linked propositions referring to latent psychological constructs. At least one of these propositions expresses a general principle.
+:::
+
+::: footer
+See Borsboom et al. (2021). [https://doi.org/10.1177/1745691620969647](https://doi.org/10.1177/1745691620969647)
+:::
+
+
+
+## Definitions (1)
+
+::: {.callout-important}
+# What is an (explanatory) theory?
+A theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (*explanans*)
+:::
+
+::: footer
+Borsboom et al. (2021). [https://doi.org/10.1177/1745691620969647](https://doi.org/10.1177/1745691620969647)
+:::
+
+
+## What is a [model]{.alert}?
+
+A {formal|mathematical|computational} model is a precise, mathematical or algorithmic representation of the theory’s principles and relationships. It serves as a bridge between abstract theoretical principles and the empirical world.
+
+Sometimes a theory is so highly formalized that it is virtually [identical]{.alert} to a model of it. But more often, there is a [gap]{.hl} between theory and implemented models: We need more assumptions to implement a model in computer code. In this case, multiple models can satisfy the axioms and constraints of a theory.
+
+
+## Explicating a verbal theory into formal model(s)
+### Example: van Dongen et al (2023) on Ego Depletion
+
+::: {.smaller}
+- The regulatory resource theory pertains to **self-control**: cognitive processes that inhibit and suppress immediate thoughts, impulses, expression of emotions, and behaviors that deviate from standards or goals. 
+- The theory postulates that one’s ability for self-control depends on a **finite resource**: a stored supply of energy, for which some use the term willpower. Every act of self-control reduces the amount of willpower, so that one’s ability to inhibit or suppress the next unwanted impulse is diminished
+- The theory is said to explain the **phenomenon of ego depletion**: people perform worse on a task that requires self-control, right after having done something else that used this resource.
+:::
+
+::: footer
+Abridged from van Dongen et al. (2022). Improving psychological explanations. *PsyArXiv.* [https://doi.org/10.31234/osf.io/qd69g](https://doi.org/10.31234/osf.io/qd69g)
+:::
+
+
+## Explicating a verbal theory into formal model(s)
+### Key theoretical principles of the verbal theory
+
+::: {.smaller}
+a) there is a domain-general “resource” called willpower ($W$) 
+b) tasks requiring willpower deplete this resource (e.g., a task that requires self-control depletes the resource, but a task that requires no self-control does not), and 
+c) the resource is replenished at some rate after the task ends. 
+:::
+
+::: {.smaller}
+To these, we add the following auxiliary assumptions: 
+
+- willpower $W$ is a positive valued quantitative variable ($W \in \mathbb{R}^{+}$)
+- willpower changes continuously in time, and 
+- willpower has a default value when at rest ( i.e., when there is no task that requires willpower; $W^r$).
+:::
+
+::: footer
+van Dongen et al. (2022). [https://doi.org/10.31234/osf.io/qd69g](https://doi.org/10.31234/osf.io/qd69g)
+:::
+
+## Explicating a verbal theory into formal model(s)
+### Multiple possible implementations
+
+::: {.smaller}
+The theoretical key principles are not precise enough yet to program an implementation - e.g.: Is the decrease of the resouce linear or curved? How fast does the resource recover under rest?
+
+These additional auxiliary assumptions (which are not in the core of the theory) can lead to very different possible implementations - [all of which are compatible with the theory]{.hl}:
+:::
+
+:::: {.columns}
+::: {.column width='33%'}
+![](img/ego_depletion1.png)
+:::
+
+::: {.column width='33%'}
+![](img/ego_depletion2.png)
+:::
+::: {.column width='33%'}
+![](img/ego_depletion3.png)
+:::
+::::
+
+::: footer
+[https://github.com/jmbh/explanationpaper](https://github.com/jmbh/explanationpaper)
+:::
+
+
+<!-- TODO: Die Frage mit free und fixed parameters das nächste Mal später machen / separat machen -->
+## What is a computational model?
+
+::: {.smaller}
+A model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms [input variables]{.hl} into [output variables]{.hl} (the dependent variables). The formulas that compute the output contain [parameters]{.hl}.
+
+Cf. linear regression: $\color{red} y = \color{forestgreen} \beta_0 \color{black} + \color{forestgreen} \beta_1 \color{blue} x$ 
+<br>→ $\color{red} y$ = output variable, $\color{forestgreen} \beta$s = parameters, $\color{blue} x$ = input variable.
+
+Two types of parameters:
+
+- **Fixed parameters**: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).
+- **Free parameters**: Can be adjusted to optimize the fit of the model to data. They are *estimated* from empirical data.
+:::
+
+::: {.callout-note}
+Virtually all parameters (except natural constants) could be imagined as being free. It is a *choice* to fix some of them in order to simplify the model.
+:::
+<!-- ----------------- -->
+
+## What are explanations?
+
+With the definition of [explanatory theories]{.alert} and [formal models]{.alert}, a definition of [explanations]{.hl} can be proposed:
+
+> *“Theory T putatively explains phenomenon P”* means: 
+> 
+> **“if the world were as T says it is, P would follow as a matter of course.”** 
+> 
+> Although this notion of explanation is arguably incomplete, it has the advantages of being close to the commonsense understanding of the concept and being easy to implement in a formal model—namely by creating a virtual world in which theory T is true and showing that this world will indeed produce phenomenon P.
+
+::: footer
+Charles S. Peirce (1931, p. 185); Borsboom et al. (2021). [https://doi.org/10.1177/1745691620969647](https://doi.org/10.1177/1745691620969647)
+:::
+
+
+## Definitions (2)
+
+::: {.callout-important}
+# What is an (explanatory) theory?
+A theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character.
+:::
+
+::: {.callout-important}
+# What is a formal model?
+A formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate "fake" data and data patterns that would be observed in reality if the theory *and* the model are sufficiently accurate.
+:::
+
+::: {.callout-important}
+# What is an explanation?
+In the *productive explanation framework*, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P. 
+:::
+
+::: footer
+Borsboom et al. (2021). [https://doi.org/10.1177/1745691620969647](https://doi.org/10.1177/1745691620969647); van Dongen et al. (2023). [https://doi.org/10.31234/osf.io/qd69g](https://doi.org/10.31234/osf.io/qd69g)
+:::
+
+
+
+
+
+<!-- Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```
+
+<!-- SPEICHER -->
+
+<!-- 
+
+
+# Let's practice!
+
+## Elements of a theory
+
+::: {.r-fit-text}
+- **Phänomen**: Eine Eigenschaft der Welt, die hinreichend wenig flüchtig ist, so dass wir diese wahrnehmen und beschreiben können (Explanandum einer Theorie)
+- **Begriff / Konzept**: Semantische Einheit (Konzept), die die Merkmale eines Gegenstandes oder Sachverhaltes vereint. ≠ Wort/Wortmarke
+- **Relationship**
+- **Modell**: Vereinfachte Abbildung eines Ausschnitts der Wirklichkeit. Alle Strukturen, die die Sätze einer Theorie erfüllen, sind Modelle dieser Theorie. Oder andersherum ausgedrückt: Eine Theorie kann meist in verschiedenen Modellen implementiert werden, die alle kompatibel zur Theorie sind.
+- **Operationalisierung**: Präzise Angabe (inkl. Begründung), wie ein Begriff (s.o.), zu messen ist. 
+- **Daten**: Daten sind öffentliche Aufzeichnungen, die durch Messungen und Experimente erzeugt werden und als Beweis für die Existenz oder Merkmale von Phänomenen dienen. (Woodward, 2009). Daten enthalten das Phänomen, an dem wir interessiert sind, aber auch Rauschen (Messfehler, Verzerrung durch den Experimentator, Transkriptionsfehler). Deshalb erklären Theorien die Phänomene, nicht die Daten. (Fried, 2021)
+:::
+
+
+
+## {{< fa people-group size=1x >}} Exercise
+
+:::: {.columns}
+
+::: {.column width='60%' .r-fit-text}
+
+:::
+
+::: {.column width='40%'}
+```{mermaid}
+flowchart LR
+P[Phenomenon]
+C["Concept (Definition)"]
+T[Theory]
+M[Model]
+O[Operationalization]
+D[Data]
+```
+:::
+
+::::
+
+
+
+
+ -->

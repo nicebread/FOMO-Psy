@@ -9,12 +9,14 @@ description: Intro to theory 1 - First steps in modeling
 | Topic                                        | Duration | Notes                                                                          |
 | -------------------------------------------- | -------- | ------------------------------------------------------------------------------ |
 | Introduction                                 | 5        | Lecturer introduction                                                          |
-| Introduction of students in the plenum       | 15       | Guiding questions: Name, home town, why chose this Empra. Write your name tag. |
-| Group formation                              | 30       | See @sec-group_formation                                                       |
-| **Skill**: Git Intro                         | 30       | See @sec-git                                                       |
-| **Lecture**: Introducion: Theory crisis      | 45       | [Slides](../lectures/Introduction/Introduction.qmd)                            |
+| Introduction of students in the plenum       | 5        | Guiding questions: Name, home town, why chose this Empra. Write your name tag. |
+| Formalia                                     | 20       | [Slides](../lectures/Empra-Orga/Empra-Orga.qmd)                                |
+| Group formation                              | 10       | See @sec-group_formation                                                       |
+| **Skill**: Git Intro                         | 30       | See @sec-git                                                                   |
+| **Lecture**: Introducion: Theory crisis      | 45       | [Slides](../lectures/Intro1/FOMO-Psy_1_Data_phenomena.qmd)                            |
 | **Workshop**: Group Exercise: Buri (Level 1) | 60       | [Slides](../workshops/Buri/Buri.qmd)                                           |
-| **[Homework]**: Git Tutorial                 | -        |                                                                                |
+| **[Homework 1]**: Git Tutorial               | -        |                                                                                |
+| **[Homework 2]**: Smaldino (2013), Chapter 1 | -        |                                                                                |
 
 : {.striped}
 
@@ -45,7 +47,7 @@ While carrying their name tags, students find their position between two corners
 
 ## Round of introductions within the group (10 min)
 
-- Task: Think of a funny name for a donkey.
+- Task: Think of a funny name for a donkey. This will be the group's name.
 - Give a more detailed introduction to the other group members:
   - Career goals / type of psychologist they want to become
   - Specific programming skills
@@ -53,13 +55,49 @@ While carrying their name tags, students find their position between two corners
 
 # Git Intro {#sec-git}
 
+0. Open the first slides of the [IT-Tools](../skills/it-tools/it-tools.qmd) presentation.
 1. Showcase how git works
-   1. Create a private project on Github. This will be the central project for submitting homework
-   2. Show how to commit, push, pull changes.
-2. We start the [OSC git tutorial](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/) together to weed out technical hurdles. The rest of tutorial is homework.
+   1. Lecturer creates a private project on Github for this course. This will be the central project for submitting homework.
+   2. Students should create their Github accounts; add them as contributors to the course project.
+   3. Show how to commit, push, pull changes.
+2. Students should create a Github account (if they have none), add all to the joint repo.
 
 
-# Homework {#sec-homework}
+# Homework 1 (individually) {#sec-homework}
 
-Please continue the tutorial ["Introduction to Version Control in R with RStudio, Git, and Github"](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/), **and** complete the follow-up tutorial "[Collaborative coding with GitHub and RStudio](https://malikaihle.github.io/Collaborative-RStudio-GitHub/)".
+**Goals**: Learn how to pull, commit, and push to Github. Be able to resolve a merge conflict.
+
+If you already know how to do this, you can skip Homework 1. Otherwise, do the tutorial ["Introduction to Version Control in R with RStudio, Git, and Github"](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/), **and** complete the follow-up tutorial "[Collaborative coding with GitHub and RStudio](https://malikaihle.github.io/Collaborative-RStudio-GitHub/)".
 Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.
+
+**Deliverable**: 
+
+Push your answer from Homework 2 (see below) to the appropriate folder of the remote repository.
+
+# Homework 2 (individually) {#sec-homework2}
+
+Download [Chapter 1](https://pup-assets.imgix.net/onix/images/9780691224145/9780691224138.pdf) of Paul Smaldino's Book "Modeling Social Behavior: Mathematical and Agent-Based Models of Social Dynamics and Cultural Evolution". Read the chapter and answer the following guiding questions:
+
+1. A typical criticism of formal models is: "You baked your results into the model, so the conclusions are trivial". What could you answer to such a statement?
+
+<!-- Answer: Yes, the conclusions follow directly from the assumptions - to that extent, the criticism has a true core. But that does not diminish the usefulness of formal models: Often the conclusions don't trivialy follow from the assumptions; humans are not good in directly inferring conclusions from, say, non-linear or complex models. Models allow to check, whether our assumptions *actually* lead to the phenomena that should be explained. -->
+
+2. What is done in a **decomposition**?
+
+<!-- Answer: Give answers to the following questions: What are the parts of the system we are interested in? What are their properties? What are the relationships between the parts and their properties? How do those properties and relationships change?  -->
+
+3. What question should guide the decomposition?
+
+<!-- Answer: How you decompose a system depends on the questions you are trying to answer with your model and on the granularity required for answers to those questions. It is the question that determines the relevant parts of the system! -->
+
+4. What is, according to Smaldino, the key difference between *exact* and *inexact* sciences?
+
+<!-- Answer: In the exact sciences, theories involve direct mappings between measurable constructs and model predictions— the terms in their fundamental equations all have universally-accepted units.
+The inexact sciences are those in which the mappings between measurements and theo- ries are imprecise. -->
+
+5. Name the two types of models that typically are employed in social sciences.
+
+<!-- Answer: Equation-based models and agent-based models -->
+
+**Deliverable**: Submit answers to the guiding questions as a plain text/markdown file to the course's Github repo (go to `homework/session1` and upload an `.md` file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don't do the homework at all (after all, the goal of this exercise is that you *learn* something, not that you make your lecturer happy).
+

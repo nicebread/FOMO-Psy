@@ -6,7 +6,7 @@ author:
     orcid: 0000-0002-8282-3910
     email: felix.schoenbrodt@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München
-date: today
+date: 2023-10-20
 footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
   FOMO-revealjs: 
@@ -94,8 +94,8 @@ Bischof (in prep, S. 143)
 
 ## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 1]{.r-fit-text}
 
-::: {.r-fit-text}
-**Scenario**: The environment has two sources (food and water), in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body. As soon as one of the two reserves in the body drops to zero, the donkey dies.
+::: {.smallest}
+**Scenario**: The environment has two unlimited sources (food and water), in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body. If any of the two reserves drops to zero, the donkey dies.
 
 **(Simplifying) assumptions**: 
 
@@ -104,9 +104,9 @@ Bischof (in prep, S. 143)
 - Eating, drinking, and traveling takes a substantial amount of time.
 - The donkey has a representation of the environment and knows where the two sources are.
 
-**Task**: Construct an organism, with as few assumptions as possible, that survives as long as possible. Which constructs / sensors / abilities are necessary for this?
+**Task**: Construct an organism, with as *few* assumptions as possible, that survives as long as possible. Which constructs / sensors / abilities are necessary for this? Assume as simple abilities as possible - certainly not super-human abilities. (Rather think of an amoeba, not a super-AI).
 
-**Deliverable**: A markdown text file with a verbal description of the organism. Give it the version number `0.1.0` (cf. [[Semantic Versioning]{.button}](https://semver.org)).
+**Deliverable**: A markdown text file with a verbal description of the organism. Give it the version number `0.1.0`. Upload to the Git repo.
 
 ![](img/buri1.png){fig-align="center" height="70"}
 :::
@@ -114,11 +114,94 @@ Bischof (in prep, S. 143)
 
 
 
+## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 2]{.r-fit-text}
+### Exhaustive list of (fixed and free) parameters and input variables
+
+::: {.callout-note}
+# Reminder: free vs fixed parameters
+- **Fixed parameters** are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).
+- **Free parameters** can be adjusted to optimize the fit of the model to data. They are *estimated* from empirical data.
+:::
+
+
+## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 2]{.r-fit-text}
+### Exhaustive list of (fixed and free) parameters and input variables
+
+::: {.smallest}
+**Task**: 
+
+a) List all parameters of your model (on the top of your markdown file). 
+<br>→ As a heuristic: Every conrete number that you need for the formulas of your simulation is a parameter.
+b) Categorize them into *fixed* and *free* parameters.
+→ Virtually all parameters (except natural constants) could be imagined as being free. It is usually a *choice* to fix some of them in order to simplify the model. 
+c) List all input/predictor variables
+d) List all primary ouput variables.
+  - In some models, an output variable can also be an input variable for something else.
+  - *Do not* list intermediate/temporary variables that are only necessary for computations. 
+  - *Do* list mediating variables that are psychologically meaningful (e.g. an emotion that mediates the process between stimulus (= input) and action)
+
+Cf. linear regression: $\color{red} y = \color{forestgreen} \beta_0 \color{black} + \color{forestgreen} \beta_1 \color{blue} x$ 
+<br>→ $\color{red} y$ = output variable, $\color{forestgreen} \beta$s = parameters, $\color{blue} x$ = input variable.
+:::
 
 
 
 
-# Buridan's ass, level 2: Draw your diagram {background-color="#40666e"}
+## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 3]{.r-fit-text}
+### Construct and variable definitions
+
+:::: {.columns}
+
+::: {.column width='60%' .smallest}
+In the previous lecture, you learned how a good construct definition looks like. Apply that new skill to your model!
+
+**Task**:
+
+- Develop proper definitions for *all* variables and concepts in your model, add them to your markdown file.
+- Increase the *minor* version (e.g., from `0.2.7` to `0.3.0`)
+
+
+**Deliverables**:
+
+- Create a `CHANGELOG.md` file that explains the changes between the previous and the current version of the theory.
+- Push all new files to your `dev` branch.
+- Merge `dev` into `main`.
+- Create a new release.
+:::
+
+::: {.column width='40%'}
+![](img/changelog_example.png){fig-align="center" style="filter: drop-shadow(6px 6px 8px #555555);"}
+:::
+
+::::
+
+
+
+
+
+# Buridan's ass, level 4: Draw your diagram {background-color="#40666e"}
+
+## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 4]{.r-fit-text}
+### Draw a graphical model, Bischof-style
+
+::: {.smaller}
+**Task**: Sketch your initial verbal model in the [style of Bischof](../../skills/Bischof-Notation/Bischof-Notation.qmd). Refine and extend where necessary, e.g.:
+
+  - Think about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary
+  - Give a label to every variable (i.e., every arrow in the graphical model).
+  - Every free parameter and input variable that you identified should be an arrow in your visual model
+
+**Deliverables**: 
+
+- Draw the model collaboratively in [draw.io](https://www.drawio.com). In one corner, add the version number `0.2.0` and today's date (simply as a text box).
+- Export the model as an `xml` file and push it to the Github repo.
+- Write a meaningful commit message, e.g. `Initial commit; model version 0.2.0`
+:::
+
+
+
+
+# Buridan's ass, level 5 {background-color="#40666e"}
 
 ## The Demiurgic Principle
 ### Final version
@@ -145,62 +228,10 @@ Bischof (in prep, S. 143)
 
 
 
-## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 2]{.r-fit-text}
-### Draw a graphical model, Bischof-style
 
-::: {.r-fit-text}
-Consider the underlying psychological research question: *How can an organism solve an approach-approach conflict?*
+# Buridan's ass, level 5 {background-color="#40666e"}
 
-**Task**: Sketch your initial verbal model in the [style of Bischof](../../skills/Bischof-Notation/Bischof-Notation.qmd). Refine and extend where necessary, e.g.:
-
-  - Think about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary
-  - Give a label to every variable (i.e., every arrow in the graphical model).
-
-**Deliverables**: 
-
-- Draw the model collaboratively in [draw.io](https://www.drawio.com). In one corner, add the version number `0.2.0` and today's date (simply as a text box).
-- Export the model as an `xml` file and push it to your group's Github repo.
-- Write a meaningful commit message, e.g. `Initial commit; model version 0.2.0`
-
-![](img/buri1.png){fig-align="center" height="70"}
-:::
-
-
-
-
-# Buridan's ass, level 3 {background-color="#40666e"}
-
-## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 3]{.r-fit-text}
-### Construct and variable definitions
-
-:::: {.columns}
-
-::: {.column width='60%' .smallest}
-In the previous lecture, you learned how a good construct definition looks like. Apply that new skill to your model!
-
-**Task**:
-
-- Develop proper definitions for *all* variables and concepts in your model
-- If necessary, update the model structure in [draw.io](https://www.drawio.com); increase either the *minor* version (e.g., to `0.3.0`) or only the *patch* version (e.g., `0.2.1`); export a new `xml` file.
-- Provide the definitions of the model's variables and constructs in a separate markdown file (`Definitions.md`).
-
-**Deliverables**:
-
-- Create a `CHANGELOG.md` file that explains the changes in the model in more detail.
-- Push all new files to your group's Github repo. 
-- Write a meaningful commit message that explains the changes.
-:::
-
-::: {.column width='40%'}
-![](img/changelog_example.png){fig-align="center" style="filter: drop-shadow(6px 6px 8px #555555);"}
-:::
-
-::::
-
-
-# Buridan's ass, level 4 {background-color="#40666e"}
-
-## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 4]{.r-fit-text}
+## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 5]{.r-fit-text}
 ### Variable Scaling & Netlogo Implementation
 
 ::: {.smallest}

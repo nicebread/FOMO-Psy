@@ -1,0 +1,44 @@
+---
+title: "What we learned so far"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: "XXX"
+footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format: 
+  FOMO-revealjs: 
+    output-ext: slide.html
+    transition: slide
+  html: default
+revealjs-plugins:
+  - attribution 
+---
+
+## We learned [technical skills]{.alert}
+
+- How to use `git`
+  - commit, push, pull, merge
+  - use branches (`dev` and `main`)
+  - make **releases of our theory**
+- How to make our theory **citeable** with `cff` files
+- How to apply **semantic versioning** to our theory
+- How to program ABMs in Netlogo
+
+## We learned [conceptual skills]{.alert}
+
+- How to draw a causal diagram in Bischof style
+- How to formalize a theory with the Visual Argumentation Structure Tool (VAST)
+- How to properly define a construct
+
+## We learned [basics of theory building]{.alert}
+
+- What is (not) a theory?
+- The relation between data, phenomena, models, and theory
+- Theory construction methodology
+
+
+<!-- Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```

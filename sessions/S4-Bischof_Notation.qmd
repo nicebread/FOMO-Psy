@@ -1,0 +1,23 @@
+---
+title: Session 4 - Bischof notation
+number-sections: true
+description: TBD
+---
+
+# Overview
+
+| Topic                                         | Duration | Notes                                                     |
+| --------------------------------------------- | -------- | --------------------------------------------------------- |
+| Homework wrap-up:                             | 15       |                                                           |
+| **Skill 1**: Bischof-Notation                 | 75       | [Slides](../skills/Bischof-Notation/Bischof-Notation.qmd) |
+| **Skill 2**: draw.io                          | 15       | [draw.io](https://app.diagrams.net) -> Connect to Github  |
+| **Workshop**: Group Exercise: Buri (Level 4)  | 60       | [Slides](../workshops/Buri/Buri.qmd)                      |
+| **[Homework 1]**: Netlogo Tutorial + Exercise | -        |                                                           |
+
+: {.striped}
+
+
+
+# Homework 1 continuing (individually, two-weeks): Learn Netlogo basics
+
+See instructions from [previous session](S3-Constructs.qmd).

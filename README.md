@@ -11,7 +11,7 @@ You need:
 - quarto > 1.3.45
 - [Font Awesome Extension for Quarto](https://github.com/quarto-ext/fontawesome)
 - [Attribution Extension](https://github.com/quarto-ext/attribution)
-- [Quarto clean theme](https://github.com/grantmcdermott/quarto-revealjs-clean/tree/main)
+- The [FOMO theme](https://github.com/nicebread/quarto-revealjs-clean-FS), which is based on the [Quarto clean theme](https://github.com/grantmcdermott/quarto-revealjs-clean/tree/main)
 
 Run the following commands in the project's root directory:
 
@@ -25,8 +25,14 @@ quarto install extension nicebread/quarto-revealjs-clean-FS
 
 - The default presentation size is 1050 x 700.
 - To publish online, run `quarto publish gh-pages` locally.
-- Right arrow (→): &rarr;
-- Double headed arrow (↔): &harr;
+- Right arrow (→): `&rarr;`
+- Double headed arrow (↔): `&harr;`
+- Full processing:
+
+```
+quarto render
+quarto publish gh-pages
+```
 
 ## Resources
 

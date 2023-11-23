@@ -333,7 +333,7 @@ Note
 <ul>
 <li><code>setxy random-xcor random-ycor</code>: Let agents start at a random position</li>
 <li><code>hatch</code> is a primitive that creates a provided number of identical copies of a turtle (i.e., the offspring). It allows optional rules defined for the new turtles by following it with brackets [] (see <a href="https://ccl.northwestern.edu/netlogo/bind/primitive/hatch.html">help page</a>).</li>
-<li>Select the <code>n</code> agents with the highest or lowest value in a property. Here’s some pseudo-code, selecting the 10 buris with the highest and lowest value in <code>health</code>:</li>
+<li><code>max-n-of</code> and <code>min-n-of</code>: Select the <code>n</code> agents with the highest or lowest value in a property (see <a href="https://ccl.northwestern.edu/netlogo/bind/primitive/max-n-of.html">help file</a>). Here’s some pseudo-code, selecting the 10 buris with the highest and lowest value in <code>health</code>:</li>
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>; reproduction: the 10 fittest buris reproduce (2 kids)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>ask max-n-of 10 buris [health] [</span>

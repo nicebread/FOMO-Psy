@@ -179,12 +179,11 @@ In the previous lecture, you learned how a good construct definition looks like.
 
 
 
-# Buridan's ass, level 4: Draw your diagram {background-color="#40666e"}
 
 ## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 4]{.r-fit-text}
 ### Draw a graphical model, Bischof-style
 
-::: {.smaller}
+::: {.smallest}
 **Task**: Sketch your initial verbal model in the [style of Bischof](../../skills/Bischof-Notation/Bischof-Notation.qmd). Refine and extend where necessary, e.g.:
 
   - Think about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary
@@ -193,9 +192,9 @@ In the previous lecture, you learned how a good construct definition looks like.
 
 **Deliverables**: 
 
-- Draw the model collaboratively in [draw.io](https://www.drawio.com). In one corner, add the version number `0.2.0` and today's date (simply as a text box).
-- Export the model as an `xml` file and push it to the Github repo.
-- Write a meaningful commit message, e.g. `Initial commit; model version 0.2.0`
+- Draw the model collaboratively in [draw.io](https://www.drawio.com). In one corner, add the updated version number and today's date (simply as a text box).
+- Create & switch to `dev` branch
+- Export the graphical model as an `xml` file and push it to the Github repo. Increase version number in `cff` file.
 :::
 
 
@@ -227,7 +226,13 @@ Bischof (in prep, S. 143)
 :::
 
 
+## Realistic capabilities, 2
 
+> **As-if models** typically employ mathematical representations chosen for elegance or feasibility, are deliberately free from psychological interpretation , and their input–output transformations need not correspond to actual cognitive processes. [...] The implication is that process models need to be simple and respect capacity limits or link the proposed operations directly to psychological constructs
+
+::: footer
+
+:::
 
 # Buridan's ass, level 5 {background-color="#40666e"}
 

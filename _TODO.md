@@ -34,3 +34,25 @@ Kann eine Theorie *zu* präzise sein? Dann würde man extrem viele arbiträre Fe
 
 # VAST früher bringen?
 Bei der Evaluation, ob eingereichte Theorien sinnvoll formalisiert werden können, wäre es gut schon VAST zu kennen.
+
+# Beispiele:
+
+Callaway, F., Hardy, M., & Griffiths, T. L. (2023). Optimal nudging for cognitively bounded agents: A framework for modeling, predicting, and controlling the effects of choice architectures. Psychological Review. Advance online publication. https://doi.org/10.1037/rev0000445
+
+# Erwin:
+
+"machine model" / perfect model:
+See Jarecki et al 2020:
+Connotation 1: Process models versus rational models: "Such rational models provide optimal solutions to a problem (Tanner & Swets, 1954) or constrained optimal solutions (rational analysis by Anderson, 1991) to formal statistical problems faced by decision makers (Griffiths et al., 2010; Lewis, Howes, & Singh, 2014). Cognitive processes can then be singled out by the “ways in which human behavior deviates from ideal solutions”
+
+# Demiurg 2
+
+See Jarecki et al 2020:
+"The implication is that process models need to be simple and respect capacity limits or link the proposed operations directly to psychological constructs"
+
+# Data models vs. theoretical models
+
+"Could a Neuroscientist Understand a Microprocessor?":
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268
+
+Eiko Fried: https://www.tandfonline.com/doi/full/10.1080/1047840X.2020.1854011

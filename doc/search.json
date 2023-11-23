@@ -137,7 +137,7 @@
     "href": "lectures/Intro1/FOMO-Psy_1_Data_phenomena.slide.html#contact",
     "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Data_phenomena.html",
@@ -235,7 +235,7 @@
     "href": "lectures/Intro1/FOMO-Psy_1_Data_phenomena.html#contact",
     "title": "FOMO-Psy 1: Data, phenomena, and the replication crisis",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
     "objectID": "lectures/Intermediate_Result/Intermediate_Result.slide.html#we-learned-technical-skills",
@@ -263,7 +263,7 @@
     "href": "lectures/Intermediate_Result/Intermediate_Result.slide.html#contact",
     "title": "What we learned so far",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "lectures/Intermediate_Result/Intermediate_Result.html",
@@ -298,7 +298,7 @@
     "href": "lectures/Intermediate_Result/Intermediate_Result.html#contact",
     "title": "What we learned so far",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#goals",
@@ -361,7 +361,7 @@
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#contact",
     "title": "Formal modeling in psychology",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html",
@@ -431,14 +431,21 @@
     "href": "lectures/Empra-Orga/Empra-Orga.html#contact",
     "title": "Formal modeling in psychology",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
     "objectID": "skills/VAST/VAST.slide.html#fuzziness",
     "href": "skills/VAST/VAST.slide.html#fuzziness",
     "title": "Visual Argument Structure Tool (VAST) V1.0",
     "section": "Fuzziness",
-    "text": "Fuzziness\n\nThe goal are precise theories - but in reality, they are (partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”\n\nBetter than assigning an arbitrary, pseudo-accurat number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!"
+    "text": "Fuzziness\n\nThe goal are precise theories - but in reality, they are (partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps and underspecifications"
+  },
+  {
+    "objectID": "skills/VAST/VAST.slide.html#explicate-different-perspectives-and-analysts",
+    "href": "skills/VAST/VAST.slide.html#explicate-different-perspectives-and-analysts",
+    "title": "Visual Argument Structure Tool (VAST) V1.0",
+    "section": "Explicate different perspectives and analysts",
+    "text": "Explicate different perspectives and analysts\n\nWhose perspective is displayed?\nWho made the analysis?\n\nE.g. Analyst Robert displays the perspective of Berta:\n\n\nTODO Show example."
   },
   {
     "objectID": "skills/VAST/VAST.slide.html#theory-vs.-model",
@@ -452,21 +459,28 @@
     "href": "skills/VAST/VAST.slide.html#contact",
     "title": "Visual Argument Structure Tool (VAST) V1.0",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n\n nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "skills/VAST/VAST.html",
     "href": "skills/VAST/VAST.html",
     "title": "Visual Argument Structure Tool (VAST) V1.0",
     "section": "",
-    "text": "The goal are precise theories - but in reality, they are (partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”\n\nBetter than assigning an arbitrary, pseudo-accurat number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!"
+    "text": "The goal are precise theories - but in reality, they are (partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps and underspecifications"
   },
   {
     "objectID": "skills/VAST/VAST.html#fuzziness",
     "href": "skills/VAST/VAST.html#fuzziness",
     "title": "Visual Argument Structure Tool (VAST) V1.0",
     "section": "",
-    "text": "The goal are precise theories - but in reality, they are (partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”\n\nBetter than assigning an arbitrary, pseudo-accurat number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!"
+    "text": "The goal are precise theories - but in reality, they are (partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps and underspecifications"
+  },
+  {
+    "objectID": "skills/VAST/VAST.html#explicate-different-perspectives-and-analysts",
+    "href": "skills/VAST/VAST.html#explicate-different-perspectives-and-analysts",
+    "title": "Visual Argument Structure Tool (VAST) V1.0",
+    "section": "Explicate different perspectives and analysts",
+    "text": "Explicate different perspectives and analysts\n\nWhose perspective is displayed?\nWho made the analysis?\n\nE.g. Analyst Robert displays the perspective of Berta:\n\n\nTODO Show example."
   },
   {
     "objectID": "skills/VAST/VAST.html#theory-vs.-model",
@@ -480,7 +494,7 @@
     "href": "skills/VAST/VAST.html#contact",
     "title": "Visual Argument Structure Tool (VAST) V1.0",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n\n nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
     "objectID": "skills/Bischof-Notation/Bischof-Notation.slide.html#two-types-of-block-diagrams",
@@ -494,7 +508,7 @@
     "href": "skills/Bischof-Notation/Bischof-Notation.slide.html#block-diagrams-for-cybernetic-models",
     "title": "Visualizing cybernetic systems",
     "section": "Block diagrams for cybernetic models",
-    "text": "Block diagrams for cybernetic models\nProperties\n\nArrows are causal directions, not temporal links!\n\nThis is not a flow diagram or process model\nEverything “happens at the same time”\n\nBoxes are functions / computational transformations\n\nAll arrows going into a box are inputs (independent variables)\nThe arrow going out of a box (typically only one) is the function value (dependent variable)\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\ngraph LR\n    START[ ] -- x1 --&gt; f[y = 3 + 0.5*x1 + 2*x]\n    START2[ ] -- x2 --&gt; f\n    f -- y --&gt; STOP[ ]\n\n    style START fill-opacity:0, stroke-opacity:0;\n    style START2 fill-opacity:0, stroke-opacity:0;\n    style STOP  fill-opacity:0, stroke-opacity:0;"
+    "text": "Block diagrams for cybernetic models\nProperties\n\nArrows are causal directions, not temporal links!\n\nThis is not a flow diagram or process model\nEverything “happens at the same time”\n\nBoxes are functions / computational transformations\n\nAll arrows going into a box are inputs (independent variables)\nThe arrow going out of a box (typically only one) is the function value (dependent variable)\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\ngraph LR\n    START[ ] -- x1 --&gt; f[y = 0.5*x1 + 2*x]\n    START2[ ] -- x2 --&gt; f\n    f -- y --&gt; STOP[ ]\n\n    style START fill-opacity:0, stroke-opacity:0;\n    style START2 fill-opacity:0, stroke-opacity:0;\n    style STOP  fill-opacity:0, stroke-opacity:0;"
   },
   {
     "objectID": "skills/Bischof-Notation/Bischof-Notation.slide.html#block-diagrams-for-cybernetic-models-1",
@@ -553,6 +567,13 @@
     "text": "Actors\n\nSensing the environment only makes sense when organisms are able to react on this information. Devices that allow to manipulate the environment (or the organism’s position within the environment) are called actors."
   },
   {
+    "objectID": "skills/Bischof-Notation/Bischof-Notation.slide.html#example-the-zurich-model-of-social-motivation",
+    "href": "skills/Bischof-Notation/Bischof-Notation.slide.html#example-the-zurich-model-of-social-motivation",
+    "title": "Visualizing cybernetic systems",
+    "section": "Example: The Zurich Model of Social Motivation",
+    "text": "Example: The Zurich Model of Social Motivation"
+  },
+  {
     "objectID": "skills/Bischof-Notation/Bischof-Notation.slide.html#bdi-model-belief-desire-intention-1",
     "href": "skills/Bischof-Notation/Bischof-Notation.slide.html#bdi-model-belief-desire-intention-1",
     "title": "Visualizing cybernetic systems",
@@ -578,7 +599,7 @@
     "href": "skills/Bischof-Notation/Bischof-Notation.slide.html#contact",
     "title": "Visualizing cybernetic systems",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "skills/Bischof-Notation/Bischof-Notation.html",
@@ -599,7 +620,7 @@
     "href": "skills/Bischof-Notation/Bischof-Notation.html#block-diagrams-for-cybernetic-models",
     "title": "Visualizing cybernetic systems",
     "section": "Block diagrams for cybernetic models",
-    "text": "Block diagrams for cybernetic models\n\nProperties\n\nArrows are causal directions, not temporal links!\n\nThis is not a flow diagram or process model\nEverything “happens at the same time”\n\nBoxes are functions / computational transformations\n\nAll arrows going into a box are inputs (independent variables)\nThe arrow going out of a box (typically only one) is the function value (dependent variable)\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\ngraph LR\n    START[ ] -- x1 --&gt; f[y = 3 + 0.5*x1 + 2*x]\n    START2[ ] -- x2 --&gt; f\n    f -- y --&gt; STOP[ ]\n\n    style START fill-opacity:0, stroke-opacity:0;\n    style START2 fill-opacity:0, stroke-opacity:0;\n    style STOP  fill-opacity:0, stroke-opacity:0;"
+    "text": "Block diagrams for cybernetic models\n\nProperties\n\nArrows are causal directions, not temporal links!\n\nThis is not a flow diagram or process model\nEverything “happens at the same time”\n\nBoxes are functions / computational transformations\n\nAll arrows going into a box are inputs (independent variables)\nThe arrow going out of a box (typically only one) is the function value (dependent variable)\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\ngraph LR\n    START[ ] -- x1 --&gt; f[y = 0.5*x1 + 2*x]\n    START2[ ] -- x2 --&gt; f\n    f -- y --&gt; STOP[ ]\n\n    style START fill-opacity:0, stroke-opacity:0;\n    style START2 fill-opacity:0, stroke-opacity:0;\n    style STOP  fill-opacity:0, stroke-opacity:0;"
   },
   {
     "objectID": "skills/Bischof-Notation/Bischof-Notation.html#block-diagrams-for-cybernetic-models-1",
@@ -658,6 +679,13 @@
     "text": "Actors\n\nSensing the environment only makes sense when organisms are able to react on this information. Devices that allow to manipulate the environment (or the organism’s position within the environment) are called actors."
   },
   {
+    "objectID": "skills/Bischof-Notation/Bischof-Notation.html#example-the-zurich-model-of-social-motivation",
+    "href": "skills/Bischof-Notation/Bischof-Notation.html#example-the-zurich-model-of-social-motivation",
+    "title": "Visualizing cybernetic systems",
+    "section": "Example: The Zurich Model of Social Motivation",
+    "text": "Example: The Zurich Model of Social Motivation"
+  },
+  {
     "objectID": "skills/Bischof-Notation/Bischof-Notation.html#bdi-model-belief-desire-intention-1",
     "href": "skills/Bischof-Notation/Bischof-Notation.html#bdi-model-belief-desire-intention-1",
     "title": "Visualizing cybernetic systems",
@@ -683,14 +711,14 @@
     "href": "skills/Bischof-Notation/Bischof-Notation.html#contact",
     "title": "Visualizing cybernetic systems",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
     "objectID": "skills/skills_overview.html",
     "href": "skills/skills_overview.html",
     "title": "Skills Overview",
     "section": "",
-    "text": "These are all slides used for the “skills” part of the course:\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\n2023-10-20\nIT tools for theory versioning\nlink\nlink\n\n\n2023-10-27\nBischof notation\nlink\nlink\n\n\ntoday\nScaling of variables\nlink\nlink\n\n\ntoday\nVisual Argument Structure Tool (VAST) V1.0\nlink\nlink"
+    "text": "These are all slides used for the “skills” part of the course:\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\n2023-10-20\nIT tools for theory versioning\nlink\nlink\n\n\n2023-11-10\nVisualizing cybernetic systems\nlink\nlink\n\n\ntoday\nScaling of variables\nlink\nlink\n\n\ntoday\nVisual Argument Structure Tool (VAST) V1.0\nlink\nlink"
   },
   {
     "objectID": "sessions/S3-Constructs.html",
@@ -725,21 +753,28 @@
     "href": "sessions/S4-Bischof_Notation.html",
     "title": "Session 4 - Bischof notation",
     "section": "",
-    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrap-up:\n15\n\n\n\nSkill 1: Bischof-Notation\n75\nSlides\n\n\nSkill 2: draw.io\n15\ndraw.io -&gt; Connect to Github\n\n\nWorkshop: Group Exercise: Buri (Level 4)\n60\nSlides\n\n\n[Homework 1]: Netlogo Tutorial + Exercise\n-\n\n\n\n\n\n\n2 Homework 1 continuing (individually, two-weeks): Learn Netlogo basics\nSee instructions from previous session."
+    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nSkill 1: Bischof-Notation\n75\nSlides\n\n\nSkill 2: draw.io\n15\ndraw.io -&gt; Connect to Github\n\n\nWorkshop: Group Exercise: Buri (Level 4)\n45\nSlides\n\n\nDecision: Which theory to formalize?\n45\n\n\n\n[Homework, continued]: Netlogo Tutorial + Exercise\n-\n\n\n\n\n\n\n2 Homework 1, continued (individually, two-weeks): Learn Netlogo basics\nSee instructions from the previous session."
+  },
+  {
+    "objectID": "sessions/S5-VAST.html",
+    "href": "sessions/S5-VAST.html",
+    "title": "Session 5 - Visual Argument Structure Tool (VAST) V1.0",
+    "section": "",
+    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLecture / Skill: VAST\n150\nRead the Paper. Slides will be provided later\n\n\nDecision: Which theory to formalize?\n45\n\n\n\nHomework:\n-\n\n\n\n\n\n\n2 Homework\n-none-"
   },
   {
     "objectID": "common/lastslide.html",
     "href": "common/lastslide.html",
     "title": "End",
     "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
     "objectID": "common/lastslide.html#contact",
     "href": "common/lastslide.html#contact",
     "title": "End",
     "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
     "objectID": "index.html",
@@ -774,7 +809,7 @@
     "href": "orga_material/orga_material.html",
     "title": "Organizational Material",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nAug 1, 2023\n\n\nCourse announcement\n\n\nAnnouncement in the university’s course management system\n\n\n\n\nSep 16, 2023\n\n\nCall for theory submissions\n\n\nThis is the email I sent to the colleagues in my department, asking for the submission of theories for the formalization exercise.\n\n\n\n\nOct 1, 2023\n\n\nInstructions before course\n\n\nSome instructions for students before the course starts\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nAug 1, 2023\n\n\nCourse announcement\n\n\nAnnouncement in the university’s course management system\n\n\n\n\nSep 16, 2023\n\n\nCall for theory submissions\n\n\nThis is the email I sent to the colleagues in my department, asking for the submission of theories for the formalization exercise.\n\n\n\n\nOct 1, 2023\n\n\nInstructions before course\n\n\nSome instructions for students before the course starts\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "orga_material/call_for_submissions.html",
@@ -802,7 +837,7 @@
     "href": "workshops/Buri/Buri.html",
     "title": "Buridan’s ass",
     "section": "",
-    "text": "„The man who is violently, but equally, hungry and thirsty, and stands at an equal distance from food and drink, and who therefore must remain where he is.“\n\nAristoteles: De Caelo/On the Heavens. Trans. W. K. C. Guthrie, Heinemann, London 1938, 2:13:295b (S. 237)\n\n\n\n\n\nhttps://p8.storage.canalblog.com/87/85/553105/80715840.jpeg\n\n\nSee Wikipedia\n\n\n\n\n\n\n\n\n\n\n\n\n“Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen”\n\nN. Bischof (in prep, S. 143)\n\n\n\nThe gnosis knew the figure of the Demiurge, a creator god of lower rank, who had received the commission from the High Deity to build the cosmos\n\n\n\n\nBy Dmitrismirnov - Own work, CC BY-SA 3.0\n\n\n\n\n\n\nDer Forscher, der eine komplexe Struktur verstehen will, ist gut beraten, wenn er sich in die Rolle eines solchen Demiurgen versetzt und sich vorstellt, er hätte sie selbst konstruieren müssen. Natürlich muss er dafür eine begründete Vermutung haben, was sie leisten soll. Leistung schließt immer eine Zielvorgabe ein, die Arbeit des Demiurgen läuft also naturgemäß im Rahmen einer telischen Heuristik 1 ab.\n\nN. Bischof (in prep, S. 143)\n\n\nThe researcher who wants to understand a complex structure is well advised to put himself in the role of such a demiurge and imagine that he would have had to construct it himself. Of course, to do this he must have an educated guess as to what it should perform. Performance always includes a target, so the demiurge’s work naturally runs within the framework of a telic heuristic.\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nWäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen? If I were an engineer and I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\nBischof (in prep, S. 143)"
+    "text": "„The man who is violently, but equally, hungry and thirsty, and stands at an equal distance from food and drink, and who therefore must remain where he is.“\n\nAristoteles: De Caelo/On the Heavens. Trans. W. K. C. Guthrie, Heinemann, London 1938, 2:13:295b (S. 237)\n\n\n\n\n\nhttps://p8.storage.canalblog.com/87/85/553105/80715840.jpeg\n\n\nSee Wikipedia\n\n\n\n\n\n\n\n\n“Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen”\n\nN. Bischof (in prep, S. 143)\n\n\n\nThe gnosis knew the figure of the Demiurge, a creator god of lower rank, who had received the commission from the High Deity to build the cosmos\n\n\n\n\nBy Dmitrismirnov - Own work, CC BY-SA 3.0\n\n\n\n\n\n\nDer Forscher, der eine komplexe Struktur verstehen will, ist gut beraten, wenn er sich in die Rolle eines solchen Demiurgen versetzt und sich vorstellt, er hätte sie selbst konstruieren müssen. Natürlich muss er dafür eine begründete Vermutung haben, was sie leisten soll. Leistung schließt immer eine Zielvorgabe ein, die Arbeit des Demiurgen läuft also naturgemäß im Rahmen einer telischen Heuristik 1 ab.\n\nN. Bischof (in prep, S. 143)\n\n\nThe researcher who wants to understand a complex structure is well advised to put himself in the role of such a demiurge and imagine that he would have had to construct it himself. Of course, to do this he must have an educated guess as to what it should perform. Performance always includes a target, so the demiurge’s work naturally runs within the framework of a telic heuristic.\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nWäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen? If I were an engineer and I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\nBischof (in prep, S. 143)"
   },
   {
     "objectID": "workshops/Buri/Buri.html#the-demiurg",
@@ -826,39 +861,39 @@
     "text": "Note\n\n\n\nWäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen? If I were an engineer and I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\nBischof (in prep, S. 143)"
   },
   {
-    "objectID": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-1",
-    "href": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-1",
+    "objectID": "workshops/Buri/Buri.html#group-exercise-cover-your-ass-level-1",
+    "href": "workshops/Buri/Buri.html#group-exercise-cover-your-ass-level-1",
     "title": "Buridan’s ass",
     "section": " Group exercise: Cover your ass, Level 1",
     "text": "Group exercise: Cover your ass, Level 1\n\nScenario: The environment has two unlimited sources (food and water), in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body. If any of the two reserves drops to zero, the donkey dies.\n(Simplifying) assumptions:\n\nLinear decrease in both water and food reserves in the body, higher under activity (e.g., traveling).\nNo other needs or tasks (e.g., no predators, no sleep necessary).\nEating, drinking, and traveling takes a substantial amount of time.\nThe donkey has a representation of the environment and knows where the two sources are.\n\nTask: Construct an organism, with as few assumptions as possible, that survives as long as possible. Which constructs / sensors / abilities are necessary for this? Assume as simple abilities as possible - certainly not super-human abilities. (Rather think of an amoeba, not a super-AI).\nDeliverable: A markdown text file with a verbal description of the organism. Give it the version number 0.1.0. Upload to the Git repo."
   },
   {
-    "objectID": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2",
-    "href": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2",
+    "objectID": "workshops/Buri/Buri.html#group-exercise-cover-your-ass-level-2",
+    "href": "workshops/Buri/Buri.html#group-exercise-cover-your-ass-level-2",
     "title": "Buridan’s ass",
     "section": " Group exercise: Cover your ass, Level 2",
     "text": "Group exercise: Cover your ass, Level 2\n\nExhaustive list of (fixed and free) parameters and input variables\n\n\n\n\n\n\nReminder: free vs fixed parameters\n\n\n\n\nFixed parameters are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters can be adjusted to optimize the fit of the model to data. They are estimated from empirical data."
   },
   {
-    "objectID": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2-1",
-    "href": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2-1",
+    "objectID": "workshops/Buri/Buri.html#group-exercise-cover-your-ass-level-2-1",
+    "href": "workshops/Buri/Buri.html#group-exercise-cover-your-ass-level-2-1",
     "title": "Buridan’s ass",
     "section": " Group exercise: Cover your ass, Level 2",
     "text": "Group exercise: Cover your ass, Level 2\n\nExhaustive list of (fixed and free) parameters and input variables\n\nTask:\n\nList all parameters of your model (on the top of your markdown file). → As a heuristic: Every conrete number that you need for the formulas of your simulation is a parameter.\nCategorize them into fixed and free parameters. → Virtually all parameters (except natural constants) could be imagined as being free. It is usually a choice to fix some of them in order to simplify the model.\nList all input/predictor variables\nList all primary ouput variables.\n\n\nIn some models, an output variable can also be an input variable for something else.\nDo not list intermediate/temporary variables that are only necessary for computations.\nDo list mediating variables that are psychologically meaningful (e.g. an emotion that mediates the process between stimulus (= input) and action)\n\nCf. linear regression: \\(\\color{red} y = \\color{forestgreen} \\beta_0 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\) → \\(\\color{red} y\\) = output variable, \\(\\color{forestgreen} \\beta\\)s = parameters, \\(\\color{blue} x\\) = input variable."
   },
   {
-    "objectID": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-3",
-    "href": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-3",
+    "objectID": "workshops/Buri/Buri.html#group-exercise-cover-your-ass-level-3",
+    "href": "workshops/Buri/Buri.html#group-exercise-cover-your-ass-level-3",
     "title": "Buridan’s ass",
     "section": " Group exercise: Cover your ass, Level 3",
     "text": "Group exercise: Cover your ass, Level 3\n\nConstruct and variable definitions\n\n\nIn the previous lecture, you learned how a good construct definition looks like. Apply that new skill to your model!\nTask:\n\nDevelop proper definitions for all variables and concepts in your model, add them to your markdown file.\nIncrease the minor version (e.g., from 0.2.7 to 0.3.0)\n\nDeliverables:\n\nCreate a CHANGELOG.md file that explains the changes between the previous and the current version of the theory.\nPush all new files to your dev branch.\nMerge dev into main.\nCreate a new release."
   },
   {
-    "objectID": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-4",
-    "href": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-4",
+    "objectID": "workshops/Buri/Buri.html#group-exercise-cover-your-ass-level-4",
+    "href": "workshops/Buri/Buri.html#group-exercise-cover-your-ass-level-4",
     "title": "Buridan’s ass",
     "section": " Group exercise: Cover your ass, Level 4",
-    "text": "Group exercise: Cover your ass, Level 4\n\nDraw a graphical model, Bischof-style\n\nTask: Sketch your initial verbal model in the style of Bischof. Refine and extend where necessary, e.g.:\n\nThink about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary\nGive a label to every variable (i.e., every arrow in the graphical model).\nEvery free parameter and input variable that you identified should be an arrow in your visual model\n\nDeliverables:\n\nDraw the model collaboratively in draw.io. In one corner, add the version number 0.2.0 and today’s date (simply as a text box).\nExport the model as an xml file and push it to the Github repo.\nWrite a meaningful commit message, e.g. Initial commit; model version 0.2.0"
+    "text": "Group exercise: Cover your ass, Level 4\n\nDraw a graphical model, Bischof-style\n\nTask: Sketch your initial verbal model in the style of Bischof. Refine and extend where necessary, e.g.:\n\nThink about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary\nGive a label to every variable (i.e., every arrow in the graphical model).\nEvery free parameter and input variable that you identified should be an arrow in your visual model\n\nDeliverables:\n\nDraw the model collaboratively in draw.io. In one corner, add the updated version number and today’s date (simply as a text box).\nCreate & switch to dev branch\nExport the graphical model as an xml file and push it to the Github repo. Increase version number in cff file."
   },
   {
     "objectID": "workshops/Buri/Buri.html#the-demiurgic-principle-1",
@@ -868,8 +903,15 @@
     "text": "The Demiurgic Principle\n\nFinal version\n\n\n\n\n\n\nNote\n\n\n\nWäre ich ein Ingenieur, der, aufbauend auf der letzten funktionstüchtigen Vorform, einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen?  If I were an engineer and, building upon the last functional (evolutionary) preform, I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\n→ Assume realistic capabilities, which respect the evolutionary path dependency.\nE.g., don’t assume …\n\nMammal organisms that need 3 hands to perform a task\nOmniscient knowledge about the environment, probabilities, distant events, the future, …\nUnlimited cognitive processing capabilities (“In the first 2ms, the simulated amoeba performs a multidimensional Bayesian optimization task”)\n\n\n\nBischof (in prep, S. 143)"
   },
   {
-    "objectID": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-5",
-    "href": "workshops/Buri/Buri.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-5",
+    "objectID": "workshops/Buri/Buri.html#realistic-capabilities-2",
+    "href": "workshops/Buri/Buri.html#realistic-capabilities-2",
+    "title": "Buridan’s ass",
+    "section": "Realistic capabilities, 2",
+    "text": "Realistic capabilities, 2\n\nAs-if models typically employ mathematical representations chosen for elegance or feasibility, are deliberately free from psychological interpretation , and their input–output transformations need not correspond to actual cognitive processes. […] The implication is that process models need to be simple and respect capacity limits or link the proposed operations directly to psychological constructs"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.html#group-exercise-cover-your-ass-level-5",
+    "href": "workshops/Buri/Buri.html#group-exercise-cover-your-ass-level-5",
     "title": "Buridan’s ass",
     "section": " Group exercise: Cover your ass, Level 5",
     "text": "Group exercise: Cover your ass, Level 5\n\nVariable Scaling & Netlogo Implementation\n\nTasks:\n\nDefine the variables in the implemented model:\n\nScale level\nPossible range or discrete values (define the set)\nInterpretability (what does a value of 0.7 mean?)\n\nMaybe define operationalizations that give a meaning to the numbers\n\n\nDefine computations for each box: How exactly are input variables transformed into the output variables? You need a concrete formula for that. Theories rarely are so specific that you can directly derive a formula; you probably need to fill many gaps with ad-hoc assumptions.\nImplement the model in Netlogo\n\nDeliverables:\n\nPush the .nlogo file to your group’s Github repo.\nUpdate all written model descriptions, increase model version.\nExplain & justify the changes in the model in your CHANGELOG.md.\nWrite a meaningful commit message."
@@ -879,21 +921,14 @@
     "href": "workshops/Buri/Buri.html#contact",
     "title": "Buridan’s ass",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.html#footnotes",
-    "href": "workshops/Buri/Buri.html#footnotes",
-    "title": "Buridan’s ass",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\ngriechisch τέλος (telos): ‚Zweck‘, ‚Ziel‘, ‚Ende‘. Der Zweck ist hier evolutionär gedacht: Was hilft dem Überleben und der Fortpflanzung?↩︎"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
     "objectID": "workshops/Buri/Buri.slide.html#the-demiurg",
     "href": "workshops/Buri/Buri.slide.html#the-demiurg",
     "title": "Buridan’s ass",
     "section": "The demiurg",
-    "text": "The demiurg\n\n\n\n\n\n\n\n\n\n“Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen”\n\nN. Bischof (in prep, S. 143)\n\n\n\nThe gnosis knew the figure of the Demiurge, a creator god of lower rank, who had received the commission from the High Deity to build the cosmos\n\n\n\n\nBy Dmitrismirnov - Own work, CC BY-SA 3.0"
+    "text": "The demiurg\n\n\n\n\n\n“Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen”\n\nN. Bischof (in prep, S. 143)\n\n\n\nThe gnosis knew the figure of the Demiurge, a creator god of lower rank, who had received the commission from the High Deity to build the cosmos\n\n\n\n\nBy Dmitrismirnov - Own work, CC BY-SA 3.0"
   },
   {
     "objectID": "workshops/Buri/Buri.slide.html#das-demiurgische-prinzip",
@@ -910,39 +945,39 @@
     "text": "The Demiurgic Principle\nPreliminary version\n\n\n\n\n\n\nNote\n\n\nWäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen? If I were an engineer and I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\n\nBischof (in prep, S. 143)"
   },
   {
-    "objectID": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-1",
-    "href": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-1",
+    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-1",
+    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-1",
     "title": "Buridan’s ass",
     "section": " Group exercise: Cover your ass, Level 1",
     "text": "Group exercise: Cover your ass, Level 1\n\nScenario: The environment has two unlimited sources (food and water), in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body. If any of the two reserves drops to zero, the donkey dies.\n(Simplifying) assumptions:\n\nLinear decrease in both water and food reserves in the body, higher under activity (e.g., traveling).\nNo other needs or tasks (e.g., no predators, no sleep necessary).\nEating, drinking, and traveling takes a substantial amount of time.\nThe donkey has a representation of the environment and knows where the two sources are.\n\nTask: Construct an organism, with as few assumptions as possible, that survives as long as possible. Which constructs / sensors / abilities are necessary for this? Assume as simple abilities as possible - certainly not super-human abilities. (Rather think of an amoeba, not a super-AI).\nDeliverable: A markdown text file with a verbal description of the organism. Give it the version number 0.1.0. Upload to the Git repo."
   },
   {
-    "objectID": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2",
-    "href": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2",
+    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-2",
+    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-2",
     "title": "Buridan’s ass",
     "section": " Group exercise: Cover your ass, Level 2",
     "text": "Group exercise: Cover your ass, Level 2\nExhaustive list of (fixed and free) parameters and input variables\n\n\n\n\n\n\nReminder: free vs fixed parameters\n\n\n\nFixed parameters are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters can be adjusted to optimize the fit of the model to data. They are estimated from empirical data."
   },
   {
-    "objectID": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2-1",
-    "href": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-2-1",
+    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-2-1",
+    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-2-1",
     "title": "Buridan’s ass",
     "section": " Group exercise: Cover your ass, Level 2",
     "text": "Group exercise: Cover your ass, Level 2\nExhaustive list of (fixed and free) parameters and input variables\n\nTask:\n\nList all parameters of your model (on the top of your markdown file). → As a heuristic: Every conrete number that you need for the formulas of your simulation is a parameter.\nCategorize them into fixed and free parameters. → Virtually all parameters (except natural constants) could be imagined as being free. It is usually a choice to fix some of them in order to simplify the model.\nList all input/predictor variables\nList all primary ouput variables.\n\n\nIn some models, an output variable can also be an input variable for something else.\nDo not list intermediate/temporary variables that are only necessary for computations.\nDo list mediating variables that are psychologically meaningful (e.g. an emotion that mediates the process between stimulus (= input) and action)\n\nCf. linear regression: \\(\\color{red} y = \\color{forestgreen} \\beta_0 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\) → \\(\\color{red} y\\) = output variable, \\(\\color{forestgreen} \\beta\\)s = parameters, \\(\\color{blue} x\\) = input variable."
   },
   {
-    "objectID": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-3",
-    "href": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-3",
+    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-3",
+    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-3",
     "title": "Buridan’s ass",
     "section": " Group exercise: Cover your ass, Level 3",
     "text": "Group exercise: Cover your ass, Level 3\nConstruct and variable definitions\n\n\nIn the previous lecture, you learned how a good construct definition looks like. Apply that new skill to your model!\nTask:\n\nDevelop proper definitions for all variables and concepts in your model, add them to your markdown file.\nIncrease the minor version (e.g., from 0.2.7 to 0.3.0)\n\nDeliverables:\n\nCreate a CHANGELOG.md file that explains the changes between the previous and the current version of the theory.\nPush all new files to your dev branch.\nMerge dev into main.\nCreate a new release."
   },
   {
-    "objectID": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-4",
-    "href": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-4",
+    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-4",
+    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-4",
     "title": "Buridan’s ass",
     "section": " Group exercise: Cover your ass, Level 4",
-    "text": "Group exercise: Cover your ass, Level 4\nDraw a graphical model, Bischof-style\n\nTask: Sketch your initial verbal model in the style of Bischof. Refine and extend where necessary, e.g.:\n\nThink about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary\nGive a label to every variable (i.e., every arrow in the graphical model).\nEvery free parameter and input variable that you identified should be an arrow in your visual model\n\nDeliverables:\n\nDraw the model collaboratively in draw.io. In one corner, add the version number 0.2.0 and today’s date (simply as a text box).\nExport the model as an xml file and push it to the Github repo.\nWrite a meaningful commit message, e.g. Initial commit; model version 0.2.0"
+    "text": "Group exercise: Cover your ass, Level 4\nDraw a graphical model, Bischof-style\n\nTask: Sketch your initial verbal model in the style of Bischof. Refine and extend where necessary, e.g.:\n\nThink about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary\nGive a label to every variable (i.e., every arrow in the graphical model).\nEvery free parameter and input variable that you identified should be an arrow in your visual model\n\nDeliverables:\n\nDraw the model collaboratively in draw.io. In one corner, add the updated version number and today’s date (simply as a text box).\nCreate & switch to dev branch\nExport the graphical model as an xml file and push it to the Github repo. Increase version number in cff file."
   },
   {
     "objectID": "workshops/Buri/Buri.slide.html#the-demiurgic-principle-1",
@@ -952,8 +987,15 @@
     "text": "The Demiurgic Principle\nFinal version\n\n\n\n\n\n\nNote\n\n\nWäre ich ein Ingenieur, der, aufbauend auf der letzten funktionstüchtigen Vorform, einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen?  If I were an engineer and, building upon the last functional (evolutionary) preform, I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\n\n→ Assume realistic capabilities, which respect the evolutionary path dependency.\nE.g., don’t assume …\n\nMammal organisms that need 3 hands to perform a task\nOmniscient knowledge about the environment, probabilities, distant events, the future, …\nUnlimited cognitive processing capabilities (“In the first 2ms, the simulated amoeba performs a multidimensional Bayesian optimization task”)\n\n\n\nBischof (in prep, S. 143)"
   },
   {
-    "objectID": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-5",
-    "href": "workshops/Buri/Buri.slide.html#fa-people-group-size1x-group-exercise-cover-your-ass-level-5",
+    "objectID": "workshops/Buri/Buri.slide.html#realistic-capabilities-2",
+    "href": "workshops/Buri/Buri.slide.html#realistic-capabilities-2",
+    "title": "Buridan’s ass",
+    "section": "Realistic capabilities, 2",
+    "text": "Realistic capabilities, 2\n\nAs-if models typically employ mathematical representations chosen for elegance or feasibility, are deliberately free from psychological interpretation , and their input–output transformations need not correspond to actual cognitive processes. […] The implication is that process models need to be simple and respect capacity limits or link the proposed operations directly to psychological constructs"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-5",
+    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-5",
     "title": "Buridan’s ass",
     "section": " Group exercise: Cover your ass, Level 5",
     "text": "Group exercise: Cover your ass, Level 5\nVariable Scaling & Netlogo Implementation\n\nTasks:\n\nDefine the variables in the implemented model:\n\nScale level\nPossible range or discrete values (define the set)\nInterpretability (what does a value of 0.7 mean?)\n\nMaybe define operationalizations that give a meaning to the numbers\n\n\nDefine computations for each box: How exactly are input variables transformed into the output variables? You need a concrete formula for that. Theories rarely are so specific that you can directly derive a formula; you probably need to fill many gaps with ad-hoc assumptions.\nImplement the model in Netlogo\n\nDeliverables:\n\nPush the .nlogo file to your group’s Github repo.\nUpdate all written model descriptions, increase model version.\nExplain & justify the changes in the model in your CHANGELOG.md.\nWrite a meaningful commit message."
@@ -963,7 +1005,7 @@
     "href": "workshops/Buri/Buri.slide.html#contact",
     "title": "Buridan’s ass",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "tools.html",
@@ -1050,11 +1092,46 @@
     "text": "2.4 Round of introductions within the group (10 min)\n\nTask: Think of a funny name for a donkey. This will be the group’s name.\nGive a more detailed introduction to the other group members:\n\nCareer goals / type of psychologist they want to become\nSpecific programming skills"
   },
   {
+    "objectID": "sessions/S6-NetLogo.html",
+    "href": "sessions/S6-NetLogo.html",
+    "title": "Session 6 - NetLogo implementation of Buri",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWorkshop: Netlogo implementation\n180\nSee instructions below\n\n\nHomework: Prepare for first theory session\n-"
+  },
+  {
+    "objectID": "sessions/S6-NetLogo.html#first-implementation-a-single-donkey",
+    "href": "sessions/S6-NetLogo.html#first-implementation-a-single-donkey",
+    "title": "Session 6 - NetLogo implementation of Buri",
+    "section": "2.1 First implementation: A single donkey",
+    "text": "2.1 First implementation: A single donkey\n\nDownload FOMO-homework/Buridans_Ass/NetLogo-Framework/Buri_environment.nlogo. This contains all global variables and the environment. It also has the stump of your donkey’s behavioral program\nImplement your own model - start with a single donkey.\n\nCode together in the group - but every participant should write the code on their own local machine. Add your own name to the file name to distinguish different implementations. Save the nlogo files in the folder of your donkey.\nGroup members can agree on a single implementation. But they can also have different irrelevant choices (such as the shape of the donkey), or even differing implementations (in case that the theoretical model was underspecified).\n\nFor the first run: A priori choose sensible starting values for your free model parameters.\n\nIf group members do not converge on a single setting, they can use different starting values.\n\nRecord the simulation result in Table 1 of FOMO-homework/Buridans_Ass/NetLogo-Framework/Results.md\n\nHow many ticks does the donkey survive with these parameters?\nIf your model is not deterministic, for example because you have some random numbers in it, record at least 10 runs with the same parameter setting and record the average survival time.\n\n\n\n\n\n\n\n\nBe careful when pushing changes to the remote repository\n\n\n\nYou jointly edit the results file. You probably will encounter merge conflicts; resolve them with care! Do not (inadvertently) delete the results of the other group."
+  },
+  {
+    "objectID": "sessions/S6-NetLogo.html#model-optimization-free-parameters",
+    "href": "sessions/S6-NetLogo.html#model-optimization-free-parameters",
+    "title": "Session 6 - NetLogo implementation of Buri",
+    "section": "2.2 Model optimization: Free parameters",
+    "text": "2.2 Model optimization: Free parameters\n\nManually adjust the free parameters - you are allowed and encouraged to play around. Try to find a better setting (i.e., a parameter setting where the donkey survives longer)\nRecord the new parameter settings and the new results in Table 1 of FOMO-homework/Buridans_Ass/NetLogo-Framework/Results.md (set Run to 2, 3, … etc.)\n\nOptimizing free parameters is not a change of the model structure (or theory) itself! Nearly all models contain free parameters that may be optimized to fit the model to empirical reality."
+  },
+  {
+    "objectID": "sessions/S6-NetLogo.html#optional-model-optimization-model-structure",
+    "href": "sessions/S6-NetLogo.html#optional-model-optimization-model-structure",
+    "title": "Session 6 - NetLogo implementation of Buri",
+    "section": "2.3 (optional) Model optimization: Model structure",
+    "text": "2.3 (optional) Model optimization: Model structure\nIt can happen that the donkey acts strangely, in a non-adaptive way. In this case, first search for bugs in the implementation.\nHowever, it could also be that the theoretical model itself is erroneous (or suboptimal), in the sense that it does not solve the task. Often, problems with the model’s structure itself are realized during implementation.\nIn this case, you can revise the theoretical model. Change the model description in the dev branch and implement the changes. When you are happy with the revised model, increase the version number in the cff file, push the revised model to the main branch and create a new release."
+  },
+  {
+    "objectID": "sessions/S6-NetLogo.html#optional-many-donkeys-parameter-optimization",
+    "href": "sessions/S6-NetLogo.html#optional-many-donkeys-parameter-optimization",
+    "title": "Session 6 - NetLogo implementation of Buri",
+    "section": "2.4 (optional) Many donkeys: Parameter optimization",
+    "text": "2.4 (optional) Many donkeys: Parameter optimization\nIn NetLogo, it is very easy to create many agents of the same kind. Instead of manually optimizing the free parameters, you can use algorithms, such as an evolutionary algorithm, to find the best parameter settings.\n\n\n\n\n\n\nNote\n\n\n\nAlways keep in mind: Evolution needs (a) variation (usually induced by mutation or recombination) and (b) selection.\n\n\nMany optimization algorithms are possible; here are some suggestions (with increasing complexity).\n\n2.4.1 Who survives the longest?\n\nCreate many Donkeys with varying settings of their parameters (i.e. in the setup function for the donkeys). Some possibilities for creating variation:\n\n“Random search”: Set parameters randomly within the allowed parameter range.\n“Grid search”: Create systematic combinations all parameters.\n\nRun the simulation, see which donkeys survive the longest.\n\n\n\n2.4.2 Evolutionary algorithm\n\nCreate many Donkeys with varying settings of their parameters (see above)\nAfter some time let the worst-performing die (i.e., those who are dead anyway, or have the lowest health value) → Selection\nOf those which survive, create offspring which has some random variation of their (single) parent (i.e., take the parameter settings of the surviving donkey, add some random noise to the settings, and create offspring with the updates settings) → Mutation/Variation\n\nNetLogo has many built-in functions for these evolutionary steps; for example:\n\nsetxy random-xcor random-ycor: Let agents start at a random position\nhatch is a primitive that creates a provided number of identical copies of a turtle (i.e., the offspring). It allows optional rules defined for the new turtles by following it with brackets [] (see help page).\nmax-n-of and min-n-of: Select the n agents with the highest or lowest value in a property (see help file). Here’s some pseudo-code, selecting the 10 buris with the highest and lowest value in health:\n\n; reproduction: the 10 fittest buris reproduce (2 kids)\nask max-n-of 10 buris [health] [\n\n  ; save the value of property1 of the parent in a variable\n  let prev_property1 property1\n\n  ; create 2 offsprings with random variation\n  hatch 2 [\n    lt 45  ; turn away\n    fd 1   ; walk away from parent to make it visible\n\n    ; add random variation to property1 of the offspring\n    set property1 prev_property1 - 0.025 + random-float 0.05\n    output-print (word \"Old property1: \" prev_property1 \"; new property1: \" property1)\n  ]\n]\n\n; death: the 10 unfittest buris die\nask min-n-of 10 buris [health] [\n    die\n]\nMonitor the distribution of parameter settings in the population of donkeys: Across evolving generations, it (often) will converge to the optimal values.\n\n\n\n\n\n\nNote\n\n\n\nExcept for an exhaustive search that enumerates all possible combinations of the entire parameter space, there’s no guarantee that optimization algorithms converge to the (globally) optimal solution. For example, they can get stuck in local optima. In this case, larger mutations in an evolutionary algorithm are helpful, because they allow to “jump” out of the local minimum/maximum and to find a better solution.\n\n(Image from http://turingfinance.com)"
+  },
+  {
     "objectID": "sessions/sessions_overview.html",
     "href": "sessions/sessions_overview.html",
     "title": "Overview of sessions",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 1 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\nSession 2 - Introduction Theories\n\n\nIntro to theory 2; Bischof notation; CFF files\n\n\n\n\nSession 3 - How to define constructs\n\n\nCreate proper definitions for the constructs in our Buri model\n\n\n\n\nSession 4 - Bischof notation\n\n\nTBD\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 1 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\nSession 2 - Introduction Theories\n\n\nIntro to theory 2; Bischof notation; CFF files\n\n\n\n\nSession 3 - How to define constructs\n\n\nCreate proper definitions for the constructs in our Buri model\n\n\n\n\nSession 4 - Bischof notation\n\n\nLearn the Bischof notation for control systems; apply it to Buri.\n\n\n\n\nSession 5 - Visual Argument Structure Tool (VAST) V1.0\n\n\nGuest lecture by Daniel Leising about VAST\n\n\n\n\nSession 6 - NetLogo implementation of Buri\n\n\nTry to implement your Buri model in Netlogo\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/S2-Introduction.html",
@@ -1082,7 +1159,7 @@
     "href": "skills/Scaling/Scaling.html#contact",
     "title": "Scaling of variables",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n\n nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n\n nicebread"
   },
   {
     "objectID": "skills/Scaling/Scaling.slide.html#finding-a-scale",
@@ -1096,7 +1173,7 @@
     "href": "skills/Scaling/Scaling.slide.html#contact",
     "title": "Scaling of variables",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n\n nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n\n nicebread\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "skills/it-tools/it-tools.html",
@@ -1194,7 +1271,7 @@
     "href": "skills/it-tools/it-tools.html#contact",
     "title": "IT tools for theory versioning",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
     "objectID": "skills/it-tools/it-tools.slide.html#git-overview",
@@ -1292,7 +1369,7 @@
     "href": "skills/it-tools/it-tools.slide.html#contact",
     "title": "IT tools for theory versioning",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "lectures/Intro2/Intro2.html",
@@ -1439,7 +1516,7 @@
     "href": "lectures/Intro2/Intro2.html#contact",
     "title": "What are (Not) Theories & Models?",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory",
@@ -1579,7 +1656,7 @@
     "href": "lectures/Intro2/Intro2.slide.html#contact",
     "title": "What are (Not) Theories & Models?",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "lectures/Theory_Properties/Theory_Properties.html",
@@ -1603,6 +1680,13 @@
     "text": "Inherent quality criteria\nA good theory …\n\ndefines the variables\nspecifies the domain\nbuilds internally consistent relationships\nmakes specific predictions about phenomena that have not yet been observed (only specific predictions, which can also be false, allow falsifications)\nunifies (seemingly) disparate phenomena\n\n\n\n\n\n\n\n Wenn der Hahn kräht auf dem Mist, ändert sich’s Wetter oder bleibt wie es ist."
   },
   {
+    "objectID": "lectures/Theory_Properties/Theory_Properties.html#useful-for-a-specific-purpose-not-true",
+    "href": "lectures/Theory_Properties/Theory_Properties.html#useful-for-a-specific-purpose-not-true",
+    "title": "Properties of Theories",
+    "section": "Useful (for a specific purpose), not true",
+    "text": "Useful (for a specific purpose), not true\n\nHis design for a London underground railway was initially rejected as too revolutionary. Today, the technical draughtsman’s idea has gained worldwide acceptance - Beck simplified the route (only horizontal, vertical and diagonal lines) and ignored exact distances.\n\n\n\nInfographic and quote from Die ZEIT"
+  },
+  {
     "objectID": "lectures/Theory_Properties/Theory_Properties.slide.html#what-constitutes-a-good-theory",
     "href": "lectures/Theory_Properties/Theory_Properties.slide.html#what-constitutes-a-good-theory",
     "title": "Properties of Theories",
@@ -1615,6 +1699,13 @@
     "title": "Properties of Theories",
     "section": "Inherent quality criteria",
     "text": "Inherent quality criteria\nA good theory …\n\ndefines the variables\nspecifies the domain\nbuilds internally consistent relationships\nmakes specific predictions about phenomena that have not yet been observed (only specific predictions, which can also be false, allow falsifications)\nunifies (seemingly) disparate phenomena\n\n\n\n\n\n\n\n Wenn der Hahn kräht auf dem Mist, ändert sich’s Wetter oder bleibt wie es ist."
+  },
+  {
+    "objectID": "lectures/Theory_Properties/Theory_Properties.slide.html#useful-for-a-specific-purpose-not-true",
+    "href": "lectures/Theory_Properties/Theory_Properties.slide.html#useful-for-a-specific-purpose-not-true",
+    "title": "Properties of Theories",
+    "section": "Useful (for a specific purpose), not true",
+    "text": "Useful (for a specific purpose), not true\n\nHis design for a London underground railway was initially rejected as too revolutionary. Today, the technical draughtsman’s idea has gained worldwide acceptance - Beck simplified the route (only horizontal, vertical and diagonal lines) and ignored exact distances.\n\n\n\nInfographic and quote from Die ZEIT"
   },
   {
     "objectID": "lectures/TCM/TCM.html",
@@ -1729,8 +1820,8 @@
     "text": "Elements of a theory\n\n\nPhänomen: Eine Eigenschaft der Welt, die hinreichend wenig flüchtig ist, so dass wir diese wahrnehmen und beschreiben können (Explanandum einer Theorie)\nBegriff / Konzept: Semantische Einheit (Konzept), die die Merkmale eines Gegenstandes oder Sachverhaltes vereint. ≠ Wort/Wortmarke\nRelationship\nModell: Vereinfachte Abbildung eines Ausschnitts der Wirklichkeit. Alle Strukturen, die die Sätze einer Theorie erfüllen, sind Modelle dieser Theorie. Oder andersherum ausgedrückt: Eine Theorie kann meist in verschiedenen Modellen implementiert werden, die alle kompatibel zur Theorie sind.\nOperationalisierung: Präzise Angabe (inkl. Begründung), wie ein Begriff (s.o.), zu messen ist.\nDaten: Daten sind öffentliche Aufzeichnungen, die durch Messungen und Experimente erzeugt werden und als Beweis für die Existenz oder Merkmale von Phänomenen dienen. (Woodward, 2009). Daten enthalten das Phänomen, an dem wir interessiert sind, aber auch Rauschen (Messfehler, Verzerrung durch den Experimentator, Transkriptionsfehler). Deshalb erklären Theorien die Phänomene, nicht die Daten. (Fried, 2021)"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#fa-people-group-size1x-exercise",
-    "href": "lectures/TCM/TCM.html#fa-people-group-size1x-exercise",
+    "objectID": "lectures/TCM/TCM.html#exercise",
+    "href": "lectures/TCM/TCM.html#exercise",
     "title": "Theory Construction Methodology",
     "section": " Exercise",
     "text": "Exercise\n\n\n\n\n\n\n\n\nflowchart LR\nP[Phenomenon]\nC[\"Concept (Definition)\"]\nT[Theory]\nM[Model]\nO[Operationalization]\nD[Data]"
@@ -1925,8 +2016,8 @@
     "text": "Elements of a theory\n\n\nPhänomen: Eine Eigenschaft der Welt, die hinreichend wenig flüchtig ist, so dass wir diese wahrnehmen und beschreiben können (Explanandum einer Theorie)\nBegriff / Konzept: Semantische Einheit (Konzept), die die Merkmale eines Gegenstandes oder Sachverhaltes vereint. ≠ Wort/Wortmarke\nRelationship\nModell: Vereinfachte Abbildung eines Ausschnitts der Wirklichkeit. Alle Strukturen, die die Sätze einer Theorie erfüllen, sind Modelle dieser Theorie. Oder andersherum ausgedrückt: Eine Theorie kann meist in verschiedenen Modellen implementiert werden, die alle kompatibel zur Theorie sind.\nOperationalisierung: Präzise Angabe (inkl. Begründung), wie ein Begriff (s.o.), zu messen ist.\nDaten: Daten sind öffentliche Aufzeichnungen, die durch Messungen und Experimente erzeugt werden und als Beweis für die Existenz oder Merkmale von Phänomenen dienen. (Woodward, 2009). Daten enthalten das Phänomen, an dem wir interessiert sind, aber auch Rauschen (Messfehler, Verzerrung durch den Experimentator, Transkriptionsfehler). Deshalb erklären Theorien die Phänomene, nicht die Daten. (Fried, 2021)"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#fa-people-group-size1x-exercise",
-    "href": "lectures/TCM/TCM.slide.html#fa-people-group-size1x-exercise",
+    "objectID": "lectures/TCM/TCM.slide.html#exercise",
+    "href": "lectures/TCM/TCM.slide.html#exercise",
     "title": "Theory Construction Methodology",
     "section": " Exercise",
     "text": "Exercise\n\n\n\n\n\n\n\n\nflowchart LR\nP[Phenomenon]\nC[\"Concept (Definition)\"]\nT[Theory]\nM[Model]\nO[Operationalization]\nD[Data]"
@@ -2020,6 +2111,6 @@
     "href": "lectures/lecture_overview.html",
     "title": "Lectures Overview",
     "section": "",
-    "text": "These are all slides used for the “lecture” part of the course:\n\n\n\n\n\n\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\ntoday\nFormal modeling in psychology\nlink\nlink\n\n\ntoday\nTheory Construction Methodology\nlink\nlink\n\n\ntoday\nProperties of Theories\nlink\nlink\n\n\ntoday\n(Theory) Versioning\nlink\nlink\n\n\n2023-10-27\nWhat are (Not) Theories & Models?\nlink\nlink\n\n\n2023-10-20\nFOMO-Psy 1: Data, phenomena,\nand the replication crisis\nlink\nlink"
+    "text": "These are all slides used for the “lecture” part of the course:\n\n\n\n\n\n\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\ntoday\nFormal modeling in psychology\nlink\nlink\n\n\ntoday\nTheory Construction Methodology\nlink\nlink\n\n\ntoday\nProperties of Theories\nlink\nlink\n\n\ntoday\n(Theory) Versioning\nlink\nlink\n\n\nXXX\nWhat we learned so far\nlink\nlink\n\n\n2023-10-27\nWhat are (Not) Theories & Models?\nlink\nlink\n\n\n2023-10-20\nFOMO-Psy 1: Data, phenomena,\nand the replication crisis\nlink\nlink"
   }
 ]

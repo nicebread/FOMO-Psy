@@ -55,6 +55,15 @@ A good theory ...
 Slide from Karolin Salmen's [talk](https://zpid.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=436e9d94-31be-4e66-b4c3-aee500ba2e9b) @ ZPID
 :::
 
+## Useful (for a specific purpose), not true
+
+> His design for a London underground railway was initially rejected as too revolutionary. Today, the technical draughtsman's idea has gained worldwide acceptance - Beck simplified the route (only horizontal, vertical and diagonal lines) and ignored exact distances.
+
+![](img/Subway_map_ZEIT.webp)
+
+::: footer
+Infographic and quote from [Die ZEIT](https://www.zeit.de/2023/47/infografiker-kartograph-forscher-illustration)
+:::
 
 # One of my favorite theories:
 

@@ -55,10 +55,10 @@ Both are interchangeable; we will use both styles.
   - The arrow going *out of* a box (typically only one) is the function value (dependent variable)
 
 ```{mermaid}
-%%| fig-width: 18
+%%| fig-width: 5
 %%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
 graph LR
-    START[ ] -- x1 --> f[y = 3 + 0.5*x1 + 2*x]
+    START[ ] -- x1 --> f[y = 0.5*x1 + 2*x]
     START2[ ] -- x2 --> f
     f -- y --> STOP[ ]
 
@@ -164,6 +164,12 @@ Principle:
 ![](img/BSB_actor.png)
 
 Sensing the environment only makes sense when organisms are able to react on this information. Devices that allow to manipulate the environment (or the organism's position within the environment) are called [actors]{.bg style='--col: #fff100'}.
+
+## Example: The Zurich Model of Social Motivation
+
+![](img/ZM_Schema.png)
+
+
 
 # BDI model:<br>Belief → Desire → Intention {background-color="#40666e"}
 

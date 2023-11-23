@@ -12,9 +12,6 @@ format:
   FOMO-revealjs: 
     output-ext: slide.html
     transition: slide
-    background-transition: fade
-    touch: true
-    embed-resources: true
   html: default
 revealjs-plugins:
   - attribution 
@@ -24,8 +21,17 @@ revealjs-plugins:
 
 - The goal are *precise* theories - but in reality, they are (partially) vague and fuzzy
 - VAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. "weakly positive", "strong"
-  - Better than assigning an arbitrary, pseudo-accurat number
+  - Better than assigning an arbitrary, pseudo-precise number
   - It's about formalizing the current state/precision of a verbal theory - if it is imprecise, let's show it!
+- Show gaps and underspecifications
+
+## Explicate different perspectives and analysts
+
+- Whose perspective is displayed?
+- Who made the analysis?
+  - E.g. Analyst Robert displays the perspective of Berta:
+
+TODO Show example.
 
 ## Theory vs. Model
 

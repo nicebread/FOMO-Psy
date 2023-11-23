@@ -1,0 +1,21 @@
+---
+title: Session 5 - Visual Argument Structure Tool (VAST) V1.0
+number-sections: true
+description: Guest lecture by Daniel Leising about VAST
+---
+
+# Overview
+
+| Topic                                       | Duration | Notes                                                                                                                |
+| ------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Lecture / Skill**: VAST                   | 150      | Read the [Paper](https://open.lnu.se/index.php/metapsychology/article/view/2911/3437). Slides will be provided later |
+| Decision: Which theory to formalize?        | 45       |                                                                                                                      |
+| **[Homework]**:  | -        |                                                                                                                      |
+
+: {.striped}
+
+
+
+# Homework
+
+-none-

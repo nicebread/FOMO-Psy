@@ -24,7 +24,7 @@ revealjs-plugins:
   - make **releases of our theory**
 - How to make our theory **citeable** with `cff` files
 - How to apply **semantic versioning** to our theory
-- How to program ABMs in Netlogo
+- How to program **ABMs** in Netlogo
 
 ## We learned [conceptual skills]{.alert}
 

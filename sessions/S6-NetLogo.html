@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.487">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Try to implement your Buri model in Netlogo">
+
+<title>FOMO-Psy: Formal Modeling of Psychological Theories - Session 6 - NetLogo implementation of Buri</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">FOMO-Psy: Formal Modeling of Psychological Theories</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../sessions/sessions_overview.html"> 
+<span class="menu-text">Sessions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../lectures/lecture_overview.html"> 
+<span class="menu-text">Lectures</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../skills/skills_overview.html"> 
+<span class="menu-text">Skills</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../workshops/workshop_overview.html"> 
+<span class="menu-text">Workshops</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../tools.html"> 
+<span class="menu-text">Thinking Tools</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../orga_material/orga_material.html"> 
+<span class="menu-text">Organizational Material</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">1</span> Overview</a></li>
+  <li><a href="#netlogo-buri-implementation" id="toc-netlogo-buri-implementation" class="nav-link" data-scroll-target="#netlogo-buri-implementation"><span class="header-section-number">2</span> Netlogo: Buri implementation</a>
+  <ul class="collapse">
+  <li><a href="#first-implementation-a-single-donkey" id="toc-first-implementation-a-single-donkey" class="nav-link" data-scroll-target="#first-implementation-a-single-donkey"><span class="header-section-number">2.1</span> First implementation: A single donkey</a></li>
+  <li><a href="#model-optimization-free-parameters" id="toc-model-optimization-free-parameters" class="nav-link" data-scroll-target="#model-optimization-free-parameters"><span class="header-section-number">2.2</span> Model optimization: Free parameters</a></li>
+  <li><a href="#optional-model-optimization-model-structure" id="toc-optional-model-optimization-model-structure" class="nav-link" data-scroll-target="#optional-model-optimization-model-structure"><span class="header-section-number">2.3</span> (optional) Model optimization: Model structure</a></li>
+  <li><a href="#optional-many-donkeys-parameter-optimization" id="toc-optional-many-donkeys-parameter-optimization" class="nav-link" data-scroll-target="#optional-many-donkeys-parameter-optimization"><span class="header-section-number">2.4</span> (optional) Many donkeys: Parameter optimization</a>
+  <ul class="collapse">
+  <li><a href="#who-survives-the-longest" id="toc-who-survives-the-longest" class="nav-link" data-scroll-target="#who-survives-the-longest"><span class="header-section-number">2.4.1</span> Who survives the longest?</a></li>
+  <li><a href="#evolutionary-algorithm" id="toc-evolutionary-algorithm" class="nav-link" data-scroll-target="#evolutionary-algorithm"><span class="header-section-number">2.4.2</span> Evolutionary algorithm</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework"><span class="header-section-number">3</span> Homework</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Session 6 - NetLogo implementation of Buri</h1>
+</div>
+
+<div>
+  <div class="description">
+    Try to implement your Buri model in Netlogo
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="overview" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Overview</h1>
+<table class="table-striped table">
+<caption></caption>
+<thead>
+<tr class="header">
+<th>Topic</th>
+<th>Duration</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Workshop</strong>: Netlogo implementation</td>
+<td>180</td>
+<td>See instructions below</td>
+</tr>
+<tr class="even">
+<td><strong><a href="#homework">Homework</a></strong>: Prepare for first theory session</td>
+<td>-</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="netlogo-buri-implementation" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Netlogo: Buri implementation</h1>
+<section id="first-implementation-a-single-donkey" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="first-implementation-a-single-donkey"><span class="header-section-number">2.1</span> First implementation: A single donkey</h2>
+<ol type="1">
+<li>Download <code>FOMO-homework/Buridans_Ass/NetLogo-Framework/Buri_environment.nlogo</code>. This contains all global variables and the environment. It also has the stump of your donkey’s behavioral program</li>
+<li>Implement your own model - start with a single donkey.
+<ul>
+<li>Code together in the group - but every participant should write the code on their own local machine. Add your own name to the file name to distinguish different implementations. Save the <code>nlogo</code> files in the folder of your donkey.</li>
+<li>Group members can agree on a single implementation. But they can also have different irrelevant choices (such as the shape of the donkey), or even differing implementations (in case that the theoretical model was underspecified).</li>
+</ul></li>
+<li>For the first run: <em>A priori</em> choose sensible starting values for your free model parameters.
+<ul>
+<li>If group members do not converge on a single setting, they can use different starting values.</li>
+</ul></li>
+<li>Record the simulation result in Table 1 of <code>FOMO-homework/Buridans_Ass/NetLogo-Framework/Results.md</code>
+<ul>
+<li>How many ticks does the donkey survive with these parameters?</li>
+<li>If your model is not deterministic, for example because you have some random numbers in it, record at least 10 runs with the same parameter setting and record the average survival time.</li>
+</ul></li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Be careful when pushing changes to the remote repository
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You jointly edit the results file. You probably will encounter merge conflicts; resolve them with care! Do not (inadvertently) delete the results of the other group.</p>
+</div>
+</div>
+</section>
+<section id="model-optimization-free-parameters" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="model-optimization-free-parameters"><span class="header-section-number">2.2</span> Model optimization: Free parameters</h2>
+<ul>
+<li>Manually adjust the free parameters - you are allowed and encouraged to play around. Try to find a better setting (i.e., a parameter setting where the donkey survives longer)</li>
+<li>Record the new parameter settings and the new results in Table 1 of <code>FOMO-homework/Buridans_Ass/NetLogo-Framework/Results.md</code> (set <code>Run</code> to 2, 3, … etc.)</li>
+</ul>
+<p><strong>Optimizing free parameters is not a change of the model structure (or theory) itself!</strong> Nearly all models contain free parameters that may be optimized to fit the model to empirical reality.</p>
+</section>
+<section id="optional-model-optimization-model-structure" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="optional-model-optimization-model-structure"><span class="header-section-number">2.3</span> (optional) Model optimization: Model structure</h2>
+<p>It can happen that the donkey acts strangely, in a non-adaptive way. In this case, first search for bugs in the implementation.</p>
+<p>However, it could also be that the theoretical model itself is erroneous (or suboptimal), in the sense that it does not solve the task. Often, problems with the model’s structure itself are realized during implementation.</p>
+<p><strong>In this case, you can revise the theoretical model.</strong> Change the model description in the <code>dev</code> branch and implement the changes. When you are happy with the revised model, increase the version number in the <code>cff</code> file, push the revised model to the <code>main</code> branch and create a new release.</p>
+</section>
+<section id="optional-many-donkeys-parameter-optimization" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="optional-many-donkeys-parameter-optimization"><span class="header-section-number">2.4</span> (optional) Many donkeys: Parameter optimization</h2>
+<p>In NetLogo, it is very easy to create many agents of the same kind. Instead of manually optimizing the free parameters, you can use algorithms, such as an <strong>evolutionary algorithm</strong>, to find the best parameter settings.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Always keep in mind: Evolution needs (a) variation (usually induced by mutation or recombination) and (b) selection.</p>
+</div>
+</div>
+<p>Many optimization algorithms are possible; here are some suggestions (with increasing complexity).</p>
+<section id="who-survives-the-longest" class="level3" data-number="2.4.1">
+<h3 data-number="2.4.1" class="anchored" data-anchor-id="who-survives-the-longest"><span class="header-section-number">2.4.1</span> Who survives the longest?</h3>
+<ol type="1">
+<li>Create many Donkeys with varying settings of their parameters (i.e.&nbsp;in the <code>setup</code> function for the donkeys). Some possibilities for creating variation:
+<ol type="1">
+<li>“<a href="https://en.wikipedia.org/wiki/Hyperparameter_optimization#Random_search">Random search</a>”: Set parameters randomly within the allowed parameter range.</li>
+<li>“<a href="https://en.wikipedia.org/wiki/Hyperparameter_optimization#Grid_search">Grid search</a>”: Create systematic combinations all parameters.</li>
+</ol></li>
+<li>Run the simulation, see which donkeys survive the longest.</li>
+</ol>
+</section>
+<section id="evolutionary-algorithm" class="level3" data-number="2.4.2">
+<h3 data-number="2.4.2" class="anchored" data-anchor-id="evolutionary-algorithm"><span class="header-section-number">2.4.2</span> Evolutionary algorithm</h3>
+<ol type="1">
+<li>Create many Donkeys with varying settings of their parameters (see above)</li>
+<li>After some time let the worst-performing die (i.e., those who are dead anyway, or have the lowest health value) → <strong>Selection</strong></li>
+<li>Of those which survive, create offspring which has some random variation of their (single) parent (i.e., take the parameter settings of the surviving donkey, add some random noise to the settings, and create offspring with the updates settings) → <strong>Mutation/Variation</strong></li>
+</ol>
+<p>NetLogo has many built-in functions for these evolutionary steps; for example:</p>
+<ul>
+<li><code>setxy random-xcor random-ycor</code>: Let agents start at a random position</li>
+<li><code>hatch</code> is a primitive that creates a provided number of identical copies of a turtle (i.e., the offspring). It allows optional rules defined for the new turtles by following it with brackets [] (see <a href="https://ccl.northwestern.edu/netlogo/bind/primitive/hatch.html">help page</a>).</li>
+<li>Select the <code>n</code> agents with the highest or lowest value in a property. Here’s some pseudo-code, selecting the 10 buris with the highest and lowest value in <code>health</code>:</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>; reproduction: the 10 fittest buris reproduce (2 kids)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>ask max-n-of 10 buris [health] [</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  ; save the value of property1 of the parent in a variable</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  let prev_property1 property1</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  ; create 2 offsprings with random variation</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  hatch 2 [</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    lt 45  ; turn away</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    fd 1   ; walk away from parent to make it visible</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    ; add random variation to property1 of the offspring</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    set property1 prev_property1 - 0.025 + random-float 0.05</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    output-print (word "Old property1: " prev_property1 "; new property1: " property1)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  ]</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>; death: the 10 unfittest buris die</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>ask min-n-of 10 buris [health] [</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    die</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Monitor the distribution of parameter settings in the population of donkeys: Across evolving generations, it (often) will converge to the optimal values.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Except for an <em>exhaustive search</em> that enumerates all possible combinations of the entire parameter space, there’s no guarantee that optimization algorithms converge to the (globally) optimal solution. For example, they can get stuck in local optima. In this case, larger mutations in an evolutionary algorithm are helpful, because they allow to “jump” out of the local minimum/maximum and to find a better solution.</p>
+<p><img src="http://turingfinance.com/wp-content/uploads/2015/07/Multimodal-Fitness-Landscape.png" class="img-fluid"></p>
+<p>(Image from <a href="http://turingfinance.com">http://turingfinance.com</a>)</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="homework" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Homework</h1>
+<p>Read the chapter for the Imagined Contact Hypothesis: Section 2.3 and 2.4 (p.&nbsp;133 - 137), plus the section on moderating conditions (p.&nbsp;153 – 164).</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

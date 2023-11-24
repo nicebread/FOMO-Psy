@@ -434,6 +434,13 @@
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
+    "objectID": "skills/VAST/VAST.slide.html#note",
+    "href": "skills/VAST/VAST.slide.html#note",
+    "title": "Visual Argument Structure Tool (VAST) V1.0",
+    "section": "Note",
+    "text": "Note\nThis presentation is a stump - will be replaced by Daniel Leising’s slides."
+  },
+  {
     "objectID": "skills/VAST/VAST.slide.html#fuzziness",
     "href": "skills/VAST/VAST.slide.html#fuzziness",
     "title": "Visual Argument Structure Tool (VAST) V1.0",
@@ -466,14 +473,21 @@
     "href": "skills/VAST/VAST.html",
     "title": "Visual Argument Structure Tool (VAST) V1.0",
     "section": "",
-    "text": "The goal are precise theories - but in reality, they are (partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps and underspecifications"
+    "text": "This presentation is a stump - will be replaced by Daniel Leising’s slides."
+  },
+  {
+    "objectID": "skills/VAST/VAST.html#note",
+    "href": "skills/VAST/VAST.html#note",
+    "title": "Visual Argument Structure Tool (VAST) V1.0",
+    "section": "",
+    "text": "This presentation is a stump - will be replaced by Daniel Leising’s slides."
   },
   {
     "objectID": "skills/VAST/VAST.html#fuzziness",
     "href": "skills/VAST/VAST.html#fuzziness",
     "title": "Visual Argument Structure Tool (VAST) V1.0",
-    "section": "",
-    "text": "The goal are precise theories - but in reality, they are (partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps and underspecifications"
+    "section": "Fuzziness",
+    "text": "Fuzziness\n\nThe goal are precise theories - but in reality, they are (partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps and underspecifications"
   },
   {
     "objectID": "skills/VAST/VAST.html#explicate-different-perspectives-and-analysts",
@@ -1103,7 +1117,7 @@
     "href": "sessions/S6-NetLogo.html#first-implementation-a-single-donkey",
     "title": "Session 6 - NetLogo implementation of Buri",
     "section": "2.1 First implementation: A single donkey",
-    "text": "2.1 First implementation: A single donkey\n\nDownload FOMO-homework/Buridans_Ass/NetLogo-Framework/Buri_environment.nlogo. This contains all global variables and the environment. It also has the stump of your donkey’s behavioral program\nImplement your own model - start with a single donkey.\n\nCode together in the group - but every participant should write the code on their own local machine. Add your own name to the file name to distinguish different implementations. Save the nlogo files in the folder of your donkey.\nGroup members can agree on a single implementation. But they can also have different irrelevant choices (such as the shape of the donkey), or even differing implementations (in case that the theoretical model was underspecified).\n\nFor the first run: A priori choose sensible starting values for your free model parameters.\n\nIf group members do not converge on a single setting, they can use different starting values.\n\nRecord the simulation result in Table 1 of FOMO-homework/Buridans_Ass/NetLogo-Framework/Results.md\n\nHow many ticks does the donkey survive with these parameters?\nIf your model is not deterministic, for example because you have some random numbers in it, record at least 10 runs with the same parameter setting and record the average survival time.\n\n\n\n\n\n\n\n\nBe careful when pushing changes to the remote repository\n\n\n\nYou jointly edit the results file. You probably will encounter merge conflicts; resolve them with care! Do not (inadvertently) delete the results of the other group."
+    "text": "2.1 First implementation: A single donkey\n\nDownload FOMO-homework/Buridans_Ass/NetLogo-Framework/Buri_environment.nlogo. This contains all global variables and the environment. It also has the stump of your donkey’s behavioral program\nImplement your own model - start with a single donkey.\n\nCode together in the group - but every participant should write the code on their own local machine. Add your own name to the file name to distinguish different implementations. Save the nlogo files in the folder of your donkey.\nGroup members can agree on a single implementation. But they can also have different irrelevant choices (such as the shape of the donkey), or even differing implementations (in case that the theoretical model was underspecified).\n\nDocument the gaps: In an extra document in the repository (called arbitrary_decision.md), document all implementation decisions that were not determined by the formal model (i.e., which were arbitrary)\nFor the first run: A priori choose sensible starting values for your free model parameters.\n\nIf group members do not converge on a single setting, they can use different starting values.\n\nRecord the simulation result in Table 1 of FOMO-homework/Buridans_Ass/NetLogo-Framework/Results.md\n\nHow many ticks does the donkey survive with these parameters?\nIf your model is not deterministic, for example because you have some random numbers in it, record at least 10 runs with the same parameter setting and record the average survival time.\n\n\n\n\n\n\n\n\nBe careful when pushing changes to the remote repository\n\n\n\nYou jointly edit the results file. You probably will encounter merge conflicts; resolve them with care! Do not (inadvertently) delete the results of the other group."
   },
   {
     "objectID": "sessions/S6-NetLogo.html#model-optimization-free-parameters",

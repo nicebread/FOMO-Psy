@@ -444,7 +444,7 @@
   <meta name="generator" content="quarto-1.4.487">
 
   <meta name="author" content="Felix Schönbrodt">
-  <meta name="dcterms.date" content="2023-11-23">
+  <meta name="dcterms.date" content="2023-11-24">
   <title>FOMO-Psy: Formal Modeling of Psychological Theories - Visual Argument Structure Tool (VAST) V1.0</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -1187,7 +1187,11 @@ Felix Schönbrodt <a href="https://orcid.org/0000-0002-8282-3910" class="quarto-
     </div>
 </div>
 
-  <p class="date">2023-11-23</p>
+  <p class="date">2023-11-24</p>
+</section>
+<section id="note" class="slide level2">
+<h2>Note</h2>
+<p>This presentation is a stump - will be replaced by Daniel Leising’s slides.</p>
 </section>
 <section id="fuzziness" class="slide level2">
 <h2>Fuzziness</h2>
@@ -2354,6 +2358,44 @@ window.QuartoSupport = function () {
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

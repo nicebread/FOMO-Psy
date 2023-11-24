@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felix Schönbrodt">
-<meta name="dcterms.date" content="2023-11-23">
+<meta name="dcterms.date" content="2023-11-24">
 
 <title>FOMO-Psy: Formal Modeling of Psychological Theories - Visual Argument Structure Tool (VAST) V1.0</title>
 <style>
@@ -144,7 +144,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#fuzziness" id="toc-fuzziness" class="nav-link active" data-scroll-target="#fuzziness">Fuzziness</a></li>
+  <li><a href="#note" id="toc-note" class="nav-link active" data-scroll-target="#note">Note</a></li>
+  <li><a href="#fuzziness" id="toc-fuzziness" class="nav-link" data-scroll-target="#fuzziness">Fuzziness</a></li>
   <li><a href="#explicate-different-perspectives-and-analysts" id="toc-explicate-different-perspectives-and-analysts" class="nav-link" data-scroll-target="#explicate-different-perspectives-and-analysts">Explicate different perspectives and analysts</a></li>
   <li><a href="#theory-vs.-model" id="toc-theory-vs.-model" class="nav-link" data-scroll-target="#theory-vs.-model">Theory vs.&nbsp;Model</a></li>
   <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a>
@@ -184,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 23, 2023</p>
+      <p class="date">November 24, 2023</p>
     </div>
   </div>
   
@@ -196,6 +197,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="note" class="level2">
+<h2 class="anchored" data-anchor-id="note">Note</h2>
+<p>This presentation is a stump - will be replaced by Daniel Leising’s slides.</p>
+</section>
 <section id="fuzziness" class="level2">
 <h2 class="anchored" data-anchor-id="fuzziness">Fuzziness</h2>
 <ul>
@@ -256,6 +261,44 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+
+<script>
+  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+  // slide changes (different for each slide format).
+  (function () {
+    // dispatch for htmlwidgets
+    function fireSlideEnter() {
+      const event = window.document.createEvent("Event");
+      event.initEvent("slideenter", true, true);
+      window.document.dispatchEvent(event);
+    }
+
+    function fireSlideChanged(previousSlide, currentSlide) {
+      fireSlideEnter();
+
+      // dispatch for shiny
+      if (window.jQuery) {
+        if (previousSlide) {
+          window.jQuery(previousSlide).trigger("hidden");
+        }
+        if (currentSlide) {
+          window.jQuery(currentSlide).trigger("shown");
+        }
+      }
+    }
+
+    // hookup for slidy
+    if (window.w3c_slidy) {
+      window.w3c_slidy.add_observer(function (slide_num) {
+        // slide_num starts at position 1
+        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+      });
+    }
+
+  })();
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

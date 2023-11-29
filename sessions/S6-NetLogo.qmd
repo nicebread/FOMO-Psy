@@ -22,9 +22,10 @@ description: Try to implement your Buri model in Netlogo
 2. Implement your own model - start with a single donkey.
      - Code together in the group - but every participant should write the code on their own local machine. Add your own name to the file name to distinguish different implementations. Save the `nlogo` files in the folder of your donkey.
      - Group members can agree on a single implementation. But they can also have different irrelevant choices (such as the shape of the donkey), or even differing implementations (in case that the theoretical model was underspecified).
-3. For the first run: *A priori* choose sensible starting values for your free model parameters.
+3. Document the gaps: In an extra document in the repository (called `arbitrary_decision.md`), document all implementation decisions that were *not* determined by the formal model (i.e., which were arbitrary)
+4. For the first run: *A priori* choose sensible starting values for your free model parameters.
      - If group members do not converge on a single setting, they can use different starting values.
-4. Record the simulation result in Table 1 of `FOMO-homework/Buridans_Ass/NetLogo-Framework/Results.md`
+5. Record the simulation result in Table 1 of `FOMO-homework/Buridans_Ass/NetLogo-Framework/Results.md`
       - How many ticks does the donkey survive with these parameters?
       - If your model is not deterministic, for example because you have some random numbers in it, record at least 10 runs with the same parameter setting and record the average survival time.
 
@@ -113,6 +114,6 @@ Except for an *exhaustive search* that enumerates all possible combinations of t
 (Image from [http://turingfinance.com](http://turingfinance.com))
 :::
 
-# Homework
+# Homework (individual)
 
 Read the chapter for the Imagined Contact Hypothesis: Section 2.3 and 2.4 (p. 133 - 137), plus the section on moderating conditions (p. 153 – 164).

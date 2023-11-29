@@ -1,0 +1,19 @@
+---
+title: Session 8 - ABM Workshop Jens Lange
+number-sections: true
+description: We participate in the ABM workshop by Jens Lange
+---
+
+# Overview
+
+| Topic                                                      | Duration   | Notes |
+| ---------------------------------------------------------- | ---------- | ----- |
+| **Workshop**: ABMs by Jens Lange                           | TODO times |       |
+| **[Homework]**: First steps in theory formalization (VAST) | -          |       |
+
+: {.striped}
+
+
+# Homework (group assignment)
+
+TBD

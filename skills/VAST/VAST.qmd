@@ -17,9 +17,13 @@ revealjs-plugins:
   - attribution 
 ---
 
+## Note
+
+This presentation is a stump. Please use Daniel [Leising's slides](doc/Leising_2023_VAST.pdf).
+
 ## Fuzziness
 
-- The goal are *precise* theories - but in reality, they are (partially) vague and fuzzy
+- The goal are *precise* theories - but in reality, they often are (at least partially) vague and fuzzy
 - VAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. "weakly positive", "strong"
   - Better than assigning an arbitrary, pseudo-precise number
   - It's about formalizing the current state/precision of a verbal theory - if it is imprecise, let's show it!

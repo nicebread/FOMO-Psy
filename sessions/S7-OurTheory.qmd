@@ -1,0 +1,27 @@
+---
+title: Session 7 - Our target theory / NetLogo presentation
+number-sections: true
+description: We get introduced to our target theory / Showcase the Buri ABM
+---
+
+# Overview
+
+| Topic                                                                   | Duration | Notes |
+| ----------------------------------------------------------------------- | -------- | ----- |
+| **Workshop**: Introduce and discuss our target theory with a researcher | 90       |       |
+| **Workshop**: Decide upon sub-topcis, form new working groups           | 30       |       |
+| **Workshop**: Showcase and discuss Buri-ABM implementation              | 60       |       |
+| **[Homework]**:                                                         | -        |       |
+
+: {.striped}
+
+
+# Introduce and discuss our target theory with a researcher
+
+TBD: Guiding questions
+
+
+# Homework
+
+Do all remaining steps that your Buri model and implementation is ready for "publication".
+This is the final step; we want to close this sub-project then.

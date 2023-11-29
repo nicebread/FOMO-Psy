@@ -1,13 +1,5 @@
 [
   {
-    "listing": "/orga_material/orga_material.html",
-    "items": [
-      "/orga_material/course_announcement.html",
-      "/orga_material/call_for_submissions.html",
-      "/orga_material/instructions_before_course.html"
-    ]
-  },
-  {
     "listing": "/sessions/sessions_overview.html",
     "items": [
       "/sessions/S1-Introduction.html",
@@ -15,7 +7,17 @@
       "/sessions/S3-Constructs.html",
       "/sessions/S4-Bischof_Notation.html",
       "/sessions/S5-VAST.html",
-      "/sessions/S6-NetLogo.html"
+      "/sessions/S6-NetLogo.html",
+      "/sessions/S7-OurTheory.html",
+      "/sessions/S8-ABM-Workshop.html"
+    ]
+  },
+  {
+    "listing": "/orga_material/orga_material.html",
+    "items": [
+      "/orga_material/course_announcement.html",
+      "/orga_material/call_for_submissions.html",
+      "/orga_material/instructions_before_course.html"
     ]
   }
 ]

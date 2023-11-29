@@ -438,14 +438,14 @@
     "href": "skills/VAST/VAST.slide.html#note",
     "title": "Visual Argument Structure Tool (VAST) V1.0",
     "section": "Note",
-    "text": "Note\nThis presentation is a stump - will be replaced by Daniel Leising’s slides."
+    "text": "Note\nThis presentation is a stump. Please use Daniel Leising’s slides."
   },
   {
     "objectID": "skills/VAST/VAST.slide.html#fuzziness",
     "href": "skills/VAST/VAST.slide.html#fuzziness",
     "title": "Visual Argument Structure Tool (VAST) V1.0",
     "section": "Fuzziness",
-    "text": "Fuzziness\n\nThe goal are precise theories - but in reality, they are (partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps and underspecifications"
+    "text": "Fuzziness\n\nThe goal are precise theories - but in reality, they often are (at least partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps and underspecifications"
   },
   {
     "objectID": "skills/VAST/VAST.slide.html#explicate-different-perspectives-and-analysts",
@@ -473,21 +473,21 @@
     "href": "skills/VAST/VAST.html",
     "title": "Visual Argument Structure Tool (VAST) V1.0",
     "section": "",
-    "text": "This presentation is a stump - will be replaced by Daniel Leising’s slides."
+    "text": "This presentation is a stump. Please use Daniel Leising’s slides."
   },
   {
     "objectID": "skills/VAST/VAST.html#note",
     "href": "skills/VAST/VAST.html#note",
     "title": "Visual Argument Structure Tool (VAST) V1.0",
     "section": "",
-    "text": "This presentation is a stump - will be replaced by Daniel Leising’s slides."
+    "text": "This presentation is a stump. Please use Daniel Leising’s slides."
   },
   {
     "objectID": "skills/VAST/VAST.html#fuzziness",
     "href": "skills/VAST/VAST.html#fuzziness",
     "title": "Visual Argument Structure Tool (VAST) V1.0",
     "section": "Fuzziness",
-    "text": "Fuzziness\n\nThe goal are precise theories - but in reality, they are (partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps and underspecifications"
+    "text": "Fuzziness\n\nThe goal are precise theories - but in reality, they often are (at least partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps and underspecifications"
   },
   {
     "objectID": "skills/VAST/VAST.html#explicate-different-perspectives-and-analysts",
@@ -1124,7 +1124,7 @@
     "href": "sessions/S5-VAST.html",
     "title": "Session 5 - Visual Argument Structure Tool (VAST) V1.0",
     "section": "",
-    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLecture / Skill: VAST\n150\nRead the Paper. Slides will be provided later\n\n\nDecision: Which theory to formalize?\n45\n\n\n\n[Homework]:\n-\n\n\n\n\n\n\n2 Homework (individual)\nRead the VAST paper:\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://open.lnu.se/index.php/metapsychology/article/view/2911"
+    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLecture / Skill: VAST\n150\nRead the Paper. See Daniel Leising’s slides\n\n\nDecision: Which theory to formalize?\n45\n\n\n\n[Homework]:\n-\n\n\n\n\n\n\n2 Homework (individual)\nRead the VAST paper:\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://open.lnu.se/index.php/metapsychology/article/view/2911"
   },
   {
     "objectID": "sessions/S4-Bischof_Notation.html",
@@ -1166,7 +1166,7 @@
     "href": "sessions/S7-OurTheory.html",
     "title": "Session 7 - Our target theory / NetLogo presentation",
     "section": "",
-    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWorkshop: Introduce and discuss our target theory with a researcher\n90\n\n\n\nWorkshop: Decide upon sub-topcis, form new working groups\n30\n\n\n\nWorkshop: Showcase and discuss Buri-ABM implementation\n60\n\n\n\nHomework:\n-\n\n\n\n\n\n\n2 Introduce and discuss our target theory with a researcher\nTBD: Guiding questions\n\n\n3 Homework\nDo all necessary steps that your Buri model and implementation is ready for “publication”. This is the"
+    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWorkshop: Introduce and discuss our target theory with a researcher\n90\n\n\n\nWorkshop: Decide upon sub-topcis, form new working groups\n30\n\n\n\nWorkshop: Showcase and discuss Buri-ABM implementation\n60\n\n\n\nHomework:\n-\n\n\n\n\n\n\n2 Introduce and discuss our target theory with a researcher\nTBD: Guiding questions\n\n\n3 Homework\nDo all remaining steps that your Buri model and implementation is ready for “publication”. This is the final step; we want to close this sub-project then."
   },
   {
     "objectID": "skills/Scaling/Scaling.html",

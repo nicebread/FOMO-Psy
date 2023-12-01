@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felix Schönbrodt">
-<meta name="dcterms.date" content="2023-11-29">
+<meta name="dcterms.date" content="2023-12-01">
 
 <title>FOMO-Psy: Formal Modeling of Psychological Theories - Theory Construction Methodology</title>
 <style>
@@ -41,8 +41,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -153,38 +151,20 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#where-do-theories-come-from" id="toc-where-do-theories-come-from" class="nav-link" data-scroll-target="#where-do-theories-come-from">Where do theories come from?</a></li>
   <li><a href="#tcm-a-methodology-for-constructing-theories" id="toc-tcm-a-methodology-for-constructing-theories" class="nav-link" data-scroll-target="#tcm-a-methodology-for-constructing-theories">TCM: A methodology for constructing theories</a></li>
-  </ul></li>
-  <li><a href="#what-is-a-theory" id="toc-what-is-a-theory" class="nav-link" data-scroll-target="#what-is-a-theory">What is a <span class="alert">theory</span>?</a>
+  <li><a href="#definitions" id="toc-definitions" class="nav-link" data-scroll-target="#definitions">Definitions</a>
   <ul class="collapse">
-  <li><a href="#what-is-not-a-theory-1" id="toc-what-is-not-a-theory-1" class="nav-link" data-scroll-target="#what-is-not-a-theory-1">What is <em>not</em> a theory? 1</a></li>
-  <li><a href="#what-is-not-a-theory-2" id="toc-what-is-not-a-theory-2" class="nav-link" data-scroll-target="#what-is-not-a-theory-2">What is <em>not</em> a theory? 2</a></li>
-  <li><a href="#what-is-not-a-theory-3" id="toc-what-is-not-a-theory-3" class="nav-link" data-scroll-target="#what-is-not-a-theory-3">What is <em>not</em> a theory? 3</a></li>
-  <li><a href="#what-is-not-a-theory-4" id="toc-what-is-not-a-theory-4" class="nav-link" data-scroll-target="#what-is-not-a-theory-4">What is <em>not</em> a theory? 4</a></li>
-  <li><a href="#what-is-not-a-theory-4-1" id="toc-what-is-not-a-theory-4-1" class="nav-link" data-scroll-target="#what-is-not-a-theory-4-1">What is <em>not</em> a theory? 4</a></li>
-  <li><a href="#what-is-not-a-theory-4-2" id="toc-what-is-not-a-theory-4-2" class="nav-link" data-scroll-target="#what-is-not-a-theory-4-2">What is <em>not</em> a theory? 4</a></li>
-  <li><a href="#what-is-not-a-theory-4-3" id="toc-what-is-not-a-theory-4-3" class="nav-link" data-scroll-target="#what-is-not-a-theory-4-3">What is <em>not</em> a theory? 4</a></li>
-  <li><a href="#what-is-not-a-theory-4-4" id="toc-what-is-not-a-theory-4-4" class="nav-link" data-scroll-target="#what-is-not-a-theory-4-4">What is <em>not</em> a theory? 4</a></li>
-  <li><a href="#what-is-not-a-theory-5" id="toc-what-is-not-a-theory-5" class="nav-link" data-scroll-target="#what-is-not-a-theory-5">What is <em>not</em> a theory? 5</a></li>
+  <li><a href="#you-know-that-already" id="toc-you-know-that-already" class="nav-link" data-scroll-target="#you-know-that-already">You know that already …</a></li>
   </ul></li>
-  <li><a href="#but-then-what-is-a-theory" id="toc-but-then-what-is-a-theory" class="nav-link" data-scroll-target="#but-then-what-is-a-theory">But, then:<br>What <span class="alert">is</span> a theory?</a>
-  <ul class="collapse">
-  <li><a href="#theories-as-causal-explanations" id="toc-theories-as-causal-explanations" class="nav-link" data-scroll-target="#theories-as-causal-explanations">Theories as causal explanations</a></li>
-  <li><a href="#tcm-a-methodology-for-constructing-theories-1" id="toc-tcm-a-methodology-for-constructing-theories-1" class="nav-link" data-scroll-target="#tcm-a-methodology-for-constructing-theories-1">TCM: A methodology for constructing theories</a></li>
-  <li><a href="#theory-definition" id="toc-theory-definition" class="nav-link" data-scroll-target="#theory-definition">Theory: Definition</a></li>
-  </ul></li>
-  <li><a href="#lets-practice" id="toc-lets-practice" class="nav-link" data-scroll-target="#lets-practice">Let’s practice!</a>
-  <ul class="collapse">
-  <li><a href="#elements-of-a-theory" id="toc-elements-of-a-theory" class="nav-link" data-scroll-target="#elements-of-a-theory">Elements of a theory</a></li>
-  <li><a href="#exercise" id="toc-exercise" class="nav-link" data-scroll-target="#exercise"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Exercise</a></li>
-  <li><a href="#an-example" id="toc-an-example" class="nav-link" data-scroll-target="#an-example">An example</a></li>
   </ul></li>
   <li><a href="#tcm-concrete-steps" id="toc-tcm-concrete-steps" class="nav-link" data-scroll-target="#tcm-concrete-steps">TCM: Concrete Steps</a>
   <ul class="collapse">
-  <li><a href="#tcm-step-1" id="toc-tcm-step-1" class="nav-link" data-scroll-target="#tcm-step-1">TCM: Step 1</a></li>
-  <li><a href="#tcm-step-2" id="toc-tcm-step-2" class="nav-link" data-scroll-target="#tcm-step-2">TCM: Step 2</a></li>
-  <li><a href="#tcm-step-3" id="toc-tcm-step-3" class="nav-link" data-scroll-target="#tcm-step-3">TCM: Step 3</a></li>
-  <li><a href="#tcm-step-4" id="toc-tcm-step-4" class="nav-link" data-scroll-target="#tcm-step-4">TCM: Step 4</a></li>
-  <li><a href="#tcm-step-5" id="toc-tcm-step-5" class="nav-link" data-scroll-target="#tcm-step-5">TCM: Step 5</a></li>
+  <li><a href="#tcm-step-1-identifying-relevant-phenomena" id="toc-tcm-step-1-identifying-relevant-phenomena" class="nav-link" data-scroll-target="#tcm-step-1-identifying-relevant-phenomena">TCM Step 1️⃣: Identifying relevant phenomena</a></li>
+  <li><a href="#tcm-step-2a-formulating-a-prototheory" id="toc-tcm-step-2a-formulating-a-prototheory" class="nav-link" data-scroll-target="#tcm-step-2a-formulating-a-prototheory">TCM Step 2️⃣a: Formulating a prototheory</a></li>
+  <li><a href="#tcm-step-2b-formalizing-an-existing-narrative-theory" id="toc-tcm-step-2b-formalizing-an-existing-narrative-theory" class="nav-link" data-scroll-target="#tcm-step-2b-formalizing-an-existing-narrative-theory">TCM Step 2️⃣b: Formalizing an existing narrative theory</a></li>
+  <li><a href="#tcm-step-3-developing-a-formal-model" id="toc-tcm-step-3-developing-a-formal-model" class="nav-link" data-scroll-target="#tcm-step-3-developing-a-formal-model">TCM Step 3️⃣: Developing a formal model</a></li>
+  <li><a href="#tcm-step-4-checking-the-adequacy-of-the-formal-model" id="toc-tcm-step-4-checking-the-adequacy-of-the-formal-model" class="nav-link" data-scroll-target="#tcm-step-4-checking-the-adequacy-of-the-formal-model">TCM Step 4️⃣: Checking the adequacy of the formal model</a></li>
+  <li><a href="#tcm-step-55-evaluating-the-overall-worth-of-the-constructed-theory" id="toc-tcm-step-55-evaluating-the-overall-worth-of-the-constructed-theory" class="nav-link" data-scroll-target="#tcm-step-55-evaluating-the-overall-worth-of-the-constructed-theory">TCM Step 5️⃣5️: Evaluating the overall worth of the constructed theory</a></li>
+  <li><a href="#tcm-example" id="toc-tcm-example" class="nav-link" data-scroll-target="#tcm-example">TCM example</a></li>
   <li><a href="#creative-hypothesis-generating-in-psychology-some-useful-heuristics" id="toc-creative-hypothesis-generating-in-psychology-some-useful-heuristics" class="nav-link" data-scroll-target="#creative-hypothesis-generating-in-psychology-some-useful-heuristics">Creative hypothesis generating in psychology: Some useful heuristics</a></li>
   </ul></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
@@ -228,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2023-11-29</p>
+      <p class="date">2023-12-01</p>
     </div>
   </div>
   
@@ -300,210 +280,10 @@ flowchart LR
 <p><strong>Theories</strong>: Something that explains phenomena of interest (the <em>explanans</em>). <span class="bg" style="--col: #fff100">But what <em>is</em> a theory?</span></p>
 </div>
 </section>
-</section>
-<section id="what-is-a-theory" class="level1">
-<h1>What is a <span class="alert">theory</span>?</h1>
-<blockquote class="blockquote">
-Like so many words that are bandied about, the word theory threatens to become meaningless. Because its referents are so diverse - including everything from minor working hypotheses, through comprehensive but vague and unordered speculations,to axiomatic systems of thought - use of the word often obscures rather than creates understanding.
-<div style="text-align: right; font-size: 70%">
-<em>Merton (1967, p.&nbsp;39)</em>
-</div>
-</blockquote>
-<p>Maybe an easier question for the start: But what is <span class="alert">not</span> a theory?</p>
-<div class="footer">
-<p>Cited from Sutton, R. I., &amp; Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
-</div>
-<section id="what-is-not-a-theory-1" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-1">What is <em>not</em> a theory? 1</h2>
-<p><span style="font-size: 70%;"><em>(Note: While these features of a scholarly article do not constitute a theory, they might be important in their own right)</em></span></p>
-<div style="font-size: 70%;">
-<ol type="1">
-<li>References Are Not Theory</li>
-</ol>
-<blockquote class="blockquote">
-<p>A manuscript that Robert Sutton edited had strong data, but all three reviewers emphasized that it had “weak theory” and “poorly motivated hypotheses.” The author responded to these concerns by writing a new introduction that added citations to many papers containing theory and many terms like “psycho-social theory,” “identity theory,” and “social comparison theory.”</p>
-<p><strong>But it still contained no discussion of what these theories were about and no discussion of the logical arguments why these theories led to the author’s predictions.</strong> The result was that this paper contained almost no theory, despite the author’s assertion that much had been added.</p>
-</blockquote>
-<p>Solution:</p>
-<blockquote class="blockquote">
-<p>Authors need to explicate which concepts and causal arguments are adopted from cited sources and how they are linked to the theory being developed or tested.</p>
-</blockquote>
-</div>
-<div class="footer">
-<p>Sutton, R. I., &amp; Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
-</div>
-</section>
-<section id="what-is-not-a-theory-2" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-2">What is <em>not</em> a theory? 2</h2>
-<div class="r-fit-text">
-<ol start="2" type="1">
-<li>Data Are Not Theory</li>
-</ol>
-<blockquote class="blockquote">
-<p>Empirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.</p>
-<p>Kaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: <strong>Data describe <em>which</em> empirical patterns were observed and theory explains <em>why</em> empirical patterns were observed or are expected to be observed.</strong></p>
-</blockquote>
-<p>Also: Theories do not explain data - theories explain <em>phenomena</em>!</p>
-</div>
-<div class="footer">
-<p>Sutton, R. I., &amp; Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
-</div>
-</section>
-<section id="what-is-not-a-theory-3" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-3">What is <em>not</em> a theory? 3</h2>
-<div class="r-fit-text">
-<ol start="3" type="1">
-<li>Lists of Variables or Constructs Are Not Theory</li>
-</ol>
-<blockquote class="blockquote">
-<p>Papers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.</p>
-<p>Such lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.</p>
-</blockquote>
-<p>Lists of constructs (without an explicit definition of their causal relationship) often are called a <em>framework</em>.</p>
-</div>
-<div class="footer">
-<p>Sutton, R. I., &amp; Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
-</div>
-</section>
-<section id="what-is-not-a-theory-4" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4">What is <em>not</em> a theory? 4</h2>
-<ol start="4" type="1">
-<li>Diagrams (Alone) Are Not Theory</li>
-</ol>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-This is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)
-</div>
-</div>
-<div class="callout-body-container callout-body">
-
-</div>
-</div>
-<p>. . .</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/fpsyg-12-620838-g001.jpg" height="500" class="figure-img"></p>
-<figcaption>Fig. 1 from Iqbal et al.&nbsp;(2021), based on Bronfenbrenner’s (1979) ecological systems model</figcaption>
-</figure>
-</div>
-<div class="footer">
-<p>Iqbal, S., Zakar, R., &amp; Fischer, F. (2021). Extended Theoretical Framework of Parental Internet Mediation: Use of Multiple Theoretical Stances for Understanding Socio-Ecological Predictors. Frontiers in Psychology, 12, 620838. https://doi.org/10.3389/fpsyg.2021.620838</p>
-</div>
-</section>
-<section id="what-is-not-a-theory-4-1" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4-1">What is <em>not</em> a theory? 4</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/societies-13-00113-g001.png" class="r-stretch img-fluid figure-img"></p>
-<figcaption>Figure 1. Holistic wellbeing model for school education.</figcaption>
-</figure>
-</div>
-<div class="footer">
-<p>Norozi, S. A. (2023). The Nexus of Holistic Wellbeing and School Education: A Literature-Informed Theoretical Framework. Societies, 13(5), 113. https://doi.org/10.3390/soc13050113</p>
-</div>
-</section>
-<section id="what-is-not-a-theory-4-2" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4-2">What is <em>not</em> a theory? 4</h2>
-<p><img src="img/7_Instances.jpg" class="r-stretch img-fluid"></p>
-<div class="footer">
-<p>CBCB, CC BY-SA 3.0 <a href="https://creativecommons.org/licenses/by-sa/3.0" class="uri">https://creativecommons.org/licenses/by-sa/3.0</a>, via Wikimedia Commons</p>
-</div>
-</section>
-<section id="what-is-not-a-theory-4-3" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4-3">What is <em>not</em> a theory? 4</h2>
-<p><img src="img/Virgin.gif" height="650"></p>
-<div class="footer">
-<p>http://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html</p>
-</div>
-</section>
-<section id="what-is-not-a-theory-4-4" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-4-4">What is <em>not</em> a theory? 4</h2>
-<div class="r-fit-text">
-<ol start="4" type="1">
-<li>Diagrams (Alone) Are Not Theory</li>
-</ol>
-<blockquote class="blockquote">
-<p>Diagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. Probably the least theoretical representations are ones that simply list categories of variables such as “personality,” “environmental determinants,” or “demographics.”</p>
-<p>More helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]</p>
-<p>As Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain <em>why</em> the proposed connections will be observed. Some verbal explication is almost always necessary.</p>
-</blockquote>
-</div>
-<div class="footer">
-<p>Sutton, R. I., &amp; Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
-</div>
-</section>
-<section id="what-is-not-a-theory-5" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-not-a-theory-5">What is <em>not</em> a theory? 5</h2>
-<div class="r-fit-text">
-<ol start="5" type="1">
-<li>Hypotheses (or Predictions) Are Not Theory.</li>
-</ol>
-<blockquote class="blockquote">
-<p>Hypotheses can be an important part of a well-crafted conceptual argument. They serve as crucial bridges between theory and data, making explicit how the variables and relationships that follow from a logical argument will be operationalized. […]</p>
-<p>Hypotheses do not (and should not) contain logical arguments about why empirical relationships are expected to occur. <span class="bg" style="--col: #fff100">Hypotheses are concise statements about <em>what</em> is expected to occur, not <em>why</em> it is expected to occur.</span></p>
-</blockquote>
-</div>
-<div class="footer">
-<p>Sutton, R. I., &amp; Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788</p>
-</div>
-</section>
-</section>
-<section id="but-then-what-is-a-theory" class="level1">
-<h1>But, then:<br>What <span class="alert">is</span> a theory?</h1>
-<section id="theories-as-causal-explanations" class="level2">
-<h2 class="anchored" data-anchor-id="theories-as-causal-explanations">Theories as causal explanations</h2>
-<blockquote class="blockquote">
-<p>“It may be said… that an explanation is not fully adequate unless its explanans, if taken account of in time, could have served as a basis for predicting the phenomenon under consideration…</p>
-It is this potential predictive force which gives scientific explanation its importance: Only to the extent that we are able to explain empirical facts can we attain the major objective of scientific research, <span class="bg" style="--col: #fff100">namely not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment</span>”
-<div style="text-align: right; font-size: 70%">
-<em> Hempel &amp; Oppenheim, 1948, (p.&nbsp;138)</em>
-</div>
-</blockquote>
-</section>
-<section id="tcm-a-methodology-for-constructing-theories-1" class="level2">
-<h2 class="anchored" data-anchor-id="tcm-a-methodology-for-constructing-theories-1">TCM: A methodology for constructing theories</h2>
-<div class="cell" data-fig-width="6">
-<div class="cell-output-display">
-<div>
-<div>
-<pre class="mermaid mermaid-js">%%{
-  init: {
-    'theme': 'base',
-    'flowchart': { 'curve': 'natural' }
-  }
-}%%
-flowchart LR
-  T(Theory)
-  P(Phenomena)
-  D(Data)
-  
-  T -- "Explanation" --&gt; P
-  P -- "Abduction" --&gt; T
-  P -- "Prediction" --&gt; D
-  D -- "Generalization" --&gt; P
-</pre>
-</div>
-</div>
-</div>
-</div>
-<div class="r-fit-text">
-<p><strong>Phenomena</strong>: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the <em>explanandum</em>). In psychology often called “effects”.</p>
-<p><strong>Data</strong>: Relatively direct observations. Refer to <em>particular</em> empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).</p>
-<p><strong><span class="alert">Explanatory</span> Theories</strong> are constructed to explain the empirical phenomena that are evidenced by data (i.e., they are the <em>explanans</em>). Explanatory theories can be expressed in terms of a set of linked propositions referring to latent psychological constructs. At least one of these propositions expresses a general principle.</p>
-<blockquote class="blockquote">
-<p>“theory T putatively explains phenomenon P” means “if the world were as T says it is, P would follow as a matter of course.” Although this notion of explanation is arguably incomplete, it has the advantages of being close to the commonsense understanding of the concept and being easy to implement in a formal model—namely by creating a virtual world in which theory T is true and showing that this world will indeed produce phenomenon P.</p>
-</blockquote>
-</div>
-<div class="footer">
-<p>See Borsboom et al.&nbsp;(2021). <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a></p>
-</div>
-</section>
-<section id="theory-definition" class="level2">
-<h2 class="anchored" data-anchor-id="theory-definition">Theory: Definition</h2>
+<section id="definitions" class="level2">
+<h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<section id="you-know-that-already" class="level3">
+<h3 class="anchored" data-anchor-id="you-know-that-already">You know that already …</h3>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -514,7 +294,20 @@ What is an (explanatory) theory?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>A theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e.&nbsp;law-like) character. (<em>explanans</em>)</p>
+<p>A theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e.&nbsp;law-like) character.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is a formal model?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory <em>and</em> the model are sufficiently accurate.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -531,85 +324,38 @@ What is an explanation?
 </div>
 </div>
 <div class="footer">
-<p>Borsboom et al.&nbsp;(2021). <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a></p>
-<p>van Dongen, N. N. N. et al.&nbsp;(2022, April 13). Productive Explanation: A Framework for Evaluating Explanations in Psychological Science. https://doi.org/10.31234/osf.io/qd69g</p>
+<p>Borsboom et al.&nbsp;(2021). <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a>; van Dongen et al.&nbsp;(2023). <a href="https://doi.org/10.31234/osf.io/qd69g">https://doi.org/10.31234/osf.io/qd69g</a></p>
 </div>
 </section>
-</section>
-<section id="lets-practice" class="level1">
-<h1>Let’s practice!</h1>
-<section id="elements-of-a-theory" class="level2">
-<h2 class="anchored" data-anchor-id="elements-of-a-theory">Elements of a theory</h2>
-<div class="r-fit-text">
-<ul>
-<li><strong>Phänomen</strong>: Eine Eigenschaft der Welt, die hinreichend wenig flüchtig ist, so dass wir diese wahrnehmen und beschreiben können (Explanandum einer Theorie)</li>
-<li><strong>Begriff / Konzept</strong>: Semantische Einheit (Konzept), die die Merkmale eines Gegenstandes oder Sachverhaltes vereint. ≠ Wort/Wortmarke</li>
-<li><strong>Relationship</strong></li>
-<li><strong>Modell</strong>: Vereinfachte Abbildung eines Ausschnitts der Wirklichkeit. Alle Strukturen, die die Sätze einer Theorie erfüllen, sind Modelle dieser Theorie. Oder andersherum ausgedrückt: Eine Theorie kann meist in verschiedenen Modellen implementiert werden, die alle kompatibel zur Theorie sind.</li>
-<li><strong>Operationalisierung</strong>: Präzise Angabe (inkl. Begründung), wie ein Begriff (s.o.), zu messen ist.</li>
-<li><strong>Daten</strong>: Daten sind öffentliche Aufzeichnungen, die durch Messungen und Experimente erzeugt werden und als Beweis für die Existenz oder Merkmale von Phänomenen dienen. (Woodward, 2009). Daten enthalten das Phänomen, an dem wir interessiert sind, aber auch Rauschen (Messfehler, Verzerrung durch den Experimentator, Transkriptionsfehler). Deshalb erklären Theorien die Phänomene, nicht die Daten. (Fried, 2021)</li>
-</ul>
-</div>
-</section>
-<section id="exercise" class="level2">
-<h2 class="anchored" data-anchor-id="exercise"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Exercise</h2>
-<div class="columns">
-<div class="column r-fit-text" style="width:60%;">
-
-</div><div class="column" style="width:40%;">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-P[Phenomenon]
-C["Concept (Definition)"]
-T[Theory]
-M[Model]
-O[Operationalization]
-D[Data]
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="an-example" class="level2">
-<h2 class="anchored" data-anchor-id="an-example">An example</h2>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Lee, D. G., Daunizeau, J., &amp; Pezzulo, G. (2023). Evidence or Confidence: What Is Really Monitored during a Decision? Psychonomic Bulletin &amp; Review, 30(4), 1360–1379. <a href="https://doi.org/10.3758/s13423-023-02255-9">https://doi.org/10.3758/s13423-023-02255-9</a></p>
-</div>
-</div>
-<blockquote class="blockquote">
-<h2 id="empirical-hurdles-for-confidence-models-to-explain" class="anchored">Empirical Hurdles for&nbsp;Confidence Models to&nbsp;Explain</h2>
-<p>The literature on choice confidence has exposed a variety of different empirical findings. Many of these findings are so robust that it has been proposed that any worthy model of confidence should be able to account for them (Pleskac &amp; Busemeyer, 2010). We here put the cDDM to the test and note that it predominantly passes these hurdles:</p>
-</blockquote>
 </section>
 </section>
 <section id="tcm-concrete-steps" class="level1">
 <h1>TCM: Concrete Steps</h1>
 <div class="r-fit-text">
-<ol type="1">
+<ul>
+<li><ol type="1">
 <li>Identifying relevant phenomena</li>
-<li>Formulating a prototheory
-<ol type="a">
-<li>This includes defining the constructs as a first step</li>
 </ol></li>
+<li><ol start="2" type="1">
+<li><ol type="A">
+<li>Formulating a prototheory <em>OR</em></li>
+</ol></li>
+</ol></li>
+<li><ol start="2" type="1">
+<li><ol start="2" type="A">
+<li>Formalizing an existing narrative theory</li>
+</ol></li>
+</ol></li>
+<li><ol start="3" type="1">
 <li>Developing a formal model</li>
+</ol></li>
+<li><ol start="4" type="1">
 <li>Checking the adequacy of the formal model</li>
+</ol></li>
+<li><ol start="5" type="1">
 <li>Evaluating the overall worth of the constructed theory</li>
-</ol>
+</ol></li>
+</ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -624,69 +370,87 @@ Note
 </div>
 </div>
 </div>
-<section id="tcm-step-1" class="level2">
-<h2 class="anchored" data-anchor-id="tcm-step-1">TCM: Step 1</h2>
-<ol type="1">
-<li>Identifying relevant phenomena</li>
-</ol>
+<section id="tcm-step-1-identifying-relevant-phenomena" class="level2">
+<h2 class="anchored" data-anchor-id="tcm-step-1-identifying-relevant-phenomena">TCM Step 1️⃣: Identifying relevant phenomena</h2>
 <blockquote class="blockquote">
-<p>„The phenomena most useful in theory building are not necessarily the most spectacular ones. Instead, it is vitally important to select phenomena that are well established, or even self-evident, because a solid foundation is essential to successful theory construction.“</p>
+<p>„The phenomena most useful in theory building are not necessarily the most spectacular ones. Instead, <span class="hl">it is vitally important to select phenomena that are well established</span>, or even self-evident, because a solid foundation is essential to successful theory construction.“</p>
 </blockquote>
+<ul>
+<li>Assess evidential strength (meta-analyses?)</li>
+<li>Assess risk of bias (red flags for p-hacking?)</li>
+<li>Distinguish…
+<ul>
+<li><strong>core</strong> explanatory targets</li>
+<li><strong>secondary</strong> explanatory targets</li>
+</ul></li>
+</ul>
 <div class="footer">
 <p>Borsboom et al., 2021, p.&nbsp;760</p>
 </div>
 </section>
-<section id="tcm-step-2" class="level2">
-<h2 class="anchored" data-anchor-id="tcm-step-2">TCM: Step 2</h2>
-<ol start="2" type="1">
-<li>Formulating a prototheory</li>
-</ol>
+<section id="tcm-step-2a-formulating-a-prototheory" class="level2">
+<h2 class="anchored" data-anchor-id="tcm-step-2a-formulating-a-prototheory">TCM Step 2️⃣a: Formulating a prototheory</h2>
 <blockquote class="blockquote">
-<p>„Of the steps in TCM, the step of generating prototheories is the least methodologically developed. One methodological approach that is available is analogical abduction: If one finds a similar set of phenomena in another field that is better understood, then one can “borrow” explanatory principles from that field to inform one’s own.“</p>
+<p>„Of the steps in TCM, the step of generating prototheories is the least methodologically developed. One methodological approach that is available is <span class="hl">analogical abduction</span>: If one finds a similar set of phenomena in another field that is better understood, then one can “borrow” explanatory principles from that field to inform one’s own.“</p>
 </blockquote>
-<div class="footer">
-<p>Borsboom et al., 2021, p.&nbsp;761</p>
-</div>
-</section>
-<section id="tcm-step-3" class="level2">
-<h2 class="anchored" data-anchor-id="tcm-step-3">TCM: Step 3</h2>
-<ol start="3" type="1">
-<li>Developing a formal model</li>
-</ol>
-<div class="footer">
-<p>Borsboom et al., 2021, p.&nbsp;761</p>
-</div>
-</section>
-<section id="tcm-step-4" class="level2">
-<h2 class="anchored" data-anchor-id="tcm-step-4">TCM: Step 4</h2>
-<ol start="4" type="1">
-<li>Checking the adequacy of the formal model</li>
-</ol>
 <ul>
-<li>“To investigate this question, one must parse the phenomena in the same formal language as the theory. This means that the phenomena themselves have to be formalized.”</li>
-<li>Before you observe any real data, ask (and test): <em>Does the model even work in principle?</em>
-<ul>
-<li>Simulate data from the model</li>
-<li>Does it produce the target phenomena?</li>
-<li>Sensitivity analysis: What happens if parameters of the model are changed / pushed to the extreme? When does it break?</li>
-</ul></li>
-<li>Which phenomena can be actually produced by the model? (Assuming that multiple phenomena are predicted)</li>
-<li>Which choices of the model are arbitrary?</li>
-<li>Sensitivity analysis: How robust is the explanation across (realistic) changes of parameter settings?</li>
-<li>Explanatory relevance: Are the explanatory principles actually necessary to explain phenomena? (e.g., it could happen that you remove an element in the model, and the phenomenon still is produced.)</li>
+<li>A small set of general principles, often causal relationships</li>
 </ul>
 <div class="footer">
 <p>Borsboom et al., 2021, p.&nbsp;761</p>
 </div>
 </section>
-<section id="tcm-step-5" class="level2">
-<h2 class="anchored" data-anchor-id="tcm-step-5">TCM: Step 5</h2>
-<ol start="5" type="1">
-<li>Evaluating the overall worth of the constructed theory</li>
-</ol>
+<section id="tcm-step-2b-formalizing-an-existing-narrative-theory" class="level2">
+<h2 class="anchored" data-anchor-id="tcm-step-2b-formalizing-an-existing-narrative-theory">TCM Step 2️⃣b: Formalizing an existing narrative theory</h2>
+<ul>
+<li>Use the Visual Argument Structure Tool (VAST) to visualize an existing narrative theory</li>
+<li>Do not try to improve it (yet) - <em>show</em> the gaps and inconsistencies</li>
+</ul>
+</section>
+<section id="tcm-step-3-developing-a-formal-model" class="level2">
+<h2 class="anchored" data-anchor-id="tcm-step-3-developing-a-formal-model">TCM Step 3️⃣: Developing a formal model</h2>
+<blockquote class="blockquote">
+<p>A formal model captures the principles of the explanatory theory in a set of equations or rules (as implemented in a computer program or simulation).</p>
+</blockquote>
+<ul>
+<li>E.g., a Bischof control system model as an implementation of the VAST display. Record which gaps you had to fill, and which were directly derived from the theory (maybe with color coding?)</li>
+</ul>
 <div class="footer">
 <p>Borsboom et al., 2021, p.&nbsp;761</p>
 </div>
+</section>
+<section id="tcm-step-4-checking-the-adequacy-of-the-formal-model" class="level2">
+<h2 class="anchored" data-anchor-id="tcm-step-4-checking-the-adequacy-of-the-formal-model">TCM Step 4️⃣: Checking the adequacy of the formal model</h2>
+<div class="smaller">
+<blockquote class="blockquote">
+<p>“To investigate this question, one must parse the phenomena in the same formal language as the theory. This means that the phenomena themselves have to be formalized.”</p>
+</blockquote>
+<p>Before you observe any real data, ask (and test): <em>Does the model even work in principle?</em></p>
+<ul>
+<li>Simulate data from the model: Does it produce the <em>core</em> target phenomena?</li>
+<li>Sensitivity analysis:
+<ul>
+<li>What happens if parameters of the model are changed / pushed to the extreme? When does it break?</li>
+<li>How robust is the explanation across (realistic) changes of parameter settings?</li>
+</ul></li>
+<li>Does it produce the <em>secondary</em> phenomena, even if they have not been “baked into the model”? (Assuming that multiple phenomena are predicted) → maybe go back to step 3️⃣ or even 2️⃣ to refine theory/model</li>
+<li>Explanatory relevance: Are the explanatory principles actually necessary to explain phenomena? (e.g., it could happen that you remove an element in the model, and the phenomenon still is produced.)</li>
+</ul>
+</div>
+<div class="footer">
+<p>Borsboom et al., 2021, p.&nbsp;761</p>
+</div>
+</section>
+<section id="tcm-step-55-evaluating-the-overall-worth-of-the-constructed-theory" class="level2">
+<h2 class="anchored" data-anchor-id="tcm-step-55-evaluating-the-overall-worth-of-the-constructed-theory">TCM Step 5️⃣5️: Evaluating the overall worth of the constructed theory</h2>
+<p>(We’ll do that later)</p>
+<div class="footer">
+<p>Borsboom et al., 2021, p.&nbsp;761</p>
+</div>
+</section>
+<section id="tcm-example" class="level2">
+<h2 class="anchored" data-anchor-id="tcm-example">TCM example</h2>
+<p><img src="img/TCM_table.png" class="img-fluid"></p>
 </section>
 <section id="creative-hypothesis-generating-in-psychology-some-useful-heuristics" class="level2">
 <h2 class="anchored" data-anchor-id="creative-hypothesis-generating-in-psychology-some-useful-heuristics">Creative hypothesis generating in psychology: Some useful heuristics</h2>

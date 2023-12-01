@@ -1166,7 +1166,7 @@
     "href": "sessions/S7-OurTheory.html",
     "title": "Session 7 - Our target theory / NetLogo presentation",
     "section": "",
-    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWorkshop: Introduce and discuss our target theory with a researcher\n90\n\n\n\nWorkshop: Decide upon sub-topcis, form new working groups\n30\n\n\n\nWorkshop: Showcase and discuss Buri-ABM implementation\n60\n\n\n\nHomework:\n-\n\n\n\n\n\n\n2 Introduce and discuss our target theory with a researcher\nTBD: Guiding questions\n\n\n3 Homework\nDo all remaining steps that your Buri model and implementation is ready for “publication”. This is the final step; we want to close this sub-project then."
+    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWrap-up: Netlogo implementations\n60\n\n\n\nLecture: TCM: Concrete steps\n30\nSlides\n\n\nWorkshop: Introduce and discuss our target theory with a researcher\n90\n\n\n\nWorkshop: Decide upon sub-topics, form new working groups, make a plan\n30\n\n\n\nHomework:\n-\n\n\n\n\n\n\n2 Introduce and discuss our target theory with a researcher\nTBD: Guiding questions\n\n\n3 Decide upon sub-topics, form new working groups, make a plan\n\nTask 1: Identify relevant phenomena\nFormulate a prototheory: Create a VAST display\nDevelop a formal model:\n\nDevelop a Bischof control system display\nImplement in a programming language\n\nCheck the adequacy of the formal model\n\nDo sensitivity analyses etc.\n\nEvaluate the overall worth of the constructed theory\n\n\n\n\nDate\nSession\nTasks\n\n\n\n\n8.12.\nABM workshop\n\n\n\n15.12.\n\n\n\n\n22.12\nonline session?\n\n\n\n12.1.\nSecond session with researcher\nQuestions & Clarifications\n\n\n19.1.\n(work on theory without Felix)\n\n\n\n26.1.\n\n\n\n\n2.2.\n(work on theory without Felix)\n\n\n\n??.2.\nFinal presentation of model(s)\n\n\n\n\n\n\n4 Homework\nDo all remaining steps that your Buri model and implementation is ready for “publication”. This is the final step; we want to close this sub-project then."
   },
   {
     "objectID": "skills/Scaling/Scaling.html",
@@ -1740,7 +1740,7 @@
     "href": "lectures/TCM/TCM.html",
     "title": "Theory Construction Methodology",
     "section": "",
-    "text": "See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\n\n\n\n\n\n\nFalsificationism starts with a (tentative) theory, which is repeatedly tested, refuted, and refined.\nBut where does the initial theory come from? “Flair”? Flash of inspiration in the shower?\nPopper did not care much about the first stage of creating theories - just about the later testing of theories.\n\nConjecture: We have a refined methodology¹ to test theories (e.g., experimental designs, statistical methods, preregistration, …). But we had (so far) no good methodology for constructing theories.\n\n¹ “A scientific methodology is an ordered series of steps that assist a researcher in reaching a desired end state from a specified starting point.” (Borsboom et al., 2021)\n\n\n\n\n\nSir Karl Popper, 1902 - 1994\n\n\n\n\n\n\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum). In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: Something that explains phenomena of interest (the explanans). But what is a theory?"
+    "text": "See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\n\n\n\n\n\n\nFalsificationism starts with a (tentative) theory, which is repeatedly tested, refuted, and refined.\nBut where does the initial theory come from? “Flair”? Flash of inspiration in the shower?\nPopper did not care much about the first stage of creating theories - just about the later testing of theories.\n\nConjecture: We have a refined methodology¹ to test theories (e.g., experimental designs, statistical methods, preregistration, …). But we had (so far) no good methodology for constructing theories.\n\n¹ “A scientific methodology is an ordered series of steps that assist a researcher in reaching a desired end state from a specified starting point.” (Borsboom et al., 2021)\n\n\n\n\n\nSir Karl Popper, 1902 - 1994\n\n\n\n\n\n\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum). In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: Something that explains phenomena of interest (the explanans). But what is a theory?\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character.\n\n\n\n\n\n\n\n\nWhat is a formal model?\n\n\n\nA formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory and the model are sufficiently accurate.\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647; van Dongen et al. (2023). https://doi.org/10.31234/osf.io/qd69g"
   },
   {
     "objectID": "lectures/TCM/TCM.html#where-do-theories-come-from",
@@ -1757,144 +1757,60 @@
     "text": "%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum). In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: Something that explains phenomena of interest (the explanans). But what is a theory?"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#what-is-not-a-theory-1",
-    "href": "lectures/TCM/TCM.html#what-is-not-a-theory-1",
+    "objectID": "lectures/TCM/TCM.html#definitions",
+    "href": "lectures/TCM/TCM.html#definitions",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 1",
-    "text": "What is not a theory? 1\n(Note: While these features of a scholarly article do not constitute a theory, they might be important in their own right)\n\n\nReferences Are Not Theory\n\n\nA manuscript that Robert Sutton edited had strong data, but all three reviewers emphasized that it had “weak theory” and “poorly motivated hypotheses.” The author responded to these concerns by writing a new introduction that added citations to many papers containing theory and many terms like “psycho-social theory,” “identity theory,” and “social comparison theory.”\nBut it still contained no discussion of what these theories were about and no discussion of the logical arguments why these theories led to the author’s predictions. The result was that this paper contained almost no theory, despite the author’s assertion that much had been added.\n\nSolution:\n\nAuthors need to explicate which concepts and causal arguments are adopted from cited sources and how they are linked to the theory being developed or tested.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "section": "",
+    "text": "What is an (explanatory) theory?\n\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character.\n\n\n\n\n\n\n\n\nWhat is a formal model?\n\n\n\nA formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory and the model are sufficiently accurate.\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647; van Dongen et al. (2023). https://doi.org/10.31234/osf.io/qd69g"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#what-is-not-a-theory-2",
-    "href": "lectures/TCM/TCM.html#what-is-not-a-theory-2",
+    "objectID": "lectures/TCM/TCM.html#tcm-step-1-identifying-relevant-phenomena",
+    "href": "lectures/TCM/TCM.html#tcm-step-1-identifying-relevant-phenomena",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 2",
-    "text": "What is not a theory? 2\n\n\nData Are Not Theory\n\n\nEmpirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.\nKaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: Data describe which empirical patterns were observed and theory explains why empirical patterns were observed or are expected to be observed.\n\nAlso: Theories do not explain data - theories explain phenomena!\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "section": "TCM Step 1️⃣: Identifying relevant phenomena",
+    "text": "TCM Step 1️⃣: Identifying relevant phenomena\n\n„The phenomena most useful in theory building are not necessarily the most spectacular ones. Instead, it is vitally important to select phenomena that are well established, or even self-evident, because a solid foundation is essential to successful theory construction.“\n\n\nAssess evidential strength (meta-analyses?)\nAssess risk of bias (red flags for p-hacking?)\nDistinguish…\n\ncore explanatory targets\nsecondary explanatory targets\n\n\n\nBorsboom et al., 2021, p. 760"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#what-is-not-a-theory-3",
-    "href": "lectures/TCM/TCM.html#what-is-not-a-theory-3",
+    "objectID": "lectures/TCM/TCM.html#tcm-step-2a-formulating-a-prototheory",
+    "href": "lectures/TCM/TCM.html#tcm-step-2a-formulating-a-prototheory",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 3",
-    "text": "What is not a theory? 3\n\n\nLists of Variables or Constructs Are Not Theory\n\n\nPapers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.\nSuch lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.\n\nLists of constructs (without an explicit definition of their causal relationship) often are called a framework.\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "section": "TCM Step 2️⃣a: Formulating a prototheory",
+    "text": "TCM Step 2️⃣a: Formulating a prototheory\n\n„Of the steps in TCM, the step of generating prototheories is the least methodologically developed. One methodological approach that is available is analogical abduction: If one finds a similar set of phenomena in another field that is better understood, then one can “borrow” explanatory principles from that field to inform one’s own.“\n\n\nA small set of general principles, often causal relationships\n\n\nBorsboom et al., 2021, p. 761"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#what-is-not-a-theory-4",
-    "href": "lectures/TCM/TCM.html#what-is-not-a-theory-4",
+    "objectID": "lectures/TCM/TCM.html#tcm-step-2b-formalizing-an-existing-narrative-theory",
+    "href": "lectures/TCM/TCM.html#tcm-step-2b-formalizing-an-existing-narrative-theory",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 4",
-    "text": "What is not a theory? 4\n\nDiagrams (Alone) Are Not Theory\n\n\n\n\n\n\n\nThis is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)\n\n\n\n\n\n\n. . .\n\n\n\nFig. 1 from Iqbal et al. (2021), based on Bronfenbrenner’s (1979) ecological systems model\n\n\n\nIqbal, S., Zakar, R., & Fischer, F. (2021). Extended Theoretical Framework of Parental Internet Mediation: Use of Multiple Theoretical Stances for Understanding Socio-Ecological Predictors. Frontiers in Psychology, 12, 620838. https://doi.org/10.3389/fpsyg.2021.620838"
+    "section": "TCM Step 2️⃣b: Formalizing an existing narrative theory",
+    "text": "TCM Step 2️⃣b: Formalizing an existing narrative theory\n\nUse the Visual Argument Structure Tool (VAST) to visualize an existing narrative theory\nDo not try to improve it (yet) - show the gaps and inconsistencies"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#what-is-not-a-theory-4-1",
-    "href": "lectures/TCM/TCM.html#what-is-not-a-theory-4-1",
+    "objectID": "lectures/TCM/TCM.html#tcm-step-3-developing-a-formal-model",
+    "href": "lectures/TCM/TCM.html#tcm-step-3-developing-a-formal-model",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 4",
-    "text": "What is not a theory? 4\n\n\n\nFigure 1. Holistic wellbeing model for school education.\n\n\n\nNorozi, S. A. (2023). The Nexus of Holistic Wellbeing and School Education: A Literature-Informed Theoretical Framework. Societies, 13(5), 113. https://doi.org/10.3390/soc13050113"
+    "section": "TCM Step 3️⃣: Developing a formal model",
+    "text": "TCM Step 3️⃣: Developing a formal model\n\nA formal model captures the principles of the explanatory theory in a set of equations or rules (as implemented in a computer program or simulation).\n\n\nE.g., a Bischof control system model as an implementation of the VAST display. Record which gaps you had to fill, and which were directly derived from the theory (maybe with color coding?)\n\n\nBorsboom et al., 2021, p. 761"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#what-is-not-a-theory-4-2",
-    "href": "lectures/TCM/TCM.html#what-is-not-a-theory-4-2",
+    "objectID": "lectures/TCM/TCM.html#tcm-step-4-checking-the-adequacy-of-the-formal-model",
+    "href": "lectures/TCM/TCM.html#tcm-step-4-checking-the-adequacy-of-the-formal-model",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 4",
-    "text": "What is not a theory? 4\n\n\nCBCB, CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0, via Wikimedia Commons"
+    "section": "TCM Step 4️⃣: Checking the adequacy of the formal model",
+    "text": "TCM Step 4️⃣: Checking the adequacy of the formal model\n\n\n“To investigate this question, one must parse the phenomena in the same formal language as the theory. This means that the phenomena themselves have to be formalized.”\n\nBefore you observe any real data, ask (and test): Does the model even work in principle?\n\nSimulate data from the model: Does it produce the core target phenomena?\nSensitivity analysis:\n\nWhat happens if parameters of the model are changed / pushed to the extreme? When does it break?\nHow robust is the explanation across (realistic) changes of parameter settings?\n\nDoes it produce the secondary phenomena, even if they have not been “baked into the model”? (Assuming that multiple phenomena are predicted) → maybe go back to step 3️⃣ or even 2️⃣ to refine theory/model\nExplanatory relevance: Are the explanatory principles actually necessary to explain phenomena? (e.g., it could happen that you remove an element in the model, and the phenomenon still is produced.)\n\n\n\nBorsboom et al., 2021, p. 761"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#what-is-not-a-theory-4-3",
-    "href": "lectures/TCM/TCM.html#what-is-not-a-theory-4-3",
+    "objectID": "lectures/TCM/TCM.html#tcm-step-55-evaluating-the-overall-worth-of-the-constructed-theory",
+    "href": "lectures/TCM/TCM.html#tcm-step-55-evaluating-the-overall-worth-of-the-constructed-theory",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 4",
-    "text": "What is not a theory? 4\n\n\nhttp://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html"
+    "section": "TCM Step 5️⃣5️: Evaluating the overall worth of the constructed theory",
+    "text": "TCM Step 5️⃣5️: Evaluating the overall worth of the constructed theory\n(We’ll do that later)\n\nBorsboom et al., 2021, p. 761"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#what-is-not-a-theory-4-4",
-    "href": "lectures/TCM/TCM.html#what-is-not-a-theory-4-4",
+    "objectID": "lectures/TCM/TCM.html#tcm-example",
+    "href": "lectures/TCM/TCM.html#tcm-example",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 4",
-    "text": "What is not a theory? 4\n\n\nDiagrams (Alone) Are Not Theory\n\n\nDiagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. Probably the least theoretical representations are ones that simply list categories of variables such as “personality,” “environmental determinants,” or “demographics.”\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.html#what-is-not-a-theory-5",
-    "href": "lectures/TCM/TCM.html#what-is-not-a-theory-5",
-    "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 5",
-    "text": "What is not a theory? 5\n\n\nHypotheses (or Predictions) Are Not Theory.\n\n\nHypotheses can be an important part of a well-crafted conceptual argument. They serve as crucial bridges between theory and data, making explicit how the variables and relationships that follow from a logical argument will be operationalized. […]\nHypotheses do not (and should not) contain logical arguments about why empirical relationships are expected to occur. Hypotheses are concise statements about what is expected to occur, not why it is expected to occur.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.html#theories-as-causal-explanations",
-    "href": "lectures/TCM/TCM.html#theories-as-causal-explanations",
-    "title": "Theory Construction Methodology",
-    "section": "Theories as causal explanations",
-    "text": "Theories as causal explanations\n\n“It may be said… that an explanation is not fully adequate unless its explanans, if taken account of in time, could have served as a basis for predicting the phenomenon under consideration…\nIt is this potential predictive force which gives scientific explanation its importance: Only to the extent that we are able to explain empirical facts can we attain the major objective of scientific research, namely not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment”\n\n Hempel & Oppenheim, 1948, (p. 138)"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.html#tcm-a-methodology-for-constructing-theories-1",
-    "href": "lectures/TCM/TCM.html#tcm-a-methodology-for-constructing-theories-1",
-    "title": "Theory Construction Methodology",
-    "section": "TCM: A methodology for constructing theories",
-    "text": "TCM: A methodology for constructing theories\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum). In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nExplanatory Theories are constructed to explain the empirical phenomena that are evidenced by data (i.e., they are the explanans). Explanatory theories can be expressed in terms of a set of linked propositions referring to latent psychological constructs. At least one of these propositions expresses a general principle.\n\n“theory T putatively explains phenomenon P” means “if the world were as T says it is, P would follow as a matter of course.” Although this notion of explanation is arguably incomplete, it has the advantages of being close to the commonsense understanding of the concept and being easy to implement in a formal model—namely by creating a virtual world in which theory T is true and showing that this world will indeed produce phenomenon P.\n\n\n\nSee Borsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.html#theory-definition",
-    "href": "lectures/TCM/TCM.html#theory-definition",
-    "title": "Theory Construction Methodology",
-    "section": "Theory: Definition",
-    "text": "Theory: Definition\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (explanans)\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647\nvan Dongen, N. N. N. et al. (2022, April 13). Productive Explanation: A Framework for Evaluating Explanations in Psychological Science. https://doi.org/10.31234/osf.io/qd69g"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.html#elements-of-a-theory",
-    "href": "lectures/TCM/TCM.html#elements-of-a-theory",
-    "title": "Theory Construction Methodology",
-    "section": "Elements of a theory",
-    "text": "Elements of a theory\n\n\nPhänomen: Eine Eigenschaft der Welt, die hinreichend wenig flüchtig ist, so dass wir diese wahrnehmen und beschreiben können (Explanandum einer Theorie)\nBegriff / Konzept: Semantische Einheit (Konzept), die die Merkmale eines Gegenstandes oder Sachverhaltes vereint. ≠ Wort/Wortmarke\nRelationship\nModell: Vereinfachte Abbildung eines Ausschnitts der Wirklichkeit. Alle Strukturen, die die Sätze einer Theorie erfüllen, sind Modelle dieser Theorie. Oder andersherum ausgedrückt: Eine Theorie kann meist in verschiedenen Modellen implementiert werden, die alle kompatibel zur Theorie sind.\nOperationalisierung: Präzise Angabe (inkl. Begründung), wie ein Begriff (s.o.), zu messen ist.\nDaten: Daten sind öffentliche Aufzeichnungen, die durch Messungen und Experimente erzeugt werden und als Beweis für die Existenz oder Merkmale von Phänomenen dienen. (Woodward, 2009). Daten enthalten das Phänomen, an dem wir interessiert sind, aber auch Rauschen (Messfehler, Verzerrung durch den Experimentator, Transkriptionsfehler). Deshalb erklären Theorien die Phänomene, nicht die Daten. (Fried, 2021)"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.html#exercise",
-    "href": "lectures/TCM/TCM.html#exercise",
-    "title": "Theory Construction Methodology",
-    "section": " Exercise",
-    "text": "Exercise\n\n\n\n\n\n\n\n\nflowchart LR\nP[Phenomenon]\nC[\"Concept (Definition)\"]\nT[Theory]\nM[Model]\nO[Operationalization]\nD[Data]"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.html#an-example",
-    "href": "lectures/TCM/TCM.html#an-example",
-    "title": "Theory Construction Methodology",
-    "section": "An example",
-    "text": "An example\n\n\n\n\n\n\nNote\n\n\n\nLee, D. G., Daunizeau, J., & Pezzulo, G. (2023). Evidence or Confidence: What Is Really Monitored during a Decision? Psychonomic Bulletin & Review, 30(4), 1360–1379. https://doi.org/10.3758/s13423-023-02255-9\n\n\n\nEmpirical Hurdles for Confidence Models to Explain\nThe literature on choice confidence has exposed a variety of different empirical findings. Many of these findings are so robust that it has been proposed that any worthy model of confidence should be able to account for them (Pleskac & Busemeyer, 2010). We here put the cDDM to the test and note that it predominantly passes these hurdles:"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.html#tcm-step-1",
-    "href": "lectures/TCM/TCM.html#tcm-step-1",
-    "title": "Theory Construction Methodology",
-    "section": "TCM: Step 1",
-    "text": "TCM: Step 1\n\nIdentifying relevant phenomena\n\n\n„The phenomena most useful in theory building are not necessarily the most spectacular ones. Instead, it is vitally important to select phenomena that are well established, or even self-evident, because a solid foundation is essential to successful theory construction.“\n\n\nBorsboom et al., 2021, p. 760"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.html#tcm-step-2",
-    "href": "lectures/TCM/TCM.html#tcm-step-2",
-    "title": "Theory Construction Methodology",
-    "section": "TCM: Step 2",
-    "text": "TCM: Step 2\n\nFormulating a prototheory\n\n\n„Of the steps in TCM, the step of generating prototheories is the least methodologically developed. One methodological approach that is available is analogical abduction: If one finds a similar set of phenomena in another field that is better understood, then one can “borrow” explanatory principles from that field to inform one’s own.“\n\n\nBorsboom et al., 2021, p. 761"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.html#tcm-step-3",
-    "href": "lectures/TCM/TCM.html#tcm-step-3",
-    "title": "Theory Construction Methodology",
-    "section": "TCM: Step 3",
-    "text": "TCM: Step 3\n\nDeveloping a formal model\n\n\nBorsboom et al., 2021, p. 761"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.html#tcm-step-4",
-    "href": "lectures/TCM/TCM.html#tcm-step-4",
-    "title": "Theory Construction Methodology",
-    "section": "TCM: Step 4",
-    "text": "TCM: Step 4\n\nChecking the adequacy of the formal model\n\n\n“To investigate this question, one must parse the phenomena in the same formal language as the theory. This means that the phenomena themselves have to be formalized.”\nBefore you observe any real data, ask (and test): Does the model even work in principle?\n\nSimulate data from the model\nDoes it produce the target phenomena?\nSensitivity analysis: What happens if parameters of the model are changed / pushed to the extreme? When does it break?\n\nWhich phenomena can be actually produced by the model? (Assuming that multiple phenomena are predicted)\nWhich choices of the model are arbitrary?\nSensitivity analysis: How robust is the explanation across (realistic) changes of parameter settings?\nExplanatory relevance: Are the explanatory principles actually necessary to explain phenomena? (e.g., it could happen that you remove an element in the model, and the phenomenon still is produced.)\n\n\nBorsboom et al., 2021, p. 761"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.html#tcm-step-5",
-    "href": "lectures/TCM/TCM.html#tcm-step-5",
-    "title": "Theory Construction Methodology",
-    "section": "TCM: Step 5",
-    "text": "TCM: Step 5\n\nEvaluating the overall worth of the constructed theory\n\n\nBorsboom et al., 2021, p. 761"
+    "section": "TCM example",
+    "text": "TCM example"
   },
   {
     "objectID": "lectures/TCM/TCM.html#creative-hypothesis-generating-in-psychology-some-useful-heuristics",
@@ -1953,144 +1869,60 @@
     "text": "TCM: A methodology for constructing theories\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum). In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: Something that explains phenomena of interest (the explanans). But what is a theory?"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-1",
-    "href": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-1",
+    "objectID": "lectures/TCM/TCM.slide.html#definitions",
+    "href": "lectures/TCM/TCM.slide.html#definitions",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 1",
-    "text": "What is not a theory? 1\n(Note: While these features of a scholarly article do not constitute a theory, they might be important in their own right)\n\n\nReferences Are Not Theory\n\n\nA manuscript that Robert Sutton edited had strong data, but all three reviewers emphasized that it had “weak theory” and “poorly motivated hypotheses.” The author responded to these concerns by writing a new introduction that added citations to many papers containing theory and many terms like “psycho-social theory,” “identity theory,” and “social comparison theory.”\nBut it still contained no discussion of what these theories were about and no discussion of the logical arguments why these theories led to the author’s predictions. The result was that this paper contained almost no theory, despite the author’s assertion that much had been added.\n\nSolution:\n\nAuthors need to explicate which concepts and causal arguments are adopted from cited sources and how they are linked to the theory being developed or tested.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "section": "Definitions",
+    "text": "Definitions\nYou know that already …\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character.\n\n\n\n\n\n\n\n\n\nWhat is a formal model?\n\n\nA formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory and the model are sufficiently accurate.\n\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647; van Dongen et al. (2023). https://doi.org/10.31234/osf.io/qd69g"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-2",
-    "href": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-2",
+    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-1-identifying-relevant-phenomena",
+    "href": "lectures/TCM/TCM.slide.html#tcm-step-1-identifying-relevant-phenomena",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 2",
-    "text": "What is not a theory? 2\n\n\nData Are Not Theory\n\n\nEmpirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.\nKaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: Data describe which empirical patterns were observed and theory explains why empirical patterns were observed or are expected to be observed.\n\nAlso: Theories do not explain data - theories explain phenomena!\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "section": "TCM Step 1️⃣: Identifying relevant phenomena",
+    "text": "TCM Step 1️⃣: Identifying relevant phenomena\n\n„The phenomena most useful in theory building are not necessarily the most spectacular ones. Instead, it is vitally important to select phenomena that are well established, or even self-evident, because a solid foundation is essential to successful theory construction.“\n\n\nAssess evidential strength (meta-analyses?)\nAssess risk of bias (red flags for p-hacking?)\nDistinguish…\n\ncore explanatory targets\nsecondary explanatory targets\n\n\n\nBorsboom et al., 2021, p. 760"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-3",
-    "href": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-3",
+    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-2a-formulating-a-prototheory",
+    "href": "lectures/TCM/TCM.slide.html#tcm-step-2a-formulating-a-prototheory",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 3",
-    "text": "What is not a theory? 3\n\n\nLists of Variables or Constructs Are Not Theory\n\n\nPapers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.\nSuch lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.\n\nLists of constructs (without an explicit definition of their causal relationship) often are called a framework.\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "section": "TCM Step 2️⃣a: Formulating a prototheory",
+    "text": "TCM Step 2️⃣a: Formulating a prototheory\n\n„Of the steps in TCM, the step of generating prototheories is the least methodologically developed. One methodological approach that is available is analogical abduction: If one finds a similar set of phenomena in another field that is better understood, then one can “borrow” explanatory principles from that field to inform one’s own.“\n\n\nA small set of general principles, often causal relationships\n\n\nBorsboom et al., 2021, p. 761"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-4",
-    "href": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-4",
+    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-2b-formalizing-an-existing-narrative-theory",
+    "href": "lectures/TCM/TCM.slide.html#tcm-step-2b-formalizing-an-existing-narrative-theory",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 4",
-    "text": "What is not a theory? 4\n\nDiagrams (Alone) Are Not Theory\n\n\n\n\n\n\n\nThis is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)\n\n\n\n\n\n\n\n\n\n\nFig. 1 from Iqbal et al. (2021), based on Bronfenbrenner’s (1979) ecological systems model\n\n\n\nIqbal, S., Zakar, R., & Fischer, F. (2021). Extended Theoretical Framework of Parental Internet Mediation: Use of Multiple Theoretical Stances for Understanding Socio-Ecological Predictors. Frontiers in Psychology, 12, 620838. https://doi.org/10.3389/fpsyg.2021.620838"
+    "section": "TCM Step 2️⃣b: Formalizing an existing narrative theory",
+    "text": "TCM Step 2️⃣b: Formalizing an existing narrative theory\n\nUse the Visual Argument Structure Tool (VAST) to visualize an existing narrative theory\nDo not try to improve it (yet) - show the gaps and inconsistencies"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-4-1",
-    "href": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-4-1",
+    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-3-developing-a-formal-model",
+    "href": "lectures/TCM/TCM.slide.html#tcm-step-3-developing-a-formal-model",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 4",
-    "text": "What is not a theory? 4\n\nFigure 1. Holistic wellbeing model for school education.\nNorozi, S. A. (2023). The Nexus of Holistic Wellbeing and School Education: A Literature-Informed Theoretical Framework. Societies, 13(5), 113. https://doi.org/10.3390/soc13050113"
+    "section": "TCM Step 3️⃣: Developing a formal model",
+    "text": "TCM Step 3️⃣: Developing a formal model\n\nA formal model captures the principles of the explanatory theory in a set of equations or rules (as implemented in a computer program or simulation).\n\n\nE.g., a Bischof control system model as an implementation of the VAST display. Record which gaps you had to fill, and which were directly derived from the theory (maybe with color coding?)\n\n\nBorsboom et al., 2021, p. 761"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-4-2",
-    "href": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-4-2",
+    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-4-checking-the-adequacy-of-the-formal-model",
+    "href": "lectures/TCM/TCM.slide.html#tcm-step-4-checking-the-adequacy-of-the-formal-model",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 4",
-    "text": "What is not a theory? 4\n\n\nCBCB, CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0, via Wikimedia Commons"
+    "section": "TCM Step 4️⃣: Checking the adequacy of the formal model",
+    "text": "TCM Step 4️⃣: Checking the adequacy of the formal model\n\n\n“To investigate this question, one must parse the phenomena in the same formal language as the theory. This means that the phenomena themselves have to be formalized.”\n\nBefore you observe any real data, ask (and test): Does the model even work in principle?\n\nSimulate data from the model: Does it produce the core target phenomena?\nSensitivity analysis:\n\nWhat happens if parameters of the model are changed / pushed to the extreme? When does it break?\nHow robust is the explanation across (realistic) changes of parameter settings?\n\nDoes it produce the secondary phenomena, even if they have not been “baked into the model”? (Assuming that multiple phenomena are predicted) → maybe go back to step 3️⃣ or even 2️⃣ to refine theory/model\nExplanatory relevance: Are the explanatory principles actually necessary to explain phenomena? (e.g., it could happen that you remove an element in the model, and the phenomenon still is produced.)\n\n\n\nBorsboom et al., 2021, p. 761"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-4-3",
-    "href": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-4-3",
+    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-55-evaluating-the-overall-worth-of-the-constructed-theory",
+    "href": "lectures/TCM/TCM.slide.html#tcm-step-55-evaluating-the-overall-worth-of-the-constructed-theory",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 4",
-    "text": "What is not a theory? 4\n\n\nhttp://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html"
+    "section": "TCM Step 5️⃣5️: Evaluating the overall worth of the constructed theory",
+    "text": "TCM Step 5️⃣5️: Evaluating the overall worth of the constructed theory\n(We’ll do that later)\n\nBorsboom et al., 2021, p. 761"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-4-4",
-    "href": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-4-4",
+    "objectID": "lectures/TCM/TCM.slide.html#tcm-example",
+    "href": "lectures/TCM/TCM.slide.html#tcm-example",
     "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 4",
-    "text": "What is not a theory? 4\n\n\nDiagrams (Alone) Are Not Theory\n\n\nDiagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. Probably the least theoretical representations are ones that simply list categories of variables such as “personality,” “environmental determinants,” or “demographics.”\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-5",
-    "href": "lectures/TCM/TCM.slide.html#what-is-not-a-theory-5",
-    "title": "Theory Construction Methodology",
-    "section": "What is not a theory? 5",
-    "text": "What is not a theory? 5\n\n\nHypotheses (or Predictions) Are Not Theory.\n\n\nHypotheses can be an important part of a well-crafted conceptual argument. They serve as crucial bridges between theory and data, making explicit how the variables and relationships that follow from a logical argument will be operationalized. […]\nHypotheses do not (and should not) contain logical arguments about why empirical relationships are expected to occur. Hypotheses are concise statements about what is expected to occur, not why it is expected to occur.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.slide.html#theories-as-causal-explanations",
-    "href": "lectures/TCM/TCM.slide.html#theories-as-causal-explanations",
-    "title": "Theory Construction Methodology",
-    "section": "Theories as causal explanations",
-    "text": "Theories as causal explanations\n\n“It may be said… that an explanation is not fully adequate unless its explanans, if taken account of in time, could have served as a basis for predicting the phenomenon under consideration…\nIt is this potential predictive force which gives scientific explanation its importance: Only to the extent that we are able to explain empirical facts can we attain the major objective of scientific research, namely not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment”\n\n Hempel & Oppenheim, 1948, (p. 138)"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.slide.html#tcm-a-methodology-for-constructing-theories-1",
-    "href": "lectures/TCM/TCM.slide.html#tcm-a-methodology-for-constructing-theories-1",
-    "title": "Theory Construction Methodology",
-    "section": "TCM: A methodology for constructing theories",
-    "text": "TCM: A methodology for constructing theories\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum). In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nExplanatory Theories are constructed to explain the empirical phenomena that are evidenced by data (i.e., they are the explanans). Explanatory theories can be expressed in terms of a set of linked propositions referring to latent psychological constructs. At least one of these propositions expresses a general principle.\n\n“theory T putatively explains phenomenon P” means “if the world were as T says it is, P would follow as a matter of course.” Although this notion of explanation is arguably incomplete, it has the advantages of being close to the commonsense understanding of the concept and being easy to implement in a formal model—namely by creating a virtual world in which theory T is true and showing that this world will indeed produce phenomenon P.\n\n\n\nSee Borsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.slide.html#theory-definition",
-    "href": "lectures/TCM/TCM.slide.html#theory-definition",
-    "title": "Theory Construction Methodology",
-    "section": "Theory: Definition",
-    "text": "Theory: Definition\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (explanans)\n\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647\nvan Dongen, N. N. N. et al. (2022, April 13). Productive Explanation: A Framework for Evaluating Explanations in Psychological Science. https://doi.org/10.31234/osf.io/qd69g"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.slide.html#elements-of-a-theory",
-    "href": "lectures/TCM/TCM.slide.html#elements-of-a-theory",
-    "title": "Theory Construction Methodology",
-    "section": "Elements of a theory",
-    "text": "Elements of a theory\n\n\nPhänomen: Eine Eigenschaft der Welt, die hinreichend wenig flüchtig ist, so dass wir diese wahrnehmen und beschreiben können (Explanandum einer Theorie)\nBegriff / Konzept: Semantische Einheit (Konzept), die die Merkmale eines Gegenstandes oder Sachverhaltes vereint. ≠ Wort/Wortmarke\nRelationship\nModell: Vereinfachte Abbildung eines Ausschnitts der Wirklichkeit. Alle Strukturen, die die Sätze einer Theorie erfüllen, sind Modelle dieser Theorie. Oder andersherum ausgedrückt: Eine Theorie kann meist in verschiedenen Modellen implementiert werden, die alle kompatibel zur Theorie sind.\nOperationalisierung: Präzise Angabe (inkl. Begründung), wie ein Begriff (s.o.), zu messen ist.\nDaten: Daten sind öffentliche Aufzeichnungen, die durch Messungen und Experimente erzeugt werden und als Beweis für die Existenz oder Merkmale von Phänomenen dienen. (Woodward, 2009). Daten enthalten das Phänomen, an dem wir interessiert sind, aber auch Rauschen (Messfehler, Verzerrung durch den Experimentator, Transkriptionsfehler). Deshalb erklären Theorien die Phänomene, nicht die Daten. (Fried, 2021)"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.slide.html#exercise",
-    "href": "lectures/TCM/TCM.slide.html#exercise",
-    "title": "Theory Construction Methodology",
-    "section": " Exercise",
-    "text": "Exercise\n\n\n\n\n\n\n\n\nflowchart LR\nP[Phenomenon]\nC[\"Concept (Definition)\"]\nT[Theory]\nM[Model]\nO[Operationalization]\nD[Data]"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.slide.html#an-example",
-    "href": "lectures/TCM/TCM.slide.html#an-example",
-    "title": "Theory Construction Methodology",
-    "section": "An example",
-    "text": "An example\n\n\n\n\n\n\nNote\n\n\nLee, D. G., Daunizeau, J., & Pezzulo, G. (2023). Evidence or Confidence: What Is Really Monitored during a Decision? Psychonomic Bulletin & Review, 30(4), 1360–1379. https://doi.org/10.3758/s13423-023-02255-9\n\n\n\n\nEmpirical Hurdles for Confidence Models to Explain\nThe literature on choice confidence has exposed a variety of different empirical findings. Many of these findings are so robust that it has been proposed that any worthy model of confidence should be able to account for them (Pleskac & Busemeyer, 2010). We here put the cDDM to the test and note that it predominantly passes these hurdles:"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-1",
-    "href": "lectures/TCM/TCM.slide.html#tcm-step-1",
-    "title": "Theory Construction Methodology",
-    "section": "TCM: Step 1",
-    "text": "TCM: Step 1\n\nIdentifying relevant phenomena\n\n\n„The phenomena most useful in theory building are not necessarily the most spectacular ones. Instead, it is vitally important to select phenomena that are well established, or even self-evident, because a solid foundation is essential to successful theory construction.“\n\n\nBorsboom et al., 2021, p. 760"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-2",
-    "href": "lectures/TCM/TCM.slide.html#tcm-step-2",
-    "title": "Theory Construction Methodology",
-    "section": "TCM: Step 2",
-    "text": "TCM: Step 2\n\nFormulating a prototheory\n\n\n„Of the steps in TCM, the step of generating prototheories is the least methodologically developed. One methodological approach that is available is analogical abduction: If one finds a similar set of phenomena in another field that is better understood, then one can “borrow” explanatory principles from that field to inform one’s own.“\n\n\nBorsboom et al., 2021, p. 761"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-3",
-    "href": "lectures/TCM/TCM.slide.html#tcm-step-3",
-    "title": "Theory Construction Methodology",
-    "section": "TCM: Step 3",
-    "text": "TCM: Step 3\n\nDeveloping a formal model\n\n\nBorsboom et al., 2021, p. 761"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-4",
-    "href": "lectures/TCM/TCM.slide.html#tcm-step-4",
-    "title": "Theory Construction Methodology",
-    "section": "TCM: Step 4",
-    "text": "TCM: Step 4\n\nChecking the adequacy of the formal model\n\n\n“To investigate this question, one must parse the phenomena in the same formal language as the theory. This means that the phenomena themselves have to be formalized.”\nBefore you observe any real data, ask (and test): Does the model even work in principle?\n\nSimulate data from the model\nDoes it produce the target phenomena?\nSensitivity analysis: What happens if parameters of the model are changed / pushed to the extreme? When does it break?\n\nWhich phenomena can be actually produced by the model? (Assuming that multiple phenomena are predicted)\nWhich choices of the model are arbitrary?\nSensitivity analysis: How robust is the explanation across (realistic) changes of parameter settings?\nExplanatory relevance: Are the explanatory principles actually necessary to explain phenomena? (e.g., it could happen that you remove an element in the model, and the phenomenon still is produced.)\n\n\nBorsboom et al., 2021, p. 761"
-  },
-  {
-    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-5",
-    "href": "lectures/TCM/TCM.slide.html#tcm-step-5",
-    "title": "Theory Construction Methodology",
-    "section": "TCM: Step 5",
-    "text": "TCM: Step 5\n\nEvaluating the overall worth of the constructed theory\n\n\nBorsboom et al., 2021, p. 761"
+    "section": "TCM example",
+    "text": "TCM example"
   },
   {
     "objectID": "lectures/TCM/TCM.slide.html#creative-hypothesis-generating-in-psychology-some-useful-heuristics",

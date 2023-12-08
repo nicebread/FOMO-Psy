@@ -746,7 +746,7 @@
     "href": "sessions/sessions_overview.html",
     "title": "Overview of sessions",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 1 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\nSession 2 - Introduction Theories\n\n\nIntro to theory 2; Bischof notation; CFF files\n\n\n\n\nSession 3 - How to define constructs\n\n\nCreate proper definitions for the constructs in our Buri model\n\n\n\n\nSession 4 - Bischof notation\n\n\nLearn the Bischof notation for control systems; apply it to Buri.\n\n\n\n\nSession 5 - Visual Argument Structure Tool (VAST) V1.0\n\n\nGuest lecture by Daniel Leising about VAST\n\n\n\n\nSession 6 - NetLogo implementation of Buri\n\n\nTry to implement your Buri model in Netlogo\n\n\n\n\nSession 7 - Our target theory / NetLogo presentation\n\n\nWe get introduced to our target theory / Showcase the Buri ABM\n\n\n\n\nSession 8 - ABM Workshop Jens Lange\n\n\nWe participate in the ABM workshop by Jens Lange\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 1 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\nSession 2 - Introduction Theories\n\n\nIntro to theory 2; Bischof notation; CFF files\n\n\n\n\nSession 3 - How to define constructs\n\n\nCreate proper definitions for the constructs in our Buri model\n\n\n\n\nSession 4 - Bischof notation\n\n\nLearn the Bischof notation for control systems; apply it to Buri.\n\n\n\n\nSession 5 - Visual Argument Structure Tool (VAST) V1.0\n\n\nGuest lecture by Daniel Leising about VAST\n\n\n\n\nSession 6 - NetLogo implementation of Buri\n\n\nTry to implement your Buri model in Netlogo\n\n\n\n\nSession 7 - Our target theory / NetLogo presentation\n\n\nWe get introduced to our target theory / Showcase the Buri ABM\n\n\n\n\nSession 8 - First steps in theory formalization\n\n\nWe do the first steps in TCM of our chosen theory\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/S6-NetLogo.html",
@@ -784,11 +784,18 @@
     "text": "2.4 (optional) Many donkeys: Parameter optimization\nIn NetLogo, it is very easy to create many agents of the same kind. Instead of manually optimizing the free parameters, you can use algorithms, such as an evolutionary algorithm, to find the best parameter settings.\n\n\n\n\n\n\nNote\n\n\n\nAlways keep in mind: Evolution needs (a) variation (usually induced by mutation or recombination) and (b) selection.\n\n\nMany optimization algorithms are possible; here are some suggestions (with increasing complexity).\n\n2.4.1 Who survives the longest?\n\nCreate many Donkeys with varying settings of their parameters (i.e. in the setup function for the donkeys). Some possibilities for creating variation:\n\n“Random search”: Set parameters randomly within the allowed parameter range.\n“Grid search”: Create systematic combinations all parameters.\n\nRun the simulation, see which donkeys survive the longest.\n\n\n\n2.4.2 Evolutionary algorithm\n\nCreate many Donkeys with varying settings of their parameters (see above)\nAfter some time let the worst-performing die (i.e., those who are dead anyway, or have the lowest health value) → Selection\nOf those which survive, create offspring which has some random variation of their (single) parent (i.e., take the parameter settings of the surviving donkey, add some random noise to the settings, and create offspring with the updates settings) → Mutation/Variation\n\nNetLogo has many built-in functions for these evolutionary steps; for example:\n\nsetxy random-xcor random-ycor: Let agents start at a random position\nhatch is a primitive that creates a provided number of identical copies of a turtle (i.e., the offspring). It allows optional rules defined for the new turtles by following it with brackets [] (see help page).\nmax-n-of and min-n-of: Select the n agents with the highest or lowest value in a property (see help file). Here’s some pseudo-code, selecting the 10 buris with the highest and lowest value in health:\n\n; reproduction: the 10 fittest buris reproduce (2 kids)\nask max-n-of 10 buris [health] [\n\n  ; save the value of property1 of the parent in a variable\n  let prev_property1 property1\n\n  ; create 2 offsprings with random variation\n  hatch 2 [\n    lt 45  ; turn away\n    fd 1   ; walk away from parent to make it visible\n\n    ; add random variation to property1 of the offspring\n    set property1 prev_property1 - 0.025 + random-float 0.05\n    output-print (word \"Old property1: \" prev_property1 \"; new property1: \" property1)\n  ]\n]\n\n; death: the 10 unfittest buris die\nask min-n-of 10 buris [health] [\n    die\n]\nMonitor the distribution of parameter settings in the population of donkeys: Across evolving generations, it (often) will converge to the optimal values.\n\n\n\n\n\n\nNote\n\n\n\nExcept for an exhaustive search that enumerates all possible combinations of the entire parameter space, there’s no guarantee that optimization algorithms converge to the (globally) optimal solution. For example, they can get stuck in local optima. In this case, larger mutations in an evolutionary algorithm are helpful, because they allow to “jump” out of the local minimum/maximum and to find a better solution.\n\n(Image from http://turingfinance.com)"
   },
   {
-    "objectID": "sessions/S8-ABM-Workshop.html",
-    "href": "sessions/S8-ABM-Workshop.html",
-    "title": "Session 8 - ABM Workshop Jens Lange",
+    "objectID": "sessions/S8-TheoryFormalization1.html",
+    "href": "sessions/S8-TheoryFormalization1.html",
+    "title": "Session 8 - First steps in theory formalization",
     "section": "",
-    "text": "1 Overview\n\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWorkshop: ABMs by Jens Lange\nTODO times\n\n\n\n[Homework]: First steps in theory formalization (VAST)\n-\n\n\n\n\n\n\n2 Homework (group assignment)\nTBD"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWorkshop: Start formalizing\n\n\n\n\n[Homework]: ???\n-"
+  },
+  {
+    "objectID": "sessions/S8-TheoryFormalization1.html#decisions-we-made-together-with-the-expert-researcher",
+    "href": "sessions/S8-TheoryFormalization1.html#decisions-we-made-together-with-the-expert-researcher",
+    "title": "Session 8 - First steps in theory formalization",
+    "section": "3.1 Decisions we made together with the expert researcher:",
+    "text": "3.1 Decisions we made together with the expert researcher:\nFor limiting the scope of the formalization exercise, we decided to focus on these variables:\n\n“Valence of imagination” as moderating variable: This is theoretically important, but there is conflicting empirical evidence (the valence doesn’t seem to make a difference; see meta-analysis of Miles & Crisp, 2014)\nAffective processes as mediating variable\n\nErst die Prozessvariablen machen aus der Hypothese eine Erklärung. Aber die Erklärung ist recht unterspezifiziert: was genau heißt “die Einstellung ändert sich”. Was genau? Die Valenz? Der Inhalt? die gefühlte Distanz zur outgroup Eine Möglichkeit: Ängste reduzieren.\n\nPrimary outcomes:\n\n“Im Kern der ursprünglichen Hypothese liegt die outgroup perception (welche ein Oberbegriff von”Einstellung” und/oder die “Vorurteile” ist (Einstellungen werden als Proxy für Vorurteile genommen)”\n(Self-reported) approach tendencies\n\nWe do not model actual behavior, as this is too multi-determined. Hence, everything happens “within the mind” of the actors."
   },
   {
     "objectID": "common/lastslide.html",
@@ -1166,7 +1173,49 @@
     "href": "sessions/S7-OurTheory.html",
     "title": "Session 7 - Our target theory / NetLogo presentation",
     "section": "",
-    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWrap-up: Netlogo implementations\n60\n\n\n\nLecture: TCM: Concrete steps\n30\nSlides\n\n\nWorkshop: Introduce and discuss our target theory with a researcher\n90\n\n\n\nWorkshop: Decide upon sub-topics, form new working groups, make a plan\n30\n\n\n\nHomework:\n-\n\n\n\n\n\n\n2 Introduce and discuss our target theory with a researcher\nTBD: Guiding questions\n\n\n3 Decide upon sub-topics, form new working groups, make a plan\n\nTask 1: Identify relevant phenomena\nFormulate a prototheory: Create a VAST display\nDevelop a formal model:\n\nDevelop a Bischof control system display\nImplement in a programming language\n\nCheck the adequacy of the formal model\n\nDo sensitivity analyses etc.\n\nEvaluate the overall worth of the constructed theory\n\n\n\n\nDate\nSession\nTasks\n\n\n\n\n8.12.\nABM workshop\n\n\n\n15.12.\n\n\n\n\n22.12\nonline session?\n\n\n\n12.1.\nSecond session with researcher\nQuestions & Clarifications\n\n\n19.1.\n(work on theory without Felix)\n\n\n\n26.1.\n\n\n\n\n2.2.\n(work on theory without Felix)\n\n\n\n??.2.\nFinal presentation of model(s)\n\n\n\n\n\n\n4 Homework\nDo all remaining steps that your Buri model and implementation is ready for “publication”. This is the final step; we want to close this sub-project then."
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up: Netlogo implementations\n60\n\n\n\nLecture: TCM: Concrete steps\n30\nSlides\n\n\nWorkshop: Introduce and discuss our target theory with a researcher\n90\n\n\n\nWorkshop: Decide upon sub-topics, form new working groups, make a plan\n30\n\n\n\nHomework:\n-"
+  },
+  {
+    "objectID": "sessions/S7-OurTheory.html#typical-dvs",
+    "href": "sessions/S7-OurTheory.html#typical-dvs",
+    "title": "Session 7 - Our target theory / NetLogo presentation",
+    "section": "6.1 Typical DVs:",
+    "text": "6.1 Typical DVs:\n\nTolerance\n\nAttitudes (explicitly and implicitly measured)\nself-efficacy\n\nEngagement\n\nBehavior(al intentions)\nApproach tendencies"
+  },
+  {
+    "objectID": "sessions/S7-OurTheory.html#affective-and-cognitive-processes-within-the-organism-box",
+    "href": "sessions/S7-OurTheory.html#affective-and-cognitive-processes-within-the-organism-box",
+    "title": "Session 7 - Our target theory / NetLogo presentation",
+    "section": "6.2 Affective and cognitive processes (within the “organism” box)",
+    "text": "6.2 Affective and cognitive processes (within the “organism” box)\n\naffective: anxiety, trust\ncognitive: behavioural script availability"
+  },
+  {
+    "objectID": "sessions/S7-OurTheory.html#antecedents",
+    "href": "sessions/S7-OurTheory.html#antecedents",
+    "title": "Session 7 - Our target theory / NetLogo presentation",
+    "section": "6.3 Antecedents",
+    "text": "6.3 Antecedents\nAspects that moderate the phenomenon. - task-focused - Elaboration - perceptual focus - perspective taken - typicality of outgroup member - perceiver-focused - prior contact - majority / minority status of outgroup in relation to ingroup (?) - identification (salience of ingroup membership)"
+  },
+  {
+    "objectID": "sessions/S7-OurTheory.html#evidence---which-phenomena-are-robust",
+    "href": "sessions/S7-OurTheory.html#evidence---which-phenomena-are-robust",
+    "title": "Session 7 - Our target theory / NetLogo presentation",
+    "section": "6.4 Evidence - which phenomena are robust?",
+    "text": "6.4 Evidence - which phenomena are robust?\n\nDepends on type of outgroup, in interaction with the strength of one’s own identification strength with the ingroup\nThe valence of imagined actually makes no difference"
+  },
+  {
+    "objectID": "sessions/S7-OurTheory.html#new-hypotheses",
+    "href": "sessions/S7-OurTheory.html#new-hypotheses",
+    "title": "Session 7 - Our target theory / NetLogo presentation",
+    "section": "6.5 New Hypotheses",
+    "text": "6.5 New Hypotheses\n\nThe distance between in- and outgroup (e.g. age categories, distance between countries) moderates the effect.\nPrejudice could be defined as “invalid and negative assumptions about other groups”. Contact make the assumptions more valid and more positive.\nWenn Null vorheriger Kontakt, was soll man dann imaginieren?\n\nEmpiri zeigt: Effekt ist stärker, wenn kein vorheriger Kontakt da war."
+  },
+  {
+    "objectID": "sessions/S7-OurTheory.html#feedback",
+    "href": "sessions/S7-OurTheory.html#feedback",
+    "title": "Session 7 - Our target theory / NetLogo presentation",
+    "section": "6.6 Feedback",
+    "text": "6.6 Feedback\n\nThe differentiation between antecedents and processes is not really clear - “elaboration” could also be a process variable.\n\nAntecedents are typically moderators, processes are mediators.\nWhich of the two mediator paths (a or b) are moderated by antecedents? –&gt; most/all probably on (a) path (between intervention and process)\nAntecedents are also related to who receives treatment"
   },
   {
     "objectID": "skills/Scaling/Scaling.html",

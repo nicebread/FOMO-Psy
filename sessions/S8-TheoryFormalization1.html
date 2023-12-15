@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="We do the first steps in TCM of our chosen theory">
+<meta name="description" content="We do the first step of TCM of our chosen theory: Identify relevant phenomena">
 
-<title>FOMO-Psy: Formal Modeling of Psychological Theories - Session 8 - First steps in theory formalization</title>
+<title>FOMO-Psy: Formal Modeling of Psychological Theories - Session 8 - Step 1 in TCM</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -150,8 +150,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#decisions-we-made-together-with-the-expert-researcher" id="toc-decisions-we-made-together-with-the-expert-researcher" class="nav-link" data-scroll-target="#decisions-we-made-together-with-the-expert-researcher"><span class="header-section-number">3.1</span> Decisions we made together with the expert researcher:</a></li>
   </ul></li>
   <li><a href="#practical-first-steps" id="toc-practical-first-steps" class="nav-link" data-scroll-target="#practical-first-steps"><span class="header-section-number">4</span> Practical first steps:</a></li>
-  <li><a href="#task-1-identify-relevant-phenomena" id="toc-task-1-identify-relevant-phenomena" class="nav-link" data-scroll-target="#task-1-identify-relevant-phenomena"><span class="header-section-number">5</span> Task 1: Identify relevant phenomena</a></li>
-  <li><a href="#speicher-what-are-robust-phenomena" id="toc-speicher-what-are-robust-phenomena" class="nav-link" data-scroll-target="#speicher-what-are-robust-phenomena"><span class="header-section-number">6</span> Speicher: What are robust phenomena</a></li>
+  <li><a href="#task-1-identify-relevant-phenomena" id="toc-task-1-identify-relevant-phenomena" class="nav-link" data-scroll-target="#task-1-identify-relevant-phenomena"><span class="header-section-number">5</span> Task 1: Identify relevant phenomena</a>
+  <ul class="collapse">
+  <li><a href="#concrete-steps" id="toc-concrete-steps" class="nav-link" data-scroll-target="#concrete-steps"><span class="header-section-number">5.1</span> Concrete steps</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -160,12 +162,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Session 8 - First steps in theory formalization</h1>
+<h1 class="title">Session 8 - Step 1 in TCM</h1>
 </div>
 
 <div>
   <div class="description">
-    We do the first steps in TCM of our chosen theory
+    We do the first step of TCM of our chosen theory: Identify relevant phenomena
   </div>
 </div>
 
@@ -200,7 +202,7 @@ ul.task-list li input[type="checkbox"] {
 <td></td>
 </tr>
 <tr class="even">
-<td><strong>[Homework]</strong>: ???</td>
+<td><strong>[Homework]</strong>: Finalize step 1</td>
 <td>-</td>
 <td></td>
 </tr>
@@ -210,41 +212,42 @@ ul.task-list li input[type="checkbox"] {
 <section id="tcm-steps" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> TCM steps</h1>
 <ol type="1">
-<li><label><input type="checkbox">Task 1: Identify relevant phenomena</label></li>
-<li><label><input type="checkbox">Formulate a prototheory: Create a VAST display</label></li>
+<li><strong>TODAY: Identify relevant phenomena</strong></li>
+<li>Formulate a prototheory: Create a VAST display</li>
 <li>Develop a formal model:
-<ul class="task-list">
-<li><label><input type="checkbox">Develop a Bischof control system display?</label></li>
-<li><label><input type="checkbox">Implement in a programming language?</label></li>
+<ul>
+<li>Develop a Bischof control system display?</li>
+<li>Implement in a programming language?</li>
 </ul></li>
 <li>Check the adequacy of the formal model
-<ul class="task-list">
-<li><label><input type="checkbox">Do sensitivity analyses etc.</label></li>
+<ul>
+<li>Do sensitivity analyses etc.</li>
 </ul></li>
-<li><label><input type="checkbox">Evaluate the overall worth of the constructed theory</label></li>
+<li>Evaluate the overall worth of the constructed theory</li>
 </ol>
 </section>
 <section id="possible-approaches" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> Possible approaches</h1>
-<p>Formalization approaches can differ in their <em>starting point</em> (which often are not clear-cut distinct, but blurry):</p>
+<p>Formalization approaches can differ in their <em>starting point</em> (which often are not clear-cut distinct):</p>
 <ul>
-<li>(A): <strong>Start with the verbal theory</strong>, formalize it as it is.
+<li>(A.) <strong>Start with the verbal theory</strong>, formalize it as it is.
 <ul>
 <li>Interpret the verbal statements, make them more precise, visualize as a VAST display</li>
 <li>Ignore empirical evidence (even if a hypothesized effect has already been empirically rejected, keep it in the model)</li>
+<li>Do not fix inconsistencies, do not improve the theory: We want to make explicit what the original had in mind with their theory.</li>
 </ul></li>
-<li>(B1) - <strong>TCM approach: Start with robust phenomena</strong>, invent an explanatory theory and formal model
+<li>(B1.) <strong>TCM approach: Start with robust phenomena</strong>, invent an explanatory theory and formal model
 <ul>
 <li>Ignore existing verbal theories (which might be hard once you know them)</li>
 <li>This will (potentially) lead to an alternative theory/model to the existing theory</li>
 </ul></li>
-<li>(B2) - <strong>Demiurg approach: Start with an adaptive problem</strong>, construct an organism that is able to solve the problem
+<li>(B2.) <strong>Demiurg approach: Start with an adaptive problem</strong>, construct an organism that is able to solve the problem
 <ul>
-<li>Potential (draft) formulation of an adaptive problem: “For social mammals, contact to other groups is both a source of opportunities (genetical diversity for mating, knowledge exchange, exploitation) and risks (getting exploited / killed, …). Organisms need to decide when to get in intergroup contact (and )”</li>
+<li>Potential (draft) formulation of an adaptive problem: “For social mammals, contact to other groups is both a source of opportunities (genetical diversity for mating, knowledge exchange, exploitation) and risks (getting exploited / killed, …). Organisms need to decide when to get in intergroup contact.”</li>
 <li>The design of the organism should be based on prior knowledge of capabilities and limitations of organisms</li>
 <li>The adaptive problem often implicitly is informed by evidence and phenomena: We know that organisms are capable of solving that in some way.</li>
 </ul></li>
-<li><strong>A-B fusion</strong>: Starting point is the narrative theory, but you limit your formalization to those aspects which are (a) theoretically central OR (b) relate to robust phenomena.</li>
+<li>(A-B.) <strong>A-B fusion</strong>: Starting point is the narrative theory, but you limit your formalization to those aspects which are (a) theoretically central OR (b) relate to robust phenomena.</li>
 </ul>
 <section id="decisions-we-made-together-with-the-expert-researcher" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="decisions-we-made-together-with-the-expert-researcher"><span class="header-section-number">3.1</span> Decisions we made together with the expert researcher:</h2>
@@ -258,6 +261,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Primary outcomes:
 <ul>
 <li>“Im Kern der ursprünglichen Hypothese liegt die outgroup perception (welche ein Oberbegriff von”Einstellung” und/oder die “Vorurteile” ist (Einstellungen werden als Proxy für Vorurteile genommen)”</li>
+<li>“Einstellung” als weiteres Konstrukt aufnehmen (vor der approach tendency)? Zu komplex/schwammig? Wie ist dieses Konstrukt im Kontext <em>dieser</em> Theorie definiert? –&gt; wenn dann irgendwie konkretisieren</li>
+<li>Einstellung hat drei Komponenten: kognitiv, affektiv, beharioval tendency</li>
 <li>(Self-reported) approach tendencies
 <ul>
 <li>We do not model actual behavior, as this is too multi-determined. Hence, everything happens “within the mind” of the actors.</li>
@@ -269,42 +274,47 @@ ul.task-list li input[type="checkbox"] {
 <section id="practical-first-steps" class="level1" data-number="4">
 <h1 data-number="4"><span class="header-section-number">4</span> Practical first steps:</h1>
 <ul>
-<li>Work as one or two groups?</li>
-<li>Create a new Github repository for each group. Initialize with a README; create a <code>dev</code> branch, start working there.</li>
-<li>Create a markdown document (or multiple documents, for each task).</li>
+<li>Work as one or two groups?
+<ul>
+<li>Collect definitions and relevant phenomena in the entire group (so that all have the same foundation)</li>
+<li>Strive for one common model</li>
+<li>Assign subtasks to subgroups, results are discussed and get merged (as a consensus) into the joint model</li>
+<li>Faster if one group</li>
+</ul></li>
+<li>Create a new Github repository. Initialize with a README; create a <code>dev</code> branch, start working there.</li>
+<li>Google doc with “how to”: Collect all practical tipps and decisions that helped you to accomplish this task</li>
+<li>Enter your notes (during the working session) into collaborative markdown documents (e.g., on HedgeDoc). At the end of the working session, add/update the markdown doc in the Github repo.</li>
 </ul>
 </section>
 <section id="task-1-identify-relevant-phenomena" class="level1" data-number="5">
 <h1 data-number="5"><span class="header-section-number">5</span> Task 1: Identify relevant phenomena</h1>
-<p>Goal: Identify and define empirically robust phenomena.</p>
-<p>Robust = … - strong empirical evidence - generalizable (cf.&nbsp;UTOS framework): The effect has been shown for different <span class="hl">Units</span>, with different operationalizations of <span class="hl">Treatments</span> and <span class="hl">Outcomes</span>, and in multiple <span class="hl">Settings</span></p>
+<p>Goal: Identify and define empirically <strong>robust</strong> phenomena.</p>
+<p>Robustness has two dimensions:</p>
+<ul>
+<li>strong empirical evidence</li>
+<li>generalizable (cf.&nbsp;UTOS framework): The effect has been shown for different <span class="hl">Units</span>, with different operationalizations of <span class="hl">Treatments</span> and <span class="hl">Outcomes</span>, and in multiple <span class="hl">Settings</span></li>
+</ul>
+<section id="concrete-steps" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="concrete-steps"><span class="header-section-number">5.1</span> Concrete steps</h2>
 <ol type="1">
-<li>Search the two meta-analyses for our focal variables</li>
-<li>Do a broader literature search for more evidence.</li>
+<li>Search meta-analyses for our focal variables</li>
+<li>Do a broader literature search for more evidence. If necessary go on the level of primary studies.</li>
 <li>Assess the robustness:
 <ol type="1">
 <li>How strong is the evidence? (number <em>k</em> of studies in a meta-analysis, strength of evidence, risk of bias)</li>
 <li>How generalizable is it? Go through UTOS dimensions and evaluate which types of generalization have been shown.</li>
 </ol></li>
-<li>Use the primary literature (the overview chapter and additional papers) to define our focal constructs.
+<li>Use the primary literature to define the focal constructs.
 <ol type="1">
-<li>Search for definitions, collect them in a document.</li>
+<li>Search for definitions, collect them in a document (remember to provide precise references, with page number).</li>
 <li>Compare different definitions (maybe in a table?)</li>
-<li>Agree on consensus working definitions for the context of our project.</li>
-<li>Create a VAST display with naming relationships (copy &amp; paste or paraphrase existing text)</li>
+<li>(optional) If no single existing definition is sufficient, agree on a consensus working definition for the context of our project.</li>
+<li>Create a first VAST display with constructs and naming relationships (use either verbal quotes or your consensus definition)</li>
 </ol></li>
 </ol>
+
+
 </section>
-<section id="speicher-what-are-robust-phenomena" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Speicher: What are robust phenomena</h1>
-<ul>
-<li>Nationality und age für starke outgroup Effekte
-<ul>
-<li>Theorie ist agnostisch was die Art der Outgroup betrifft - die Theorie sagt für alle gleichermaßen den Effekt voraus. (Ein möglicher Moderator wäre die Identifikationsstärke mit der Ingroup)</li>
-</ul></li>
-</ul>
-
-
 </section>
 
 </main> <!-- /main -->

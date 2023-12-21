@@ -157,8 +157,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#definitions" id="toc-definitions" class="nav-link" data-scroll-target="#definitions">1. Definitions</a></li>
   <li><a href="#robust-phenomena" id="toc-robust-phenomena" class="nav-link" data-scroll-target="#robust-phenomena">2. Robust Phenomena</a></li>
   </ul></li>
-  <li><a href="#how-to-assess-strength-of-evidence" id="toc-how-to-assess-strength-of-evidence" class="nav-link" data-scroll-target="#how-to-assess-strength-of-evidence">How to assess “strength of evidence”</a></li>
-  <li><a href="#how-to-assess-generalizability" id="toc-how-to-assess-generalizability" class="nav-link" data-scroll-target="#how-to-assess-generalizability">How to assess “generalizability”</a>
+  <li><a href="#how-to-jointly-assess-strength-of-evidence-and-generalizability" id="toc-how-to-jointly-assess-strength-of-evidence-and-generalizability" class="nav-link" data-scroll-target="#how-to-jointly-assess-strength-of-evidence-and-generalizability">How to jointly assess “strength of evidence” and “generalizability”</a>
   <ul class="collapse">
   <li><a href="#applying-the-heuristic-to-manylabs2" id="toc-applying-the-heuristic-to-manylabs2" class="nav-link" data-scroll-target="#applying-the-heuristic-to-manylabs2">Applying the heuristic to ManyLabs2</a></li>
   </ul></li>
@@ -319,10 +318,11 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="robust-phenomena">2. Robust Phenomena</h3>
 <p>Phenoma describe relations between our focal constructs.</p>
 <p>Robustness of phenomena has two dimensions:</p>
-<ul>
-<li>strong empirical evidence</li>
-<li>generalizable (cf.&nbsp;<a href="../lectures/Intro1/FOMO-Psy_1_Data_phenomena.html#the-relation-of-data-and-phenomena-2">UTOS framework</a>): The effect has been shown for different <span class="hl">Units</span>, with different operationalizations of <span class="hl">Treatments</span> and <span class="hl">Outcomes</span>, and in multiple <span class="hl">Settings</span></li>
-</ul>
+<ol type="A">
+<li>strong empirical <strong>evidence</strong></li>
+<li><strong>generalizability</strong> (cf.&nbsp;<a href="../lectures/Intro1/FOMO-Psy_1_Data_phenomena.html#the-relation-of-data-and-phenomena-2">UTOS framework</a>): The effect has been shown for different <span class="hl">U</span>nits, with different operationalizations of <span class="hl">T</span>reatments and <span class="hl">O</span>utcomes, and in multiple <span class="hl">S</span>ettings</li>
+</ol>
+<p>Practically, you should do the following steps to assess these two dimensions:</p>
 <ol type="1">
 <li>Search for meta-analyses that report on phenomena with our focal variables</li>
 <li>Only if no meta-analysis is available, or it is not helpful: Do a broader literature search on the level of primary studies.</li>
@@ -335,19 +335,24 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 </section>
 </section>
-<section id="how-to-assess-strength-of-evidence" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-assess-strength-of-evidence">How to assess “strength of evidence”</h2>
-<p>TODO</p>
-</section>
-<section id="how-to-assess-generalizability" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-assess-generalizability">How to assess “generalizability”</h2>
+<section id="how-to-jointly-assess-strength-of-evidence-and-generalizability" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-jointly-assess-strength-of-evidence-and-generalizability">How to jointly assess “strength of evidence” and “generalizability”</h2>
+<p>The strength of evidence relates to the question, how conclusive the empirical evidence is with regard to the question of generalizability.</p>
 <p>When you assess the generalizability, you should distinguish <strong>three prototypical epistemic states</strong>:</p>
 <ul>
 <li>“I know that it is generalizable.”</li>
 <li>“I know that it is not generalizable.”</li>
 <li>“I do not know whether it is generalizable or not - with the given empirical evidence I cannot answer this question.”</li>
 </ul>
-<p>As the strength of evidence can be continuous, the situation can be visualizes on a graph (see Figure 1):</p>
+<p>When is the strength of evidence strong? If …</p>
+<ul>
+<li>you have many studies,</li>
+<li>that cover a considerable part of the space of possible generalizations,</li>
+<li>which are methodologically sound (i.e., valid),</li>
+<li>and show (at least in sum) a decisive statistical result into either direction (i.e., either for a difference, or for a null effect)</li>
+</ul>
+<p>As a sidenote: Ideally, evidence is quantified with a statistical technique that also allows to measure evidence <em>for</em> the null hypothesis and that gives a continuous quantification of the strength of evidence. A Bayes factor provides both desiderata.</p>
+<p>As the strength of evidence can be continuous, the situation can be visualized on a graph (see Figure 1):</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../common/Generalizability_space.png" class="img-fluid figure-img"></p>
@@ -359,14 +364,15 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>(A)</strong>: Many variations have been tested and led to very different results, maybe even with a sign flip. This is strong evidence that the phenomenon <strong>is not</strong> generalizable.</li>
 <li><strong>(B)</strong>: Many variations have been tested and all led to comparable results. This is strong evidence that the phenomenon <strong>is</strong> generalizable - at least within the space of sampled variations.</li>
 <li><strong>(C)</strong>: Few variations have been tested and led to quite different results. This is weak evidence that the phenomenon <strong>is not</strong> generalizable.</li>
-<li><strong>(D)</strong>: Few variations have been tested and all led to comparable results. This is weak evidence that the phenomenon <strong>is</strong> generalizable.</li>
+<li><strong>(D)</strong>: Few variations have been tested and all led to comparable results. This is weak evidence that the phenomenon <strong>is</strong> generalizable. As we don’t know about the untested variations, the evidence principally cannot be very strong.</li>
 <li><strong>(E)</strong>: Only one variation has been tested. It is principally unknowable whether the result generalizes to other variations; the evidence is totally inconclusive. We can only conclude that we cannot conclude anything about generalizability. This also implies, that the question of generalizability cannot be answered if only a single (or very few) studies are available, or if the existing studies have no variation in the respective UTOS dimensions.</li>
+<li><strong>(F)</strong>: Although many variations have been tested, the evidence is still inconclusive. There are descriptive differences between variations, but they are small, and it is not clear if these differences are statistically significant and substantial.</li>
 </ul>
-<p>The dashed line symbolizes the space of possible combinations: With very small samples, it is very unliekly (or even impossible) to generate strong evidence in either direction.</p>
+<p>The dashed line symbolizes the space of possible combinations: With a very small count of realized variations, it is very unlikely (or even impossible) to generate strong evidence in either direction.</p>
 <p>An open question of course is, how close results should be to speak of high generalizability? Do the results in the right half of the plot have to be nearly identical? How much heterogeneity is allowed?</p>
 <section id="applying-the-heuristic-to-manylabs2" class="level3">
 <h3 class="anchored" data-anchor-id="applying-the-heuristic-to-manylabs2">Applying the heuristic to ManyLabs2</h3>
-<p>All four UTOS dimensions can get an independent assessment. Consider the <a href="https://journals.sagepub.com/doi/10.1177/2515245918810225">ManyLabs2 study</a>: The identical experiment (except translation of materials) has been administered online in very diverse samples (at least diverse with respect to nationality and cultural background). Hence, there was high variation in the U(nits) and the S(ettings) dimensions, but very low variation in the T(reatment) and O(utcome) dimension. Non-zero effects were found with remarkably low variability across samples: “Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied” (quoted from the Abstract).</p>
+<p>All four UTOS dimensions can get an independent assessment. Consider the <a href="https://journals.sagepub.com/doi/10.1177/2515245918810225">ManyLabs2 study</a>: The identical experiment (except translation of materials) has been administered online in very diverse samples (at least diverse with respect to nationality and cultural background). Hence, there was high variation in the U(nits) and the S(ettings) dimensions, but very low variation in the T(reatment) and O(utcome) dimension. Non-zero effects could be found with remarkably low variability across samples: “Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied” (quoted from the Abstract).</p>
 <p>Hence, a stylized analysis of the ML2 study could look like:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">

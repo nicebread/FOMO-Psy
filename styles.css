@@ -1,1 +1,16 @@
 /* css styles */
+
+.hl {
+    background-color: var(--col, #ffff00);
+    padding: 0.1em;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+.smaller {
+    font-size: 80%;
+}
+
+.smallest {
+  font-size: 60%;
+}

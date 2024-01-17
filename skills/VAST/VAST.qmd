@@ -37,6 +37,17 @@ This presentation is a stump. Please use Daniel [Leising's slides](doc/Leising_2
 
 TODO Show example.
 
+## Notes on the different types of relationships
+
+- Relationships between constructs can be ...
+	- on a theoretical level. Then it's typically a causal path (c)
+	- on empirical level: A relationship has been found! This is a prediction path (p)
+	- Research cycle: One author's p-path is the next author's theoretical c-path
+- Consider what you want to formalize:
+  - A certain author's theoretical point of view at a certain point in time?
+  - Or your personal, current point of view?
+  - The empirical support for a statement?
+  
 ## Theory vs. Model
 
 In order to translate a theory into a model, one needs to ...

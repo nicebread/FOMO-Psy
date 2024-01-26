@@ -6,3 +6,11 @@
     border-radius: 5px;
     display: inline-block;
   }
+
+.smaller {
+    font-size: 80%;
+}
+
+.smallest {
+  font-size: 60%;
+}

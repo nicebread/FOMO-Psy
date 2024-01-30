@@ -339,12 +339,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>logistic <span class="ot">&lt;-</span> <span class="cf">function</span> (x, <span class="at">d =</span> <span class="dv">0</span>, <span class="at">a =</span> <span class="dv">1</span>, <span class="at">min =</span> <span class="dv">0</span>, <span class="at">max =</span> <span class="dv">1</span>) {</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    min <span class="sc">+</span> (max <span class="sc">-</span> min)<span class="sc">/</span>(<span class="dv">1</span> <span class="sc">+</span> <span class="fu">exp</span>(a <span class="sc">*</span> (d <span class="sc">-</span> x)))</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a> min <span class="sc">+</span> (max <span class="sc">-</span> min)<span class="sc">/</span>(<span class="dv">1</span> <span class="sc">+</span> <span class="fu">exp</span>(a <span class="sc">*</span> (d <span class="sc">-</span> x)))</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="S10-TCM_Step3_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="480"></p>
+</div>
+</div>
+<p>These parameters can be used to “squeeze” the S-shaped curve into the range of your variables. For example, if your <span class="math inline">\(x\)</span> variable is defined on the range <span class="math inline">\([0; 1]\)</span>, the following function parameters lead to a reasonable shift:</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="S10-TCM_Step3_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="480"></p>
 </div>
 </div>
 <p>Of course, this is just a start - you can use the full toolbox of mathematical functions to implement your model!</p>
@@ -381,7 +387,11 @@ Note
 </section>
 <section id="step-4-simulate-a-full-data-set" class="level2">
 <h2 class="anchored" data-anchor-id="step-4-simulate-a-full-data-set">Step 4: Simulate a full data set</h2>
-<p>Real participants bring variability in practical every variable. Assume a specific distribution of all input variables that participants bring to the experiment. Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications. This works best if the scaling of your variable (as defined in Step 1) already has an empirical grounding or can be related to such one (e.g., via <em>z</em>-standardization).</p>
+<p>Which input variables do your simulated participants bring to the experiment? Real participants bring <strong>variability</strong> in these variables.</p>
+<p>Assume a specific distribution of all input variables that participants bring to the experiment. Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications.</p>
+<p>Maybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via <em>z</em>-standardization).</p>
+<p>Once all of these values are defined, simulate a sample of participants (with their starting values), and put half of them into the experimental group, and half of them into the control group. Use the resulting output values to computer a regular t-test.</p>
+<p>Now the question is: Does the simulated model produce the effect? How large is the effect size? What happens if you change some of the functional parameters?</p>
 
 
 </section>

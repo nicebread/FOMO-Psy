@@ -455,6 +455,13 @@
     "text": "Explicate different perspectives and analysts\n\nWhose perspective is displayed?\nWho made the analysis?\n\nE.g. Analyst Robert displays the perspective of Berta:\n\n\nTODO Show example."
   },
   {
+    "objectID": "skills/VAST/VAST.slide.html#notes-on-the-different-types-of-relationships",
+    "href": "skills/VAST/VAST.slide.html#notes-on-the-different-types-of-relationships",
+    "title": "Visual Argument Structure Tool (VAST) V1.0",
+    "section": "Notes on the different types of relationships",
+    "text": "Notes on the different types of relationships\n\nRelationships between constructs can be …\n\non a theoretical level. Then it’s typically a causal path (c)\non empirical level: A relationship has been found! This is a prediction path (p)\nResearch cycle: One author’s p-path is the next author’s theoretical c-path\n\nConsider what you want to formalize:\n\nA certain author’s theoretical point of view at a certain point in time?\nOr your personal, current point of view?\nThe empirical support for a statement?"
+  },
+  {
     "objectID": "skills/VAST/VAST.slide.html#theory-vs.-model",
     "href": "skills/VAST/VAST.slide.html#theory-vs.-model",
     "title": "Visual Argument Structure Tool (VAST) V1.0",
@@ -495,6 +502,13 @@
     "title": "Visual Argument Structure Tool (VAST) V1.0",
     "section": "Explicate different perspectives and analysts",
     "text": "Explicate different perspectives and analysts\n\nWhose perspective is displayed?\nWho made the analysis?\n\nE.g. Analyst Robert displays the perspective of Berta:\n\n\nTODO Show example."
+  },
+  {
+    "objectID": "skills/VAST/VAST.html#notes-on-the-different-types-of-relationships",
+    "href": "skills/VAST/VAST.html#notes-on-the-different-types-of-relationships",
+    "title": "Visual Argument Structure Tool (VAST) V1.0",
+    "section": "Notes on the different types of relationships",
+    "text": "Notes on the different types of relationships\n\nRelationships between constructs can be …\n\non a theoretical level. Then it’s typically a causal path (c)\non empirical level: A relationship has been found! This is a prediction path (p)\nResearch cycle: One author’s p-path is the next author’s theoretical c-path\n\nConsider what you want to formalize:\n\nA certain author’s theoretical point of view at a certain point in time?\nOr your personal, current point of view?\nThe empirical support for a statement?"
   },
   {
     "objectID": "skills/VAST/VAST.html#theory-vs.-model",
@@ -728,39 +742,130 @@
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
-    "objectID": "skills/skills_overview.html",
-    "href": "skills/skills_overview.html",
-    "title": "Skills Overview",
+    "objectID": "sessions/S7-OurTheory.html",
+    "href": "sessions/S7-OurTheory.html",
+    "title": "Session 7 - Our target theory / NetLogo presentation",
     "section": "",
-    "text": "These are all slides used for the “skills” part of the course:\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\n2023-10-20\nIT tools for theory versioning\nlink\nlink\n\n\n2023-11-10\nVisualizing cybernetic systems\nlink\nlink\n\n\ntoday\nScaling of variables\nlink\nlink\n\n\ntoday\nVisual Argument Structure Tool (VAST) V1.0\nlink\nlink"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up: Netlogo implementations\n60\n\n\n\nLecture: TCM: Concrete steps\n30\nSlides\n\n\nWorkshop: Introduce and discuss our target theory with a researcher\n90\n\n\n\nWorkshop: Decide upon sub-topics, form new working groups, make a plan\n30\n\n\n\nHomework:\n-"
   },
   {
-    "objectID": "sessions/S2-Introduction.html",
-    "href": "sessions/S2-Introduction.html",
-    "title": "Session 2 - Introduction Theories",
-    "section": "",
-    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: Chapter, Git troubleshooting\n15\n\n\n\nSkill 1: CFF-files & semantic versioning\n45\nSlides\n\n\nLecture: Introduction: What is a theory?\n60\nSlides\n\n\nWorkshop: Group Exercise: Buri (Level 2)\n60\nSlides\n\n\n[Homework 1]: Read van Dongen et al (2023)\n-\n\n\n\n[Homework 2]: Create a CFF file\n-\n\n\n\n\n\n\n2 Homework 1 (individually)\nRead van Dongen et al. (2022). Improving psychological explanations. PsyArXiv. https://doi.org/10.31234/osf.io/qd69g and answer the following guiding questions:\n\nWhat is the role an original authors should play when predictions are derived from a theory?\n\n\n\nAre phenomena, according to Bogen and Woodward, directly observable?\n\n\n\nWhat is the role of statistical patterns in the Productive Explanation Model?\n\n\n\nList the three steps of productive explanation.\n\n\n\nDoes Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?\n\n\n\nNot every explanation has the same quality. Describe the three quality criteria provided in the paper in one or two sentences each.\n\n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/session2 and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\n\n\n3 Homework 2 (as a group)\n\nCreate a CFF file and upload it to your group’s subfolder"
+    "objectID": "sessions/S7-OurTheory.html#typical-dvs",
+    "href": "sessions/S7-OurTheory.html#typical-dvs",
+    "title": "Session 7 - Our target theory / NetLogo presentation",
+    "section": "6.1 Typical DVs:",
+    "text": "6.1 Typical DVs:\n\nTolerance\n\nAttitudes (explicitly and implicitly measured)\nself-efficacy\n\nEngagement\n\nBehavior(al intentions)\nApproach tendencies"
   },
   {
-    "objectID": "sessions/S9-TCM_Step2.html",
-    "href": "sessions/S9-TCM_Step2.html",
-    "title": "Session 9 - Step 2 in TCM",
-    "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nWorkshop: TCM Step 2\n\n\n\n\n[Homework]: Finalize step 2\n-"
+    "objectID": "sessions/S7-OurTheory.html#affective-and-cognitive-processes-within-the-organism-box",
+    "href": "sessions/S7-OurTheory.html#affective-and-cognitive-processes-within-the-organism-box",
+    "title": "Session 7 - Our target theory / NetLogo presentation",
+    "section": "6.2 Affective and cognitive processes (within the “organism” box)",
+    "text": "6.2 Affective and cognitive processes (within the “organism” box)\n\naffective: anxiety, trust\ncognitive: behavioural script availability"
   },
   {
-    "objectID": "sessions/S9-TCM_Step2.html#concrete-steps",
-    "href": "sessions/S9-TCM_Step2.html#concrete-steps",
-    "title": "Session 9 - Step 2 in TCM",
-    "section": "3.1 Concrete steps",
-    "text": "3.1 Concrete steps\n\nSearch the literature for theoretical statements about relationships between constructs (only our focal constructs).\nDeliverable 1:\n\nEnter the theoretical statements in a table\n\nDo this in a granular way: each table cell/box should only contain a single statement (which later get connected with different types of relationships). You can split long original sentences into separate atomic statements.\nBack up all decisions with evidence (e.g., with direct quotes) or justifications (e.g., for deviations from the literature, or when the literature is ambiguous, or when you had to fill a gap). These justifications go into a narrative text that accompanies the VAST display.\n\nAssign a unique ID to each statement. In the VAST display, add the ID to each relationship.\nWhen you have to extend the original theory, or make some relationships more precise, add the new statements to the table, clearly indicate that this is a new statement from you, and also give it an ID.\n\nDeliverable 2: Extend your existing VAST display. Concerning the arrows, make use of all possible relationship types (where appropriate). Not just “naming (n)” and “causation (c)”, but also:\n\nConceptual Implication (i)\nTransformation (t)\nPrediction (p)\nReasoning (r)\n\n\nTry to model the actual mechanisms and to avoid too big black boxes; e.g., what component of attitudes is exactly supposed to be manipulated? 4. Deliverable 3: Write a short paragraph with a meta-assessment of the task: How easy / feasible was it to find and extract the theoretical statements, and to convert them into a VAST display? What were the hurdles? What features of the primary literature were (not) helpful?\n\n3.1.1 Example\n\n3.1.1.1 Table with definitions, statements, and IDs\n\n\n\n\n\n\n\n\n\n\n\nID\nQuote\nReference\nType of relationship\nComment\n\n\n\n\nA\nMental imagery are “representations and the accompanying experience of sensory information without a direct external stimulus”\nPearson et al. 2015, p. 590\nn (naming/ definition)\n\n\n\nB\nmental imagery = mental simulation = MI\n(no reference: We inferred that from the text)\nn\ntwo exchangeable naming relationships for the same construct “MI”\n\n\nC\n“Imagined intergroup contact is the mental simulation of a social interaction with a member or members of an outgroup category.”\nCrisp & Turner, 2009, p. 234\nconceptual implication i\n\n\n\n\n\n\n\n3.1.1.2 VAST display\nThe corresponding IDs from the “statement table” are shown in parentheses at each relationship arrow.\n\n\n\n\n3.1.2 Notes:\nA conceptual implication contains multiple cases:\n\nhierarchical relationships between categories (being a dog conceptually implies being an animal)\nbut also attributes: Being a “sun” conceptually implies “being hot”"
+    "objectID": "sessions/S7-OurTheory.html#antecedents",
+    "href": "sessions/S7-OurTheory.html#antecedents",
+    "title": "Session 7 - Our target theory / NetLogo presentation",
+    "section": "6.3 Antecedents",
+    "text": "6.3 Antecedents\nAspects that moderate the phenomenon. - task-focused - Elaboration - perceptual focus - perspective taken - typicality of outgroup member - perceiver-focused - prior contact - majority / minority status of outgroup in relation to ingroup (?) - identification (salience of ingroup membership)"
+  },
+  {
+    "objectID": "sessions/S7-OurTheory.html#evidence---which-phenomena-are-robust",
+    "href": "sessions/S7-OurTheory.html#evidence---which-phenomena-are-robust",
+    "title": "Session 7 - Our target theory / NetLogo presentation",
+    "section": "6.4 Evidence - which phenomena are robust?",
+    "text": "6.4 Evidence - which phenomena are robust?\n\nDepends on type of outgroup, in interaction with the strength of one’s own identification strength with the ingroup\nThe valence of imagined actually makes no difference"
+  },
+  {
+    "objectID": "sessions/S7-OurTheory.html#new-hypotheses",
+    "href": "sessions/S7-OurTheory.html#new-hypotheses",
+    "title": "Session 7 - Our target theory / NetLogo presentation",
+    "section": "6.5 New Hypotheses",
+    "text": "6.5 New Hypotheses\n\nThe distance between in- and outgroup (e.g. age categories, distance between countries) moderates the effect.\nPrejudice could be defined as “invalid and negative assumptions about other groups”. Contact make the assumptions more valid and more positive.\nWenn Null vorheriger Kontakt, was soll man dann imaginieren?\n\nEmpiri zeigt: Effekt ist stärker, wenn kein vorheriger Kontakt da war."
+  },
+  {
+    "objectID": "sessions/S7-OurTheory.html#feedback",
+    "href": "sessions/S7-OurTheory.html#feedback",
+    "title": "Session 7 - Our target theory / NetLogo presentation",
+    "section": "6.6 Feedback",
+    "text": "6.6 Feedback\n\nThe differentiation between antecedents and processes is not really clear - “elaboration” could also be a process variable.\n\nAntecedents are typically moderators, processes are mediators.\nWhich of the two mediator paths (a or b) are moderated by antecedents? –&gt; most/all probably on (a) path (between intervention and process)\nAntecedents are also related to who receives treatment"
+  },
+  {
+    "objectID": "sessions/S3-Constructs.html",
+    "href": "sessions/S3-Constructs.html",
+    "title": "Session 3 - How to define constructs",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: van Dongen Paper, CFF troubleshooting\n30\n\n\n\nSkills: Our first theory release\n15\nCreate dev branch, make first release on main\n\n\nLecture (Lena Schiestel): How to create constructs\n40-60\nSlides\n\n\nWorkshop: Group Exercise: Buri (Level 3)\n40\nSlides\n\n\nTheory submissions from the department\n30\n\n\n\n[Homework 1]: Scan Theory Submissions\n-\n\n\n\n[Homework 2]: Netlogo Tutorial + Exercise\n-\nThis is a two-week assignment"
+  },
+  {
+    "objectID": "sessions/S3-Constructs.html#install-netlogo.",
+    "href": "sessions/S3-Constructs.html#install-netlogo.",
+    "title": "Session 3 - How to define constructs",
+    "section": "3.1 Install Netlogo.",
+    "text": "3.1 Install Netlogo.\nIf you have technical problems, please contact me! You should be prepared for the next session."
+  },
+  {
+    "objectID": "sessions/S3-Constructs.html#do-a-basic-tutorial.-there-are-several-options-which-all-teach-the-basics",
+    "href": "sessions/S3-Constructs.html#do-a-basic-tutorial.-there-are-several-options-which-all-teach-the-basics",
+    "title": "Session 3 - How to define constructs",
+    "section": "3.2 Do a basic tutorial. There are several options, which all teach the basics:",
+    "text": "3.2 Do a basic tutorial. There are several options, which all teach the basics:\n\nA free, self-paced online course with several short videos (total video material ~2h; in addition, one can do quizzes and “homework” that can be compared to solutions).\nIf you prefer written material, you can do the official tutorials 1, 2, and 3.\nThe Beginner’s Interactive NetLogo Dictionary is a great resources with references and examples for all commands."
+  },
+  {
+    "objectID": "sessions/S3-Constructs.html#have-you-understood-the-basics-do-the-exercise",
+    "href": "sessions/S3-Constructs.html#have-you-understood-the-basics-do-the-exercise",
+    "title": "Session 3 - How to define constructs",
+    "section": "3.3 Have you understood the basics? Do the exercise",
+    "text": "3.3 Have you understood the basics? Do the exercise\nPlease do the following exercise. Not every step might have been covered by the tutorials; in this case follow the links given at each task. Push the resulting .nlogo file to the joint Github project (subfolder /homework/netlogo-tutorial, filename is netlogo1_YOURNAME.nlogo). Please push whatever you came up with, even if you did not manage to achieve all goals.\n\nGive turtles two variables: food_reservoir and water_reservoir (see turtles-own)\nIn the setup procedure …\n\ncreate 10 sheep-shaped turtles\nassign a random number between 0 and 100 to their food_reservoir and their water_reservoir.\nPlace them at a random position of the environment (hint)\n\nCreate a “Setup” button in the interface that triggers the setup procedure.\nCreate a go procedure, in which your turtles (a) turn 10 degrees to the right and (b) walk 1 step forward"
+  },
+  {
+    "objectID": "sessions/S10-TCM_Step3.html",
+    "href": "sessions/S10-TCM_Step3.html",
+    "title": "Session 10 - Step 3 in TCM",
+    "section": "",
+    "text": "Identify definitions of constructs and relevant phenomena\nFormulate a prototheory: Create a VAST display\nTODAY: Develop a formal model\nCheck the adequacy of the formal model\n\nDo sensitivity analyses etc.\n\nEvaluate the overall worth of the constructed theory"
+  },
+  {
+    "objectID": "sessions/S10-TCM_Step3.html#reminder-tcm-steps",
+    "href": "sessions/S10-TCM_Step3.html#reminder-tcm-steps",
+    "title": "Session 10 - Step 3 in TCM",
+    "section": "",
+    "text": "Identify definitions of constructs and relevant phenomena\nFormulate a prototheory: Create a VAST display\nTODAY: Develop a formal model\nCheck the adequacy of the formal model\n\nDo sensitivity analyses etc.\n\nEvaluate the overall worth of the constructed theory"
+  },
+  {
+    "objectID": "sessions/S10-TCM_Step3.html#step-1-define-variables",
+    "href": "sessions/S10-TCM_Step3.html#step-1-define-variables",
+    "title": "Session 10 - Step 3 in TCM",
+    "section": "Step 1: Define variables",
+    "text": "Step 1: Define variables\n\n\n\n\n\n\n\nAnswer: -136.7\n\n\n\n\n\n\nDefine a variable for each construct of the VAST display. These can be measured variables or internal, unmeasured variables. You can either refer to an actual measurement procedure or simply define a variable. In both cases you should explicitly define the following properties:\n\nscale level (categorical, ordinal, interval scale),\nrange of possible values (e.g., 0 .. 1), and\nsemantic anchors (e.g., 0 = “complete absence”, 1 = “maximal possible value”)\n\n\nSome guiding questions and heuristics\n\nScale level of measurement (Stevens’s typology): Nominal → Ordinal → Interval → Ratio\nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”\n\n\n\n\n\nExample\n\n\n\n\n\n\n\n\n\nConstruct in VAST display\nScale level\nRange/values\nAnchors\n\n\n\n\nAffective tone of instruction\nInterval\n-1 .. 1\n-1 = maximally negative0 = neutral+1 = maximally positive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeliverable:\nCreate a table with all constructs and accompanying variable definitions in your VAST display."
+  },
+  {
+    "objectID": "sessions/S10-TCM_Step3.html#step-2-define-functional-relationships-between-variables",
+    "href": "sessions/S10-TCM_Step3.html#step-2-define-functional-relationships-between-variables",
+    "title": "Session 10 - Step 3 in TCM",
+    "section": "Step 2: Define functional relationships between variables",
+    "text": "Step 2: Define functional relationships between variables\nEvery causal path needs to be implemented as a function, where the dependent variable/output \\(y\\) is a function of the input variables \\(x_i\\).\n\\(y = f(x_1, x_2, ..., x_i)\\)\nThis can, for example, be a linear function, \\(y = \\beta_0 + \\beta_1x_1\\). As this is unbounded, however, it can easily happen that the computed \\(y\\) exceeds the possible range of values.\nIf \\(y\\) has defined boundaries (e.g., \\([0; 1]\\)), a logistic function might be a convenient function, as it automatically bounds the values between a lower and an upper limit (in the basic logistic function, between 0 and 1): \\(y = \\frac{1}{1 + e^{-x}}\\).\n\n\n\n\n\nWith the 4PL model from IRT, you can adjust the functional form to your needs, by:\n\nshifting the inflection point from left to right (aka. “item difficulty”, parameter \\(d\\))\nchange the steepness of the S-shape (aka. “discrimination parameter”, parameter \\(a\\))\nMove the lower asymptote up or down (parameter \\(min\\))\nMove the upper limit up or down (parameter \\(max\\))\n\n\nlogistic &lt;- function (x, d = 0, a = 1, min = 0, max = 1) {\n min + (max - min)/(1 + exp(a * (d - x)))\n}\n\n\n\n\n\n\nThese parameters can be used to “squeeze” the S-shaped curve into the range of your variables. For example, if your \\(x\\) variable is defined on the range \\([0; 1]\\), the following function parameters lead to a reasonable shift:\n\n\n\n\n\nOf course, this is just a start - you can use the full toolbox of mathematical functions to implement your model!\n\n\n\n\n\n\nNote\n\n\n\nThese considerations about functional forms, however, are typically not substantiated by psychological theory or background knowledge - at least at the start of a modeling project. We choose them, because we are (a) acquainted to it, and/or (b) they are mathematically convenient and tractable.\nEmpirical evidence can inform both your choice of the functional form, and, in a model-fitting step, the values of the parameters.\n\n\n\nDeliverable:\nCreate a table with all functional relationships. Use the IDs from the VAST display to create an unambiguous connection between both documents."
+  },
+  {
+    "objectID": "sessions/S10-TCM_Step3.html#step-3-implement-the-functions-in-r",
+    "href": "sessions/S10-TCM_Step3.html#step-3-implement-the-functions-in-r",
+    "title": "Session 10 - Step 3 in TCM",
+    "section": "Step 3: Implement the functions in R",
+    "text": "Step 3: Implement the functions in R\n\nDo “atomic” functions: Each R function implements exactly one functional relationship\nConnect all functions to one “super-function”, which takes all free inputs as parameter and compute the focal output variable(s)\nTest the function:\n\nEnter some reasoanble combinations of parameters\nDraw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis."
+  },
+  {
+    "objectID": "sessions/S10-TCM_Step3.html#step-4-simulate-a-full-data-set",
+    "href": "sessions/S10-TCM_Step3.html#step-4-simulate-a-full-data-set",
+    "title": "Session 10 - Step 3 in TCM",
+    "section": "Step 4: Simulate a full data set",
+    "text": "Step 4: Simulate a full data set\nReal participants bring variability in practical every variable. Assume a specific distribution of all input variables that participants bring to the experiment. Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications. This works best if the scaling of your variable (as defined in Step 1) already has an empirical grounding or can be related to such one (e.g., via z-standardization)."
   },
   {
     "objectID": "sessions/sessions_overview.html",
     "href": "sessions/sessions_overview.html",
     "title": "Overview of sessions",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 1 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\nSession 2 - Introduction Theories\n\n\nIntro to theory 2; Bischof notation; CFF files\n\n\n\n\nSession 3 - How to define constructs\n\n\nCreate proper definitions for the constructs in our Buri model\n\n\n\n\nSession 4 - Bischof notation\n\n\nLearn the Bischof notation for control systems; apply it to Buri.\n\n\n\n\nSession 5 - Visual Argument Structure Tool (VAST) V1.0\n\n\nGuest lecture by Daniel Leising about VAST\n\n\n\n\nSession 6 - NetLogo implementation of Buri\n\n\nTry to implement your Buri model in Netlogo\n\n\n\n\nSession 7 - Our target theory / NetLogo presentation\n\n\nWe get introduced to our target theory / Showcase the Buri ABM\n\n\n\n\nSession 8 - Step 1 in TCM\n\n\nWe do the first step of TCM of our chosen theory: Identify relevant phenomena\n\n\n\n\nSession 9 - Step 2 in TCM\n\n\nWe do the second step of TCM of our chosen theory: Identify relevant phenomena\n\n\n\n\nSession X - How to write the final report\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 1 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\nSession 10 - Step 3 in TCM\n\n\nDevelop and implement a formal model\n\n\n\n\nSession 2 - Introduction Theories\n\n\nIntro to theory 2; Bischof notation; CFF files\n\n\n\n\nSession 3 - How to define constructs\n\n\nCreate proper definitions for the constructs in our Buri model\n\n\n\n\nSession 4 - Bischof notation\n\n\nLearn the Bischof notation for control systems; apply it to Buri.\n\n\n\n\nSession 5 - Visual Argument Structure Tool (VAST) V1.0\n\n\nGuest lecture by Daniel Leising about VAST\n\n\n\n\nSession 6 - NetLogo implementation of Buri\n\n\nTry to implement your Buri model in Netlogo\n\n\n\n\nSession 7 - Our target theory / NetLogo presentation\n\n\nWe get introduced to our target theory / Showcase the Buri ABM\n\n\n\n\nSession 8 - Step 1 in TCM\n\n\nWe do the first step of TCM of our chosen theory: Identify relevant phenomena\n\n\n\n\nSession 9 - Step 2 in TCM\n\n\nWe do the second step of TCM of our chosen theory: Identify relevant phenomena\n\n\n\n\nSession X - How to write the final report\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/S6-NetLogo.html",
@@ -1211,116 +1316,32 @@
     "text": "Do sensitivity analyses etc."
   },
   {
-    "objectID": "sessions/S3-Constructs.html",
-    "href": "sessions/S3-Constructs.html",
-    "title": "Session 3 - How to define constructs",
+    "objectID": "sessions/S9-TCM_Step2.html",
+    "href": "sessions/S9-TCM_Step2.html",
+    "title": "Session 9 - Step 2 in TCM",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: van Dongen Paper, CFF troubleshooting\n30\n\n\n\nSkills: Our first theory release\n15\nCreate dev branch, make first release on main\n\n\nLecture (Lena Schiestel): How to create constructs\n40-60\nSlides\n\n\nWorkshop: Group Exercise: Buri (Level 3)\n40\nSlides\n\n\nTheory submissions from the department\n30\n\n\n\n[Homework 1]: Scan Theory Submissions\n-\n\n\n\n[Homework 2]: Netlogo Tutorial + Exercise\n-\nThis is a two-week assignment"
+    "text": "Identify definitions of constructs and relevant phenomena\nTODAY: Formulate a prototheory: Create a VAST display\nDevelop a formal model:\n\nDevelop a Bischof control system display?\nImplement in a programming language?\n\nCheck the adequacy of the formal model\n\nDo sensitivity analyses etc.\n\nEvaluate the overall worth of the constructed theory"
   },
   {
-    "objectID": "sessions/S3-Constructs.html#install-netlogo.",
-    "href": "sessions/S3-Constructs.html#install-netlogo.",
-    "title": "Session 3 - How to define constructs",
-    "section": "3.1 Install Netlogo.",
-    "text": "3.1 Install Netlogo.\nIf you have technical problems, please contact me! You should be prepared for the next session."
+    "objectID": "sessions/S9-TCM_Step2.html#concrete-steps",
+    "href": "sessions/S9-TCM_Step2.html#concrete-steps",
+    "title": "Session 9 - Step 2 in TCM",
+    "section": "2.1 Concrete steps",
+    "text": "2.1 Concrete steps\n\nSearch the literature for theoretical statements about relationships between constructs (only our focal constructs).\nDeliverable 1:\n\nEnter the theoretical statements in a table\n\nDo this in a granular way: each table cell/box should only contain a single statement (which later get connected with different types of relationships). You can split long original sentences into separate atomic statements.\nBack up all decisions with evidence (e.g., with direct quotes) or justifications (e.g., for deviations from the literature, or when the literature is ambiguous, or when you had to fill a gap). These justifications go into a narrative text that accompanies the VAST display.\n\nAssign a unique ID to each statement. In the VAST display, add the ID to each relationship.\nWhen you have to extend the original theory, or make some relationships more precise, add the new statements to the table, clearly indicate that this is a new statement from you, and also give it an ID.\n\nDeliverable 2: Extend your existing VAST display. Concerning the arrows, make use of all possible relationship types (where appropriate). Not just “naming (n)” and “causation (c)”, but also:\n\nConceptual Implication (i)\nTransformation (t)\nPrediction (p)\nReasoning (r)\n\nTry to model the actual mechanisms and to avoid too big black boxes; e.g., what component of attitudes is exactly supposed to be manipulated?\nDeliverable 3: Write a short paragraph with a meta-assessment of the task: How easy / feasible was it to find and extract the theoretical statements, and to convert them into a VAST display? What were the hurdles? What features of the primary literature were (not) helpful?\n\n\n2.1.1 Example\n\n2.1.1.1 Table with definitions, statements, and IDs\n\n\n\n\n\n\n\n\n\n\n\nID\nQuote\nReference\nType of relationship\nComment\n\n\n\n\nA\nMental imagery are “representations and the accompanying experience of sensory information without a direct external stimulus”\nPearson et al. 2015, p. 590\nn (naming/ definition)\n\n\n\nB\nmental imagery = mental simulation = MI\n(no reference: We inferred that from the text)\nn\ntwo exchangeable naming relationships for the same construct “MI”\n\n\nC\n“Imagined intergroup contact is the mental simulation of a social interaction with a member or members of an outgroup category.”\nCrisp & Turner, 2009, p. 234\nconceptual implication i\n\n\n\n\n\n\n\n2.1.1.2 VAST display\nThe corresponding IDs from the “statement table” are shown in parentheses at each relationship arrow.\n\n\n\n\n2.1.2 Notes:\nA conceptual implication contains multiple cases:\n\nhierarchical relationships between categories (being a dog conceptually implies being an animal)\nbut also attributes: Being a “sun” conceptually implies “being hot”"
   },
   {
-    "objectID": "sessions/S3-Constructs.html#do-a-basic-tutorial.-there-are-several-options-which-all-teach-the-basics",
-    "href": "sessions/S3-Constructs.html#do-a-basic-tutorial.-there-are-several-options-which-all-teach-the-basics",
-    "title": "Session 3 - How to define constructs",
-    "section": "3.2 Do a basic tutorial. There are several options, which all teach the basics:",
-    "text": "3.2 Do a basic tutorial. There are several options, which all teach the basics:\n\nA free, self-paced online course with several short videos (total video material ~2h; in addition, one can do quizzes and “homework” that can be compared to solutions).\nIf you prefer written material, you can do the official tutorials 1, 2, and 3.\nThe Beginner’s Interactive NetLogo Dictionary is a great resources with references and examples for all commands."
-  },
-  {
-    "objectID": "sessions/S3-Constructs.html#have-you-understood-the-basics-do-the-exercise",
-    "href": "sessions/S3-Constructs.html#have-you-understood-the-basics-do-the-exercise",
-    "title": "Session 3 - How to define constructs",
-    "section": "3.3 Have you understood the basics? Do the exercise",
-    "text": "3.3 Have you understood the basics? Do the exercise\nPlease do the following exercise. Not every step might have been covered by the tutorials; in this case follow the links given at each task. Push the resulting .nlogo file to the joint Github project (subfolder /homework/netlogo-tutorial, filename is netlogo1_YOURNAME.nlogo). Please push whatever you came up with, even if you did not manage to achieve all goals.\n\nGive turtles two variables: food_reservoir and water_reservoir (see turtles-own)\nIn the setup procedure …\n\ncreate 10 sheep-shaped turtles\nassign a random number between 0 and 100 to their food_reservoir and their water_reservoir.\nPlace them at a random position of the environment (hint)\n\nCreate a “Setup” button in the interface that triggers the setup procedure.\nCreate a go procedure, in which your turtles (a) turn 10 degrees to the right and (b) walk 1 step forward"
-  },
-  {
-    "objectID": "sessions/S7-OurTheory.html",
-    "href": "sessions/S7-OurTheory.html",
-    "title": "Session 7 - Our target theory / NetLogo presentation",
+    "objectID": "sessions/S2-Introduction.html",
+    "href": "sessions/S2-Introduction.html",
+    "title": "Session 2 - Introduction Theories",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nWrap-up: Netlogo implementations\n60\n\n\n\nLecture: TCM: Concrete steps\n30\nSlides\n\n\nWorkshop: Introduce and discuss our target theory with a researcher\n90\n\n\n\nWorkshop: Decide upon sub-topics, form new working groups, make a plan\n30\n\n\n\nHomework:\n-"
+    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: Chapter, Git troubleshooting\n15\n\n\n\nSkill 1: CFF-files & semantic versioning\n45\nSlides\n\n\nLecture: Introduction: What is a theory?\n60\nSlides\n\n\nWorkshop: Group Exercise: Buri (Level 2)\n60\nSlides\n\n\n[Homework 1]: Read van Dongen et al (2023)\n-\n\n\n\n[Homework 2]: Create a CFF file\n-\n\n\n\n\n\n\n2 Homework 1 (individually)\nRead van Dongen et al. (2022). Improving psychological explanations. PsyArXiv. https://doi.org/10.31234/osf.io/qd69g and answer the following guiding questions:\n\nWhat is the role an original authors should play when predictions are derived from a theory?\n\n\n\nAre phenomena, according to Bogen and Woodward, directly observable?\n\n\n\nWhat is the role of statistical patterns in the Productive Explanation Model?\n\n\n\nList the three steps of productive explanation.\n\n\n\nDoes Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?\n\n\n\nNot every explanation has the same quality. Describe the three quality criteria provided in the paper in one or two sentences each.\n\n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/session2 and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\n\n\n3 Homework 2 (as a group)\n\nCreate a CFF file and upload it to your group’s subfolder"
   },
   {
-    "objectID": "sessions/S7-OurTheory.html#typical-dvs",
-    "href": "sessions/S7-OurTheory.html#typical-dvs",
-    "title": "Session 7 - Our target theory / NetLogo presentation",
-    "section": "6.1 Typical DVs:",
-    "text": "6.1 Typical DVs:\n\nTolerance\n\nAttitudes (explicitly and implicitly measured)\nself-efficacy\n\nEngagement\n\nBehavior(al intentions)\nApproach tendencies"
-  },
-  {
-    "objectID": "sessions/S7-OurTheory.html#affective-and-cognitive-processes-within-the-organism-box",
-    "href": "sessions/S7-OurTheory.html#affective-and-cognitive-processes-within-the-organism-box",
-    "title": "Session 7 - Our target theory / NetLogo presentation",
-    "section": "6.2 Affective and cognitive processes (within the “organism” box)",
-    "text": "6.2 Affective and cognitive processes (within the “organism” box)\n\naffective: anxiety, trust\ncognitive: behavioural script availability"
-  },
-  {
-    "objectID": "sessions/S7-OurTheory.html#antecedents",
-    "href": "sessions/S7-OurTheory.html#antecedents",
-    "title": "Session 7 - Our target theory / NetLogo presentation",
-    "section": "6.3 Antecedents",
-    "text": "6.3 Antecedents\nAspects that moderate the phenomenon. - task-focused - Elaboration - perceptual focus - perspective taken - typicality of outgroup member - perceiver-focused - prior contact - majority / minority status of outgroup in relation to ingroup (?) - identification (salience of ingroup membership)"
-  },
-  {
-    "objectID": "sessions/S7-OurTheory.html#evidence---which-phenomena-are-robust",
-    "href": "sessions/S7-OurTheory.html#evidence---which-phenomena-are-robust",
-    "title": "Session 7 - Our target theory / NetLogo presentation",
-    "section": "6.4 Evidence - which phenomena are robust?",
-    "text": "6.4 Evidence - which phenomena are robust?\n\nDepends on type of outgroup, in interaction with the strength of one’s own identification strength with the ingroup\nThe valence of imagined actually makes no difference"
-  },
-  {
-    "objectID": "sessions/S7-OurTheory.html#new-hypotheses",
-    "href": "sessions/S7-OurTheory.html#new-hypotheses",
-    "title": "Session 7 - Our target theory / NetLogo presentation",
-    "section": "6.5 New Hypotheses",
-    "text": "6.5 New Hypotheses\n\nThe distance between in- and outgroup (e.g. age categories, distance between countries) moderates the effect.\nPrejudice could be defined as “invalid and negative assumptions about other groups”. Contact make the assumptions more valid and more positive.\nWenn Null vorheriger Kontakt, was soll man dann imaginieren?\n\nEmpiri zeigt: Effekt ist stärker, wenn kein vorheriger Kontakt da war."
-  },
-  {
-    "objectID": "sessions/S7-OurTheory.html#feedback",
-    "href": "sessions/S7-OurTheory.html#feedback",
-    "title": "Session 7 - Our target theory / NetLogo presentation",
-    "section": "6.6 Feedback",
-    "text": "6.6 Feedback\n\nThe differentiation between antecedents and processes is not really clear - “elaboration” could also be a process variable.\n\nAntecedents are typically moderators, processes are mediators.\nWhich of the two mediator paths (a or b) are moderated by antecedents? –&gt; most/all probably on (a) path (between intervention and process)\nAntecedents are also related to who receives treatment"
-  },
-  {
-    "objectID": "skills/Scaling/Scaling.html",
-    "href": "skills/Scaling/Scaling.html",
-    "title": "Scaling of variables",
+    "objectID": "skills/skills_overview.html",
+    "href": "skills/skills_overview.html",
+    "title": "Skills Overview",
     "section": "",
-    "text": ". . .\nAnswer: -136.7\n\n\n\n\n\nScale level of measurement (Stevens’s typology): Nominal → Ordinal → Interval → Ratio\nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1?\nCan we find an empirical calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”"
-  },
-  {
-    "objectID": "skills/Scaling/Scaling.html#finding-a-scale",
-    "href": "skills/Scaling/Scaling.html#finding-a-scale",
-    "title": "Scaling of variables",
-    "section": "",
-    "text": "Scale level of measurement (Stevens’s typology): Nominal → Ordinal → Interval → Ratio\nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1?\nCan we find an empirical calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”"
-  },
-  {
-    "objectID": "skills/Scaling/Scaling.html#contact",
-    "href": "skills/Scaling/Scaling.html#contact",
-    "title": "Scaling of variables",
-    "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n\n nicebread"
-  },
-  {
-    "objectID": "skills/Scaling/Scaling.slide.html#finding-a-scale",
-    "href": "skills/Scaling/Scaling.slide.html#finding-a-scale",
-    "title": "Scaling of variables",
-    "section": "Finding a scale",
-    "text": "Finding a scale\nSome guiding questions and heuristics\n\nScale level of measurement (Stevens’s typology): Nominal → Ordinal → Interval → Ratio\nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1?\nCan we find an empirical calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”"
-  },
-  {
-    "objectID": "skills/Scaling/Scaling.slide.html#contact",
-    "href": "skills/Scaling/Scaling.slide.html#contact",
-    "title": "Scaling of variables",
-    "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n\n nicebread\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "These are all slides used for the “skills” part of the course:\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\n2023-10-20\nIT tools for theory versioning\nlink\nlink\n\n\n2023-11-10\nVisualizing cybernetic systems\nlink\nlink\n\n\ntoday\nScaling of variables\nlink\nlink\n\n\ntoday\nVisual Argument Structure Tool (VAST) V1.0\nlink\nlink"
   },
   {
     "objectID": "skills/it-tools/it-tools.html",

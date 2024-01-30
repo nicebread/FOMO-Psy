@@ -4,17 +4,7 @@ number-sections: true
 description: "We do the second step of TCM of our chosen theory: Identify relevant phenomena"
 ---
 
-# Overview
-
-| Topic                           | Duration | Notes |
-| ------------------------------- | -------- | ----- |
-| **Workshop**: TCM Step 2        |          |       |
-| **[Homework]**: Finalize step 2 | -        |       |
-
-: {.striped}
-
-
-# TCM steps
+# Reminder: TCM steps
 
 1. Identify definitions of constructs and relevant phenomena
 2. **TODAY: Formulate a prototheory: Create a VAST display**
@@ -45,7 +35,7 @@ Goal: Capture the core theoretical relationships - as proposed by the original a
     - Prediction (p)
     - Reasoning (r)
  
- Try to model the actual mechanisms and to avoid too big black boxes; e.g., what component of attitudes is exactly supposed to be manipulated?
+   Try to model the actual mechanisms and to avoid too big black boxes; e.g., what component of attitudes is exactly supposed to be manipulated?
 4. **Deliverable 3**: Write a short paragraph with a meta-assessment of the task: How easy / feasible was it to find and extract the theoretical statements, and to convert them into a VAST display? What were the hurdles? What features of the primary literature were (not) helpful?
 
 ### Example

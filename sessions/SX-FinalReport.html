@@ -151,7 +151,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#step-4.-check-the-adequacy-of-the-formal-model" id="toc-step-4.-check-the-adequacy-of-the-formal-model" class="nav-link" data-scroll-target="#step-4.-check-the-adequacy-of-the-formal-model"><span class="header-section-number">1.5</span> Step 4. Check the adequacy of the formal model</a></li>
   <li><a href="#step-5.-evaluate-the-overall-worth-of-the-constructed-theory" id="toc-step-5.-evaluate-the-overall-worth-of-the-constructed-theory" class="nav-link" data-scroll-target="#step-5.-evaluate-the-overall-worth-of-the-constructed-theory"><span class="header-section-number">1.6</span> Step 5. Evaluate the overall worth of the constructed theory</a></li>
   </ul></li>
-  <li><a href="#formal-stuff" id="toc-formal-stuff" class="nav-link" data-scroll-target="#formal-stuff"><span class="header-section-number">2</span> Formal stuff</a></li>
+  <li><a href="#formal-stuff" id="toc-formal-stuff" class="nav-link" data-scroll-target="#formal-stuff"><span class="header-section-number">2</span> Formal stuff</a>
+  <ul class="collapse">
+  <li><a href="#hausarbeit" id="toc-hausarbeit" class="nav-link" data-scroll-target="#hausarbeit"><span class="header-section-number">2.1</span> Hausarbeit</a></li>
+  <li><a href="#abgabe-hausarbeit" id="toc-abgabe-hausarbeit" class="nav-link" data-scroll-target="#abgabe-hausarbeit"><span class="header-section-number">2.2</span> Abgabe Hausarbeit</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -238,8 +242,39 @@ ul.task-list li input[type="checkbox"] {
 <li>You need to hand in a PDF, which is accompanied by a project on a repository (e.g., Github)</li>
 <li>Code, supplemental material, etc. goes into the repository and will be part of the grading.</li>
 </ul>
+<section id="hausarbeit" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="hausarbeit"><span class="header-section-number">2.1</span> Hausarbeit</h2>
+<ul>
+<li>Schriftgröße 12pt, Zeilenabstand 1.5x</li>
+<li>15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)</li>
+<li>Wenn Sie in papaja/Rmarkdown schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).</li>
+<li>Deckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung</li>
+<li>Bei papaja/Rmarkdown schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die author notes.</li>
+<li>Kein Inhaltsverzeichnis</li>
+<li>Mindestens 5 Publikationen zitieren</li>
+<li>Zitate &amp; Literaturverzeichnis nach <a href="http://owl.english.purdue.edu/owl/resource/664/01/">APA-Richtlinien</a> (6. oder 7. Version)</li>
+<li>Die Links zu Repositorium mit open code, etc. kommen an den Anfang des Methodenteils</li>
+</ul>
+</section>
+<section id="abgabe-hausarbeit" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="abgabe-hausarbeit"><span class="header-section-number">2.2</span> Abgabe Hausarbeit</h2>
+<ul>
+<li>Als PDF-Datei per Email an den Dozenten – Empfang wird bestätigt</li>
+<li>Abgabetermin: 19.3.2024</li>
+<li>2 Versionen einreichen:
+<ul>
+<li>Vollständige Version (Dateiname: IhrNachname_Kurztitel_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“</li>
+<li>Anonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Kurztitel_Jahr.pdf)
+<ul>
+<li>Diese Version wird benotet.</li>
+<li>Dateiname z.B.:„98234034_Empra_2020.pdf“</li>
+<li>Sie können in papaja einfach eine anonyme Version erzeugen,indem Sie im YAML <code>mask: yes</code> angeben (siehe <a href="https://frederikaust.com/papaja_man/r-markdown-components.html">hier</a>)</li>
+</ul></li>
+</ul></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -350,13 +350,6 @@
     "text": "Benotung\n\nWer anwesend ist, aktiv mitmacht, und eine sinnvolle Hausarbeit abgibt bekommt eine (sehr) gute Note\nEs geht um:\n\ndas Engagement\ndie Auseinandersetzung mit den Tools und der Materie der Theoriebildung\neine kritische Reflexion des Prozesses\n\nWenn die Theorie, die man sich vorgenommen hat, einfach keine Formalisierung hergibt, dann ist das ein Problem der Theorie (und keine Fehlleistung des Studentys). In dem Fall …\n\nreflektieren, warum es nicht funktioniert hat\nwas wäre notwendig gewesen, um weiterzukommen\ndie gemachten Schritte und Hürden dokumentieren"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#mögliche-gliederung",
-    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#mögliche-gliederung",
-    "title": "Formal modeling in psychology",
-    "section": "Mögliche Gliederung",
-    "text": "Mögliche Gliederung\n(Wird im Laufe des Empras noch gemeinsam entwickelt)\n\nIntroduction to the verbal theory\nModeling: Describe the model.\n\nThis could be only parts, or intermediate steps if you could not arrive at a final model.\n\nNext steps: How to measure the components of the model?\n\nDevelop some ideas how parts of the model could be operationalized\n\nNext steps: How to test a model\n\nWhat experiments are optimally suited to test different aspects of your theory/ your model?\n\nDiscussion: Reflection on the processes, what worked well, what didn’t."
-  },
-  {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#contact",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#contact",
     "title": "Formal modeling in psychology",
@@ -418,13 +411,6 @@
     "title": "Formal modeling in psychology",
     "section": "Benotung",
     "text": "Benotung\n\nWer anwesend ist, aktiv mitmacht, und eine sinnvolle Hausarbeit abgibt bekommt eine (sehr) gute Note\nEs geht um:\n\ndas Engagement\ndie Auseinandersetzung mit den Tools und der Materie der Theoriebildung\neine kritische Reflexion des Prozesses\n\nWenn die Theorie, die man sich vorgenommen hat, einfach keine Formalisierung hergibt, dann ist das ein Problem der Theorie (und keine Fehlleistung des Studentys). In dem Fall …\n\nreflektieren, warum es nicht funktioniert hat\nwas wäre notwendig gewesen, um weiterzukommen\ndie gemachten Schritte und Hürden dokumentieren"
-  },
-  {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.html#mögliche-gliederung",
-    "href": "lectures/Empra-Orga/Empra-Orga.html#mögliche-gliederung",
-    "title": "Formal modeling in psychology",
-    "section": "Mögliche Gliederung",
-    "text": "Mögliche Gliederung\n\n(Wird im Laufe des Empras noch gemeinsam entwickelt)\n\nIntroduction to the verbal theory\nModeling: Describe the model.\n\nThis could be only parts, or intermediate steps if you could not arrive at a final model.\n\nNext steps: How to measure the components of the model?\n\nDevelop some ideas how parts of the model could be operationalized\n\nNext steps: How to test a model\n\nWhat experiments are optimally suited to test different aspects of your theory/ your model?\n\nDiscussion: Reflection on the processes, what worked well, what didn’t."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#contact",
@@ -1342,6 +1328,20 @@
     "title": "Session X - How to write the final report",
     "section": "",
     "text": "(not covered in this course)."
+  },
+  {
+    "objectID": "sessions/SX-FinalReport.html#hausarbeit",
+    "href": "sessions/SX-FinalReport.html#hausarbeit",
+    "title": "Session X - How to write the final report",
+    "section": "2.1 Hausarbeit",
+    "text": "2.1 Hausarbeit\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nWenn Sie in papaja/Rmarkdown schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nBei papaja/Rmarkdown schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die author notes.\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)\nDie Links zu Repositorium mit open code, etc. kommen an den Anfang des Methodenteils"
+  },
+  {
+    "objectID": "sessions/SX-FinalReport.html#abgabe-hausarbeit",
+    "href": "sessions/SX-FinalReport.html#abgabe-hausarbeit",
+    "title": "Session X - How to write the final report",
+    "section": "2.2 Abgabe Hausarbeit",
+    "text": "2.2 Abgabe Hausarbeit\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: 19.3.2024\n2 Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Kurztitel_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Kurztitel_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2020.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen,indem Sie im YAML mask: yes angeben (siehe hier)"
   },
   {
     "objectID": "sessions/S9-TCM_Step2.html",

@@ -188,6 +188,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#step-2-define-functional-relationships-between-variables" id="toc-step-2-define-functional-relationships-between-variables" class="nav-link" data-scroll-target="#step-2-define-functional-relationships-between-variables">Step 2: Define functional relationships between variables</a>
   <ul class="collapse">
+  <li><a href="#tool-1-the-logistic-function-family" id="toc-tool-1-the-logistic-function-family" class="nav-link" data-scroll-target="#tool-1-the-logistic-function-family">Tool 1: The logistic function family</a></li>
+  <li><a href="#tool-2-the-beta-distribution" id="toc-tool-2-the-beta-distribution" class="nav-link" data-scroll-target="#tool-2-the-beta-distribution">Tool 2: The beta distribution</a></li>
   <li><a href="#deliverable-1" id="toc-deliverable-1" class="nav-link" data-scroll-target="#deliverable-1">Deliverable:</a></li>
   </ul></li>
   <li><a href="#step-3-implement-the-functions-in-r" id="toc-step-3-implement-the-functions-in-r" class="nav-link" data-scroll-target="#step-3-implement-the-functions-in-r">Step 3: Implement the functions in R</a></li>
@@ -228,10 +230,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Identify definitions of constructs and relevant phenomena</li>
 <li>Formulate a prototheory: Create a VAST display</li>
 <li><strong>TODAY: Develop a formal model</strong></li>
-<li>Check the adequacy of the formal model
-<ul>
-<li>Do sensitivity analyses etc.</li>
-</ul></li>
+<li>Check the adequacy of the formal model</li>
 <li>Evaluate the overall worth of the constructed theory</li>
 </ol>
 </section>
@@ -287,7 +286,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <thead>
 <tr class="header">
 <th>Construct in VAST display</th>
-<th style="text-align: center;">Scale level</th>
+<th>Scale level</th>
 <th>Range/values</th>
 <th>Anchors</th>
 </tr>
@@ -295,21 +294,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tbody>
 <tr class="odd">
 <td>Affective tone of instruction</td>
-<td style="text-align: center;">Interval</td>
-<td>-1 .. 1</td>
+<td>Continuous</td>
+<td>[-1; 1]</td>
 <td>-1 = maximally negative<br>0 = neutral<br>+1 = maximally positive</td>
 </tr>
 <tr class="even">
-<td></td>
-<td style="text-align: center;"></td>
-<td></td>
-<td></td>
+<td>momentary anxiety</td>
+<td>Continuous</td>
+<td>[0; 1]</td>
+<td>0 = no anxiety<br>1 = maximal anxiety</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td style="text-align: center;"></td>
-<td></td>
-<td></td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
 </tr>
 </tbody>
 </table>
@@ -324,6 +323,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Every causal path needs to be implemented as a function, where the dependent variable/output <span class="math inline">\(y\)</span> is a function of the input variables <span class="math inline">\(x_i\)</span>.</p>
 <p><span class="math inline">\(y = f(x_1, x_2, ..., x_i)\)</span></p>
 <p>This can, for example, be a linear function, <span class="math inline">\(y = \beta_0 + \beta_1x_1\)</span>. As this is unbounded, however, it can easily happen that the computed <span class="math inline">\(y\)</span> exceeds the possible range of values.</p>
+<section id="tool-1-the-logistic-function-family" class="level3">
+<h3 class="anchored" data-anchor-id="tool-1-the-logistic-function-family">Tool 1: The logistic function family</h3>
 <p>If <span class="math inline">\(y\)</span> has defined boundaries (e.g., <span class="math inline">\([0; 1]\)</span>), a logistic function might be a convenient function, as it automatically bounds the values between a lower and an upper limit (in the basic logistic function, between 0 and 1): <span class="math inline">\(y = \frac{1}{1 + e^{-x}}\)</span>.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -353,6 +354,92 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><img src="S10-TCM_Step3_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="480"></p>
 </div>
 </div>
+</section>
+<section id="tool-2-the-beta-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="tool-2-the-beta-distribution">Tool 2: The beta distribution</h3>
+<p>If you start simulating data for your virtual participants, you want to simulate their starting values. For example, the virtual participants might differ in their anxiety, which you previously defined on the range <span class="math inline">\([0; 1]\)</span>. How can you generate random values that roughly look like a normal distribution, but are bounded to the defined range?</p>
+<p>For simulations, it is good to know some basic distributions. Here are three interactive resources for choosing your distribution:</p>
+<ul>
+<li>The <a href="https://ben18785.shinyapps.io/distribution-zoo/">Distribution Zoo</a> by Ben Lambert and Fergus Cooper</li>
+<li>The <a href="https://distribution-explorer.github.io/index.html">Probability Distribution Explorer</a> by Justin Bois</li>
+<li><a href="https://richarddmorey.github.io/stat-distributions-js/">Interactive collection of distributions</a> by Richar Morey</li>
+</ul>
+<p>A handy distribution for the <span class="math inline">\([0; 1]\)</span> range is the <a href="https://en.wikipedia.org/wiki/Beta_distribution">beta distribution</a>. With its two parameters <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span>, it can take many different forms:</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Note: shape1 is alpha, shape2 is beta</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mfcol=</span><span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">2</span>))</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>x_values <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="at">length.out=</span><span class="dv">100</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(x_values, <span class="fu">dbeta</span>(x_values, <span class="at">shape1=</span><span class="dv">1</span>, <span class="at">shape2=</span><span class="dv">4</span>), <span class="at">type =</span> <span class="st">"l"</span>, <span class="at">col =</span> <span class="st">"blue"</span>, <span class="at">xlab =</span> <span class="st">"x"</span>, <span class="at">ylab =</span> <span class="st">"y"</span>, <span class="at">main=</span><span class="st">"a=1, b=4"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>), <span class="at">yaxt =</span> <span class="st">"n"</span>, <span class="at">xaxt=</span><span class="st">"n"</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">axis</span>(<span class="at">side =</span> <span class="dv">1</span>, <span class="at">at =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.5</span>, <span class="dv">1</span>), <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"0"</span>, <span class="st">"0.5"</span>, <span class="st">"1"</span>))</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(x_values, <span class="fu">dbeta</span>(x_values, <span class="at">shape1=</span><span class="dv">4</span>, <span class="at">shape2=</span><span class="dv">1</span>), <span class="at">type =</span> <span class="st">"l"</span>, <span class="at">col =</span> <span class="st">"blue"</span>, <span class="at">xlab =</span> <span class="st">"x"</span>, <span class="at">ylab =</span> <span class="st">"y"</span>, <span class="at">main=</span><span class="st">"a=4, b=1"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>), <span class="at">yaxt =</span> <span class="st">"n"</span>, <span class="at">xaxt=</span><span class="st">"n"</span>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="fu">axis</span>(<span class="at">side =</span> <span class="dv">1</span>, <span class="at">at =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.5</span>, <span class="dv">1</span>), <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"0"</span>, <span class="st">"0.5"</span>, <span class="st">"1"</span>))</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(x_values, <span class="fu">dbeta</span>(x_values, <span class="at">shape1=</span><span class="dv">8</span>, <span class="at">shape2=</span><span class="dv">3</span>), <span class="at">type =</span> <span class="st">"l"</span>, <span class="at">col =</span> <span class="st">"blue"</span>, <span class="at">xlab =</span> <span class="st">"x"</span>, <span class="at">ylab =</span> <span class="st">"y"</span>, <span class="at">main=</span><span class="st">"a=8, b=3"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>), <span class="at">yaxt =</span> <span class="st">"n"</span>, <span class="at">xaxt=</span><span class="st">"n"</span>)</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="fu">axis</span>(<span class="at">side =</span> <span class="dv">1</span>, <span class="at">at =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.5</span>, <span class="dv">1</span>), <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"0"</span>, <span class="st">"0.5"</span>, <span class="st">"1"</span>))</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(x_values, <span class="fu">dbeta</span>(x_values, <span class="at">shape1=</span><span class="dv">20</span>, <span class="at">shape2=</span><span class="dv">26</span>), <span class="at">type =</span> <span class="st">"l"</span>, <span class="at">col =</span> <span class="st">"blue"</span>, <span class="at">xlab =</span> <span class="st">"x"</span>, <span class="at">ylab =</span> <span class="st">"y"</span>, <span class="at">main=</span><span class="st">"a=20, b=26"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>), <span class="at">yaxt =</span> <span class="st">"n"</span>, <span class="at">xaxt=</span><span class="st">"n"</span>)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="fu">axis</span>(<span class="at">side =</span> <span class="dv">1</span>, <span class="at">at =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.5</span>, <span class="dv">1</span>), <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"0"</span>, <span class="st">"0.5"</span>, <span class="st">"1"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="S10-TCM_Step3_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="480"></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="How to choose $\alpha$ and $\beta$? Asking ChatGPT/Wolfram Alpha for assistance">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+How to choose <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span>? Asking ChatGPT/Wolfram Alpha for assistance
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Assume that you intuitively started with a normal distribution with M=0.2 and SD=0.1 (<code>rnorm(0.2, 0.1)</code>) to simulate your values. But this function can generate values &lt; 0 and &gt; 1. How can you achieve a beta distribution that approximates the properties of this normal distribution? You can work out the math yourself (e.g., by looking at formula for the mean and the variance of the beta distribution) - or you can ask ChatGPT. After all, we only use this function as a tool to get some plausible values.</p>
+<p>Here’s a possible plain language prompt: &gt; “We have a normal distribution with mean=0.2 and SD=0.1. But the results should be bounded on a scale from 0 to 1. Create a beta-distribution that mimics the properties of the described normal distribution.”</p>
+<p>The Wolfram Alpha plugin for ChatGPT gives this answer:</p>
+<blockquote class="blockquote">
+<p>To mimic the properties of a specified normal distribution (with a mean and standard deviation) using a beta distribution within a bounded interval (in this case, 0 to 1), we need to find the parameters of the beta distribution (alpha <span class="math inline">\(\alpha\)</span> and beta <span class="math inline">\(\beta\)</span>) that match the mean and variance of the normal distribution as closely as possible. The mean <span class="math inline">\(\mu\)</span> and standard deviation <span class="math inline">\(\sigma\)</span> of the normal distribution are given, and the mean <span class="math inline">\(m\)</span> and variance <span class="math inline">\(v\)</span> of the beta distribution can be related to its parameters as follows:</p>
+</blockquote>
+<blockquote class="blockquote">
+<ul>
+<li>Mean of the beta distribution: <span class="math inline">\(m = \frac{\alpha}{\alpha + \beta}\)</span></li>
+<li>Variance of the beta distribution: <span class="math inline">\(v = \frac{\alpha \beta}{(\alpha + \beta)^2 (\alpha + \beta + 1)}\)</span></li>
+</ul>
+<p>Given: - Mean of the normal distribution (<span class="math inline">\(\mu\)</span>) = 0.2 - Standard deviation of the normal distribution (<span class="math inline">\(\sigma\)</span>) = 0.1 - Hence, variance of the normal distribution (<span class="math inline">\(\sigma^2\)</span>) = 0.01</p>
+<p>We need to solve for <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span> such that: - <span class="math inline">\(m = \mu = 0.2\)</span> - <span class="math inline">\(v = \sigma^2 = 0.01\)</span></p>
+<p>Rearranging the formula for the mean <span class="math inline">\(m\)</span> to solve for <span class="math inline">\(\beta\)</span> in terms of <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\mu\)</span>: - <span class="math inline">\(\beta = \alpha \left(\frac{1}{\mu} - 1\right)\)</span></p>
+<p>Substituting <span class="math inline">\(\mu = 0.2\)</span> and <span class="math inline">\(v = 0.01\)</span> into the formulas, we can solve for <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span>. Let’s perform these calculations.</p>
+<p>The parameters for the beta distribution that mimic the properties of the described normal distribution (with mean = 0.2 and standard deviation = 0.1, bounded between 0 and 1) are <span class="math inline">\(\alpha = 3\)</span> and <span class="math inline">\(\beta = 12\)</span>.</p>
+<p>This beta distribution should closely match the shape and spread of the specified normal distribution within the bounds of 0 to 1.</p>
+</blockquote>
+</div>
+</div>
+</div>
+<p>You can generate random values with the <code>rbeta</code> function. Here’s a comparison of a normal distribution and a matched beta distribution that respects the boundaries <span class="math inline">\([0; 1]\)</span>:</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mfcol=</span><span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">1</span>))</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(<span class="fu">rnorm</span>(<span class="dv">10000</span>, <span class="at">mean=</span><span class="fl">0.2</span>, <span class="at">sd=</span><span class="fl">0.1</span>), <span class="at">xlab =</span> <span class="st">"x"</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"Normal distribution (M=0.2, SD=0.1)"</span>, <span class="at">yaxt =</span> <span class="st">"n"</span>, <span class="at">cex.main =</span> <span class="fl">0.8</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>), <span class="at">xaxt=</span><span class="st">"n"</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">axis</span>(<span class="at">side =</span> <span class="dv">1</span>, <span class="at">at =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.5</span>, <span class="dv">1</span>), <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"0"</span>, <span class="st">"0.5"</span>, <span class="st">"1"</span>))</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">v=</span><span class="dv">0</span>, <span class="at">col=</span><span class="st">"red"</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">v=</span><span class="dv">1</span>, <span class="at">col=</span><span class="st">"red"</span>)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(<span class="fu">rbeta</span>(<span class="dv">10000</span>, <span class="at">shape1=</span><span class="dv">3</span>, <span class="at">shape2=</span><span class="dv">12</span>), <span class="at">xlab =</span> <span class="st">"x"</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"beta distribution (a=3, b=12)"</span>, <span class="at">yaxt =</span> <span class="st">"n"</span>, <span class="at">cex.main =</span> <span class="fl">0.8</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>), <span class="at">xaxt=</span><span class="st">"n"</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">axis</span>(<span class="at">side =</span> <span class="dv">1</span>, <span class="at">at =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.5</span>, <span class="dv">1</span>), <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"0"</span>, <span class="st">"0.5"</span>, <span class="st">"1"</span>))</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">v=</span><span class="dv">0</span>, <span class="at">col=</span><span class="st">"red"</span>)</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">v=</span><span class="dv">1</span>, <span class="at">col=</span><span class="st">"red"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="S10-TCM_Step3_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
 <p>Of course, this is just a start - you can use the full toolbox of mathematical functions to implement your model!</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -368,6 +455,7 @@ Note
 <p>Empirical evidence can inform both your choice of the functional form, and, in a model-fitting step, the values of the parameters.</p>
 </div>
 </div>
+</section>
 <section id="deliverable-1" class="level3">
 <h3 class="anchored" data-anchor-id="deliverable-1">Deliverable:</h3>
 <p>Create a table with all functional relationships. Use the IDs from the VAST display to create an unambiguous connection between both documents.</p>
@@ -375,14 +463,24 @@ Note
 </section>
 <section id="step-3-implement-the-functions-in-r" class="level2">
 <h2 class="anchored" data-anchor-id="step-3-implement-the-functions-in-r">Step 3: Implement the functions in R</h2>
+<p>Do “atomic” functions: Each R function implements exactly one functional relationship</p>
+<p>Document all input parameters of your functions, and say what the function computes. This is ideally done inlien in the code, so that the documentation is right there where you need it. In R, this can be done with the established <a href="https://roxygen2.r-lib.org"><code>roxygen2</code></a> documentation standard:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Compute the updated expected anxiety</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param momentary_anxiety The momentary anxiety, on a scale from 0 to 1</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) and the previous expected anxiety (alpha=0) when the updated expected anxiety is computed.</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>expected_anxiety <span class="ot">&lt;-</span> <span class="cf">function</span>(momentary_anxiety, previous_expected_anxiety, <span class="at">alpha=</span><span class="fl">0.5</span>) {</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  momentary_anxiety<span class="sc">*</span>alpha <span class="sc">+</span> previous_expected_anxiety<span class="sc">*</span>(<span class="dv">1</span><span class="sc">-</span>alpha)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Next, connect all functions to one “super-function”, which takes all free inputs as parameter and compute the focal output variable(s).</p>
+<p>Test the super-function:</p>
 <ul>
-<li>Do “atomic” functions: Each R function implements exactly one functional relationship</li>
-<li>Connect all functions to one “super-function”, which takes all free inputs as parameter and compute the focal output variable(s)</li>
-<li>Test the function:
-<ul>
-<li>Enter some reasoanble combinations of parameters</li>
+<li>Enter some reasonable combinations of parameters</li>
 <li>Draw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis.</li>
-</ul></li>
 </ul>
 </section>
 <section id="step-4-simulate-a-full-data-set" class="level2">

@@ -3,8 +3,9 @@
     "listing": "/sessions/sessions_overview.html",
     "items": [
       "/sessions/S1-Introduction.html",
-      "/sessions/S10-TCM_Step3.html",
       "/sessions/S2-Introduction.html",
+      "/sessions/S10-TCM_Step3.html",
+      "/sessions/S11-TCM_Step4.html",
       "/sessions/S3-Constructs.html",
       "/sessions/S4-Bischof_Notation.html",
       "/sessions/S5-VAST.html",

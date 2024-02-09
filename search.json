@@ -823,35 +823,35 @@
     "href": "sessions/S10-TCM_Step3.html",
     "title": "Session 10 - Step 3 in TCM",
     "section": "",
-    "text": "Identify definitions of constructs and relevant phenomena\nFormulate a prototheory: Create a VAST display\nTODAY: Develop a formal model\nCheck the adequacy of the formal model\n\nDo sensitivity analyses etc.\n\nEvaluate the overall worth of the constructed theory"
+    "text": "Identify definitions of constructs and relevant phenomena\nFormulate a prototheory: Create a VAST display\nTODAY: Develop a formal model\nCheck the adequacy of the formal model\nEvaluate the overall worth of the constructed theory"
   },
   {
     "objectID": "sessions/S10-TCM_Step3.html#reminder-tcm-steps",
     "href": "sessions/S10-TCM_Step3.html#reminder-tcm-steps",
     "title": "Session 10 - Step 3 in TCM",
     "section": "",
-    "text": "Identify definitions of constructs and relevant phenomena\nFormulate a prototheory: Create a VAST display\nTODAY: Develop a formal model\nCheck the adequacy of the formal model\n\nDo sensitivity analyses etc.\n\nEvaluate the overall worth of the constructed theory"
+    "text": "Identify definitions of constructs and relevant phenomena\nFormulate a prototheory: Create a VAST display\nTODAY: Develop a formal model\nCheck the adequacy of the formal model\nEvaluate the overall worth of the constructed theory"
   },
   {
     "objectID": "sessions/S10-TCM_Step3.html#step-1-define-variables",
     "href": "sessions/S10-TCM_Step3.html#step-1-define-variables",
     "title": "Session 10 - Step 3 in TCM",
     "section": "Step 1: Define variables",
-    "text": "Step 1: Define variables\n\n\n\n\n\n\n\nAnswer: -136.7\n\n\n\n\n\n\nDefine a variable for each construct of the VAST display. These can be measured variables or internal, unmeasured variables. You can either refer to an actual measurement procedure or simply define a variable. In both cases you should explicitly define the following properties:\n\nscale level (categorical, ordinal, interval scale),\nrange of possible values (e.g., 0 .. 1), and\nsemantic anchors (e.g., 0 = “complete absence”, 1 = “maximal possible value”)\n\n\nSome guiding questions and heuristics\n\nScale level of measurement (Stevens’s typology): Nominal → Ordinal → Interval → Ratio\nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”\n\n\n\n\n\nExample\n\n\n\n\n\n\n\n\n\nConstruct in VAST display\nScale level\nRange/values\nAnchors\n\n\n\n\nAffective tone of instruction\nInterval\n-1 .. 1\n-1 = maximally negative0 = neutral+1 = maximally positive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeliverable:\nCreate a table with all constructs and accompanying variable definitions in your VAST display."
+    "text": "Step 1: Define variables\n\n\n\n\n\n\n\nAnswer: -136.7\n\n\n\n\n\n\nDefine a variable for each construct of the VAST display. These can be measured variables or internal, unmeasured variables. You can either refer to an actual measurement procedure or simply define a variable. In both cases you should explicitly define the following properties:\n\nscale level (categorical, ordinal, interval scale),\nrange of possible values (e.g., 0 .. 1), and\nsemantic anchors (e.g., 0 = “complete absence”, 1 = “maximal possible value”)\n\n\nSome guiding questions and heuristics\n\nScale level of measurement (Stevens’s typology): Nominal → Ordinal → Interval → Ratio\nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”\n\n\n\n\n\nExample\n\n\n\n\n\n\n\n\n\nConstruct in VAST display\nScale level\nRange/values\nAnchors\n\n\n\n\nAffective tone of instruction\nContinuous\n[-1; 1]\n-1 = maximally negative0 = neutral+1 = maximally positive\n\n\nmomentary anxiety\nContinuous\n[0; 1]\n0 = no anxiety1 = maximal anxiety\n\n\n…\n…\n…\n…\n\n\n\n\n\nDeliverable:\nCreate a table with all constructs and accompanying variable definitions in your VAST display."
   },
   {
     "objectID": "sessions/S10-TCM_Step3.html#step-2-define-functional-relationships-between-variables",
     "href": "sessions/S10-TCM_Step3.html#step-2-define-functional-relationships-between-variables",
     "title": "Session 10 - Step 3 in TCM",
     "section": "Step 2: Define functional relationships between variables",
-    "text": "Step 2: Define functional relationships between variables\nEvery causal path needs to be implemented as a function, where the dependent variable/output \\(y\\) is a function of the input variables \\(x_i\\).\n\\(y = f(x_1, x_2, ..., x_i)\\)\nThis can, for example, be a linear function, \\(y = \\beta_0 + \\beta_1x_1\\). As this is unbounded, however, it can easily happen that the computed \\(y\\) exceeds the possible range of values.\nIf \\(y\\) has defined boundaries (e.g., \\([0; 1]\\)), a logistic function might be a convenient function, as it automatically bounds the values between a lower and an upper limit (in the basic logistic function, between 0 and 1): \\(y = \\frac{1}{1 + e^{-x}}\\).\n\n\n\n\n\nWith the 4PL model from IRT, you can adjust the functional form to your needs, by:\n\nshifting the inflection point from left to right (aka. “item difficulty”, parameter \\(d\\))\nchange the steepness of the S-shape (aka. “discrimination parameter”, parameter \\(a\\))\nMove the lower asymptote up or down (parameter \\(min\\))\nMove the upper limit up or down (parameter \\(max\\))\n\n\nlogistic &lt;- function (x, d = 0, a = 1, min = 0, max = 1) {\n min + (max - min)/(1 + exp(a * (d - x)))\n}\n\n\n\n\n\n\nThese parameters can be used to “squeeze” the S-shaped curve into the range of your variables. For example, if your \\(x\\) variable is defined on the range \\([0; 1]\\), the following function parameters lead to a reasonable shift:\n\n\n\n\n\nOf course, this is just a start - you can use the full toolbox of mathematical functions to implement your model!\n\n\n\n\n\n\nNote\n\n\n\nThese considerations about functional forms, however, are typically not substantiated by psychological theory or background knowledge - at least at the start of a modeling project. We choose them, because we are (a) acquainted to it, and/or (b) they are mathematically convenient and tractable.\nEmpirical evidence can inform both your choice of the functional form, and, in a model-fitting step, the values of the parameters.\n\n\n\nDeliverable:\nCreate a table with all functional relationships. Use the IDs from the VAST display to create an unambiguous connection between both documents."
+    "text": "Step 2: Define functional relationships between variables\nEvery causal path needs to be implemented as a function, where the dependent variable/output \\(y\\) is a function of the input variables \\(x_i\\).\n\\(y = f(x_1, x_2, ..., x_i)\\)\nThis can, for example, be a linear function, \\(y = \\beta_0 + \\beta_1x_1\\). As this is unbounded, however, it can easily happen that the computed \\(y\\) exceeds the possible range of values.\n\nTool 1: The logistic function family\nIf \\(y\\) has defined boundaries (e.g., \\([0; 1]\\)), a logistic function might be a convenient function, as it automatically bounds the values between a lower and an upper limit (in the basic logistic function, between 0 and 1): \\(y = \\frac{1}{1 + e^{-x}}\\).\n\n\n\n\n\nWith the 4PL model from IRT, you can adjust the functional form to your needs, by:\n\nshifting the inflection point from left to right (aka. “item difficulty”, parameter \\(d\\))\nchange the steepness of the S-shape (aka. “discrimination parameter”, parameter \\(a\\))\nMove the lower asymptote up or down (parameter \\(min\\))\nMove the upper limit up or down (parameter \\(max\\))\n\n\nlogistic &lt;- function (x, d = 0, a = 1, min = 0, max = 1) {\n min + (max - min)/(1 + exp(a * (d - x)))\n}\n\n\n\n\n\n\nThese parameters can be used to “squeeze” the S-shaped curve into the range of your variables. For example, if your \\(x\\) variable is defined on the range \\([0; 1]\\), the following function parameters lead to a reasonable shift:\n\n\n\n\n\n\n\nTool 2: The beta distribution\nIf you start simulating data for your virtual participants, you want to simulate their starting values. For example, the virtual participants might differ in their anxiety, which you previously defined on the range \\([0; 1]\\). How can you generate random values that roughly look like a normal distribution, but are bounded to the defined range?\nFor simulations, it is good to know some basic distributions. Here are three interactive resources for choosing your distribution:\n\nThe Distribution Zoo by Ben Lambert and Fergus Cooper\nThe Probability Distribution Explorer by Justin Bois\nInteractive collection of distributions by Richar Morey\n\nA handy distribution for the \\([0; 1]\\) range is the beta distribution. With its two parameters \\(\\alpha\\) and \\(\\beta\\), it can take many different forms:\n\n\nCode\n# Note: shape1 is alpha, shape2 is beta\n\npar(mfcol=c(2, 2))\nx_values &lt;- seq(0, 1, length.out=100)\nplot(x_values, dbeta(x_values, shape1=1, shape2=4), type = \"l\", col = \"blue\", xlab = \"x\", ylab = \"y\", main=\"a=1, b=4\", xlim=c(0, 1), yaxt = \"n\", xaxt=\"n\")\naxis(side = 1, at = c(0, 0.5, 1), labels = c(\"0\", \"0.5\", \"1\"))\n\nplot(x_values, dbeta(x_values, shape1=4, shape2=1), type = \"l\", col = \"blue\", xlab = \"x\", ylab = \"y\", main=\"a=4, b=1\", xlim=c(0, 1), yaxt = \"n\", xaxt=\"n\")\naxis(side = 1, at = c(0, 0.5, 1), labels = c(\"0\", \"0.5\", \"1\"))\n\nplot(x_values, dbeta(x_values, shape1=8, shape2=3), type = \"l\", col = \"blue\", xlab = \"x\", ylab = \"y\", main=\"a=8, b=3\", xlim=c(0, 1), yaxt = \"n\", xaxt=\"n\")\naxis(side = 1, at = c(0, 0.5, 1), labels = c(\"0\", \"0.5\", \"1\"))\n\nplot(x_values, dbeta(x_values, shape1=20, shape2=26), type = \"l\", col = \"blue\", xlab = \"x\", ylab = \"y\", main=\"a=20, b=26\", xlim=c(0, 1), yaxt = \"n\", xaxt=\"n\")\naxis(side = 1, at = c(0, 0.5, 1), labels = c(\"0\", \"0.5\", \"1\"))\n\n\n\n\n\n\n\n\n\n\n\nHow to choose \\(\\alpha\\) and \\(\\beta\\)? Asking ChatGPT/Wolfram Alpha for assistance\n\n\n\n\n\nAssume that you intuitively started with a normal distribution with M=0.2 and SD=0.1 (rnorm(0.2, 0.1)) to simulate your values. But this function can generate values &lt; 0 and &gt; 1. How can you achieve a beta distribution that approximates the properties of this normal distribution? You can work out the math yourself (e.g., by looking at formula for the mean and the variance of the beta distribution) - or you can ask ChatGPT. After all, we only use this function as a tool to get some plausible values.\nHere’s a possible plain language prompt: &gt; “We have a normal distribution with mean=0.2 and SD=0.1. But the results should be bounded on a scale from 0 to 1. Create a beta-distribution that mimics the properties of the described normal distribution.”\nThe Wolfram Alpha plugin for ChatGPT gives this answer:\n\nTo mimic the properties of a specified normal distribution (with a mean and standard deviation) using a beta distribution within a bounded interval (in this case, 0 to 1), we need to find the parameters of the beta distribution (alpha \\(\\alpha\\) and beta \\(\\beta\\)) that match the mean and variance of the normal distribution as closely as possible. The mean \\(\\mu\\) and standard deviation \\(\\sigma\\) of the normal distribution are given, and the mean \\(m\\) and variance \\(v\\) of the beta distribution can be related to its parameters as follows:\n\n\n\nMean of the beta distribution: \\(m = \\frac{\\alpha}{\\alpha + \\beta}\\)\nVariance of the beta distribution: \\(v = \\frac{\\alpha \\beta}{(\\alpha + \\beta)^2 (\\alpha + \\beta + 1)}\\)\n\nGiven: - Mean of the normal distribution (\\(\\mu\\)) = 0.2 - Standard deviation of the normal distribution (\\(\\sigma\\)) = 0.1 - Hence, variance of the normal distribution (\\(\\sigma^2\\)) = 0.01\nWe need to solve for \\(\\alpha\\) and \\(\\beta\\) such that: - \\(m = \\mu = 0.2\\) - \\(v = \\sigma^2 = 0.01\\)\nRearranging the formula for the mean \\(m\\) to solve for \\(\\beta\\) in terms of \\(\\alpha\\) and \\(\\mu\\): - \\(\\beta = \\alpha \\left(\\frac{1}{\\mu} - 1\\right)\\)\nSubstituting \\(\\mu = 0.2\\) and \\(v = 0.01\\) into the formulas, we can solve for \\(\\alpha\\) and \\(\\beta\\). Let’s perform these calculations.\nThe parameters for the beta distribution that mimic the properties of the described normal distribution (with mean = 0.2 and standard deviation = 0.1, bounded between 0 and 1) are \\(\\alpha = 3\\) and \\(\\beta = 12\\).\nThis beta distribution should closely match the shape and spread of the specified normal distribution within the bounds of 0 to 1.\n\n\n\n\nYou can generate random values with the rbeta function. Here’s a comparison of a normal distribution and a matched beta distribution that respects the boundaries \\([0; 1]\\):\n\n\nCode\npar(mfcol=c(2, 1))\nhist(rnorm(10000, mean=0.2, sd=0.1), xlab = \"x\", ylab=\"\", main=\"Normal distribution (M=0.2, SD=0.1)\", yaxt = \"n\", cex.main = 0.8, xlim=c(-0.3, 1.1), xaxt=\"n\")\naxis(side = 1, at = c(0, 0.5, 1), labels = c(\"0\", \"0.5\", \"1\"))\n\nabline(v=0, col=\"red\")\nabline(v=1, col=\"red\")\nhist(rbeta(10000, shape1=3, shape2=12), xlab = \"x\", ylab=\"\", main=\"beta distribution (a=3, b=12)\", yaxt = \"n\", cex.main = 0.8, xlim=c(-0.3, 1.1), xaxt=\"n\")\naxis(side = 1, at = c(0, 0.5, 1), labels = c(\"0\", \"0.5\", \"1\"))\nabline(v=0, col=\"red\")\nabline(v=1, col=\"red\")\n\n\n\n\n\nOf course, this is just a start - you can use the full toolbox of mathematical functions to implement your model!\n\n\n\n\n\n\nNote\n\n\n\nThese considerations about functional forms, however, are typically not substantiated by psychological theory or background knowledge - at least at the start of a modeling project. We choose them, because we are (a) acquainted to it, and/or (b) they are mathematically convenient and tractable.\nEmpirical evidence can inform both your choice of the functional form, and, in a model-fitting step, the values of the parameters.\n\n\n\n\nDeliverable:\nCreate a table with all functional relationships. Use the IDs from the VAST display to create an unambiguous connection between both documents."
   },
   {
     "objectID": "sessions/S10-TCM_Step3.html#step-3-implement-the-functions-in-r",
     "href": "sessions/S10-TCM_Step3.html#step-3-implement-the-functions-in-r",
     "title": "Session 10 - Step 3 in TCM",
     "section": "Step 3: Implement the functions in R",
-    "text": "Step 3: Implement the functions in R\n\nDo “atomic” functions: Each R function implements exactly one functional relationship\nConnect all functions to one “super-function”, which takes all free inputs as parameter and compute the focal output variable(s)\nTest the function:\n\nEnter some reasoanble combinations of parameters\nDraw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis."
+    "text": "Step 3: Implement the functions in R\nDo “atomic” functions: Each R function implements exactly one functional relationship\nDocument all input parameters of your functions, and say what the function computes. This is ideally done inlien in the code, so that the documentation is right there where you need it. In R, this can be done with the established roxygen2 documentation standard:\n\n#' Compute the updated expected anxiety\n#'\n#' @param momentary_anxiety The momentary anxiety, on a scale from 0 to 1\n#' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1\n#' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) and the previous expected anxiety (alpha=0) when the updated expected anxiety is computed.\n\nexpected_anxiety &lt;- function(momentary_anxiety, previous_expected_anxiety, alpha=0.5) {\n  momentary_anxiety*alpha + previous_expected_anxiety*(1-alpha)\n}\n\nNext, connect all functions to one “super-function”, which takes all free inputs as parameter and compute the focal output variable(s).\nTest the super-function:\n\nEnter some reasonable combinations of parameters\nDraw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis."
   },
   {
     "objectID": "sessions/S10-TCM_Step3.html#step-4-simulate-a-full-data-set",
@@ -865,119 +865,224 @@
     "href": "sessions/sessions_overview.html",
     "title": "Overview of sessions",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 1 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\nSession 10 - Step 3 in TCM\n\n\nDevelop and implement a formal model\n\n\n\n\nSession 2 - Introduction Theories\n\n\nIntro to theory 2; Bischof notation; CFF files\n\n\n\n\nSession 3 - How to define constructs\n\n\nCreate proper definitions for the constructs in our Buri model\n\n\n\n\nSession 4 - Bischof notation\n\n\nLearn the Bischof notation for control systems; apply it to Buri.\n\n\n\n\nSession 5 - Visual Argument Structure Tool (VAST) V1.0\n\n\nGuest lecture by Daniel Leising about VAST\n\n\n\n\nSession 6 - NetLogo implementation of Buri\n\n\nTry to implement your Buri model in Netlogo\n\n\n\n\nSession 7 - Our target theory / NetLogo presentation\n\n\nWe get introduced to our target theory / Showcase the Buri ABM\n\n\n\n\nSession 8 - Step 1 in TCM\n\n\nWe do the first step of TCM of our chosen theory: Identify relevant phenomena\n\n\n\n\nSession 9 - Step 2 in TCM\n\n\nWe do the second step of TCM of our chosen theory: Identify relevant phenomena\n\n\n\n\nSession X - How to write the final report\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\nSession 02 - Introduction Theories\n\n\nIntro to theory 2; Bischof notation; CFF files\n\n\n\n\nSession 10 - Step 3 in TCM\n\n\nDevelop and implement a formal model\n\n\n\n\nSession 11 - Step 4 in TCM\n\n\nCheck the behavior of the model in boundary conditions; do a sensitivity analysis\n\n\n\n\nSession 3 - How to define constructs\n\n\nCreate proper definitions for the constructs in our Buri model\n\n\n\n\nSession 4 - Bischof notation\n\n\nLearn the Bischof notation for control systems; apply it to Buri.\n\n\n\n\nSession 5 - Visual Argument Structure Tool (VAST) V1.0\n\n\nGuest lecture by Daniel Leising about VAST\n\n\n\n\nSession 6 - NetLogo implementation of Buri\n\n\nTry to implement your Buri model in Netlogo\n\n\n\n\nSession 7 - Our target theory / NetLogo presentation\n\n\nWe get introduced to our target theory / Showcase the Buri ABM\n\n\n\n\nSession 8 - Step 1 in TCM\n\n\nWe do the first step of TCM of our chosen theory: Identify relevant phenomena\n\n\n\n\nSession 9 - Step 2 in TCM\n\n\nWe do the second step of TCM of our chosen theory: Identify relevant phenomena\n\n\n\n\nSession X - How to write the final report\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "sessions/S6-NetLogo.html",
-    "href": "sessions/S6-NetLogo.html",
-    "title": "Session 6 - NetLogo implementation of Buri",
+    "objectID": "sessions/S11-TCM_Step4.html",
+    "href": "sessions/S11-TCM_Step4.html",
+    "title": "Session 11 - Step 4 in TCM",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nWorkshop: Netlogo implementation\n180\nSee instructions below\n\n\n[Homework]: Prepare for first theory session\n-"
+    "text": "Identify definitions of constructs and relevant phenomena\nFormulate a prototheory: Create a VAST display\nDevelop a formal model\nTODAY: Check the adequacy of the formal model\nEvaluate the overall worth of the constructed theory (not covered in this course)"
   },
   {
-    "objectID": "sessions/S6-NetLogo.html#first-implementation-a-single-donkey",
-    "href": "sessions/S6-NetLogo.html#first-implementation-a-single-donkey",
-    "title": "Session 6 - NetLogo implementation of Buri",
-    "section": "2.1 First implementation: A single donkey",
-    "text": "2.1 First implementation: A single donkey\n\nDownload FOMO-homework/Buridans_Ass/NetLogo-Framework/Buri_environment.nlogo. This contains all global variables and the environment. It also has the stump of your donkey’s behavioral program\nImplement your own model - start with a single donkey.\n\nCode together in the group - but every participant should write the code on their own local machine. Add your own name to the file name to distinguish different implementations. Save the nlogo files in the folder of your donkey.\nGroup members can agree on a single implementation. But they can also have different irrelevant choices (such as the shape of the donkey), or even differing implementations (in case that the theoretical model was underspecified).\n\nDocument the gaps: In an extra document in the repository (called arbitrary_decision.md), document all implementation decisions that were not determined by the formal model (i.e., which were arbitrary)\nFor the first run: A priori choose sensible starting values for your free model parameters.\n\nIf group members do not converge on a single setting, they can use different starting values.\n\nRecord the simulation result in Table 1 of FOMO-homework/Buridans_Ass/NetLogo-Framework/Results.md\n\nHow many ticks does the donkey survive with these parameters?\nIf your model is not deterministic, for example because you have some random numbers in it, record at least 10 runs with the same parameter setting and record the average survival time.\n\n\n\n\n\n\n\n\nBe careful when pushing changes to the remote repository\n\n\n\nYou jointly edit the results file. You probably will encounter merge conflicts; resolve them with care! Do not (inadvertently) delete the results of the other group."
-  },
-  {
-    "objectID": "sessions/S6-NetLogo.html#model-optimization-free-parameters",
-    "href": "sessions/S6-NetLogo.html#model-optimization-free-parameters",
-    "title": "Session 6 - NetLogo implementation of Buri",
-    "section": "2.2 Model optimization: Free parameters",
-    "text": "2.2 Model optimization: Free parameters\n\nManually adjust the free parameters - you are allowed and encouraged to play around. Try to find a better setting (i.e., a parameter setting where the donkey survives longer)\nRecord the new parameter settings and the new results in Table 1 of FOMO-homework/Buridans_Ass/NetLogo-Framework/Results.md (set Run to 2, 3, … etc.)\n\nOptimizing free parameters is not a change of the model structure (or theory) itself! Nearly all models contain free parameters that may be optimized to fit the model to empirical reality."
-  },
-  {
-    "objectID": "sessions/S6-NetLogo.html#optional-model-optimization-model-structure",
-    "href": "sessions/S6-NetLogo.html#optional-model-optimization-model-structure",
-    "title": "Session 6 - NetLogo implementation of Buri",
-    "section": "2.3 (optional) Model optimization: Model structure",
-    "text": "2.3 (optional) Model optimization: Model structure\nIt can happen that the donkey acts strangely, in a non-adaptive way. In this case, first search for bugs in the implementation.\nHowever, it could also be that the theoretical model itself is erroneous (or suboptimal), in the sense that it does not solve the task. Often, problems with the model’s structure itself are realized during implementation.\nIn this case, you can revise the theoretical model. Change the model description in the dev branch and implement the changes. When you are happy with the revised model, increase the version number in the cff file, push the revised model to the main branch and create a new release."
-  },
-  {
-    "objectID": "sessions/S6-NetLogo.html#optional-many-donkeys-parameter-optimization",
-    "href": "sessions/S6-NetLogo.html#optional-many-donkeys-parameter-optimization",
-    "title": "Session 6 - NetLogo implementation of Buri",
-    "section": "2.4 (optional) Many donkeys: Parameter optimization",
-    "text": "2.4 (optional) Many donkeys: Parameter optimization\nIn NetLogo, it is very easy to create many agents of the same kind. Instead of manually optimizing the free parameters, you can use algorithms, such as an evolutionary algorithm, to find the best parameter settings.\n\n\n\n\n\n\nNote\n\n\n\nAlways keep in mind: Evolution needs (a) variation (usually induced by mutation or recombination) and (b) selection.\n\n\nMany optimization algorithms are possible; here are some suggestions (with increasing complexity).\n\n2.4.1 Who survives the longest?\n\nCreate many Donkeys with varying settings of their parameters (i.e. in the setup function for the donkeys). Some possibilities for creating variation:\n\n“Random search”: Set parameters randomly within the allowed parameter range.\n“Grid search”: Create systematic combinations all parameters.\n\nRun the simulation, see which donkeys survive the longest.\n\n\n\n2.4.2 Evolutionary algorithm\n\nCreate many Donkeys with varying settings of their parameters (see above)\nAfter some time let the worst-performing die (i.e., those who are dead anyway, or have the lowest health value) → Selection\nOf those which survive, create offspring which has some random variation of their (single) parent (i.e., take the parameter settings of the surviving donkey, add some random noise to the settings, and create offspring with the updates settings) → Mutation/Variation\n\nNetLogo has many built-in functions for these evolutionary steps; for example:\n\nsetxy random-xcor random-ycor: Let agents start at a random position\nhatch is a primitive that creates a provided number of identical copies of a turtle (i.e., the offspring). It allows optional rules defined for the new turtles by following it with brackets [] (see help page).\nmax-n-of and min-n-of: Select the n agents with the highest or lowest value in a property (see help file). Here’s some pseudo-code, selecting the 10 buris with the highest and lowest value in health:\n\n; reproduction: the 10 fittest buris reproduce (2 kids)\nask max-n-of 10 buris [health] [\n\n  ; save the value of property1 of the parent in a variable\n  let prev_property1 property1\n\n  ; create 2 offsprings with random variation\n  hatch 2 [\n    lt 45  ; turn away\n    fd 1   ; walk away from parent to make it visible\n\n    ; add random variation to property1 of the offspring\n    set property1 prev_property1 - 0.025 + random-float 0.05\n    output-print (word \"Old property1: \" prev_property1 \"; new property1: \" property1)\n  ]\n]\n\n; death: the 10 unfittest buris die\nask min-n-of 10 buris [health] [\n    die\n]\nMonitor the distribution of parameter settings in the population of donkeys: Across evolving generations, it (often) will converge to the optimal values.\n\n\n\n\n\n\nNote\n\n\n\nExcept for an exhaustive search that enumerates all possible combinations of the entire parameter space, there’s no guarantee that optimization algorithms converge to the (globally) optimal solution. For example, they can get stuck in local optima. In this case, larger mutations in an evolutionary algorithm are helpful, because they allow to “jump” out of the local minimum/maximum and to find a better solution.\n\n(Image from http://turingfinance.com)"
-  },
-  {
-    "objectID": "sessions/S5-VAST.html",
-    "href": "sessions/S5-VAST.html",
-    "title": "Session 5 - Visual Argument Structure Tool (VAST) V1.0",
+    "objectID": "sessions/S11-TCM_Step4.html#reminder-tcm-steps",
+    "href": "sessions/S11-TCM_Step4.html#reminder-tcm-steps",
+    "title": "Session 11 - Step 4 in TCM",
     "section": "",
-    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLecture / Skill: VAST\n150\nRead the Paper. See Daniel Leising’s slides\n\n\nDecision: Which theory to formalize?\n45\n\n\n\n[Homework]:\n-\n\n\n\n\n\n\n2 Homework (individual)\nRead the VAST paper:\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://open.lnu.se/index.php/metapsychology/article/view/2911"
+    "text": "Identify definitions of constructs and relevant phenomena\nFormulate a prototheory: Create a VAST display\nDevelop a formal model\nTODAY: Check the adequacy of the formal model\nEvaluate the overall worth of the constructed theory (not covered in this course)"
   },
   {
-    "objectID": "common/lastslide.html",
-    "href": "common/lastslide.html",
-    "title": "End",
+    "objectID": "sessions/S11-TCM_Step4.html#step-1-check-adequacy-of-the-combined-model-boundary-conditions",
+    "href": "sessions/S11-TCM_Step4.html#step-1-check-adequacy-of-the-combined-model-boundary-conditions",
+    "title": "Session 11 - Step 4 in TCM",
+    "section": "Step 1: Check adequacy of the combined model: Boundary conditions",
+    "text": "Step 1: Check adequacy of the combined model: Boundary conditions\nIn the last step, we created functional relationships between specific variables (i.e., the paths in the VAST display). Now let’s check the behavior and adequacy of the combined model.\nCreate a full factorial combination of all relevant input parameters of your combined model. This can entail both the input variables of your virtual participants and “tuning parameters” of your functions. As a start, I recommend that you fix the tuning parameters to sensible values and only vary the input variables. Later, you can also check the influence of the tuning parameters.\nThe expand.grid function comes handy for creating all possible combinations of a provided set of vectors:\n\nparams &lt;- expand.grid(\n  expected_anxiety = c(0, 0.5, 1),\n  alpha = c(0, 0.5, 1),\n  condition = c(\"Control\", \"Treatment\")\n)\n\nprint(params)\n\n   expected_anxiety alpha condition\n1               0.0   0.0   Control\n2               0.5   0.0   Control\n3               1.0   0.0   Control\n4               0.0   0.5   Control\n5               0.5   0.5   Control\n6               1.0   0.5   Control\n7               0.0   1.0   Control\n8               0.5   1.0   Control\n9               1.0   1.0   Control\n10              0.0   0.0 Treatment\n11              0.5   0.0 Treatment\n12              1.0   0.0 Treatment\n13              0.0   0.5 Treatment\n14              0.5   0.5 Treatment\n15              1.0   0.5 Treatment\n16              0.0   1.0 Treatment\n17              0.5   1.0 Treatment\n18              1.0   1.0 Treatment\n\n\nThis data frame can be seen as a sample of carefully chosen participants that cover the “corners” of your parameter space. When you submit that to your model function, you can measure the model’s output at these boundary cases. In practice, you would choose more fine-grained steps in each variable (e.g., alpha = seq(0, 1, by=0.1)) to get a smooth plot of the model’s behavior."
+  },
+  {
+    "objectID": "sessions/S8-TCM_Step1.html",
+    "href": "sessions/S8-TCM_Step1.html",
+    "title": "Session 8 - Step 1 in TCM",
     "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWorkshop: Work on step 1\n\n\n\n\n[Homework]: Finalize step 1\n-"
   },
   {
-    "objectID": "common/lastslide.html#contact",
-    "href": "common/lastslide.html#contact",
-    "title": "End",
+    "objectID": "sessions/S8-TCM_Step1.html#decisions-we-made-together-with-the-expert-researcher",
+    "href": "sessions/S8-TCM_Step1.html#decisions-we-made-together-with-the-expert-researcher",
+    "title": "Session 8 - Step 1 in TCM",
+    "section": "Decisions we made together with the expert researcher:",
+    "text": "Decisions we made together with the expert researcher:\nFor limiting the scope of the formalization exercise, we decided to focus on these variables:\n\n“Valence of imagination” as moderating variable: This is theoretically important, but there is conflicting empirical evidence (the valence doesn’t seem to make a difference; see meta-analysis of Miles & Crisp, 2014)\nAffective processes as mediating variable\n\nErst die Prozessvariablen machen aus der Hypothese eine Erklärung. Aber die Erklärung ist recht unterspezifiziert: was genau heißt “die Einstellung ändert sich”. Was genau? Die Valenz? Der Inhalt? die gefühlte Distanz zur outgroup Eine Möglichkeit: Ängste reduzieren.\n\nPrimary outcomes:\n\n“Im Kern der ursprünglichen Hypothese liegt die outgroup perception (welche ein Oberbegriff von”Einstellung” und/oder die “Vorurteile” ist (Einstellungen werden als Proxy für Vorurteile genommen)”\n“Einstellung” als weiteres Konstrukt aufnehmen (vor der approach tendency)? Zu komplex/schwammig? Wie ist dieses Konstrukt im Kontext dieser Theorie definiert? –&gt; wenn dann irgendwie konkretisieren\nEinstellung hat drei Komponenten: kognitiv, affektiv, beharioval tendency\n(Self-reported) approach tendencies\n\nWe do not model actual behavior, as this is too multi-determined. Hence, everything happens “within the mind” of the actors."
+  },
+  {
+    "objectID": "sessions/S8-TCM_Step1.html#concrete-steps",
+    "href": "sessions/S8-TCM_Step1.html#concrete-steps",
+    "title": "Session 8 - Step 1 in TCM",
+    "section": "Concrete steps",
+    "text": "Concrete steps\n\n1. Definitions\nUse the primary literature to define the focal constructs:\n\nSearch for definitions, collect them in a document (remembeto provide precise references, with page number).\nCompare different definitions (maybe in a table?)\n(optional) If no single existing definition is sufficient, agree on a consensus working definition for the context of our project.\nDeliverable 1: Write a paragraph/section/table that collects the final definitions. Clearly cite and quote existing definitions. Make clear when you deviate from an existing definition and give a justification why.\nDeliverable 2: Create a first VAST display with constructs and naming relationships (use either verbal quotes or your consensus definition)\n\n\n\n2. Robust Phenomena\nPhenoma describe relations between our focal constructs.\nRobustness of phenomena has two dimensions:\n\nstrong empirical evidence\ngeneralizability (cf. UTOS framework): The effect has been shown for different Units, with different operationalizations of Treatments and Outcomes, and in multiple Settings\n\nPractically, you should do the following steps to assess these two dimensions:\n\nSearch for meta-analyses that report on phenomena with our focal variables\nOnly if no meta-analysis is available, or it is not helpful: Do a broader literature search on the level of primary studies.\nAssess the robustness of the phenomena along the two dimensions:\n\nHow strong is the evidence? (e.g., based on number k of studies in a meta-analysis, strength of evidence, risk of bias)\nHow generalizable is it? Go through all four UTOS dimensions and evaluate which types of generalization have been shown across studies.\n\nDeliverable 3: Write a paragraph/section that makes an overall assessment of the robustness of each phenomenon and gives a clear and explicit answer: “The phenomenon can (not) be considered robust because, …”. Refer to the two dimensions of robustness and point towards references that back up your claim with evidence."
+  },
+  {
+    "objectID": "sessions/S8-TCM_Step1.html#how-to-jointly-assess-strength-of-evidence-and-generalizability",
+    "href": "sessions/S8-TCM_Step1.html#how-to-jointly-assess-strength-of-evidence-and-generalizability",
+    "title": "Session 8 - Step 1 in TCM",
+    "section": "How to jointly assess “strength of evidence” and “generalizability”",
+    "text": "How to jointly assess “strength of evidence” and “generalizability”\nThe strength of evidence relates to the question, how conclusive the empirical evidence is with regard to the question of generalizability.\nWhen you assess the generalizability, you should distinguish three prototypical epistemic states:\n\n“I know that it is generalizable.”\n“I know that it is not generalizable.”\n“I do not know whether it is generalizable or not - with the given empirical evidence I cannot answer this question.”\n\nWhen is the strength of evidence strong? If …\n\nyou have many studies,\nthat cover a considerable part of the space of possible generalizations,\nwhich are methodologically sound (i.e., valid),\nand show (at least in sum) a decisive statistical result into either direction (i.e., either for a difference, or for a null effect)\n\nAs a sidenote: Ideally, evidence is quantified with a statistical technique that also allows to measure evidence for the null hypothesis and that gives a continuous quantification of the strength of evidence. A Bayes factor provides both desiderata.\nAs the strength of evidence can be continuous, the situation can be visualized on a graph (see Figure 1):\n\n\n\nFigure 1: Possible results of a generalizability assessment.\n\n\nWe describe six prototypical examples:\n\n(A): Many variations have been tested and led to very different results, maybe even with a sign flip. This is strong evidence that the phenomenon is not generalizable.\n(B): Many variations have been tested and all led to comparable results. This is strong evidence that the phenomenon is generalizable - at least within the space of sampled variations.\n(C): Few variations have been tested and led to quite different results. This is weak evidence that the phenomenon is not generalizable.\n(D): Few variations have been tested and all led to comparable results. This is weak evidence that the phenomenon is generalizable. As we don’t know about the untested variations, the evidence principally cannot be very strong.\n(E): Only one variation has been tested. It is principally unknowable whether the result generalizes to other variations; the evidence is totally inconclusive. We can only conclude that we cannot conclude anything about generalizability. This also implies, that the question of generalizability cannot be answered if only a single (or very few) studies are available, or if the existing studies have no variation in the respective UTOS dimensions.\n(F): Although many variations have been tested, the evidence is still inconclusive. There are descriptive differences between variations, but they are small, and it is not clear if these differences are statistically significant and substantial.\n\nThe dashed line symbolizes the space of possible combinations: With a very small count of realized variations, it is very unlikely (or even impossible) to generate strong evidence in either direction.\nAn open question of course is, how close results should be to speak of high generalizability? Do the results in the right half of the plot have to be nearly identical? How much heterogeneity is allowed?\n\nApplying the heuristic to ManyLabs2\nAll four UTOS dimensions can get an independent assessment. Consider the ManyLabs2 study: The identical experiment (except translation of materials) has been administered online in very diverse samples (at least diverse with respect to nationality and cultural background). Hence, there was high variation in the U(nits) and the S(ettings) dimensions, but very low variation in the T(reatment) and O(utcome) dimension. Non-zero effects could be found with remarkably low variability across samples: “Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied” (quoted from the Abstract).\nHence, a stylized analysis of the ML2 study could look like:\n\n\n\nFigure 2: A generalizability assessment of the UTOS dimensions in ManyLabs 2.\n\n\nHence, we have strong evidence for high generalizability for the U and the S dimension, but we cannot make a conclusion concerning the T and the O dimensions, as they lacked the necessary variation in the study."
+  },
+  {
+    "objectID": "sessions/S1-Introduction.html",
+    "href": "sessions/S1-Introduction.html",
+    "title": "Session 01 - Introduction",
     "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nLecturer introduction\n\n\nIntroduction of students in the plenum\n5\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nGroup formation\n10\nSee Section 2\n\n\nSkill: Git Intro\n30\nSee Section 3\n\n\nLecture: Introducion: Theory crisis\n45\nSlides\n\n\nWorkshop: Group Exercise: Buri (Level 1)\n60\nSlides\n\n\n[Homework 1]: Git Tutorial\n-\n\n\n\n[Homework 2]: Smaldino (2013), Chapter 1\n-"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
+    "objectID": "sessions/S1-Introduction.html#goal",
+    "href": "sessions/S1-Introduction.html#goal",
+    "title": "Session 01 - Introduction",
+    "section": "2.1 Goal:",
+    "text": "2.1 Goal:\n\nPut together groups where also unacquainted people meet -&gt; increase network size.\nAllow a certain freedom of choice, not completely random.\nEnsure that at least one person is knowledgable of programming."
+  },
+  {
+    "objectID": "sessions/S1-Introduction.html#create-a-visual-analog-scale-vas-of-programming-skills-in-the-room",
+    "href": "sessions/S1-Introduction.html#create-a-visual-analog-scale-vas-of-programming-skills-in-the-room",
+    "title": "Session 01 - Introduction",
+    "section": "2.2 Create a “visual analog scale” (VAS) of programming skills in the room",
+    "text": "2.2 Create a “visual analog scale” (VAS) of programming skills in the room\nWhile carrying their name tags, students find their position between two corners of the rooms, described as:\n\n“No programming knowledge at all, I even forgot everything I learned about R programming in the first semester”\n“I actively coded (in any language) in the last 3 months”"
+  },
+  {
+    "objectID": "sessions/S1-Introduction.html#semi-randomised-allocation",
+    "href": "sessions/S1-Introduction.html#semi-randomised-allocation",
+    "title": "Session 01 - Introduction",
+    "section": "2.3 Semi-randomised allocation:",
+    "text": "2.3 Semi-randomised allocation:\n\nCollect all name tags, in the order of programming skills in the VAS.\nBuild 4 working islands (push tables together).\nDistribute the name tags of the 4 most capable programmers in the room on the 4 tables.\nThen select the next 4 names, who choose an island to join. But only 1 person is allowed to join each island at each round."
+  },
+  {
+    "objectID": "sessions/S1-Introduction.html#round-of-introductions-within-the-group-10-min",
+    "href": "sessions/S1-Introduction.html#round-of-introductions-within-the-group-10-min",
+    "title": "Session 01 - Introduction",
+    "section": "2.4 Round of introductions within the group (10 min)",
+    "text": "2.4 Round of introductions within the group (10 min)\n\nTask: Think of a funny name for a donkey. This will be the group’s name.\nGive a more detailed introduction to the other group members:\n\nCareer goals / type of psychologist they want to become\nSpecific programming skills"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Note: The material will (initially) be some mixture of German and English. Your mileage may vary.\nThe course has 15 sessions, each lasting 3.5h. In between sessions, homework is given.\nEach session will be a mix of three elements:"
+    "text": "This is material for the course “P19 Empirisch-psychologisches Praktikum” at the Ludwig-Maximilians-Universität München. The course is given in the winter term 2023/24 by Prof. Dr. Felix Schönbrodt."
   },
   {
-    "objectID": "index.html#modeling-methodology",
-    "href": "index.html#modeling-methodology",
-    "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
-    "section": "Modeling methodology",
-    "text": "Modeling methodology\n\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nGuest, O., & Martin, A. E. (2021). How Computational Modeling Can Force Theory Building in Psychological Science. Perspectives on Psychological Science, 16(4), 789–802. https://doi.org/10.1177/1745691620970585\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://doi.org/10.15626/MP.2021.2911\nWilson, R. C., & Collins, A. G. (2019). Ten simple rules for the computational modeling of behavioral data. ELife, 8, e49547. https://doi.org/10.7554/eLife.49547"
-  },
-  {
-    "objectID": "index.html#about-theories",
-    "href": "index.html#about-theories",
-    "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
-    "section": "About theories",
-    "text": "About theories\n\nGlöckner, A., Fiedler, S., & Renkewitz, F. (2018). Belastbare und effiziente Wissenschaft: Strategische Ausrichtung von Forschungsprozessen als Weg aus der Replikationskrise. Psychologische Rundschau, 69(1), 22–36. https://doi.org/10.1026/0033-3042/a000384\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2\nSutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
-  },
-  {
-    "objectID": "workshops/workshop_overview.html",
-    "href": "workshops/workshop_overview.html",
-    "title": "Workshop Overview",
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Thinking Tools for building theories",
     "section": "",
-    "text": "These are all slides used for the “workshop” part of the course:\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\n2023-10-20\nBuridan's ass\nlink\nlink"
+    "text": "The following tools can help to build a model collaboratively. They are ordered in increasing complexity and versatility:"
   },
   {
-    "objectID": "orga_material/orga_material.html",
-    "href": "orga_material/orga_material.html",
-    "title": "Organizational Material",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nAug 1, 2023\n\n\nCourse announcement\n\n\nAnnouncement in the university’s course management system\n\n\n\n\nSep 16, 2023\n\n\nCall for theory submissions\n\n\nThis is the email I sent to the colleagues in my department, asking for the submission of theories for the formalization exercise.\n\n\n\n\nOct 1, 2023\n\n\nInstructions before course\n\n\nSome instructions for students before the course starts\n\n\n\n\n\nNo matching items"
+    "objectID": "tools.html#participatory-system-mapper-prsm",
+    "href": "tools.html#participatory-system-mapper-prsm",
+    "title": "Thinking Tools for building theories",
+    "section": "Participatory System Mapper (PRSM)",
+    "text": "Participatory System Mapper (PRSM)\nThe Participatory System Mapper (PRSM) is a free, open-source and secure tool for mind-mapping and system visualisation. It’s only for drawing stuff, not for simulating data.\nPro: No login needed.\nCon: It only supports Mason diagrams, not Bischof diagrams (where arrows are variables).\n🤓 ▶️ Tutorial webinar (1h).\n ✅ This format is trackable in git. You can export the graph in two text file representations (.gv and .gml files). Both are relatively well human-readable."
   },
   {
-    "objectID": "orga_material/call_for_submissions.html",
-    "href": "orga_material/call_for_submissions.html",
-    "title": "Call for theory submissions",
-    "section": "",
-    "text": "This is the email I sent to the colleagues in my department:\n\nSubject: We formalize your theory!\n\nBody:\nDear colleagues,\nthis semester, we want to explore something new. In my upcoming Empra (for 5th semester students), the participants get acquainted with formal modeling of psychological theories. The goal is to develop a mathematical or agent-based model of a verbal theory. In this project, …\n\nthe central phenomena are listed (What is to be explained?)\nthe verbal theory is explicated, and\na theory formalization is attempted (in a way that data can be simulated from the model).\n\nWe wanted to ask you - the colleagues in the department - if you want to submit a theory for this exercise.\nHere are some FAQs:\n\nWhat theory would be a good fit?\n\nA theory that is sufficiently precise and has a defined and not too large scope\nIts core premises are formulated in a clear and concise form on one (or only few) pages.\nThere doesn’t exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).\n\n\n\nWhat theory would not be a good fit?\n\nYou need to read three books to understand the theory.\nThe “all-encompassing theory of human nature”\nYou need a lot of expert input and judgement to fill in the gaps of the underspecified theory.\nYou need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.\n\n\n\nBut don’t you lack domain knowledge?\nIn an ideal world, theories are so well specified that they can be formalized without further expert opinions. But as this is unrealistic in psychology, we need your input (see next question).\n\n\nWhat is my necessary commitment?\n\nProvide the written material for the theory.\nTwo or three meetings (each lasting ~2h) during the Empra’s teaching hours (XXX):\n\nMeeting 1 where you give a very short overview of the theory (after the students have already read the written material) and we discuss first steps.\nMeeting 2 where students present intermediate results and can ask questions for clarification.\n(optional) Meeting 3, where students present their results to you.\nIf you enjoy and benefit from the scientific discussion, of course more meetings are possible and welcome.\n\n\n\n\nWhat happens with the results?\nThe created models will be published with a CC-BY license. That means, you can reuse everything with a proper citation. If the models are really helpful (and more than just a vague inspiration for further work), we can think about a follow-up collaboration and write-up (where collaboration and co-authorship is offered to the student creators of the model).\n\n\nThe procedure would be as follows:\n\nWe collect candidate theories for formalization until 30.10.2023.\nWe screen all submissions and select one or two theories (depending on their complexity).\nIf your theory is selected, we will meet:\n\nFor the introductory meeting (xx.xx.2023, ~2h)\nFor the intermediate meeting (xx.xx.2024, ~2h)\nFor the results presentation (xx.xx.2024, ~2h)\n\n\nIf you want to participate, please send an email to xxx by xx.xx.2023, containing a short description of the theory (max. 200 words) and a link to a central paper describing the theory. It can be “your” theory, or an existing theory that you work with.\nA final caveat: We are aware that this collaboration requires a non-negligible time investment from you. At the same time, this is highly experimental and we cannot promise any success or even progress. But in any case we expect good scientific discussions and are convinced that the exercise is fruitful for all parties.\nIf you have any questions, drop me an email.\n\nHere are some (anonymized) reactions I got:\n\n“EPIC!”\n“A very good idea. Just trying it would fulfil my heart’s desire”\n\nAt the end, XX theories got submitted. We discussed them and selected YY of them"
+    "objectID": "tools.html#draw.io",
+    "href": "tools.html#draw.io",
+    "title": "Thinking Tools for building theories",
+    "section": "Draw.io",
+    "text": "Draw.io\nhttps://app.diagrams.net\nPro: No login needed. Open Source.\nCon: Needs Google Drive for collaborative editing.\n🤓 ▶️ TODO.\n ✅ This format is trackable in git. You can export the graph as .xml file (Datei → Exportieren als → XML…). This file is, however, not very human-readable."
   },
   {
-    "objectID": "orga_material/course_announcement.html",
-    "href": "orga_material/course_announcement.html",
-    "title": "Course announcement",
-    "section": "",
-    "text": "Im Empirisch-psychologischen Praktikum “Formale Modellierung in der Psychologie” tauchen die Studierenden in die Welt der quantitativen Darstellung psychologischer Theorien ein. Dabei geht es nicht um die quantitative Auswertung von Daten mit Hilfe statistischer Modelle, sondern um Theorien und datengenerierende Modelle, die so präzise sind, dass man konkrete Daten vorhersagen kann.\nAls eine Reaktion auf die Replikationskrise wurde der Ruf nach besseren Theorien laut, mit dem Ziel, verbale und konzeptionelle Theorien in formale, mathematische Modelle zu übersetzen. Diese Modelle dienen mehreren Zwecken: Sie ermöglichen eine rigorose Prüfung von Hypothesen, bieten klarere Vorhersagen und bilden einen Rahmen, um scheinbar disparate Ergebnisse zu vereinheitlichen. Außerdem schärfen sie den Blick auf “Leerstellen” in den meist hoffnungslos unterspezifizierten Theorien in der Psychologie.\nIn diesem Kurs werden die Studierenden in die grundlegenden Prinzipien der formalen Modellierung und ihre verschiedenen Varianten eingeführt (z.B. mathematische Modelle, Regelkreismodelle, agentenbasierte Modelle) und mit den Werkzeugen ausgestattet, die sie benötigen, um aus vorhandenen verbalen Theorien Modelle abzuleiten. Entsprechend werden wir uns viel mit der Implementierung in Programmiersprachen befassen. Wir werden dabei vermutlich viel in R programmieren, ggf. auch in NetLogo (für ABMs).\nWir werden versuchen, kollaborativ verbale psychologische Theorien soweit zu formalisieren, dass man sie in ein datengenerierendes Modell übersetzen und implementieren kann, um die generierten Daten dann zur Prüfung mit echten Daten zu vergleichen.\nWir werden Aspekte der Qualitätssicherung bei diesem Forschungsaspekt diskutieren und anwenden (Reproduzierbarkeit, Versionskontrolle, Sensitivitätsanalysen, gut dokumentierter Code / unit testing).\nDas Empra stellt etwas höhere Anforderungen an mathematisches und formales Denken, sowie ihre Programmierfähigkeit. Als Minimum werden die R-Kenntnisse vorausgesetzt, die im Rahmen der Seminare zu Statistik 1 und 2 gelehrt wurden, sowie die Bereitschaft, sich auch selbständig (anhand von bereitgestelltem Material) in Themen der Programmierung einzuarbeiten."
+    "objectID": "tools.html#loopy",
+    "href": "tools.html#loopy",
+    "title": "Thinking Tools for building theories",
+    "section": "Loopy",
+    "text": "Loopy\nLoopy is an intuitive open source tool created by Nicky Case. With Loopy, you can build (and simulate) dynamic systems simply by drawing nodes and arrows with your mouse. It is great for quick prototyping and testing, but does not allow specific functional relationships or data export of the simulations.\n🤓 ▶️ Short tutorial (6 min.)\n ✅ This format is trackable in git. You can export a text file representation of the model. This is, however, not very human-readable."
   },
   {
-    "objectID": "orga_material/instructions_before_course.html",
-    "href": "orga_material/instructions_before_course.html",
-    "title": "Instructions before course",
-    "section": "",
-    "text": "Liebe Studierende,\nich freue mich schon auf unser Empra zur formalen Modellierung psychologischer Theorien. Hier kommen einige Hinweise für den Start:\n\nIch würde gerne den Start von 8:15 auf 8:30 verlegen. Die Sitzung geht dann bis 11:45.\nWir werden in fast jeder Sitzung am Computer arbeiten - z.B. Code schreiben, Diagramme zeichnen, oder Dateien in git einchecken. Daher wäre es gut, wenn sie, wenn möglich, immer ihren Laptop mitbringen. Wenn Sie keinen Laptop haben, können Sie auch bei Kommilitonen reinschauen und im “pair programming” Modus arbeiten.\nWenn das letzte Programmieren in R schon etwas länger her ist, frischen sie gerne vorab ihre Kenntnisse auf. Das Empra wird keine Auffrischung in R beinhalten. Hier sind einige Ressourcen:\n\nDie Tutorialfolien aus Statistik 1\nMoodle Kurs “R Tutorials”. Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR\nYouTube-Video: “Want to learn R (#rstats) in 4 hours with NO programming experience?”\nhttps://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf (12 page PDF document)\nhttps://github.com/jobreu/r-intro-gesis-2021 (5 day course: slides & exercises)\n\nDie Kommunikation wird ab jetzt über den Moodle-Kurs laufen: https://moodle.lmu.de/course/view.php?id=30162 Der Einschreibeschlüssel lautet: “theorie”. Bitte schreiben Sie sich schon zeitnah ein; ich verschicke ab jetzt die Emails über den Kurs.\n\nDann sehen wir uns am Freitag, 20.10.23, um 8:30 in Raum 1208 zur ersten Sitzung! Bei Fragen können Sie sich gerne auch vorab schon bei mir melden.\nViele Grüße, Felix Schönbrodt"
+    "objectID": "tools.html#insight-maker",
+    "href": "tools.html#insight-maker",
+    "title": "Thinking Tools for building theories",
+    "section": "Insight Maker",
+    "text": "Insight Maker\nInsight Maker is a free tool that allows to build system dynamics models and agent-based models in the browser, simulate data, and to share the models with others.\n🤓 ▶️ Collection of short tutorial clips (~35 min. overall).\n ❌ This format is not trackable in git. I could not find a way to export the model as a text file (or any local file format)."
+  },
+  {
+    "objectID": "tools.html#netlogo",
+    "href": "tools.html#netlogo",
+    "title": "Thinking Tools for building theories",
+    "section": "Netlogo",
+    "text": "Netlogo\nNetLogo is the classical tool for agent-based modeling. Being there since 1999, it has the charm of early-days internet software, but offers the most functions and flexibility. It has an open license, is still actively maintained, and is probably the best way for exploring ABMs with quick results and less frustrations. Netlogo has its own programming language, which is easy to learn. The model library gives a head-start for your own ideas.\n🤓 ▶️ Free, self-paced online course with several short videos (total video material ~2h; in addition, one can do quizzes and “homework” that can be compared to solutions).\n ✅ This format is trackable in git. You can export a text file representation of the model as .nlogo files. This contains the actual code (from Netlogo’s “Code” pane) on the top, followed by code describing the “Interface” and the “Info” pane (i.e., locations and properties of sliders, buttons, etc.)."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#the-demiurg",
+    "href": "workshops/Buri/Buri.slide.html#the-demiurg",
+    "title": "Buridan’s ass",
+    "section": "The demiurg",
+    "text": "The demiurg\n\n\n\n\n\n“Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen”\n\nN. Bischof (in prep, S. 143)\n\n\n\nThe gnosis knew the figure of the Demiurge, a creator god of lower rank, who had received the commission from the High Deity to build the cosmos\n\n\n\n\nBy Dmitrismirnov - Own work, CC BY-SA 3.0"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#das-demiurgische-prinzip",
+    "href": "workshops/Buri/Buri.slide.html#das-demiurgische-prinzip",
+    "title": "Buridan’s ass",
+    "section": "Das demiurgische Prinzip",
+    "text": "Das demiurgische Prinzip\n\n\nDer Forscher, der eine komplexe Struktur verstehen will, ist gut beraten, wenn er sich in die Rolle eines solchen Demiurgen versetzt und sich vorstellt, er hätte sie selbst konstruieren müssen. Natürlich muss er dafür eine begründete Vermutung haben, was sie leisten soll. Leistung schließt immer eine Zielvorgabe ein, die Arbeit des Demiurgen läuft also naturgemäß im Rahmen einer telischen Heuristik 1 ab.\n\nN. Bischof (in prep, S. 143)\n\n\nThe researcher who wants to understand a complex structure is well advised to put himself in the role of such a demiurge and imagine that he would have had to construct it himself. Of course, to do this he must have an educated guess as to what it should perform. Performance always includes a target, so the demiurge’s work naturally runs within the framework of a telic heuristic.\n\ngriechisch τέλος (telos): ‚Zweck‘, ‚Ziel‘, ‚Ende‘. Der Zweck ist hier evolutionär gedacht: Was hilft dem Überleben und der Fortpflanzung?"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#the-demiurgic-principle",
+    "href": "workshops/Buri/Buri.slide.html#the-demiurgic-principle",
+    "title": "Buridan’s ass",
+    "section": "The Demiurgic Principle",
+    "text": "The Demiurgic Principle\nPreliminary version\n\n\n\n\n\n\nNote\n\n\nWäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen? If I were an engineer and I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\n\nBischof (in prep, S. 143)"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-1",
+    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-1",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 1",
+    "text": "Group exercise: Cover your ass, Level 1\n\nScenario: The environment has two unlimited sources (food and water), in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body. If any of the two reserves drops to zero, the donkey dies.\n(Simplifying) assumptions:\n\nLinear decrease in both water and food reserves in the body, higher under activity (e.g., traveling).\nNo other needs or tasks (e.g., no predators, no sleep necessary).\nEating, drinking, and traveling takes a substantial amount of time.\nThe donkey has a representation of the environment and knows where the two sources are.\n\nTask: Construct an organism, with as few assumptions as possible, that survives as long as possible. Which constructs / sensors / abilities are necessary for this? Assume as simple abilities as possible - certainly not super-human abilities. (Rather think of an amoeba, not a super-AI).\nDeliverable: A markdown text file with a verbal description of the organism. Give it the version number 0.1.0. Upload to the Git repo."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-2",
+    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-2",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 2",
+    "text": "Group exercise: Cover your ass, Level 2\nExhaustive list of (fixed and free) parameters and input variables\n\n\n\n\n\n\nReminder: free vs fixed parameters\n\n\n\nFixed parameters are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters can be adjusted to optimize the fit of the model to data. They are estimated from empirical data."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-2-1",
+    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-2-1",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 2",
+    "text": "Group exercise: Cover your ass, Level 2\nExhaustive list of (fixed and free) parameters and input variables\n\nTask:\n\nList all parameters of your model (on the top of your markdown file). → As a heuristic: Every conrete number that you need for the formulas of your simulation is a parameter.\nCategorize them into fixed and free parameters. → Virtually all parameters (except natural constants) could be imagined as being free. It is usually a choice to fix some of them in order to simplify the model.\nList all input/predictor variables\nList all primary ouput variables.\n\n\nIn some models, an output variable can also be an input variable for something else.\nDo not list intermediate/temporary variables that are only necessary for computations.\nDo list mediating variables that are psychologically meaningful (e.g. an emotion that mediates the process between stimulus (= input) and action)\n\nCf. linear regression: \\(\\color{red} y = \\color{forestgreen} \\beta_0 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\) → \\(\\color{red} y\\) = output variable, \\(\\color{forestgreen} \\beta\\)s = parameters, \\(\\color{blue} x\\) = input variable."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-3",
+    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-3",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 3",
+    "text": "Group exercise: Cover your ass, Level 3\nConstruct and variable definitions\n\n\nIn the previous lecture, you learned how a good construct definition looks like. Apply that new skill to your model!\nTask:\n\nDevelop proper definitions for all variables and concepts in your model, add them to your markdown file.\nIncrease the minor version (e.g., from 0.2.7 to 0.3.0)\n\nDeliverables:\n\nCreate a CHANGELOG.md file that explains the changes between the previous and the current version of the theory.\nPush all new files to your dev branch.\nMerge dev into main.\nCreate a new release."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-4",
+    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-4",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 4",
+    "text": "Group exercise: Cover your ass, Level 4\nDraw a graphical model, Bischof-style\n\nTask: Sketch your initial verbal model in the style of Bischof. Refine and extend where necessary, e.g.:\n\nThink about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary\nGive a label to every variable (i.e., every arrow in the graphical model).\nEvery free parameter and input variable that you identified should be an arrow in your visual model\n\nDeliverables:\n\nDraw the model collaboratively in draw.io. In one corner, add the updated version number and today’s date (simply as a text box).\nCreate & switch to dev branch\nExport the graphical model as an xml file and push it to the Github repo. Increase version number in cff file."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#the-demiurgic-principle-1",
+    "href": "workshops/Buri/Buri.slide.html#the-demiurgic-principle-1",
+    "title": "Buridan’s ass",
+    "section": "The Demiurgic Principle",
+    "text": "The Demiurgic Principle\nFinal version\n\n\n\n\n\n\nNote\n\n\nWäre ich ein Ingenieur, der, aufbauend auf der letzten funktionstüchtigen Vorform, einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen?  If I were an engineer and, building upon the last functional (evolutionary) preform, I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\n\n→ Assume realistic capabilities, which respect the evolutionary path dependency.\nE.g., don’t assume …\n\nMammal organisms that need 3 hands to perform a task\nOmniscient knowledge about the environment, probabilities, distant events, the future, …\nUnlimited cognitive processing capabilities (“In the first 2ms, the simulated amoeba performs a multidimensional Bayesian optimization task”)\n\n\n\nBischof (in prep, S. 143)"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#realistic-capabilities-2",
+    "href": "workshops/Buri/Buri.slide.html#realistic-capabilities-2",
+    "title": "Buridan’s ass",
+    "section": "Realistic capabilities, 2",
+    "text": "Realistic capabilities, 2\n\nAs-if models typically employ mathematical representations chosen for elegance or feasibility, are deliberately free from psychological interpretation , and their input–output transformations need not correspond to actual cognitive processes. […] The implication is that process models need to be simple and respect capacity limits or link the proposed operations directly to psychological constructs"
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-5",
+    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-5",
+    "title": "Buridan’s ass",
+    "section": " Group exercise: Cover your ass, Level 5",
+    "text": "Group exercise: Cover your ass, Level 5\nVariable Scaling & Netlogo Implementation\n\nTasks:\n\nDefine the variables in the implemented model:\n\nScale level\nPossible range or discrete values (define the set)\nInterpretability (what does a value of 0.7 mean?)\n\nMaybe define operationalizations that give a meaning to the numbers\n\n\nDefine computations for each box: How exactly are input variables transformed into the output variables? You need a concrete formula for that. Theories rarely are so specific that you can directly derive a formula; you probably need to fill many gaps with ad-hoc assumptions.\nImplement the model in Netlogo\n\nDeliverables:\n\nPush the .nlogo file to your group’s Github repo.\nUpdate all written model descriptions, increase model version.\nExplain & justify the changes in the model in your CHANGELOG.md.\nWrite a meaningful commit message."
+  },
+  {
+    "objectID": "workshops/Buri/Buri.slide.html#contact",
+    "href": "workshops/Buri/Buri.slide.html#contact",
+    "title": "Buridan’s ass",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "workshops/Buri/Buri.html",
@@ -1071,200 +1176,116 @@
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
   },
   {
-    "objectID": "workshops/Buri/Buri.slide.html#the-demiurg",
-    "href": "workshops/Buri/Buri.slide.html#the-demiurg",
-    "title": "Buridan’s ass",
-    "section": "The demiurg",
-    "text": "The demiurg\n\n\n\n\n\n“Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen”\n\nN. Bischof (in prep, S. 143)\n\n\n\nThe gnosis knew the figure of the Demiurge, a creator god of lower rank, who had received the commission from the High Deity to build the cosmos\n\n\n\n\nBy Dmitrismirnov - Own work, CC BY-SA 3.0"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#das-demiurgische-prinzip",
-    "href": "workshops/Buri/Buri.slide.html#das-demiurgische-prinzip",
-    "title": "Buridan’s ass",
-    "section": "Das demiurgische Prinzip",
-    "text": "Das demiurgische Prinzip\n\n\nDer Forscher, der eine komplexe Struktur verstehen will, ist gut beraten, wenn er sich in die Rolle eines solchen Demiurgen versetzt und sich vorstellt, er hätte sie selbst konstruieren müssen. Natürlich muss er dafür eine begründete Vermutung haben, was sie leisten soll. Leistung schließt immer eine Zielvorgabe ein, die Arbeit des Demiurgen läuft also naturgemäß im Rahmen einer telischen Heuristik 1 ab.\n\nN. Bischof (in prep, S. 143)\n\n\nThe researcher who wants to understand a complex structure is well advised to put himself in the role of such a demiurge and imagine that he would have had to construct it himself. Of course, to do this he must have an educated guess as to what it should perform. Performance always includes a target, so the demiurge’s work naturally runs within the framework of a telic heuristic.\n\ngriechisch τέλος (telos): ‚Zweck‘, ‚Ziel‘, ‚Ende‘. Der Zweck ist hier evolutionär gedacht: Was hilft dem Überleben und der Fortpflanzung?"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#the-demiurgic-principle",
-    "href": "workshops/Buri/Buri.slide.html#the-demiurgic-principle",
-    "title": "Buridan’s ass",
-    "section": "The Demiurgic Principle",
-    "text": "The Demiurgic Principle\nPreliminary version\n\n\n\n\n\n\nNote\n\n\nWäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen? If I were an engineer and I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\n\nBischof (in prep, S. 143)"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-1",
-    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-1",
-    "title": "Buridan’s ass",
-    "section": " Group exercise: Cover your ass, Level 1",
-    "text": "Group exercise: Cover your ass, Level 1\n\nScenario: The environment has two unlimited sources (food and water), in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body. If any of the two reserves drops to zero, the donkey dies.\n(Simplifying) assumptions:\n\nLinear decrease in both water and food reserves in the body, higher under activity (e.g., traveling).\nNo other needs or tasks (e.g., no predators, no sleep necessary).\nEating, drinking, and traveling takes a substantial amount of time.\nThe donkey has a representation of the environment and knows where the two sources are.\n\nTask: Construct an organism, with as few assumptions as possible, that survives as long as possible. Which constructs / sensors / abilities are necessary for this? Assume as simple abilities as possible - certainly not super-human abilities. (Rather think of an amoeba, not a super-AI).\nDeliverable: A markdown text file with a verbal description of the organism. Give it the version number 0.1.0. Upload to the Git repo."
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-2",
-    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-2",
-    "title": "Buridan’s ass",
-    "section": " Group exercise: Cover your ass, Level 2",
-    "text": "Group exercise: Cover your ass, Level 2\nExhaustive list of (fixed and free) parameters and input variables\n\n\n\n\n\n\nReminder: free vs fixed parameters\n\n\n\nFixed parameters are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters can be adjusted to optimize the fit of the model to data. They are estimated from empirical data."
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-2-1",
-    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-2-1",
-    "title": "Buridan’s ass",
-    "section": " Group exercise: Cover your ass, Level 2",
-    "text": "Group exercise: Cover your ass, Level 2\nExhaustive list of (fixed and free) parameters and input variables\n\nTask:\n\nList all parameters of your model (on the top of your markdown file). → As a heuristic: Every conrete number that you need for the formulas of your simulation is a parameter.\nCategorize them into fixed and free parameters. → Virtually all parameters (except natural constants) could be imagined as being free. It is usually a choice to fix some of them in order to simplify the model.\nList all input/predictor variables\nList all primary ouput variables.\n\n\nIn some models, an output variable can also be an input variable for something else.\nDo not list intermediate/temporary variables that are only necessary for computations.\nDo list mediating variables that are psychologically meaningful (e.g. an emotion that mediates the process between stimulus (= input) and action)\n\nCf. linear regression: \\(\\color{red} y = \\color{forestgreen} \\beta_0 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\) → \\(\\color{red} y\\) = output variable, \\(\\color{forestgreen} \\beta\\)s = parameters, \\(\\color{blue} x\\) = input variable."
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-3",
-    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-3",
-    "title": "Buridan’s ass",
-    "section": " Group exercise: Cover your ass, Level 3",
-    "text": "Group exercise: Cover your ass, Level 3\nConstruct and variable definitions\n\n\nIn the previous lecture, you learned how a good construct definition looks like. Apply that new skill to your model!\nTask:\n\nDevelop proper definitions for all variables and concepts in your model, add them to your markdown file.\nIncrease the minor version (e.g., from 0.2.7 to 0.3.0)\n\nDeliverables:\n\nCreate a CHANGELOG.md file that explains the changes between the previous and the current version of the theory.\nPush all new files to your dev branch.\nMerge dev into main.\nCreate a new release."
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-4",
-    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-4",
-    "title": "Buridan’s ass",
-    "section": " Group exercise: Cover your ass, Level 4",
-    "text": "Group exercise: Cover your ass, Level 4\nDraw a graphical model, Bischof-style\n\nTask: Sketch your initial verbal model in the style of Bischof. Refine and extend where necessary, e.g.:\n\nThink about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary\nGive a label to every variable (i.e., every arrow in the graphical model).\nEvery free parameter and input variable that you identified should be an arrow in your visual model\n\nDeliverables:\n\nDraw the model collaboratively in draw.io. In one corner, add the updated version number and today’s date (simply as a text box).\nCreate & switch to dev branch\nExport the graphical model as an xml file and push it to the Github repo. Increase version number in cff file."
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#the-demiurgic-principle-1",
-    "href": "workshops/Buri/Buri.slide.html#the-demiurgic-principle-1",
-    "title": "Buridan’s ass",
-    "section": "The Demiurgic Principle",
-    "text": "The Demiurgic Principle\nFinal version\n\n\n\n\n\n\nNote\n\n\nWäre ich ein Ingenieur, der, aufbauend auf der letzten funktionstüchtigen Vorform, einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen?  If I were an engineer and, building upon the last functional (evolutionary) preform, I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?\n\n\n\n\n→ Assume realistic capabilities, which respect the evolutionary path dependency.\nE.g., don’t assume …\n\nMammal organisms that need 3 hands to perform a task\nOmniscient knowledge about the environment, probabilities, distant events, the future, …\nUnlimited cognitive processing capabilities (“In the first 2ms, the simulated amoeba performs a multidimensional Bayesian optimization task”)\n\n\n\nBischof (in prep, S. 143)"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#realistic-capabilities-2",
-    "href": "workshops/Buri/Buri.slide.html#realistic-capabilities-2",
-    "title": "Buridan’s ass",
-    "section": "Realistic capabilities, 2",
-    "text": "Realistic capabilities, 2\n\nAs-if models typically employ mathematical representations chosen for elegance or feasibility, are deliberately free from psychological interpretation , and their input–output transformations need not correspond to actual cognitive processes. […] The implication is that process models need to be simple and respect capacity limits or link the proposed operations directly to psychological constructs"
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-5",
-    "href": "workshops/Buri/Buri.slide.html#group-exercise-cover-your-ass-level-5",
-    "title": "Buridan’s ass",
-    "section": " Group exercise: Cover your ass, Level 5",
-    "text": "Group exercise: Cover your ass, Level 5\nVariable Scaling & Netlogo Implementation\n\nTasks:\n\nDefine the variables in the implemented model:\n\nScale level\nPossible range or discrete values (define the set)\nInterpretability (what does a value of 0.7 mean?)\n\nMaybe define operationalizations that give a meaning to the numbers\n\n\nDefine computations for each box: How exactly are input variables transformed into the output variables? You need a concrete formula for that. Theories rarely are so specific that you can directly derive a formula; you probably need to fill many gaps with ad-hoc assumptions.\nImplement the model in Netlogo\n\nDeliverables:\n\nPush the .nlogo file to your group’s Github repo.\nUpdate all written model descriptions, increase model version.\nExplain & justify the changes in the model in your CHANGELOG.md.\nWrite a meaningful commit message."
-  },
-  {
-    "objectID": "workshops/Buri/Buri.slide.html#contact",
-    "href": "workshops/Buri/Buri.slide.html#contact",
-    "title": "Buridan’s ass",
-    "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
-  },
-  {
-    "objectID": "tools.html",
-    "href": "tools.html",
-    "title": "Thinking Tools for building theories",
+    "objectID": "orga_material/instructions_before_course.html",
+    "href": "orga_material/instructions_before_course.html",
+    "title": "Instructions before course",
     "section": "",
-    "text": "The following tools can help to build a model collaboratively. They are ordered in increasing complexity and versatility:"
+    "text": "Liebe Studierende,\nich freue mich schon auf unser Empra zur formalen Modellierung psychologischer Theorien. Hier kommen einige Hinweise für den Start:\n\nIch würde gerne den Start von 8:15 auf 8:30 verlegen. Die Sitzung geht dann bis 11:45.\nWir werden in fast jeder Sitzung am Computer arbeiten - z.B. Code schreiben, Diagramme zeichnen, oder Dateien in git einchecken. Daher wäre es gut, wenn sie, wenn möglich, immer ihren Laptop mitbringen. Wenn Sie keinen Laptop haben, können Sie auch bei Kommilitonen reinschauen und im “pair programming” Modus arbeiten.\nWenn das letzte Programmieren in R schon etwas länger her ist, frischen sie gerne vorab ihre Kenntnisse auf. Das Empra wird keine Auffrischung in R beinhalten. Hier sind einige Ressourcen:\n\nDie Tutorialfolien aus Statistik 1\nMoodle Kurs “R Tutorials”. Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR\nYouTube-Video: “Want to learn R (#rstats) in 4 hours with NO programming experience?”\nhttps://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf (12 page PDF document)\nhttps://github.com/jobreu/r-intro-gesis-2021 (5 day course: slides & exercises)\n\nDie Kommunikation wird ab jetzt über den Moodle-Kurs laufen: https://moodle.lmu.de/course/view.php?id=30162 Der Einschreibeschlüssel lautet: “theorie”. Bitte schreiben Sie sich schon zeitnah ein; ich verschicke ab jetzt die Emails über den Kurs.\n\nDann sehen wir uns am Freitag, 20.10.23, um 8:30 in Raum 1208 zur ersten Sitzung! Bei Fragen können Sie sich gerne auch vorab schon bei mir melden.\nViele Grüße, Felix Schönbrodt"
   },
   {
-    "objectID": "tools.html#participatory-system-mapper-prsm",
-    "href": "tools.html#participatory-system-mapper-prsm",
-    "title": "Thinking Tools for building theories",
-    "section": "Participatory System Mapper (PRSM)",
-    "text": "Participatory System Mapper (PRSM)\nThe Participatory System Mapper (PRSM) is a free, open-source and secure tool for mind-mapping and system visualisation. It’s only for drawing stuff, not for simulating data.\nPro: No login needed.\nCon: It only supports Mason diagrams, not Bischof diagrams (where arrows are variables).\n🤓 ▶️ Tutorial webinar (1h).\n ✅ This format is trackable in git. You can export the graph in two text file representations (.gv and .gml files). Both are relatively well human-readable."
-  },
-  {
-    "objectID": "tools.html#draw.io",
-    "href": "tools.html#draw.io",
-    "title": "Thinking Tools for building theories",
-    "section": "Draw.io",
-    "text": "Draw.io\nhttps://app.diagrams.net\nPro: No login needed. Open Source.\nCon: Needs Google Drive for collaborative editing.\n🤓 ▶️ TODO.\n ✅ This format is trackable in git. You can export the graph as .xml file (Datei → Exportieren als → XML…). This file is, however, not very human-readable."
-  },
-  {
-    "objectID": "tools.html#loopy",
-    "href": "tools.html#loopy",
-    "title": "Thinking Tools for building theories",
-    "section": "Loopy",
-    "text": "Loopy\nLoopy is an intuitive open source tool created by Nicky Case. With Loopy, you can build (and simulate) dynamic systems simply by drawing nodes and arrows with your mouse. It is great for quick prototyping and testing, but does not allow specific functional relationships or data export of the simulations.\n🤓 ▶️ Short tutorial (6 min.)\n ✅ This format is trackable in git. You can export a text file representation of the model. This is, however, not very human-readable."
-  },
-  {
-    "objectID": "tools.html#insight-maker",
-    "href": "tools.html#insight-maker",
-    "title": "Thinking Tools for building theories",
-    "section": "Insight Maker",
-    "text": "Insight Maker\nInsight Maker is a free tool that allows to build system dynamics models and agent-based models in the browser, simulate data, and to share the models with others.\n🤓 ▶️ Collection of short tutorial clips (~35 min. overall).\n ❌ This format is not trackable in git. I could not find a way to export the model as a text file (or any local file format)."
-  },
-  {
-    "objectID": "tools.html#netlogo",
-    "href": "tools.html#netlogo",
-    "title": "Thinking Tools for building theories",
-    "section": "Netlogo",
-    "text": "Netlogo\nNetLogo is the classical tool for agent-based modeling. Being there since 1999, it has the charm of early-days internet software, but offers the most functions and flexibility. It has an open license, is still actively maintained, and is probably the best way for exploring ABMs with quick results and less frustrations. Netlogo has its own programming language, which is easy to learn. The model library gives a head-start for your own ideas.\n🤓 ▶️ Free, self-paced online course with several short videos (total video material ~2h; in addition, one can do quizzes and “homework” that can be compared to solutions).\n ✅ This format is trackable in git. You can export a text file representation of the model as .nlogo files. This contains the actual code (from Netlogo’s “Code” pane) on the top, followed by code describing the “Interface” and the “Info” pane (i.e., locations and properties of sliders, buttons, etc.)."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "orga_material/course_announcement.html",
+    "href": "orga_material/course_announcement.html",
+    "title": "Course announcement",
     "section": "",
-    "text": "This is material for the course “P19 Empirisch-psychologisches Praktikum” at the Ludwig-Maximilians-Universität München. The course is given in the winter term 2023/24 by Prof. Dr. Felix Schönbrodt."
+    "text": "Im Empirisch-psychologischen Praktikum “Formale Modellierung in der Psychologie” tauchen die Studierenden in die Welt der quantitativen Darstellung psychologischer Theorien ein. Dabei geht es nicht um die quantitative Auswertung von Daten mit Hilfe statistischer Modelle, sondern um Theorien und datengenerierende Modelle, die so präzise sind, dass man konkrete Daten vorhersagen kann.\nAls eine Reaktion auf die Replikationskrise wurde der Ruf nach besseren Theorien laut, mit dem Ziel, verbale und konzeptionelle Theorien in formale, mathematische Modelle zu übersetzen. Diese Modelle dienen mehreren Zwecken: Sie ermöglichen eine rigorose Prüfung von Hypothesen, bieten klarere Vorhersagen und bilden einen Rahmen, um scheinbar disparate Ergebnisse zu vereinheitlichen. Außerdem schärfen sie den Blick auf “Leerstellen” in den meist hoffnungslos unterspezifizierten Theorien in der Psychologie.\nIn diesem Kurs werden die Studierenden in die grundlegenden Prinzipien der formalen Modellierung und ihre verschiedenen Varianten eingeführt (z.B. mathematische Modelle, Regelkreismodelle, agentenbasierte Modelle) und mit den Werkzeugen ausgestattet, die sie benötigen, um aus vorhandenen verbalen Theorien Modelle abzuleiten. Entsprechend werden wir uns viel mit der Implementierung in Programmiersprachen befassen. Wir werden dabei vermutlich viel in R programmieren, ggf. auch in NetLogo (für ABMs).\nWir werden versuchen, kollaborativ verbale psychologische Theorien soweit zu formalisieren, dass man sie in ein datengenerierendes Modell übersetzen und implementieren kann, um die generierten Daten dann zur Prüfung mit echten Daten zu vergleichen.\nWir werden Aspekte der Qualitätssicherung bei diesem Forschungsaspekt diskutieren und anwenden (Reproduzierbarkeit, Versionskontrolle, Sensitivitätsanalysen, gut dokumentierter Code / unit testing).\nDas Empra stellt etwas höhere Anforderungen an mathematisches und formales Denken, sowie ihre Programmierfähigkeit. Als Minimum werden die R-Kenntnisse vorausgesetzt, die im Rahmen der Seminare zu Statistik 1 und 2 gelehrt wurden, sowie die Bereitschaft, sich auch selbständig (anhand von bereitgestelltem Material) in Themen der Programmierung einzuarbeiten."
   },
   {
-    "objectID": "sessions/S1-Introduction.html",
-    "href": "sessions/S1-Introduction.html",
-    "title": "Session 1 - Introduction",
+    "objectID": "orga_material/call_for_submissions.html",
+    "href": "orga_material/call_for_submissions.html",
+    "title": "Call for theory submissions",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nLecturer introduction\n\n\nIntroduction of students in the plenum\n5\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nGroup formation\n10\nSee Section 2\n\n\nSkill: Git Intro\n30\nSee Section 3\n\n\nLecture: Introducion: Theory crisis\n45\nSlides\n\n\nWorkshop: Group Exercise: Buri (Level 1)\n60\nSlides\n\n\n[Homework 1]: Git Tutorial\n-\n\n\n\n[Homework 2]: Smaldino (2013), Chapter 1\n-"
+    "text": "This is the email I sent to the colleagues in my department:\n\nSubject: We formalize your theory!\n\nBody:\nDear colleagues,\nthis semester, we want to explore something new. In my upcoming Empra (for 5th semester students), the participants get acquainted with formal modeling of psychological theories. The goal is to develop a mathematical or agent-based model of a verbal theory. In this project, …\n\nthe central phenomena are listed (What is to be explained?)\nthe verbal theory is explicated, and\na theory formalization is attempted (in a way that data can be simulated from the model).\n\nWe wanted to ask you - the colleagues in the department - if you want to submit a theory for this exercise.\nHere are some FAQs:\n\nWhat theory would be a good fit?\n\nA theory that is sufficiently precise and has a defined and not too large scope\nIts core premises are formulated in a clear and concise form on one (or only few) pages.\nThere doesn’t exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).\n\n\n\nWhat theory would not be a good fit?\n\nYou need to read three books to understand the theory.\nThe “all-encompassing theory of human nature”\nYou need a lot of expert input and judgement to fill in the gaps of the underspecified theory.\nYou need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.\n\n\n\nBut don’t you lack domain knowledge?\nIn an ideal world, theories are so well specified that they can be formalized without further expert opinions. But as this is unrealistic in psychology, we need your input (see next question).\n\n\nWhat is my necessary commitment?\n\nProvide the written material for the theory.\nTwo or three meetings (each lasting ~2h) during the Empra’s teaching hours (XXX):\n\nMeeting 1 where you give a very short overview of the theory (after the students have already read the written material) and we discuss first steps.\nMeeting 2 where students present intermediate results and can ask questions for clarification.\n(optional) Meeting 3, where students present their results to you.\nIf you enjoy and benefit from the scientific discussion, of course more meetings are possible and welcome.\n\n\n\n\nWhat happens with the results?\nThe created models will be published with a CC-BY license. That means, you can reuse everything with a proper citation. If the models are really helpful (and more than just a vague inspiration for further work), we can think about a follow-up collaboration and write-up (where collaboration and co-authorship is offered to the student creators of the model).\n\n\nThe procedure would be as follows:\n\nWe collect candidate theories for formalization until 30.10.2023.\nWe screen all submissions and select one or two theories (depending on their complexity).\nIf your theory is selected, we will meet:\n\nFor the introductory meeting (xx.xx.2023, ~2h)\nFor the intermediate meeting (xx.xx.2024, ~2h)\nFor the results presentation (xx.xx.2024, ~2h)\n\n\nIf you want to participate, please send an email to xxx by xx.xx.2023, containing a short description of the theory (max. 200 words) and a link to a central paper describing the theory. It can be “your” theory, or an existing theory that you work with.\nA final caveat: We are aware that this collaboration requires a non-negligible time investment from you. At the same time, this is highly experimental and we cannot promise any success or even progress. But in any case we expect good scientific discussions and are convinced that the exercise is fruitful for all parties.\nIf you have any questions, drop me an email.\n\nHere are some (anonymized) reactions I got:\n\n“EPIC!”\n“A very good idea. Just trying it would fulfil my heart’s desire”\n\nAt the end, XX theories got submitted. We discussed them and selected YY of them"
   },
   {
-    "objectID": "sessions/S1-Introduction.html#goal",
-    "href": "sessions/S1-Introduction.html#goal",
-    "title": "Session 1 - Introduction",
-    "section": "2.1 Goal:",
-    "text": "2.1 Goal:\n\nPut together groups where also unacquainted people meet -&gt; increase network size.\nAllow a certain freedom of choice, not completely random.\nEnsure that at least one person is knowledgable of programming."
-  },
-  {
-    "objectID": "sessions/S1-Introduction.html#create-a-visual-analog-scale-vas-of-programming-skills-in-the-room",
-    "href": "sessions/S1-Introduction.html#create-a-visual-analog-scale-vas-of-programming-skills-in-the-room",
-    "title": "Session 1 - Introduction",
-    "section": "2.2 Create a “visual analog scale” (VAS) of programming skills in the room",
-    "text": "2.2 Create a “visual analog scale” (VAS) of programming skills in the room\nWhile carrying their name tags, students find their position between two corners of the rooms, described as:\n\n“No programming knowledge at all, I even forgot everything I learned about R programming in the first semester”\n“I actively coded (in any language) in the last 3 months”"
-  },
-  {
-    "objectID": "sessions/S1-Introduction.html#semi-randomised-allocation",
-    "href": "sessions/S1-Introduction.html#semi-randomised-allocation",
-    "title": "Session 1 - Introduction",
-    "section": "2.3 Semi-randomised allocation:",
-    "text": "2.3 Semi-randomised allocation:\n\nCollect all name tags, in the order of programming skills in the VAS.\nBuild 4 working islands (push tables together).\nDistribute the name tags of the 4 most capable programmers in the room on the 4 tables.\nThen select the next 4 names, who choose an island to join. But only 1 person is allowed to join each island at each round."
-  },
-  {
-    "objectID": "sessions/S1-Introduction.html#round-of-introductions-within-the-group-10-min",
-    "href": "sessions/S1-Introduction.html#round-of-introductions-within-the-group-10-min",
-    "title": "Session 1 - Introduction",
-    "section": "2.4 Round of introductions within the group (10 min)",
-    "text": "2.4 Round of introductions within the group (10 min)\n\nTask: Think of a funny name for a donkey. This will be the group’s name.\nGive a more detailed introduction to the other group members:\n\nCareer goals / type of psychologist they want to become\nSpecific programming skills"
-  },
-  {
-    "objectID": "sessions/S8-TCM_Step1.html",
-    "href": "sessions/S8-TCM_Step1.html",
-    "title": "Session 8 - Step 1 in TCM",
+    "objectID": "orga_material/orga_material.html",
+    "href": "orga_material/orga_material.html",
+    "title": "Organizational Material",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nWorkshop: Work on step 1\n\n\n\n\n[Homework]: Finalize step 1\n-"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nAug 1, 2023\n\n\nCourse announcement\n\n\nAnnouncement in the university’s course management system\n\n\n\n\nSep 16, 2023\n\n\nCall for theory submissions\n\n\nThis is the email I sent to the colleagues in my department, asking for the submission of theories for the formalization exercise.\n\n\n\n\nOct 1, 2023\n\n\nInstructions before course\n\n\nSome instructions for students before the course starts\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "sessions/S8-TCM_Step1.html#decisions-we-made-together-with-the-expert-researcher",
-    "href": "sessions/S8-TCM_Step1.html#decisions-we-made-together-with-the-expert-researcher",
-    "title": "Session 8 - Step 1 in TCM",
-    "section": "Decisions we made together with the expert researcher:",
-    "text": "Decisions we made together with the expert researcher:\nFor limiting the scope of the formalization exercise, we decided to focus on these variables:\n\n“Valence of imagination” as moderating variable: This is theoretically important, but there is conflicting empirical evidence (the valence doesn’t seem to make a difference; see meta-analysis of Miles & Crisp, 2014)\nAffective processes as mediating variable\n\nErst die Prozessvariablen machen aus der Hypothese eine Erklärung. Aber die Erklärung ist recht unterspezifiziert: was genau heißt “die Einstellung ändert sich”. Was genau? Die Valenz? Der Inhalt? die gefühlte Distanz zur outgroup Eine Möglichkeit: Ängste reduzieren.\n\nPrimary outcomes:\n\n“Im Kern der ursprünglichen Hypothese liegt die outgroup perception (welche ein Oberbegriff von”Einstellung” und/oder die “Vorurteile” ist (Einstellungen werden als Proxy für Vorurteile genommen)”\n“Einstellung” als weiteres Konstrukt aufnehmen (vor der approach tendency)? Zu komplex/schwammig? Wie ist dieses Konstrukt im Kontext dieser Theorie definiert? –&gt; wenn dann irgendwie konkretisieren\nEinstellung hat drei Komponenten: kognitiv, affektiv, beharioval tendency\n(Self-reported) approach tendencies\n\nWe do not model actual behavior, as this is too multi-determined. Hence, everything happens “within the mind” of the actors."
+    "objectID": "workshops/workshop_overview.html",
+    "href": "workshops/workshop_overview.html",
+    "title": "Workshop Overview",
+    "section": "",
+    "text": "These are all slides used for the “workshop” part of the course:\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\n2023-10-20\nBuridan's ass\nlink\nlink"
   },
   {
-    "objectID": "sessions/S8-TCM_Step1.html#concrete-steps",
-    "href": "sessions/S8-TCM_Step1.html#concrete-steps",
-    "title": "Session 8 - Step 1 in TCM",
-    "section": "Concrete steps",
-    "text": "Concrete steps\n\n1. Definitions\nUse the primary literature to define the focal constructs:\n\nSearch for definitions, collect them in a document (remembeto provide precise references, with page number).\nCompare different definitions (maybe in a table?)\n(optional) If no single existing definition is sufficient, agree on a consensus working definition for the context of our project.\nDeliverable 1: Write a paragraph/section/table that collects the final definitions. Clearly cite and quote existing definitions. Make clear when you deviate from an existing definition and give a justification why.\nDeliverable 2: Create a first VAST display with constructs and naming relationships (use either verbal quotes or your consensus definition)\n\n\n\n2. Robust Phenomena\nPhenoma describe relations between our focal constructs.\nRobustness of phenomena has two dimensions:\n\nstrong empirical evidence\ngeneralizability (cf. UTOS framework): The effect has been shown for different Units, with different operationalizations of Treatments and Outcomes, and in multiple Settings\n\nPractically, you should do the following steps to assess these two dimensions:\n\nSearch for meta-analyses that report on phenomena with our focal variables\nOnly if no meta-analysis is available, or it is not helpful: Do a broader literature search on the level of primary studies.\nAssess the robustness of the phenomena along the two dimensions:\n\nHow strong is the evidence? (e.g., based on number k of studies in a meta-analysis, strength of evidence, risk of bias)\nHow generalizable is it? Go through all four UTOS dimensions and evaluate which types of generalization have been shown across studies.\n\nDeliverable 3: Write a paragraph/section that makes an overall assessment of the robustness of each phenomenon and gives a clear and explicit answer: “The phenomenon can (not) be considered robust because, …”. Refer to the two dimensions of robustness and point towards references that back up your claim with evidence."
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
+    "section": "",
+    "text": "Note: The material will (initially) be some mixture of German and English. Your mileage may vary.\nThe course has 15 sessions, each lasting 3.5h. In between sessions, homework is given.\nEach session will be a mix of three elements:"
   },
   {
-    "objectID": "sessions/S8-TCM_Step1.html#how-to-jointly-assess-strength-of-evidence-and-generalizability",
-    "href": "sessions/S8-TCM_Step1.html#how-to-jointly-assess-strength-of-evidence-and-generalizability",
-    "title": "Session 8 - Step 1 in TCM",
-    "section": "How to jointly assess “strength of evidence” and “generalizability”",
-    "text": "How to jointly assess “strength of evidence” and “generalizability”\nThe strength of evidence relates to the question, how conclusive the empirical evidence is with regard to the question of generalizability.\nWhen you assess the generalizability, you should distinguish three prototypical epistemic states:\n\n“I know that it is generalizable.”\n“I know that it is not generalizable.”\n“I do not know whether it is generalizable or not - with the given empirical evidence I cannot answer this question.”\n\nWhen is the strength of evidence strong? If …\n\nyou have many studies,\nthat cover a considerable part of the space of possible generalizations,\nwhich are methodologically sound (i.e., valid),\nand show (at least in sum) a decisive statistical result into either direction (i.e., either for a difference, or for a null effect)\n\nAs a sidenote: Ideally, evidence is quantified with a statistical technique that also allows to measure evidence for the null hypothesis and that gives a continuous quantification of the strength of evidence. A Bayes factor provides both desiderata.\nAs the strength of evidence can be continuous, the situation can be visualized on a graph (see Figure 1):\n\n\n\nFigure 1: Possible results of a generalizability assessment.\n\n\nWe describe six prototypical examples:\n\n(A): Many variations have been tested and led to very different results, maybe even with a sign flip. This is strong evidence that the phenomenon is not generalizable.\n(B): Many variations have been tested and all led to comparable results. This is strong evidence that the phenomenon is generalizable - at least within the space of sampled variations.\n(C): Few variations have been tested and led to quite different results. This is weak evidence that the phenomenon is not generalizable.\n(D): Few variations have been tested and all led to comparable results. This is weak evidence that the phenomenon is generalizable. As we don’t know about the untested variations, the evidence principally cannot be very strong.\n(E): Only one variation has been tested. It is principally unknowable whether the result generalizes to other variations; the evidence is totally inconclusive. We can only conclude that we cannot conclude anything about generalizability. This also implies, that the question of generalizability cannot be answered if only a single (or very few) studies are available, or if the existing studies have no variation in the respective UTOS dimensions.\n(F): Although many variations have been tested, the evidence is still inconclusive. There are descriptive differences between variations, but they are small, and it is not clear if these differences are statistically significant and substantial.\n\nThe dashed line symbolizes the space of possible combinations: With a very small count of realized variations, it is very unlikely (or even impossible) to generate strong evidence in either direction.\nAn open question of course is, how close results should be to speak of high generalizability? Do the results in the right half of the plot have to be nearly identical? How much heterogeneity is allowed?\n\nApplying the heuristic to ManyLabs2\nAll four UTOS dimensions can get an independent assessment. Consider the ManyLabs2 study: The identical experiment (except translation of materials) has been administered online in very diverse samples (at least diverse with respect to nationality and cultural background). Hence, there was high variation in the U(nits) and the S(ettings) dimensions, but very low variation in the T(reatment) and O(utcome) dimension. Non-zero effects could be found with remarkably low variability across samples: “Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied” (quoted from the Abstract).\nHence, a stylized analysis of the ML2 study could look like:\n\n\n\nFigure 2: A generalizability assessment of the UTOS dimensions in ManyLabs 2.\n\n\nHence, we have strong evidence for high generalizability for the U and the S dimension, but we cannot make a conclusion concerning the T and the O dimensions, as they lacked the necessary variation in the study."
+    "objectID": "index.html#modeling-methodology",
+    "href": "index.html#modeling-methodology",
+    "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
+    "section": "Modeling methodology",
+    "text": "Modeling methodology\n\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nGuest, O., & Martin, A. E. (2021). How Computational Modeling Can Force Theory Building in Psychological Science. Perspectives on Psychological Science, 16(4), 789–802. https://doi.org/10.1177/1745691620970585\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://doi.org/10.15626/MP.2021.2911\nWilson, R. C., & Collins, A. G. (2019). Ten simple rules for the computational modeling of behavioral data. ELife, 8, e49547. https://doi.org/10.7554/eLife.49547"
+  },
+  {
+    "objectID": "index.html#about-theories",
+    "href": "index.html#about-theories",
+    "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
+    "section": "About theories",
+    "text": "About theories\n\nGlöckner, A., Fiedler, S., & Renkewitz, F. (2018). Belastbare und effiziente Wissenschaft: Strategische Ausrichtung von Forschungsprozessen als Weg aus der Replikationskrise. Psychologische Rundschau, 69(1), 22–36. https://doi.org/10.1026/0033-3042/a000384\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2\nSutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+  },
+  {
+    "objectID": "common/lastslide.html",
+    "href": "common/lastslide.html",
+    "title": "End",
+    "section": "",
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+  },
+  {
+    "objectID": "common/lastslide.html#contact",
+    "href": "common/lastslide.html#contact",
+    "title": "End",
+    "section": "",
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread"
+  },
+  {
+    "objectID": "sessions/S5-VAST.html",
+    "href": "sessions/S5-VAST.html",
+    "title": "Session 5 - Visual Argument Structure Tool (VAST) V1.0",
+    "section": "",
+    "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLecture / Skill: VAST\n150\nRead the Paper. See Daniel Leising’s slides\n\n\nDecision: Which theory to formalize?\n45\n\n\n\n[Homework]:\n-\n\n\n\n\n\n\n2 Homework (individual)\nRead the VAST paper:\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://open.lnu.se/index.php/metapsychology/article/view/2911"
+  },
+  {
+    "objectID": "sessions/S6-NetLogo.html",
+    "href": "sessions/S6-NetLogo.html",
+    "title": "Session 6 - NetLogo implementation of Buri",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nWorkshop: Netlogo implementation\n180\nSee instructions below\n\n\n[Homework]: Prepare for first theory session\n-"
+  },
+  {
+    "objectID": "sessions/S6-NetLogo.html#first-implementation-a-single-donkey",
+    "href": "sessions/S6-NetLogo.html#first-implementation-a-single-donkey",
+    "title": "Session 6 - NetLogo implementation of Buri",
+    "section": "2.1 First implementation: A single donkey",
+    "text": "2.1 First implementation: A single donkey\n\nDownload FOMO-homework/Buridans_Ass/NetLogo-Framework/Buri_environment.nlogo. This contains all global variables and the environment. It also has the stump of your donkey’s behavioral program\nImplement your own model - start with a single donkey.\n\nCode together in the group - but every participant should write the code on their own local machine. Add your own name to the file name to distinguish different implementations. Save the nlogo files in the folder of your donkey.\nGroup members can agree on a single implementation. But they can also have different irrelevant choices (such as the shape of the donkey), or even differing implementations (in case that the theoretical model was underspecified).\n\nDocument the gaps: In an extra document in the repository (called arbitrary_decision.md), document all implementation decisions that were not determined by the formal model (i.e., which were arbitrary)\nFor the first run: A priori choose sensible starting values for your free model parameters.\n\nIf group members do not converge on a single setting, they can use different starting values.\n\nRecord the simulation result in Table 1 of FOMO-homework/Buridans_Ass/NetLogo-Framework/Results.md\n\nHow many ticks does the donkey survive with these parameters?\nIf your model is not deterministic, for example because you have some random numbers in it, record at least 10 runs with the same parameter setting and record the average survival time.\n\n\n\n\n\n\n\n\nBe careful when pushing changes to the remote repository\n\n\n\nYou jointly edit the results file. You probably will encounter merge conflicts; resolve them with care! Do not (inadvertently) delete the results of the other group."
+  },
+  {
+    "objectID": "sessions/S6-NetLogo.html#model-optimization-free-parameters",
+    "href": "sessions/S6-NetLogo.html#model-optimization-free-parameters",
+    "title": "Session 6 - NetLogo implementation of Buri",
+    "section": "2.2 Model optimization: Free parameters",
+    "text": "2.2 Model optimization: Free parameters\n\nManually adjust the free parameters - you are allowed and encouraged to play around. Try to find a better setting (i.e., a parameter setting where the donkey survives longer)\nRecord the new parameter settings and the new results in Table 1 of FOMO-homework/Buridans_Ass/NetLogo-Framework/Results.md (set Run to 2, 3, … etc.)\n\nOptimizing free parameters is not a change of the model structure (or theory) itself! Nearly all models contain free parameters that may be optimized to fit the model to empirical reality."
+  },
+  {
+    "objectID": "sessions/S6-NetLogo.html#optional-model-optimization-model-structure",
+    "href": "sessions/S6-NetLogo.html#optional-model-optimization-model-structure",
+    "title": "Session 6 - NetLogo implementation of Buri",
+    "section": "2.3 (optional) Model optimization: Model structure",
+    "text": "2.3 (optional) Model optimization: Model structure\nIt can happen that the donkey acts strangely, in a non-adaptive way. In this case, first search for bugs in the implementation.\nHowever, it could also be that the theoretical model itself is erroneous (or suboptimal), in the sense that it does not solve the task. Often, problems with the model’s structure itself are realized during implementation.\nIn this case, you can revise the theoretical model. Change the model description in the dev branch and implement the changes. When you are happy with the revised model, increase the version number in the cff file, push the revised model to the main branch and create a new release."
+  },
+  {
+    "objectID": "sessions/S6-NetLogo.html#optional-many-donkeys-parameter-optimization",
+    "href": "sessions/S6-NetLogo.html#optional-many-donkeys-parameter-optimization",
+    "title": "Session 6 - NetLogo implementation of Buri",
+    "section": "2.4 (optional) Many donkeys: Parameter optimization",
+    "text": "2.4 (optional) Many donkeys: Parameter optimization\nIn NetLogo, it is very easy to create many agents of the same kind. Instead of manually optimizing the free parameters, you can use algorithms, such as an evolutionary algorithm, to find the best parameter settings.\n\n\n\n\n\n\nNote\n\n\n\nAlways keep in mind: Evolution needs (a) variation (usually induced by mutation or recombination) and (b) selection.\n\n\nMany optimization algorithms are possible; here are some suggestions (with increasing complexity).\n\n2.4.1 Who survives the longest?\n\nCreate many Donkeys with varying settings of their parameters (i.e. in the setup function for the donkeys). Some possibilities for creating variation:\n\n“Random search”: Set parameters randomly within the allowed parameter range.\n“Grid search”: Create systematic combinations all parameters.\n\nRun the simulation, see which donkeys survive the longest.\n\n\n\n2.4.2 Evolutionary algorithm\n\nCreate many Donkeys with varying settings of their parameters (see above)\nAfter some time let the worst-performing die (i.e., those who are dead anyway, or have the lowest health value) → Selection\nOf those which survive, create offspring which has some random variation of their (single) parent (i.e., take the parameter settings of the surviving donkey, add some random noise to the settings, and create offspring with the updates settings) → Mutation/Variation\n\nNetLogo has many built-in functions for these evolutionary steps; for example:\n\nsetxy random-xcor random-ycor: Let agents start at a random position\nhatch is a primitive that creates a provided number of identical copies of a turtle (i.e., the offspring). It allows optional rules defined for the new turtles by following it with brackets [] (see help page).\nmax-n-of and min-n-of: Select the n agents with the highest or lowest value in a property (see help file). Here’s some pseudo-code, selecting the 10 buris with the highest and lowest value in health:\n\n; reproduction: the 10 fittest buris reproduce (2 kids)\nask max-n-of 10 buris [health] [\n\n  ; save the value of property1 of the parent in a variable\n  let prev_property1 property1\n\n  ; create 2 offsprings with random variation\n  hatch 2 [\n    lt 45  ; turn away\n    fd 1   ; walk away from parent to make it visible\n\n    ; add random variation to property1 of the offspring\n    set property1 prev_property1 - 0.025 + random-float 0.05\n    output-print (word \"Old property1: \" prev_property1 \"; new property1: \" property1)\n  ]\n]\n\n; death: the 10 unfittest buris die\nask min-n-of 10 buris [health] [\n    die\n]\nMonitor the distribution of parameter settings in the population of donkeys: Across evolving generations, it (often) will converge to the optimal values.\n\n\n\n\n\n\nNote\n\n\n\nExcept for an exhaustive search that enumerates all possible combinations of the entire parameter space, there’s no guarantee that optimization algorithms converge to the (globally) optimal solution. For example, they can get stuck in local optima. In this case, larger mutations in an evolutionary algorithm are helpful, because they allow to “jump” out of the local minimum/maximum and to find a better solution.\n\n(Image from http://turingfinance.com)"
   },
   {
     "objectID": "sessions/S4-Bischof_Notation.html",
@@ -1278,7 +1299,7 @@
     "href": "sessions/SX-FinalReport.html",
     "title": "Session X - How to write the final report",
     "section": "",
-    "text": "Your task is to formalize a psychological theory of your choice. The goal is not to do a complete formalization, but to demonstrate that you understand all methodological steps of the TCM (as we practiced it in the course) and that you are able to apply them to a new theory.\nHence, it is sufficient in each step to make an exemplary demonstration of the necessary steps, without the goal of being exhaustive. Also, whether the final formalization makes sense or the formal model really produces the phenomenon is not part of the grading (because that also depends on the chosen theory). For grading, I only assess whether the methodological steps have been applied lege artis and a coherent report has been written (e.g.: do the steps meaningfully build upon each other? Do the conclusions follow from the presented evidence?).\n\n\n\nif the theory is large, or there are several versions: Limit yourself to the main theoretical relationships and constructs.\n\n\n\n\n(for details, see Session 8).\n\nSearch for at least 1 meta-analysis of your focal constructs\nOnly if no meta-analysis available, or not helpful: Search for 2-3 exemplary primary studies. You do not have to conduct a full-blown meta-analysis.\nBased on this (limited, not exhaustive) literature: Assess the robustness of the phenomena. Give a clear answer “The phenomenon can (not) be considered robust because, …” by referring to the two dimensions of robustness:\n\nStrength of evidence\nGeneralizability (cf. UTOS framework)\n\n\nNote: If the phenomena turn out to be not robust, there is no need to change your chosen theory. Just work with what you have.\n\n\n\n(for details, see Session 9).\nCreate a VAST display\n\n\n\n\nProgram a small ABM\nDefine mathematical equations\n\n\n\n\n\n\nDo sensitivity analyses etc."
+    "text": "Your task is to formalize a psychological theory of your choice. The goal is not to do a complete formalization, but to demonstrate that you understand the methodological steps of the TCM (steps 1-4, as we practiced them in the course) and that you are able to apply them to a new theory.\nHence, it is sufficient in each step to make an exemplary demonstration of the necessary steps, without the goal of being exhaustive. Also, whether the final formalization makes sense or the formal model really produces the phenomenon is not part of the grading (because that also depends on the chosen theory). For grading, I only assess whether the methodological steps have been applied lege artis and a coherent report has been written (e.g.: do the steps meaningfully build upon each other? Do the conclusions follow from the presented evidence?).\n\n\n\nif the theory is large, or there are several versions: Limit yourself to the main theoretical relationships and constructs.\n\n\n\n\n(for details, see Session 8).\n\nSearch for at least 1 meta-analysis of your focal constructs\nOnly if no meta-analysis available, or not helpful: Search for 2-3 exemplary primary studies. You do not have to conduct a full-blown meta-analysis.\nBased on this (limited, not exhaustive) literature: Assess the robustness of the phenomena. Give a clear answer “The phenomenon can (not) be considered robust because, …” by referring to the two dimensions of robustness:\n\nStrength of evidence\nGeneralizability (cf. UTOS framework)\n\n\nNote: If the phenomena turn out to be not robust, there is no need to change your chosen theory. Just work with what you have.\n\n\n\n(for details, see Session 9).\n\nSearch the literature for key theoretical statements; put them into a table and assign IDs to each atomic statement\nCreate a VAST display\n\n\n\n\n(for details, see Session 10).\n\nDefine the mathematical properties of the variables in your formal model (scale level, range, semantic anchors)\nDefine functional relationships between variables\nImplement the functions in R\nSimulate a full data set with virtual participants\n\n\n\n\n(for details, see Session 11).\n\nTest boundary conditions and do a sensitivity analysis\n\n\n\n\n(not covered in this course)."
   },
   {
     "objectID": "sessions/SX-FinalReport.html#step-0.-identify-the-focal-constructs-of-your-theory",
@@ -1299,28 +1320,35 @@
     "href": "sessions/SX-FinalReport.html#step-2.-formulate-a-prototheory-sketch-the-existing-verbal-theory",
     "title": "Session X - How to write the final report",
     "section": "",
-    "text": "(for details, see Session 9).\nCreate a VAST display"
+    "text": "(for details, see Session 9).\n\nSearch the literature for key theoretical statements; put them into a table and assign IDs to each atomic statement\nCreate a VAST display"
   },
   {
     "objectID": "sessions/SX-FinalReport.html#step-3.-develop-a-formal-model",
     "href": "sessions/SX-FinalReport.html#step-3.-develop-a-formal-model",
     "title": "Session X - How to write the final report",
     "section": "",
-    "text": "Program a small ABM\nDefine mathematical equations"
+    "text": "(for details, see Session 10).\n\nDefine the mathematical properties of the variables in your formal model (scale level, range, semantic anchors)\nDefine functional relationships between variables\nImplement the functions in R\nSimulate a full data set with virtual participants"
   },
   {
     "objectID": "sessions/SX-FinalReport.html#step-4.-check-the-adequacy-of-the-formal-model",
     "href": "sessions/SX-FinalReport.html#step-4.-check-the-adequacy-of-the-formal-model",
     "title": "Session X - How to write the final report",
     "section": "",
-    "text": "Do sensitivity analyses etc."
+    "text": "(for details, see Session 11).\n\nTest boundary conditions and do a sensitivity analysis"
+  },
+  {
+    "objectID": "sessions/SX-FinalReport.html#step-5.-evaluate-the-overall-worth-of-the-constructed-theory",
+    "href": "sessions/SX-FinalReport.html#step-5.-evaluate-the-overall-worth-of-the-constructed-theory",
+    "title": "Session X - How to write the final report",
+    "section": "",
+    "text": "(not covered in this course)."
   },
   {
     "objectID": "sessions/S9-TCM_Step2.html",
     "href": "sessions/S9-TCM_Step2.html",
     "title": "Session 9 - Step 2 in TCM",
     "section": "",
-    "text": "Identify definitions of constructs and relevant phenomena\nTODAY: Formulate a prototheory: Create a VAST display\nDevelop a formal model:\n\nDevelop a Bischof control system display?\nImplement in a programming language?\n\nCheck the adequacy of the formal model\n\nDo sensitivity analyses etc.\n\nEvaluate the overall worth of the constructed theory"
+    "text": "Identify definitions of constructs and relevant phenomena\nTODAY: Formulate a prototheory: Create a VAST display\nDevelop a formal model\nCheck the adequacy of the formal model\nEvaluate the overall worth of the constructed theory"
   },
   {
     "objectID": "sessions/S9-TCM_Step2.html#concrete-steps",
@@ -1332,7 +1360,7 @@
   {
     "objectID": "sessions/S2-Introduction.html",
     "href": "sessions/S2-Introduction.html",
-    "title": "Session 2 - Introduction Theories",
+    "title": "Session 02 - Introduction Theories",
     "section": "",
     "text": "1 Overview\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: Chapter, Git troubleshooting\n15\n\n\n\nSkill 1: CFF-files & semantic versioning\n45\nSlides\n\n\nLecture: Introduction: What is a theory?\n60\nSlides\n\n\nWorkshop: Group Exercise: Buri (Level 2)\n60\nSlides\n\n\n[Homework 1]: Read van Dongen et al (2023)\n-\n\n\n\n[Homework 2]: Create a CFF file\n-\n\n\n\n\n\n\n2 Homework 1 (individually)\nRead van Dongen et al. (2022). Improving psychological explanations. PsyArXiv. https://doi.org/10.31234/osf.io/qd69g and answer the following guiding questions:\n\nWhat is the role an original authors should play when predictions are derived from a theory?\n\n\n\nAre phenomena, according to Bogen and Woodward, directly observable?\n\n\n\nWhat is the role of statistical patterns in the Productive Explanation Model?\n\n\n\nList the three steps of productive explanation.\n\n\n\nDoes Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?\n\n\n\nNot every explanation has the same quality. Describe the three quality criteria provided in the paper in one or two sentences each.\n\n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/session2 and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\n\n\n3 Homework 2 (as a group)\n\nCreate a CFF file and upload it to your group’s subfolder"
   },

@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/orga_material/orga_material.html",
+    "items": [
+      "/orga_material/course_announcement.html",
+      "/orga_material/call_for_submissions.html",
+      "/orga_material/instructions_before_course.html"
+    ]
+  },
+  {
     "listing": "/sessions/sessions_overview.html",
     "items": [
       "/sessions/S1-Introduction.html",
@@ -14,14 +22,6 @@
       "/sessions/S8-TCM_Step1.html",
       "/sessions/S9-TCM_Step2.html",
       "/sessions/SX-FinalReport.html"
-    ]
-  },
-  {
-    "listing": "/orga_material/orga_material.html",
-    "items": [
-      "/orga_material/course_announcement.html",
-      "/orga_material/call_for_submissions.html",
-      "/orga_material/instructions_before_course.html"
     ]
   }
 ]

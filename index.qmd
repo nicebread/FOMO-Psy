@@ -11,7 +11,7 @@ Each session will be a **mix of three elements**:
 
 1. Theoretical input (see [Lectures](lectures/lecture_overview.qmd))
 2. [Skills](skills/skills_overview.qmd): Learn new skills (e.g., git, Netlogo).
-3. [Workshop](workshops/workshop_overview.qmd): Apply your new skills while you work collaboratively on your models.
+3. [Workshop](skills/skills_overview.qmd): Apply your new skills while you work collaboratively on your models.
 
 # Sessions Overview
 

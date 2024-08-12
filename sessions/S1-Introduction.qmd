@@ -1,5 +1,5 @@
 ---
-title: Session 1 - Introduction
+title: Session 01 - Introduction
 number-sections: true
 description: Intro to theory 1 - First steps in modeling
 ---
@@ -14,7 +14,7 @@ description: Intro to theory 1 - First steps in modeling
 | Group formation                              | 10       | See @sec-group_formation                                                       |
 | **Skill**: Git Intro                         | 30       | See @sec-git                                                                   |
 | **Lecture**: Introducion: Theory crisis      | 45       | [Slides](../lectures/Intro1/FOMO-Psy_1_Data_phenomena.qmd)                            |
-| **Workshop**: Group Exercise: Buri (Level 1) | 60       | [Slides](../workshops/Buri/Buri.qmd)                                           |
+| **Workshop**: Group Exercise: Buri (Level 1) | 60       | [Slides](../skills/Buri/Buri.qmd)                                           |
 | **[Homework 1]**: Git Tutorial               | -        |                                                                                |
 | **[Homework 2]**: Smaldino (2013), Chapter 1 | -        |                                                                                |
 

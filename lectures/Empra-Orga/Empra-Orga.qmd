@@ -6,7 +6,7 @@ author:
     orcid: 0000-0002-8282-3910
     email: felix.schoenbrodt@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München
-date: today
+date: 2023-10-20
 footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
   FOMO-revealjs: 
@@ -109,18 +109,6 @@ Siehe [https://www.fak11.lmu.de/dep_psychologie/studium/lehrelounge/benotung-sch
   - reflektieren, warum es nicht funktioniert hat
   - was wäre notwendig gewesen, um weiterzukommen
   - die gemachten Schritte und Hürden dokumentieren
-
-## Mögliche Gliederung
-### (Wird im Laufe des Empras noch gemeinsam entwickelt)
-
-1. Introduction to the verbal theory
-2. Modeling: Describe the model.
-   - This could be only parts, or intermediate steps if you could not arrive at a final model.
-3. Next steps: How to measure the components of the model?
-   - Develop some ideas how parts of the model could be operationalized
-4. Next steps: How to test a model
-   - What experiments are optimally suited to test different aspects of your theory/ your model?
-5. Discussion: Reflection on the processes, what worked well, what didn't.
 
 <!-- Footer insert below -->
 ```{r child="../../common/lastslide.qmd"}

@@ -322,6 +322,22 @@ With the definition of [explanatory theories]{.alert} and [formal models]{.alert
 Charles S. Peirce (1931, p. 185); Borsboom et al. (2021). [https://doi.org/10.1177/1745691620969647](https://doi.org/10.1177/1745691620969647)
 :::
 
+## Understandability of explanations
+
+Farrell & Lewandowsky (2018), referring to Trout (2007), emphasize the [understandability]{.hl} of explanations:
+
+::: {.smaller}
+- Explanations can "be epistemically valuable only if we could, implicitly or explicitly, understand them. As a result, explanation must maintain some contact with our psychological powers of understanding" (Trout, 2007, p. 565)
+- "an explanation that cannot be understood is not an explanation"
+- "some facts of the universe may remain irreducibly mysterious to humans - not because explanations do not exist in principle but because they cannot be humanly understood and hence cannot be formulated"
+- "models in psychology benefit from simplifying the reality they seek to explain even though this simplification would likely render the model wrong. At the risk of being provocative, [we would even argue that models are useful only **because** they are wrong]{.hl}."
+:::
+
+::: footer
+Farrell, S., & Lewandowsky, S. (2018). Computational Modeling of Cognition and Behavior. Cambridge University Press, Chapter 3. [https://doi.org/10.1017/CBO9781316272503](https://doi.org/10.1017/CBO9781316272503)
+:::
+
+
 
 ## Definitions (2)
 

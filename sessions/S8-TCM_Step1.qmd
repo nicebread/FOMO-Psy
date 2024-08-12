@@ -18,11 +18,8 @@ description: "We do the first step of TCM of our chosen theory: Identify relevan
 
 1. **TODAY: Identify definitions of constructs and relevant phenomena**
 2. Formulate a prototheory: Create a VAST display
-3. Develop a formal model:
-   - Develop a Bischof control system display?
-   - Implement in a programming language?
+3. Develop a formal model
 4. Check the adequacy of the formal model
-   - Do sensitivity analyses etc.
 5. Evaluate the overall worth of the constructed theory
 
 

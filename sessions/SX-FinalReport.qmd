@@ -7,7 +7,7 @@ description: ""
 # Final report
 
 Your task is to formalize a psychological theory of your choice. 
-The goal is *not* to do a complete formalization, but to demonstrate that you understand all methodological steps of the TCM (as we practiced it in the course) and that you are able to apply them to a new theory.
+The goal is *not* to do a complete formalization, but to demonstrate that you understand the methodological steps of the TCM (steps 1-4, as we practiced them in the course) and that you are able to apply them to a new theory.
 
 Hence, it is sufficient in each step to make an exemplary demonstration of the necessary steps, without the goal of being exhaustive.
 Also, whether the final formalization makes sense or the formal model really produces the phenomenon is not part of the grading (because that also depends on the chosen theory). For grading, I only assess whether the methodological steps have been applied *lege artis* and a coherent report has been written (e.g.: do the steps meaningfully build upon each other? Do the conclusions follow from the presented evidence?).
@@ -32,23 +32,58 @@ Note: If the phenomena turn out to be not robust, there is no need to change you
 
 *(for details, see [Session 9](S9-TCM_Step2.qmd))*.
 
-Create a VAST display
+- Search the literature for key theoretical statements; put them into a table and assign IDs to each atomic statement
+- Create a VAST display
 
 ## Step 3. Develop a formal model:
 
-- Program a small ABM
-- Define mathematical equations
-- 
+*(for details, see [Session 10](S10-TCM_Step3.qmd))*.
+
+- Define the mathematical properties of the variables in your formal model (scale level, range, semantic anchors)
+- Define functional relationships between variables
+- Implement the functions in R
+- Simulate a full data set with virtual participants
 
 ## Step 4. Check the adequacy of the formal model
-- Do sensitivity analyses etc.
+
+*(for details, see [Session 11](S11-TCM_Step4.qmd))*.
+
+- Test boundary conditions and do a sensitivity analysis
+- In the the final report, no full-blown sensitivity analysis is necessary - just the bivariate plots of the functional relationships
 
 
 ## Step 5. Evaluate the overall worth of the constructed theory
 
+(not covered in this course).
+
 
 # Formal stuff
 
-- 15,000 characters is not much: Keep every step short and crisp and spot-on.
-- You need to hand it a PDF, which is accompanied by a project on a repository (e.g., Github)
-- Code, supplemental material, etc. goes into the repository.
+- 15,000 characters is not much: Keep every step short, crisp and spot-on.
+- You need to hand in a PDF, which is accompanied by a project on a repository (e.g., Github)
+- Code, supplemental material, etc. goes into the repository and will be part of the grading.
+
+## Hausarbeit
+
+- Schriftgröße 12pt, Zeilenabstand 1.5x
+- 15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)
+- Wenn Sie in papaja/Rmarkdown schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).
+- Deckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung
+- Bei papaja/Rmarkdown schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die author notes.
+- Kein Inhaltsverzeichnis
+- Mindestens 3 Publikationen zitieren
+- Zitate & Literaturverzeichnis nach [APA-Richtlinien](http://owl.english.purdue.edu/owl/resource/664/01/) (6. oder 7. Version)
+- Die Links zu Repositorium mit open code, etc. kommen an den Anfang des Methodenteils
+
+
+## Abgabe Hausarbeit
+
+- Als PDF-Datei per Email an den Dozenten – Empfang wird bestätigt
+- Abgabetermin: 19.3.2024
+- Man kann zum Zwecke der Anonymisierung 2 Versionen einreichen:
+  - Vollständige Version (Dateiname: IhrNachname_Kurztitel_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“
+  - Anonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Kurztitel_Jahr.pdf)
+    - Diese Version wird benotet.
+    - Dateiname z.B.:„98234034_Empra_2020.pdf“
+    - Das Github Repo als zip-Datei.
+    - Sie können in papaja einfach eine anonyme Version erzeugen,indem Sie im YAML `mask: yes` angeben (siehe [hier](https://frederikaust.com/papaja_man/r-markdown-components.html))

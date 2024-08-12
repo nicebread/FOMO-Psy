@@ -10,7 +10,7 @@ description: Learn the Bischof notation for control systems; apply it to Buri.
 | ------------------------------------------------------ | -------- | --------------------------------------------------------- |
 | **Skill 1**: Bischof-Notation                          | 75       | [Slides](../skills/Bischof-Notation/Bischof-Notation.qmd) |
 | **Skill 2**: draw.io                                   | 15       | [draw.io](https://app.diagrams.net) -> Connect to Github  |
-| **Workshop**: Group Exercise: Buri (Level 4)           | 45       | [Slides](../workshops/Buri/Buri.qmd)                      |
+| **Workshop**: Group Exercise: Buri (Level 4)           | 45       | [Slides](../skills/Buri/Buri.qmd)                      |
 | Decision: Which theory to formalize?                   | 45       |                                                           |
 | **[Homework, continued]**: Netlogo Tutorial + Exercise | -        |                                                           |
 

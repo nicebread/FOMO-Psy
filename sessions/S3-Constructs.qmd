@@ -11,7 +11,7 @@ description: Create proper definitions for the constructs in our Buri model
 | Homework wrap-up: van Dongen Paper, CFF troubleshooting | 30       |                                                                        |
 | **Skills**: Our first theory release                    | 15       | Create `dev` branch, make first release on `main`                      |
 | **Lecture (Lena Schiestel)**: How to create constructs  | 40-60    | [Slides](../external_material/2023_Empra_Theoriebildung_Schiestel.pdf) |
-| **Workshop**: Group Exercise: Buri (Level 3)            | 40       | [Slides](../workshops/Buri/Buri.qmd)                                   |
+| **Workshop**: Group Exercise: Buri (Level 3)            | 40       | [Slides](../skills/Buri/Buri.qmd)                                   |
 | Theory submissions from the department                  | 30       |                                                                        |
 | **[Homework 1]**: Scan Theory Submissions               | -        |                                                                        |
 | **[Homework 2]**: Netlogo Tutorial + Exercise           | -        | This is a two-week assignment                                          |

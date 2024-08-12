@@ -6,7 +6,7 @@ author:
     orcid: 0000-0002-8282-3910
     email: felix.schoenbrodt@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München
-date: today
+date: 2023-20
 date-format: iso
 footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format:   
@@ -36,6 +36,8 @@ editor:
 ![](img/Then-a-Miracle-Occurs-Copyrighted-artwork-by-Sydney-Harris-Inc-All-materials-used-with.png){height=600}
 :::
 ::::
+
+
 
 ::: {.attribution}
 Slide by [Karolin Salmen](https://www.psycharchives.org/en/item/cde1ef17-611c-42d0-8835-95592cab521a), CC-BY; Comic by S. Harris (1977)

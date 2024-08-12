@@ -15,8 +15,6 @@ website:
         file: lectures/lecture_overview.qmd
       - text: "Skills"
         file: skills/skills_overview.qmd  
-      - text: "Workshops"
-        file: workshops/workshop_overview.qmd  
       - href: tools.qmd
         text: Thinking Tools
       - file: orga_material/orga_material.qmd

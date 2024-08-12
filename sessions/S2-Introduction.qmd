@@ -1,5 +1,5 @@
 ---
-title: Session 2 - Introduction Theories
+title: Session 02 - Introduction Theories
 number-sections: true
 description: Intro to theory 2; Bischof notation; CFF files
 ---
@@ -11,7 +11,7 @@ description: Intro to theory 2; Bischof notation; CFF files
 | Homework wrap-up: Chapter, Git troubleshooting | 15       |                                                           |
 | **Skill 1**: CFF-files & semantic versioning   | 45       | [Slides](../skills/it-tools/it-tools.qmd)                 |
 | **Lecture**: Introduction: What is a theory?   | 60       | [Slides](../lectures/Intro2/Intro2.qmd)                   |
-| **Workshop**: Group Exercise: Buri (Level 2)   | 60       | [Slides](../workshops/Buri/Buri.qmd)                      |
+| **Workshop**: Group Exercise: Buri (Level 2)   | 60       | [Slides](../skills/Buri/Buri.qmd)                      |
 | **[Homework 1]**: Read van Dongen et al (2023) | -        |                                                           |
 | **[Homework 2]**: Create a CFF file            | -        |                                                           |
 

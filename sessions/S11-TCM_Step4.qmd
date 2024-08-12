@@ -1,0 +1,34 @@
+---
+title: Session 11 - Step 4 in TCM
+number-sections: false
+description: "Check the behavior of the model in boundary conditions; do a sensitivity analysis"
+---
+
+## Reminder: TCM steps
+
+1. Identify definitions of constructs and relevant phenomena
+2. Formulate a prototheory: Create a VAST display
+3. Develop a formal model
+4. **TODAY: Check the adequacy of the formal model**
+5. Evaluate the overall worth of the constructed theory (not covered in this course)
+
+
+## Step 1: Check adequacy of the combined model: Boundary conditions
+
+In the last step, we created functional relationships between specific variables (i.e., the paths in the VAST display). Now let's check the behavior and adequacy of the combined model.
+
+Create a full factorial combination of all relevant input parameters of your combined model. This can entail both the input variables of your virtual participants and "tuning parameters" of your functions. As a start, I recommend that you fix the tuning parameters to sensible values and only vary the input variables. Later, you can also check the influence of the tuning parameters.
+
+The `expand.grid` function comes handy for creating all possible combinations of a provided set of vectors:
+
+```{r}
+params <- expand.grid(
+  expected_anxiety = c(0, 0.5, 1),
+  alpha = c(0, 0.5, 1),
+  condition = c("Control", "Treatment")
+)
+
+print(params)
+```
+
+This data frame can be seen as a sample of carefully chosen participants that cover the "corners" of your parameter space. When you submit that to your model function, you can measure the model's output at these boundary cases. In practice, you would choose more fine-grained steps in each variable (e.g., `alpha = seq(0, 1, by=0.1)`) to get a smooth plot of the model's behavior.

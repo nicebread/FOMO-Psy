@@ -36,7 +36,7 @@ revealjs-plugins:
    - Students create their Github accounts; add them as contributors to the course project.
    - Show how to commit, push, pull changes.
    - Show a merge conflict (make a change in the web frontend and locally) and how to resolve it.
-2. We start the [OSC git tutorial](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/) together to weed out technical hurdles. The rest of tutorial is homework.
+2. We start the [OSC git tutorial](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/) together to weed out technical hurdles. The rest of tutorial is homework.
 
 ## Never forget ...
 

@@ -55,13 +55,18 @@ While carrying their name tags, students find their position between two corners
 
 # Git Intro {#sec-git}
 
-0. Open the first slides of the [IT-Tools](../skills/it-tools/it-tools.qmd) presentation.
-1. Showcase how git works
-   1. Lecturer creates a private project on Github for this course. This will be the central project for submitting homework.
-   2. Students should create their Github accounts; add them as contributors to the course project.
-   3. Show how to commit, push, pull changes.
-2. Students should create a Github account (if they have none), add all to the joint repo.
+::: {.callout-note title="Instructions for lecturer"}
+Open the presentation on [IT-Tools](../skills/it-tools/it-tools.qmd) and go through all slides that are related to `git`.
+:::
 
+
+Lecturer showcases how git works:
+
+- Lecturer creates a private project on Github for this course. This will be the central project for submitting homework.
+- Students create their Github accounts; add them as contributors to the course project.
+- Show how to commit, push, pull changes.
+- Show a merge conflict (make a change in the web frontend and locally) and how to resolve it.
+- We start the [OSC git tutorial](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/) together to weed out technical hurdles. The rest of tutorial is homework.
 
 # Homework 1 (individually) {#sec-homework}
 

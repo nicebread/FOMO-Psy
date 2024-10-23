@@ -9,14 +9,11 @@ date: 2023-10-27
 date-format: iso
 footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format:   
-  FOMO-revealjs: 
+  nicetheme-revealjs: 
     output-ext: slide.html
-    transition: slide
   html: default
 revealjs-plugins:
   - attribution 
-editor: 
-  render-on-save: true
 ---
 
 <!-- Duration: 1h (without group exercises) -->

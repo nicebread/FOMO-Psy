@@ -1,0 +1,266 @@
+---
+title: "Buridan's ass"
+subtitle: "Your first modeling challenge"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: 2023-10-20
+footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format: 
+  nicetheme-revealjs: 
+    output-ext: slide.html
+    transition: slide
+    background-transition: fade
+    touch: true
+    embed-resources: true
+    template-partials:
+      - title-slide.html
+  html: default
+revealjs-plugins:
+  - attribution 
+---
+
+# Buridan's Ass
+
+:::: {.columns}
+::: {.column width='40%' .r-fit-text}
+![](img/Buridans_ass.jpeg){fig-align="center" height="400"}
+:::
+
+::: {.column width='60%'}
+> „The man who is violently, but equally, hungry and thirsty, and stands at an equal distance from food and drink, and who therefore must remain where he is.“
+>
+> <div style="text-align: right; font-size: 70%">Aristoteles: _De Caelo/On the Heavens_. Trans. W. K. C. Guthrie, Heinemann, London 1938, 2:13:295b (S. 237)</div>
+:::
+::::
+
+::: {.attribution}
+https://p8.storage.canalblog.com/87/85/553105/80715840.jpeg
+:::
+::: footer
+See [Wikipedia](https://de.wikipedia.org/wiki/Buridans_Esel)
+:::
+
+
+## The demiurg {auto-animate=true}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](img/Urizen_with_his_net_-_The_Book_of_Urizen,_copy_G,_object_27_c1818_(Library_of_Congress)_Detail.jpg){fig-align="center" height="400"}
+:::
+
+::: {.column width="60%" .r-fit-text}
+> "Die Gnosis kannte die Gestalt des Demiurgen, eines Schöpfergottes von niederem Rang, der von der Hochgottheit den Auftrag erhalten hatte, den Kosmos zu erbauen"
+> <div style="text-align: right; font-size: 70%">*N. Bischof (in prep, S. 143)*</div>
+>
+
+> [*The gnosis knew the figure of the Demiurge, a creator god of lower rank, who had received the commission from the High Deity to build the cosmos*]{style="font-size: 70%; font-style: italic"}
+:::
+::::
+
+::: {.attribution}
+By [Dmitrismirnov - Own work](https://commons.wikimedia.org/w/index.php?curid=28922594), CC BY-SA 3.0
+:::
+
+## Das demiurgische Prinzip
+
+::: {.r-fit-text}
+> Der Forscher, der eine komplexe Struktur verstehen will, ist gut beraten, wenn er sich in die Rolle eines solchen Demiurgen versetzt und sich vorstellt, er hätte sie selbst konstruieren müssen. Natürlich muss er dafür eine begründete Vermutung haben, was sie leisten soll. Leistung schließt immer eine Zielvorgabe ein, die Arbeit des Demiurgen läuft also naturgemäß im Rahmen einer telischen Heuristik ^[griechisch τέλος (telos): ‚Zweck‘, ‚Ziel‘, ‚Ende‘. Der Zweck ist hier evolutionär gedacht: Was hilft dem Überleben und der Fortpflanzung?] ab.
+> <div style="text-align: right; font-size: 80%">*N. Bischof (in prep, S. 143)*</div>
+
+[The researcher who wants to understand a complex structure is well advised to put himself in the role of such a demiurge and imagine that he would have had to construct it himself. Of course, to do this he must have an educated guess as to what it should perform. Performance always includes a target, so the demiurge's work naturally runs within the framework of a telic heuristic.]{style="font-size: 50%"}
+:::
+
+## The Demiurgic Principle
+### Preliminary version
+
+
+::: {.callout-note}
+Wäre ich ein Ingenieur, der einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen?<br>
+[If I were an engineer and I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?]{style="font-size: 70%; color:#666666"}
+:::
+
+::: footer
+Bischof (in prep, S. 143)
+:::
+
+
+
+
+# Buridan's ass, level 1: Intuitive modeling {background-color="#40666e"}
+
+## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 1]{.r-fit-text}
+
+::: {.smallest}
+**Scenario**: The environment has two unlimited sources (food and water), in a substantial distance from each other. The donkey has a general metabolism that continuously consumes food and water reserves in the body. If any of the two reserves drops to zero, the donkey dies.
+
+**(Simplifying) assumptions**: 
+
+- Linear decrease in both water and food reserves in the body, higher under activity (e.g., traveling).
+- No other needs or tasks (e.g., no predators, no sleep necessary).
+- Eating, drinking, and traveling takes a substantial amount of time.
+- The donkey has a representation of the environment and knows where the two sources are.
+
+**Task**: Construct an organism, with as *few* assumptions as possible, that survives as long as possible. Which constructs / sensors / abilities are necessary for this? Assume as simple abilities as possible - certainly not super-human abilities. (Rather think of an amoeba, not a super-AI).
+
+**Deliverable**: A markdown text file with a verbal description of the organism. Give it the version number `0.1.0`. Upload to the Git repo.
+
+![](img/buri1.png){fig-align="center" height="70"}
+:::
+
+
+
+
+## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 2]{.r-fit-text}
+### Exhaustive list of (fixed and free) parameters and input variables
+
+::: {.callout-note}
+# Reminder: free vs fixed parameters
+- **Fixed parameters** are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).
+- **Free parameters** can be adjusted to optimize the fit of the model to data. They are *estimated* from empirical data.
+:::
+
+
+## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 2]{.r-fit-text}
+### Exhaustive list of (fixed and free) parameters and input variables
+
+::: {.smallest}
+**Task**: 
+
+a) List all parameters of your model (on the top of your markdown file). 
+<br>→ As a heuristic: Every conrete number that you need for the formulas of your simulation is a parameter.
+b) Categorize them into *fixed* and *free* parameters.
+→ Virtually all parameters (except natural constants) could be imagined as being free. It is usually a *choice* to fix some of them in order to simplify the model. 
+c) List all input/predictor variables
+d) List all primary ouput variables.
+  - In some models, an output variable can also be an input variable for something else.
+  - *Do not* list intermediate/temporary variables that are only necessary for computations. 
+  - *Do* list mediating variables that are psychologically meaningful (e.g. an emotion that mediates the process between stimulus (= input) and action)
+
+Cf. linear regression: $\color{red} y = \color{forestgreen} \beta_0 \color{black} + \color{forestgreen} \beta_1 \color{blue} x$ 
+<br>→ $\color{red} y$ = output variable, $\color{forestgreen} \beta$s = parameters, $\color{blue} x$ = input variable.
+:::
+
+
+
+
+## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 3]{.r-fit-text}
+### Construct and variable definitions
+
+:::: {.columns}
+
+::: {.column width='60%' .smallest}
+In the previous lecture, you learned how a good construct definition looks like. Apply that new skill to your model!
+
+**Task**:
+
+- Develop proper definitions for *all* variables and concepts in your model, add them to your markdown file.
+- Increase the *minor* version (e.g., from `0.2.7` to `0.3.0`)
+
+
+**Deliverables**:
+
+- Create a `CHANGELOG.md` file that explains the changes between the previous and the current version of the theory.
+- Push all new files to your `dev` branch.
+- Merge `dev` into `main`.
+- Create a new release.
+:::
+
+::: {.column width='40%'}
+![](img/changelog_example.png){fig-align="center" style="filter: drop-shadow(6px 6px 8px #555555);"}
+:::
+
+::::
+
+
+
+
+
+
+## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 4]{.r-fit-text}
+### Draw a graphical model, Bischof-style
+
+::: {.smallest}
+**Task**: Sketch your initial verbal model in the [style of Bischof](../../skills/Bischof-Notation/Bischof-Notation.qmd). Refine and extend where necessary, e.g.:
+
+  - Think about which sensors are necessary (both towards internal states and towards the environment) and which actors are necessary
+  - Give a label to every variable (i.e., every arrow in the graphical model).
+  - Every free parameter and input variable that you identified should be an arrow in your visual model
+
+**Deliverables**: 
+
+- Draw the model collaboratively in [draw.io](https://www.drawio.com). In one corner, add the updated version number and today's date (simply as a text box).
+- Create & switch to `dev` branch
+- Export the graphical model as an `xml` file and push it to the Github repo. Increase version number in `cff` file.
+:::
+
+
+
+
+# Buridan's ass, level 5 {background-color="#40666e"}
+
+## The Demiurgic Principle
+### Final version
+
+::: {.callout-note}
+Wäre ich ein Ingenieur, der, *aufbauend auf der letzten funktionstüchtigen Vorform*, einen Mechanismus so konstruieren soll, dass er eine Leistung des Organismus ebenso gut wie dieser erbringt und dabei möglichst dieselben Fehler macht – wie würde ich dann vorgehen? <br>
+[If I were an engineer and, *building upon the last functional (evolutionary) preform*, I had to design a mechanism that performs as well as the organism and makes the same mistakes – how would I go about it?]{style="font-size: 70%; color:#666666"}
+:::
+
+::: {.r-fit-text}
+[&rarr; Assume realistic capabilities, which respect the evolutionary path dependency.]{.hl}
+
+E.g., don't assume ...
+
+- Mammal organisms that need 3 hands to perform a task
+- Omniscient knowledge about the environment, probabilities, distant events, the future, ...
+- Unlimited cognitive processing capabilities ("In the first 2ms, the simulated amoeba performs a multidimensional Bayesian optimization task")
+
+:::
+
+::: footer
+Bischof (in prep, S. 143)
+:::
+
+
+## Realistic capabilities, 2
+
+> **As-if models** typically employ mathematical representations chosen for elegance or feasibility, are deliberately free from psychological interpretation , and their input–output transformations need not correspond to actual cognitive processes. [...] The implication is that process models need to be simple and respect capacity limits or link the proposed operations directly to psychological constructs
+
+::: footer
+
+:::
+
+# Buridan's ass, level 5 {background-color="#40666e"}
+
+## [{{< fa people-group size=1x >}} Group exercise: Cover your ass, Level 5]{.r-fit-text}
+### Variable Scaling & Netlogo Implementation
+
+::: {.smallest}
+
+**Tasks**:
+
+- Define the **variables** in the implemented model: 
+  - Scale level
+  - Possible range or discrete values (define the set)
+  - Interpretability (what does a value of 0.7 mean?)
+    - Maybe define operationalizations that give a meaning to the numbers
+- Define computations for each **box**: How exactly are input variables transformed into the output variables? You need a concrete formula for that. Theories rarely are so specific that you can directly derive a formula; you probably need to fill many gaps with ad-hoc assumptions.
+- **Implement** the model in Netlogo
+
+**Deliverables**:
+
+- Push the `.nlogo` file to your group's Github repo.
+- Update all written model descriptions, increase model version.
+- Explain & justify the changes in the model in your `CHANGELOG.md`. 
+- Write a meaningful commit message.
+:::
+
+
+
+<!-- Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```

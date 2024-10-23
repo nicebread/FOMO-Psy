@@ -6,80 +6,37 @@ description: Intro to theory 1 - First steps in modeling
 
 # Overview
 
-| Topic                                        | Duration | Notes                                                                          |
-| -------------------------------------------- | -------- | ------------------------------------------------------------------------------ |
-| Introduction                                 | 5        | Lecturer introduction                                                          |
-| Introduction of students in the plenum       | 5        | Guiding questions: Name, home town, why chose this Empra. Write your name tag. |
-| Formalia                                     | 20       | [Slides](../lectures/Empra-Orga/Empra-Orga.qmd)                                |
-| Group formation                              | 10       | See @sec-group_formation                                                       |
-| **Skill**: Git Intro                         | 30       | See @sec-git                                                                   |
-| **Lecture**: Introducion: Theory crisis      | 45       | [Slides](../lectures/Intro1/FOMO-Psy_1_Data_phenomena.qmd)                            |
-| **Workshop**: Group Exercise: Buri (Level 1) | 60       | [Slides](../skills/Buri/Buri.qmd)                                           |
-| **[Homework 1]**: Git Tutorial               | -        |                                                                                |
-| **[Homework 2]**: Smaldino (2013), Chapter 1 | -        |                                                                                |
+| Topic                                                | Duration | Notes                                                                          |
+| ---------------------------------------------------- | -------- | ------------------------------------------------------------------------------ |
+| Introduction                                         | 5        | Lecturer introduction                                                          |
+| Introduction of students in the plenum               | 15       | Guiding questions: Name, home town, why chose this Empra. Write your name tag. |
+| Formalia                                             | 20       | [Slides](../lectures/Empra-Orga/Empra-Orga.qmd)                                |
+| **Lecture**: Introduction: Theory crisis             | 90       | [Slides](../lectures/Intro1/FOMO-Psy_1_Theory_crisis.qmd)                      |
+| Wrap up **[Homework 2]**: Smaldino (2013), Chapter 1 | 15       |                                                                                |
+| Git Tutorial troubleshooting                         | 20       |                                                                                |
+| Mini Introduction VAST                               | 30       | [Slides](TODO)                                                                 |
 
 : {.striped}
 
 
- 
 
-# Group formation {#sec-group_formation}
-
-## Goal:
-
-- Put together groups where also unacquainted people meet -> increase network size.
-- Allow a certain freedom of choice, not completely random.
-- Ensure that at least one person is knowledgable of programming.
-
-## Create a "visual analog scale" (VAS) of programming skills in the room
-
-While carrying their name tags, students find their position between two corners of the rooms, described as:
-
-1. "No programming knowledge at all, I even forgot everything I learned about R programming in the first semester"
-2. "I actively coded (in any language) in the last 3 months"
-
-## Semi-randomised allocation:
-
-- Collect all name tags, in the order of programming skills in the VAS.
-- Build 4 working islands (push tables together).
-- Distribute the name tags of the 4 most capable programmers in the room on the 4 tables.
-- Then select the next 4 names, who choose an island to join. But only 1 person is allowed to join each island at each round.
-
-## Round of introductions within the group (10 min)
-
-- Task: Think of a funny name for a donkey. This will be the group's name.
-- Give a more detailed introduction to the other group members:
-  - Career goals / type of psychologist they want to become
-  - Specific programming skills
-
-
-# Git Intro {#sec-git}
-
-::: {.callout-note title="Instructions for lecturer"}
-Open the presentation on [IT-Tools](../skills/it-tools/it-tools.qmd) and go through all slides that are related to `git`.
-:::
-
-
-Lecturer showcases how git works:
-
-- Lecturer creates a private project on Github for this course. This will be the central project for submitting homework.
-- Students create their Github accounts; add them as contributors to the course project.
-- Show how to commit, push, pull changes.
-- Show a merge conflict (make a change in the web frontend and locally) and how to resolve it.
-- We start the [OSC git tutorial](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/) together to weed out technical hurdles. The rest of tutorial is homework.
-
-# Homework 1 (individually) {#sec-homework}
+# Homework 1 (individually)
 
 **Goals**: Learn how to pull, commit, and push to Github. Be able to resolve a merge conflict.
 
-If you already know how to do this, you can skip Homework 1. Otherwise, do the tutorial ["Introduction to Version Control in R with RStudio, Git, and Github"](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/), **and** complete the follow-up tutorial "[Collaborative coding with GitHub and RStudio](https://malikaihle.github.io/Collaborative-RStudio-GitHub/)".
-Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.
+1. Create a Github account. (Skip if you have one already).
+2. Send your Github user name to me via email. I will give you access to the course's private *Homework Repository*: [https://github.com/nicebread/FOMO-homework_2024](https://github.com/nicebread/FOMO-homework_2024). (Note: You won't be able to access, clone, or even see the repository until the lecturer has granted you access).
+
+If you are proficient in `git`, you can skip step 3:
+
+3. Do the tutorial ["Introduction to Version Control in R with RStudio, Git, and Github"](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/), **and** complete the follow-up tutorial "[Collaborative coding with GitHub and RStudio](https://lmu-osc.github.io/Collaborative-RStudio-GitHub/)". Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.
+4. Once you have been granted access to the [Homework Repository](https://github.com/nicebread/FOMO-homework_2024), `clone` the repository to your local machine. (This cannot be done on an iPad or smartphone; you need a computer for that.)
 
 **Deliverable**: 
 
-Push your answer from Homework 2 (see below) to the appropriate folder of the remote repository.
+Push your answer from Homework 2 (see below) to the folder `homework/01-Smaldino-chapter` of the remote repository (i.e., first save your file locally in the respective folder, then commit and push).
 
-# Homework 2 (individually) {#sec-homework2}
+# Homework 2 (individually)
 
 Download [Chapter 1](https://pup-assets.imgix.net/onix/images/9780691224145/9780691224138.pdf) of Paul Smaldino's Book "Modeling Social Behavior: Mathematical and Agent-Based Models of Social Dynamics and Cultural Evolution". Read the chapter and answer the following guiding questions:
 
@@ -87,9 +44,9 @@ Download [Chapter 1](https://pup-assets.imgix.net/onix/images/9780691224145/9780
 
 <!-- Answer: Yes, the conclusions follow directly from the assumptions - to that extent, the criticism has a true core. But that does not diminish the usefulness of formal models: Often the conclusions don't trivialy follow from the assumptions; humans are not good in directly inferring conclusions from, say, non-linear or complex models. Models allow to check, whether our assumptions *actually* lead to the phenomena that should be explained. -->
 
-2. What is done in a **decomposition**?
+2. What is done in a "decomposition"?
 
-<!-- Answer: Give answers to the following questions: What are the parts of the system we are interested in? What are their properties? What are the relationships between the parts and their properties? How do those properties and relationships change?  -->
+<!-- Answer: A decomposition gives answers to the following questions: What are the parts of the system we are interested in? What are their properties? What are the relationships between the parts and their properties? How do those properties and relationships change?  -->
 
 3. What question should guide the decomposition?
 
@@ -104,5 +61,22 @@ The inexact sciences are those in which the mappings between measurements and th
 
 <!-- Answer: Equation-based models and agent-based models -->
 
-**Deliverable**: Submit answers to the guiding questions as a plain text/markdown file to the course's Github repo (go to `homework/session1` and upload an `.md` file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don't do the homework at all (after all, the goal of this exercise is that you *learn* something, not that you make your lecturer happy).
+**Deliverable**: Submit answers to the guiding questions as a plain text or markdown file to the course's *Homework Repository*:
+
+- Navigate to `FOMO-homework_2024/homework/01-Smaldino-chapter` (After you cloned the repository in Homework 1, you should have that folder somewhere on your local machine.)
+- Add your answers as `.txt` or `.md` file with your first name as filename (e.g., "`Heinz-Ruediger.md`")
+- `commit` and `push`
+- (To verify your submission: If you go to the [website](https://github.com/nicebread/FOMO-homework_2024) of the repository, you should see your file in the folder `01-Smaldino-chapter`.)
+
+You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don't do the homework at all (after all, the goal of this exercise is that you *learn* something, not that you make your lecturer happy).
+
+Using `git` for the first time can be challenging. But it's a skill that will pay off in the long run. If you get stuck, and made honest attempts to solve the problems yourself, don't get desperate: Just send me your homework via email, and we will sort it out together in the next session.
+
+
+
+# Homework 3 (individually)
+
+Read the VAST paper, and answer the following guiding questions:
+
+Leising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. [https://open.lnu.se/index.php/metapsychology/article/view/2911](https://open.lnu.se/index.php/metapsychology/article/view/2911)
 

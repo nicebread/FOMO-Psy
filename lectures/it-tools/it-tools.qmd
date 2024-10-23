@@ -1,0 +1,212 @@
+---
+title: "IT tools for theory versioning"
+subtitle: "Git, CFF citation files & Semantic Versioning"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+  - name: Aaron Peikert
+    orcid: 0000-0001-7813-818X
+    email: peikert@mpib-berlin.mpg.de
+    affiliations: Max Planck Institute for Human Development  
+date: 2023-10-20
+footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format: 
+  nicetheme-revealjs: 
+    output-ext: slide.html
+    transition: slide
+    background-transition: fade
+    touch: true
+    embed-resources: true
+  html: default
+revealjs-plugins:
+  - attribution 
+---
+
+# Git Showcase {background-color="#40666e"}
+
+## Git overview {.stretch}
+![](img/Git_workflow.jpeg)
+
+## Git hands-on
+
+1. Showcase how git works
+   - Lecturer creates a private project on [Github](http://github.com/) for this course. This will be the central project for submitting homework.
+   - Students create their Github accounts; add them as contributors to the course project.
+   - Show how to commit, push, pull changes.
+   - Show a merge conflict (make a change in the web frontend and locally) and how to resolve it.
+2. We start the [OSC git tutorial](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/) together to weed out technical hurdles. The rest of tutorial is homework.
+
+## Never forget ...
+
+![](img/Gt_in_case_of_fire.png)
+
+::: footer
+Found on [https://mstdn.games/@64bithero/111251230901866156](https://mstdn.games/@64bithero/111251230901866156)
+:::
+
+
+# CFF citation files {background-color="#40666e"}
+
+## Citation File Format schema version 1.2.0
+
+Tell other users how your theory should be cited, what the current version is, and more meta-data:
+
+``` 
+cff-version: 1.2.0
+title: 'AST: Action selection theory'
+message: >-
+  If you refer to this theory, please cite it using the
+  metadata from this file. This theory has not been peer reviewed yet.
+type: report
+authors:
+  - given-names: Felix
+    family-names: Schönbrodt
+    email: felix.schoenbrodt@psy.lmu.de
+    orcid: 'https://orcid.org/0000-0002-8282-3910'
+    affiliation: Ludwig-Maximilians-Universität München
+repository-code: 'https://github.com/nicebread/AST'
+abstract: >-
+  A theoretical model that explains how a donkey solves the
+  approach-approach conflict of hunger and thirst when the
+  two sources are separated.
+keywords:
+  - approach-approach conflict
+  - action selection
+  - motivation
+license: CC-BY-4.0
+version: 0.2.5
+date-released: '2023-10-30'
+```
+
+## Citation File Format schema version 1.2.0
+### How to create
+
+1. Create an intial version with the [cffinit tool](https://citation-file-format.github.io/cff-initializer-javascript/)
+
+The tool only knows "software" and "data set" as types. Create it with either of these, and then exchange the `message` and `type` fields with: 
+ 
+```
+message: >-
+  If you refer to this theory, please cite it using the
+  metadata from this file.
+type: report 
+```
+
+2. Save the `.cff` file in the top level folder of your repository.
+
+## Citation File Format schema version 1.2.0
+### Peer review status
+
+- For users of your theory, it is helpful if the peer review status is made explicit.
+- This can be done in the `message` field, e.g.:
+  - "This theory has not been peer-reviewed yet."
+  - If the current version is, say, `2.1.0`: "The last peer-reviewed version was `1.0.4`"
+  - "An open peer review of version `1.0.2` is published at doi ..."
+- In [future versions of the cff schema](https://github.com/citation-file-format/citation-file-format/issues/455#issuecomment-1729232196), one could also use the `isReviewedBy` annotation of an identifier.
+
+# Semantic Versioning {background-color="#40666e"}
+
+## Semantic Versioning (semver)
+
+Version numbers have three numbers: MAJOR.MINOR.PATCH.
+
+Increment the:
+
+- MAJOR version when you make incompatible API changes
+- MINOR version when you add functionality in a backward compatible manner
+- PATCH version when you make backward compatible bug fixes
+
+The numbers are plain integers! For example, after 9 comes 10:
+
+`0.9.0 → 0.10.0 → 0.11.0 → 1.0.0 → 1.1.0`
+
+::: footer
+See [https://semver.org](https://semver.org)
+:::
+
+## Some rules & conventions:
+
+- The first development version starts with `0.1.0`
+- The first stable public release is `1.0.0`
+- Once a versioned package has been released, the contents of that version *must not* be modified. Any modifications *must* be released as a new version.
+- Major version X (X.y.z) *must* be incremented if any backward incompatible changes are introduced. Patch and minor versions *must* be reset to 0 when the major version is incremented.
+- In `git`: Create a *tag* or a *release* whenever a major or minor version is released:
+  - With tags and releases, you can "pin" and label important commits in your history.
+  - Users can quickly go to a specific "frozen" version of your repository.
+  - In our context, there is no real difference between *tags* and *releases*, you can use either. 
+  
+::: footer
+See [https://semver.org](https://semver.org)
+:::
+
+
+## Applied to versioned theories
+
+- Internal development versions do not automatically get a new version number; the commit hash is a sufficient identifier, if specific versions in the history need to be referenced.
+- Every release in Github needs an incremented minor or major version.
+
+
+## Example
+
+- First commit to repository: `0.1.0`
+- Oh, I found and corrected a typo: `0.1.1`
+- Implemented a minor new feature (that does not break the functionality of the existing features): `0.2.0`
+  - Always reset the *patch* number to zero when increasing the *minor* or *major* number
+- By and by, more features get implemented: `0.3.0 → 0.4.0 → ... → 0.12.6`
+- Now we are ready to tag our first public release! `0.12.6 → 1.0.0`
+- ...
+- After years of work and minor version updates (e.g., `1.4.0`), we made a huge change that makes the product incompatible to version 1: `2.0.0`
+
+## Patch, Minor, Major changes
+
+So what changes warrant what kind of version increments?
+For theories it makes sense to think in terms of predictions.
+
+::: {.smaller}
+
+patch
+: The predictions your theory makes do not change, instead you have clarified things, defined terminology, fixed typos, added references etc.
+
+minor
+: The predictions your theory makes have expanded but previous predictions are substantively compatible, i.e. the theory makes the same prediction as older versions for the same settings. All things that would have confirmed or falsified the older version, still apply to the new version. For example, you have included more settings your theory covers; added more previously unrecognized variables; became more certain about some predictions (i.e. range predictions became narrower); added more operationalizations for constructs.
+
+major
+: Evidence that would have confirmed or falsified the previous version does differently affect this version. You changed core tenets of the definition of constructs or their operationalization, changed the functional relationship between two variables, changed the type of a relation (causation to correlation) or the timescale of a process, etc.
+
+:::
+
+## Git best practice
+
+::: {.smaller}
+The version number is recorded in two places:
+
+1. In the `.cff` file
+2. In the names of all *tags* or *releases*
+
+Is every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:
+
+- Maintain a `developer` branch for ongoing development. It is not necessary to update the version number in each development step.
+- Whenever a stable stage has been reached:
+  - Increase the version number in the `.cff` file
+  - Record the substantive changes in your `CHANGELOG.md`
+  - Push the development branch to the `main` branch
+  - Create a *tag*  or *release* on the main branch and write the version number into the label of the tag (see also [next slide](#how-to-create-a-release), "How to create a release?")
+
+
+:::
+
+## How to create a release?
+
+
+* use [GitHub's inbuild release mechanism](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
+* remember to set the tag to the correct version number
+* copy the content of your `CHANGELOG.md` into the release notes.
+* optional: create a DOI for your release, and archive it with [Zenodo](https://docs.github.com/de/repositories/archiving-a-github-repository/referencing-and-citing-content)
+* optional: update your `.cff` file to include the new DOI
+  * This is a hen/egg problem: The doi will not be in the release itself, as it is assigned only *after* the release.
+
+<!-- Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```

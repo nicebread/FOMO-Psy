@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: doc
+  
 
 website:
   title: "FOMO-Psy: Formal Modeling of Psychological Theories"
@@ -13,8 +14,6 @@ website:
         file: sessions/sessions_overview.qmd  
       - text: "Lectures"
         file: lectures/lecture_overview.qmd
-      - text: "Skills"
-        file: skills/skills_overview.qmd  
       - href: tools.qmd
         text: Thinking Tools
       - file: orga_material/orga_material.qmd
@@ -22,7 +21,7 @@ website:
       - about.qmd
     right:
       - icon: github
-        href: https://github.com/
+        href: https://github.com/nicebread/FOMO-Psy
         aria-label: GitHub
 
 format:

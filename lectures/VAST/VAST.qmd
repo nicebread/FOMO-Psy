@@ -1,0 +1,368 @@
+---
+title: "How to formalize a verbal theory with VAST"
+subtitle: "Visual Argument Structure Tool (VAST) by Leising, Grenke & Cramer"
+author:
+  - name: Daniel Leising
+    orcid: 0000-0001-8503-5840
+    email: Daniel.Leising@tu-dresden.de
+    affiliations: Technical University Dresden
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: 2023-11-17
+footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format: 
+  nicetheme-revealjs: 
+    output-ext: slide.html
+  html: default
+revealjs-plugins:
+  - attribution 
+---
+
+
+## Where do theories come from?
+
+:::: {.columns}
+::: {.column width='70%'}
+- Falsificationism starts with a (tentative) theory, which is repeatedly tested, refuted, and refined.
+- But where does the initial theory come from? "Flair"? Flash of inspiration in the shower?
+- Popper did not care much about the first stage of creating theories - just about the later testing of theories.
+
+
+**Conjecture**: We have a refined methodology¹ to *test* theories (e.g., experimental designs, statistical methods, preregistration, ...). [But we had (so far) no good methodology for constructing theories.]{.hl}
+
+::: {style="font-size: 50%;"}
+¹ "A scientific methodology is an ordered series of steps that assist a researcher in reaching a desired end state from a specified starting point." (Borsboom et al., 2021)
+:::
+:::
+
+::: {.column width='30%'}
+![Sir Karl Popper, 1902 - 1994](img/Karl_Popper.jpg)
+:::
+::::
+
+
+# Visual Argument Structure Tool (VAST) V1.0
+
+::: footer
+Leising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. [https://doi.org/10.15626/MP.2021.2911](https://doi.org/10.15626/MP.2021.2911)
+:::
+
+
+
+## Introduction
+
+This is a brief introduction into some of the core features of VAST.
+In doing this, I will simplify a few features and ignore others completely.
+
+::: {.svg-h100 style="text-align: center;"}
+```{dot}
+digraph G {
+    layout=neato;
+    X [shape=box, label="X", pos="0,0!"];
+    Y [shape=box, label="Y", pos="2, 0!"];
+    X -> Y [label="p"];
+}
+```
+:::
+
+
+## Types of elements (selection)
+![](img/VAST_elements.png)
+
+
+## Arrows stand for IF-THEN relationships
+### If X, THEN Y
+
+::: {.svg-h50 style="text-align: center;"}
+```{dot}
+digraph G {
+  layout=neato;
+  X [shape=box, label="X", pos="0,0!"];
+  Y [shape=box, label="Y", pos="2, 0!"];
+  X -> Y;
+}
+```
+:::
+
+Six types of relationships:
+
+- naming (**n**)
+- conceptual implication (**i**)
+- causation (**c**)
+- prediction (**p**)
+- transformation (**t**)
+- reasoning (**r**)
+
+
+## Naming concepts
+
+
+:::: {.columns}
+
+::: {.column width='50%'}
+::: {.svg-w400 .svg-h200 style="text-align: center;"}
+```{dot}
+digraph G {
+  layout=neato;
+  I [shape=box, label="I", pos="0, 0!"];
+  I_n [shape=box, label="\"Intelligent\"",pos="2,0!"];
+  I -> I_n [label="n"];
+}  
+```
+:::
+:::
+
+::: {.column width='50%'}
+::: {.svg-w400 .svg-h200 style="text-align: center;"}
+```{dot}
+digraph G {
+  layout=neato;
+  I [shape=box, label="I", pos="0, 0!"];
+  I_n [shape=box, label="\"For example, this entire\nsentence here may also\nbe used as a name\nin a VAST display\"", pos="2,0!"];
+  I -> I_n [label="n"];
+}  
+```
+:::
+:::
+::::
+
+
+- The `I` in the box symbolizes a **concept** 
+  - A concept is an idea about a condition that may or may not apply to certain objects (e.g., people)
+  - The **labels** of concepts (i.e., `I`) are abstract and basically arbitrary  
+- The `n` stands for a naming relationship
+- A **name** is a word (or sentence, or paragraph) that is used to describe those objects to which a concept applies
+
+
+
+## Naming concepts
+### Synonyms
+
+::: {.svg-h300 style="text-align: center;"}
+```{dot}
+digraph G {
+  layout=neato;
+  I [shape=box, label="I", pos="0, 1!"];
+  I_n [shape=box, label="\"Intelligent\"", pos="2,0!"];
+  B_n [shape=box, label="\"Bright\"", pos="2,1!"];
+  S_n [shape=box, label="\"Smart\"", pos="2,2!"];
+  I -> I_n [label="n"];
+  I -> B_n [label="n"];
+  I -> S_n [label="n"];
+}  
+```
+:::
+
+A concept may have any number of names. Here, all three names are synonyms regarding concept `I`.
+
+
+
+
+## Naming concepts
+### Homonyms
+
+::: {.svg-h300 style="text-align: center;"}
+```{dot}
+digraph G {
+  layout=neato;
+  F [shape=box, label="F", pos="0, 0!"];
+  T [shape=box, label="T", pos="0, 2!"];
+  B_n [shape=box, label="\"Big\"", pos="2,1!"];
+  F -> B_n [label="n"];
+  T -> B_n [label="n"];
+}
+```
+:::
+
+This expresses the idea that the same name is used for conditions that may not be the same.
+This name might thus be a **homonym.**
+
+
+
+## Naming concepts
+### Visualizing a jingle-jangle situation
+
+:::: {.columns}
+
+::: {.column width='60%'}
+::: {.svg-w400 style="text-align: center;"}
+```{dot}
+digraph G {
+  // Use neato layout engine to allow manual positioning
+  layout=neato;
+
+  // Nodes with manually assigned positions
+  F [label="F", shape=box, pos="0,2!"];
+  T [label="T", shape=box, pos="0,0!"];
+  F_n [label="\"Famous\"", shape=box, pos="2,3!"];
+  B_n [label="\"Big\"", shape=box, pos="2,1!"];
+  T_n [label="\"Tall\"", shape=box, pos="2,-1!"];
+  
+  // Edges with labels and arrowheads
+  F -> F_n [label="n"];
+  F -> B_n [label="n"];
+  T -> B_n [label="n"];
+  T -> T_n [label="n"];
+}
+
+```
+:::
+:::
+
+::: {.column width='40%'}
+- "Big" = jingle for `F` and `T`
+- "Big" and "Famous" = jangle for `F`
+:::
+
+::::
+
+
+
+
+## Data
+
+::: {.svg-h300 style="text-align: center;"}
+```{dot}
+digraph G {
+  layout=neato;
+  T [shape=folder, label="T", pos="0, 1!"];
+  I_n [shape=box, label="\"Intelligent\"", pos="2,0!"];
+  H_n [shape=box, label="\"High Test Score\"", pos="2,2!"];
+  T -> I_n [label="n"];
+  T -> H_n [label="n"];
+}  
+```
+:::
+
+
+- **Data** (left box, folder-shaped) is a special kind of concept, which explicitly refers to something observable. 
+  - Same as a manifest variable in Structural Equation Modeling 
+- This display is supposed to capture the idea that "Intelligence is what the intelligence test measures"
+
+## Data
+### Symbol
+
+Note: In the original VAST paper, the Data concept has a different shape (but that shape is not available in the Graphviz system used to create these graphs):
+
+![](img/VAST_Data_folder.png)
+
+
+
+## Data
+
+::: {.svg-h400 style="text-align: center;"}
+
+```{dot}
+digraph G {
+    // Use neato layout engine to allow manual positioning
+    layout=neato;
+    
+    // Nodes with explicit (x, y) positions
+    HighScoreTest1 [label="\"High Score\nin Test 1\"", pos="0,0!", shape=box];
+    HighScoreTest2 [label="\"High Score\nin Test 2\"", pos="0,3!", shape=box];
+    T1 [label="T1", shape=folder, pos="0,1!"];
+    T2 [label="T2", shape=folder, pos="0,2!"];
+    I [label="I", shape=box, pos="2,1.5!"];
+    Intelligent [label="\"Intelligent\"", pos="4,1.5!", shape=box];
+    
+    // Define edges with one-sided arrows
+    T1 -> HighScoreTest1 [xlabel="n  "];  // One-sided arrow from HighScoreTest1 to T1
+    T2 -> HighScoreTest2 [label="n  "];  // One-sided arrow from HighScoreTest2 to T2
+    I -> T1 [label="c "];               // One-sided arrow from T1 to I
+    I -> T2 [label="c"];               // One-sided arrow from T2 to I
+    T1 -> T2 [label="p  ", dir="both"];  // Double-sided arrow between T1 and T2
+    I -> Intelligent [label="n"];      // One-sided arrow from I to Intelligent
+}
+
+```
+:::
+
+- The `r` denotes *reasoning* relationships
+- This display is supposed to capture the idea that more than one test may be used as evidence for people‘s intelligence
+
+
+
+
+
+
+
+
+## Fuzziness
+
+- The goal are *precise* theories - but in reality, they often are (at least partially) vague and fuzzy
+- VAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. "weakly positive", "strong"
+  - Better than assigning an arbitrary, pseudo-precise number
+  - It's about formalizing the current state/precision of a verbal theory - if it is imprecise, let's show it!
+- Show gaps and underspecifications
+
+## Explicate different perspectives and analysts
+
+- Whose perspective is displayed?
+- Who made the analysis?
+  - E.g. Analyst Robert displays the perspective of Berta:
+
+TODO Show example.
+
+## Notes on the different types of relationships
+
+- Relationships between constructs can be ...
+	- on a theoretical level. Then it's typically a causal path (c)
+	- on empirical level: A relationship has been found! This is a prediction path (p)
+	- Research cycle: One author's p-path is the next author's theoretical c-path
+- Consider what you want to formalize:
+  - A certain author's theoretical point of view at a certain point in time?
+  - Or your personal, current point of view?
+  - The empirical support for a statement?
+  
+## Theory vs. Model
+
+In order to translate a theory into a model, one needs to ...
+
+- give a scale to every variable (e.g. by defining it's measurement/operationalization)
+- 
+
+
+# Steps to formalize an existing verbal theory
+
+## Step 1: Choose your starting point
+
+Formalization approaches can differ in their *starting point* (which often are not clear-cut distinct):
+
+- (A) **Start with the verbal theory**, formalize it as it is.
+  - Interpret the verbal statements, make them more precise, visualize as a VAST display
+  - Ignore empirical evidence (even if a hypothesized effect has already been empirically rejected, keep it in the model)
+  - Do not fix inconsistencies, do not improve the theory: We want to make explicit what the original author had in mind with their theory.
+- (B) **Start with robust phenomena (TCM approach)**, invent an explanatory theory and formal model
+  - Ignore existing verbal theories (which might be hard once you know them)
+  - This will (potentially) lead to an alternative theory/model to the existing theory
+- (A-B) **A-B fusion**: Starting point is the narrative theory, but you limit your formalization to those aspects which are (a) theoretically central OR (b) relate to robust phenomena.
+
+
+
+## Step 2: Limit your scope
+
+Most theories in psychology are too fuzzy and broad to be formalized in one go. Limit your scope:
+
+- Limit the number of **constructs** and their **relationships**: Start with a small number of constructs, and add complexity later.
+- Limit the number of **phenomena** that your model is supposed to explain.
+
+## Step 3: Collect definitions of constructs, with reference to the literature.
+
+- Collect definitions of constructs and relationships from the literature. 
+- Make them atomic (i.e., split up long quotes into their basic components).
+- Assign a unique ID to each statement
+
+<div class="table-grid">
+| ID  | Construct Label | Quote | Reference | VAST type (n, p, i, r, ...) | Comment |
+| --- | --------------- | ----- | --------- | --------------------------- | ------- |
+| A   |                 |       |           |                             |         |
+| B   |                 |       |           |                             |         |
+| ... |                 |       |           |                             |         |
+
+</div>
+
+<!-- Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```

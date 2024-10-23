@@ -1,6 +1,6 @@
 # Course material for "Formale Modellierung in der Psychologie"
 
-This is the source code. See the rendered website at [https://nicebread.github.io/FOMO-Psy/](https://nicebread.github.io/FOMO-Psy/).
+This is the source code of the Quarto website. See the rendered website at [https://nicebread.github.io/FOMO-Psy/](https://nicebread.github.io/FOMO-Psy/).
 
 *Note: The material will (initially) be a crude mixture of German and English. Your mileage may vary.*
 
@@ -11,14 +11,16 @@ You need:
 - quarto > 1.3.45
 - [Font Awesome Extension for Quarto](https://github.com/quarto-ext/fontawesome)
 - [Attribution Extension](https://github.com/quarto-ext/attribution)
-- The [FOMO theme](https://github.com/nicebread/quarto-revealjs-clean-FS), which is based on the [Quarto clean theme](https://github.com/grantmcdermott/quarto-revealjs-clean/tree/main)
+- The [nicetheme](https://github.com/nicebread/quarto-FS) theme, which is based on the [Quarto clean theme](https://github.com/grantmcdermott/quarto-revealjs-clean/tree/main)
 
 Run the following commands in the project's root directory:
 
 ```
 quarto add quarto-ext/attribution
 quarto add quarto-ext/fontawesome
-quarto install extension nicebread/quarto-revealjs-clean-FS
+quarto install extension nicebread/quarto-FS
+
+quarto update extension nicebread/quarto-FS
 ```
 
 ## Notes to self:
@@ -34,6 +36,7 @@ quarto render
 quarto publish gh-pages
 ```
 
-## Resources
+### Resources
 
 - https://github.com/coatless-quarto/r-shinylive-demo
+

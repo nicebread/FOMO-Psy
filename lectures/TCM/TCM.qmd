@@ -1,5 +1,6 @@
 ---
 title: "Theory Construction Methodology"
+subtitle: "by Borsboom, van der Maas, Dalege, Kievit, & Haig"
 author:
   - name: Felix Schönbrodt
     orcid: 0000-0002-8282-3910
@@ -9,11 +10,8 @@ date: today
 date-format: iso
 footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format:   
-  FOMO-revealjs: 
+  nicetheme-revealjs: 
     output-ext: slide.html
-    transition: slide
-    background-transition: fade
-    touch: true
     embed-resources: true
   html: default
 revealjs-plugins:
@@ -28,27 +26,6 @@ editor:
 See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. [https://doi.org/10.1177/1745691620969647](https://doi.org/10.1177/1745691620969647)
 :::
 
-
-## Where do theories come from?
-
-:::: {.columns}
-::: {.column width='70%'}
-- Falsificationism starts with a (tentative) theory, which is repeatedly tested, refuted, and refined.
-- But where does the initial theory come from? "Flair"? Flash of inspiration in the shower?
-- Popper did not care much about the first stage of creating theories - just about the later testing of theories.
-
-
-**Conjecture**: We have a refined methodology¹ to *test* theories (e.g., experimental designs, statistical methods, preregistration, ...). [But we had (so far) no good methodology for constructing theories.]{.hl}
-
-::: {style="font-size: 50%;"}
-¹ "A scientific methodology is an ordered series of steps that assist a researcher in reaching a desired end state from a specified starting point." (Borsboom et al., 2021)
-:::
-:::
-
-::: {.column width='30%'}
-![Sir Karl Popper, 1902 - 1994](img/Karl_Popper.jpg)
-:::
-::::
 
 
 
@@ -159,7 +136,7 @@ Borsboom et al., 2021, p. 761
 
 > A formal model captures the principles of the explanatory theory in a set of equations or rules (as implemented in a computer program or simulation).
 
-- E.g., a Bischof control system model as an implementation of the VAST display. Record which gaps you had to fill, and which were directly derived from the theory (maybe with color coding?)
+- E.g., a mathematical formulation based on your VAST display. Record components of your model were directly derived from the theory, and which components were gaps that you had to fill
 
 ::: footer
 Borsboom et al., 2021, p. 761
@@ -185,7 +162,7 @@ Before you observe any real data, ask (and test): *Does the model even work in p
 Borsboom et al., 2021, p. 761
 :::
 
-## TCM Step 5️⃣5️: Evaluating the overall worth of the constructed theory
+## TCM Step 5️⃣: Evaluating the overall worth of the constructed theory
 
 (We'll do that later)
 
@@ -237,7 +214,7 @@ Abridged quote from van Rooij et al. (2023, August 1). Reclaiming AI as a theore
 
 | Makeism                                                                             | Demiurg                                                                                                |
 | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| (a) it is **possible** to (re)make natural phenomena computationally                | Yes - the systemic structure can be recreated as a (simplfied) model.                                  |
+| (a) it is **possible** to (re)make natural phenomena computationally                | Yes - the systemic structure can be recreated as a (simplified) model.                                  |
 | (b) (Re)makeing a natural phenomenon is **sufficient** for being able to explain it | It is an explanation (cf. productive explanation). But its quality is only as good as its assumptions*. |
 
 * "I assume an omnipotent agent, which knows everything about the world, its current state, and its history. With unlimited computing power, it determines the optimal action."

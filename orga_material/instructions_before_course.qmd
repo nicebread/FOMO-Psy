@@ -1,7 +1,7 @@
 ---
 title: "Instructions before course"
 toc: false
-date: 2023-10-01
+date: 2024-10-15
 description: "Some instructions for students before the course starts"
 ---
 
@@ -9,22 +9,24 @@ Liebe Studierende,
 
 ich freue mich schon auf unser Empra zur formalen Modellierung psychologischer Theorien. Hier kommen einige Hinweise für den Start:
 
-1. Ich würde gerne den Start von 8:15 auf 8:30 verlegen. Die Sitzung geht dann bis 11:45.
+1. Ich würde gerne den Start von 8:15 auf 8:30 verlegen. Die Sitzung geht dann in der Regel bis 12:00.
 
-2. Wir werden in fast jeder Sitzung am Computer arbeiten - z.B. Code schreiben, Diagramme zeichnen, oder Dateien in git einchecken. Daher wäre es gut, wenn sie, wenn möglich, immer ihren Laptop mitbringen. Wenn Sie keinen Laptop haben, können Sie auch bei Kommilitonen reinschauen und im "pair programming" Modus arbeiten.
+2. Wir werden in fast jeder Sitzung am Computer arbeiten - z.B. Code schreiben, Diagramme zeichnen, oder Dateien in git einchecken. Daher wäre es gut, wenn Sie, wenn möglich, immer ihren Laptop mitbringen. Wenn Sie keinen Laptop haben, können Sie auch bei Kommilitonen reinschauen und im "pair programming" Modus arbeiten.
 
 3. Wenn das letzte Programmieren in R schon etwas länger her ist, frischen sie gerne vorab ihre Kenntnisse auf. Das Empra wird *keine* Auffrischung in R beinhalten. Hier sind einige Ressourcen:
-   - Die [Tutorialfolien](https://shiny.psy.lmu.de/tutorials/vorbereitungen.html) aus Statistik 1
-   - [Moodle Kurs "R Tutorials"](https://moodle.lmu.de/course/view.php?id=12232). Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR
-   - YouTube-Video: ["Want to learn R (#rstats) in 4 hours with NO programming experience?"](https://www.youtube.com/playlist?list=PLmNgrNF3pZqg2GPmcIAWDa1A2-cAfbX37)
-   - https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf (12 page PDF document)
-   - https://github.com/jobreu/r-intro-gesis-2021 (5 day course: slides & exercises)
+   1. Die neuen R-Tutorials aus Statistik 1: [Teil 1 - Grundlagen](https://www.oer.psy.lmu.de/R_Tutorial/Teil1.html) und [Teil 2 - Workflows bei der Arbeit mit Datensätzen](https://www.oer.psy.lmu.de/R_Tutorial/Teil2.html)
+   2. [Moodle Kurs "R Tutorials"](https://moodle.lmu.de/course/view.php?id=12232). Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR
+   3. YouTube-Video: ["Want to learn R (#rstats) in 4 hours with NO programming experience?"](https://www.youtube.com/playlist?list=PLmNgrNF3pZqg2GPmcIAWDa1A2-cAfbX37)
+   4. https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf (12 page PDF document)
+   5. https://github.com/jobreu/r-intro-gesis-2021 (5 day course: slides & exercises)
 
+   Das bedeutet nicht, dass Sie all diese Ressourcen durcharbeiten müssen. Wenn Sie auf dem Stand der beiden R-Tutorials (siehe 3.1) sind, sind Sie hinreichend vorbereitet.
 
-4. Die Kommunikation wird ab jetzt über den Moodle-Kurs laufen: [https://moodle.lmu.de/course/view.php?id=30162](https://moodle.lmu.de/course/view.php?id=30162)
-Der Einschreibeschlüssel lautet: "theorie". Bitte schreiben Sie sich schon zeitnah ein; ich verschicke ab jetzt die Emails über den Kurs.
+4. Die Kommunikation wird ab jetzt über den [Moodle-Kurs](https://moodle.lmu.de/course/view.php?id=30162) laufen. Der Einschreibeschlüssel lautet: "theorie". Bitte schreiben Sie sich schon zeitnah ein; ich verschicke ab jetzt die Emails über den Kurs.
 
-Dann sehen wir uns am Freitag, 20.10.23, um 8:30 in Raum 1208 zur ersten Sitzung! Bei Fragen können Sie sich gerne auch vorab schon bei mir melden.
+5. Das Kursmaterial wird sich alles auf Github finden: https://nicebread.github.io/FOMO-Psy/. Im Moment befindet sich dort noch das alte Material; ich baue das gerade substantiell um. Aber dann haben Sie schon mal den Link.
+
+Dann sehen wir uns am **Freitag, 18.10.24, um 8:30 in Raum 1407** zur ersten Sitzung! Bei Fragen können Sie sich gerne auch vorab schon bei mir melden.
 
 Viele Grüße,
 Felix Schönbrodt

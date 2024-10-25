@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felix Schönbrodt">
-<meta name="dcterms.date" content="2024-08-12">
+<meta name="dcterms.date" content="2024-10-25">
 
-<title>FOMO-Psy: Formal Modeling of Psychological Theories - Theory Construction Methodology</title>
+<title>Theory Construction Methodology – FOMO-Psy: Formal Modeling of Psychological Theories</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -88,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -106,10 +106,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Lectures</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../skills/skills_overview.html"> 
-<span class="menu-text">Skills</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../tools.html"> 
 <span class="menu-text">Thinking Tools</span></a>
   </li>  
@@ -124,13 +120,13 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/nicebread/FOMO-Psy"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -146,7 +142,6 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#theory-construction-methodology" id="toc-theory-construction-methodology" class="nav-link active" data-scroll-target="#theory-construction-methodology">Theory Construction Methodology</a>
   <ul class="collapse">
-  <li><a href="#where-do-theories-come-from" id="toc-where-do-theories-come-from" class="nav-link" data-scroll-target="#where-do-theories-come-from">Where do theories come from?</a></li>
   <li><a href="#tcm-a-methodology-for-constructing-theories" id="toc-tcm-a-methodology-for-constructing-theories" class="nav-link" data-scroll-target="#tcm-a-methodology-for-constructing-theories">TCM: A methodology for constructing theories</a></li>
   <li><a href="#definitions" id="toc-definitions" class="nav-link" data-scroll-target="#definitions">Definitions</a>
   <ul class="collapse">
@@ -160,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#tcm-step-2b-formalizing-an-existing-narrative-theory" id="toc-tcm-step-2b-formalizing-an-existing-narrative-theory" class="nav-link" data-scroll-target="#tcm-step-2b-formalizing-an-existing-narrative-theory">TCM Step 2️⃣b: Formalizing an existing narrative theory</a></li>
   <li><a href="#tcm-step-3-developing-a-formal-model" id="toc-tcm-step-3-developing-a-formal-model" class="nav-link" data-scroll-target="#tcm-step-3-developing-a-formal-model">TCM Step 3️⃣: Developing a formal model</a></li>
   <li><a href="#tcm-step-4-checking-the-adequacy-of-the-formal-model" id="toc-tcm-step-4-checking-the-adequacy-of-the-formal-model" class="nav-link" data-scroll-target="#tcm-step-4-checking-the-adequacy-of-the-formal-model">TCM Step 4️⃣: Checking the adequacy of the formal model</a></li>
-  <li><a href="#tcm-step-55-evaluating-the-overall-worth-of-the-constructed-theory" id="toc-tcm-step-55-evaluating-the-overall-worth-of-the-constructed-theory" class="nav-link" data-scroll-target="#tcm-step-55-evaluating-the-overall-worth-of-the-constructed-theory">TCM Step 5️⃣5️: Evaluating the overall worth of the constructed theory</a></li>
+  <li><a href="#tcm-step-5-evaluating-the-overall-worth-of-the-constructed-theory" id="toc-tcm-step-5-evaluating-the-overall-worth-of-the-constructed-theory" class="nav-link" data-scroll-target="#tcm-step-5-evaluating-the-overall-worth-of-the-constructed-theory">TCM Step 5️⃣: Evaluating the overall worth of the constructed theory</a></li>
   <li><a href="#tcm-example" id="toc-tcm-example" class="nav-link" data-scroll-target="#tcm-example">TCM example</a></li>
   <li><a href="#creative-hypothesis-generating-in-psychology-some-useful-heuristics" id="toc-creative-hypothesis-generating-in-psychology-some-useful-heuristics" class="nav-link" data-scroll-target="#creative-hypothesis-generating-in-psychology-some-useful-heuristics">Creative hypothesis generating in psychology: Some useful heuristics</a></li>
   </ul></li>
@@ -174,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#comparison-chart-of-methodologies" id="toc-comparison-chart-of-methodologies" class="nav-link" data-scroll-target="#comparison-chart-of-methodologies">Comparison chart of methodologies</a></li>
   </ul></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="TCM.slide.html"><i class="bi bi-file-slides"></i>RevealJS (FOMO)</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="TCM.slide.html"><i class="bi bi-file-slides"></i>RevealJS (nicetheme)</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -182,6 +177,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Theory Construction Methodology</h1>
+<p class="subtitle lead">by Borsboom, van der Maas, Dalege, Kievit, &amp; Haig</p>
 </div>
 
 
@@ -205,7 +201,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2024-08-12</p>
+      <p class="date">2024-10-25</p>
     </div>
   </div>
   
@@ -222,29 +218,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="footer">
 <p>See Borsboom et al.&nbsp;(2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a></p>
 </div>
-<section id="where-do-theories-come-from" class="level2">
-<h2 class="anchored" data-anchor-id="where-do-theories-come-from">Where do theories come from?</h2>
-<div class="columns">
-<div class="column" style="width:70%;">
-<ul>
-<li>Falsificationism starts with a (tentative) theory, which is repeatedly tested, refuted, and refined.</li>
-<li>But where does the initial theory come from? “Flair”? Flash of inspiration in the shower?</li>
-<li>Popper did not care much about the first stage of creating theories - just about the later testing of theories.</li>
-</ul>
-<p><strong>Conjecture</strong>: We have a refined methodology¹ to <em>test</em> theories (e.g., experimental designs, statistical methods, preregistration, …). <span class="hl">But we had (so far) no good methodology for constructing theories.</span></p>
-<div style="font-size: 50%;">
-<p>¹ “A scientific methodology is an ordered series of steps that assist a researcher in reaching a desired end state from a specified starting point.” (Borsboom et al., 2021)</p>
-</div>
-</div><div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/Karl_Popper.jpg" class="img-fluid figure-img"></p>
-<figcaption>Sir Karl Popper, 1902 - 1994</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</section>
 <section id="tcm-a-methodology-for-constructing-theories" class="level2">
 <h2 class="anchored" data-anchor-id="tcm-a-methodology-for-constructing-theories">TCM: A methodology for constructing theories</h2>
 <div class="cell" data-fig-width="10" data-layout-align="default">
@@ -412,7 +385,7 @@ Note
 <p>A formal model captures the principles of the explanatory theory in a set of equations or rules (as implemented in a computer program or simulation).</p>
 </blockquote>
 <ul>
-<li>E.g., a Bischof control system model as an implementation of the VAST display. Record which gaps you had to fill, and which were directly derived from the theory (maybe with color coding?)</li>
+<li>E.g., a mathematical formulation based on your VAST display. Record components of your model were directly derived from the theory, and which components were gaps that you had to fill</li>
 </ul>
 <div class="footer">
 <p>Borsboom et al., 2021, p.&nbsp;761</p>
@@ -440,8 +413,8 @@ Note
 <p>Borsboom et al., 2021, p.&nbsp;761</p>
 </div>
 </section>
-<section id="tcm-step-55-evaluating-the-overall-worth-of-the-constructed-theory" class="level2">
-<h2 class="anchored" data-anchor-id="tcm-step-55-evaluating-the-overall-worth-of-the-constructed-theory">TCM Step 5️⃣5️: Evaluating the overall worth of the constructed theory</h2>
+<section id="tcm-step-5-evaluating-the-overall-worth-of-the-constructed-theory" class="level2">
+<h2 class="anchored" data-anchor-id="tcm-step-5-evaluating-the-overall-worth-of-the-constructed-theory">TCM Step 5️⃣: Evaluating the overall worth of the constructed theory</h2>
 <p>(We’ll do that later)</p>
 <div class="footer">
 <p>Borsboom et al., 2021, p.&nbsp;761</p>
@@ -491,7 +464,7 @@ What is makeism?
 </section>
 <section id="is-the-demiurgic-approach-makeism" class="level2">
 <h2 class="anchored" data-anchor-id="is-the-demiurgic-approach-makeism">Is the demiurgic approach “makeism”?</h2>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 44%">
 <col style="width: 55%">
@@ -505,7 +478,7 @@ What is makeism?
 <tbody>
 <tr class="odd">
 <td>(a) it is <strong>possible</strong> to (re)make natural phenomena computationally</td>
-<td>Yes - the systemic structure can be recreated as a (simplfied) model.</td>
+<td>Yes - the systemic structure can be recreated as a (simplified) model.</td>
 </tr>
 <tr class="even">
 <td>(b) (Re)makeing a natural phenomenon is <strong>sufficient</strong> for being able to explain it</td>
@@ -539,7 +512,7 @@ What is makeism?
 <section id="comparison-chart-of-methodologies" class="level2">
 <h2 class="anchored" data-anchor-id="comparison-chart-of-methodologies">Comparison chart of methodologies</h2>
 <div class="r-fit-text">
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
 <col style="width: 33%">
@@ -617,18 +590,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -660,7 +622,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/nicebread\.github\.io\/FOMO-Psy\/");
@@ -668,7 +652,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

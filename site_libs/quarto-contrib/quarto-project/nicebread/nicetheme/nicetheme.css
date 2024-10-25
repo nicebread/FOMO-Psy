@@ -1,0 +1,27 @@
+/*  */
+
+.hl {
+  background-color: rgb(250, 239, 31)
+}
+
+.marker {
+  background: url("pen-brushes.svg");
+  margin: -2px -6px;
+  padding:  2px  6px;
+  display: inline-block;
+}
+
+.alert {
+  color: #9a2515 !important;
+}
+
+/* drop-shadow for images */
+.ds {
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/* :root {
+  --mermaid-node-fg-color: #ff0000;
+  --mermaid-label-fg-color: #ff0000;
+} */

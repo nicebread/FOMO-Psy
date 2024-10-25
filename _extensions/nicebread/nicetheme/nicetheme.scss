@@ -394,3 +394,18 @@ $selection-bg: #26351c !default;
   max-width: 400px !important;
   max-height: auto;
 }
+
+.svg-w500 svg {
+  max-width: 500px !important;
+  max-height: auto;
+}
+
+.svg-w600 svg {
+  max-width: 600px !important;
+  max-height: auto;
+}
+
+.svg-w800 svg {
+  max-width: 800px !important;
+  max-height: auto;
+}

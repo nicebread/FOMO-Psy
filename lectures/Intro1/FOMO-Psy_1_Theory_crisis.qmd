@@ -1,5 +1,5 @@
 ---
-title: "FOMO-Psy 1: Jingle jangle bangle, non-robust phenomena, and the theory crisis"
+title: "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis"
 author:
   - name: Felix Schönbrodt
     orcid: 0000-0002-8282-3910
@@ -15,11 +15,11 @@ revealjs-plugins:
   - attribution 
 ---
 
-# Jinge Jangle Bangle {background-color="#40666e"}
+# Jinge Jangle Jungle {background-color="#40666e"}
 
 ## The Jingle-Jangle Problem
 
-> "Almost a century ago, it was remarked by a Professor Aikins that the science of psychology frequently manifests what he called "the [jingle]{.hl} fallacy," a circumstance wherein two things that are quite different may be labeled equivalently, and thus the unwary may consider them interchangeable" (Block, 1995, p. 209)
+> "Almost a century ago, it was remarked by a Professor Aikins that the science of psychology frequently manifests what he called 'the [jingle]{.hl} fallacy,' a circumstance wherein two things that are quite different may be labeled equivalently, and thus the unwary may consider them interchangeable" (Block, 1995, p. 209)
 
 ::: {.fragment}
 > The [jangle]{.hl} fallacy: "two separate words or expressions covering in fact the same basic situation, but sounding different, as though they were in truth different" (Kelley, 1927, p. 64)
@@ -36,11 +36,13 @@ Thorndike (1904); Kelley (1927); Block ([1995](https://doi.org/10.1037/0033-2909
 
 > " ... at least three views of autonomy appear to be present in the current autonomy literature [and] autonomy measures are not assessing the same construct" (Hmel & Pincus, 2002)
 
+::: {.incremental}
+
 - Autonomy$_1$: A cognitive vulnerability associated with depression
-  - ["... lacks the essential agentic core that would be necessary for an autonomy construct. We therefore conclude that it is inconsistent with conceptualizations of autonomy and in need of a label more consistent with its nature"]{.smaller}
+  - ["... lacks the essential agentic core that would be necessary for an autonomy construct. [...] it is inconsistent with conceptualizations of autonomy and in need of a label more consistent with its nature"]{.smaller}
 - Autonomy$_2$: Self (*auto*) – governance (*nomous*)
 - Autonomy$_3$: Emphasis on interpersonal separation
-
+:::
 
 [All three are labeled "autonomy" in the literature!]{.hl .fragment}
 
@@ -61,8 +63,9 @@ Hmel & Pincus ([2002](https://doi.org/10.1111/1467-6494.05006))
 :::
 ::::
 
+::: {.fragment}
 > "[Grit]{.hl} is not only an excellent predictor of success and performance but also the secret to success" - Duckworth et al. ([2007](https://doi.org/10.1037/0022-3514.92.6.1087))
-
+:::
 
 ::: {.notes}
 - Angela Duckworth's speaking fee range is $100,000 or more
@@ -77,10 +80,9 @@ Hmel & Pincus ([2002](https://doi.org/10.1111/1467-6494.05006))
 
 ::: {.incremental}
 - "the best available evidence strongly suggests that grit is largely a repackaging of conscientiousness — a widely studied personality trait" (Credé, 2018)
-- "We suggest at a minimum that researchers ...
+- "Given the long history of research on conscientiousness and the better measures of it (compared to scales frequently used to measure grit) we believe that it would be better to ...
   - stop measuring grit with the Grit-S questionnaire
-  - stop examining grit and rather continue to explore conscientiousness. 
-  - Given the long history of research on conscientiousness and the better measures of it (compared to scales frequently used to measure grit) we believe that this approach would be better" (paraphrased from Ponnock et al., 2020)
+  - stop examining grit and rather continue to explore conscientiousness." (paraphrased from Ponnock et al., 2020)
 :::
 
 ::: footer
@@ -93,7 +95,7 @@ Credé ([2018](https://doi.org/10.3102/0013189X18801322)); Ponnock et al. ([2020
 These jingle and jangle fallacies waste scientific time: 
 
 - Jingle creates confusion and unncessary dispute ("No, the true meaning of autonomy is ...").
-- Jangle involves useless redundancies, that lead to the 
+- Jangle involves useless redundancies, that lead to the ...
   - reinvention of constructs under new labels
   - decades of parallel literatures
   - (To what extent) are two theories actually the same theory? 
@@ -123,7 +125,7 @@ Collect candidates for the *jingle* and the *jangle* fallacy that you encountere
 
 ## The relation of theory, phenomena, and data
 
-::: {.r-stretch}
+::: {.svg-w800 style="text-align: center;"}
 ```{mermaid}
 %%| fig-width: 18
 %%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
@@ -147,6 +149,7 @@ See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framewo
 
 
 ## The relation of data and phenomena
+::: {.svg-h100 style="text-align: center;"}
 ```{mermaid}
 %%| fig-width: 6
 %%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
@@ -157,6 +160,7 @@ flowchart LR
   P -- "Prediction" --> D
   D -- "Generalization" --> P
 ```
+:::
 
 **Phenomena**: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories. In psychology often called "effects" or "findings".
 
@@ -171,6 +175,7 @@ See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framewo
 
 ## The relation of data and phenomena
 ### Generalization
+::: {.svg-h100 style="text-align: center;"}
 ```{mermaid}
 %%| fig-width: 6
 %%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
@@ -183,8 +188,9 @@ flowchart LR
   
   linkStyle 1 stroke-width:2px,stroke:red,color:red;
 ```
+:::
 
-::: {.smallest}
+::: {.smaller}
 Data provide evidence for the existence of empirical phenomena: You <span style="color:red;">generalize</span> from one or more data sets with strong evidence to a general phenomenon.
 
 Generalize to *what*? UTOS framework:
@@ -193,17 +199,39 @@ Generalize to *what*? UTOS framework:
 - [T]{.hl}reatments: Does it generalize to other operationalizations of the independent variable/treatment?
 - [O]{.hl}utcomes: Does it generalize to other operationalizations of the dependent variable/outcome?
 - [S]{.hl}ettings: Does it generalize to other settings, e.g. lab vs. field, other countries?
+:::
 
+::: footer
+UTOS framework from Cronbach & Shapiro (1982); for an update to "M-STOUT", including *mechanims* and *time*, see [Findley et al. (2021)](https://doi.org/10.1146/annurev-polisci-041719-102556).
+:::
+
+
+
+## The relation of data and phenomena
+### Generalization
+::: {.svg-h100 style="text-align: center;"}
+```{mermaid}
+%%| fig-width: 6
+%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
+flowchart LR
+  P(Phenomena)
+  D(Data)
+  
+  P -- "Prediction" --> D
+  D -- "Generalization" --> P
+  
+  linkStyle 1 stroke-width:2px,stroke:red,color:red;
+```
+:::
+
+::: {.smaller}
 To claim a (robust) phenomenon, you ideally need:
 
 - Independent replications with the *same* operationalizations (U, maybe S is varied): Often called "direct", "exact", or "close" replications
 - Replications with *different* operationalizations (UTOS is varied): Often called "conceptual" replications
 :::
 
-::: footer
-UTOS framework from Cronbach & Shapiro (1982); for an update to "M-STOUT", including *mechanims* and *time*, see [Findley et al. (2021)](https://doi.org/10.1146/annurev-polisci-041719-102556).
 
-:::
 
 ## The relation of data and phenomena
 ```{mermaid}

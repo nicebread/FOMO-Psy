@@ -1,7 +1,6 @@
 project:
   type: website
-  output-dir: doc
-  
+  output-dir: doc  
 
 website:
   title: "FOMO-Psy: Formal Modeling of Psychological Theories"

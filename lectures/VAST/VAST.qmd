@@ -133,7 +133,7 @@ digraph G {
   - A concept is an idea about a condition that may or may not apply to certain objects (e.g., people)
   - The **labels** of concepts (i.e., `I`) are abstract and basically arbitrary  
 - The `n` stands for a naming relationship
-- A **name** is a word (or sentence, or paragraph) that is used to describe those objects to which a concept applies
+- A **name** is a word (or sentence, or paragraph) that is used to describe those objects to which a concept applies. Names (or "labels") are set in quotation marks `"`in VAST displays.
 
 
 
@@ -256,6 +256,35 @@ Note: In the original VAST paper, the Data concept has a different shape (but th
 
 ```{dot}
 digraph G {
+    layout=neato;
+    
+    HighScoreTest1 [label="\"High Score\nin Test 1\"", pos="0,0!", shape=box];
+    HighScoreTest2 [label="\"High Score\nin Test 2\"", pos="0,3!", shape=box];
+    T1 [label="T1", shape=folder, pos="0,1!"];
+    T2 [label="T2", shape=folder, pos="0,2!"];
+    I [label="I", shape=box, pos="2,1.5!"];
+    Intelligent [label="\"Intelligent\"", pos="4,1.5!", shape=box];
+    
+    T1 -> HighScoreTest1 [xlabel="n  "];
+    T2 -> HighScoreTest2 [label="n  "];
+    T1 -> I [label="r "];             
+    T2 -> I [label="r "];             
+    I -> Intelligent [label="n"];    
+}
+
+```
+:::
+
+- The `r` denotes *reasoning* relationships
+- This display is supposed to capture the idea that more than one test may be used as evidence for people‘s intelligence
+
+
+
+
+## Data
+::: {.svg-h400 style="text-align: center;"}
+```{dot}
+digraph G {
     // Use neato layout engine to allow manual positioning
     layout=neato;
     
@@ -279,10 +308,123 @@ digraph G {
 ```
 :::
 
-- The `r` denotes *reasoning* relationships
-- This display is supposed to capture the idea that more than one test may be used as evidence for people‘s intelligence
+- The `p` stands for a prediction 
+- The `c` stands for causal effects
 
 
+
+## Data
+::: {.svg-h400 style="text-align: center;"}
+```{dot}
+digraph G {
+    // Use neato layout engine to allow manual positioning
+    layout=neato;
+    
+    // Nodes with explicit (x, y) positions
+    HighScoreTest1 [label="\"High Score\nin Test 1\"", pos="0,0!", shape=box];
+    HighScoreTest2 [label="\"High Score\nin Test 2\"", pos="0,3!", shape=box];
+    T1 [label="T1", shape=folder, pos="0,1!"];
+    T2 [label="T2", shape=folder, pos="0,2!"];
+    I [label="I", shape=box, pos="2,1.5!"];
+    Intelligent [label="\"Intelligent\"", pos="4,1.5!", shape=box];
+    
+    // Define edges with one-sided arrows
+    T1 -> HighScoreTest1 [xlabel="n  "];  // One-sided arrow from HighScoreTest1 to T1
+    T2 -> HighScoreTest2 [label="n  "];  // One-sided arrow from HighScoreTest2 to T2
+    I -> T1 [label="c "];               // One-sided arrow from T1 to I
+    I -> T2 [label="c"];               // One-sided arrow from T2 to I
+    T1 -> T2 [label="p  ", dir="both"];  // Double-sided arrow between T1 and T2
+    I -> Intelligent [label="n"];      // One-sided arrow from I to Intelligent
+}
+
+```
+:::
+
+This display is supposed to capture the idea that ...
+
+- The same thing has a causal effect on the outcomes of both tests 
+- Therefore, the outcomes of the two tests correlate with one another 
+
+
+
+## Splitting up the display elements
+::: {.svg-h100 style="text-align: center;"}
+```{dot}
+digraph G {
+    // Use neato layout engine to allow manual positioning
+    layout=neato;
+    
+    // Nodes with explicit (x, y) positions
+    T1 [label="T1", shape=folder, pos="0,0!"];
+    HighScoreTest1 [label="\"High Score\nin Test 1\"", pos="2,0!", shape=box];
+    
+    T2 [label="T2", shape=folder, pos="4,0!"];
+    HighScoreTest2 [label="\"High Score\nin Test 2\"", pos="6,0!", shape=box];
+    
+    I [label="I", shape=box, pos="8,0!"];
+    Intelligent [label="\"Intelligent\"", pos="10,0!", shape=box];
+    
+    T1 -> HighScoreTest1 [xlabel="n  "];
+    T2 -> HighScoreTest2 [label="n  "];
+    I -> Intelligent [label="n"];    
+}
+
+```
+:::
+
+Readability may often be promoted by setting naming relationships aside.
+
+
+
+## Splitting up the display elements
+::: {.svg-h100 style="text-align: center;"}
+```{dot}
+digraph G {
+    // Use neato layout engine to allow manual positioning
+    layout=neato;
+    
+    // Nodes with explicit (x, y) positions
+    T1 [label="T1", shape=folder, pos="0,0!"];
+    HighScoreTest1 [label="\"High Score\nin Test 1\"", pos="2,0!", shape=box];
+    
+    T2 [label="T2", shape=folder, pos="4,0!"];
+    HighScoreTest2 [label="\"High Score\nin Test 2\"", pos="6,0!", shape=box];
+    
+    I [label="I", shape=box, pos="8,0!"];
+    Intelligent [label="\"Intelligent\"", pos="10,0!", shape=box];
+    
+    T1 -> HighScoreTest1 [xlabel="n  "];
+    T2 -> HighScoreTest2 [label="n  "];
+    I -> Intelligent [label="n"];    
+}
+
+```
+:::
+
+
+::: {.svg-h100 style="text-align: center;"}
+```{dot}
+digraph G {
+    // Use neato layout engine to allow manual positioning
+    layout=neato;
+    
+    // Nodes with explicit (x, y) positions
+    T1 [label="T1", shape=folder, pos="0,0!"];
+    HighScoreTest1 [label="\"High Score\nin Test 1\"", pos="2,0!", shape=box];
+    
+    T2 [label="T2", shape=folder, pos="4,0!"];
+    HighScoreTest2 [label="\"High Score\nin Test 2\"", pos="6,0!", shape=box];
+    
+    I [label="I", shape=box, pos="8,0!"];
+    Intelligent [label="\"Intelligent\"", pos="10,0!", shape=box];
+    
+    T1 -> HighScoreTest1 [xlabel="n  "];
+    T2 -> HighScoreTest2 [label="n  "];
+    I -> Intelligent [label="n"];    
+}
+
+```
+:::
 
 
 
@@ -354,6 +496,8 @@ Most theories in psychology are too fuzzy and broad to be formalized in one go. 
 - Make them atomic (i.e., split up long quotes into their basic components).
 - Assign a unique ID to each statement
 
+This table will be called the "Definitions"
+
 <div class="table-grid">
 | ID  | Construct Label | Quote | Reference | VAST type (n, p, i, r, ...) | Comment |
 | --- | --------------- | ----- | --------- | --------------------------- | ------- |
@@ -362,6 +506,28 @@ Most theories in psychology are too fuzzy and broad to be formalized in one go. 
 | ... |                 |       |           |                             |         |
 
 </div>
+
+
+
+## Step 4: Distill a (consensus or working) definition for each construct
+
+Draw a VAST display with a naming `n` relationship.
+Use the ID from the 
+
+## Step X: Choose a specific formalization
+
+"Diffusion of responsibility" (Darley & Latané, 1968): The presence of others reduces the likelihood of helping behavior in emergencies.
+
+But how is it reduced exactly? [(see Forsyth et al., 2002)]{.smallest}:
+
+- Linear relationship?
+- A reduction in personal responsibility as groups increase in size but an eventual leveling off in larger groups?
+- Where does responsibility go when it diffuses in the group? Does it diffuse equally, with each member getting an equal portion, or is it concentrated on certain individuals?
+- 
+
+::: footer
+E.g., Forsyth et al. ([2002](https://journals.sagepub.com/doi/10.1177/0146167202281005))
+:::
 
 <!-- Footer insert below -->
 ```{r child="../../common/lastslide.qmd"}

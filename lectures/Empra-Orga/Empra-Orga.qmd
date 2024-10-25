@@ -61,6 +61,7 @@ All homework will be submitted to a private Git repo.
 ::: {.smaller}
 Da wir keine klassisch empirische Arbeit schreiben, sondern eine Theorie formalisieren, sieht der Aufbau der Hausarbeit etwas anders aus; z.B. so:
 
+::: {.smallest}
 1. Zielsetzung benennen: Eine bestehende psychologische Theorie zu formalisieren
 2. Kurze Vorstellung der gewählten Theorie
 3. Zentrale Konstrukte der Theorie (Text: Konstrukte auflisten; VAST: Konstrukte definieren)
@@ -69,6 +70,7 @@ Da wir keine klassisch empirische Arbeit schreiben, sondern eine Theorie formali
 6. Aufstellen eines formalen Modells
 7. Evaluation des formalen Modells
 8. Diskussion: Meta-Reflexion
+:::
 
 Mehr Details im Laufe des Seminars. Wir arbeiten bereits im Seminar auf ihre konkrete Hausarbeit hin.
 :::

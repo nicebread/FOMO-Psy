@@ -36,6 +36,9 @@ quarto render
 quarto publish gh-pages
 ```
 
+To make this website/repository reusable for multiple runs of the course, I define some the course-specific content (e.g. specific links) as parameters in the `_variables.yml` file. This way, I can easily change the content for the next iteration of the course.
+Reference the variables in any .qmd file by using `{{< var var_name >}}`, e.g. `{{< var homework_repo >}}`.
+
 ### Resources
 
 - https://github.com/coatless-quarto/r-shinylive-demo

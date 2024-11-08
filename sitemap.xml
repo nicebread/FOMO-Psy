@@ -1,36 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/lectures/VAST/VAST.slide.html</loc>
-    <lastmod>2024-10-25T06:28:43.754Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/VAST/VAST_Intro.slide.html</loc>
+    <lastmod>2024-11-08T07:24:54.290Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/lectures/VAST/VAST.html</loc>
-    <lastmod>2024-10-24T07:21:19.478Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/VAST/VAST_Intro.html</loc>
+    <lastmod>2024-11-08T07:19:52.965Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Versioning/(Theory) Versioning.slide.html</loc>
-    <lastmod>2024-10-25T06:28:39.959Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/it-tools/it-tools.slide.html</loc>
+    <lastmod>2024-11-08T07:24:50.520Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Versioning/(Theory) Versioning.html</loc>
-    <lastmod>2024-10-15T09:54:16.201Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/it-tools/it-tools.html</loc>
+    <lastmod>2024-10-25T12:56:53.672Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html</loc>
-    <lastmod>2024-10-25T06:28:38.790Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/lecture_overview.html</loc>
+    <lastmod>2024-11-05T10:10:06.565Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Intro1/FOMO-Psy_1_Theory_crisis.html</loc>
-    <lastmod>2024-10-25T05:54:51.101Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/TCM/TCM.slide.html</loc>
+    <lastmod>2024-11-08T07:24:45.970Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Empra-Orga/Empra-Orga.slide.html</loc>
-    <lastmod>2024-10-25T06:28:34.627Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/TCM/TCM.html</loc>
+    <lastmod>2024-10-22T12:27:34.327Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Empra-Orga/Empra-Orga.html</loc>
-    <lastmod>2024-10-25T05:37:54.589Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Intro2/Intro2.slide.html</loc>
+    <lastmod>2024-11-08T07:24:43.850Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Intro2/Intro2.html</loc>
+    <lastmod>2024-11-04T14:37:45.283Z</lastmod>
   </url>
   <url>
     <loc>https://nicebread.github.io/FOMO-Psy/sessions/sessions_overview.html</loc>
@@ -70,34 +74,42 @@
   </url>
   <url>
     <loc>https://nicebread.github.io/FOMO-Psy/sessions/S1-Introduction.html</loc>
-    <lastmod>2024-10-25T05:35:53.411Z</lastmod>
+    <lastmod>2024-11-08T07:23:26.442Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Intro2/Intro2.html</loc>
-    <lastmod>2024-10-22T08:47:47.247Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/sessions/S2-Introduction.html</loc>
+    <lastmod>2024-11-08T07:22:51.336Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Intro2/Intro2.slide.html</loc>
-    <lastmod>2024-10-25T06:28:33.069Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Empra-Orga/Empra-Orga.html</loc>
+    <lastmod>2024-10-25T05:37:54.589Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/lectures/TCM/TCM.html</loc>
-    <lastmod>2024-10-22T12:27:34.327Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Empra-Orga/Empra-Orga.slide.html</loc>
+    <lastmod>2024-11-08T07:24:45.089Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/lectures/TCM/TCM.slide.html</loc>
-    <lastmod>2024-10-25T06:28:35.794Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Intro1/FOMO-Psy_1_Theory_crisis.html</loc>
+    <lastmod>2024-10-29T13:18:14.142Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/lectures/lecture_overview.html</loc>
-    <lastmod>2024-01-17T10:01:42.162Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html</loc>
+    <lastmod>2024-11-08T07:24:48.237Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/lectures/it-tools/it-tools.html</loc>
-    <lastmod>2024-10-15T09:54:21.483Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Versioning/(Theory) Versioning.html</loc>
+    <lastmod>2024-10-15T09:54:16.201Z</lastmod>
   </url>
   <url>
-    <loc>https://nicebread.github.io/FOMO-Psy/lectures/it-tools/it-tools.slide.html</loc>
-    <lastmod>2024-10-25T06:28:41.694Z</lastmod>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/Versioning/(Theory) Versioning.slide.html</loc>
+    <lastmod>2024-11-08T07:24:49.171Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/VAST/VAST_Application.html</loc>
+    <lastmod>2024-11-08T07:24:34.871Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicebread.github.io/FOMO-Psy/lectures/VAST/VAST_Application.slide.html</loc>
+    <lastmod>2024-11-08T07:24:52.532Z</lastmod>
   </url>
 </urlset>

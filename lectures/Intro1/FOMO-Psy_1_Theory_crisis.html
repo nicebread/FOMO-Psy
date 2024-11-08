@@ -468,8 +468,8 @@ flowchart LR
 </div>
 </div>
 </div>
-<p><strong>Phenomena</strong>: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories. In psychology often called “effects” or “findings”.</p>
-<p><strong>Data</strong>: Relatively direct observations. Refer to <em>particular</em> empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).</p>
+<p><strong>Phenomena</strong>: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories. In psychology often called “effects”.</p>
+<p><strong>Data</strong>: Relatively direct observations. Refer to <em>particular</em> empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona). Also called a “finding”.</p>
 <div class="footer">
 <p>See Borsboom et al.&nbsp;(2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a></p>
 </div>
@@ -634,7 +634,7 @@ flowchart LR
 <p><strong><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Questions for discussion (10 min.):</strong></p>
 <ul>
 <li>Analyse the situation in the UTOS dimensions (units, treatments, outcomes, settings): To which dimensions did the successful replications (not) refer to?</li>
-<li>Is the “risky shift” finding - as demonstrated in the early publications - a <em>phenomenon</em>?</li>
+<li>Is the “risky shift” effect - as demonstrated in the early publications - a <em>phenomenon</em>?</li>
 </ul>
 <p>. . .</p>
 <p><em>My take</em>: It <em>is</em> a phenomenon (though a weak one), as it generalizes to new units (i.e., new participants) of the same operationalization. But the generalizability was much weaker than initially expected. It is a phenomenon of this specific stimulus set (<em>outcome operationalization</em>) and suggests certain types of research questions (e.g., “What is so specific to this stimulus set?”).</p>
@@ -950,44 +950,6 @@ See Bischof (2021), "Struktur und Bedeutung"
 </section>
 
 </main> <!-- /main -->
-
-<script>
-  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-  // slide changes (different for each slide format).
-  (function () {
-    // dispatch for htmlwidgets
-    function fireSlideEnter() {
-      const event = window.document.createEvent("Event");
-      event.initEvent("slideenter", true, true);
-      window.document.dispatchEvent(event);
-    }
-
-    function fireSlideChanged(previousSlide, currentSlide) {
-      fireSlideEnter();
-
-      // dispatch for shiny
-      if (window.jQuery) {
-        if (previousSlide) {
-          window.jQuery(previousSlide).trigger("hidden");
-        }
-        if (currentSlide) {
-          window.jQuery(currentSlide).trigger("shown");
-        }
-      }
-    }
-
-    // hookup for slidy
-    if (window.w3c_slidy) {
-      window.w3c_slidy.add_observer(function (slide_num) {
-        // slide_num starts at position 1
-        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-      });
-    }
-
-  })();
-</script>
-
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

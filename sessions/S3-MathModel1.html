@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="We finalize our Bystander VAST displays and start with the first mathematical model">
 
-<title>Overview of sessions – FOMO-Psy: Formal Modeling of Psychological Theories</title>
+<title>Session 3 - The first mathematical model – FOMO-Psy: Formal Modeling of Psychological Theories</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,65 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -153,7 +94,7 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../sessions/sessions_overview.html" aria-current="page"> 
+    <a class="nav-link" href="../sessions/sessions_overview.html"> 
 <span class="menu-text">Sessions</span></a>
   </li>  
   <li class="nav-item">
@@ -190,17 +131,29 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">1</span> Overview</a></li>
+  <li><a href="#sec-homework" id="toc-sec-homework" class="nav-link" data-scroll-target="#sec-homework"><span class="header-section-number">2</span> Homework (individually)</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Overview of sessions</h1>
+<h1 class="title">Session 3 - The first mathematical model</h1>
 </div>
 
+<div>
+  <div class="description">
+    We finalize our Bystander VAST displays and start with the first mathematical model
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -215,77 +168,50 @@ window.Quarto = {
 </header>
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table table-striped">
+<section id="overview" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Overview</h1>
+<table class="table-striped caption-top table">
 <thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-Description
-</th>
+<tr class="header">
+<th>Topic</th>
+<th>Duration</th>
+<th>Notes</th>
 </tr>
 </thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1731050606442" data-listing-reading-time-sort="12" data-listing-word-count-sort="2366" data-listing-title-sort="Session 01 - Introduction" data-listing-filename-sort="S1-Introduction.qmd">
-<td>
-<a href="../sessions/S1-Introduction.html" class="title listing-title">Session 01 - Introduction</a>
-</td>
-<td>
-<span class="listing-description">Intro to theory 1 - First steps in modeling</span>
-</td>
+<tbody>
+<tr class="odd">
+<td>Finalize VAST displays in group</td>
+<td>30</td>
+<td></td>
 </tr>
-<tr data-index="1" data-listing-file-modified-sort="1731063551968" data-listing-reading-time-sort="3" data-listing-word-count-sort="479" data-listing-title-sort="Session 02 - Introduction Theories / Practice VAST" data-listing-filename-sort="S2-VAST.qmd">
-<td>
-<a href="../sessions/S2-VAST.html" class="title listing-title">Session 02 - Introduction Theories / Practice VAST</a>
-</td>
-<td>
-<span class="listing-description">Intro to theory 2; Apply VAST to Bystander effect</span>
-</td>
+<tr class="even">
+<td>Present and discuss solutions</td>
+<td>60</td>
+<td></td>
 </tr>
-<tr data-index="2" data-listing-file-modified-sort="1731062126775" data-listing-reading-time-sort="2" data-listing-word-count-sort="377" data-listing-title-sort="Session 3 - The first mathematical model" data-listing-filename-sort="S3-MathModel1.qmd">
-<td>
-<a href="../sessions/S3-MathModel1.html" class="title listing-title">Session 3 - The first mathematical model</a>
-</td>
-<td>
-<span class="listing-description">We finalize our Bystander VAST displays and start with the first mathematical model</span>
-</td>
+<tr class="odd">
+<td>First formalization</td>
+<td>90</td>
+<td><a href="../skills/it-tools/it-tools.qmd">Slides</a></td>
 </tr>
-<tr data-index="3" data-listing-file-modified-sort="1731061973735" data-listing-reading-time-sort="3" data-listing-word-count-sort="497" data-listing-title-sort="Session 4 - Bischof notation" data-listing-filename-sort="S4-MathModel2.qmd">
-<td>
-<a href="../sessions/S4-MathModel2.html" class="title listing-title">Session 4 - Bischof notation</a>
-</td>
-<td>
-<span class="listing-description">Learn the Bischof notation for control systems; apply it to Buri.</span>
-</td>
+<tr class="even">
+<td>Homework 1: Read TCM paper</td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</section>
+<section id="sec-homework" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Homework (individually)</h1>
+<p>Read:</p>
+<p>Borsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., &amp; Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647</p>
+<p><strong>Deliverable</strong>: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to <code>homework/TCM</code> and upload an <code>.md</code> file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper.</p>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

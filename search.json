@@ -137,7 +137,7 @@
     "href": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this-1",
     "title": "How to formalize a verbal theory with VAST",
     "section": " Exercise: How would you interpret this?",
-    "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira is sure (or claims that) she has presented Robert’s and Ayse’s views correctly. This implies that these two have different and incompatible statements about the single causal effect on I.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira assumes with a relationship strength &gt; 0.5 (which is the default) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well. Except c &gt; 0.5 we have no information how certain Mira is about this hypothesis, as there is no [IS] associated with it, no empirical evidence attached, and no explicit relationship strength."
+    "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira is assumes that she has presented Robert’s and Ayse’s views correctly (with relationship strength &gt; 0.5, which is the default). This implies that these two have different and incompatible statements about the single causal effect on I.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira is certain (relationship strength = -1) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well. Except c &gt; 0.5 we have no information how certain Mira is about this hypothesis, as there is no [IS] associated with it, no empirical evidence attached, and no explicit relationship strength."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#contact",
@@ -291,7 +291,7 @@
     "href": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this-1",
     "title": "How to formalize a verbal theory with VAST",
     "section": " Exercise: How would you interpret this?",
-    "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira is sure (or claims that) she has presented Robert’s and Ayse’s views correctly. This implies that these two have different and incompatible statements about the single causal effect on I.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira assumes with a relationship strength &gt; 0.5 (which is the default) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well. Except c &gt; 0.5 we have no information how certain Mira is about this hypothesis, as there is no [IS] associated with it, no empirical evidence attached, and no explicit relationship strength."
+    "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira is assumes that she has presented Robert’s and Ayse’s views correctly (with relationship strength &gt; 0.5, which is the default). This implies that these two have different and incompatible statements about the single causal effect on I.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira is certain (relationship strength = -1) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well. Except c &gt; 0.5 we have no information how certain Mira is about this hypothesis, as there is no [IS] associated with it, no empirical evidence attached, and no explicit relationship strength."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#contact",

@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Felix Schönbrodt">
+<meta name="dcterms.date" content="2024-11-08">
+
+<title>Mathematical Modeling 1 – FOMO-Psy: Formal Modeling of Psychological Theories</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">FOMO-Psy: Formal Modeling of Psychological Theories</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../sessions/sessions_overview.html"> 
+<span class="menu-text">Sessions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../lectures/lecture_overview.html"> 
+<span class="menu-text">Lectures</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../tools.html"> 
+<span class="menu-text">Thinking Tools</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../orga_material/orga_material.html"> 
+<span class="menu-text">Organizational Material</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/nicebread/FOMO-Psy"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
+  <li><a href="#step-1-define-variables" id="toc-step-1-define-variables" class="nav-link" data-scroll-target="#step-1-define-variables">Step 1: Define variables</a>
+  <ul class="collapse">
+  <li><a href="#define-variables" id="toc-define-variables" class="nav-link" data-scroll-target="#define-variables">Define variables</a>
+  <ul class="collapse">
+  <li><a href="#how-deep-is-your-love" id="toc-how-deep-is-your-love" class="nav-link" data-scroll-target="#how-deep-is-your-love">How deep is your love?</a></li>
+  </ul></li>
+  <li><a href="#define-variables-1" id="toc-define-variables-1" class="nav-link" data-scroll-target="#define-variables-1">Define variables</a>
+  <ul class="collapse">
+  <li><a href="#some-guiding-questions-and-heuristics" id="toc-some-guiding-questions-and-heuristics" class="nav-link" data-scroll-target="#some-guiding-questions-and-heuristics">Some guiding questions and heuristics</a></li>
+  </ul></li>
+  <li><a href="#group-work-15-min." id="toc-group-work-15-min." class="nav-link" data-scroll-target="#group-work-15-min."><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (15 min.)</a>
+  <ul class="collapse">
+  <li><a href="#specify-variables" id="toc-specify-variables" class="nav-link" data-scroll-target="#specify-variables">Specify variables</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#step-2-define-functional-relationships-between-variables" id="toc-step-2-define-functional-relationships-between-variables" class="nav-link" data-scroll-target="#step-2-define-functional-relationships-between-variables">Step 2: Define functional relationships between variables</a>
+  <ul class="collapse">
+  <li><a href="#group-work-10-min." id="toc-group-work-10-min." class="nav-link" data-scroll-target="#group-work-10-min."><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (10 min.)</a>
+  <ul class="collapse">
+  <li><a href="#sketch-a-first-functional-relationship-on-paper" id="toc-sketch-a-first-functional-relationship-on-paper" class="nav-link" data-scroll-target="#sketch-a-first-functional-relationship-on-paper">Sketch a first functional relationship on paper</a></li>
+  </ul></li>
+  <li><a href="#step-2-define-functional-relationships-between-variables-1" id="toc-step-2-define-functional-relationships-between-variables-1" class="nav-link" data-scroll-target="#step-2-define-functional-relationships-between-variables-1">Step 2: Define functional relationships between variables</a></li>
+  <li><a href="#step-2-define-functional-relationships-between-variables-2" id="toc-step-2-define-functional-relationships-between-variables-2" class="nav-link" data-scroll-target="#step-2-define-functional-relationships-between-variables-2">Step 2: Define functional relationships between variables</a>
+  <ul class="collapse">
+  <li><a href="#fixed-and-free-parameters" id="toc-fixed-and-free-parameters" class="nav-link" data-scroll-target="#fixed-and-free-parameters">Fixed and free parameters</a></li>
+  </ul></li>
+  <li><a href="#step-2-define-functional-relationships-between-variables-3" id="toc-step-2-define-functional-relationships-between-variables-3" class="nav-link" data-scroll-target="#step-2-define-functional-relationships-between-variables-3">Step 2: Define functional relationships between variables</a>
+  <ul class="collapse">
+  <li><a href="#fixed-and-free-parameters-1" id="toc-fixed-and-free-parameters-1" class="nav-link" data-scroll-target="#fixed-and-free-parameters-1">Fixed and free parameters</a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Discussion</a>
+  <ul class="collapse">
+  <li><a href="#sketch-a-first-functional-relationship-on-paper-1" id="toc-sketch-a-first-functional-relationship-on-paper-1" class="nav-link" data-scroll-target="#sketch-a-first-functional-relationship-on-paper-1">Sketch a first functional relationship on paper</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#some-mathematical-tools" id="toc-some-mathematical-tools" class="nav-link" data-scroll-target="#some-mathematical-tools">Some mathematical tools</a>
+  <ul class="collapse">
+  <li><a href="#tool-1-the-logistic-function-family" id="toc-tool-1-the-logistic-function-family" class="nav-link" data-scroll-target="#tool-1-the-logistic-function-family">Tool 1: The logistic function family</a></li>
+  <li><a href="#tool-1-the-logistic-function-family-1" id="toc-tool-1-the-logistic-function-family-1" class="nav-link" data-scroll-target="#tool-1-the-logistic-function-family-1">Tool 1: The logistic function family</a></li>
+  <li><a href="#tool-1-the-logistic-function-family-2" id="toc-tool-1-the-logistic-function-family-2" class="nav-link" data-scroll-target="#tool-1-the-logistic-function-family-2">Tool 1: The logistic function family</a></li>
+  <li><a href="#tool-1-the-logistic-function-family-3" id="toc-tool-1-the-logistic-function-family-3" class="nav-link" data-scroll-target="#tool-1-the-logistic-function-family-3">Tool 1: The logistic function family</a></li>
+  <li><a href="#tool-2-the-distribution-zoo" id="toc-tool-2-the-distribution-zoo" class="nav-link" data-scroll-target="#tool-2-the-distribution-zoo">Tool 2: The Distribution Zoo</a></li>
+  <li><a href="#tool-3-the-beta-distribution" id="toc-tool-3-the-beta-distribution" class="nav-link" data-scroll-target="#tool-3-the-beta-distribution">Tool 3: The beta distribution</a></li>
+  <li><a href="#tool-3-the-beta-distribution-1" id="toc-tool-3-the-beta-distribution-1" class="nav-link" data-scroll-target="#tool-3-the-beta-distribution-1">Tool 3: The beta distribution</a></li>
+  <li><a href="#tool-3-the-beta-distribution-2" id="toc-tool-3-the-beta-distribution-2" class="nav-link" data-scroll-target="#tool-3-the-beta-distribution-2">Tool 3: The beta distribution</a></li>
+  <li><a href="#tool-3-the-beta-distribution-3" id="toc-tool-3-the-beta-distribution-3" class="nav-link" data-scroll-target="#tool-3-the-beta-distribution-3">Tool 3: The beta distribution</a></li>
+  <li><a href="#tool-3-the-beta-distribution-4" id="toc-tool-3-the-beta-distribution-4" class="nav-link" data-scroll-target="#tool-3-the-beta-distribution-4">Tool 3: The beta distribution</a>
+  <ul class="collapse">
+  <li><a href="#approximating-a-normal-distribution-with-a-beta-distibution" id="toc-approximating-a-normal-distribution-with-a-beta-distibution" class="nav-link" data-scroll-target="#approximating-a-normal-distribution-with-a-beta-distibution">Approximating a normal distribution with a beta distibution</a></li>
+  </ul></li>
+  <li><a href="#step-2-define-functional-relationships-between-variables-4" id="toc-step-2-define-functional-relationships-between-variables-4" class="nav-link" data-scroll-target="#step-2-define-functional-relationships-between-variables-4">Step 2: Define functional relationships between variables</a></li>
+  </ul></li>
+  <li><a href="#step-3-implement-the-functions-in-r" id="toc-step-3-implement-the-functions-in-r" class="nav-link" data-scroll-target="#step-3-implement-the-functions-in-r">Step 3: Implement the functions in R</a>
+  <ul class="collapse">
+  <li><a href="#step-3-implement-the-functions-in-r-1" id="toc-step-3-implement-the-functions-in-r-1" class="nav-link" data-scroll-target="#step-3-implement-the-functions-in-r-1">Step 3: Implement the functions in R</a>
+  <ul class="collapse">
+  <li><a href="#atomic-functions" id="toc-atomic-functions" class="nav-link" data-scroll-target="#atomic-functions">Atomic functions</a></li>
+  </ul></li>
+  <li><a href="#step-3-implement-the-functions-in-r-2" id="toc-step-3-implement-the-functions-in-r-2" class="nav-link" data-scroll-target="#step-3-implement-the-functions-in-r-2">Step 3: Implement the functions in R</a></li>
+  <li><a href="#step-4-simulate-a-full-data-set" id="toc-step-4-simulate-a-full-data-set" class="nav-link" data-scroll-target="#step-4-simulate-a-full-data-set">Step 4: Simulate a full data set</a></li>
+  <li><a href="#step-4-simulate-a-full-data-set-1" id="toc-step-4-simulate-a-full-data-set-1" class="nav-link" data-scroll-target="#step-4-simulate-a-full-data-set-1">Step 4: Simulate a full data set</a></li>
+  </ul></li>
+  <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a>
+  <ul class="collapse">
+  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="MathModel.slide.html"><i class="bi bi-file-slides"></i>RevealJS (nicetheme)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mathematical Modeling 1</h1>
+<p class="subtitle lead">Introduction</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Felix Schönbrodt <a href="mailto:felix.schoenbrodt@psy.lmu.de" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-8282-3910" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Ludwig-Maximilians-Universität München
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 8, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/How_deep_is_your_love.png" class="quarto-figure quarto-figure-center figure-img" style="filter: drop-shadow(6px 6px 8px #555555);" height="450"></p>
+</figure>
+</div>
+<div class="fragment">
+<div class="callout callout-style-default callout-warning callout-titled" title="**Answer: -136.7**">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<strong>Answer: -136.7</strong>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+</div>
+</section>
+<section id="step-1-define-variables" class="level1">
+<h1>Step 1: Define variables</h1>
+<section id="define-variables" class="level2">
+<h2 class="anchored" data-anchor-id="define-variables">Define variables</h2>
+<section id="how-deep-is-your-love" class="level3">
+<h3 class="anchored" data-anchor-id="how-deep-is-your-love">How deep is your love?</h3>
+<p>Define a variable for each construct of the VAST display. These can be <em>measured</em> variables or <em>unmeasured</em> (mediating) variables.</p>
+<p>You can either refer to an actual measurement procedure or simply define a variable. In both cases you should explicitly define the following properties:</p>
+<ul>
+<li><em>variable name</em> (i.e., to which concept in your VAST display does it refer?),</li>
+<li><em>scale level</em> (categorical, ordinal, interval scale),</li>
+<li><em>range</em> of possible values (e.g., 0 … 1),</li>
+<li><em>semantic anchors</em> (e.g., 0 = “complete absence”, 1 = “maximal possible value”)</li>
+</ul>
+</section>
+</section>
+<section id="define-variables-1" class="level2">
+<h2 class="anchored" data-anchor-id="define-variables-1">Define variables</h2>
+<section id="some-guiding-questions-and-heuristics" class="level3">
+<h3 class="anchored" data-anchor-id="some-guiding-questions-and-heuristics">Some guiding questions and heuristics</h3>
+<ul>
+<li>Scale level of measurement (<a href="https://en.wikipedia.org/wiki/Level_of_measurement">Stevens’s typology</a>): <br>Nominal → Ordinal → Interval → Ratio</li>
+<li>Is the variable naturally bounded? On both sides or only one?</li>
+<li>How can the numbers be interpreted?
+<ul>
+<li>Natural/objective scale (e.g.&nbsp;physical distance)</li>
+<li>As standardized <em>z</em>-scores?</li>
+<li>Normalized to a value between 0 and 1? Or rather -1 to 1?</li>
+<li>Can we find an empirical or semantic calibration?
+<ul>
+<li>Just noticable difference</li>
+<li>100 = “largest realistically imaginable quantity of that variable”</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="group-work-15-min." class="level2">
+<h2 class="anchored" data-anchor-id="group-work-15-min."><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (15 min.)</h2>
+<section id="specify-variables" class="level3">
+<h3 class="anchored" data-anchor-id="specify-variables">Specify variables</h3>
+<p>In the Google doc, below your Construct Source Table, create a new table with the following columns:</p>
+<em>Example:</em>
+<div class="table-grid">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 8%">
+<col style="width: 9%">
+<col style="width: 51%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Construct in VAST display</th>
+<th>Scale level</th>
+<th>Range/values</th>
+<th>Anchors</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Affective tone of instruction</td>
+<td>Continuous</td>
+<td>[-1; 1]</td>
+<td>-1 = maximally negative<br>0 = neutral<br>+1 = maximally positive</td>
+</tr>
+<tr class="even">
+<td>momentary anxiety</td>
+<td>Continuous</td>
+<td>[0; 1]</td>
+<td>0 = no anxiety<br>1 = maximal anxiety</td>
+</tr>
+<tr class="odd">
+<td>Kohlberg’s Stages of Moral Development</td>
+<td>Ordinal</td>
+<td>{1; 2; 3}</td>
+<td>1=Pre-conventional<br>2=Conventional<br>3=Post-Conventional</td>
+</tr>
+<tr class="even">
+<td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>Note: This resembles a codebook; but for theoretical variables, not for measured variables.</em></p>
+</section>
+</section>
+</section>
+<section id="step-2-define-functional-relationships-between-variables" class="level1">
+<h1>Step 2: Define functional relationships between variables</h1>
+<section id="group-work-10-min." class="level2">
+<h2 class="anchored" data-anchor-id="group-work-10-min."><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (10 min.)</h2>
+<section id="sketch-a-first-functional-relationship-on-paper" class="level3">
+<h3 class="anchored" data-anchor-id="sketch-a-first-functional-relationship-on-paper">Sketch a first functional relationship on paper</h3>
+<p>We want to model the following <strong>phenomenon</strong> (a specific version of the bystander effect):</p>
+<ol type="1">
+<li>Without other people present, the tendency (probability or frequency) that a person helps a victim is high.</li>
+<li>The tendency of helping a victim decreases monotonically with the number of other people (bystanders) present.</li>
+<li>The tendency of helping a victim never drops to 0.</li>
+</ol>
+<p><strong>Task</strong>: Sketch a first functional relationship that could model this phenomenon. Use the variables you defined in the previous step (including their labels and ranges).</p>
+</section>
+</section>
+<section id="step-2-define-functional-relationships-between-variables-1" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-define-functional-relationships-between-variables-1">Step 2: Define functional relationships between variables</h2>
+<p>Every causal path needs to be implemented as a mathematical function, where the dependent variable/output <span class="math inline">\(y\)</span> is a function of the input variable(s) <span class="math inline">\(x_i\)</span>.</p>
+<p><span class="math inline">\(y = f(x_1, x_2, ..., x_i)\)</span></p>
+<p>This can, for example, be a linear function, <span class="math inline">\(y = \beta_0 + \beta_1x_1\)</span>.</p>
+</section>
+<section id="step-2-define-functional-relationships-between-variables-2" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-define-functional-relationships-between-variables-2">Step 2: Define functional relationships between variables</h2>
+<section id="fixed-and-free-parameters" class="level3">
+<h3 class="anchored" data-anchor-id="fixed-and-free-parameters">Fixed and free parameters</h3>
+<div class="smaller">
+<p><span class="math inline">\(\color{red} y = \color{forestgreen} \beta_0 \color{black} + \color{forestgreen} \beta_1 \color{blue} x\)</span> <br>→ <span class="math inline">\(\color{red} y\)</span> = output variable, <span class="math inline">\(\color{forestgreen} \beta\)</span>s = parameters, <span class="math inline">\(\color{blue} x\)</span> = input variable.</p>
+<p>Two types of parameters:</p>
+<ul>
+<li><strong>Fixed parameters</strong>: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).</li>
+<li><strong>Free parameters</strong>: Can be adjusted to optimize the fit of the model to data. They are <em>estimated</em> from empirical data.</li>
+</ul>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Virtually all parameters (except natural constants) could be imagined as being free. It is a <em>choice</em> to fix some of them in order to simplify the model.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="step-2-define-functional-relationships-between-variables-3" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-define-functional-relationships-between-variables-3">Step 2: Define functional relationships between variables</h2>
+<section id="fixed-and-free-parameters-1" class="level3">
+<h3 class="anchored" data-anchor-id="fixed-and-free-parameters-1">Fixed and free parameters</h3>
+<p>Fixing a parameter:</p>
+<p><span class="math inline">\(\color{forestgreen} \beta_0 \color{black} = 1\)</span></p>
+<p><span class="math inline">\(\color{red} y = \color{forestgreen} 1 \color{black} + \color{forestgreen} \beta_1 \color{blue} x\)</span></p>
+<p>That means, the slope <span class="math inline">\(\color{forestgreen} \beta_1\)</span> still can vary, but the intercept is fixed to 1.</p>
+<div class="smaller">
+<p>Free parameters give <strong>flexibility</strong> to your function: If you are unsure about the exact relationship between two variables, you can estimate the best-fitting parameters from the data.</p>
+<p>For example, sometimes a theory specifies the general functional form of a relationship (e.g., “With increasing <span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span> is monotonously decreasing”), but does not tell how fast this decrease happens, where <span class="math inline">\(y\)</span> starts when <span class="math inline">\(x\)</span> is minimal, etc. These latter decisions are then made by the free parameters.</p>
+</div>
+</section>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Discussion</h2>
+<section id="sketch-a-first-functional-relationship-on-paper-1" class="level3">
+<h3 class="anchored" data-anchor-id="sketch-a-first-functional-relationship-on-paper-1">Sketch a first functional relationship on paper</h3>
+<ul>
+<li>Which aspects of your sketch could be free parameters? Describe them in plain language.</li>
+<li>Draw a couple of alternative plots that would also fullfill the criteria of the phenomenon.</li>
+<li>What would be the differences in the functional form? What is the semantic meaning of the free parameters?</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="some-mathematical-tools" class="level1">
+<h1>Some mathematical tools</h1>
+<section id="tool-1-the-logistic-function-family" class="level2">
+<h2 class="anchored" data-anchor-id="tool-1-the-logistic-function-family">Tool 1: The logistic function family</h2>
+<p>As a linear function is unbounded, it can easily happen that the computed <span class="math inline">\(y\)</span> exceeds the possible range of values.</p>
+<p>If <span class="math inline">\(y\)</span> has defined boundaries (e.g., <span class="math inline">\([0; 1]\)</span>), a logistic function can bound the values between a lower and an upper limit (in the basic logistic function, between 0 and 1):</p>
+<p><span class="math inline">\(y = \frac{1}{1 + e^{-x}}\)</span></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-1-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="tool-1-the-logistic-function-family-1" class="level2">
+<h2 class="anchored" data-anchor-id="tool-1-the-logistic-function-family-1">Tool 1: The logistic function family</h2>
+<div class="smaller">
+<p>With the 4PL* model from IRT, you can adjust the functional form to your needs, by:</p>
+<ul>
+<li>shifting the inflection point from left to right (aka. “item difficulty”, parameter <span class="math inline">\(d\)</span>)</li>
+<li>change the steepness of the S-shape (aka. “discrimination parameter”, parameter <span class="math inline">\(a\)</span>)</li>
+<li>Move the lower asymptote up or down (parameter <span class="math inline">\(min\)</span>)</li>
+<li>Move the upper limit up or down (parameter <span class="math inline">\(max\)</span>)</li>
+</ul>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>logistic <span class="ot">&lt;-</span> <span class="cf">function</span>(x, <span class="at">d =</span> <span class="dv">0</span>, <span class="at">a =</span> <span class="dv">1</span>, <span class="at">min =</span> <span class="dv">0</span>, <span class="at">max =</span> <span class="dv">1</span>) {</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a> min <span class="sc">+</span> (max <span class="sc">-</span> min)<span class="sc">/</span>(<span class="dv">1</span> <span class="sc">+</span> <span class="fu">exp</span>(a <span class="sc">*</span> (d <span class="sc">-</span> x)))</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="footer">
+<p>*4PL = 4-parameter logistic model</p>
+</div>
+</section>
+<section id="tool-1-the-logistic-function-family-2" class="level2">
+<h2 class="anchored" data-anchor-id="tool-1-the-logistic-function-family-2">Tool 1: The logistic function family</h2>
+<p><em>(basic logistic function as dotted grey line)</em></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Shift on x-axis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Steepness</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Lower asymptote</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Upper asymptote</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-3-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-4-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-5-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-6-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="tool-1-the-logistic-function-family-3" class="level2">
+<h2 class="anchored" data-anchor-id="tool-1-the-logistic-function-family-3">Tool 1: The logistic function family</h2>
+<p>The <code>d</code>, <code>a</code>, <code>min</code>, and <code>max</code> parameters can be used to “squeeze” the S-shaped curve into the range of your variables. For example, if your <span class="math inline">\(x\)</span> variable is defined on the range <span class="math inline">\([0; 1]\)</span>, the following function parameters lead to a reasonable shift:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-7-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="tool-2-the-distribution-zoo" class="level2">
+<h2 class="anchored" data-anchor-id="tool-2-the-distribution-zoo">Tool 2: The Distribution Zoo</h2>
+<p>If you start <strong>simulating</strong> data for your virtual participants, you want to simulate their starting values yb drawing random values from a distribution. For example, the virtual participants might differ in their anxiety, which you previously defined on the range <span class="math inline">\([0; 1]\)</span>.</p>
+<p>How can you generate random values that roughly look like a normal distribution, but are bounded to the defined range?</p>
+<p>For simulations, it is good to know some basic distributions. Here are three interactive resources for choosing your distribution:</p>
+<ul>
+<li>The <a href="https://ben18785.shinyapps.io/distribution-zoo/">Distribution Zoo</a> by Ben Lambert and Fergus Cooper</li>
+<li>The <a href="https://distribution-explorer.github.io/index.html">Probability Distribution Explorer</a> by Justin Bois</li>
+<li><a href="https://richarddmorey.github.io/stat-distributions-js/">Interactive collection of distributions</a> by Richard Morey</li>
+</ul>
+</section>
+<section id="tool-3-the-beta-distribution" class="level2">
+<h2 class="anchored" data-anchor-id="tool-3-the-beta-distribution">Tool 3: The beta distribution</h2>
+<p>A handy distribution for the <span class="math inline">\([0; 1]\)</span> range is the <a href="https://en.wikipedia.org/wiki/Beta_distribution">beta distribution</a>. With its two parameters <span class="math inline">\(\alpha\)</span> (also called <span class="math inline">\(a\)</span> or <code>shape1</code>) and <span class="math inline">\(\beta\)</span> (also called <span class="math inline">\(b\)</span> or <code>shape2</code>), it can take many different forms:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-8-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="tool-3-the-beta-distribution-1" class="level2">
+<h2 class="anchored" data-anchor-id="tool-3-the-beta-distribution-1">Tool 3: The beta distribution</h2>
+<p><strong>How to choose <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span>? Asking ChatGPT/Wolfram Alpha for assistance</strong></p>
+<p>Assume that you intuitively started with a normal distribution with <span class="math inline">\(M=0.2\)</span> and <span class="math inline">\(SD=0.1\)</span> (<code>rnorm(mean=0.2, sd=0.1)</code>) to simulate your values. But this function can generate values &lt; 0 and &gt; 1.</p>
+<p>How can you achieve a beta distribution that approximates the properties of this normal distribution? You can work out the math yourself (e.g., by looking at the formula for the mean and the variance of the beta distribution) - or you can ask ChatGPT. After all, we only use this function as a tool to get some plausible values.</p>
+</section>
+<section id="tool-3-the-beta-distribution-2" class="level2">
+<h2 class="anchored" data-anchor-id="tool-3-the-beta-distribution-2">Tool 3: The beta distribution</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Prompt (Choose Wolfram Alpha as ChatGPT plugin):</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Wolfram Alpha answer:</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<blockquote class="blockquote">
+<p>“We have a normal distribution with mean=0.2 and SD=0.1. But the results should be bounded on a scale from 0 to 1. Create a beta-distribution that mimics the properties of the described normal distribution.”</p>
+</blockquote>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<div class="smaller">
+<blockquote class="blockquote">
+<p>“To mimic the properties of a specified normal distribution (with a mean and standard deviation) using a beta distribution within a bounded interval (in this case, 0 to 1), we need to find the parameters of the beta distribution (alpha <span class="math inline">\(\alpha\)</span> and beta <span class="math inline">\(\beta\)</span>) that match the mean and variance of the normal distribution as closely as possible.</p>
+<p>[snip]</p>
+<p>The parameters for the beta distribution that mimic the properties of the described normal distribution (with mean = 0.2 and standard deviation = 0.1, bounded between 0 and 1) are <span class="math inline">\(\alpha = 3\)</span> and <span class="math inline">\(\beta = 12\)</span>.</p>
+<p>This beta distribution should closely match the shape and spread of the specified normal distribution within the bounds of 0 to 1.”</p>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="tool-3-the-beta-distribution-3" class="level2">
+<h2 class="anchored" data-anchor-id="tool-3-the-beta-distribution-3">Tool 3: The beta distribution</h2>
+<p>You can generate random values in <code>R</code> with the <code>rbeta</code> function. Here’s a comparison of a normal distribution and a matched beta distribution that respects the boundaries <span class="math inline">\([0; 1]\)</span>:</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>x.random <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">10000</span>, <span class="at">mean=</span><span class="fl">0.2</span>, <span class="at">sd=</span><span class="fl">0.1</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.random, <span class="at">xlab =</span> <span class="st">"x"</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"Normal distribution (M=0.2, SD=0.1)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>x.beta <span class="ot">&lt;-</span> <span class="fu">rbeta</span>(<span class="dv">10000</span>, <span class="at">shape1=</span><span class="dv">3</span>, <span class="at">shape2=</span><span class="dv">12</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.beta, <span class="at">xlab =</span> <span class="st">"x"</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"beta distribution (a=3, b=12)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="tool-3-the-beta-distribution-4" class="level2">
+<h2 class="anchored" data-anchor-id="tool-3-the-beta-distribution-4">Tool 3: The beta distribution</h2>
+<section id="approximating-a-normal-distribution-with-a-beta-distibution" class="level3">
+<h3 class="anchored" data-anchor-id="approximating-a-normal-distribution-with-a-beta-distibution">Approximating a normal distribution with a beta distibution</h3>
+<div>
+
+</div>
+<div class="cell quarto-layout-panel" data-layout-align="center" data-layout-nrow="2" data-layout-ncol="1">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-10-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-10-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="step-2-define-functional-relationships-between-variables-4" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-define-functional-relationships-between-variables-4">Step 2: Define functional relationships between variables</h2>
+<p>Of course, the logistic function and the beta distribution are just a start - you can use the full toolbox of mathematical functions to implement your model!</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>These considerations about functional forms, however, are typically not substantiated by psychological theory or background knowledge - at least at the start of a modeling project. We choose them, because we are (a) acquainted to it, and/or (b) they are mathematically convenient and tractable.</p>
+<p>Empirical evidence can inform both your choice of the functional form, and, in a model-fitting step, the values of the parameters.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="step-3-implement-the-functions-in-r" class="level1">
+<h1>Step 3: Implement the functions in R</h1>
+<section id="step-3-implement-the-functions-in-r-1" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-implement-the-functions-in-r-1">Step 3: Implement the functions in R</h2>
+<section id="atomic-functions" class="level3">
+<h3 class="anchored" data-anchor-id="atomic-functions">Atomic functions</h3>
+<p>Each <code>R</code> function implements exactly <em>one</em> functional relationship.</p>
+<p>Document all input parameters and say what the function computes. Do it inline in the code, so that the documentation is right there where you need it. In <code>R</code>, this can be done with the established <a href="https://roxygen2.r-lib.org"><code>roxygen2</code></a> documentation standard:</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Compute the updated expected anxiety</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param momentary_anxiety The momentary anxiety, on a scale from 0 to 1</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) </span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">#'              and the previous expected anxiety (alpha=0) when the updated </span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co">#'              expected anxiety is computed.</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>get_expected_anxiety <span class="ot">&lt;-</span> <span class="cf">function</span>(momentary_anxiety, previous_expected_anxiety, <span class="at">alpha=</span><span class="fl">0.5</span>) {</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  momentary_anxiety<span class="sc">*</span>alpha <span class="sc">+</span> previous_expected_anxiety<span class="sc">*</span>(<span class="dv">1</span><span class="sc">-</span>alpha)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>expected_anxiety <span class="ot">&lt;-</span> <span class="fu">get_expected_anxiety</span>(<span class="at">momentary_anxiety =</span> <span class="fl">0.3</span>, <span class="at">previous_expected_anxiety =</span> <span class="fl">0.6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="step-3-implement-the-functions-in-r-2" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-implement-the-functions-in-r-2">Step 3: Implement the functions in R</h2>
+<p>Next, connect all functions to one “super-function”, which takes all free inputs as parameters and computes the focal output variable(s).</p>
+<p>Test the super-function:</p>
+<ul>
+<li>Enter some reasonable combinations of parameters</li>
+<li>Draw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis.</li>
+</ul>
+</section>
+<section id="step-4-simulate-a-full-data-set" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-simulate-a-full-data-set">Step 4: Simulate a full data set</h2>
+<p>Which input variables do your simulated participants bring to the experiment? Real participants bring <strong>variability</strong> in these variables.</p>
+<p>Assume a specific distribution of all input variables that participants bring to the experiment. Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications.</p>
+<p>Maybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via <em>z</em>-standardization).</p>
+</section>
+<section id="step-4-simulate-a-full-data-set-1" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-simulate-a-full-data-set-1">Step 4: Simulate a full data set</h2>
+<p>Once all of these values are defined, simulate a sample of participants (with their starting values), and put half of them into the experimental group, and half of them into the control group. Use the resulting output values to computer a regular t-test.</p>
+<p>Now the questions are:</p>
+<ul>
+<li>Does the simulated model produce the phenomenon? How large is the effect size?</li>
+<li>What happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?</li>
+</ul>
+<!-- Footer insert below -->
+</section>
+</section>
+<section id="end" class="level1">
+<h1>End</h1>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<script src="https://kit.fontawesome.com/9fb269b0d2.js" crossorigin="anonymous"></script>
+<ul class="fa-ul" style="color:black; list-style:none;">
+<li>
+<i class="fa-brands fa-li fa-mastodon"></i> <a href="https://scicomm.xyz/@nicebread" target="_blank" style="color:black; border-bottom:none;"><span class="citation" data-cites="nicebread">@nicebread</span><span class="citation" data-cites="scicomm.xyz">@scicomm.xyz</span></a>
+</li>
+<li>
+<i class="fa-li fa fa-envelope-o"></i> <a style="unicode-bidi:bidi-override; direction: rtl; color:black" href="javascript:window.location.href = 'mailto:' + ['felix.schoenbrodt','psy.lmu.de'].join('@')">ed.uml.ysp@tdorbneohcs.xilef</a>
+</li>
+<li>
+<i class="fa-li fa-solid fa-globe"></i> <a href="https://www.nicebread.de" target="_blank" style="color:black; border-bottom:none;">https://www.nicebread.de</a>
+</li>
+<li>
+<i class="fa-li fa fa-github" aria-hidden="true"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">https://github.com/nicebread</a>
+</li>
+</ul>
+<p><small style="text-align:left;"></small></p><small style="text-align:left;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" class="img-fluid figure-img" alt="CC-BY-SA 4.0"></a></p>
+<figcaption>CC-BY-SA 4.0</figcaption>
+</figure>
+</div>
+</small><p><small style="text-align:left;"></small></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+
+<script>
+  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+  // slide changes (different for each slide format).
+  (function () {
+    // dispatch for htmlwidgets
+    function fireSlideEnter() {
+      const event = window.document.createEvent("Event");
+      event.initEvent("slideenter", true, true);
+      window.document.dispatchEvent(event);
+    }
+
+    function fireSlideChanged(previousSlide, currentSlide) {
+      fireSlideEnter();
+
+      // dispatch for shiny
+      if (window.jQuery) {
+        if (previousSlide) {
+          window.jQuery(previousSlide).trigger("hidden");
+        }
+        if (currentSlide) {
+          window.jQuery(currentSlide).trigger("shown");
+        }
+      }
+    }
+
+    // hookup for slidy
+    if (window.w3c_slidy) {
+      window.w3c_slidy.add_observer(function (slide_num) {
+        // slide_num starts at position 1
+        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+      });
+    }
+
+  })();
+</script>
+
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/nicebread\.github\.io\/FOMO-Psy\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

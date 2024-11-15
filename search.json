@@ -504,221 +504,578 @@
     "text": "These are all slides used for the “lecture” part of the course:\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\ntoday\nTheory Construction Methodology\n&lt;a href=\"TCM/TCM.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;\n&lt;a href=\"TCM/TCM.slide.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;\n\n\n2023-20\n(Theory) Versioning\n&lt;a href=\"Versioning/(Theory) Versioning.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;\n&lt;a href=\"Versioning/(Theory) Versioning.slide.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;\n\n\n2023-11-17\nHow to formalize a verbal theory with VAST\n&lt;a href=\"VAST/VAST_Application.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;\n&lt;a href=\"VAST/VAST_Application.slide.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;\n\n\n2023-11-17\nHow to formalize a verbal theory with VAST\n&lt;a href=\"VAST/VAST_Intro.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;\n&lt;a href=\"VAST/VAST_Intro.slide.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;\n\n\n2023-10-27\nWhat are (Not) Theories & Models?\n&lt;a href=\"Intro2/Intro2.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;\n&lt;a href=\"Intro2/Intro2.slide.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;\n\n\n2023-10-20\nFormal modeling in psychology\n&lt;a href=\"Empra-Orga/Empra-Orga.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;\n&lt;a href=\"Empra-Orga/Empra-Orga.slide.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;\n\n\n2023-10-20\nFOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis\n&lt;a href=\"Intro1/FOMO-Psy_1_Theory_crisis.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;\n&lt;a href=\"Intro1/FOMO-Psy_1_Theory_crisis.slide.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;\n\n\n2023-10-20\nIT tools for theory versioning\n&lt;a href=\"it-tools/it-tools.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;\n&lt;a href=\"it-tools/it-tools.slide.html\" target=\"_blank\" class=\"external\"&gt;link&lt;/a&gt;"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#tcm-a-methodology-for-constructing-theories",
-    "href": "lectures/TCM/TCM.slide.html#tcm-a-methodology-for-constructing-theories",
-    "title": "Theory Construction Methodology",
-    "section": "TCM: A methodology for constructing theories",
-    "text": "TCM: A methodology for constructing theories\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum). In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: Something that explains phenomena of interest (the explanans). But what is a theory?"
+    "objectID": "lectures/TCM/VAST_Application.slide.html#steps-to-formalize-an-existing-verbal-theory",
+    "href": "lectures/TCM/VAST_Application.slide.html#steps-to-formalize-an-existing-verbal-theory",
+    "title": "Applying VAST to an existing theory",
+    "section": "Steps to formalize an existing verbal theory",
+    "text": "Steps to formalize an existing verbal theory\nAgenda for this presentation\n\nStep 1: Choose your starting point\nStep 2: Limit your scope\nStep 3: Collect definitions of constructs, with reference to the literature.\nStep 4: Distill a (consensus or working) definition for each construct, add relationships\nStep 5: Collect robust empirical phenomena\nStep X: Choose a specific formalization"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#definitions",
-    "href": "lectures/TCM/TCM.slide.html#definitions",
-    "title": "Theory Construction Methodology",
-    "section": "Definitions",
-    "text": "Definitions\nYou know that already …\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character.\n\n\n\n\n\n\n\n\n\nWhat is a formal model?\n\n\nA formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory and the model are sufficiently accurate.\n\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647; van Dongen et al. (2023). https://doi.org/10.31234/osf.io/qd69g"
+    "objectID": "lectures/TCM/VAST_Application.slide.html#step-1-choose-your-starting-point",
+    "href": "lectures/TCM/VAST_Application.slide.html#step-1-choose-your-starting-point",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 1: Choose your starting point",
+    "text": "Step 1: Choose your starting point\nFormalization approaches can differ in their starting point (which often are not clear-cut distinct):\n\n\nStart with an existing verbal theory, formalize it as it is.\n\n\nInterpret the verbal statements, make them more precise, visualize as a VAST display\nIgnore empirical evidence (even if a hypothesized effect has already been empirically rejected, keep it in the model)\nDo not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.\n\n\nStart with robust phenomena (TCM approach), invent an explanatory theory and formal model\n\n\nIgnore existing verbal theories (which might be hard once you know them)\nThis will (potentially) lead to an alternative theory/model to the existing theory"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-1-identifying-relevant-phenomena",
-    "href": "lectures/TCM/TCM.slide.html#tcm-step-1-identifying-relevant-phenomena",
-    "title": "Theory Construction Methodology",
-    "section": "TCM Step 1️⃣: Identifying relevant phenomena",
-    "text": "TCM Step 1️⃣: Identifying relevant phenomena\n\n„The phenomena most useful in theory building are not necessarily the most spectacular ones. Instead, it is vitally important to select phenomena that are well established, or even self-evident, because a solid foundation is essential to successful theory construction.“\n\n\nAssess evidential strength (meta-analyses?)\nAssess risk of bias (red flags for p-hacking?)\nDistinguish…\n\ncore explanatory targets\nsecondary explanatory targets\n\n\n\nBorsboom et al., 2021, p. 760"
+    "objectID": "lectures/TCM/VAST_Application.slide.html#step-1-choose-your-starting-point-1",
+    "href": "lectures/TCM/VAST_Application.slide.html#step-1-choose-your-starting-point-1",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 1: Choose your starting point",
+    "text": "Step 1: Choose your starting point\nA-B Mixture Model (for formalization attempts)\n\nStarting point is an existing narrative theory\nWe soon will detect inconsistencies. For successfully modelling the theory, we have to resolve them, e.g. by:\n\nDeciding on one specific construct definition\nSynthesizing multiple definitions\nOnly use robust phenomena as explanatory targets\nSelect only components of the theory that are theoretically central to explain your explanatory target.\n\nThe result will be a reduced and refined theory, that is inspired by the original theory but not identical to it."
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-2a-formulating-a-prototheory",
-    "href": "lectures/TCM/TCM.slide.html#tcm-step-2a-formulating-a-prototheory",
-    "title": "Theory Construction Methodology",
-    "section": "TCM Step 2️⃣a: Formulating a prototheory",
-    "text": "TCM Step 2️⃣a: Formulating a prototheory\n\n„Of the steps in TCM, the step of generating prototheories is the least methodologically developed. One methodological approach that is available is analogical abduction: If one finds a similar set of phenomena in another field that is better understood, then one can “borrow” explanatory principles from that field to inform one’s own.“\n\n\nA small set of general principles, often causal relationships\n\n\nBorsboom et al., 2021, p. 761"
+    "objectID": "lectures/TCM/VAST_Application.slide.html#step-2-limit-your-scope",
+    "href": "lectures/TCM/VAST_Application.slide.html#step-2-limit-your-scope",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 2: Limit your scope",
+    "text": "Step 2: Limit your scope\nMost theories in psychology are too fuzzy and broad to be formalized in one round. We restrict the scope of the theory to keep modelling feasible:\n\nDefine the scope of original literature that is used as basis for the formalization.\nLimit the number of phenomena that your model is supposed to explain. Focus on phenomena that are empirically robust.\nLimit the number of constructs and their relationships, add complexity later.\n\nStart with the smallest number of constructs necessary to explain your explanatory target.\nMaybe exclude entire sections of a theory.\nWhat is your focal outcome variable (DV)? What are the focal predictors or interventions?"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-2b-formalizing-an-existing-narrative-theory",
-    "href": "lectures/TCM/TCM.slide.html#tcm-step-2b-formalizing-an-existing-narrative-theory",
-    "title": "Theory Construction Methodology",
-    "section": "TCM Step 2️⃣b: Formalizing an existing narrative theory",
-    "text": "TCM Step 2️⃣b: Formalizing an existing narrative theory\n\nUse the Visual Argument Structure Tool (VAST) to visualize an existing narrative theory\nDo not try to improve it (yet) - show the gaps and inconsistencies"
+    "objectID": "lectures/TCM/VAST_Application.slide.html#step-3-collect-definitions-of-constructs",
+    "href": "lectures/TCM/VAST_Application.slide.html#step-3-collect-definitions-of-constructs",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 3: Collect definitions of constructs",
+    "text": "Step 3: Collect definitions of constructs\nConstruct Source Table\n\n\nCollect quotes of definitions of constructs and their relationships from the literature.\nMake them atomic (i.e., split up long quotes into their basic components).\nAssign a unique ID to each statement.\n\nThis table will be called the Construct Source Table, as it collects the original sources for the definitions of the constructs.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nID\nType\nShort name\nQuote\nReference\nrel. type (n, p, i, r, …)\nComment\nIncl. (Y/N)\n\n\n\n\nA\nP\nbystander effect\n“The bystander effect refers to the phenomenon that an individual’s likelihood of helping decreases when passive bystanders are present in a critical situation.”\nFischer et al. (2011), p. 517\nn, p\n\nY\n\n\nB\n\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n\n\n\n\nType is one of: Phenomenon, Concept, Relationship\nIncluded (Y/N): Is this definition included in the VAST display?"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-3-developing-a-formal-model",
-    "href": "lectures/TCM/TCM.slide.html#tcm-step-3-developing-a-formal-model",
-    "title": "Theory Construction Methodology",
-    "section": "TCM Step 3️⃣: Developing a formal model",
-    "text": "TCM Step 3️⃣: Developing a formal model\n\nA formal model captures the principles of the explanatory theory in a set of equations or rules (as implemented in a computer program or simulation).\n\n\nE.g., a mathematical formulation based on your VAST display. Record components of your model were directly derived from the theory, and which components were gaps that you had to fill\n\n\nBorsboom et al., 2021, p. 761"
+    "objectID": "lectures/TCM/VAST_Application.slide.html#step-4-distill-a-working-definition-for-each-construct-add-relationships",
+    "href": "lectures/TCM/VAST_Application.slide.html#step-4-distill-a-working-definition-for-each-construct-add-relationships",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 4: Distill a working definition for each construct, add relationships",
+    "text": "Step 4: Distill a working definition for each construct, add relationships\n\n\nDraw a VAST display with a naming n relationship for each construct.\nUse the ID from the Construct Source Table as subscript for each relationship. This way your claims in the VAST display can be easily backlinked to the original sources in the literature.\n\nThe small “A” subscript indicates that all relationships in this display are derived from the quote with ID “A” in the Construct Source Table."
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-4-checking-the-adequacy-of-the-formal-model",
-    "href": "lectures/TCM/TCM.slide.html#tcm-step-4-checking-the-adequacy-of-the-formal-model",
-    "title": "Theory Construction Methodology",
-    "section": "TCM Step 4️⃣: Checking the adequacy of the formal model",
-    "text": "TCM Step 4️⃣: Checking the adequacy of the formal model\n\n\n“To investigate this question, one must parse the phenomena in the same formal language as the theory. This means that the phenomena themselves have to be formalized.”\n\nBefore you observe any real data, ask (and test): Does the model even work in principle?\n\nSimulate data from the model: Does it produce the core target phenomena?\nSensitivity analysis:\n\nWhat happens if parameters of the model are changed / pushed to the extreme? When does it break?\nHow robust is the explanation across (realistic) changes of parameter settings?\n\nDoes it produce the secondary phenomena, even if they have not been “baked into the model”? (Assuming that multiple phenomena are predicted) → maybe go back to step 3️⃣ or even 2️⃣ to refine theory/model\nExplanatory relevance: Are the explanatory principles actually necessary to explain phenomena? (e.g., it could happen that you remove an element in the model, and the phenomenon still is produced.)\n\n\n\nBorsboom et al., 2021, p. 761"
+    "objectID": "lectures/TCM/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-1",
+    "href": "lectures/TCM/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-1",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 5: Collect robust empirical phenomena",
+    "text": "Step 5: Collect robust empirical phenomena\nRobustness of phenomena has two dimensions:\n\nGeneralizability (cf. UTOS framework): The effect has been shown for different Units, with different operationalizations of Treatments and Outcomes, and in multiple Settings.\nStrong empirical evidence for each/many of the generalizations."
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-5-evaluating-the-overall-worth-of-the-constructed-theory",
-    "href": "lectures/TCM/TCM.slide.html#tcm-step-5-evaluating-the-overall-worth-of-the-constructed-theory",
-    "title": "Theory Construction Methodology",
-    "section": "TCM Step 5️⃣: Evaluating the overall worth of the constructed theory",
-    "text": "TCM Step 5️⃣: Evaluating the overall worth of the constructed theory\n(We’ll do that later)\n\nBorsboom et al., 2021, p. 761"
+    "objectID": "lectures/TCM/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-2",
+    "href": "lectures/TCM/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-2",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 5: Collect robust empirical phenomena",
+    "text": "Step 5: Collect robust empirical phenomena\nPractically, you should do the following steps to assess these two dimensions:\n\nSearch for meta-analyses that report on phenomena with our focal variables → Only if no meta-analysis is available, or it is not helpful: Do a broader literature search for primary studies.\nAssess the robustness of the phenomena along the two dimensions:\n\nHow generalizable is it? Go through all four UTOS dimensions and evaluate which types of generalization have been shown across studies.\nHow strong is the evidence? (e.g., based on number k of studies in a meta-analysis, strength of evidence, risk of bias)\n\nWrite a paragraph that makes an overall assessment of the robustness of each phenomenon and gives a clear and explicit answer: “The phenomenon can (not) be considered robust because, …”. Refer to the two dimensions of robustness and give references that back up your claim."
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#tcm-example",
-    "href": "lectures/TCM/TCM.slide.html#tcm-example",
-    "title": "Theory Construction Methodology",
-    "section": "TCM example",
-    "text": "TCM example"
+    "objectID": "lectures/TCM/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-3",
+    "href": "lectures/TCM/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-3",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 5: Collect robust empirical phenomena",
+    "text": "Step 5: Collect robust empirical phenomena\nHow to jointly assess “strength of evidence” and “generalizability”\n\nWhen you assess the generalizability, you should distinguish three prototypical epistemic states:\n\n“I know that it is generalizable.” → strong evidence for \\(H_1\\)\n“I know that it is not generalizable.” → strong evidence for \\(H_0\\)\n“I do not know whether it is generalizable or not - with the given empirical evidence I cannot answer this question.” → inconclusive evidence\n\nWhen is the strength of evidence strong? If …\n\nyou have many studies,\nwhich are methodologically sound (i.e., valid),\nand show (at least in sum) a decisive statistical result into either direction (i.e., either for a difference, or for a null effect)\n\n\n\nAs a sidenote: Ideally, evidence is quantified with a statistical technique that also allows to measure evidence for the null hypothesis and that gives a continuous quantification of the strength of evidence. A Bayes factor provides both desiderata."
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#creative-hypothesis-generating-in-psychology-some-useful-heuristics",
-    "href": "lectures/TCM/TCM.slide.html#creative-hypothesis-generating-in-psychology-some-useful-heuristics",
-    "title": "Theory Construction Methodology",
-    "section": "Creative hypothesis generating in psychology: Some useful heuristics",
-    "text": "Creative hypothesis generating in psychology: Some useful heuristics\nTODO\n\nSee McGuire, W. J. (1997). Creative hypothesis generating in psychology: Some useful heuristics. Annual Review of Psychology, 48, 1–30. https://doi.org/10.1146/annurev.psych.48.1.1"
+    "objectID": "lectures/TCM/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-4",
+    "href": "lectures/TCM/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-4",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 5: Collect robust empirical phenomena",
+    "text": "Step 5: Collect robust empirical phenomena\n\n\n\n\n\nFigure 1: Possible results of a generalizability assessment.\n\n\n\n\n\n\n\n\nNote\n\n\nGeneral principle: We can only make statements about stuff that we actually studied.\n\n\n\n\nWe describe six prototypical examples:\n\n(A): strong evidence that the phenomenon is not generalizable.\n(B): strong evidence that the phenomenon is generalizable - at least within the space of sampled variations.\n(C): weak evidence that the phenomenon is not generalizable.\n(D): weak evidence that the phenomenon is generalizable. As we don’t know about the untested variations, the evidence principally cannot be very strong.\n(E): principally unknowable whether the result generalizes to other variations. We can only conclude that we cannot conclude anything about generalizability.\n(F): evidence is inconclusive. There are descriptive differences between variations, but they are small, and it is not clear if these differences are statistically significant and substantial."
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#makeism",
-    "href": "lectures/TCM/TCM.slide.html#makeism",
-    "title": "Theory Construction Methodology",
-    "section": "“Makeism”",
-    "text": "“Makeism”\n\n\n\n\n\n\nWhat is makeism?\n\n\nMakeism: The view that computationalism implies that (a) it is possible to (re)make cognition computationally; (b) if we (re)make cognition then we can explain and/or understand it; and possibly (c) explaining and/or understanding cognition requires (re)making cognition itself.\nNote that it is especially easy for makeists to fall into map-territory confusion - mistaking their modeling artefacts for cognition itself - due to the view that the made thing could be cognition.\n\n\n\n➙ “Design and development as a research methodology” (Bisig & Pfeifer, 2008)\n\nAbridged quote from van Rooij et al. (2023, August 1). Reclaiming AI as a theoretical tool for cognitive science. https://doi.org/10.31234/osf.io/4cbuv"
+    "objectID": "lectures/TCM/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-5",
+    "href": "lectures/TCM/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-5",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 5: Collect robust empirical phenomena",
+    "text": "Step 5: Collect robust empirical phenomena\nApplying the heuristic to ManyLabs2\nAll four UTOS dimensions can get an independent assessment. Consider the ManyLabs2 study:\nThe identical experiment (except translation of materials) has been administered online in very diverse samples (at least diverse with respect to nationality and cultural background).\n\nHence, there was high variation in the U(nits) and the S(ettings) dimensions, but very low variation in the T(reatment) and O(utcome) dimension.\nNon-zero effects could be found with remarkably low variability across samples: “Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied” (quoted from the Abstract)."
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#is-the-demiurgic-approach-makeism",
-    "href": "lectures/TCM/TCM.slide.html#is-the-demiurgic-approach-makeism",
-    "title": "Theory Construction Methodology",
-    "section": "Is the demiurgic approach “makeism”?",
-    "text": "Is the demiurgic approach “makeism”?\n\n\n\n\n\n\n\nMakeism\nDemiurg\n\n\n\n\n(a) it is possible to (re)make natural phenomena computationally\nYes - the systemic structure can be recreated as a (simplified) model.\n\n\n(b) (Re)makeing a natural phenomenon is sufficient for being able to explain it\nIt is an explanation (cf. productive explanation). But its quality is only as good as its assumptions*.\n\n\n\n\n“I assume an omnipotent agent, which knows everything about the world, its current state, and its history. With unlimited computing power, it determines the optimal action.”"
+    "objectID": "lectures/TCM/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-6",
+    "href": "lectures/TCM/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-6",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 5: Collect robust empirical phenomena",
+    "text": "Step 5: Collect robust empirical phenomena\nApplying the heuristic to ManyLabs2\n\nFigure 2: A generalizability assessment of the UTOS dimensions in ManyLabs 2.\nHence, we have strong evidence for high generalizability for the U and the S dimension, but we cannot make a conclusion concerning the T and the O dimensions, as they lacked the necessary variation in the study."
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#about-simulations-as-tools",
-    "href": "lectures/TCM/TCM.slide.html#about-simulations-as-tools",
-    "title": "Theory Construction Methodology",
-    "section": "About simulations as tools",
-    "text": "About simulations as tools\n\nComputer simulations support and extend a scientist’s thinking capacity, and enable computerised ‘thought experiments’ (R. Cooper, 2005) to reason through ‘what ifs’ and answer questions like ‘how possibly’. These simulations […] are necessarily abstract and idealised\n\n\nvan Rooij et al. (2023, August 1). Reclaiming AI as a theoretical tool for cognitive science. https://doi.org/10.31234/osf.io/4cbuv, p. 13"
+    "objectID": "lectures/TCM/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-7",
+    "href": "lectures/TCM/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-7",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 5: Collect robust empirical phenomena",
+    "text": "Step 5: Collect robust empirical phenomena\nExample: Jet lag (adapted from Keno Mersmann)\n\n“No meta-analyses could be identified, that directly investigated the robustness of jet lag. Instead, three standalone studies shall be reviewed, investigating generalizability across the four UTOS dimensions.\nAs research units, an Olympic team support staff (n = 9; Rossiter et al., 2022), a professional male football team (n=23, Fowler et al., 2017) and master triathletes (n = 12, Stevens et al., 2018) were investigated. These samples were extremely small and relatively homogeneous, consisting mainly of men and an over-proportion of professional athletes. We have no evidence about the generalizabilkity across the units dimension.\nThe transmeridian flights are considered as treatments in this context. The sample from Rossiter et al. (2022) underwent a 24-h eastward travel over 8 time zones (Ireland- Japan), the sample from Fowler et al. (2017) experienced a 19-h eastward flight over 11 time zones (Australia-Brazil) and the sample from Stevens et al. (2018) an northeastward journey with a mean travel time of 22.6-h of which 11.5-h were spent flying (Australia-US). While these show some variation in treatment strength, they are homogeneous in the sense that no short flights were reported, and all were eastward journeys. The there is only weak evidence for generalizability across the treatment dimension.\n[Paragraph on outcomes omitted …]\nAs to the settings investigated, […] all participants were in some way part of a high stakes competition and within training camps during the study period, which is a very narrow and non-typical situation.\nIn conclusion, based on the review of three studies, we have only inconclusive evidence whether jet lag can be considered a robust phenomenon. However, it seems reasonable to assume that jet lag is vastly more robust, and that this contradiction might mainly arise from the small number of studies reviewed here.”"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#underdeterminism-of-theories",
-    "href": "lectures/TCM/TCM.slide.html#underdeterminism-of-theories",
-    "title": "Theory Construction Methodology",
-    "section": "Underdeterminism of theories",
-    "text": "Underdeterminism of theories\n\n“[…] first, one and the same problem can be computed by different algorithms, and second, one and the same algorithm can be physically realised in different ways.\nThis implies that we are dealing with massive underdetermination of theory by data: i.e., if we observe behaviours consistent with a computational level theory, we cannot infer which algorithms or neural processes underlie the behaviour.\n\n\nVan Rooij et al. (2023). Reclaiming AI as a theoretical tool for cognitive science [Preprint]. PsyArXiv. https://doi.org/10.31234/osf.io/4cbuv"
+    "objectID": "lectures/TCM/VAST_Application.slide.html#step-x-choose-a-specific-formalization",
+    "href": "lectures/TCM/VAST_Application.slide.html#step-x-choose-a-specific-formalization",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step X: Choose a specific formalization",
+    "text": "Step X: Choose a specific formalization\n“Diffusion of responsibility” (Darley & Latané, 1968): The presence of others reduces the likelihood of helping behavior in emergencies.\nBut how is it reduced exactly? (see Forsyth et al., 2002):\n\nLinear relationship?\nA reduction in personal responsibility as groups increase in size but an eventual leveling off in larger groups?\nWhere does responsibility go when it diffuses in the group? Does it diffuse equally, with each member getting an equal portion, or is it concentrated on certain individuals?\n\n\n\nE.g., Forsyth et al. (2002)"
   },
   {
-    "objectID": "lectures/TCM/TCM.slide.html#comparison-chart-of-methodologies",
-    "href": "lectures/TCM/TCM.slide.html#comparison-chart-of-methodologies",
-    "title": "Theory Construction Methodology",
-    "section": "Comparison chart of methodologies",
-    "text": "Comparison chart of methodologies\n\n\n\n\n\n\n\n\n\n\nTCM\nDemiurg\n\n\n\n\nStarting point\nset of relevant phenomena in need for explanation\nan (evolutionary) problem that needs to be solved (v1) + prior knowledge about precursing organisms (v2)\n\n\nPrimary heuristic for searching explanations\nLook for analogous models/phenomena in other scientific disciplines\nLook at existing capabilities of simpler organisms (biology); search for the simplest implementation (given existing biological structures)\n\n\n\n\n\n\n\nEnd state\nA theory that offers a putative explanation of the phenomena\n\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "objectID": "lectures/TCM/VAST_Application.slide.html#contact",
+    "href": "lectures/TCM/VAST_Application.slide.html#contact",
+    "title": "Applying VAST to an existing theory",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
-    "objectID": "lectures/TCM/TCM.html",
-    "href": "lectures/TCM/TCM.html",
-    "title": "Theory Construction Methodology",
+    "objectID": "lectures/TCM/VAST_Application.html",
+    "href": "lectures/TCM/VAST_Application.html",
+    "title": "Applying VAST to an existing theory",
     "section": "",
-    "text": "See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\n\n\n\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum). In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: Something that explains phenomena of interest (the explanans). But what is a theory?\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character.\n\n\n\n\n\n\n\n\nWhat is a formal model?\n\n\n\nA formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory and the model are sufficiently accurate.\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647; van Dongen et al. (2023). https://doi.org/10.31234/osf.io/qd69g"
+    "text": "Step 1: Choose your starting point\nStep 2: Limit your scope\nStep 3: Collect definitions of constructs, with reference to the literature.\nStep 4: Distill a (consensus or working) definition for each construct, add relationships\nStep 5: Collect robust empirical phenomena\nStep X: Choose a specific formalization"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#tcm-a-methodology-for-constructing-theories",
-    "href": "lectures/TCM/TCM.html#tcm-a-methodology-for-constructing-theories",
-    "title": "Theory Construction Methodology",
+    "objectID": "lectures/TCM/VAST_Application.html#steps-to-formalize-an-existing-verbal-theory",
+    "href": "lectures/TCM/VAST_Application.html#steps-to-formalize-an-existing-verbal-theory",
+    "title": "Applying VAST to an existing theory",
     "section": "",
-    "text": "%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum). In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: Something that explains phenomena of interest (the explanans). But what is a theory?"
+    "text": "Step 1: Choose your starting point\nStep 2: Limit your scope\nStep 3: Collect definitions of constructs, with reference to the literature.\nStep 4: Distill a (consensus or working) definition for each construct, add relationships\nStep 5: Collect robust empirical phenomena\nStep X: Choose a specific formalization"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#definitions",
-    "href": "lectures/TCM/TCM.html#definitions",
-    "title": "Theory Construction Methodology",
+    "objectID": "lectures/TCM/VAST_Application.html#step-1-choose-your-starting-point",
+    "href": "lectures/TCM/VAST_Application.html#step-1-choose-your-starting-point",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 1: Choose your starting point",
+    "text": "Step 1: Choose your starting point\nFormalization approaches can differ in their starting point (which often are not clear-cut distinct):\n\n\nStart with an existing verbal theory, formalize it as it is.\n\n\nInterpret the verbal statements, make them more precise, visualize as a VAST display\nIgnore empirical evidence (even if a hypothesized effect has already been empirically rejected, keep it in the model)\nDo not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.\n\n\nStart with robust phenomena (TCM approach), invent an explanatory theory and formal model\n\n\nIgnore existing verbal theories (which might be hard once you know them)\nThis will (potentially) lead to an alternative theory/model to the existing theory"
+  },
+  {
+    "objectID": "lectures/TCM/VAST_Application.html#step-1-choose-your-starting-point-1",
+    "href": "lectures/TCM/VAST_Application.html#step-1-choose-your-starting-point-1",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 1: Choose your starting point",
+    "text": "Step 1: Choose your starting point\n\nA-B Mixture Model (for formalization attempts)\n\nStarting point is an existing narrative theory\nWe soon will detect inconsistencies. For successfully modelling the theory, we have to resolve them, e.g. by:\n\nDeciding on one specific construct definition\nSynthesizing multiple definitions\nOnly use robust phenomena as explanatory targets\nSelect only components of the theory that are theoretically central to explain your explanatory target.\n\nThe result will be a reduced and refined theory, that is inspired by the original theory but not identical to it."
+  },
+  {
+    "objectID": "lectures/TCM/VAST_Application.html#step-2-limit-your-scope",
+    "href": "lectures/TCM/VAST_Application.html#step-2-limit-your-scope",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 2: Limit your scope",
+    "text": "Step 2: Limit your scope\nMost theories in psychology are too fuzzy and broad to be formalized in one round. We restrict the scope of the theory to keep modelling feasible:\n\nDefine the scope of original literature that is used as basis for the formalization.\nLimit the number of phenomena that your model is supposed to explain. Focus on phenomena that are empirically robust.\nLimit the number of constructs and their relationships, add complexity later.\n\nStart with the smallest number of constructs necessary to explain your explanatory target.\nMaybe exclude entire sections of a theory.\nWhat is your focal outcome variable (DV)? What are the focal predictors or interventions?"
+  },
+  {
+    "objectID": "lectures/TCM/VAST_Application.html#step-3-collect-definitions-of-constructs",
+    "href": "lectures/TCM/VAST_Application.html#step-3-collect-definitions-of-constructs",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 3: Collect definitions of constructs",
+    "text": "Step 3: Collect definitions of constructs\n\nConstruct Source Table\n\n\nCollect quotes of definitions of constructs and their relationships from the literature.\nMake them atomic (i.e., split up long quotes into their basic components).\nAssign a unique ID to each statement.\n\nThis table will be called the Construct Source Table, as it collects the original sources for the definitions of the constructs.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nID\nType\nShort name\nQuote\nReference\nrel. type (n, p, i, r, …)\nComment\nIncl. (Y/N)\n\n\n\n\nA\nP\nbystander effect\n“The bystander effect refers to the phenomenon that an individual’s likelihood of helping decreases when passive bystanders are present in a critical situation.”\nFischer et al. (2011), p. 517\nn, p\n\nY\n\n\nB\n\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n\n\n\n\nType is one of: Phenomenon, Concept, Relationship\nIncluded (Y/N): Is this definition included in the VAST display?"
+  },
+  {
+    "objectID": "lectures/TCM/VAST_Application.html#step-4-distill-a-working-definition-for-each-construct-add-relationships",
+    "href": "lectures/TCM/VAST_Application.html#step-4-distill-a-working-definition-for-each-construct-add-relationships",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 4: Distill a working definition for each construct, add relationships",
+    "text": "Step 4: Distill a working definition for each construct, add relationships\n\n\nDraw a VAST display with a naming n relationship for each construct.\nUse the ID from the Construct Source Table as subscript for each relationship. This way your claims in the VAST display can be easily backlinked to the original sources in the literature.\n\nThe small “A” subscript indicates that all relationships in this display are derived from the quote with ID “A” in the Construct Source Table."
+  },
+  {
+    "objectID": "lectures/TCM/VAST_Application.html#step-5-collect-robust-empirical-phenomena-1",
+    "href": "lectures/TCM/VAST_Application.html#step-5-collect-robust-empirical-phenomena-1",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 5: Collect robust empirical phenomena",
+    "text": "Step 5: Collect robust empirical phenomena\nRobustness of phenomena has two dimensions:\n\nGeneralizability (cf. UTOS framework): The effect has been shown for different Units, with different operationalizations of Treatments and Outcomes, and in multiple Settings.\nStrong empirical evidence for each/many of the generalizations."
+  },
+  {
+    "objectID": "lectures/TCM/VAST_Application.html#step-5-collect-robust-empirical-phenomena-2",
+    "href": "lectures/TCM/VAST_Application.html#step-5-collect-robust-empirical-phenomena-2",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 5: Collect robust empirical phenomena",
+    "text": "Step 5: Collect robust empirical phenomena\nPractically, you should do the following steps to assess these two dimensions:\n\nSearch for meta-analyses that report on phenomena with our focal variables → Only if no meta-analysis is available, or it is not helpful: Do a broader literature search for primary studies.\nAssess the robustness of the phenomena along the two dimensions:\n\nHow generalizable is it? Go through all four UTOS dimensions and evaluate which types of generalization have been shown across studies.\nHow strong is the evidence? (e.g., based on number k of studies in a meta-analysis, strength of evidence, risk of bias)\n\nWrite a paragraph that makes an overall assessment of the robustness of each phenomenon and gives a clear and explicit answer: “The phenomenon can (not) be considered robust because, …”. Refer to the two dimensions of robustness and give references that back up your claim."
+  },
+  {
+    "objectID": "lectures/TCM/VAST_Application.html#step-5-collect-robust-empirical-phenomena-3",
+    "href": "lectures/TCM/VAST_Application.html#step-5-collect-robust-empirical-phenomena-3",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 5: Collect robust empirical phenomena",
+    "text": "Step 5: Collect robust empirical phenomena\n\nHow to jointly assess “strength of evidence” and “generalizability”\n\nWhen you assess the generalizability, you should distinguish three prototypical epistemic states:\n\n“I know that it is generalizable.” → strong evidence for \\(H_1\\)\n“I know that it is not generalizable.” → strong evidence for \\(H_0\\)\n“I do not know whether it is generalizable or not - with the given empirical evidence I cannot answer this question.” → inconclusive evidence\n\nWhen is the strength of evidence strong? If …\n\nyou have many studies,\nwhich are methodologically sound (i.e., valid),\nand show (at least in sum) a decisive statistical result into either direction (i.e., either for a difference, or for a null effect)\n\n\n\nAs a sidenote: Ideally, evidence is quantified with a statistical technique that also allows to measure evidence for the null hypothesis and that gives a continuous quantification of the strength of evidence. A Bayes factor provides both desiderata."
+  },
+  {
+    "objectID": "lectures/TCM/VAST_Application.html#step-5-collect-robust-empirical-phenomena-4",
+    "href": "lectures/TCM/VAST_Application.html#step-5-collect-robust-empirical-phenomena-4",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 5: Collect robust empirical phenomena",
+    "text": "Step 5: Collect robust empirical phenomena\n\n\n\n\n\nFigure 1: Possible results of a generalizability assessment.\n\n\n\n\n\n\n\n\nNote\n\n\n\nGeneral principle: We can only make statements about stuff that we actually studied.\n\n\n\nWe describe six prototypical examples:\n\n(A): strong evidence that the phenomenon is not generalizable.\n(B): strong evidence that the phenomenon is generalizable - at least within the space of sampled variations.\n(C): weak evidence that the phenomenon is not generalizable.\n(D): weak evidence that the phenomenon is generalizable. As we don’t know about the untested variations, the evidence principally cannot be very strong.\n(E): principally unknowable whether the result generalizes to other variations. We can only conclude that we cannot conclude anything about generalizability.\n(F): evidence is inconclusive. There are descriptive differences between variations, but they are small, and it is not clear if these differences are statistically significant and substantial."
+  },
+  {
+    "objectID": "lectures/TCM/VAST_Application.html#step-5-collect-robust-empirical-phenomena-5",
+    "href": "lectures/TCM/VAST_Application.html#step-5-collect-robust-empirical-phenomena-5",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 5: Collect robust empirical phenomena",
+    "text": "Step 5: Collect robust empirical phenomena\n\nApplying the heuristic to ManyLabs2\nAll four UTOS dimensions can get an independent assessment. Consider the ManyLabs2 study:\nThe identical experiment (except translation of materials) has been administered online in very diverse samples (at least diverse with respect to nationality and cultural background).\n\nHence, there was high variation in the U(nits) and the S(ettings) dimensions, but very low variation in the T(reatment) and O(utcome) dimension.\nNon-zero effects could be found with remarkably low variability across samples: “Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied” (quoted from the Abstract)."
+  },
+  {
+    "objectID": "lectures/TCM/VAST_Application.html#step-5-collect-robust-empirical-phenomena-6",
+    "href": "lectures/TCM/VAST_Application.html#step-5-collect-robust-empirical-phenomena-6",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 5: Collect robust empirical phenomena",
+    "text": "Step 5: Collect robust empirical phenomena\n\nApplying the heuristic to ManyLabs2\n\n\n\nFigure 2: A generalizability assessment of the UTOS dimensions in ManyLabs 2.\n\n\n\nHence, we have strong evidence for high generalizability for the U and the S dimension, but we cannot make a conclusion concerning the T and the O dimensions, as they lacked the necessary variation in the study."
+  },
+  {
+    "objectID": "lectures/TCM/VAST_Application.html#step-5-collect-robust-empirical-phenomena-7",
+    "href": "lectures/TCM/VAST_Application.html#step-5-collect-robust-empirical-phenomena-7",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step 5: Collect robust empirical phenomena",
+    "text": "Step 5: Collect robust empirical phenomena\n\nExample: Jet lag (adapted from Keno Mersmann)\n\n“No meta-analyses could be identified, that directly investigated the robustness of jet lag. Instead, three standalone studies shall be reviewed, investigating generalizability across the four UTOS dimensions.\nAs research units, an Olympic team support staff (n = 9; Rossiter et al., 2022), a professional male football team (n=23, Fowler et al., 2017) and master triathletes (n = 12, Stevens et al., 2018) were investigated. These samples were extremely small and relatively homogeneous, consisting mainly of men and an over-proportion of professional athletes. We have no evidence about the generalizabilkity across the units dimension.\nThe transmeridian flights are considered as treatments in this context. The sample from Rossiter et al. (2022) underwent a 24-h eastward travel over 8 time zones (Ireland- Japan), the sample from Fowler et al. (2017) experienced a 19-h eastward flight over 11 time zones (Australia-Brazil) and the sample from Stevens et al. (2018) an northeastward journey with a mean travel time of 22.6-h of which 11.5-h were spent flying (Australia-US). While these show some variation in treatment strength, they are homogeneous in the sense that no short flights were reported, and all were eastward journeys. The there is only weak evidence for generalizability across the treatment dimension.\n[Paragraph on outcomes omitted …]\nAs to the settings investigated, […] all participants were in some way part of a high stakes competition and within training camps during the study period, which is a very narrow and non-typical situation.\nIn conclusion, based on the review of three studies, we have only inconclusive evidence whether jet lag can be considered a robust phenomenon. However, it seems reasonable to assume that jet lag is vastly more robust, and that this contradiction might mainly arise from the small number of studies reviewed here.”"
+  },
+  {
+    "objectID": "lectures/TCM/VAST_Application.html#step-x-choose-a-specific-formalization",
+    "href": "lectures/TCM/VAST_Application.html#step-x-choose-a-specific-formalization",
+    "title": "Applying VAST to an existing theory",
+    "section": "Step X: Choose a specific formalization",
+    "text": "Step X: Choose a specific formalization\n“Diffusion of responsibility” (Darley & Latané, 1968): The presence of others reduces the likelihood of helping behavior in emergencies.\nBut how is it reduced exactly? (see Forsyth et al., 2002):\n\nLinear relationship?\nA reduction in personal responsibility as groups increase in size but an eventual leveling off in larger groups?\nWhere does responsibility go when it diffuses in the group? Does it diffuse equally, with each member getting an equal portion, or is it concentrated on certain individuals?\n\n\n\nE.g., Forsyth et al. (2002)"
+  },
+  {
+    "objectID": "lectures/TCM/VAST_Application.html#contact",
+    "href": "lectures/TCM/VAST_Application.html#contact",
+    "title": "Applying VAST to an existing theory",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#section",
+    "href": "lectures/MathModel/MathModel.slide.html#section",
+    "title": "Mathematical Modeling 1",
     "section": "",
-    "text": "What is an (explanatory) theory?\n\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character.\n\n\n\n\n\n\n\n\nWhat is a formal model?\n\n\n\nA formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory and the model are sufficiently accurate.\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647; van Dongen et al. (2023). https://doi.org/10.31234/osf.io/qd69g"
+    "text": "Answer: -136.7"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#tcm-step-1-identifying-relevant-phenomena",
-    "href": "lectures/TCM/TCM.html#tcm-step-1-identifying-relevant-phenomena",
-    "title": "Theory Construction Methodology",
-    "section": "TCM Step 1️⃣: Identifying relevant phenomena",
-    "text": "TCM Step 1️⃣: Identifying relevant phenomena\n\n„The phenomena most useful in theory building are not necessarily the most spectacular ones. Instead, it is vitally important to select phenomena that are well established, or even self-evident, because a solid foundation is essential to successful theory construction.“\n\n\nAssess evidential strength (meta-analyses?)\nAssess risk of bias (red flags for p-hacking?)\nDistinguish…\n\ncore explanatory targets\nsecondary explanatory targets\n\n\n\nBorsboom et al., 2021, p. 760"
+    "objectID": "lectures/MathModel/MathModel.slide.html#define-variables",
+    "href": "lectures/MathModel/MathModel.slide.html#define-variables",
+    "title": "Mathematical Modeling 1",
+    "section": "Define variables",
+    "text": "Define variables\nHow deep is your love?\nDefine a variable for each construct of the VAST display. These can be measured variables or unmeasured (mediating) variables.\nYou can either refer to an actual measurement procedure or simply define a variable. In both cases you should explicitly define the following properties:\n\nvariable name (i.e., to which concept in your VAST display does it refer?),\nscale level (categorical, ordinal, interval scale),\nrange of possible values (e.g., 0 … 1),\nsemantic anchors (e.g., 0 = “complete absence”, 1 = “maximal possible value”)"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#tcm-step-2a-formulating-a-prototheory",
-    "href": "lectures/TCM/TCM.html#tcm-step-2a-formulating-a-prototheory",
-    "title": "Theory Construction Methodology",
-    "section": "TCM Step 2️⃣a: Formulating a prototheory",
-    "text": "TCM Step 2️⃣a: Formulating a prototheory\n\n„Of the steps in TCM, the step of generating prototheories is the least methodologically developed. One methodological approach that is available is analogical abduction: If one finds a similar set of phenomena in another field that is better understood, then one can “borrow” explanatory principles from that field to inform one’s own.“\n\n\nA small set of general principles, often causal relationships\n\n\nBorsboom et al., 2021, p. 761"
+    "objectID": "lectures/MathModel/MathModel.slide.html#define-variables-1",
+    "href": "lectures/MathModel/MathModel.slide.html#define-variables-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Define variables",
+    "text": "Define variables\nSome guiding questions and heuristics\n\nScale level of measurement (Stevens’s typology): Nominal → Ordinal → Interval → Ratio\nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#tcm-step-2b-formalizing-an-existing-narrative-theory",
-    "href": "lectures/TCM/TCM.html#tcm-step-2b-formalizing-an-existing-narrative-theory",
-    "title": "Theory Construction Methodology",
-    "section": "TCM Step 2️⃣b: Formalizing an existing narrative theory",
-    "text": "TCM Step 2️⃣b: Formalizing an existing narrative theory\n\nUse the Visual Argument Structure Tool (VAST) to visualize an existing narrative theory\nDo not try to improve it (yet) - show the gaps and inconsistencies"
+    "objectID": "lectures/MathModel/MathModel.slide.html#group-work-15-min.",
+    "href": "lectures/MathModel/MathModel.slide.html#group-work-15-min.",
+    "title": "Mathematical Modeling 1",
+    "section": " Group work (15 min.)",
+    "text": "Group work (15 min.)\nSpecify variables\nIn the Google doc, below your Construct Source Table, create a new table with the following columns:\nExample:\n\n\n\n\n\n\n\n\n\n\nConstruct in VAST display\nScale level\nRange/values\nAnchors\n\n\n\n\nAffective tone of instruction\nContinuous\n[-1; 1]\n-1 = maximally negative0 = neutral+1 = maximally positive\n\n\nmomentary anxiety\nContinuous\n[0; 1]\n0 = no anxiety1 = maximal anxiety\n\n\nKohlberg’s Stages of Moral Development\nOrdinal\n{1; 2; 3}\n1=Pre-conventional2=Conventional3=Post-Conventional\n\n\n…\n…\n…\n…\n\n\n\n\nNote: This resembles a codebook; but for theoretical variables, not for measured variables."
   },
   {
-    "objectID": "lectures/TCM/TCM.html#tcm-step-3-developing-a-formal-model",
-    "href": "lectures/TCM/TCM.html#tcm-step-3-developing-a-formal-model",
-    "title": "Theory Construction Methodology",
-    "section": "TCM Step 3️⃣: Developing a formal model",
-    "text": "TCM Step 3️⃣: Developing a formal model\n\nA formal model captures the principles of the explanatory theory in a set of equations or rules (as implemented in a computer program or simulation).\n\n\nE.g., a mathematical formulation based on your VAST display. Record components of your model were directly derived from the theory, and which components were gaps that you had to fill\n\n\nBorsboom et al., 2021, p. 761"
+    "objectID": "lectures/MathModel/MathModel.slide.html#group-work-10-min.",
+    "href": "lectures/MathModel/MathModel.slide.html#group-work-10-min.",
+    "title": "Mathematical Modeling 1",
+    "section": " Group work (10 min.)",
+    "text": "Group work (10 min.)\nSketch a first functional relationship on paper\nWe want to model the following phenomenon (a specific version of the bystander effect):\n\nWithout other people present, the tendency (probability or frequency) that a person helps a victim is high.\nThe tendency of helping a victim decreases monotonically with the number of other people (bystanders) present.\nThe tendency of helping a victim never drops to 0.\n\nTask: Sketch a first functional relationship that could model this phenomenon. Use the variables you defined in the previous step (including their labels and ranges)."
   },
   {
-    "objectID": "lectures/TCM/TCM.html#tcm-step-4-checking-the-adequacy-of-the-formal-model",
-    "href": "lectures/TCM/TCM.html#tcm-step-4-checking-the-adequacy-of-the-formal-model",
-    "title": "Theory Construction Methodology",
-    "section": "TCM Step 4️⃣: Checking the adequacy of the formal model",
-    "text": "TCM Step 4️⃣: Checking the adequacy of the formal model\n\n\n“To investigate this question, one must parse the phenomena in the same formal language as the theory. This means that the phenomena themselves have to be formalized.”\n\nBefore you observe any real data, ask (and test): Does the model even work in principle?\n\nSimulate data from the model: Does it produce the core target phenomena?\nSensitivity analysis:\n\nWhat happens if parameters of the model are changed / pushed to the extreme? When does it break?\nHow robust is the explanation across (realistic) changes of parameter settings?\n\nDoes it produce the secondary phenomena, even if they have not been “baked into the model”? (Assuming that multiple phenomena are predicted) → maybe go back to step 3️⃣ or even 2️⃣ to refine theory/model\nExplanatory relevance: Are the explanatory principles actually necessary to explain phenomena? (e.g., it could happen that you remove an element in the model, and the phenomenon still is produced.)\n\n\n\nBorsboom et al., 2021, p. 761"
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-2-define-functional-relationships-between-variables-1",
+    "href": "lectures/MathModel/MathModel.slide.html#step-2-define-functional-relationships-between-variables-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 2: Define functional relationships between variables",
+    "text": "Step 2: Define functional relationships between variables\nEvery causal path needs to be implemented as a mathematical function, where the dependent variable/output \\(y\\) is a function of the input variable(s) \\(x_i\\).\n\\(y = f(x_1, x_2, ..., x_i)\\)\nThis can, for example, be a linear function, \\(y = \\beta_0 + \\beta_1x_1\\)."
   },
   {
-    "objectID": "lectures/TCM/TCM.html#tcm-step-5-evaluating-the-overall-worth-of-the-constructed-theory",
-    "href": "lectures/TCM/TCM.html#tcm-step-5-evaluating-the-overall-worth-of-the-constructed-theory",
-    "title": "Theory Construction Methodology",
-    "section": "TCM Step 5️⃣: Evaluating the overall worth of the constructed theory",
-    "text": "TCM Step 5️⃣: Evaluating the overall worth of the constructed theory\n(We’ll do that later)\n\nBorsboom et al., 2021, p. 761"
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-2-define-functional-relationships-between-variables-2",
+    "href": "lectures/MathModel/MathModel.slide.html#step-2-define-functional-relationships-between-variables-2",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 2: Define functional relationships between variables",
+    "text": "Step 2: Define functional relationships between variables\nFixed and free parameters\n\n\\(\\color{red} y = \\color{forestgreen} \\beta_0 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\) → \\(\\color{red} y\\) = output variable, \\(\\color{forestgreen} \\beta\\)s = parameters, \\(\\color{blue} x\\) = input variable.\nTwo types of parameters:\n\nFixed parameters: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters: Can be adjusted to optimize the fit of the model to data. They are estimated from empirical data.\n\n\n\n\n\n\n\n\nNote\n\n\nVirtually all parameters (except natural constants) could be imagined as being free. It is a choice to fix some of them in order to simplify the model."
   },
   {
-    "objectID": "lectures/TCM/TCM.html#tcm-example",
-    "href": "lectures/TCM/TCM.html#tcm-example",
-    "title": "Theory Construction Methodology",
-    "section": "TCM example",
-    "text": "TCM example"
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-2-define-functional-relationships-between-variables-3",
+    "href": "lectures/MathModel/MathModel.slide.html#step-2-define-functional-relationships-between-variables-3",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 2: Define functional relationships between variables",
+    "text": "Step 2: Define functional relationships between variables\nFixed and free parameters\nFixing a parameter:\n\\(\\color{forestgreen} \\beta_0 \\color{black} = 1\\)\n\\(\\color{red} y = \\color{forestgreen} 1 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\)\nThat means, the slope \\(\\color{forestgreen} \\beta_1\\) still can vary, but the intercept is fixed to 1.\n\nFree parameters give flexibility to your function: If you are unsure about the exact relationship between two variables, you can estimate the best-fitting parameters from the data.\nFor example, sometimes a theory specifies the general functional form of a relationship (e.g., “With increasing \\(x\\), \\(y\\) is monotonously decreasing”), but does not tell how fast this decrease happens, where \\(y\\) starts when \\(x\\) is minimal, etc. These latter decisions are then made by the free parameters."
   },
   {
-    "objectID": "lectures/TCM/TCM.html#creative-hypothesis-generating-in-psychology-some-useful-heuristics",
-    "href": "lectures/TCM/TCM.html#creative-hypothesis-generating-in-psychology-some-useful-heuristics",
-    "title": "Theory Construction Methodology",
-    "section": "Creative hypothesis generating in psychology: Some useful heuristics",
-    "text": "Creative hypothesis generating in psychology: Some useful heuristics\nTODO\n\nSee McGuire, W. J. (1997). Creative hypothesis generating in psychology: Some useful heuristics. Annual Review of Psychology, 48, 1–30. https://doi.org/10.1146/annurev.psych.48.1.1"
+    "objectID": "lectures/MathModel/MathModel.slide.html#discussion",
+    "href": "lectures/MathModel/MathModel.slide.html#discussion",
+    "title": "Mathematical Modeling 1",
+    "section": " Discussion",
+    "text": "Discussion\nSketch a first functional relationship on paper\n\nWhich aspects of your sketch could be free parameters? Describe them in plain language.\nDraw a couple of alternative plots that would also fullfill the criteria of the phenomenon.\nWhat would be the differences in the functional form? What is the semantic meaning of the free parameters?"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#makeism",
-    "href": "lectures/TCM/TCM.html#makeism",
-    "title": "Theory Construction Methodology",
-    "section": "“Makeism”",
-    "text": "“Makeism”\n\n\n\n\n\n\nWhat is makeism?\n\n\n\nMakeism: The view that computationalism implies that (a) it is possible to (re)make cognition computationally; (b) if we (re)make cognition then we can explain and/or understand it; and possibly (c) explaining and/or understanding cognition requires (re)making cognition itself.\nNote that it is especially easy for makeists to fall into map-territory confusion - mistaking their modeling artefacts for cognition itself - due to the view that the made thing could be cognition.\n\n\n➙ “Design and development as a research methodology” (Bisig & Pfeifer, 2008)\n\nAbridged quote from van Rooij et al. (2023, August 1). Reclaiming AI as a theoretical tool for cognitive science. https://doi.org/10.31234/osf.io/4cbuv"
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-1-the-logistic-function-family",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-1-the-logistic-function-family",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 1: The logistic function family",
+    "text": "Tool 1: The logistic function family\nAs a linear function is unbounded, it can easily happen that the computed \\(y\\) exceeds the possible range of values.\nIf \\(y\\) has defined boundaries (e.g., \\([0; 1]\\)), a logistic function can bound the values between a lower and an upper limit (in the basic logistic function, between 0 and 1):\n\\(y = \\frac{1}{1 + e^{-x}}\\)"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#is-the-demiurgic-approach-makeism",
-    "href": "lectures/TCM/TCM.html#is-the-demiurgic-approach-makeism",
-    "title": "Theory Construction Methodology",
-    "section": "Is the demiurgic approach “makeism”?",
-    "text": "Is the demiurgic approach “makeism”?\n\n\n\n\n\n\n\nMakeism\nDemiurg\n\n\n\n\n(a) it is possible to (re)make natural phenomena computationally\nYes - the systemic structure can be recreated as a (simplified) model.\n\n\n(b) (Re)makeing a natural phenomenon is sufficient for being able to explain it\nIt is an explanation (cf. productive explanation). But its quality is only as good as its assumptions*.\n\n\n\n\n“I assume an omnipotent agent, which knows everything about the world, its current state, and its history. With unlimited computing power, it determines the optimal action.”"
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-1-the-logistic-function-family-1",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-1-the-logistic-function-family-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 1: The logistic function family",
+    "text": "Tool 1: The logistic function family\n\nWith the 4PL* model from IRT, you can adjust the functional form to your needs, by:\n\nshifting the inflection point from left to right (aka. “item difficulty”, parameter \\(d\\))\nchange the steepness of the S-shape (aka. “discrimination parameter”, parameter \\(a\\))\nMove the lower asymptote up or down (parameter \\(min\\))\nMove the upper limit up or down (parameter \\(max\\))\n\n\n\nlogistic &lt;- function(x, d = 0, a = 1, min = 0, max = 1) {\n min + (max - min)/(1 + exp(a * (d - x)))\n}\n\n\n*4PL = 4-parameter logistic model"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#about-simulations-as-tools",
-    "href": "lectures/TCM/TCM.html#about-simulations-as-tools",
-    "title": "Theory Construction Methodology",
-    "section": "About simulations as tools",
-    "text": "About simulations as tools\n\nComputer simulations support and extend a scientist’s thinking capacity, and enable computerised ‘thought experiments’ (R. Cooper, 2005) to reason through ‘what ifs’ and answer questions like ‘how possibly’. These simulations […] are necessarily abstract and idealised\n\n\nvan Rooij et al. (2023, August 1). Reclaiming AI as a theoretical tool for cognitive science. https://doi.org/10.31234/osf.io/4cbuv, p. 13"
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-1-the-logistic-function-family-2",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-1-the-logistic-function-family-2",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 1: The logistic function family",
+    "text": "Tool 1: The logistic function family\n(basic logistic function as dotted grey line)\n\nShift on x-axisSteepnessLower asymptoteUpper asymptote"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#underdeterminism-of-theories",
-    "href": "lectures/TCM/TCM.html#underdeterminism-of-theories",
-    "title": "Theory Construction Methodology",
-    "section": "Underdeterminism of theories",
-    "text": "Underdeterminism of theories\n\n“[…] first, one and the same problem can be computed by different algorithms, and second, one and the same algorithm can be physically realised in different ways.\nThis implies that we are dealing with massive underdetermination of theory by data: i.e., if we observe behaviours consistent with a computational level theory, we cannot infer which algorithms or neural processes underlie the behaviour.\n\n\nVan Rooij et al. (2023). Reclaiming AI as a theoretical tool for cognitive science [Preprint]. PsyArXiv. https://doi.org/10.31234/osf.io/4cbuv"
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-1-the-logistic-function-family-3",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-1-the-logistic-function-family-3",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 1: The logistic function family",
+    "text": "Tool 1: The logistic function family\nThe d, a, min, and max parameters can be used to “squeeze” the S-shaped curve into the range of your variables. For example, if your \\(x\\) variable is defined on the range \\([0; 1]\\), the following function parameters lead to a reasonable shift:"
   },
   {
-    "objectID": "lectures/TCM/TCM.html#comparison-chart-of-methodologies",
-    "href": "lectures/TCM/TCM.html#comparison-chart-of-methodologies",
-    "title": "Theory Construction Methodology",
-    "section": "Comparison chart of methodologies",
-    "text": "Comparison chart of methodologies\n\n\n\n\n\n\n\n\n\n\nTCM\nDemiurg\n\n\n\n\nStarting point\nset of relevant phenomena in need for explanation\nan (evolutionary) problem that needs to be solved (v1) + prior knowledge about precursing organisms (v2)\n\n\nPrimary heuristic for searching explanations\nLook for analogous models/phenomena in other scientific disciplines\nLook at existing capabilities of simpler organisms (biology); search for the simplest implementation (given existing biological structures)\n\n\n\n\n\n\n\nEnd state\nA theory that offers a putative explanation of the phenomena"
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-2-the-distribution-zoo",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-2-the-distribution-zoo",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 2: The Distribution Zoo",
+    "text": "Tool 2: The Distribution Zoo\nIf you start simulating data for your virtual participants, you want to simulate their starting values yb drawing random values from a distribution. For example, the virtual participants might differ in their anxiety, which you previously defined on the range \\([0; 1]\\).\nHow can you generate random values that roughly look like a normal distribution, but are bounded to the defined range?\nFor simulations, it is good to know some basic distributions. Here are three interactive resources for choosing your distribution:\n\nThe Distribution Zoo by Ben Lambert and Fergus Cooper\nThe Probability Distribution Explorer by Justin Bois\nInteractive collection of distributions by Richard Morey"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-3-the-beta-distribution",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-3-the-beta-distribution",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 3: The beta distribution",
+    "text": "Tool 3: The beta distribution\nA handy distribution for the \\([0; 1]\\) range is the beta distribution. With its two parameters \\(\\alpha\\) (also called \\(a\\) or shape1) and \\(\\beta\\) (also called \\(b\\) or shape2), it can take many different forms:"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-3-the-beta-distribution-1",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-3-the-beta-distribution-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 3: The beta distribution",
+    "text": "Tool 3: The beta distribution\nHow to choose \\(\\alpha\\) and \\(\\beta\\)? Asking ChatGPT/Wolfram Alpha for assistance\nAssume that you intuitively started with a normal distribution with \\(M=0.2\\) and \\(SD=0.1\\) (rnorm(mean=0.2, sd=0.1)) to simulate your values. But this function can generate values &lt; 0 and &gt; 1.\nHow can you achieve a beta distribution that approximates the properties of this normal distribution? You can work out the math yourself (e.g., by looking at the formula for the mean and the variance of the beta distribution) - or you can ask ChatGPT. After all, we only use this function as a tool to get some plausible values."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-3-the-beta-distribution-2",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-3-the-beta-distribution-2",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 3: The beta distribution",
+    "text": "Tool 3: The beta distribution\n\nPrompt (Choose Wolfram Alpha as ChatGPT plugin):Wolfram Alpha answer:\n\n\n\n“We have a normal distribution with mean=0.2 and SD=0.1. But the results should be bounded on a scale from 0 to 1. Create a beta-distribution that mimics the properties of the described normal distribution.”\n\n\n\n\n\n“To mimic the properties of a specified normal distribution (with a mean and standard deviation) using a beta distribution within a bounded interval (in this case, 0 to 1), we need to find the parameters of the beta distribution (alpha \\(\\alpha\\) and beta \\(\\beta\\)) that match the mean and variance of the normal distribution as closely as possible.\n[snip]\nThe parameters for the beta distribution that mimic the properties of the described normal distribution (with mean = 0.2 and standard deviation = 0.1, bounded between 0 and 1) are \\(\\alpha = 3\\) and \\(\\beta = 12\\).\nThis beta distribution should closely match the shape and spread of the specified normal distribution within the bounds of 0 to 1.”"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-3-the-beta-distribution-3",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-3-the-beta-distribution-3",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 3: The beta distribution",
+    "text": "Tool 3: The beta distribution\nYou can generate random values in R with the rbeta function. Here’s a comparison of a normal distribution and a matched beta distribution that respects the boundaries \\([0; 1]\\):\n\nx.random &lt;- rnorm(10000, mean=0.2, sd=0.1)\nhist(x.random, xlab = \"x\", ylab=\"\", main=\"Normal distribution (M=0.2, SD=0.1)\", xlim=c(-0.3, 1.1))\n\nx.beta &lt;- rbeta(10000, shape1=3, shape2=12)\nhist(x.beta, xlab = \"x\", ylab=\"\", main=\"beta distribution (a=3, b=12)\", xlim=c(-0.3, 1.1))"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-3-the-beta-distribution-4",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-3-the-beta-distribution-4",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 3: The beta distribution",
+    "text": "Tool 3: The beta distribution\nApproximating a normal distribution with a beta distibution"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-2-define-functional-relationships-between-variables-4",
+    "href": "lectures/MathModel/MathModel.slide.html#step-2-define-functional-relationships-between-variables-4",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 2: Define functional relationships between variables",
+    "text": "Step 2: Define functional relationships between variables\nOf course, the logistic function and the beta distribution are just a start - you can use the full toolbox of mathematical functions to implement your model!\n\n\n\n\n\n\nNote\n\n\nThese considerations about functional forms, however, are typically not substantiated by psychological theory or background knowledge - at least at the start of a modeling project. We choose them, because we are (a) acquainted to it, and/or (b) they are mathematically convenient and tractable.\nEmpirical evidence can inform both your choice of the functional form, and, in a model-fitting step, the values of the parameters."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-1",
+    "href": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 3: Implement the functions in R",
+    "text": "Step 3: Implement the functions in R\nAtomic functions\nEach R function implements exactly one functional relationship.\nDocument all input parameters and say what the function computes. Do it inline in the code, so that the documentation is right there where you need it. In R, this can be done with the established roxygen2 documentation standard:\n\n#' Compute the updated expected anxiety\n#'\n#' @param momentary_anxiety The momentary anxiety, on a scale from 0 to 1\n#' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1\n#' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) \n#'              and the previous expected anxiety (alpha=0) when the updated \n#'              expected anxiety is computed.\n\nget_expected_anxiety &lt;- function(momentary_anxiety, previous_expected_anxiety, alpha=0.5) {\n  momentary_anxiety*alpha + previous_expected_anxiety*(1-alpha)\n}\n\nexpected_anxiety &lt;- get_expected_anxiety(momentary_anxiety = 0.3, previous_expected_anxiety = 0.6)"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-2",
+    "href": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-2",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 3: Implement the functions in R",
+    "text": "Step 3: Implement the functions in R\nNext, connect all functions to one “super-function”, which takes all free inputs as parameters and computes the focal output variable(s).\nTest the super-function:\n\nEnter some reasonable combinations of parameters\nDraw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-4-simulate-a-full-data-set",
+    "href": "lectures/MathModel/MathModel.slide.html#step-4-simulate-a-full-data-set",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 4: Simulate a full data set",
+    "text": "Step 4: Simulate a full data set\nWhich input variables do your simulated participants bring to the experiment? Real participants bring variability in these variables.\nAssume a specific distribution of all input variables that participants bring to the experiment. Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications.\nMaybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via z-standardization)."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-4-simulate-a-full-data-set-1",
+    "href": "lectures/MathModel/MathModel.slide.html#step-4-simulate-a-full-data-set-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 4: Simulate a full data set",
+    "text": "Step 4: Simulate a full data set\nOnce all of these values are defined, simulate a sample of participants (with their starting values), and put half of them into the experimental group, and half of them into the control group. Use the resulting output values to computer a regular t-test.\nNow the questions are:\n\nDoes the simulated model produce the phenomenon? How large is the effect size?\nWhat happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#contact",
+    "href": "lectures/MathModel/MathModel.slide.html#contact",
+    "title": "Mathematical Modeling 1",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html",
+    "href": "lectures/MathModel/MathModel.html",
+    "title": "Mathematical Modeling 1",
+    "section": "",
+    "text": "Answer: -136.7"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#section",
+    "href": "lectures/MathModel/MathModel.html#section",
+    "title": "Mathematical Modeling 1",
+    "section": "",
+    "text": "Answer: -136.7"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#define-variables",
+    "href": "lectures/MathModel/MathModel.html#define-variables",
+    "title": "Mathematical Modeling 1",
+    "section": "Define variables",
+    "text": "Define variables\n\nHow deep is your love?\nDefine a variable for each construct of the VAST display. These can be measured variables or unmeasured (mediating) variables.\nYou can either refer to an actual measurement procedure or simply define a variable. In both cases you should explicitly define the following properties:\n\nvariable name (i.e., to which concept in your VAST display does it refer?),\nscale level (categorical, ordinal, interval scale),\nrange of possible values (e.g., 0 … 1),\nsemantic anchors (e.g., 0 = “complete absence”, 1 = “maximal possible value”)"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#define-variables-1",
+    "href": "lectures/MathModel/MathModel.html#define-variables-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Define variables",
+    "text": "Define variables\n\nSome guiding questions and heuristics\n\nScale level of measurement (Stevens’s typology): Nominal → Ordinal → Interval → Ratio\nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#group-work-15-min.",
+    "href": "lectures/MathModel/MathModel.html#group-work-15-min.",
+    "title": "Mathematical Modeling 1",
+    "section": " Group work (15 min.)",
+    "text": "Group work (15 min.)\n\nSpecify variables\nIn the Google doc, below your Construct Source Table, create a new table with the following columns:\nExample:\n\n\n\n\n\n\n\n\n\n\nConstruct in VAST display\nScale level\nRange/values\nAnchors\n\n\n\n\nAffective tone of instruction\nContinuous\n[-1; 1]\n-1 = maximally negative0 = neutral+1 = maximally positive\n\n\nmomentary anxiety\nContinuous\n[0; 1]\n0 = no anxiety1 = maximal anxiety\n\n\nKohlberg’s Stages of Moral Development\nOrdinal\n{1; 2; 3}\n1=Pre-conventional2=Conventional3=Post-Conventional\n\n\n…\n…\n…\n…\n\n\n\n\nNote: This resembles a codebook; but for theoretical variables, not for measured variables."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#group-work-10-min.",
+    "href": "lectures/MathModel/MathModel.html#group-work-10-min.",
+    "title": "Mathematical Modeling 1",
+    "section": " Group work (10 min.)",
+    "text": "Group work (10 min.)\n\nSketch a first functional relationship on paper\nWe want to model the following phenomenon (a specific version of the bystander effect):\n\nWithout other people present, the tendency (probability or frequency) that a person helps a victim is high.\nThe tendency of helping a victim decreases monotonically with the number of other people (bystanders) present.\nThe tendency of helping a victim never drops to 0.\n\nTask: Sketch a first functional relationship that could model this phenomenon. Use the variables you defined in the previous step (including their labels and ranges)."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-2-define-functional-relationships-between-variables-1",
+    "href": "lectures/MathModel/MathModel.html#step-2-define-functional-relationships-between-variables-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 2: Define functional relationships between variables",
+    "text": "Step 2: Define functional relationships between variables\nEvery causal path needs to be implemented as a mathematical function, where the dependent variable/output \\(y\\) is a function of the input variable(s) \\(x_i\\).\n\\(y = f(x_1, x_2, ..., x_i)\\)\nThis can, for example, be a linear function, \\(y = \\beta_0 + \\beta_1x_1\\)."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-2-define-functional-relationships-between-variables-2",
+    "href": "lectures/MathModel/MathModel.html#step-2-define-functional-relationships-between-variables-2",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 2: Define functional relationships between variables",
+    "text": "Step 2: Define functional relationships between variables\n\nFixed and free parameters\n\n\\(\\color{red} y = \\color{forestgreen} \\beta_0 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\) → \\(\\color{red} y\\) = output variable, \\(\\color{forestgreen} \\beta\\)s = parameters, \\(\\color{blue} x\\) = input variable.\nTwo types of parameters:\n\nFixed parameters: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters: Can be adjusted to optimize the fit of the model to data. They are estimated from empirical data.\n\n\n\n\n\n\n\n\nNote\n\n\n\nVirtually all parameters (except natural constants) could be imagined as being free. It is a choice to fix some of them in order to simplify the model."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-2-define-functional-relationships-between-variables-3",
+    "href": "lectures/MathModel/MathModel.html#step-2-define-functional-relationships-between-variables-3",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 2: Define functional relationships between variables",
+    "text": "Step 2: Define functional relationships between variables\n\nFixed and free parameters\nFixing a parameter:\n\\(\\color{forestgreen} \\beta_0 \\color{black} = 1\\)\n\\(\\color{red} y = \\color{forestgreen} 1 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\)\nThat means, the slope \\(\\color{forestgreen} \\beta_1\\) still can vary, but the intercept is fixed to 1.\n\nFree parameters give flexibility to your function: If you are unsure about the exact relationship between two variables, you can estimate the best-fitting parameters from the data.\nFor example, sometimes a theory specifies the general functional form of a relationship (e.g., “With increasing \\(x\\), \\(y\\) is monotonously decreasing”), but does not tell how fast this decrease happens, where \\(y\\) starts when \\(x\\) is minimal, etc. These latter decisions are then made by the free parameters."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#discussion",
+    "href": "lectures/MathModel/MathModel.html#discussion",
+    "title": "Mathematical Modeling 1",
+    "section": " Discussion",
+    "text": "Discussion\n\nSketch a first functional relationship on paper\n\nWhich aspects of your sketch could be free parameters? Describe them in plain language.\nDraw a couple of alternative plots that would also fullfill the criteria of the phenomenon.\nWhat would be the differences in the functional form? What is the semantic meaning of the free parameters?"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#tool-1-the-logistic-function-family",
+    "href": "lectures/MathModel/MathModel.html#tool-1-the-logistic-function-family",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 1: The logistic function family",
+    "text": "Tool 1: The logistic function family\nAs a linear function is unbounded, it can easily happen that the computed \\(y\\) exceeds the possible range of values.\nIf \\(y\\) has defined boundaries (e.g., \\([0; 1]\\)), a logistic function can bound the values between a lower and an upper limit (in the basic logistic function, between 0 and 1):\n\\(y = \\frac{1}{1 + e^{-x}}\\)"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#tool-1-the-logistic-function-family-1",
+    "href": "lectures/MathModel/MathModel.html#tool-1-the-logistic-function-family-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 1: The logistic function family",
+    "text": "Tool 1: The logistic function family\n\nWith the 4PL* model from IRT, you can adjust the functional form to your needs, by:\n\nshifting the inflection point from left to right (aka. “item difficulty”, parameter \\(d\\))\nchange the steepness of the S-shape (aka. “discrimination parameter”, parameter \\(a\\))\nMove the lower asymptote up or down (parameter \\(min\\))\nMove the upper limit up or down (parameter \\(max\\))\n\n\n\nlogistic &lt;- function(x, d = 0, a = 1, min = 0, max = 1) {\n min + (max - min)/(1 + exp(a * (d - x)))\n}\n\n\n*4PL = 4-parameter logistic model"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#tool-1-the-logistic-function-family-2",
+    "href": "lectures/MathModel/MathModel.html#tool-1-the-logistic-function-family-2",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 1: The logistic function family",
+    "text": "Tool 1: The logistic function family\n(basic logistic function as dotted grey line)\n\nShift on x-axisSteepnessLower asymptoteUpper asymptote"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#tool-1-the-logistic-function-family-3",
+    "href": "lectures/MathModel/MathModel.html#tool-1-the-logistic-function-family-3",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 1: The logistic function family",
+    "text": "Tool 1: The logistic function family\nThe d, a, min, and max parameters can be used to “squeeze” the S-shaped curve into the range of your variables. For example, if your \\(x\\) variable is defined on the range \\([0; 1]\\), the following function parameters lead to a reasonable shift:"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#tool-2-the-distribution-zoo",
+    "href": "lectures/MathModel/MathModel.html#tool-2-the-distribution-zoo",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 2: The Distribution Zoo",
+    "text": "Tool 2: The Distribution Zoo\nIf you start simulating data for your virtual participants, you want to simulate their starting values yb drawing random values from a distribution. For example, the virtual participants might differ in their anxiety, which you previously defined on the range \\([0; 1]\\).\nHow can you generate random values that roughly look like a normal distribution, but are bounded to the defined range?\nFor simulations, it is good to know some basic distributions. Here are three interactive resources for choosing your distribution:\n\nThe Distribution Zoo by Ben Lambert and Fergus Cooper\nThe Probability Distribution Explorer by Justin Bois\nInteractive collection of distributions by Richard Morey"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#tool-3-the-beta-distribution",
+    "href": "lectures/MathModel/MathModel.html#tool-3-the-beta-distribution",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 3: The beta distribution",
+    "text": "Tool 3: The beta distribution\nA handy distribution for the \\([0; 1]\\) range is the beta distribution. With its two parameters \\(\\alpha\\) (also called \\(a\\) or shape1) and \\(\\beta\\) (also called \\(b\\) or shape2), it can take many different forms:"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#tool-3-the-beta-distribution-1",
+    "href": "lectures/MathModel/MathModel.html#tool-3-the-beta-distribution-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 3: The beta distribution",
+    "text": "Tool 3: The beta distribution\nHow to choose \\(\\alpha\\) and \\(\\beta\\)? Asking ChatGPT/Wolfram Alpha for assistance\nAssume that you intuitively started with a normal distribution with \\(M=0.2\\) and \\(SD=0.1\\) (rnorm(mean=0.2, sd=0.1)) to simulate your values. But this function can generate values &lt; 0 and &gt; 1.\nHow can you achieve a beta distribution that approximates the properties of this normal distribution? You can work out the math yourself (e.g., by looking at the formula for the mean and the variance of the beta distribution) - or you can ask ChatGPT. After all, we only use this function as a tool to get some plausible values."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#tool-3-the-beta-distribution-2",
+    "href": "lectures/MathModel/MathModel.html#tool-3-the-beta-distribution-2",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 3: The beta distribution",
+    "text": "Tool 3: The beta distribution\n\nPrompt (Choose Wolfram Alpha as ChatGPT plugin):Wolfram Alpha answer:\n\n\n\n“We have a normal distribution with mean=0.2 and SD=0.1. But the results should be bounded on a scale from 0 to 1. Create a beta-distribution that mimics the properties of the described normal distribution.”\n\n\n\n\n\n“To mimic the properties of a specified normal distribution (with a mean and standard deviation) using a beta distribution within a bounded interval (in this case, 0 to 1), we need to find the parameters of the beta distribution (alpha \\(\\alpha\\) and beta \\(\\beta\\)) that match the mean and variance of the normal distribution as closely as possible.\n[snip]\nThe parameters for the beta distribution that mimic the properties of the described normal distribution (with mean = 0.2 and standard deviation = 0.1, bounded between 0 and 1) are \\(\\alpha = 3\\) and \\(\\beta = 12\\).\nThis beta distribution should closely match the shape and spread of the specified normal distribution within the bounds of 0 to 1.”"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#tool-3-the-beta-distribution-3",
+    "href": "lectures/MathModel/MathModel.html#tool-3-the-beta-distribution-3",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 3: The beta distribution",
+    "text": "Tool 3: The beta distribution\nYou can generate random values in R with the rbeta function. Here’s a comparison of a normal distribution and a matched beta distribution that respects the boundaries \\([0; 1]\\):\n\nx.random &lt;- rnorm(10000, mean=0.2, sd=0.1)\nhist(x.random, xlab = \"x\", ylab=\"\", main=\"Normal distribution (M=0.2, SD=0.1)\", xlim=c(-0.3, 1.1))\n\nx.beta &lt;- rbeta(10000, shape1=3, shape2=12)\nhist(x.beta, xlab = \"x\", ylab=\"\", main=\"beta distribution (a=3, b=12)\", xlim=c(-0.3, 1.1))"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#tool-3-the-beta-distribution-4",
+    "href": "lectures/MathModel/MathModel.html#tool-3-the-beta-distribution-4",
+    "title": "Mathematical Modeling 1",
+    "section": "Tool 3: The beta distribution",
+    "text": "Tool 3: The beta distribution\n\nApproximating a normal distribution with a beta distibution"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-2-define-functional-relationships-between-variables-4",
+    "href": "lectures/MathModel/MathModel.html#step-2-define-functional-relationships-between-variables-4",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 2: Define functional relationships between variables",
+    "text": "Step 2: Define functional relationships between variables\nOf course, the logistic function and the beta distribution are just a start - you can use the full toolbox of mathematical functions to implement your model!\n\n\n\n\n\n\nNote\n\n\n\nThese considerations about functional forms, however, are typically not substantiated by psychological theory or background knowledge - at least at the start of a modeling project. We choose them, because we are (a) acquainted to it, and/or (b) they are mathematically convenient and tractable.\nEmpirical evidence can inform both your choice of the functional form, and, in a model-fitting step, the values of the parameters."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-3-implement-the-functions-in-r-1",
+    "href": "lectures/MathModel/MathModel.html#step-3-implement-the-functions-in-r-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 3: Implement the functions in R",
+    "text": "Step 3: Implement the functions in R\n\nAtomic functions\nEach R function implements exactly one functional relationship.\nDocument all input parameters and say what the function computes. Do it inline in the code, so that the documentation is right there where you need it. In R, this can be done with the established roxygen2 documentation standard:\n\n#' Compute the updated expected anxiety\n#'\n#' @param momentary_anxiety The momentary anxiety, on a scale from 0 to 1\n#' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1\n#' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) \n#'              and the previous expected anxiety (alpha=0) when the updated \n#'              expected anxiety is computed.\n\nget_expected_anxiety &lt;- function(momentary_anxiety, previous_expected_anxiety, alpha=0.5) {\n  momentary_anxiety*alpha + previous_expected_anxiety*(1-alpha)\n}\n\nexpected_anxiety &lt;- get_expected_anxiety(momentary_anxiety = 0.3, previous_expected_anxiety = 0.6)"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-3-implement-the-functions-in-r-2",
+    "href": "lectures/MathModel/MathModel.html#step-3-implement-the-functions-in-r-2",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 3: Implement the functions in R",
+    "text": "Step 3: Implement the functions in R\nNext, connect all functions to one “super-function”, which takes all free inputs as parameters and computes the focal output variable(s).\nTest the super-function:\n\nEnter some reasonable combinations of parameters\nDraw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-4-simulate-a-full-data-set",
+    "href": "lectures/MathModel/MathModel.html#step-4-simulate-a-full-data-set",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 4: Simulate a full data set",
+    "text": "Step 4: Simulate a full data set\nWhich input variables do your simulated participants bring to the experiment? Real participants bring variability in these variables.\nAssume a specific distribution of all input variables that participants bring to the experiment. Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications.\nMaybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via z-standardization)."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-4-simulate-a-full-data-set-1",
+    "href": "lectures/MathModel/MathModel.html#step-4-simulate-a-full-data-set-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 4: Simulate a full data set",
+    "text": "Step 4: Simulate a full data set\nOnce all of these values are defined, simulate a sample of participants (with their starting values), and put half of them into the experimental group, and half of them into the control group. Use the resulting output values to computer a regular t-test.\nNow the questions are:\n\nDoes the simulated model produce the phenomenon? How large is the effect size?\nWhat happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#contact",
+    "href": "lectures/MathModel/MathModel.html#contact",
+    "title": "Mathematical Modeling 1",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory",
@@ -837,7 +1194,7 @@
     "href": "lectures/Intro2/Intro2.slide.html#what-is-a-computational-model",
     "title": "What are (Not) Theories & Models?",
     "section": "What is a computational model?",
-    "text": "What is a computational model?\n\nA model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms input variables into output variables (the dependent variables). The formulas that compute the output contain parameters.\nCf. linear regression: \\(\\color{red} y = \\color{forestgreen} \\beta_0 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\) → \\(\\color{red} y\\) = output variable, \\(\\color{forestgreen} \\beta\\)s = parameters, \\(\\color{blue} x\\) = input variable.\nTwo types of parameters:\n\nFixed parameters: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters: Can be adjusted to optimize the fit of the model to data. They are estimated from empirical data.\n\n\n\n\n\n\n\n\nNote\n\n\nVirtually all parameters (except natural constants) could be imagined as being free. It is a choice to fix some of them in order to simplify the model."
+    "text": "What is a computational model?\nA model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms input variables into output variables (the dependent variables). The formulas that compute the output contain parameters."
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#what-are-explanations",
@@ -991,7 +1348,7 @@
     "href": "lectures/Intro2/Intro2.html#what-is-a-computational-model",
     "title": "What are (Not) Theories & Models?",
     "section": "What is a computational model?",
-    "text": "What is a computational model?\n\nA model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms input variables into output variables (the dependent variables). The formulas that compute the output contain parameters.\nCf. linear regression: \\(\\color{red} y = \\color{forestgreen} \\beta_0 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\) → \\(\\color{red} y\\) = output variable, \\(\\color{forestgreen} \\beta\\)s = parameters, \\(\\color{blue} x\\) = input variable.\nTwo types of parameters:\n\nFixed parameters: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters: Can be adjusted to optimize the fit of the model to data. They are estimated from empirical data.\n\n\n\n\n\n\n\n\nNote\n\n\n\nVirtually all parameters (except natural constants) could be imagined as being free. It is a choice to fix some of them in order to simplify the model."
+    "text": "What is a computational model?\nA model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms input variables into output variables (the dependent variables). The formulas that compute the output contain parameters."
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#what-are-explanations",
@@ -1033,7 +1390,7 @@
     "href": "sessions/S3-MathModel1.html",
     "title": "Session 3 - The first mathematical model",
     "section": "",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in group\n30\n\n\n\nPresent and discuss solutions\n60\n\n\n\nFirst formalization\n90\nSlides\n\n\nHomework 1: Read TCM paper\n\n\n\n\n\n\n\n2 Homework (individually)\nRead:\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/TCM and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper."
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in group\n20\n\n\n\nPresent and discuss solutions\n60\n\n\n\nFirst formalization\n120\nSlides\n\n\nHomework 1: Read TCM paper\n\n\n\n\n\n\n\n2 Homework (in groups)\n\nWe extend the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the explanatory target is (a) the “classical” bystander effect and (b) the reduction of the bystander effect in dangerous situations.\nAt the same time we reduce the VAST display by cutting all elements that are not relevant for this specific explanation.\n\nIn other words, we try to build a minimal model, that explains our explanatory target.\nThe additional theoretical explanation can be found in Fischer et al., p. 520-521, see:\n\n“Potential Explanations for Reduced Bystander Inhibition in Dangerous Emergencies”\nWe only focus on “Potential Process 2”: “2. Bystanders as a source of physical support in the face of fear.”\n\n\n\n3 Homework (individually)\nRead:\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/TCM and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper."
   },
   {
     "objectID": "common/lastslide.html",
@@ -1377,6 +1734,223 @@
     "title": "Formal modeling in psychology",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html",
+    "href": "lectures/TCM/TCM.html",
+    "title": "Theory Construction Methodology",
+    "section": "",
+    "text": "See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\n\n\n\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum). In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: Something that explains phenomena of interest (the explanans). But what is a theory?\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character.\n\n\n\n\n\n\n\n\nWhat is a formal model?\n\n\n\nA formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory and the model are sufficiently accurate.\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647; van Dongen et al. (2023). https://doi.org/10.31234/osf.io/qd69g"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html#tcm-a-methodology-for-constructing-theories",
+    "href": "lectures/TCM/TCM.html#tcm-a-methodology-for-constructing-theories",
+    "title": "Theory Construction Methodology",
+    "section": "",
+    "text": "%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum). In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: Something that explains phenomena of interest (the explanans). But what is a theory?"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html#definitions",
+    "href": "lectures/TCM/TCM.html#definitions",
+    "title": "Theory Construction Methodology",
+    "section": "",
+    "text": "What is an (explanatory) theory?\n\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character.\n\n\n\n\n\n\n\n\nWhat is a formal model?\n\n\n\nA formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory and the model are sufficiently accurate.\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647; van Dongen et al. (2023). https://doi.org/10.31234/osf.io/qd69g"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html#tcm-step-1-identifying-relevant-phenomena",
+    "href": "lectures/TCM/TCM.html#tcm-step-1-identifying-relevant-phenomena",
+    "title": "Theory Construction Methodology",
+    "section": "TCM Step 1️⃣: Identifying relevant phenomena",
+    "text": "TCM Step 1️⃣: Identifying relevant phenomena\n\n„The phenomena most useful in theory building are not necessarily the most spectacular ones. Instead, it is vitally important to select phenomena that are well established, or even self-evident, because a solid foundation is essential to successful theory construction.“\n\n\nAssess evidential strength (meta-analyses?)\nAssess risk of bias (red flags for p-hacking?)\nDistinguish…\n\ncore explanatory targets\nsecondary explanatory targets\n\n\n\nBorsboom et al., 2021, p. 760"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html#tcm-step-2a-formulating-a-prototheory",
+    "href": "lectures/TCM/TCM.html#tcm-step-2a-formulating-a-prototheory",
+    "title": "Theory Construction Methodology",
+    "section": "TCM Step 2️⃣a: Formulating a prototheory",
+    "text": "TCM Step 2️⃣a: Formulating a prototheory\n\n„Of the steps in TCM, the step of generating prototheories is the least methodologically developed. One methodological approach that is available is analogical abduction: If one finds a similar set of phenomena in another field that is better understood, then one can “borrow” explanatory principles from that field to inform one’s own.“\n\n\nA small set of general principles, often causal relationships\n\n\nBorsboom et al., 2021, p. 761"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html#tcm-step-2b-formalizing-an-existing-narrative-theory",
+    "href": "lectures/TCM/TCM.html#tcm-step-2b-formalizing-an-existing-narrative-theory",
+    "title": "Theory Construction Methodology",
+    "section": "TCM Step 2️⃣b: Formalizing an existing narrative theory",
+    "text": "TCM Step 2️⃣b: Formalizing an existing narrative theory\n\nUse the Visual Argument Structure Tool (VAST) to visualize an existing narrative theory\nDo not try to improve it (yet) - show the gaps and inconsistencies"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html#tcm-step-3-developing-a-formal-model",
+    "href": "lectures/TCM/TCM.html#tcm-step-3-developing-a-formal-model",
+    "title": "Theory Construction Methodology",
+    "section": "TCM Step 3️⃣: Developing a formal model",
+    "text": "TCM Step 3️⃣: Developing a formal model\n\nA formal model captures the principles of the explanatory theory in a set of equations or rules (as implemented in a computer program or simulation).\n\n\nE.g., a mathematical formulation based on your VAST display. Record components of your model were directly derived from the theory, and which components were gaps that you had to fill\n\n\nBorsboom et al., 2021, p. 761"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html#tcm-step-4-checking-the-adequacy-of-the-formal-model",
+    "href": "lectures/TCM/TCM.html#tcm-step-4-checking-the-adequacy-of-the-formal-model",
+    "title": "Theory Construction Methodology",
+    "section": "TCM Step 4️⃣: Checking the adequacy of the formal model",
+    "text": "TCM Step 4️⃣: Checking the adequacy of the formal model\n\n\n“To investigate this question, one must parse the phenomena in the same formal language as the theory. This means that the phenomena themselves have to be formalized.”\n\nBefore you observe any real data, ask (and test): Does the model even work in principle?\n\nSimulate data from the model: Does it produce the core target phenomena?\nSensitivity analysis:\n\nWhat happens if parameters of the model are changed / pushed to the extreme? When does it break?\nHow robust is the explanation across (realistic) changes of parameter settings?\n\nDoes it produce the secondary phenomena, even if they have not been “baked into the model”? (Assuming that multiple phenomena are predicted) → maybe go back to step 3️⃣ or even 2️⃣ to refine theory/model\nExplanatory relevance: Are the explanatory principles actually necessary to explain phenomena? (e.g., it could happen that you remove an element in the model, and the phenomenon still is produced.)\n\n\n\nBorsboom et al., 2021, p. 761"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html#tcm-step-5-evaluating-the-overall-worth-of-the-constructed-theory",
+    "href": "lectures/TCM/TCM.html#tcm-step-5-evaluating-the-overall-worth-of-the-constructed-theory",
+    "title": "Theory Construction Methodology",
+    "section": "TCM Step 5️⃣: Evaluating the overall worth of the constructed theory",
+    "text": "TCM Step 5️⃣: Evaluating the overall worth of the constructed theory\n(We’ll do that later)\n\nBorsboom et al., 2021, p. 761"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html#tcm-example",
+    "href": "lectures/TCM/TCM.html#tcm-example",
+    "title": "Theory Construction Methodology",
+    "section": "TCM example",
+    "text": "TCM example"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html#creative-hypothesis-generating-in-psychology-some-useful-heuristics",
+    "href": "lectures/TCM/TCM.html#creative-hypothesis-generating-in-psychology-some-useful-heuristics",
+    "title": "Theory Construction Methodology",
+    "section": "Creative hypothesis generating in psychology: Some useful heuristics",
+    "text": "Creative hypothesis generating in psychology: Some useful heuristics\nTODO\n\nSee McGuire, W. J. (1997). Creative hypothesis generating in psychology: Some useful heuristics. Annual Review of Psychology, 48, 1–30. https://doi.org/10.1146/annurev.psych.48.1.1"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html#makeism",
+    "href": "lectures/TCM/TCM.html#makeism",
+    "title": "Theory Construction Methodology",
+    "section": "“Makeism”",
+    "text": "“Makeism”\n\n\n\n\n\n\nWhat is makeism?\n\n\n\nMakeism: The view that computationalism implies that (a) it is possible to (re)make cognition computationally; (b) if we (re)make cognition then we can explain and/or understand it; and possibly (c) explaining and/or understanding cognition requires (re)making cognition itself.\nNote that it is especially easy for makeists to fall into map-territory confusion - mistaking their modeling artefacts for cognition itself - due to the view that the made thing could be cognition.\n\n\n➙ “Design and development as a research methodology” (Bisig & Pfeifer, 2008)\n\nAbridged quote from van Rooij et al. (2023, August 1). Reclaiming AI as a theoretical tool for cognitive science. https://doi.org/10.31234/osf.io/4cbuv"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html#is-the-demiurgic-approach-makeism",
+    "href": "lectures/TCM/TCM.html#is-the-demiurgic-approach-makeism",
+    "title": "Theory Construction Methodology",
+    "section": "Is the demiurgic approach “makeism”?",
+    "text": "Is the demiurgic approach “makeism”?\n\n\n\n\n\n\n\nMakeism\nDemiurg\n\n\n\n\n(a) it is possible to (re)make natural phenomena computationally\nYes - the systemic structure can be recreated as a (simplified) model.\n\n\n(b) (Re)makeing a natural phenomenon is sufficient for being able to explain it\nIt is an explanation (cf. productive explanation). But its quality is only as good as its assumptions*.\n\n\n\n\n“I assume an omnipotent agent, which knows everything about the world, its current state, and its history. With unlimited computing power, it determines the optimal action.”"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html#about-simulations-as-tools",
+    "href": "lectures/TCM/TCM.html#about-simulations-as-tools",
+    "title": "Theory Construction Methodology",
+    "section": "About simulations as tools",
+    "text": "About simulations as tools\n\nComputer simulations support and extend a scientist’s thinking capacity, and enable computerised ‘thought experiments’ (R. Cooper, 2005) to reason through ‘what ifs’ and answer questions like ‘how possibly’. These simulations […] are necessarily abstract and idealised\n\n\nvan Rooij et al. (2023, August 1). Reclaiming AI as a theoretical tool for cognitive science. https://doi.org/10.31234/osf.io/4cbuv, p. 13"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html#underdeterminism-of-theories",
+    "href": "lectures/TCM/TCM.html#underdeterminism-of-theories",
+    "title": "Theory Construction Methodology",
+    "section": "Underdeterminism of theories",
+    "text": "Underdeterminism of theories\n\n“[…] first, one and the same problem can be computed by different algorithms, and second, one and the same algorithm can be physically realised in different ways.\nThis implies that we are dealing with massive underdetermination of theory by data: i.e., if we observe behaviours consistent with a computational level theory, we cannot infer which algorithms or neural processes underlie the behaviour.\n\n\nVan Rooij et al. (2023). Reclaiming AI as a theoretical tool for cognitive science [Preprint]. PsyArXiv. https://doi.org/10.31234/osf.io/4cbuv"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.html#comparison-chart-of-methodologies",
+    "href": "lectures/TCM/TCM.html#comparison-chart-of-methodologies",
+    "title": "Theory Construction Methodology",
+    "section": "Comparison chart of methodologies",
+    "text": "Comparison chart of methodologies\n\n\n\n\n\n\n\n\n\n\nTCM\nDemiurg\n\n\n\n\nStarting point\nset of relevant phenomena in need for explanation\nan (evolutionary) problem that needs to be solved (v1) + prior knowledge about precursing organisms (v2)\n\n\nPrimary heuristic for searching explanations\nLook for analogous models/phenomena in other scientific disciplines\nLook at existing capabilities of simpler organisms (biology); search for the simplest implementation (given existing biological structures)\n\n\n\n\n\n\n\nEnd state\nA theory that offers a putative explanation of the phenomena"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.slide.html#tcm-a-methodology-for-constructing-theories",
+    "href": "lectures/TCM/TCM.slide.html#tcm-a-methodology-for-constructing-theories",
+    "title": "Theory Construction Methodology",
+    "section": "TCM: A methodology for constructing theories",
+    "text": "TCM: A methodology for constructing theories\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum). In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nTheories: Something that explains phenomena of interest (the explanans). But what is a theory?"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.slide.html#definitions",
+    "href": "lectures/TCM/TCM.slide.html#definitions",
+    "title": "Theory Construction Methodology",
+    "section": "Definitions",
+    "text": "Definitions\nYou know that already …\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character.\n\n\n\n\n\n\n\n\n\nWhat is a formal model?\n\n\nA formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory and the model are sufficiently accurate.\n\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647; van Dongen et al. (2023). https://doi.org/10.31234/osf.io/qd69g"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-1-identifying-relevant-phenomena",
+    "href": "lectures/TCM/TCM.slide.html#tcm-step-1-identifying-relevant-phenomena",
+    "title": "Theory Construction Methodology",
+    "section": "TCM Step 1️⃣: Identifying relevant phenomena",
+    "text": "TCM Step 1️⃣: Identifying relevant phenomena\n\n„The phenomena most useful in theory building are not necessarily the most spectacular ones. Instead, it is vitally important to select phenomena that are well established, or even self-evident, because a solid foundation is essential to successful theory construction.“\n\n\nAssess evidential strength (meta-analyses?)\nAssess risk of bias (red flags for p-hacking?)\nDistinguish…\n\ncore explanatory targets\nsecondary explanatory targets\n\n\n\nBorsboom et al., 2021, p. 760"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-2a-formulating-a-prototheory",
+    "href": "lectures/TCM/TCM.slide.html#tcm-step-2a-formulating-a-prototheory",
+    "title": "Theory Construction Methodology",
+    "section": "TCM Step 2️⃣a: Formulating a prototheory",
+    "text": "TCM Step 2️⃣a: Formulating a prototheory\n\n„Of the steps in TCM, the step of generating prototheories is the least methodologically developed. One methodological approach that is available is analogical abduction: If one finds a similar set of phenomena in another field that is better understood, then one can “borrow” explanatory principles from that field to inform one’s own.“\n\n\nA small set of general principles, often causal relationships\n\n\nBorsboom et al., 2021, p. 761"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-2b-formalizing-an-existing-narrative-theory",
+    "href": "lectures/TCM/TCM.slide.html#tcm-step-2b-formalizing-an-existing-narrative-theory",
+    "title": "Theory Construction Methodology",
+    "section": "TCM Step 2️⃣b: Formalizing an existing narrative theory",
+    "text": "TCM Step 2️⃣b: Formalizing an existing narrative theory\n\nUse the Visual Argument Structure Tool (VAST) to visualize an existing narrative theory\nDo not try to improve it (yet) - show the gaps and inconsistencies"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-3-developing-a-formal-model",
+    "href": "lectures/TCM/TCM.slide.html#tcm-step-3-developing-a-formal-model",
+    "title": "Theory Construction Methodology",
+    "section": "TCM Step 3️⃣: Developing a formal model",
+    "text": "TCM Step 3️⃣: Developing a formal model\n\nA formal model captures the principles of the explanatory theory in a set of equations or rules (as implemented in a computer program or simulation).\n\n\nE.g., a mathematical formulation based on your VAST display. Record components of your model were directly derived from the theory, and which components were gaps that you had to fill\n\n\nBorsboom et al., 2021, p. 761"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-4-checking-the-adequacy-of-the-formal-model",
+    "href": "lectures/TCM/TCM.slide.html#tcm-step-4-checking-the-adequacy-of-the-formal-model",
+    "title": "Theory Construction Methodology",
+    "section": "TCM Step 4️⃣: Checking the adequacy of the formal model",
+    "text": "TCM Step 4️⃣: Checking the adequacy of the formal model\n\n\n“To investigate this question, one must parse the phenomena in the same formal language as the theory. This means that the phenomena themselves have to be formalized.”\n\nBefore you observe any real data, ask (and test): Does the model even work in principle?\n\nSimulate data from the model: Does it produce the core target phenomena?\nSensitivity analysis:\n\nWhat happens if parameters of the model are changed / pushed to the extreme? When does it break?\nHow robust is the explanation across (realistic) changes of parameter settings?\n\nDoes it produce the secondary phenomena, even if they have not been “baked into the model”? (Assuming that multiple phenomena are predicted) → maybe go back to step 3️⃣ or even 2️⃣ to refine theory/model\nExplanatory relevance: Are the explanatory principles actually necessary to explain phenomena? (e.g., it could happen that you remove an element in the model, and the phenomenon still is produced.)\n\n\n\nBorsboom et al., 2021, p. 761"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.slide.html#tcm-step-5-evaluating-the-overall-worth-of-the-constructed-theory",
+    "href": "lectures/TCM/TCM.slide.html#tcm-step-5-evaluating-the-overall-worth-of-the-constructed-theory",
+    "title": "Theory Construction Methodology",
+    "section": "TCM Step 5️⃣: Evaluating the overall worth of the constructed theory",
+    "text": "TCM Step 5️⃣: Evaluating the overall worth of the constructed theory\n(We’ll do that later)\n\nBorsboom et al., 2021, p. 761"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.slide.html#tcm-example",
+    "href": "lectures/TCM/TCM.slide.html#tcm-example",
+    "title": "Theory Construction Methodology",
+    "section": "TCM example",
+    "text": "TCM example"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.slide.html#creative-hypothesis-generating-in-psychology-some-useful-heuristics",
+    "href": "lectures/TCM/TCM.slide.html#creative-hypothesis-generating-in-psychology-some-useful-heuristics",
+    "title": "Theory Construction Methodology",
+    "section": "Creative hypothesis generating in psychology: Some useful heuristics",
+    "text": "Creative hypothesis generating in psychology: Some useful heuristics\nTODO\n\nSee McGuire, W. J. (1997). Creative hypothesis generating in psychology: Some useful heuristics. Annual Review of Psychology, 48, 1–30. https://doi.org/10.1146/annurev.psych.48.1.1"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.slide.html#makeism",
+    "href": "lectures/TCM/TCM.slide.html#makeism",
+    "title": "Theory Construction Methodology",
+    "section": "“Makeism”",
+    "text": "“Makeism”\n\n\n\n\n\n\nWhat is makeism?\n\n\nMakeism: The view that computationalism implies that (a) it is possible to (re)make cognition computationally; (b) if we (re)make cognition then we can explain and/or understand it; and possibly (c) explaining and/or understanding cognition requires (re)making cognition itself.\nNote that it is especially easy for makeists to fall into map-territory confusion - mistaking their modeling artefacts for cognition itself - due to the view that the made thing could be cognition.\n\n\n\n➙ “Design and development as a research methodology” (Bisig & Pfeifer, 2008)\n\nAbridged quote from van Rooij et al. (2023, August 1). Reclaiming AI as a theoretical tool for cognitive science. https://doi.org/10.31234/osf.io/4cbuv"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.slide.html#is-the-demiurgic-approach-makeism",
+    "href": "lectures/TCM/TCM.slide.html#is-the-demiurgic-approach-makeism",
+    "title": "Theory Construction Methodology",
+    "section": "Is the demiurgic approach “makeism”?",
+    "text": "Is the demiurgic approach “makeism”?\n\n\n\n\n\n\n\nMakeism\nDemiurg\n\n\n\n\n(a) it is possible to (re)make natural phenomena computationally\nYes - the systemic structure can be recreated as a (simplified) model.\n\n\n(b) (Re)makeing a natural phenomenon is sufficient for being able to explain it\nIt is an explanation (cf. productive explanation). But its quality is only as good as its assumptions*.\n\n\n\n\n“I assume an omnipotent agent, which knows everything about the world, its current state, and its history. With unlimited computing power, it determines the optimal action.”"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.slide.html#about-simulations-as-tools",
+    "href": "lectures/TCM/TCM.slide.html#about-simulations-as-tools",
+    "title": "Theory Construction Methodology",
+    "section": "About simulations as tools",
+    "text": "About simulations as tools\n\nComputer simulations support and extend a scientist’s thinking capacity, and enable computerised ‘thought experiments’ (R. Cooper, 2005) to reason through ‘what ifs’ and answer questions like ‘how possibly’. These simulations […] are necessarily abstract and idealised\n\n\nvan Rooij et al. (2023, August 1). Reclaiming AI as a theoretical tool for cognitive science. https://doi.org/10.31234/osf.io/4cbuv, p. 13"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.slide.html#underdeterminism-of-theories",
+    "href": "lectures/TCM/TCM.slide.html#underdeterminism-of-theories",
+    "title": "Theory Construction Methodology",
+    "section": "Underdeterminism of theories",
+    "text": "Underdeterminism of theories\n\n“[…] first, one and the same problem can be computed by different algorithms, and second, one and the same algorithm can be physically realised in different ways.\nThis implies that we are dealing with massive underdetermination of theory by data: i.e., if we observe behaviours consistent with a computational level theory, we cannot infer which algorithms or neural processes underlie the behaviour.\n\n\nVan Rooij et al. (2023). Reclaiming AI as a theoretical tool for cognitive science [Preprint]. PsyArXiv. https://doi.org/10.31234/osf.io/4cbuv"
+  },
+  {
+    "objectID": "lectures/TCM/TCM.slide.html#comparison-chart-of-methodologies",
+    "href": "lectures/TCM/TCM.slide.html#comparison-chart-of-methodologies",
+    "title": "Theory Construction Methodology",
+    "section": "Comparison chart of methodologies",
+    "text": "Comparison chart of methodologies\n\n\n\n\n\n\n\n\n\n\nTCM\nDemiurg\n\n\n\n\nStarting point\nset of relevant phenomena in need for explanation\nan (evolutionary) problem that needs to be solved (v1) + prior knowledge about precursing organisms (v2)\n\n\nPrimary heuristic for searching explanations\nLook for analogous models/phenomena in other scientific disciplines\nLook at existing capabilities of simpler organisms (biology); search for the simplest implementation (given existing biological structures)\n\n\n\n\n\n\n\nEnd state\nA theory that offers a putative explanation of the phenomena\n\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html",

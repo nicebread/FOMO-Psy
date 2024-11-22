@@ -739,14 +739,14 @@
     "href": "lectures/MathModel/MathModel.slide.html#define-variables-1",
     "title": "Mathematical Modeling 1",
     "section": "Define variables",
-    "text": "Define variables\nSome guiding questions and heuristics\n\nScale level of measurement (Stevens’s typology): Nominal → Ordinal → Interval → Ratio\nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”"
+    "text": "Define variables\nSome guiding questions and heuristics\n\nType of variable: continuous, dichotomous, ordinal, categorical?\nScale level of measurement (Stevens’s typology): Nominal → Ordinal → Interval → Ratio\nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#group-work-15-min.",
-    "href": "lectures/MathModel/MathModel.slide.html#group-work-15-min.",
+    "objectID": "lectures/MathModel/MathModel.slide.html#group-work-15-min.-specify-variables",
+    "href": "lectures/MathModel/MathModel.slide.html#group-work-15-min.-specify-variables",
     "title": "Mathematical Modeling 1",
-    "section": " Group work (15 min.)",
-    "text": "Group work (15 min.)\nSpecify variables\nIn the Google doc, below your Construct Source Table, create a new table with the following columns:\nExample:\n\n\n\n\n\n\n\n\n\n\nConstruct in VAST display\nScale level\nRange/values\nAnchors\n\n\n\n\nAffective tone of instruction\nContinuous\n[-1; 1]\n-1 = maximally negative0 = neutral+1 = maximally positive\n\n\nmomentary anxiety\nContinuous\n[0; 1]\n0 = no anxiety1 = maximal anxiety\n\n\nKohlberg’s Stages of Moral Development\nOrdinal\n{1; 2; 3}\n1=Pre-conventional2=Conventional3=Post-Conventional\n\n\n…\n…\n…\n…\n\n\n\n\nNote: This resembles a codebook; but for theoretical variables, not for measured variables."
+    "section": " Group work (15 min.): Specify variables",
+    "text": "Group work (15 min.): Specify variables\n\nIn the Google doc, below your Construct Source Table, create a new table with the following columns:\nExample:\n\n\n\n\n\n\n\n\n\n\n\nConstruct in VAST display\nShortname\nType\nRange/values\nAnchors\n\n\n\n\nAffective tone of instruction\naff_tone\nContinuous\n[-1; 1]\n-1 = maximally negative0 = neutral+1 = maximally positive\n\n\nAnxiety\nanxiety\nContinuous\n[0; 1]\n0 = no anxiety1 = maximal anxiety\n\n\nKohlberg’s Stages of Moral Development\nmoral_stage\nOrdinal\n{1; 2; 3}\n1=Pre-conventional2=Conventional3=Post-Conventional\n\n\n…\n\n…\n…\n…\n\n\n\n\nNote: This resembles a codebook; but for theoretical variables, not for measured variables."
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#group-work-10-min.",
@@ -774,14 +774,14 @@
     "href": "lectures/MathModel/MathModel.slide.html#step-2-define-functional-relationships-between-variables-3",
     "title": "Mathematical Modeling 1",
     "section": "Step 2: Define functional relationships between variables",
-    "text": "Step 2: Define functional relationships between variables\nFixed and free parameters\nFixing a parameter:\n\\(\\color{forestgreen} \\beta_0 \\color{black} = 1\\)\n\\(\\color{red} y = \\color{forestgreen} 1 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\)\nThat means, the slope \\(\\color{forestgreen} \\beta_1\\) still can vary, but the intercept is fixed to 1.\n\nFree parameters give flexibility to your function: If you are unsure about the exact relationship between two variables, you can estimate the best-fitting parameters from the data.\nFor example, sometimes a theory specifies the general functional form of a relationship (e.g., “With increasing \\(x\\), \\(y\\) is monotonously decreasing”), but does not tell how fast this decrease happens, where \\(y\\) starts when \\(x\\) is minimal, etc. These latter decisions are then made by the free parameters."
+    "text": "Step 2: Define functional relationships between variables\nFixed and free parameters\nFixing a parameter:\n\\(\\color{forestgreen} \\beta_0 \\color{black} = 1 \\rightarrow \\color{red} y = \\color{forestgreen} 1 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\)\nThat means, the slope \\(\\color{forestgreen} \\beta_1\\) still can vary, but the intercept is fixed to 1.\n\nFree parameters give flexibility to your function: If you are unsure about the exact relationship between two variables, you can estimate the best-fitting parameters from the data.\nFor example, sometimes a theory specifies the general functional form of a relationship (e.g., “With increasing \\(x\\), \\(y\\) is monotonously decreasing”), but does not tell how fast this decrease happens, where \\(y\\) starts when \\(x\\) is minimal, etc. These latter decisions are then made by the free parameters."
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#discussion",
     "href": "lectures/MathModel/MathModel.slide.html#discussion",
     "title": "Mathematical Modeling 1",
     "section": " Discussion",
-    "text": "Discussion\nSketch a first functional relationship on paper\n\nWhich aspects of your sketch could be free parameters? Describe them in plain language.\nDraw a couple of alternative plots that would also fullfill the criteria of the phenomenon.\nWhat would be the differences in the functional form? What is the semantic meaning of the free parameters?"
+    "text": "Discussion\nSketch a first functional relationship on paper\n\nWhich aspects of your sketched function could be free parameters? Describe them in plain language.\nDraw a couple of alternative plots that (a) follow the same functional form and (b) also fullfill the criteria of the phenomenon.\nWhat is the semantic meaning of the free parameters?"
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#tool-1-the-logistic-function-family",
@@ -810,6 +810,76 @@
     "title": "Mathematical Modeling 1",
     "section": "Tool 1: The logistic function family",
     "text": "Tool 1: The logistic function family\nThe d, a, min, and max parameters can be used to “squeeze” the S-shaped curve into the range of your variables. For example, if your \\(x\\) variable is defined on the range \\([0; 1]\\), the following function parameters lead to a reasonable shift:"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#use-the-full-mathematical-toolbox",
+    "href": "lectures/MathModel/MathModel.slide.html#use-the-full-mathematical-toolbox",
+    "title": "Mathematical Modeling 1",
+    "section": "Use the full mathematical toolbox",
+    "text": "Use the full mathematical toolbox\nOf course, the logistic function and the beta distribution are just a start - you can use the full toolbox of mathematical functions to implement your model!\n\n\n\n\n\n\nNote\n\n\nThese considerations about functional forms, however, are typically not substantiated by psychological theory or background knowledge - at least at the start of a modeling project. We choose them, because we are (a) acquainted to it, and/or (b) they are mathematically convenient and tractable.\nEmpirical evidence can inform both your choice of the functional form, and, in a model-fitting step, the values of the parameters."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#excursus-functions-in-r",
+    "href": "lectures/MathModel/MathModel.slide.html#excursus-functions-in-r",
+    "title": "Mathematical Modeling 1",
+    "section": "Excursus: Functions in R",
+    "text": "Excursus: Functions in R\n\nWhat is a function?\n\nA reusable block of code designed to perform a specific task.\nCan be an implementation of an actual mathematical function \\(y = f(x, z)\\)\nBut can also be a more complex operation, like reading a file, transforming data, or plotting a graph.\n\nWhy use functions?\n\nModularity: Break down complex problems into manageable parts.\nReusability: Write once, use multiple times.\nMaintainability: Easier to debug and update code."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#anatomy-of-an-r-function",
+    "href": "lectures/MathModel/MathModel.slide.html#anatomy-of-an-r-function",
+    "title": "Mathematical Modeling 1",
+    "section": "Anatomy of an R Function",
+    "text": "Anatomy of an R Function\n\n# Basic structure of a function\nmy_function &lt;- function(arg1, arg2) {\n  # Function body\n  result &lt;- arg1 + arg2\n  return(result)\n}\n\n\n\nFunction name: my_function\nParameters: arg1, arg2\nBody: Code that defines what the function does\nReturn value: return a specific value that has been computed in the function body with return(return_variable). If no explicit return() statement is given, the last evaluated expression is returned by default.\n\n\n\n\n\n# use meaningful names\n\nsum &lt;- function(x, y) {\n  S &lt;- x+y\n  return(S)\n}\n\n\n\n# short version: the last computation \n# is returned by default\n\nsum &lt;- function(x, y) {x+y}"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#creating-and-using-your-own-function",
+    "href": "lectures/MathModel/MathModel.slide.html#creating-and-using-your-own-function",
+    "title": "Mathematical Modeling 1",
+    "section": "Creating and Using Your Own Function",
+    "text": "Creating and Using Your Own Function\n\nDefine the Function:\n\n\nget_y &lt;- function(x) {\n  y &lt;- x^2\n  return(y)\n}\n\n\nCall the Function:\n\n\ny &lt;- get_y(x=2)\nprint(y)  # Output: 4\n\nTips:\n\n\nUse meaningful and short names for functions and parameters.\nKeep functions focused on a single task.\nDocument your functions with comments (ideally with the roxygen2 documentation standard)\nAtomic functions: Each R function implements exactly one functional relationship of your model."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#example-with-roxygen2-documentation",
+    "href": "lectures/MathModel/MathModel.slide.html#example-with-roxygen2-documentation",
+    "title": "Mathematical Modeling 1",
+    "section": "Example with roxygen2 documentation",
+    "text": "Example with roxygen2 documentation\n\n#' Compute the updated expected anxiety\n#'\n#' The expected anxiety at any given moment is a weighted average of \n#' the momentary anxiety and the previous expected anxiety.\n#'\n#' @param momentary_anxiety The momentary anxiety, on a scale from 0 to 1\n#' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1\n#' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) \n#'              and the previous expected anxiety (alpha=0).\n#' @return The updated expected anxiety, as a scalar on a scale from 0 to 1\n\nget_expected_anxiety &lt;- function(momentary_anxiety, previous_expected_anxiety, alpha=0.5) {\n  momentary_anxiety*alpha + previous_expected_anxiety*(1-alpha)\n}\n\n\nroxygen2 comments start with #' and are placed directly above the function definition.\n\nThe first line is the title\nThe following lines (after a blank line) are the description\nEach parameter of the function is documented with @param parameter_name Description. Provide the range of possible values if applicable.\nThe return value is documented with @return Description"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#exercise-document-our-exponential-decay-function",
+    "href": "lectures/MathModel/MathModel.slide.html#exercise-document-our-exponential-decay-function",
+    "title": "Mathematical Modeling 1",
+    "section": " Exercise: Document our exponential decay function",
+    "text": "Exercise: Document our exponential decay function\nCheck out roxygen2 and document our exponential decay function with:\n\ntitle\ndescription\nparameters\nreturn value.\n\n\nget_p_help &lt;- function(NOPB, y_0, y_final, BSE_strength) {\n  p_help &lt;- y_final + (y_0 - y_final) * exp(-BSE_strength * NOPB)\n  return(p_help)\n}"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#apply-everything-to-reduced-model",
+    "href": "lectures/MathModel/MathModel.slide.html#apply-everything-to-reduced-model",
+    "title": "Mathematical Modeling 1",
+    "section": " Apply everything to reduced model",
+    "text": "Apply everything to reduced model\n\n\nDefine all variables of your model in the Variables Table (short name, range, scale level, semantic anchors)\nCategorize: Which variables are exogenous, which are endogenous?\n\nExogenous variables are not influenced by other variables in the model.\nEndogenous variables are influenced by other variables in the model.\n\nEvery endogenous variable is a function of all of their input parameters.\n\nCreate sensible functional relationships for every endogenous variable.\nCreate a 3rd table (below the Construct Source Table and the Variables Table), with all functional relationships.\nAdd a short comment to what extent this functional relationship has been derived from theory:\n\nDictated by theory (add IDs from the Construct Source Table as reference)\nDerived from theory\nLosely inspired by theory\nNot based on theory, but rather on common sense or other theories\n\nAdd a short comment to what extent this functional relationship has been backed up by empirical evidence.\n\nImplement the functions in R with proper roxygen2 documentation."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-1",
+    "href": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 3: Implement the functions in R",
+    "text": "Step 3: Implement the functions in R\nPut everything together\nConnect all functions to one “super-function”, which takes all exogenous variables as input and computes the focal output variable(s).\nTest the super-function:\n\nEnter some reasonable combinations of parameters\nDraw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-4-excursus-fitting-the-functions-to-empirical-data",
+    "href": "lectures/MathModel/MathModel.slide.html#step-4-excursus-fitting-the-functions-to-empirical-data",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 4 (Excursus): Fitting the functions to empirical data",
+    "text": "Step 4 (Excursus): Fitting the functions to empirical data\nWe can tune our free parameters to fit the model as good as possible to empirical data. This is called model fitting.\nWe use the empirical data in"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-1",
+    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 5: Simulate a full data set",
+    "text": "Step 5: Simulate a full data set\nWhich input variables do your simulated participants bring to the experiment? Real participants bring variability in these variables.\nAssume a specific distribution of all input variables that participants bring to the experiment. Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications.\nMaybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via z-standardization)."
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#tool-2-the-distribution-zoo",
@@ -854,39 +924,11 @@
     "text": "Tool 3: The beta distribution\nApproximating a normal distribution with a beta distibution"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-2-define-functional-relationships-between-variables-4",
-    "href": "lectures/MathModel/MathModel.slide.html#step-2-define-functional-relationships-between-variables-4",
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-2",
+    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-2",
     "title": "Mathematical Modeling 1",
-    "section": "Step 2: Define functional relationships between variables",
-    "text": "Step 2: Define functional relationships between variables\nOf course, the logistic function and the beta distribution are just a start - you can use the full toolbox of mathematical functions to implement your model!\n\n\n\n\n\n\nNote\n\n\nThese considerations about functional forms, however, are typically not substantiated by psychological theory or background knowledge - at least at the start of a modeling project. We choose them, because we are (a) acquainted to it, and/or (b) they are mathematically convenient and tractable.\nEmpirical evidence can inform both your choice of the functional form, and, in a model-fitting step, the values of the parameters."
-  },
-  {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-1",
-    "href": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-1",
-    "title": "Mathematical Modeling 1",
-    "section": "Step 3: Implement the functions in R",
-    "text": "Step 3: Implement the functions in R\nAtomic functions\nEach R function implements exactly one functional relationship.\nDocument all input parameters and say what the function computes. Do it inline in the code, so that the documentation is right there where you need it. In R, this can be done with the established roxygen2 documentation standard:\n\n#' Compute the updated expected anxiety\n#'\n#' @param momentary_anxiety The momentary anxiety, on a scale from 0 to 1\n#' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1\n#' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) \n#'              and the previous expected anxiety (alpha=0) when the updated \n#'              expected anxiety is computed.\n\nget_expected_anxiety &lt;- function(momentary_anxiety, previous_expected_anxiety, alpha=0.5) {\n  momentary_anxiety*alpha + previous_expected_anxiety*(1-alpha)\n}\n\nexpected_anxiety &lt;- get_expected_anxiety(momentary_anxiety = 0.3, previous_expected_anxiety = 0.6)"
-  },
-  {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-2",
-    "href": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-2",
-    "title": "Mathematical Modeling 1",
-    "section": "Step 3: Implement the functions in R",
-    "text": "Step 3: Implement the functions in R\nNext, connect all functions to one “super-function”, which takes all free inputs as parameters and computes the focal output variable(s).\nTest the super-function:\n\nEnter some reasonable combinations of parameters\nDraw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis."
-  },
-  {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-4-simulate-a-full-data-set",
-    "href": "lectures/MathModel/MathModel.slide.html#step-4-simulate-a-full-data-set",
-    "title": "Mathematical Modeling 1",
-    "section": "Step 4: Simulate a full data set",
-    "text": "Step 4: Simulate a full data set\nWhich input variables do your simulated participants bring to the experiment? Real participants bring variability in these variables.\nAssume a specific distribution of all input variables that participants bring to the experiment. Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications.\nMaybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via z-standardization)."
-  },
-  {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-4-simulate-a-full-data-set-1",
-    "href": "lectures/MathModel/MathModel.slide.html#step-4-simulate-a-full-data-set-1",
-    "title": "Mathematical Modeling 1",
-    "section": "Step 4: Simulate a full data set",
-    "text": "Step 4: Simulate a full data set\nOnce all of these values are defined, simulate a sample of participants (with their starting values), and put half of them into the experimental group, and half of them into the control group. Use the resulting output values to computer a regular t-test.\nNow the questions are:\n\nDoes the simulated model produce the phenomenon? How large is the effect size?\nWhat happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?"
+    "section": "Step 5: Simulate a full data set",
+    "text": "Step 5: Simulate a full data set\nOnce all of these values are defined, simulate a sample of participants (with their starting values), and put half of them into the experimental group, and half of them into the control group. Use the resulting output values to computer a regular t-test.\nNow the questions are:\n\nDoes the simulated model produce the phenomenon? How large is the effect size?\nWhat happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?"
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#contact",
@@ -921,14 +963,14 @@
     "href": "lectures/MathModel/MathModel.html#define-variables-1",
     "title": "Mathematical Modeling 1",
     "section": "Define variables",
-    "text": "Define variables\n\nSome guiding questions and heuristics\n\nScale level of measurement (Stevens’s typology): Nominal → Ordinal → Interval → Ratio\nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”"
+    "text": "Define variables\n\nSome guiding questions and heuristics\n\nType of variable: continuous, dichotomous, ordinal, categorical?\nScale level of measurement (Stevens’s typology): Nominal → Ordinal → Interval → Ratio\nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#group-work-15-min.",
-    "href": "lectures/MathModel/MathModel.html#group-work-15-min.",
+    "objectID": "lectures/MathModel/MathModel.html#group-work-15-min.-specify-variables",
+    "href": "lectures/MathModel/MathModel.html#group-work-15-min.-specify-variables",
     "title": "Mathematical Modeling 1",
-    "section": " Group work (15 min.)",
-    "text": "Group work (15 min.)\n\nSpecify variables\nIn the Google doc, below your Construct Source Table, create a new table with the following columns:\nExample:\n\n\n\n\n\n\n\n\n\n\nConstruct in VAST display\nScale level\nRange/values\nAnchors\n\n\n\n\nAffective tone of instruction\nContinuous\n[-1; 1]\n-1 = maximally negative0 = neutral+1 = maximally positive\n\n\nmomentary anxiety\nContinuous\n[0; 1]\n0 = no anxiety1 = maximal anxiety\n\n\nKohlberg’s Stages of Moral Development\nOrdinal\n{1; 2; 3}\n1=Pre-conventional2=Conventional3=Post-Conventional\n\n\n…\n…\n…\n…\n\n\n\n\nNote: This resembles a codebook; but for theoretical variables, not for measured variables."
+    "section": " Group work (15 min.): Specify variables",
+    "text": "Group work (15 min.): Specify variables\n\nIn the Google doc, below your Construct Source Table, create a new table with the following columns:\nExample:\n\n\n\n\n\n\n\n\n\n\n\nConstruct in VAST display\nShortname\nType\nRange/values\nAnchors\n\n\n\n\nAffective tone of instruction\naff_tone\nContinuous\n[-1; 1]\n-1 = maximally negative0 = neutral+1 = maximally positive\n\n\nAnxiety\nanxiety\nContinuous\n[0; 1]\n0 = no anxiety1 = maximal anxiety\n\n\nKohlberg’s Stages of Moral Development\nmoral_stage\nOrdinal\n{1; 2; 3}\n1=Pre-conventional2=Conventional3=Post-Conventional\n\n\n…\n\n…\n…\n…\n\n\n\n\nNote: This resembles a codebook; but for theoretical variables, not for measured variables."
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#group-work-10-min.",
@@ -956,14 +998,14 @@
     "href": "lectures/MathModel/MathModel.html#step-2-define-functional-relationships-between-variables-3",
     "title": "Mathematical Modeling 1",
     "section": "Step 2: Define functional relationships between variables",
-    "text": "Step 2: Define functional relationships between variables\n\nFixed and free parameters\nFixing a parameter:\n\\(\\color{forestgreen} \\beta_0 \\color{black} = 1\\)\n\\(\\color{red} y = \\color{forestgreen} 1 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\)\nThat means, the slope \\(\\color{forestgreen} \\beta_1\\) still can vary, but the intercept is fixed to 1.\n\nFree parameters give flexibility to your function: If you are unsure about the exact relationship between two variables, you can estimate the best-fitting parameters from the data.\nFor example, sometimes a theory specifies the general functional form of a relationship (e.g., “With increasing \\(x\\), \\(y\\) is monotonously decreasing”), but does not tell how fast this decrease happens, where \\(y\\) starts when \\(x\\) is minimal, etc. These latter decisions are then made by the free parameters."
+    "text": "Step 2: Define functional relationships between variables\n\nFixed and free parameters\nFixing a parameter:\n\\(\\color{forestgreen} \\beta_0 \\color{black} = 1 \\rightarrow \\color{red} y = \\color{forestgreen} 1 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\)\nThat means, the slope \\(\\color{forestgreen} \\beta_1\\) still can vary, but the intercept is fixed to 1.\n\nFree parameters give flexibility to your function: If you are unsure about the exact relationship between two variables, you can estimate the best-fitting parameters from the data.\nFor example, sometimes a theory specifies the general functional form of a relationship (e.g., “With increasing \\(x\\), \\(y\\) is monotonously decreasing”), but does not tell how fast this decrease happens, where \\(y\\) starts when \\(x\\) is minimal, etc. These latter decisions are then made by the free parameters."
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#discussion",
     "href": "lectures/MathModel/MathModel.html#discussion",
     "title": "Mathematical Modeling 1",
     "section": " Discussion",
-    "text": "Discussion\n\nSketch a first functional relationship on paper\n\nWhich aspects of your sketch could be free parameters? Describe them in plain language.\nDraw a couple of alternative plots that would also fullfill the criteria of the phenomenon.\nWhat would be the differences in the functional form? What is the semantic meaning of the free parameters?"
+    "text": "Discussion\n\nSketch a first functional relationship on paper\n\nWhich aspects of your sketched function could be free parameters? Describe them in plain language.\nDraw a couple of alternative plots that (a) follow the same functional form and (b) also fullfill the criteria of the phenomenon.\nWhat is the semantic meaning of the free parameters?"
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#tool-1-the-logistic-function-family",
@@ -992,6 +1034,76 @@
     "title": "Mathematical Modeling 1",
     "section": "Tool 1: The logistic function family",
     "text": "Tool 1: The logistic function family\nThe d, a, min, and max parameters can be used to “squeeze” the S-shaped curve into the range of your variables. For example, if your \\(x\\) variable is defined on the range \\([0; 1]\\), the following function parameters lead to a reasonable shift:"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#use-the-full-mathematical-toolbox",
+    "href": "lectures/MathModel/MathModel.html#use-the-full-mathematical-toolbox",
+    "title": "Mathematical Modeling 1",
+    "section": "Use the full mathematical toolbox",
+    "text": "Use the full mathematical toolbox\nOf course, the logistic function and the beta distribution are just a start - you can use the full toolbox of mathematical functions to implement your model!\n\n\n\n\n\n\nNote\n\n\n\nThese considerations about functional forms, however, are typically not substantiated by psychological theory or background knowledge - at least at the start of a modeling project. We choose them, because we are (a) acquainted to it, and/or (b) they are mathematically convenient and tractable.\nEmpirical evidence can inform both your choice of the functional form, and, in a model-fitting step, the values of the parameters."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#excursus-functions-in-r",
+    "href": "lectures/MathModel/MathModel.html#excursus-functions-in-r",
+    "title": "Mathematical Modeling 1",
+    "section": "Excursus: Functions in R",
+    "text": "Excursus: Functions in R\n\nWhat is a function?\n\nA reusable block of code designed to perform a specific task.\nCan be an implementation of an actual mathematical function \\(y = f(x, z)\\)\nBut can also be a more complex operation, like reading a file, transforming data, or plotting a graph.\n\nWhy use functions?\n\nModularity: Break down complex problems into manageable parts.\nReusability: Write once, use multiple times.\nMaintainability: Easier to debug and update code."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#anatomy-of-an-r-function",
+    "href": "lectures/MathModel/MathModel.html#anatomy-of-an-r-function",
+    "title": "Mathematical Modeling 1",
+    "section": "Anatomy of an R Function",
+    "text": "Anatomy of an R Function\n\n# Basic structure of a function\nmy_function &lt;- function(arg1, arg2) {\n  # Function body\n  result &lt;- arg1 + arg2\n  return(result)\n}\n\n\n\nFunction name: my_function\nParameters: arg1, arg2\nBody: Code that defines what the function does\nReturn value: return a specific value that has been computed in the function body with return(return_variable). If no explicit return() statement is given, the last evaluated expression is returned by default.\n\n\n\n\n\n# use meaningful names\n\nsum &lt;- function(x, y) {\n  S &lt;- x+y\n  return(S)\n}\n\n\n\n# short version: the last computation \n# is returned by default\n\nsum &lt;- function(x, y) {x+y}"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#creating-and-using-your-own-function",
+    "href": "lectures/MathModel/MathModel.html#creating-and-using-your-own-function",
+    "title": "Mathematical Modeling 1",
+    "section": "Creating and Using Your Own Function",
+    "text": "Creating and Using Your Own Function\n\nDefine the Function:\n\n\nget_y &lt;- function(x) {\n  y &lt;- x^2\n  return(y)\n}\n\n\nCall the Function:\n\n\ny &lt;- get_y(x=2)\nprint(y)  # Output: 4\n\nTips:\n\n\nUse meaningful and short names for functions and parameters.\nKeep functions focused on a single task.\nDocument your functions with comments (ideally with the roxygen2 documentation standard)\nAtomic functions: Each R function implements exactly one functional relationship of your model."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#example-with-roxygen2-documentation",
+    "href": "lectures/MathModel/MathModel.html#example-with-roxygen2-documentation",
+    "title": "Mathematical Modeling 1",
+    "section": "Example with roxygen2 documentation",
+    "text": "Example with roxygen2 documentation\n\n#' Compute the updated expected anxiety\n#'\n#' The expected anxiety at any given moment is a weighted average of \n#' the momentary anxiety and the previous expected anxiety.\n#'\n#' @param momentary_anxiety The momentary anxiety, on a scale from 0 to 1\n#' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1\n#' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) \n#'              and the previous expected anxiety (alpha=0).\n#' @return The updated expected anxiety, as a scalar on a scale from 0 to 1\n\nget_expected_anxiety &lt;- function(momentary_anxiety, previous_expected_anxiety, alpha=0.5) {\n  momentary_anxiety*alpha + previous_expected_anxiety*(1-alpha)\n}\n\n\nroxygen2 comments start with #' and are placed directly above the function definition.\n\nThe first line is the title\nThe following lines (after a blank line) are the description\nEach parameter of the function is documented with @param parameter_name Description. Provide the range of possible values if applicable.\nThe return value is documented with @return Description"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#exercise-document-our-exponential-decay-function",
+    "href": "lectures/MathModel/MathModel.html#exercise-document-our-exponential-decay-function",
+    "title": "Mathematical Modeling 1",
+    "section": " Exercise: Document our exponential decay function",
+    "text": "Exercise: Document our exponential decay function\nCheck out roxygen2 and document our exponential decay function with:\n\ntitle\ndescription\nparameters\nreturn value.\n\n\nget_p_help &lt;- function(NOPB, y_0, y_final, BSE_strength) {\n  p_help &lt;- y_final + (y_0 - y_final) * exp(-BSE_strength * NOPB)\n  return(p_help)\n}"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#apply-everything-to-reduced-model",
+    "href": "lectures/MathModel/MathModel.html#apply-everything-to-reduced-model",
+    "title": "Mathematical Modeling 1",
+    "section": " Apply everything to reduced model",
+    "text": "Apply everything to reduced model\n\n\nDefine all variables of your model in the Variables Table (short name, range, scale level, semantic anchors)\nCategorize: Which variables are exogenous, which are endogenous?\n\nExogenous variables are not influenced by other variables in the model.\nEndogenous variables are influenced by other variables in the model.\n\nEvery endogenous variable is a function of all of their input parameters.\n\nCreate sensible functional relationships for every endogenous variable.\nCreate a 3rd table (below the Construct Source Table and the Variables Table), with all functional relationships.\nAdd a short comment to what extent this functional relationship has been derived from theory:\n\nDictated by theory (add IDs from the Construct Source Table as reference)\nDerived from theory\nLosely inspired by theory\nNot based on theory, but rather on common sense or other theories\n\nAdd a short comment to what extent this functional relationship has been backed up by empirical evidence.\n\nImplement the functions in R with proper roxygen2 documentation."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-3-implement-the-functions-in-r-1",
+    "href": "lectures/MathModel/MathModel.html#step-3-implement-the-functions-in-r-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 3: Implement the functions in R",
+    "text": "Step 3: Implement the functions in R\n\nPut everything together\nConnect all functions to one “super-function”, which takes all exogenous variables as input and computes the focal output variable(s).\nTest the super-function:\n\nEnter some reasonable combinations of parameters\nDraw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-4-excursus-fitting-the-functions-to-empirical-data",
+    "href": "lectures/MathModel/MathModel.html#step-4-excursus-fitting-the-functions-to-empirical-data",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 4 (Excursus): Fitting the functions to empirical data",
+    "text": "Step 4 (Excursus): Fitting the functions to empirical data\nWe can tune our free parameters to fit the model as good as possible to empirical data. This is called model fitting.\nWe use the empirical data in"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-1",
+    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 5: Simulate a full data set",
+    "text": "Step 5: Simulate a full data set\nWhich input variables do your simulated participants bring to the experiment? Real participants bring variability in these variables.\nAssume a specific distribution of all input variables that participants bring to the experiment. Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications.\nMaybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via z-standardization)."
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#tool-2-the-distribution-zoo",
@@ -1036,39 +1148,11 @@
     "text": "Tool 3: The beta distribution\n\nApproximating a normal distribution with a beta distibution"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#step-2-define-functional-relationships-between-variables-4",
-    "href": "lectures/MathModel/MathModel.html#step-2-define-functional-relationships-between-variables-4",
+    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-2",
+    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-2",
     "title": "Mathematical Modeling 1",
-    "section": "Step 2: Define functional relationships between variables",
-    "text": "Step 2: Define functional relationships between variables\nOf course, the logistic function and the beta distribution are just a start - you can use the full toolbox of mathematical functions to implement your model!\n\n\n\n\n\n\nNote\n\n\n\nThese considerations about functional forms, however, are typically not substantiated by psychological theory or background knowledge - at least at the start of a modeling project. We choose them, because we are (a) acquainted to it, and/or (b) they are mathematically convenient and tractable.\nEmpirical evidence can inform both your choice of the functional form, and, in a model-fitting step, the values of the parameters."
-  },
-  {
-    "objectID": "lectures/MathModel/MathModel.html#step-3-implement-the-functions-in-r-1",
-    "href": "lectures/MathModel/MathModel.html#step-3-implement-the-functions-in-r-1",
-    "title": "Mathematical Modeling 1",
-    "section": "Step 3: Implement the functions in R",
-    "text": "Step 3: Implement the functions in R\n\nAtomic functions\nEach R function implements exactly one functional relationship.\nDocument all input parameters and say what the function computes. Do it inline in the code, so that the documentation is right there where you need it. In R, this can be done with the established roxygen2 documentation standard:\n\n#' Compute the updated expected anxiety\n#'\n#' @param momentary_anxiety The momentary anxiety, on a scale from 0 to 1\n#' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1\n#' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) \n#'              and the previous expected anxiety (alpha=0) when the updated \n#'              expected anxiety is computed.\n\nget_expected_anxiety &lt;- function(momentary_anxiety, previous_expected_anxiety, alpha=0.5) {\n  momentary_anxiety*alpha + previous_expected_anxiety*(1-alpha)\n}\n\nexpected_anxiety &lt;- get_expected_anxiety(momentary_anxiety = 0.3, previous_expected_anxiety = 0.6)"
-  },
-  {
-    "objectID": "lectures/MathModel/MathModel.html#step-3-implement-the-functions-in-r-2",
-    "href": "lectures/MathModel/MathModel.html#step-3-implement-the-functions-in-r-2",
-    "title": "Mathematical Modeling 1",
-    "section": "Step 3: Implement the functions in R",
-    "text": "Step 3: Implement the functions in R\nNext, connect all functions to one “super-function”, which takes all free inputs as parameters and computes the focal output variable(s).\nTest the super-function:\n\nEnter some reasonable combinations of parameters\nDraw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis."
-  },
-  {
-    "objectID": "lectures/MathModel/MathModel.html#step-4-simulate-a-full-data-set",
-    "href": "lectures/MathModel/MathModel.html#step-4-simulate-a-full-data-set",
-    "title": "Mathematical Modeling 1",
-    "section": "Step 4: Simulate a full data set",
-    "text": "Step 4: Simulate a full data set\nWhich input variables do your simulated participants bring to the experiment? Real participants bring variability in these variables.\nAssume a specific distribution of all input variables that participants bring to the experiment. Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications.\nMaybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via z-standardization)."
-  },
-  {
-    "objectID": "lectures/MathModel/MathModel.html#step-4-simulate-a-full-data-set-1",
-    "href": "lectures/MathModel/MathModel.html#step-4-simulate-a-full-data-set-1",
-    "title": "Mathematical Modeling 1",
-    "section": "Step 4: Simulate a full data set",
-    "text": "Step 4: Simulate a full data set\nOnce all of these values are defined, simulate a sample of participants (with their starting values), and put half of them into the experimental group, and half of them into the control group. Use the resulting output values to computer a regular t-test.\nNow the questions are:\n\nDoes the simulated model produce the phenomenon? How large is the effect size?\nWhat happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?"
+    "section": "Step 5: Simulate a full data set",
+    "text": "Step 5: Simulate a full data set\nOnce all of these values are defined, simulate a sample of participants (with their starting values), and put half of them into the experimental group, and half of them into the control group. Use the resulting output values to computer a regular t-test.\nNow the questions are:\n\nDoes the simulated model produce the phenomenon? How large is the effect size?\nWhat happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?"
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#contact",
@@ -1103,7 +1187,7 @@
     "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-3",
     "title": "What are (Not) Theories & Models?",
     "section": "What is not a theory?",
-    "text": "What is not a theory?\n4. Diagrams (Alone) Are Not Theory\n\n\n\n\n\n\nThis is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)\n\n\n\n\n\n\n\n\nIqbal, S. et al. (2021). https://doi.org/10.3389/fpsyg.2021.620838"
+    "text": "What is not a theory?\n4. Diagrams (Alone) Are Not Theory\n\n\n\n\n\n\nThis is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)\n\n\n\n\n\n\n\n\n\n\n\n\nIqbal, S. et al. (2021). https://doi.org/10.3389/fpsyg.2021.620838"
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#diagrams-alone-are-not-theory-1",
@@ -1124,14 +1208,14 @@
     "href": "lectures/Intro2/Intro2.slide.html#diagrams-alone-are-not-theory-3",
     "title": "What are (Not) Theories & Models?",
     "section": "4. Diagrams (Alone) Are Not Theory",
-    "text": "4. Diagrams (Alone) Are Not Theory\n\n\nhttp://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html"
+    "text": "4. Diagrams (Alone) Are Not Theory\n\n\n\n\n\n\nhttp://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html"
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-4",
     "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-4",
     "title": "What are (Not) Theories & Models?",
     "section": "What is not a theory? 4",
-    "text": "What is not a theory? 4\n4. Diagrams (Alone) Are Not Theory\n\n\nDiagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. […]\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "text": "What is not a theory? 4\n4. Diagrams (Alone) Are Not Theory\n\n\nDiagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. […]\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\nDiscussion: Are then VAST displays on their own sufficient to constitute a theory?\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-5",
@@ -1208,7 +1292,7 @@
     "href": "lectures/Intro2/Intro2.slide.html#understandability-of-explanations",
     "title": "What are (Not) Theories & Models?",
     "section": "Understandability of explanations",
-    "text": "Understandability of explanations\nFarrell & Lewandowsky (2018), referring to Trout (2007), emphasize the understandability of explanations:\n\n\nExplanations can “be epistemically valuable only if we could, implicitly or explicitly, understand them. As a result, explanation must maintain some contact with our psychological powers of understanding” (Trout, 2007, p. 565)\n“an explanation that cannot be understood is not an explanation”\n“some facts of the universe may remain irreducibly mysterious to humans - not because explanations do not exist in principle but because they cannot be humanly understood and hence cannot be formulated”\n“models in psychology benefit from simplifying the reality they seek to explain even though this simplification would likely render the model wrong. At the risk of being provocative, we would even argue that models are useful only because they are wrong.”\n\n\n\nFarrell, S., & Lewandowsky, S. (2018). Computational Modeling of Cognition and Behavior. Cambridge University Press, Chapter 3. https://doi.org/10.1017/CBO9781316272503"
+    "text": "Understandability of explanations\nFarrell & Lewandowsky (2018), referring to Trout (2007), emphasize the understandability of explanations:\n\n\nExplanations can “be epistemically valuable only if we could, implicitly or explicitly, understand them. As a result, explanation must maintain some contact with our psychological powers of understanding” (Trout, 2007, p. 565)\n“an explanation that cannot be understood is not an explanation”\n“some facts of the universe may remain irreducibly mysterious to humans - not because explanations do not exist in principle but because they cannot be humanly understood and hence cannot be formulated”\n“models in psychology benefit from simplifying the reality they seek to explain even though this simplification would likely render the model wrong. At the risk of being provocative, we would even argue that models are useful only because they are wrong.” (cf. von Uexküll!)\n\n\n\nFarrell, S., & Lewandowsky, S. (2018). Computational Modeling of Cognition and Behavior. Cambridge University Press, Chapter 3. https://doi.org/10.1017/CBO9781316272503"
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#definitions-2",
@@ -1229,7 +1313,7 @@
     "href": "lectures/Intro2/Intro2.html",
     "title": "What are (Not) Theories & Models?",
     "section": "",
-    "text": "Like so many words that are bandied about, the word theory threatens to become meaningless. Because its referents are so diverse - including everything from minor working hypotheses, through comprehensive but vague and unordered speculations,to axiomatic systems of thought - use of the word often obscures rather than creates understanding.\n\nMerton (1967, p. 39)\n\n\nMaybe an easier question for the start: But what is not a theory?\n\nCited from Sutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n(Note: While the following features of a scholarly article do not constitute a theory, they might be important in their own right)\n\n\nA manuscript that Robert Sutton edited had strong data, but all three reviewers emphasized that it had “weak theory” and “poorly motivated hypotheses.” The author responded to these concerns by writing a new introduction that added citations to many papers containing theory and many terms like “psycho-social theory,” “identity theory,” and “social comparison theory.”\nBut it still contained no discussion of what these theories were about and no discussion of the logical arguments why these theories led to the author’s predictions. The result was that this paper contained almost no theory, despite the author’s assertion that much had been added.\n\nSolution:\n\nAuthors need to explicate which concepts and causal arguments are adopted from cited sources and how they are linked to the theory being developed or tested.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\nEmpirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.\nKaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: Data describe which empirical patterns were observed and theory explains why empirical patterns were observed or are expected to be observed.\n\nFurthermore: Theories do not explain data - theories explain phenomena!\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\nPapers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.\nSuch lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.\n\nLists of constructs (without an explicit definition of their causal relationship) often are called a framework.\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)\n\n\n\n\n\n\n\n\nIqbal, S. et al. (2021). https://doi.org/10.3389/fpsyg.2021.620838\n\n\n\n\n\n\n\n\nFigure 1. Holistic wellbeing model for school education.\n\n\n\nNorozi, S. A. (2023). The Nexus of Holistic Wellbeing and School Education: A Literature-Informed Theoretical Framework. Societies, 13(5), 113. https://doi.org/10.3390/soc13050113\n\n\n\n\n\n\nCBCB, CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0, via Wikimedia Commons\n\n\n\n\n\n\nhttp://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html\n\n\n\n\n\n\n\n\nDiagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. […]\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\nHypotheses can be an important part of a well-crafted conceptual argument. They serve as crucial bridges between theory and data, making explicit how the variables and relationships that follow from a logical argument will be operationalized. […]\nHypotheses do not (and should not) contain logical arguments about why empirical relationships are expected to occur. Hypotheses are concise statements about what is expected to occur, not why it is expected to occur.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "text": "Like so many words that are bandied about, the word theory threatens to become meaningless. Because its referents are so diverse - including everything from minor working hypotheses, through comprehensive but vague and unordered speculations,to axiomatic systems of thought - use of the word often obscures rather than creates understanding.\n\nMerton (1967, p. 39)\n\n\nMaybe an easier question for the start: What is not a theory?\n\nCited from Sutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n(Note: While the following features of a scholarly article do not constitute a theory, they might be important in their own right)\n\n\nA manuscript that Robert Sutton edited had strong data, but all three reviewers emphasized that it had “weak theory” and “poorly motivated hypotheses.” The author responded to these concerns by writing a new introduction that added citations to many papers containing theory and many terms like “psycho-social theory,” “identity theory,” and “social comparison theory.”\nBut it still contained no discussion of what these theories were about and no discussion of the logical arguments why these theories led to the author’s predictions. The result was that this paper contained almost no theory, despite the author’s assertion that much had been added.\n\nSolution:\n\nAuthors need to explicate which concepts and causal arguments are adopted from cited sources and how they are linked to the theory being developed or tested.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\nEmpirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.\nKaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: Data describe which empirical patterns were observed and theory explains why empirical patterns were observed or are expected to be observed.\n\nFurthermore: Theories do not explain data - theories explain phenomena!\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\nPapers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.\nSuch lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.\n\nLists of constructs (without an explicit definition of their causal relationship) often are called a framework.\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)\n\n\n\n\n\n\n\n\n\n\n\n\nIqbal, S. et al. (2021). https://doi.org/10.3389/fpsyg.2021.620838\n\n\n\n\n\n\n\n\nFigure 1. Holistic wellbeing model for school education.\n\n\n\nNorozi, S. A. (2023). The Nexus of Holistic Wellbeing and School Education: A Literature-Informed Theoretical Framework. Societies, 13(5), 113. https://doi.org/10.3390/soc13050113\n\n\n\n\n\n\n\n\n\n\nCBCB, CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0, via Wikimedia Commons\n\n\n\n\n\n\n\n\n\n\nhttp://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html\n\n\n\n\n\n\n\n\nDiagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. […]\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\nDiscussion: Are then VAST displays on their own sufficient to constitute a theory?\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\nHypotheses can be an important part of a well-crafted conceptual argument. They serve as crucial bridges between theory and data, making explicit how the variables and relationships that follow from a logical argument will be operationalized. […]\nHypotheses do not (and should not) contain logical arguments about why empirical relationships are expected to occur. Hypotheses are concise statements about what is expected to occur, not why it is expected to occur.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#what-is-not-a-theory",
@@ -1257,7 +1341,7 @@
     "href": "lectures/Intro2/Intro2.html#what-is-not-a-theory-3",
     "title": "What are (Not) Theories & Models?",
     "section": "",
-    "text": "This is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)\n\n\n\n\n\n\n\n\nIqbal, S. et al. (2021). https://doi.org/10.3389/fpsyg.2021.620838"
+    "text": "This is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)\n\n\n\n\n\n\n\n\n\n\n\n\nIqbal, S. et al. (2021). https://doi.org/10.3389/fpsyg.2021.620838"
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#diagrams-alone-are-not-theory-1",
@@ -1285,7 +1369,7 @@
     "href": "lectures/Intro2/Intro2.html#what-is-not-a-theory-4",
     "title": "What are (Not) Theories & Models?",
     "section": "",
-    "text": "Diagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. […]\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "text": "Diagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. […]\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\nDiscussion: Are then VAST displays on their own sufficient to constitute a theory?\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#what-is-not-a-theory-5",
@@ -1362,7 +1446,7 @@
     "href": "lectures/Intro2/Intro2.html#understandability-of-explanations",
     "title": "What are (Not) Theories & Models?",
     "section": "Understandability of explanations",
-    "text": "Understandability of explanations\nFarrell & Lewandowsky (2018), referring to Trout (2007), emphasize the understandability of explanations:\n\n\nExplanations can “be epistemically valuable only if we could, implicitly or explicitly, understand them. As a result, explanation must maintain some contact with our psychological powers of understanding” (Trout, 2007, p. 565)\n“an explanation that cannot be understood is not an explanation”\n“some facts of the universe may remain irreducibly mysterious to humans - not because explanations do not exist in principle but because they cannot be humanly understood and hence cannot be formulated”\n“models in psychology benefit from simplifying the reality they seek to explain even though this simplification would likely render the model wrong. At the risk of being provocative, we would even argue that models are useful only because they are wrong.”\n\n\n\nFarrell, S., & Lewandowsky, S. (2018). Computational Modeling of Cognition and Behavior. Cambridge University Press, Chapter 3. https://doi.org/10.1017/CBO9781316272503"
+    "text": "Understandability of explanations\nFarrell & Lewandowsky (2018), referring to Trout (2007), emphasize the understandability of explanations:\n\n\nExplanations can “be epistemically valuable only if we could, implicitly or explicitly, understand them. As a result, explanation must maintain some contact with our psychological powers of understanding” (Trout, 2007, p. 565)\n“an explanation that cannot be understood is not an explanation”\n“some facts of the universe may remain irreducibly mysterious to humans - not because explanations do not exist in principle but because they cannot be humanly understood and hence cannot be formulated”\n“models in psychology benefit from simplifying the reality they seek to explain even though this simplification would likely render the model wrong. At the risk of being provocative, we would even argue that models are useful only because they are wrong.” (cf. von Uexküll!)\n\n\n\nFarrell, S., & Lewandowsky, S. (2018). Computational Modeling of Cognition and Behavior. Cambridge University Press, Chapter 3. https://doi.org/10.1017/CBO9781316272503"
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#definitions-2",
@@ -1390,7 +1474,7 @@
     "href": "sessions/S3-MathModel1.html",
     "title": "Session 3 - The first mathematical model",
     "section": "",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in group\n20\n\n\n\nPresent and discuss solutions\n60\n\n\n\nFirst formalization\n120\nSlides\n\n\nHomework 1: Read TCM paper\n\n\n\n\n\n\n\n2 Homework (in groups)\n\nWe extend the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the explanatory target is (a) the “classical” bystander effect and (b) the reduction of the bystander effect in dangerous situations.\nAt the same time we reduce the VAST display by cutting all elements that are not relevant for this specific explanation.\n\nIn other words, we try to build a minimal model, that explains our explanatory target.\nThe additional theoretical explanation can be found in Fischer et al., p. 520-521, see:\n\n“Potential Explanations for Reduced Bystander Inhibition in Dangerous Emergencies”\nWe only focus on “Potential Process 2”: “2. Bystanders as a source of physical support in the face of fear.”\n\n\n\n3 Homework (individually)\nRead:\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/TCM and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper."
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in group\n20\n\n\n\nPresent and discuss solutions\n60\n\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, Steps 1 & 2\n\n\nHomework 1: Create new version of VAST\n\n\n\n\n\n\n\n2 Homework (in groups)\n\nWe extend the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the explanatory target is (a) the “classical” bystander effect and (b) the reduction of the bystander effect in dangerous situations (i.e., the dangerousness of situation is a moderator of the bystander main effect).\nAt the same time we reduce the VAST display by cutting all elements that are not relevant for this specific explanation.\n\nWe cut the “Five-step process model”\nFrom the three potential processes we only keep diffusion of responsibility (and ignore pluralistic ignorance and evaluation apprehension).\n\n\nIn other words, we try to build a minimal model that explains our explanatory target.\nThe additional theoretical explanation can be found in Fischer et al., p. 520-521. These are the relevant paragraphs:\n\n“[…] the most noteworthy tendency in recent research is that the bystander effect often does not occur when the emergency is a dangerous one or when the bystanders are highly competent. The classic bystander research regarded present bystanders as”something negative,” which reduces the probability of prosocial intervention. On the basis of the review of the more recent literature, we suspect that this perspective is not always correct. Bystanders can act as a positive source of physical support in case a focal person is in the process of deciding whether to intervene in a critical situation (especially when they are perceived as competent bystanders). The present meta-analysis allows us to systematically examine the possibility of a non-inhibiting (non-negative) bystander effect. In the following, we further explore this theoretical idea. We explain why we expect that dangerous emergencies are associated with a reduced magnitude of the bystander effect.”\nIf one is to intervene in a dangerous emergency, one may have to fear negative physical consequences. A perpetrator may not only attack the victim but also the intervener. In that case, additional bystanders may provide support in defeating a potential perpetrator. […] To conclude, we expect that high-danger emergencies increase the focal bystander’s fear that he or she will be attacked or injured in case of intervention. However, if other bystanders are present, they are recognized as a source of physical support, which mitigates against the traditional bystander effect. Note that we do not expect a complete disappearance of the bystander effect in dangerous emergencies. Instead, we expect that it substantially declines because of the fact that many dangerous emergency situations can only be resolved by a group.\nThus, we expect that it is mainly increased danger to the focal bystander that reduces the bystander effect, but not increased danger to the victim (which can be completely distinct from danger of intervention).\n\nDeliverable: Create a new draw.io VAST display with the extended and reduced theory. Push the file to the homework repository in the folder Bystander_effect."
   },
   {
     "objectID": "common/lastslide.html",
@@ -1439,7 +1523,7 @@
     "href": "orga_material/call_for_submissions.html",
     "title": "Call for theory submissions",
     "section": "",
-    "text": "This is the email I sent to the colleagues in my department:\n\nSubject: We formalize your theory!\n\nBody:\nDear colleagues,\nthis semester, we want to explore something new. In my upcoming Empra (for 5th semester students), the participants get acquainted with formal modeling of psychological theories. The goal is to develop a mathematical or agent-based model of a verbal theory. In this project, …\n\nthe central phenomena are listed (What is to be explained?)\nthe verbal theory is explicated, and\na theory formalization is attempted (in a way that data can be simulated from the model).\n\nWe wanted to ask you - the colleagues in the department - if you want to submit a theory for this exercise.\nHere are some FAQs:\n\nWhat theory would be a good fit?\n\nA theory that is sufficiently precise and has a defined and not too large scope\nIts core premises are formulated in a clear and concise form on one (or only few) pages.\nThere doesn’t exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).\n\n\n\nWhat theory would not be a good fit?\n\nYou need to read three books to understand the theory.\nThe “all-encompassing theory of human nature”\nYou need a lot of expert input and judgement to fill in the gaps of the underspecified theory.\nYou need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.\n\n\n\nBut don’t you lack domain knowledge?\nIn an ideal world, theories are so well specified that they can be formalized without further expert opinions. But as this is unrealistic in psychology, we need your input (see next question).\n\n\nWhat is my necessary commitment?\n\nProvide the written material for the theory.\nTwo or three meetings (each lasting ~2h) during the Empra’s teaching hours (XXX):\n\nMeeting 1 where you give a very short overview of the theory (after the students have already read the written material) and we discuss first steps.\nMeeting 2 where students present intermediate results and can ask questions for clarification.\n(optional) Meeting 3, where students present their results to you.\nIf you enjoy and benefit from the scientific discussion, of course more meetings are possible and welcome.\n\n\n\n\nWhat happens with the results?\nThe created models will be published with a CC-BY license. That means, you can reuse everything with a proper citation. If the models are really helpful (and more than just a vague inspiration for further work), we can think about a follow-up collaboration and write-up (where collaboration and co-authorship is offered to the student creators of the model).\n\n\nThe procedure would be as follows:\n\nWe collect candidate theories for formalization until 30.10.2023.\nWe screen all submissions and select one or two theories (depending on their complexity).\nIf your theory is selected, we will meet:\n\nFor the introductory meeting (xx.xx.2023, ~2h)\nFor the intermediate meeting (xx.xx.2024, ~2h)\nFor the results presentation (xx.xx.2024, ~2h)\n\n\nIf you want to participate, please send an email to xxx by xx.xx.2023, containing a short description of the theory (max. 200 words) and a link to a central paper describing the theory. It can be “your” theory, or an existing theory that you work with.\nA final caveat: We are aware that this collaboration requires a non-negligible time investment from you. At the same time, this is highly experimental and we cannot promise any success or even progress. But in any case we expect good scientific discussions and are convinced that the exercise is fruitful for all parties.\nIf you have any questions, drop me an email.\n\nHere are some (anonymized) reactions I got:\n\n“EPIC!”\n“A very good idea. Just trying it would fulfil my heart’s desire”\n\nAt the end, 3 theories got submitted. We discussed them and selected 1 of them, mostly based on feasibility and personal interest. (Formalizing more than 1 theory would have been impossible in the time frame of the course)."
+    "text": "This is the email I sent to the colleagues in my department:\n\nSubject: We formalize your theory!\n\nBody:\nDear colleagues,\nthis semester, we want to explore something new. In my upcoming Empra (for 5th semester students), the participants get acquainted with formal modeling of psychological theories. The goal is to develop a mathematical or agent-based model of a verbal theory. In this project, …\n\nthe central phenomena are listed (What is to be explained?)\nthe verbal theory is explicated, and\na theory formalization is attempted (in a way that data can be simulated from the model).\n\nWe wanted to ask you - the colleagues in the department - if you want to submit a theory for this exercise.\nHere are some FAQs:\n\nWhat theory would be a good fit?\n\nA theory that is sufficiently precise and has a defined and not too large scope\nIts core premises are formulated in a clear and concise form on a few pages.\nThere doesn’t exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).\n\n\n\nWhat theory would not be a good fit?\n\nYou need to read three books to understand the theory.\nThe “all-encompassing theory of human nature”\nYou need a lot of expert input and judgement to fill in the gaps of the underspecified theory.\nYou need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.\n\n\n\nBut don’t the students lack domain knowledge?\nIn an ideal world, theories are so well specified that they can be formalized without further expert opinions. But as this is unrealistic in psychology, we need your input (see next question).\n\n\nWhat is my necessary commitment?\n\nProvide the written material for the theory.\nTwo or three meetings (each lasting ~2h) during the Empra’s teaching hours (XXX):\n\nMeeting 1 where you give a short overview of the theory. It should contain the following aspects:\n\nWhat is the central phenomenon that is aimed to be explained?\nHow does a typical study look like that produces the phenomenon?\n\nAn introduction to the theory that aims to explain the phenomenon.\n\nWhat is the central literature? (To get an impression of how the narrative theory is presented.)\n\nMeeting 2 where students present intermediate results and can ask questions for clarification.\n(optional) Meeting 3, where students present their results to you.\nIf you enjoy and benefit from the scientific discussion, of course more meetings are possible and welcome.\n\n\n\n\nWhat happens with the results?\nThe created models will be published with a CC-BY license. That means, you can reuse everything with a proper citation. If the models are really helpful (and more than just a vague inspiration for further work), we can think about a follow-up collaboration and write-up (where collaboration and co-authorship is offered to the student creators of the model).\n\n\nThe procedure would be as follows:\n\nWe collect candidate theories for formalization until 30.10.2023.\nWe screen all submissions and select one or two theories (depending on their complexity).\nIf your theory is selected, we will meet:\n\nFor the introductory meeting (xx.xx.2023, ~2h)\nFor the intermediate meeting (xx.xx.2024, ~2h)\nFor the results presentation (xx.xx.2024, ~2h)\n\n\nIf you want to participate, please send an email to xxx by xx.xx.2023, containing a short description of the theory (max. 200 words) and a link to a central paper describing the theory. It can be “your” theory, or an existing theory that you work with.\nA final caveat: We are aware that this collaboration requires a non-negligible time investment from you. At the same time, this is highly experimental and we cannot promise any success or even progress. But in any case we expect good scientific discussions and are convinced that the exercise is fruitful for all parties.\nIf you have any questions, drop me an email.\n\nHere are some (anonymized) reactions I got:\n\n“EPIC!”\n“A very good idea. Just trying it would fulfil my heart’s desire”\n\nAt the end, 3 theories got submitted. We discussed them and selected 1 of them, mostly based on feasibility and personal interest. (Formalizing more than 1 theory would have been impossible in the time frame of the course)."
   },
   {
     "objectID": "orga_material/course_announcement.html",
@@ -1514,37 +1598,16 @@
   {
     "objectID": "sessions/S4-MathModel2.html",
     "href": "sessions/S4-MathModel2.html",
-    "title": "Session 4 - Bischof notation",
+    "title": "Session 4 - Mathematical Modeling Part 2",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nLecture: Introduction: What is (not) a theory?\n45\nSlides\n\n\nSimulate formalization\n\n\n\n\n[Homework 1]: Netlogo Tutorial + Exercise\n-\nThis is a two-week assignment"
-  },
-  {
-    "objectID": "sessions/S4-MathModel2.html#install-netlogo.",
-    "href": "sessions/S4-MathModel2.html#install-netlogo.",
-    "title": "Session 4 - Bischof notation",
-    "section": "2.1 Install Netlogo.",
-    "text": "2.1 Install Netlogo.\nIf you have technical problems, please contact me! You should be prepared for the next session."
-  },
-  {
-    "objectID": "sessions/S4-MathModel2.html#do-a-basic-tutorial.-there-are-several-options-which-all-teach-the-basics",
-    "href": "sessions/S4-MathModel2.html#do-a-basic-tutorial.-there-are-several-options-which-all-teach-the-basics",
-    "title": "Session 4 - Bischof notation",
-    "section": "2.2 Do a basic tutorial. There are several options, which all teach the basics:",
-    "text": "2.2 Do a basic tutorial. There are several options, which all teach the basics:\n\nA free, self-paced online course with several short videos (total video material ~2h; in addition, one can do quizzes and “homework” that can be compared to solutions).\nIf you prefer written material, you can do the official tutorials 1, 2, and 3.\nThe Beginner’s Interactive NetLogo Dictionary is a great resources with references and examples for all commands."
-  },
-  {
-    "objectID": "sessions/S4-MathModel2.html#have-you-understood-the-basics-do-the-exercise",
-    "href": "sessions/S4-MathModel2.html#have-you-understood-the-basics-do-the-exercise",
-    "title": "Session 4 - Bischof notation",
-    "section": "2.3 Have you understood the basics? Do the exercise",
-    "text": "2.3 Have you understood the basics? Do the exercise\nPlease do the following exercise. Not every step might have been covered by the tutorials; in this case follow the links given at each task. Push the resulting .nlogo file to the joint Github project (subfolder /homework/netlogo-tutorial, filename is netlogo1_YOURNAME.nlogo). Please push whatever you came up with, even if you did not manage to achieve all goals.\n\nGive turtles two variables: food_reservoir and water_reservoir (see turtles-own)\nIn the setup procedure …\n\ncreate 10 sheep-shaped turtles\nassign a random number between 0 and 100 to their food_reservoir and their water_reservoir.\nPlace them at a random position of the environment (hint)\n\nCreate a “Setup” button in the interface that triggers the setup procedure.\nCreate a go procedure, in which your turtles (a) turn 10 degrees to the right and (b) walk 1 step forward"
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize models in groups; push to repo; present\n40\n\n\n\nFormalization: Mathematical Models 2\n90\nSlides, Steps 2-3\n\n\nLecture: Intro 2: What is (not) a theory?\n60\nSlides\n\n\n[Homework 1]: Read TCM paper\n-\n\n\n\n\nWe calibrate our model with empirical data from:\nLatané, B., & Nida, S. (1981). Ten years of research on group size and helping. Psychological Bulletin, 89(2), 308–324. https://doi.org/10.1037/0033-2909.89.2.308\n\n\n2 Homework (individually)\nRead:\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/03-TCM and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper."
   },
   {
     "objectID": "sessions/sessions_overview.html",
     "href": "sessions/sessions_overview.html",
     "title": "Overview of sessions",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\nSession 02 - Introduction Theories / Practice VAST\n\n\nIntro to theory 2; Apply VAST to Bystander effect\n\n\n\n\nSession 3 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\nSession 4 - Bischof notation\n\n\nLearn the Bischof notation for control systems; apply it to Buri.\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\nSession 02 - Introduction Theories / Practice VAST\n\n\nIntro to theory 2; Apply VAST to Bystander effect\n\n\n\n\nSession 3 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\nSession 4 - Mathematical Modeling Part 2\n\n\nCreate all functions for our reduced Bystander Effect Model\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html",

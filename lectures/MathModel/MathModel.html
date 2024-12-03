@@ -255,7 +255,10 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#put-everything-together" id="toc-put-everything-together" class="nav-link" data-scroll-target="#put-everything-together">Put everything together</a></li>
   </ul></li>
-  <li><a href="#step-4-excursus-fitting-the-functions-to-empirical-data" id="toc-step-4-excursus-fitting-the-functions-to-empirical-data" class="nav-link" data-scroll-target="#step-4-excursus-fitting-the-functions-to-empirical-data">Step 4 (Excursus): Fitting the functions to empirical data</a></li>
+  </ul></li>
+  <li><a href="#step-4-excursus-fitting-the-functions-to-empirical-data" id="toc-step-4-excursus-fitting-the-functions-to-empirical-data" class="nav-link" data-scroll-target="#step-4-excursus-fitting-the-functions-to-empirical-data">Step 4 (Excursus): Fitting the functions to empirical data</a>
+  <ul class="collapse">
+  <li><a href="#step-4-excursus-fitting-the-functions-to-empirical-data-1" id="toc-step-4-excursus-fitting-the-functions-to-empirical-data-1" class="nav-link" data-scroll-target="#step-4-excursus-fitting-the-functions-to-empirical-data-1">Step 4 (Excursus): Fitting the functions to empirical data</a></li>
   </ul></li>
   <li><a href="#step-5-simulate-a-full-data-set" id="toc-step-5-simulate-a-full-data-set" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set">Step 5: Simulate a full data set</a>
   <ul class="collapse">
@@ -322,11 +325,7 @@ window.Quarto = {
 
 <section id="section" class="level2">
 <h2 class="anchored" data-anchor-id="section"></h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/How_deep_is_your_love.png" class="quarto-figure quarto-figure-center figure-img" style="filter: drop-shadow(6px 6px 8px #555555);" height="450"></p>
-</figure>
-</div>
+<p><img src="img/How_deep_is_your_love.png" style="filter: drop-shadow(6px 6px 8px #555555);" height="450"></p>
 <div class="fragment">
 <div class="callout callout-style-default callout-warning callout-titled" title="**Answer: -136.7**">
 <div class="callout-header d-flex align-content-center">
@@ -384,7 +383,7 @@ window.Quarto = {
 <section id="group-work-15-min.-specify-variables" class="level2">
 <h2 class="anchored" data-anchor-id="group-work-15-min.-specify-variables"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (15 min.): Specify variables</h2>
 <div class="smaller">
-<p>In the Google doc, below your Construct Source Table, create a new table with the following columns:</p>
+<p>In the Google doc, below your <em>Construct Source Table</em>, create a new <em>Variables Table</em> with the following columns:</p>
 <p><em>Example:</em></p>
 <div class="table-grid smaller">
 <table class="caption-top table">
@@ -436,7 +435,7 @@ window.Quarto = {
 </tbody>
 </table>
 </div>
-<p><em>Note: This resembles a codebook; but for theoretical variables, not for measured variables.</em></p>
+<p>Note: This resembles a <strong>codebook</strong>; but for theoretical variables, not for measured variables. As a heuristic, list <strong>all concepts that are not higher-order concepts</strong> (because these usually have no single numerical representation).</p>
 </div>
 </section>
 </section>
@@ -779,7 +778,7 @@ Note
 <h2 class="anchored" data-anchor-id="apply-everything-to-reduced-model"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Apply everything to reduced model</h2>
 <div class="smallest">
 <ol type="1">
-<li><strong>Define</strong> all variables of your model in the Variables Table (short name, range, scale level, semantic anchors)</li>
+<li><strong>Define</strong> all variables of your model in the Variables Table (short name, range, scale level, semantic anchors). Variables</li>
 <li><strong>Categorize</strong>: Which variables are exogenous, which are endogenous?
 <ol type="1">
 <li>Exogenous variables are <em>not</em> influenced by other variables in the model.</li>
@@ -814,10 +813,19 @@ Note
 </ul>
 </section>
 </section>
-<section id="step-4-excursus-fitting-the-functions-to-empirical-data" class="level2">
-<h2 class="anchored" data-anchor-id="step-4-excursus-fitting-the-functions-to-empirical-data">Step 4 (Excursus): Fitting the functions to empirical data</h2>
+</section>
+<section id="step-4-excursus-fitting-the-functions-to-empirical-data" class="level1">
+<h1>Step 4 (Excursus): Fitting the functions to empirical data</h1>
+<section id="step-4-excursus-fitting-the-functions-to-empirical-data-1" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-excursus-fitting-the-functions-to-empirical-data-1">Step 4 (Excursus): Fitting the functions to empirical data</h2>
+<div class="columns">
+<div class="column r-fit-text" style="width:60%;">
 <p>We can tune our free parameters to fit the model as good as possible to empirical data. This is called <strong>model fitting</strong>.</p>
-<p>We use the empirical data in</p>
+<p>See this app for an example of a simple linear regression with two parameters (intercept and slope) that are fitted by an optimization algorithm: <a href="https://shinyapps.org/showapp.php?app=https://shiny.psy.lmu.de/felix/lmfit&amp;by=Felix%20Schönbrodt&amp;title=Find-a-fit!&amp;shorttitle=Find-a-fit!">Find-a-fit!</a></p>
+</div><div class="column" style="width:40%;">
+<p><img src="img/Find-a-fit.png" class="ds" style="height:40.0%"></p>
+</div>
+</div>
 </section>
 </section>
 <section id="step-5-simulate-a-full-data-set" class="level1">

@@ -821,7 +821,7 @@ Note
 <div class="columns">
 <div class="column r-fit-text" style="width:60%;">
 <p>We can tune our free parameters to fit the model as good as possible to empirical data. This is called <strong>model fitting</strong>.</p>
-<p>See this app for an example of a simple linear regression with two parameters (intercept and slope) that are fitted by an optimization algorithm: <a href="https://shinyapps.org/showapp.php?app=https://shiny.psy.lmu.de/felix/lmfit&amp;by=Felix%20Schönbrodt&amp;title=Find-a-fit!&amp;shorttitle=Find-a-fit!">Find-a-fit!</a></p>
+<p>See the <a href="https://shinyapps.org/showapp.php?app=https://shiny.psy.lmu.de/felix/lmfit&amp;by=Felix%20Schönbrodt&amp;title=Find-a-fit!&amp;shorttitle=Find-a-fit!">Find-a-fit app</a> for an example of a simple linear regression with two parameters (intercept and slope) that are fitted by an optimization algorithm:</p>
 </div><div class="column" style="width:40%;">
 <p><img src="img/Find-a-fit.png" class="ds" style="height:40.0%"></p>
 </div>
@@ -832,13 +832,24 @@ Note
 <h1>Step 5: Simulate a full data set</h1>
 <section id="step-5-simulate-a-full-data-set-1" class="level2">
 <h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-1">Step 5: Simulate a full data set</h2>
-<p>Which input variables do your simulated participants bring to the experiment? Real participants bring <strong>variability</strong> in these variables.</p>
+<ul>
+<li>If your model is deterministic, the same input parameters will always produce the exact same output.</li>
+<li>In real data sets, however, we see a huge variability in the output variables. <strong>Where does the variability come from?</strong></li>
+</ul>
+<p>Assuming that our model is the <strong>true data generating model</strong> (i.e., we modeled all relevant input variables and got the functional relationships right) and all model parameters are fixed (i.e., identical for all participants - there are no interindividual differences): - Participants bring different values in their exogenous variables - Measurement error in all measured variables, or probabilistic processes in the system</p>
+<ul>
+<li>If we accept that our model is not the true model
+<ul>
+<li>Interindividual differences in the sensors (i.e., manipulations and perceptions do not work the same for everyone) or actors (i.e., people differ in their helping behavior)</li>
+<li>Random noise in the system (this could be modeled as a random error term as additional input to the final outcome variable)</li>
+</ul></li>
+</ul>
 <p>Assume a specific distribution of all input variables that participants bring to the experiment. Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications.</p>
 <p>Maybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via <em>z</em>-standardization).</p>
 </section>
 <section id="tool-2-the-distribution-zoo" class="level2">
 <h2 class="anchored" data-anchor-id="tool-2-the-distribution-zoo">Tool 2: The Distribution Zoo</h2>
-<p>If you start <strong>simulating</strong> data for your virtual participants, you want to simulate their starting values yb drawing random values from a distribution. For example, the virtual participants might differ in their anxiety, which you previously defined on the range <span class="math inline">\([0; 1]\)</span>.</p>
+<p>If you start <strong>simulating</strong> data for your virtual participants, you want to simulate their starting values by drawing random values from a distribution. For example, the virtual participants might differ in their anxiety, which you previously defined on the range <span class="math inline">\([0; 1]\)</span>.</p>
 <p>How can you generate random values that roughly look like a normal distribution, but are bounded to the defined range?</p>
 <p>For simulations, it is good to know some basic distributions. Here are three interactive resources for choosing your distribution:</p>
 <ul>
@@ -907,7 +918,7 @@ Note
 <div>
 
 </div>
-<div class="cell quarto-layout-panel" data-layout-nrow="2" data-layout-align="center" data-layout-ncol="1">
+<div class="cell quarto-layout-panel" data-layout-ncol="1" data-layout-align="center" data-layout-nrow="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">

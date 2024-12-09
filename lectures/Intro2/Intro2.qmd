@@ -23,10 +23,10 @@ revealjs-plugins:
 > Like so many words that are bandied about, the word theory threatens to become meaningless. Because its referents are so diverse - including everything from minor working hypotheses, through comprehensive but vague and unordered speculations,to axiomatic systems of thought - use of the word often obscures rather than creates understanding.
 > <div style="text-align: right; font-size: 70%">*Merton (1967, p. 39)*</div>
 
-Maybe an easier question for the start: But what is [not]{.alert} a theory?
+Maybe an easier question for the start: What is [not]{.alert} a theory?
 
 ::: footer
-Cited from Sutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788
+Cited from Sutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. [https://doi.org/10.2307/2393788](https://doi.org/10.2307/2393788)
 :::
 
 ## What is *not* a theory?
@@ -45,7 +45,7 @@ Cited from Sutton, R. I., & Staw, B. M. (1995). What theory is not. Administrati
 :::
 
 ::: footer
-Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788
+Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. [https://doi.org/10.2307/2393788](https://doi.org/10.2307/2393788)
 :::
 
 
@@ -61,7 +61,7 @@ Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science 
 :::
 
 ::: footer
-Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788
+Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. [https://doi.org/10.2307/2393788](https://doi.org/10.2307/2393788)
 :::
 
 
@@ -77,7 +77,7 @@ Lists of constructs (without an explicit definition of their causal relationship
 :::
 
 ::: footer
-Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788
+Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. [https://doi.org/10.2307/2393788](https://doi.org/10.2307/2393788)
 :::
 
 
@@ -88,7 +88,7 @@ Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science 
 # This is an extension of (3) "List of constructs": Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)
 :::
 
-![](img/fpsyg-12-620838-g001.jpg){height=400}
+![](img/fpsyg-12-620838-g001.jpg){height=400 fig-align="center"}
 
 ::: footer
 Iqbal, S. et al. (2021). [https://doi.org/10.3389/fpsyg.2021.620838](https://doi.org/10.3389/fpsyg.2021.620838)
@@ -98,7 +98,7 @@ Iqbal, S. et al. (2021). [https://doi.org/10.3389/fpsyg.2021.620838](https://doi
 
 ## 4. Diagrams (Alone) Are Not Theory
 
-![Figure 1. Holistic wellbeing model for school education.](img/societies-13-00113-g001.png){.r-stretch}
+![Figure 1. Holistic wellbeing model for school education.](img/societies-13-00113-g001.png){.r-stretch fig-align="center"}
 
 ::: footer
 Norozi, S. A. (2023). The Nexus of Holistic Wellbeing and School Education: A Literature-Informed Theoretical Framework. Societies, 13(5), 113. https://doi.org/10.3390/soc13050113
@@ -108,7 +108,7 @@ Norozi, S. A. (2023). The Nexus of Holistic Wellbeing and School Education: A Li
 
 ## 4. Diagrams (Alone) Are Not Theory
 
-![](img/7_Instances.jpg){.r-stretch}
+![](img/7_Instances.jpg){.r-stretch fig-align="center"}
 
 ::: footer
 CBCB, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
@@ -117,7 +117,7 @@ CBCB, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimed
 
 ## 4. Diagrams (Alone) Are Not Theory
 
-![](img/Virgin.gif){height=650}
+![](img/Virgin.gif){height=650 fig-align="center"}
 
 ::: footer
 http://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html
@@ -135,8 +135,10 @@ http://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html
 > As Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, **they rarely explain *why* the proposed connections will be observed. Some verbal explication is almost always necessary**.
 :::
 
+**Discussion**: Are then VAST displays on their own sufficient to constitute a theory?
+
 ::: footer
-Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788
+Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. [https://doi.org/10.2307/2393788](https://doi.org/10.2307/2393788)
 :::
 
 
@@ -151,7 +153,7 @@ Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science 
 :::
 
 ::: footer
-Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788
+Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. [https://doi.org/10.2307/2393788](https://doi.org/10.2307/2393788)
 :::
 
 
@@ -285,24 +287,11 @@ These additional auxiliary assumptions (which are not in the core of the theory)
 :::
 
 
-<!-- TODO: Die Frage mit free und fixed parameters das nächste Mal später machen / separat machen -->
+
 ## What is a computational model?
 
-::: {.smaller}
 A model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms [input variables]{.hl} into [output variables]{.hl} (the dependent variables). The formulas that compute the output contain [parameters]{.hl}.
 
-Cf. linear regression: $\color{red} y = \color{forestgreen} \beta_0 \color{black} + \color{forestgreen} \beta_1 \color{blue} x$ 
-<br>→ $\color{red} y$ = output variable, $\color{forestgreen} \beta$s = parameters, $\color{blue} x$ = input variable.
-
-Two types of parameters:
-
-- **Fixed parameters**: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).
-- **Free parameters**: Can be adjusted to optimize the fit of the model to data. They are *estimated* from empirical data.
-:::
-
-::: {.callout-note}
-Virtually all parameters (except natural constants) could be imagined as being free. It is a *choice* to fix some of them in order to simplify the model.
-:::
 <!-- ----------------- -->
 
 ## What are explanations?
@@ -327,7 +316,7 @@ Farrell & Lewandowsky (2018), referring to Trout (2007), emphasize the [understa
 - Explanations can "be epistemically valuable only if we could, implicitly or explicitly, understand them. As a result, explanation must maintain some contact with our psychological powers of understanding" (Trout, 2007, p. 565)
 - "an explanation that cannot be understood is not an explanation"
 - "some facts of the universe may remain irreducibly mysterious to humans - not because explanations do not exist in principle but because they cannot be humanly understood and hence cannot be formulated"
-- "models in psychology benefit from simplifying the reality they seek to explain even though this simplification would likely render the model wrong. At the risk of being provocative, [we would even argue that models are useful only **because** they are wrong]{.hl}."
+- "models in psychology benefit from simplifying the reality they seek to explain even though this simplification would likely render the model wrong. At the risk of being provocative, [we would even argue that models are useful only **because** they are wrong]{.hl}." (cf. von Uexküll!)
 :::
 
 ::: footer

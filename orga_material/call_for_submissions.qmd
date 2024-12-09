@@ -28,7 +28,7 @@ Here are some FAQs:
 
 ### What theory would be a good fit?
 - A theory that is sufficiently precise and has a defined and not too large scope
-- Its core premises are formulated in a clear and concise form on one (or only few) pages.
+- Its core premises are formulated in a clear and concise form on a few pages.
 - There doesn't exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).
 
 ### What theory would not be a good fit?
@@ -37,13 +37,17 @@ Here are some FAQs:
 - You need a lot of expert input and judgement to fill in the gaps of the underspecified theory.
 - You need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.
 
-### But don't you lack domain knowledge?
+### But don't the students lack domain knowledge?
 In an ideal world, theories are so well specified that they can be formalized without further expert opinions. But as this is unrealistic in psychology, we need your input (see next question).
 
 ### What is my necessary commitment?
 - Provide the written material for the theory.
 - Two or three meetings (each lasting ~2h) during the Empra's teaching hours (XXX):
-  - *Meeting 1* where you give a very short overview of the theory (after the students have already read the written material) and we discuss first steps.
+  - *Meeting 1* where you give a short overview of the theory. It should contain the following aspects:
+    - What is the central phenomenon that is aimed to be explained?
+    - How does a typical study look like that produces the phenomenon?  
+    - An introduction to the theory that aims to explain the phenomenon.  
+    - What is the central literature? (To get an impression of how the narrative theory is presented.)
   - *Meeting 2* where students present intermediate results and can ask questions for clarification.
   - (optional) *Meeting 3*, where students present their results to you.
   - If you enjoy and benefit from the scientific discussion, of course more meetings are possible and welcome.

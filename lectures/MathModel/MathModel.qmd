@@ -1,0 +1,681 @@
+---
+title: "Mathematical Modeling 1"
+subtitle: "Introduction"
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+date: 2024-11-08
+footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+format: 
+  nicetheme-revealjs: 
+    output-ext: slide.html
+  html: default
+revealjs-plugins:
+  - attribution 
+---
+
+```{r setup, include=FALSE}
+# Global chunk options
+knitr::opts_chunk$set(
+  fig.align = "center",   # Center-align figures
+  echo = FALSE,           # Do not display code by default
+  fig.width = 10,          # Default figure width
+  fig.height = 5          # Default figure height
+)
+set_par <- function() {
+  par(cex = 2, cex.main=1.2,  mar = c(4, 4, 1.7, 1))  # Bottom, left, top, right margins
+}
+```
+
+
+
+##
+![](img/How_deep_is_your_love.png){height='450' style='filter: drop-shadow(6px 6px 8px #555555);'}
+
+::: {.fragment}
+::: {.callout-warning title="**Answer: -136.7**"}
+:::
+:::
+
+
+# Step 1: Define variables
+
+## Define variables
+### How deep is your love?
+Define a variable for each construct of the VAST display. These can be *measured* variables or *unmeasured* (mediating) variables. 
+
+You can either refer to an actual measurement procedure or simply define a variable. In both cases you should explicitly define the following properties:
+
+- *variable name* (i.e., to which concept in your VAST display does it refer?),
+- *scale level* (categorical, ordinal, interval scale), 
+- *range* of possible values (e.g., 0 ... 1), 
+- *semantic anchors* (e.g., 0 = "complete absence", 1 = "maximal possible value")
+
+## Define variables
+### Some guiding questions and heuristics
+
+- Type of variable: continuous, dichotomous, ordinal, categorical?
+- Scale level of measurement ([Stevens's typology](https://en.wikipedia.org/wiki/Level_of_measurement)): <br>Nominal &rarr; Ordinal &rarr; Interval &rarr; Ratio
+- Is the variable naturally bounded? On both sides or only one?
+- How can the numbers be interpreted?
+  - Natural/objective scale (e.g. physical distance)
+  - As standardized *z*-scores?
+  - Normalized to a value between 0 and 1? Or rather -1 to 1?
+  - Can we find an empirical or semantic calibration?
+    - Just noticable difference
+    - 100 = "largest realistically imaginable quantity of that variable"
+
+
+
+## {{< fa people-group size=2x >}} Group work (15 min.): Specify variables
+
+::: {.smaller}
+In the Google doc, below your *Construct Source Table*, create a new *Variables Table* with the following columns:
+
+*Example:*
+
+<div class="table-grid smaller">
+| Construct in VAST display              | Shortname   | Type | Range/values | Anchors                                                           |
+| -------------------------------------- | ----------- | ----------- | ------------ | ----------------------------------------------------------------- |
+| Affective tone of instruction          | aff_tone    | Continuous  | [-1; 1]      | -1 = maximally negative<br>0 = neutral<br>+1 = maximally positive |
+| Anxiety                                | anxiety     | Continuous  | [0; 1]       | 0 = no anxiety<br>1 = maximal anxiety                             |
+| Kohlberg's Stages of Moral Development | moral_stage | Ordinal     | {1; 2; 3}    | 1=Pre-conventional<br>2=Conventional<br>3=Post-Conventional       |
+| ...                                    |             | ...         | ...          | ...                                                               |
+</div>
+
+Note: This resembles a **codebook**; but for theoretical variables, not for measured variables.
+As a heuristic, list **all concepts that are not higher-order concepts** (because these usually have no single numerical representation).
+:::
+
+# Step 2: Define functional relationships between variables
+
+## {{< fa people-group size=2x >}} Group work (10 min.)
+### Sketch a first functional relationship on paper
+
+We want to model the following **phenomenon** (a specific version of the bystander effect):
+
+1. Without other people present, the tendency (probability or frequency) that a person helps a victim is high.
+2. The tendency of helping a victim decreases monotonically with the number of other people (bystanders) present.
+3. The tendency of helping a victim never drops to 0.
+
+**Task**: Sketch a first functional relationship that could model this phenomenon. Use the variables you defined in the previous step (including their labels and ranges).
+
+
+
+## Step 2: Define functional relationships between variables
+Every causal path needs to be implemented as a mathematical function, where the dependent variable/output $y$ is a function of the input variable(s) $x_i$.
+
+$y = f(x_1, x_2, ..., x_i)$
+
+This can, for example, be a linear function, $y = \beta_0 + \beta_1x_1$.
+
+## Step 2: Define functional relationships between variables
+### Fixed and free parameters
+
+::: {.smaller}
+$\color{red} y = \color{forestgreen} \beta_0 \color{black} + \color{forestgreen} \beta_1 \color{blue} x$ 
+<br>→ $\color{red} y$ = output variable, $\color{forestgreen} \beta$s = parameters, $\color{blue} x$ = input variable.
+
+Two types of parameters:
+
+- **Fixed parameters**: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).
+- **Free parameters**: Can be adjusted to optimize the fit of the model to data. They are *estimated* from empirical data.
+:::
+
+::: {.callout-note}
+Virtually all parameters (except natural constants) could be imagined as being free. It is a *choice* to fix some of them in order to simplify the model.
+:::
+
+
+
+## Step 2: Define functional relationships between variables
+### Fixed and free parameters
+
+Fixing a parameter:
+
+$\color{forestgreen} \beta_0 \color{black} = 1 \rightarrow \color{red} y = \color{forestgreen} 1 \color{black} + \color{forestgreen} \beta_1 \color{blue} x$ 
+
+That means, the slope $\color{forestgreen} \beta_1$ still can vary, but the intercept is fixed to 1.
+
+::: {.smaller}
+Free parameters give **flexibility** to your function: If you are unsure about the exact relationship between two variables, you can estimate the best-fitting parameters from the data.
+
+For example, sometimes a theory specifies the general functional form of a relationship (e.g., "With increasing $x$, $y$ is monotonously decreasing"), but does not tell how fast this decrease happens, where $y$ starts when $x$ is minimal, etc. These latter decisions are then made by the free parameters. 
+:::
+
+
+## {{< fa people-group size=2x >}} Discussion
+### Sketch a first functional relationship on paper
+
+- Which aspects of your sketched function could be free parameters? Describe them in plain language.
+- Draw a couple of alternative plots that (a) follow the same functional form and (b) also fullfill the criteria of the phenomenon. 
+- What is the semantic meaning of the free parameters?
+
+
+<!-- TODO: Draw a handdrawn sketch of multiple curves. Three free parameters:
+1. Intercept: What is the base probability to help when nobody else is present? (Humans will differ in that probability)
+2. Slope: How fast does the probability decrease with each additional bystander? (Ths is the strength of the bystander effect)
+3. Lower asymptote: What is the minimum probability to help, even if there are many bystanders? (Humans will differ in that probability)
+ -->
+
+
+
+<!-- ChatGPRT /Wolfram Alpha prompt
+
+Create a function that maps values of x (which can go from 0 to infinity) to values of y (which goes from 0 to 1). It should start at a high value of y (this starting point should be free parameter of the function), decreases monotonically, and levels out at a certain value > 0 (which should also be a free parameter). A third free parameter is the speed of the decreasing.
+Provide plots for multiple instances of this function family.
+
+ -->
+
+# Some mathematical tools
+
+## Tool 1: The logistic function family
+
+As a linear function is unbounded, it can easily happen that the computed $y$ exceeds the possible range of values.
+
+If $y$ has defined boundaries (e.g., $[0; 1]$), a logistic function can bound the values between a lower and an upper limit (in the basic logistic function, between 0 and 1):
+
+$y = \frac{1}{1 + e^{-x}}$
+
+```{r}
+set_par()
+
+# Define the logistic function
+logistic <- function(x) {
+  1 / (1 + exp(-x))
+}
+
+# Generate a sequence of x values
+x_values <- seq(-10, 10, by = 0.1)
+
+# Calculate y values using the logistic function
+y_values <- logistic(x_values)
+
+# Create the plot
+plot(x_values, y_values, type = "l", col = "blue", xlab = "x", ylab = "y", yaxt = "n")
+axis(2, at = c(0, 0.5, 1), labels = c("0", "0.5", "1"))
+```
+
+
+
+## Tool 1: The logistic function family
+
+::: {.smaller}
+With the 4PL* model from IRT, you can adjust the functional form to your needs, by:
+
+- shifting the inflection point from left to right (aka. "item difficulty", parameter $d$)
+- change the steepness of the S-shape (aka. "discrimination parameter", parameter $a$)
+- Move the lower asymptote up or down (parameter $min$)
+- Move the upper limit up or down (parameter $max$)
+:::
+
+```{r}
+#| echo: true
+logistic <- function(x, d = 0, a = 1, min = 0, max = 1) {
+ min + (max - min)/(1 + exp(a * (d - x)))
+}
+```
+
+::: footer
+*4PL = 4-parameter logistic model
+:::
+
+
+## Tool 1: The logistic function family
+
+*(basic logistic function as dotted grey line)*
+
+::: {.panel-tabset}
+#### Shift on x-axis
+```{r}
+# Generate a sequence of x values
+x_values <- seq(-5, 5, by = 0.1)
+
+plot(x_values, logistic(x_values, d=2), type = "l", col = "blue", xlab = "x", ylab = "y", ylim=c(0, 1), main="d=2 ('difficulty')")
+abline(v=2, col="red", lty="dashed")
+lines(x_values, logistic(x_values), type = "l", lty="dotted", lwd=1.5, col = "darkgrey", add=TRUE)
+```
+#### Steepness
+```{r}
+plot(x_values, logistic(x_values, a=0.6), type = "l", col = "blue", xlab = "x", ylab = "y", ylim=c(0, 1), main="a=0.6 (blue/flat); a=2 (green/steep)")
+lines(x_values, logistic(x_values, a=2), type = "l", col = "darkgreen", add=TRUE)
+lines(x_values, logistic(x_values), type = "l", lty="dotted", lwd=1.5, col = "darkgrey", add=TRUE)
+```
+#### Lower asymptote
+```{r}
+plot(x_values, logistic(x_values, min=0.2), type = "l", col = "blue", xlab = "x", ylab = "y", ylim=c(0, 1), main="min=0.2")
+lines(x_values, logistic(x_values), type = "l", lty="dotted", lwd=1.5, col = "darkgrey", add=TRUE)
+```
+#### Upper asymptote
+```{r}
+plot(x_values, logistic(x_values, max=0.7), type = "l", col = "blue", xlab = "x", ylab = "y", ylim=c(0, 1), main="max=0.7")
+lines(x_values, logistic(x_values), type = "l", lty="dotted", lwd=1.5, col = "darkgrey", add=TRUE)
+```
+:::
+
+
+
+## Tool 1: The logistic function family
+
+The `d`, `a`, `min`, and `max` parameters can be used to "squeeze" the S-shaped curve into the range of your variables. For example, if your $x$ variable is defined on the range $[0; 1]$, the following function parameters lead to a reasonable shift:
+
+```{r}
+#| echo: false
+#| fig.width: 10
+#| fig.height: 5
+
+par(mfcol=c(1, 2))
+set_par()
+x_values <- seq(0, 1, length.out=100)
+plot(x_values, logistic(x_values, d=0, a=1), type = "l", col = "blue", xlab = "x", ylab = "y", main="Default (d=0, a=1)", xlim=c(0, 1), ylim=c(0, 1), yaxt = "n", xaxt = "n")
+axis(1, at = c(0, 0.5, 1), labels = c("0", "0.5", "1"))
+axis(2, at = c(0, 0.5, 1), labels = c("0", "0.5", "1"))
+
+plot(x_values, logistic(x_values, d=0.5, a=10), type = "l", col = "blue", xlab = "x", ylab = "y", main="d=0.5, a=10", xlim=c(0, 1), ylim=c(0, 1), yaxt = "n", xaxt = "n")
+axis(1, at = c(0, 0.5, 1), labels = c("0", "0.5", "1"))
+axis(2, at = c(0, 0.5, 1), labels = c("0", "0.5", "1"))
+```
+
+## Use the full mathematical toolbox
+
+Of course, the logistic function and the beta distribution are just a start - you can use the full toolbox of mathematical functions to implement your model!
+
+::: {.callout-note}
+These considerations about functional forms, however, are typically not substantiated by psychological theory or background knowledge - at least at the start of a modeling project. We choose them, because we are (a) acquainted to it, and/or (b) they are mathematically convenient and tractable.
+
+Empirical evidence can inform both your choice of the functional form, and, in a model-fitting step, the values of the parameters.
+:::
+
+
+
+# Step 3: Implement the functions in R
+
+## Excursus: Functions in R
+
+- **What is a function?**
+  - A reusable block of code designed to perform a specific task.
+  - Can be an implementation of an actual mathematical function $y = f(x, z)$
+  - But can also be a more complex operation, like reading a file, transforming data, or plotting a graph.
+- **Why use functions?**
+  - **Modularity:** Break down complex problems into manageable parts.
+  - **Reusability:** Write once, use multiple times.
+  - **Maintainability:** Easier to debug and update code.
+
+## Anatomy of an R Function
+
+```{r}
+#| eval: false
+#| echo: true
+# Basic structure of a function
+my_function <- function(arg1, arg2) {
+  # Function body
+  result <- arg1 + arg2
+  return(result)
+}
+```
+::: {.smaller}
+- **Function name:** `my_function`
+- **Parameters:** `arg1`, `arg2`
+- **Body:** Code that defines what the function does
+- **Return value:** return a specific value that has been computed in the function body with `return(return_variable)`. If no explicit `return()` statement is given, the last evaluated expression is returned by default.
+:::
+
+:::: {.columns .fragment}
+::: {.column width='50%'}
+```{r}
+#| eval: false
+#| echo: true
+# use meaningful names
+
+sum <- function(x, y) {
+  S <- x+y
+  return(S)
+}
+```
+:::
+
+::: {.column width='50%'}
+```{r}
+#| eval: false
+#| echo: true
+# short version: the last computation 
+# is returned by default
+
+sum <- function(x, y) {x+y}
+```
+:::
+::::
+
+
+## Creating and Using Your Own Function
+
+1. **Define the Function:**
+
+```{r}
+#| eval: false
+#| echo: true
+get_y <- function(x) {
+  y <- x^2
+  return(y)
+}
+```
+
+1. **Call the Function:**
+
+```{r}
+#| eval: false
+#| echo: true
+y <- get_y(x=2)
+print(y)  # Output: 4
+```
+
+**Tips:**
+
+::: {.smaller}
+- Use meaningful and short names for functions and parameters.
+- Keep functions focused on a single task.
+- Document your functions with comments (ideally with the [`roxygen2`](https://roxygen2.r-lib.org) documentation standard)
+- Atomic functions: Each `R` function implements exactly *one* functional relationship of your model.
+:::
+
+
+## Example with roxygen2 documentation
+
+```{r}
+#| eval: false
+#| echo: true
+
+#' Compute the updated expected anxiety
+#'
+#' The expected anxiety at any given moment is a weighted average of 
+#' the momentary anxiety and the previous expected anxiety.
+#'
+#' @param momentary_anxiety The momentary anxiety, on a scale from 0 to 1
+#' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1
+#' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) 
+#'              and the previous expected anxiety (alpha=0).
+#' @return The updated expected anxiety, as a scalar on a scale from 0 to 1
+
+get_expected_anxiety <- function(momentary_anxiety, previous_expected_anxiety, alpha=0.5) {
+  momentary_anxiety*alpha + previous_expected_anxiety*(1-alpha)
+}
+```
+
+::: {.smallest}
+`roxygen2` comments start with `#'` and are placed directly above the function definition.
+
+- The first line is the **title**
+- The following lines (after a blank line) are the **description**
+- Each **parameter** of the function is documented with `@param parameter_name Description`. Provide the range of possible values if applicable.
+- The **return value** is documented with `@return Description`
+:::
+
+## {{< fa people-group size=2x >}} Exercise: Document our exponential decay function
+
+Check out [roxygen2](https://roxygen2.r-lib.org) and document our exponential decay function with: 
+
+- title
+- description
+- parameters
+- return value.
+
+```{r}
+#| eval: false
+#| echo: true
+get_p_help <- function(NOPB, y_0, y_final, BSE_strength) {
+  p_help <- y_final + (y_0 - y_final) * exp(-BSE_strength * NOPB)
+  return(p_help)
+}
+```
+
+
+
+## {{< fa people-group size=1x >}} Apply everything to reduced model
+
+::: {.smallest}
+1. **Define** all variables of your model in the Variables Table (short name, range, scale level, semantic anchors). Variables
+2. **Categorize**: Which variables are exogenous, which are endogenous?
+   1. Exogenous variables are *not* influenced by other variables in the model.
+   2. Endogenous variables are influenced by other variables in the model.
+3. Every endogenous variable is a **function** of all of their input parameters. 
+   1. Create sensible functional relationships for every endogenous variable.
+   2. Create a 3rd table (below the Construct Source Table and the Variables Table), with all functional relationships. 
+   3. Add a short comment to what extent this functional relationship has been **derived from theory**: 
+      1. Dictated by theory (add IDs from the Construct Source Table as reference)
+      2. Derived from theory
+      3. Loosely inspired by theory
+      4. Not based on focal theory, but rather on common sense or other theories
+   4. Add a short comment to what extent this functional relationship has been backed by empirical evidence.
+4. Implement the functions in `R` with proper `roxygen2` documentation.
+:::
+
+## Step 3: Implement the functions in R
+### Put everything together
+
+Connect all functions to one "super-function", which takes all exogenous variables as input and computes the focal output variable(s).
+
+Test the super-function:
+
+- Enter some reasonable combinations of parameters
+- Draw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis.
+
+
+# Step 4 (Excursus): Fitting the functions to empirical data
+
+## Step 4 (Excursus): Fitting the functions to empirical data
+
+:::: {.columns}
+::: {.column width='60%' .r-fit-text}
+We can tune our free parameters to fit the model as good as possible to empirical data. This is called **model fitting**.
+
+See the [Find-a-fit app](https://shinyapps.org/showapp.php?app=https://shiny.psy.lmu.de/felix/lmfit&by=Felix%20Schönbrodt&title=Find-a-fit!&shorttitle=Find-a-fit!) for an example of a simple linear regression with two parameters (intercept and slope) that are fitted by an optimization algorithm: 
+
+:::
+
+::: {.column width='40%'}
+![](img/Find-a-fit.png){height=40% .ds}
+:::
+:::: 
+
+
+# Step 5: Simulate a full data set
+
+## Step 5: Simulate a full data set
+
+- If your model is deterministic, the same input parameters will always produce exactly the same output.
+- In real data sets, however, we see a huge variability in the output variables. **Where does the variability come from?**
+  
+## Step 5: Simulate a full data set
+
+::: {.smaller}
+
+If we assume that our model is the **true data generating model**, i.e.:
+
+- we modeled all relevant input variables (none is missing) 
+- we got all functional relationships right
+
+**and** we assume that:
+
+- all model parameters are fixed (i.e., identical for all participants - there are no interindividual differences)
+
+... then we still see variability in the output variables. This can come from:
+
+- Participants bring different values in their exogenous variables
+- Measurement error in all measured variables, or probabilistic processes in the system
+:::
+
+## Step 5: Simulate a full data set
+### More interindividual differences
+
+Not every person is identical, so in reality there probably are interindividual differences in all steps:
+
+- in the sensors (i.e., manipulations and perceptions do not work the same for everyone)
+- in the actors (i.e., people differ how internal impulses are translated into overt behavior)
+- Different parameter values in the functional relationships. For example, the individual treatment effect (ITE) could vary between participants.
+
+## Step 5: Simulate a full data set
+### Unexplained variance / random noise
+
+Furthermore, our models are always simplifications of reality. We can never model all relevant variables and all relevant interactions. Therefore there certainly is some **unexplained variability** (aka. random noise) in the system. 
+
+All additional sources of variation could be modeled as a random error term pointing to the final outcome variable:
+
+::: {.svg-h300 style="text-align: center;"}
+```{dot}
+digraph G {
+    // Use neato layout engine to allow manual positioning
+    layout=neato;
+
+    // Nodes with explicit (x, y) positions
+    X [pos="0,0!", shape=box];
+    Y [pos="2,0!", shape=box];
+    // Invisible starting point of empty arrow
+    start [shape=point, style=invis, pos="2,1!"];
+
+
+    // Define edges with one-sided arrows
+    X -> Y [xlabel="c  "];
+    start -> Y [color=red];
+}
+```
+:::
+
+## Step 5: Simulate a full data set
+### How to add interindividual variance
+
+- Assume a specific distribution of all exogenous input variables that participants bring to the experiment. 
+- Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications. 
+- Maybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via *z*-standardization).
+
+
+
+
+## Tool 2: The Distribution Zoo
+
+If you start **simulating** data for your virtual participants, you want to simulate their starting values by drawing random values from a distribution. For example, the virtual participants might differ in their anxiety, which you previously defined on the range $[0; 1]$. 
+
+How can you generate random values that roughly look like a normal distribution, but are bounded to the defined range?
+
+For simulations, it is good to know some basic distributions. Here are three interactive resources for choosing your distribution:
+
+- The [Distribution Zoo](https://ben18785.shinyapps.io/distribution-zoo/) by Ben Lambert and Fergus Cooper
+- The [Probability Distribution Explorer](https://distribution-explorer.github.io/index.html) by Justin Bois
+- [Interactive collection of distributions](https://richarddmorey.github.io/stat-distributions-js/) by Richard Morey
+
+
+
+## Tool 3: The beta distribution
+
+A handy distribution for the $[0; 1]$ range is the [beta distribution](https://en.wikipedia.org/wiki/Beta_distribution). With its two parameters $\alpha$ (also called $a$ or `shape1`) and $\beta$ (also called $b$ or `shape2`), it can take many different forms:
+
+```{r}
+# Note: shape1 is alpha, shape2 is beta
+
+par(mfcol=c(2, 2))
+x_values <- seq(0, 1, length.out=100)
+plot(x_values, dbeta(x_values, shape1=1, shape2=4), type = "l", col = "blue", xlab = "x", ylab = "y", main="a=1, b=4", xlim=c(0, 1), yaxt = "n", xaxt="n")
+axis(side = 1, at = c(0, 0.5, 1), labels = c("0", "0.5", "1"))
+
+plot(x_values, dbeta(x_values, shape1=4, shape2=1), type = "l", col = "blue", xlab = "x", ylab = "y", main="a=4, b=1", xlim=c(0, 1), yaxt = "n", xaxt="n")
+axis(side = 1, at = c(0, 0.5, 1), labels = c("0", "0.5", "1"))
+
+plot(x_values, dbeta(x_values, shape1=8, shape2=3), type = "l", col = "blue", xlab = "x", ylab = "y", main="a=8, b=3", xlim=c(0, 1), yaxt = "n", xaxt="n")
+axis(side = 1, at = c(0, 0.5, 1), labels = c("0", "0.5", "1"))
+
+plot(x_values, dbeta(x_values, shape1=20, shape2=26), type = "l", col = "blue", xlab = "x", ylab = "y", main="a=20, b=26", xlim=c(0, 1), yaxt = "n", xaxt="n")
+axis(side = 1, at = c(0, 0.5, 1), labels = c("0", "0.5", "1"))
+```
+
+
+## Tool 3: The beta distribution
+
+**How to choose $\alpha$ and $\beta$? Asking ChatGPT/Wolfram Alpha for assistance**
+
+Assume that you intuitively started with a normal distribution with $M=0.2$ and $SD=0.1$ (`rnorm(mean=0.2, sd=0.1)`) to simulate your values. But this function can generate values < 0 and > 1. 
+
+How can you achieve a beta distribution that approximates the properties of this normal distribution? You can work out the math yourself (e.g., by looking at the formula for the mean and the variance of the beta distribution) - or you can ask ChatGPT. After all, we only use this function as a tool to get some plausible values.
+
+
+## Tool 3: The beta distribution
+
+::: {.panel-tabset}
+### Prompt (Choose Wolfram Alpha as ChatGPT plugin):
+> "We have a normal distribution with mean=0.2 and SD=0.1. But the results should be bounded on a scale from 0 to 1. Create a beta-distribution that mimics the properties of the described normal distribution."
+
+### Wolfram Alpha answer:
+::: {.smaller}
+> "To mimic the properties of a specified normal distribution (with a mean and standard deviation) using a beta distribution within a bounded interval (in this case, 0 to 1), we need to find the parameters of the beta distribution (alpha $\alpha$ and beta $\beta$) that match the mean and variance of the normal distribution as closely as possible. 
+> 
+>  [snip]
+> 
+> The parameters for the beta distribution that mimic the properties of the described normal distribution (with mean = 0.2 and standard deviation = 0.1, bounded between 0 and 1) are $\alpha = 3$ and $\beta = 12$.
+> 
+> This beta distribution should closely match the shape and spread of the specified normal distribution within the bounds of 0 to 1."
+:::
+:::
+
+
+
+## Tool 3: The beta distribution
+
+You can generate random values in `R` with the `rbeta` function. Here's a comparison of a normal distribution and a matched beta distribution that respects the boundaries $[0; 1]$:
+
+```{r}
+#| echo: true
+#| eval: false
+
+x.random <- rnorm(10000, mean=0.2, sd=0.1)
+hist(x.random, xlab = "x", ylab="", main="Normal distribution (M=0.2, SD=0.1)", xlim=c(-0.3, 1.1))
+
+x.beta <- rbeta(10000, shape1=3, shape2=12)
+hist(x.beta, xlab = "x", ylab="", main="beta distribution (a=3, b=12)", xlim=c(-0.3, 1.1))
+```
+
+
+## Tool 3: The beta distribution
+### Approximating a normal distribution with a beta distibution
+
+```{r}
+#| layout-nrow: 2
+#| layout-ncol: 1
+#| fig-height: 3
+set_par()
+
+hist(rnorm(10000, mean=0.2, sd=0.1), xlab = "x", ylab="", main="Normal distribution (M=0.2, SD=0.1)", yaxt = "n", cex.main = 0.8, xlim=c(-0.3, 1.1), xaxt="n")
+axis(side = 1, at = c(0, 0.5, 1), labels = c("0", "0.5", "1"))
+abline(v=0, col="red")
+abline(v=1, col="red")
+
+hist(rbeta(10000, shape1=3, shape2=12), xlab = "x", ylab="", main="beta distribution (a=3, b=12)", yaxt = "n", cex.main = 0.8, xlim=c(-0.3, 1.1), xaxt="n")
+axis(side = 1, at = c(0, 0.5, 1), labels = c("0", "0.5", "1"))
+abline(v=0, col="red")
+abline(v=1, col="red")
+```
+
+
+
+
+
+## Step 5: Simulate a full data set
+
+Simulate this design, analog to Fischer et al. (2006): "A 2 (bystander: yes vs. no) x 2 (danger: low vs high) factorial design was employed."
+
+![](img/study_to_simulate.png){height=250}
+
+
+- Does the simulated model produce the phenomenon? How large is the effect size?
+- What happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?
+
+
+# Evaluation of the model
+
+## Evaluation of the model
+### When does the formal model produce the phenomenon?
+
+"one could conduct this simulation with very large sample sizes and use a statistical function for an effect size, like Cohen’s d, to express the results. Any effect size that would be detectable with “realistic sample sizes” could then count as production of the statistical pattern and as such be used to evaluate robustness."
+
+<!-- Footer insert below -->
+```{r child="../../common/lastslide.qmd"}
+```

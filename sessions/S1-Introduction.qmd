@@ -14,7 +14,7 @@ description: Intro to theory 1 - First steps in modeling
 | **Lecture**: Introduction: Theory crisis             | 90       | [Slides](../lectures/Intro1/FOMO-Psy_1_Theory_crisis.qmd)                      |
 | Wrap up **[Homework 2]**: Smaldino (2013), Chapter 1 | 15       |                                                                                |
 | Git Tutorial troubleshooting                         | 20       |                                                                                |
-| Mini Introduction VAST                               | 30       | [Slides](../lectures/VAST/VAST.qmd)                                                                 |
+| Mini Introduction VAST                               | 30       | [Slides](../lectures/VAST/VAST_Intro.qmd)                                                                 |
 
 : {.striped}
 
@@ -128,6 +128,7 @@ Then choose the Homework Repository:
 ![](img/S1_drawio_2.png)
 
 Save the diagram with your name as filename (`homework/02-VAST/YOURNAME.drawio`).
+*Additionally*, save the diagram as a `.png` or `.jpg` file in the same folder (`homework/02-VAST/YOURNAME.png`).
 
 For task 4C, save a file with your answers in the same folder (`homework/02-VAST/YOURNAME.md`). Don't forget to `push` everything to the remote repo.
 

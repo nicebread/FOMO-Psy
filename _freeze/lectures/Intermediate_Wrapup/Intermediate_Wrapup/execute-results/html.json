@@ -1,0 +1,15 @@
+{
+  "hash": "01d69e6e243c7c446d257ede2a9a6255",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Intermediate Wrap-up\"\nsubtitle: \"How to construct a formal model from a verbal theory\"\nauthor:\n  - name: Felix Schönbrodt\n    orcid: 0000-0002-8282-3910\n    email: felix.schoenbrodt@psy.lmu.de\n    affiliations: Ludwig-Maximilians-Universität München\ndate: 2023-12-06\ndate-format: iso\nfooter: \"Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München\"\nformat:   \n  nicetheme-revealjs: \n    output-ext: slide.html\n  html: default\nrevealjs-plugins:\n  - attribution \n---\n\n\n\n\n\n\n\n\n\n<!-- Footer insert below -->\n\n\n\n\n\n\n# End\n\n## Contact\n\n<script src=\"https://kit.fontawesome.com/9fb269b0d2.js\" crossorigin=\"anonymous\"></script>\n\n<ul class=\"fa-ul\" style=\"color:black; list-style:none;\">\n\n<li><i class=\"fa-brands fa-li fa-mastodon\"></i> <a href=\"https://scicomm.xyz/@nicebread\" target=\"_blank\" style=\"color:black; border-bottom:none;\">@nicebread@scicomm.xyz</a></li>\n\n<li><i class=\"fa-li fa fa-envelope-o\"></i> <a style=\"unicode-bidi:bidi-override; direction: rtl; color:black\" href=\"javascript:window.location.href = 'mailto:' + ['felix.schoenbrodt','psy.lmu.de'].join('@')\">ed.uml.ysp@tdorbneohcs.xilef</a></li>\n\n<li><i class=\"fa-li fa-solid fa-globe\"></i> <a href=\"https://www.nicebread.de\" target=\"_blank\" style=\"color:black; border-bottom:none;\">https://www.nicebread.de</a></li>\n\n\n<li><i class=\"fa-li fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/nicebread\" target=\"_blank\" style=\"color:black; border-bottom:none;\">https://github.com/nicebread</a></li>\n</ul>\n\n<small style=\"text-align:left;\">\n\n\n[![CC-BY-SA 4.0][cc-by-sa-image]][cc-by-sa]\n\n[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/\n[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png\n[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY%20SA4.0-lightgrey.svg\n\n</small>\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

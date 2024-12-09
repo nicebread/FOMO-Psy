@@ -83,7 +83,7 @@ date-released: '2023-10-30'
 ## Citation File Format schema version 1.2.0
 ### How to create
 
-1. Create an intial version with the [cffinit tool](https://citation-file-format.github.io/cff-initializer-javascript/)
+1. Create an initial version with the [cffinit tool](https://citation-file-format.github.io/cff-initializer-javascript/)
 
 The tool only knows "software" and "data set" as types. Create it with either of these, and then exchange the `message` and `type` fields with: 
  

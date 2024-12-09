@@ -1,0 +1,30 @@
+---
+title: Session 02 - Introduction Theories / Practice VAST
+number-sections: true
+description: Intro to theory 2; Apply VAST to Bystander effect
+---
+
+# Overview
+
+| Topic                                                             | Duration | Notes                                           |
+| ----------------------------------------------------------------- | -------- | ----------------------------------------------- |
+| Homework wrap-up: VAST displays for "diffusion of responsibility" | 45       |                                                 |
+| **Lecture**: "Applying VAST to an existing theory"                | 60       | [Slides](../lectures/VAST/VAST_Application.qmd) |
+| **Workshop**: Formalize the bystander effect theory               | 90       | See Google Drive                                |
+| **[Homework]**: Finalize Bystander VAST in group                  | -        |                                                 |
+
+: {.striped}
+
+# Workshop (in course): Formalize the bystander effect theory
+
+1. Create the Construct Source Table for the Bystander Effect. Use the Google Drive template.
+2. Based on the table, create a VAST display. The goal is an easily understandable display: prioritize understandability over completeness and over a maximally truthful mapping of the original statements. Use as few concepts as possible (but as many as necessary).
+(Why aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that).
+
+
+
+# Homework (as a group): Finalize Bystander VAST
+
+**Deliverables**: 
+- Clean up your Construct Source Table on Google Drive
+- Upload/commit your draw.io VAST display in the [Homework Repository]({{< var homework_repo >}}), subfolder `Bystander_effect`.

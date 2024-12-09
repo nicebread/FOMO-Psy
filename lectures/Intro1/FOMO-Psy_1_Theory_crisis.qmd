@@ -162,9 +162,9 @@ flowchart LR
 ```
 :::
 
-**Phenomena**: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories. In psychology often called "effects" or "findings".
+**Phenomena**: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories. In psychology often called "effects".
 
-**Data**: Relatively direct observations. Refer to *particular* empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).
+**Data**: Relatively direct observations. Refer to *particular* empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona). Also called a "finding".
 
 ::: footer
 See Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. [https://doi.org/10.1177/1745691620969647](https://doi.org/10.1177/1745691620969647)
@@ -301,7 +301,7 @@ See Westfall et al. (2015). Replicating Studies in Which Samples of Participants
 **{{< fa people-group size=2x >}} Questions for discussion (10 min.):**
 
 - Analyse the situation in the UTOS dimensions (units, treatments, outcomes, settings): To which dimensions did the successful replications (not) refer to?
-- Is the "risky shift" finding - as demonstrated in the early publications - a *phenomenon*?
+- Is the "risky shift" effect - as demonstrated in the early publications - a *phenomenon*?
 
 . . . 
 

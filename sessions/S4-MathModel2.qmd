@@ -1,0 +1,59 @@
+---
+title: Session 4 - Mathematical Modeling Part 2
+description: Create all functions for our reduced Bystander Effect Model
+---
+
+# Overview
+
+| Topic                                            | Duration | Notes                                                    |
+| ------------------------------------------------ | -------- | -------------------------------------------------------- |
+| Finalize models in groups; push to repo; present | 40       |                                                          |
+| Formalization: **Mathematical Models 2**         | 90       | [Slides](../lectures/MathModel/MathModel.qmd), Steps 2-3 |
+| **[Homework 1]**: Read TCM paper                 | -        |                                                          |
+
+: {.striped}
+
+
+# Homework (individually) {#sec-homework}
+
+Read:
+
+Borsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647
+
+**Guiding questions**:
+
+#### Question 1: 
+What is the primary goal of the Theory Construction Methodology (TCM) proposed in the article?
+
+<!-- - **Answer:** "The central idea of this article is that to break this theoretical stalemate we need a methodology that organizes the practice of theory formation so that it can be developed, practiced, and taught in psychology. To achieve this aim, in this article, we develop a theory construction methodology (TCM), a method for explanatory theory formation that is designed to assist researchers in the development of theories." (Page 757) -->
+
+---
+
+#### Question 2: 
+List the five sequential steps proposed by TCM for theory construction.
+
+<!-- - **Answer:** 
+  1. Identifying relevant phenomena  
+  2. Formulating a prototheory  
+  3. Developing a formal model  
+  4. Checking the adequacy of the formal model  
+  5. Evaluating the overall worth of the constructed theory (Page 759) -->
+
+---
+
+#### Question 3: 
+According to the article, why is the lack of strong explanatory theories problematic for the field of psychology?
+
+<!-- - **Answer:** 
+  "The lack of explanatory theories in psychology hinders progress in at least three ways. First, it creates the danger of inventing the wheel over and over again because we do not have a good grasp on how different phenomena relate to each other and whether phenomena emerge from the same underlying principles. Second, without strong theories we cannot identify the most effective interventions for changing a system in the desired way. Third, without theories we often do not know where to look when designing new studies." (Page 757) -->
+
+---
+
+#### Question 4: 
+What are the three criteria used to evaluate the explanatory goodness of a theory according to TCM?
+
+<!-- - **Answer:** 
+"Explanatory breadth, analogy, and simplicity. Explanatory breadth refers to the number of phenomena a theory can explain, the criterion of analogy judges the process of analogical reasoning... and the criterion of simplicity assesses the economy of the explanation." (Page 762) -->
+
+
+**Deliverable**: Submit answers to the guiding questions as a plain text/markdown file to the course's Github repo (go to `homework/03-TCM` and upload an `.md` file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. 

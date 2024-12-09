@@ -924,354 +924,172 @@
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#goals",
-    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#goals",
-    "title": "Formal modeling in psychology",
-    "section": "Goals",
-    "text": "Goals\n\n\nLearn skills and tools that aid theory development\n\nTechnical: Git, semantic versioning, Netlogo, …\nConceptual:\n\nVisual Argument Structure Tool (VAST)\nTheory Construction Methodology (TCM)\n\n\nPractice theory formalization with multiple examples\nUnderstand the advantages and barriers of formal modeling\n\nHigh likelihood of “failure”!\n\n“Hacker space” for theory building: We all are learners."
-  },
-  {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#content",
-    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#content",
-    "title": "Formal modeling in psychology",
-    "section": "Content",
-    "text": "Content\nThree types of activities:\n\nLectures: Gain knowledge\nSkills: Learn new tools\nWorkshop: Apply tools and knowledge to a research question\n\nAll slides, homework instructions, etc. are on this website: https://nicebread.github.io/FOMO-Psy/\nAll homework will be submitted to a private Git repo."
-  },
-  {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#formalia-expectations",
-    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#formalia-expectations",
-    "title": "Formal modeling in psychology",
-    "section": "Formalia & Expectations",
-    "text": "Formalia & Expectations\n\n\n9 ECTS credit points\n\n≙ 3 lectures with exam\n≙ 12h expected time investment per week (in person course + homework)\n\nDo your weekly homework\nParticipate actively in the course\nWrite your final report"
-  },
-  {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
-    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
-    "title": "Formal modeling in psychology",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\nAufbau\n\nDa wir keine klassisch empirische Arbeit schreiben, sondern eine Theorie formalisieren, sieht der Aufbau der Hausarbeit etwas anders aus; z.B. so:\n\n\nZielsetzung benennen: Eine bestehende psychologische Theorie zu formalisieren\nKurze Vorstellung der gewählten Theorie\nZentrale Konstrukte der Theorie (Text: Konstrukte auflisten; VAST: Konstrukte definieren)\nIdentifizierung relevanter Phänomene\nFormulierung der (Proto-)Theorie und der Phänomene\nAufstellen eines formalen Modells\nEvaluation des formalen Modells\nDiskussion: Meta-Reflexion\n\n\nMehr Details im Laufe des Seminars. Wir arbeiten bereits im Seminar auf ihre konkrete Hausarbeit hin."
-  },
-  {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
-    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
-    "title": "Formal modeling in psychology",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nWenn Sie in papaja/Rmarkdown/apaquarto schreiben:\n\ndas exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nSchreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\n\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)"
-  },
-  {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-2",
-    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-2",
-    "title": "Formal modeling in psychology",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\nZwei Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2024.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2024.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: yes angeben (siehe Anleitung)\nSie können in apaquarto einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: true angeben (siehe Anleitung)"
-  },
-  {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-3",
-    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-3",
-    "title": "Formal modeling in psychology",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\nBenotung\n\nWer anwesend ist, aktiv mitmacht und eine sinnvolle Hausarbeit abgibt bekommt eine (sehr) gute Note\nEs geht um:\n\ndas Engagement\ndie Auseinandersetzung mit den Tools und der Materie der Theoriebildung\neine kritische Reflexion des Prozesses\n\nWenn die Theorie, die man sich vorgenommen hat, einfach keine Formalisierung hergibt, dann ist das ein Problem der Theorie (und keine Fehlleistung des Studentys). In dem Fall …\n\nreflektieren, warum es nicht funktioniert hat\nwas wäre notwendig gewesen, um weiterzukommen\ndie gemachten Schritte und Hürden dokumentieren"
-  },
-  {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-4",
-    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-4",
-    "title": "Formal modeling in psychology",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\nBewertungsschema (aktueller Entwurf)"
-  },
-  {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-5",
-    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-5",
-    "title": "Formal modeling in psychology",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\nNutzung von KI-Tools (ChatGPT etc.)\n\nKI-Tools sind Realität und können in der wissenschaftlichen Arbeit unterstützend eingesetzt werden. Niels Van Quaquebeke hat eine schöne Übersicht.\nEs muss jedoch klar sein, was die Eigenleistung des/der Studierenden ist, und dass die Verantwortung für den Inhalt der Arbeit beim Autor bzw. der Autorin liegt.\nAm Ende der Hausarbeit müssen Sie entsprechend zwei Erklärungen anhängen:\n\neine Eigenständigkeitserklärung (siehe nächste Folie)\neine ergänzende Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess (siehe übernächste Folie)."
-  },
-  {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-6",
-    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-6",
-    "title": "Formal modeling in psychology",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\nEigenständigkeitserklärung\n\nHiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig und ohne fremde Hilfe verfasst habe. Ich habe keine anderen als die angegebenen Quellen und Hilfsmittel benutzt und alle wörtlich oder sinngemäß übernommenen Stellen als solche kenntlich gemacht.\nOrt, Datum, Unterschrift"
-  },
-  {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
-    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
-    "title": "Formal modeling in psychology",
-    "section": "Nutzung von KI-Tools: Selbsterklärung (deutsch)",
-    "text": "Nutzung von KI-Tools: Selbsterklärung (deutsch)\n\n\nErklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess\nBei der Erstellung dieser Arbeit habe ich folgende/s Tool/s verwendet: [NAME TOOL / DIENST]. Art der Nutzung [bitte ankreuzen]:\n\nVerbesserung der sprachlichen Qualität und Lesbarkeit\nSchreibassistent z.B. zum Erstellen von Inhaltsverzeichnissen, Gliederungen, ersten Sätzen und Absätzen\nAuffinden von relevanten Zitaten, die als solche gekennzeichnet sind\nAuffinden von relevanten wissenschaftlichen Quellen, die als solche gekennzeichnet sind\nÜbersetzung von Zitaten oder Textabschnitten, die als solche gekennzeichnet sind (etwa: „Translated with DeepL“)\nZusammenfassung von Information\nTexttranskription von Audio- oder Videodateien\nErstellen von Bild- oder Videomaterial\nErstellen bzw. verbessern von Programmiercode (bspw. R- oder Python-Code)\nRecherche zu Begriffen\nErstellen von Begriffsdefinitionen\nSonstiges [bitte erläutern]:\n\nNach der Nutzung dieses Tools bzw. Dienstes habe ich den Inhalt überprüft, nach Bedarf bearbeitet und ich übernehme die volle Verantwortung für den Inhalt dieser Arbeit. Ich bestätige, dass diese Arbeit keine längeren Passagen (z.B. Zusammenfassung/Abstract der Arbeit, ganze Absätze im Text) an rein KI-generiertem Text enthält."
-  },
-  {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
-    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
-    "title": "Formal modeling in psychology",
-    "section": "Statement on the use of generative AI and AI-assisted technologies in the writing process",
-    "text": "Statement on the use of generative AI and AI-assisted technologies in the writing process\n\n\nStatement on the use of generative AI and AI-assisted technologies in the writing process\nIn writing this paper, I have used the following tool/s: [NAME TOOL / SERVICE]. I used it for the following purpose/s:\n\nimproving linguistic quality and readability\nwriting assistance e.g. for generating table of contents, outlines, first sentences and paragraphs\nfinding relevant citations (correctly marked as such)\nfinding relevant scientific sources (correctly marked as such)\ntranslation of citations or text passages (correctly marked as such, e.g. “translated with DeepL”)\nsummarizing information\ntranscribing assistance from audio or video\ngenerating or optimizing programming code (e.g. R- or Python-Code)\nresearching terms\ngenerating term definitions\nother [please specify]:\n\n\n\nAfter using this tool or service, I reviewed and edited the content as needed and I take full responsibility for the content of this paper. I certify that this paper does not contain lengthy passages (e.g. summary/abstract, or full paragraphs) of purely AI-generated text."
-  },
-  {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#contact",
-    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#contact",
-    "title": "Formal modeling in psychology",
+    "objectID": "lectures/Intermediate_Wrapup/Intermediate_Wrapup.slide.html#contact",
+    "href": "lectures/Intermediate_Wrapup/Intermediate_Wrapup.slide.html#contact",
+    "title": "Intermediate Wrap-up",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.html",
-    "href": "lectures/Empra-Orga/Empra-Orga.html",
-    "title": "Formal modeling in psychology",
+    "objectID": "lectures/Intermediate_Wrapup/Intermediate_Wrapup.html",
+    "href": "lectures/Intermediate_Wrapup/Intermediate_Wrapup.html",
+    "title": "Intermediate Wrap-up",
     "section": "",
-    "text": "Learn skills and tools that aid theory development\n\nTechnical: Git, semantic versioning, Netlogo, …\nConceptual:\n\nVisual Argument Structure Tool (VAST)\nTheory Construction Methodology (TCM)\n\n\nPractice theory formalization with multiple examples\nUnderstand the advantages and barriers of formal modeling\n\nHigh likelihood of “failure”!\n\n“Hacker space” for theory building: We all are learners."
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.html#goals",
-    "href": "lectures/Empra-Orga/Empra-Orga.html#goals",
-    "title": "Formal modeling in psychology",
+    "objectID": "lectures/Intermediate_Wrapup/Intermediate_Wrapup.html#contact",
+    "href": "lectures/Intermediate_Wrapup/Intermediate_Wrapup.html#contact",
+    "title": "Intermediate Wrap-up",
     "section": "",
-    "text": "Learn skills and tools that aid theory development\n\nTechnical: Git, semantic versioning, Netlogo, …\nConceptual:\n\nVisual Argument Structure Tool (VAST)\nTheory Construction Methodology (TCM)\n\n\nPractice theory formalization with multiple examples\nUnderstand the advantages and barriers of formal modeling\n\nHigh likelihood of “failure”!\n\n“Hacker space” for theory building: We all are learners."
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.html#content",
-    "href": "lectures/Empra-Orga/Empra-Orga.html#content",
-    "title": "Formal modeling in psychology",
-    "section": "Content",
-    "text": "Content\nThree types of activities:\n\nLectures: Gain knowledge\nSkills: Learn new tools\nWorkshop: Apply tools and knowledge to a research question\n\nAll slides, homework instructions, etc. are on this website: https://nicebread.github.io/FOMO-Psy/\nAll homework will be submitted to a private Git repo."
+    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory",
+    "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory",
+    "title": "What are (Not) Theories & Models?",
+    "section": "What is not a theory?",
+    "text": "What is not a theory?\n1. References To Theory Are Not Theory\n(Note: While the following features of a scholarly article do not constitute a theory, they might be important in their own right)\n\n\nA manuscript that Robert Sutton edited had strong data, but all three reviewers emphasized that it had “weak theory” and “poorly motivated hypotheses.” The author responded to these concerns by writing a new introduction that added citations to many papers containing theory and many terms like “psycho-social theory,” “identity theory,” and “social comparison theory.”\nBut it still contained no discussion of what these theories were about and no discussion of the logical arguments why these theories led to the author’s predictions. The result was that this paper contained almost no theory, despite the author’s assertion that much had been added.\n\nSolution:\n\nAuthors need to explicate which concepts and causal arguments are adopted from cited sources and how they are linked to the theory being developed or tested.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.html#formalia-expectations",
-    "href": "lectures/Empra-Orga/Empra-Orga.html#formalia-expectations",
-    "title": "Formal modeling in psychology",
-    "section": "Formalia & Expectations",
-    "text": "Formalia & Expectations\n\n\n9 ECTS credit points\n\n≙ 3 lectures with exam\n≙ 12h expected time investment per week (in person course + homework)\n\nDo your weekly homework\nParticipate actively in the course\nWrite your final report"
+    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-1",
+    "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-1",
+    "title": "What are (Not) Theories & Models?",
+    "section": "What is not a theory?",
+    "text": "What is not a theory?\n2. Data Are Not Theory\n\n\nEmpirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.\nKaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: Data describe which empirical patterns were observed and theory explains why empirical patterns were observed or are expected to be observed.\n\nFurthermore: Theories do not explain data - theories explain phenomena!\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit",
-    "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit",
-    "title": "Formal modeling in psychology",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nAufbau\n\nDa wir keine klassisch empirische Arbeit schreiben, sondern eine Theorie formalisieren, sieht der Aufbau der Hausarbeit etwas anders aus; z.B. so:\n\n\nZielsetzung benennen: Eine bestehende psychologische Theorie zu formalisieren\nKurze Vorstellung der gewählten Theorie\nZentrale Konstrukte der Theorie (Text: Konstrukte auflisten; VAST: Konstrukte definieren)\nIdentifizierung relevanter Phänomene\nFormulierung der (Proto-)Theorie und der Phänomene\nAufstellen eines formalen Modells\nEvaluation des formalen Modells\nDiskussion: Meta-Reflexion\n\n\nMehr Details im Laufe des Seminars. Wir arbeiten bereits im Seminar auf ihre konkrete Hausarbeit hin."
+    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-2",
+    "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-2",
+    "title": "What are (Not) Theories & Models?",
+    "section": "What is not a theory?",
+    "text": "What is not a theory?\n3. Lists of Variables or Constructs Are Not Theory\n\n\nPapers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.\nSuch lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.\n\nLists of constructs (without an explicit definition of their causal relationship) often are called a framework.\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-1",
-    "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-1",
-    "title": "Formal modeling in psychology",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nWenn Sie in papaja/Rmarkdown/apaquarto schreiben:\n\ndas exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nSchreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\n\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)"
+    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-3",
+    "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-3",
+    "title": "What are (Not) Theories & Models?",
+    "section": "What is not a theory?",
+    "text": "What is not a theory?\n4. Diagrams (Alone) Are Not Theory\n\n\n\n\n\n\nThis is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)\n\n\n\n\n\n\n\n\n\n\n\n\nIqbal, S. et al. (2021). https://doi.org/10.3389/fpsyg.2021.620838"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-2",
-    "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-2",
-    "title": "Formal modeling in psychology",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\nZwei Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2024.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2024.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: yes angeben (siehe Anleitung)\nSie können in apaquarto einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: true angeben (siehe Anleitung)"
+    "objectID": "lectures/Intro2/Intro2.slide.html#diagrams-alone-are-not-theory-1",
+    "href": "lectures/Intro2/Intro2.slide.html#diagrams-alone-are-not-theory-1",
+    "title": "What are (Not) Theories & Models?",
+    "section": "4. Diagrams (Alone) Are Not Theory",
+    "text": "4. Diagrams (Alone) Are Not Theory\n\nFigure 1. Holistic wellbeing model for school education.\nNorozi, S. A. (2023). The Nexus of Holistic Wellbeing and School Education: A Literature-Informed Theoretical Framework. Societies, 13(5), 113. https://doi.org/10.3390/soc13050113"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-3",
-    "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-3",
-    "title": "Formal modeling in psychology",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nBenotung\n\nWer anwesend ist, aktiv mitmacht und eine sinnvolle Hausarbeit abgibt bekommt eine (sehr) gute Note\nEs geht um:\n\ndas Engagement\ndie Auseinandersetzung mit den Tools und der Materie der Theoriebildung\neine kritische Reflexion des Prozesses\n\nWenn die Theorie, die man sich vorgenommen hat, einfach keine Formalisierung hergibt, dann ist das ein Problem der Theorie (und keine Fehlleistung des Studentys). In dem Fall …\n\nreflektieren, warum es nicht funktioniert hat\nwas wäre notwendig gewesen, um weiterzukommen\ndie gemachten Schritte und Hürden dokumentieren"
+    "objectID": "lectures/Intro2/Intro2.slide.html#diagrams-alone-are-not-theory-2",
+    "href": "lectures/Intro2/Intro2.slide.html#diagrams-alone-are-not-theory-2",
+    "title": "What are (Not) Theories & Models?",
+    "section": "4. Diagrams (Alone) Are Not Theory",
+    "text": "4. Diagrams (Alone) Are Not Theory\n\n\nCBCB, CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0, via Wikimedia Commons"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-4",
-    "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-4",
-    "title": "Formal modeling in psychology",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nBewertungsschema (aktueller Entwurf)"
+    "objectID": "lectures/Intro2/Intro2.slide.html#diagrams-alone-are-not-theory-3",
+    "href": "lectures/Intro2/Intro2.slide.html#diagrams-alone-are-not-theory-3",
+    "title": "What are (Not) Theories & Models?",
+    "section": "4. Diagrams (Alone) Are Not Theory",
+    "text": "4. Diagrams (Alone) Are Not Theory\n\n\n\n\n\n\nhttp://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-5",
-    "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-5",
-    "title": "Formal modeling in psychology",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nNutzung von KI-Tools (ChatGPT etc.)\n\nKI-Tools sind Realität und können in der wissenschaftlichen Arbeit unterstützend eingesetzt werden. Niels Van Quaquebeke hat eine schöne Übersicht.\nEs muss jedoch klar sein, was die Eigenleistung des/der Studierenden ist, und dass die Verantwortung für den Inhalt der Arbeit beim Autor bzw. der Autorin liegt.\nAm Ende der Hausarbeit müssen Sie entsprechend zwei Erklärungen anhängen:\n\neine Eigenständigkeitserklärung (siehe nächste Folie)\neine ergänzende Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess (siehe übernächste Folie)."
+    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-4",
+    "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-4",
+    "title": "What are (Not) Theories & Models?",
+    "section": "What is not a theory? 4",
+    "text": "What is not a theory? 4\n4. Diagrams (Alone) Are Not Theory\n\n\nDiagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. […]\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\nDiscussion: Are then VAST displays on their own sufficient to constitute a theory?\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-6",
-    "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-6",
-    "title": "Formal modeling in psychology",
-    "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nEigenständigkeitserklärung\n\nHiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig und ohne fremde Hilfe verfasst habe. Ich habe keine anderen als die angegebenen Quellen und Hilfsmittel benutzt und alle wörtlich oder sinngemäß übernommenen Stellen als solche kenntlich gemacht.\nOrt, Datum, Unterschrift"
+    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-5",
+    "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-5",
+    "title": "What are (Not) Theories & Models?",
+    "section": "What is not a theory?",
+    "text": "What is not a theory?\n5. Hypotheses (or Predictions) Are Not Theory.\n\n\nHypotheses can be an important part of a well-crafted conceptual argument. They serve as crucial bridges between theory and data, making explicit how the variables and relationships that follow from a logical argument will be operationalized. […]\nHypotheses do not (and should not) contain logical arguments about why empirical relationships are expected to occur. Hypotheses are concise statements about what is expected to occur, not why it is expected to occur.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
-    "href": "lectures/Empra-Orga/Empra-Orga.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
-    "title": "Formal modeling in psychology",
-    "section": "Nutzung von KI-Tools: Selbsterklärung (deutsch)",
-    "text": "Nutzung von KI-Tools: Selbsterklärung (deutsch)\n\n\nErklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess\nBei der Erstellung dieser Arbeit habe ich folgende/s Tool/s verwendet: [NAME TOOL / DIENST]. Art der Nutzung [bitte ankreuzen]:\n\nVerbesserung der sprachlichen Qualität und Lesbarkeit\nSchreibassistent z.B. zum Erstellen von Inhaltsverzeichnissen, Gliederungen, ersten Sätzen und Absätzen\nAuffinden von relevanten Zitaten, die als solche gekennzeichnet sind\nAuffinden von relevanten wissenschaftlichen Quellen, die als solche gekennzeichnet sind\nÜbersetzung von Zitaten oder Textabschnitten, die als solche gekennzeichnet sind (etwa: „Translated with DeepL“)\nZusammenfassung von Information\nTexttranskription von Audio- oder Videodateien\nErstellen von Bild- oder Videomaterial\nErstellen bzw. verbessern von Programmiercode (bspw. R- oder Python-Code)\nRecherche zu Begriffen\nErstellen von Begriffsdefinitionen\nSonstiges [bitte erläutern]:\n\nNach der Nutzung dieses Tools bzw. Dienstes habe ich den Inhalt überprüft, nach Bedarf bearbeitet und ich übernehme die volle Verantwortung für den Inhalt dieser Arbeit. Ich bestätige, dass diese Arbeit keine längeren Passagen (z.B. Zusammenfassung/Abstract der Arbeit, ganze Absätze im Text) an rein KI-generiertem Text enthält."
+    "objectID": "lectures/Intro2/Intro2.slide.html#theories-as-causal-explanations",
+    "href": "lectures/Intro2/Intro2.slide.html#theories-as-causal-explanations",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Theories as causal explanations",
+    "text": "Theories as causal explanations\n\n“It may be said… that an explanation is not fully adequate unless its explanans […] could have served as a basis for predicting the phenomenon under consideration.\n… not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment”\n\n Hempel & Oppenheim, 1948, (p. 138)\n\n\n\nPredict new (unseen) data\nHave (causal) control through manipulation"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
-    "href": "lectures/Empra-Orga/Empra-Orga.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
-    "title": "Formal modeling in psychology",
-    "section": "Statement on the use of generative AI and AI-assisted technologies in the writing process",
-    "text": "Statement on the use of generative AI and AI-assisted technologies in the writing process\n\n\nStatement on the use of generative AI and AI-assisted technologies in the writing process\nIn writing this paper, I have used the following tool/s: [NAME TOOL / SERVICE]. I used it for the following purpose/s:\n\nimproving linguistic quality and readability\nwriting assistance e.g. for generating table of contents, outlines, first sentences and paragraphs\nfinding relevant citations (correctly marked as such)\nfinding relevant scientific sources (correctly marked as such)\ntranslation of citations or text passages (correctly marked as such, e.g. “translated with DeepL”)\nsummarizing information\ntranscribing assistance from audio or video\ngenerating or optimizing programming code (e.g. R- or Python-Code)\nresearching terms\ngenerating term definitions\nother [please specify]:\n\n\n\nAfter using this tool or service, I reviewed and edited the content as needed and I take full responsibility for the content of this paper. I certify that this paper does not contain lengthy passages (e.g. summary/abstract, or full paragraphs) of purely AI-generated text."
+    "objectID": "lectures/Intro2/Intro2.slide.html#tcm-a-methodology-for-constructing-theories",
+    "href": "lectures/Intro2/Intro2.slide.html#tcm-a-methodology-for-constructing-theories",
+    "title": "What are (Not) Theories & Models?",
+    "section": "TCM: A methodology for constructing theories",
+    "text": "TCM: A methodology for constructing theories\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum). In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nExplanatory Theories are constructed to explain the empirical phenomena that are evidenced by data (i.e., they are the explanans). Explanatory theories can be expressed in terms of a set of linked propositions referring to latent psychological constructs. At least one of these propositions expresses a general principle.\n\n\nSee Borsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
   },
   {
-    "objectID": "lectures/Empra-Orga/Empra-Orga.html#contact",
-    "href": "lectures/Empra-Orga/Empra-Orga.html#contact",
-    "title": "Formal modeling in psychology",
+    "objectID": "lectures/Intro2/Intro2.slide.html#definitions-1",
+    "href": "lectures/Intro2/Intro2.slide.html#definitions-1",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Definitions (1)",
+    "text": "Definitions (1)\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (explanans)\n\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-a-model",
+    "href": "lectures/Intro2/Intro2.slide.html#what-is-a-model",
+    "title": "What are (Not) Theories & Models?",
+    "section": "What is a model?",
+    "text": "What is a model?\nA {formal|mathematical|computational} model is a precise, mathematical or algorithmic representation of the theory’s principles and relationships. It serves as a bridge between abstract theoretical principles and the empirical world.\nSometimes a theory is so highly formalized that it is virtually identical to a model of it. But more often, there is a gap between theory and implemented models: We need more assumptions to implement a model in computer code. In this case, multiple models can satisfy the axioms and constraints of a theory."
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models",
+    "href": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Explicating a verbal theory into formal model(s)",
+    "text": "Explicating a verbal theory into formal model(s)\nExample: van Dongen et al (2023) on Ego Depletion\n\n\nThe regulatory resource theory pertains to self-control: cognitive processes that inhibit and suppress immediate thoughts, impulses, expression of emotions, and behaviors that deviate from standards or goals.\nThe theory postulates that one’s ability for self-control depends on a finite resource: a stored supply of energy, for which some use the term willpower. Every act of self-control reduces the amount of willpower, so that one’s ability to inhibit or suppress the next unwanted impulse is diminished\nThe theory is said to explain the phenomenon of ego depletion: people perform worse on a task that requires self-control, right after having done something else that used this resource.\n\n\n\nAbridged from van Dongen et al. (2022). Improving psychological explanations. PsyArXiv. https://doi.org/10.31234/osf.io/qd69g"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models-1",
+    "href": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models-1",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Explicating a verbal theory into formal model(s)",
+    "text": "Explicating a verbal theory into formal model(s)\nKey theoretical principles of the verbal theory\n\n\nthere is a domain-general “resource” called willpower (\\(W\\))\ntasks requiring willpower deplete this resource (e.g., a task that requires self-control depletes the resource, but a task that requires no self-control does not), and\nthe resource is replenished at some rate after the task ends.\n\n\n\nTo these, we add the following auxiliary assumptions:\n\nwillpower \\(W\\) is a positive valued quantitative variable (\\(W \\in \\mathbb{R}^{+}\\))\nwillpower changes continuously in time, and\nwillpower has a default value when at rest ( i.e., when there is no task that requires willpower; \\(W^r\\)).\n\n\n\nvan Dongen et al. (2022). https://doi.org/10.31234/osf.io/qd69g"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models-2",
+    "href": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models-2",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Explicating a verbal theory into formal model(s)",
+    "text": "Explicating a verbal theory into formal model(s)\nMultiple possible implementations\n\nThe theoretical key principles are not precise enough yet to program an implementation - e.g.: Is the decrease of the resouce linear or curved? How fast does the resource recover under rest?\nThese additional auxiliary assumptions (which are not in the core of the theory) can lead to very different possible implementations - all of which are compatible with the theory:\n\n\n\n\n\n\n\n\n\n\nhttps://github.com/jmbh/explanationpaper"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-a-computational-model",
+    "href": "lectures/Intro2/Intro2.slide.html#what-is-a-computational-model",
+    "title": "What are (Not) Theories & Models?",
+    "section": "What is a computational model?",
+    "text": "What is a computational model?\nA model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms input variables into output variables (the dependent variables). The formulas that compute the output contain parameters."
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#what-are-explanations",
+    "href": "lectures/Intro2/Intro2.slide.html#what-are-explanations",
+    "title": "What are (Not) Theories & Models?",
+    "section": "What are explanations?",
+    "text": "What are explanations?\nWith the definition of explanatory theories and formal models, a definition of explanations can be proposed:\n\n“Theory T putatively explains phenomenon P” means:\n“if the world were as T says it is, P would follow as a matter of course.”\nAlthough this notion of explanation is arguably incomplete, it has the advantages of being close to the commonsense understanding of the concept and being easy to implement in a formal model—namely by creating a virtual world in which theory T is true and showing that this world will indeed produce phenomenon P.\n\n\nCharles S. Peirce (1931, p. 185); Borsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#understandability-of-explanations",
+    "href": "lectures/Intro2/Intro2.slide.html#understandability-of-explanations",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Understandability of explanations",
+    "text": "Understandability of explanations\nFarrell & Lewandowsky (2018), referring to Trout (2007), emphasize the understandability of explanations:\n\n\nExplanations can “be epistemically valuable only if we could, implicitly or explicitly, understand them. As a result, explanation must maintain some contact with our psychological powers of understanding” (Trout, 2007, p. 565)\n“an explanation that cannot be understood is not an explanation”\n“some facts of the universe may remain irreducibly mysterious to humans - not because explanations do not exist in principle but because they cannot be humanly understood and hence cannot be formulated”\n“models in psychology benefit from simplifying the reality they seek to explain even though this simplification would likely render the model wrong. At the risk of being provocative, we would even argue that models are useful only because they are wrong.” (cf. von Uexküll!)\n\n\n\nFarrell, S., & Lewandowsky, S. (2018). Computational Modeling of Cognition and Behavior. Cambridge University Press, Chapter 3. https://doi.org/10.1017/CBO9781316272503"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#definitions-2",
+    "href": "lectures/Intro2/Intro2.slide.html#definitions-2",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Definitions (2)",
+    "text": "Definitions (2)\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character.\n\n\n\n\n\n\n\n\n\nWhat is a formal model?\n\n\nA formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory and the model are sufficiently accurate.\n\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647; van Dongen et al. (2023). https://doi.org/10.31234/osf.io/qd69g"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#contact",
+    "href": "lectures/Intro2/Intro2.slide.html#contact",
+    "title": "What are (Not) Theories & Models?",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
-  },
-  {
-    "objectID": "sessions/sessions_overview.html",
-    "href": "sessions/sessions_overview.html",
-    "title": "Overview of sessions",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\nSession 02 - Introduction Theories / Practice VAST\n\n\nIntro to theory 2; Apply VAST to Bystander effect\n\n\n\n\nSession 3 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\nSession 4 - Mathematical Modeling Part 2\n\n\nCreate all functions for our reduced Bystander Effect Model\n\n\n\n\nSession 5 - Mathematical Modeling Part 3\n\n\nConsensus model\n\n\n\n\nSession 6 - Mathematical Modeling Part 4\n\n\nEmpirical calibration + simulated experiments\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "sessions/S2-VAST.html",
-    "href": "sessions/S2-VAST.html",
-    "title": "Session 02 - Introduction Theories / Practice VAST",
-    "section": "",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: VAST displays for “diffusion of responsibility”\n45\n\n\n\nLecture: “Applying VAST to an existing theory”\n60\nSlides\n\n\nWorkshop: Formalize the bystander effect theory\n90\nSee Google Drive\n\n\n[Homework]: Finalize Bystander VAST in group\n-\n\n\n\n\n\n\n2 Workshop (in course): Formalize the bystander effect theory\n\nCreate the Construct Source Table for the Bystander Effect. Use the Google Drive template.\nBased on the table, create a VAST display. The goal is an easily understandable display: prioritize understandability over completeness and over a maximally truthful mapping of the original statements. Use as few concepts as possible (but as many as necessary). (Why aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that).\n\n\n\n3 Homework (as a group): Finalize Bystander VAST\nDeliverables: - Clean up your Construct Source Table on Google Drive - Upload/commit your draw.io VAST display in the Homework Repository, subfolder Bystander_effect."
-  },
-  {
-    "objectID": "sessions/S3-MathModel1.html",
-    "href": "sessions/S3-MathModel1.html",
-    "title": "Session 3 - The first mathematical model",
-    "section": "",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in group\n20\n\n\n\nPresent and discuss solutions\n60\n\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, Steps 1 & 2\n\n\nHomework 1: Create new version of VAST\n\n\n\n\n\n\n\n2 Homework (in groups)\n\nWe extend the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the explanatory target is (a) the “classical” bystander effect and (b) the reduction of the bystander effect in dangerous situations (i.e., the dangerousness of situation is a moderator of the bystander main effect).\nAt the same time we reduce the VAST display by cutting all elements that are not relevant for this specific explanation.\n\nWe cut the “Five-step process model”\nFrom the three potential processes we only keep diffusion of responsibility (and ignore pluralistic ignorance and evaluation apprehension).\n\n\nIn other words, we try to build a minimal model that explains our explanatory target.\nThe additional theoretical explanation can be found in Fischer et al., p. 520-521. These are the relevant paragraphs:\n\n“[…] the most noteworthy tendency in recent research is that the bystander effect often does not occur when the emergency is a dangerous one or when the bystanders are highly competent. The classic bystander research regarded present bystanders as”something negative,” which reduces the probability of prosocial intervention. On the basis of the review of the more recent literature, we suspect that this perspective is not always correct. Bystanders can act as a positive source of physical support in case a focal person is in the process of deciding whether to intervene in a critical situation (especially when they are perceived as competent bystanders). The present meta-analysis allows us to systematically examine the possibility of a non-inhibiting (non-negative) bystander effect. In the following, we further explore this theoretical idea. We explain why we expect that dangerous emergencies are associated with a reduced magnitude of the bystander effect.”\nIf one is to intervene in a dangerous emergency, one may have to fear negative physical consequences. A perpetrator may not only attack the victim but also the intervener. In that case, additional bystanders may provide support in defeating a potential perpetrator. […] To conclude, we expect that high-danger emergencies increase the focal bystander’s fear that he or she will be attacked or injured in case of intervention. However, if other bystanders are present, they are recognized as a source of physical support, which mitigates against the traditional bystander effect. Note that we do not expect a complete disappearance of the bystander effect in dangerous emergencies. Instead, we expect that it substantially declines because of the fact that many dangerous emergency situations can only be resolved by a group.\nThus, we expect that it is mainly increased danger to the focal bystander that reduces the bystander effect, but not increased danger to the victim (which can be completely distinct from danger of intervention). […] In other words, if bystanders experience increased danger to themselves in case of intervention, they look for other bystanders to help them to intervene (e,g,, to overpower a fierce perpetrator), which should finally reduce diffusion of responsibility and thus also attenuate the magnitude of the bystander effect (because bystanders acknowledge that they can only resolve the dangerous situation by cooperation in a group).\n\nDeliverable: Create a new draw.io VAST display with the extended and reduced theory. Push the file to the homework repository in the folder Bystander_effect."
-  },
-  {
-    "objectID": "sessions/S6-MathModel4.html",
-    "href": "sessions/S6-MathModel4.html",
-    "title": "Session 6 - Mathematical Modeling Part 4",
-    "section": "",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrapup: TCM\n20\n\n\n\nLecture: Intro 2: What is (not) a theory? (catch up from last session)\n60\nSlides\n\n\nFormalization: Mathematical Models 3\n60\nSlides, Steps 4-5\n\n\nIn groups: Simulate experiments\n60\n\n\n\n\nWe calibrate our model with empirical data from:\nLatané, B., & Nida, S. (1981). Ten years of research on group size and helping. Psychological Bulletin, 89(2), 308–324. https://doi.org/10.1037/0033-2909.89.2.308\n\n\n2 Homework"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This is material for the course “P19 Empirisch-psychologisches Praktikum” at the Ludwig-Maximilians-Universität München. The course is given in the winter term 2023/24 by Prof. Dr. Felix Schönbrodt."
-  },
-  {
-    "objectID": "tools.html",
-    "href": "tools.html",
-    "title": "Thinking Tools for building theories",
-    "section": "",
-    "text": "The following tools can help to build a model collaboratively. They are ordered in increasing complexity and versatility:"
-  },
-  {
-    "objectID": "tools.html#participatory-system-mapper-prsm",
-    "href": "tools.html#participatory-system-mapper-prsm",
-    "title": "Thinking Tools for building theories",
-    "section": "Participatory System Mapper (PRSM)",
-    "text": "Participatory System Mapper (PRSM)\nThe Participatory System Mapper (PRSM) is a free, open-source and secure tool for mind-mapping and system visualisation. It’s only for drawing stuff, not for simulating data.\nPro: No login needed.\nCon: It only supports Mason diagrams, not Bischof diagrams (where arrows are variables).\n🤓 ▶️ Tutorial webinar (1h).\n ✅ This format is trackable in git. You can export the graph in two text file representations (.gv and .gml files). Both are relatively well human-readable."
-  },
-  {
-    "objectID": "tools.html#draw.io",
-    "href": "tools.html#draw.io",
-    "title": "Thinking Tools for building theories",
-    "section": "Draw.io",
-    "text": "Draw.io\nhttps://app.diagrams.net\nPro: No login needed. Open Source.\nCon: Needs Google Drive for collaborative editing.\n🤓 ▶️ TODO.\n ✅ This format is trackable in git. You can export the graph as .xml file (Datei → Exportieren als → XML…). This file is, however, not very human-readable."
-  },
-  {
-    "objectID": "tools.html#loopy",
-    "href": "tools.html#loopy",
-    "title": "Thinking Tools for building theories",
-    "section": "Loopy",
-    "text": "Loopy\nLoopy is an intuitive open source tool created by Nicky Case. With Loopy, you can build (and simulate) dynamic systems simply by drawing nodes and arrows with your mouse. It is great for quick prototyping and testing, but does not allow specific functional relationships or data export of the simulations.\n🤓 ▶️ Short tutorial (6 min.)\n ✅ This format is trackable in git. You can export a text file representation of the model. This is, however, not very human-readable."
-  },
-  {
-    "objectID": "tools.html#insight-maker",
-    "href": "tools.html#insight-maker",
-    "title": "Thinking Tools for building theories",
-    "section": "Insight Maker",
-    "text": "Insight Maker\nInsight Maker is a free tool that allows to build system dynamics models and agent-based models in the browser, simulate data, and to share the models with others.\n🤓 ▶️ Collection of short tutorial clips (~35 min. overall).\n ❌ This format is not trackable in git. I could not find a way to export the model as a text file (or any local file format)."
-  },
-  {
-    "objectID": "tools.html#netlogo",
-    "href": "tools.html#netlogo",
-    "title": "Thinking Tools for building theories",
-    "section": "Netlogo",
-    "text": "Netlogo\nNetLogo is the classical tool for agent-based modeling. Being there since 1999, it has the charm of early-days internet software, but offers the most functions and flexibility. It has an open license, is still actively maintained, and is probably the best way for exploring ABMs with quick results and less frustrations. Netlogo has its own programming language, which is easy to learn. The model library gives a head-start for your own ideas.\n🤓 ▶️ Free, self-paced online course with several short videos (total video material ~2h; in addition, one can do quizzes and “homework” that can be compared to solutions).\n ✅ This format is trackable in git. You can export a text file representation of the model as .nlogo files. This contains the actual code (from Netlogo’s “Code” pane) on the top, followed by code describing the “Interface” and the “Info” pane (i.e., locations and properties of sliders, buttons, etc.)."
-  },
-  {
-    "objectID": "orga_material/instructions_before_course.html",
-    "href": "orga_material/instructions_before_course.html",
-    "title": "Instructions before course",
-    "section": "",
-    "text": "Liebe Studierende,\nich freue mich schon auf unser Empra zur formalen Modellierung psychologischer Theorien. Hier kommen einige Hinweise für den Start:\n\nIch würde gerne den Start von 8:15 auf 8:30 verlegen. Die Sitzung geht dann in der Regel bis 12:00.\nWir werden in fast jeder Sitzung am Computer arbeiten - z.B. Code schreiben, Diagramme zeichnen, oder Dateien in git einchecken. Daher wäre es gut, wenn Sie, wenn möglich, immer ihren Laptop mitbringen. Wenn Sie keinen Laptop haben, können Sie auch bei Kommilitonen reinschauen und im “pair programming” Modus arbeiten.\nWenn das letzte Programmieren in R schon etwas länger her ist, frischen Sie gerne vorab Ihre Kenntnisse auf. Das Empra wird keine Auffrischung in R beinhalten. Hier sind einige Ressourcen:\n\nDie neuen R-Tutorials aus Statistik 1: Teil 1 - Grundlagen und Teil 2 - Workflows bei der Arbeit mit Datensätzen\nMoodle Kurs “R Tutorials”. Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR\nYouTube-Video: “Want to learn R (#rstats) in 4 hours with NO programming experience?”\nhttps://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf (12 page PDF document)\nhttps://github.com/jobreu/r-intro-gesis-2021 (5 day course: slides & exercises)\n\nDas bedeutet nicht, dass Sie all diese Ressourcen durcharbeiten müssen. Wenn Sie auf dem Stand der beiden R-Tutorials (siehe 3.1) sind, sind Sie hinreichend vorbereitet.\nDie Kommunikation wird ab jetzt über den Moodle-Kurs laufen. Der Einschreibeschlüssel lautet: “theorie”. Bitte schreiben Sie sich schon zeitnah ein; ich verschicke ab jetzt die Emails über den Kurs.\nDas Kursmaterial wird sich alles auf Github finden: https://nicebread.github.io/FOMO-Psy/. Im Moment befindet sich dort noch das alte Material; ich baue das gerade substantiell um. Aber dann haben Sie schon mal den Link.\n\nDann sehen wir uns am Freitag, 18.10.24, um 8:30 in Raum 1407 zur ersten Sitzung! Bei Fragen können Sie sich gerne auch vorab schon bei mir melden.\nViele Grüße, Felix Schönbrodt"
-  },
-  {
-    "objectID": "orga_material/course_announcement.html",
-    "href": "orga_material/course_announcement.html",
-    "title": "Course announcement",
-    "section": "",
-    "text": "Im Empirisch-psychologischen Praktikum “Formale Modellierung in der Psychologie” tauchen die Studierenden in die Welt der quantitativen Darstellung psychologischer Theorien ein. Dabei geht es nicht um die quantitative Auswertung von Daten mit Hilfe statistischer Modelle, sondern um Theorien und datengenerierende Modelle, die so präzise sind, dass man konkrete Daten vorhersagen kann.\nAls eine Reaktion auf die Replikationskrise wurde der Ruf nach besseren Theorien laut, mit dem Ziel, verbale und konzeptionelle Theorien in formale, mathematische Modelle zu übersetzen. Diese Modelle dienen mehreren Zwecken: Sie ermöglichen eine rigorose Prüfung von Hypothesen, bieten klarere Vorhersagen und bilden einen Rahmen, um scheinbar disparate Ergebnisse zu vereinheitlichen. Außerdem schärfen sie den Blick auf “Leerstellen” in den meist hoffnungslos unterspezifizierten Theorien in der Psychologie.\nIn diesem Kurs werden die Studierenden in die grundlegenden Prinzipien der formalen Modellierung und ihre verschiedenen Varianten eingeführt (z.B. mathematische Modelle, Regelkreismodelle, agentenbasierte Modelle) und mit den Werkzeugen ausgestattet, die sie benötigen, um aus vorhandenen verbalen Theorien Modelle abzuleiten. Entsprechend werden wir uns viel mit der Implementierung in Programmiersprachen befassen. Wir werden dabei vermutlich viel in R programmieren, ggf. auch in NetLogo (für ABMs).\nWir werden versuchen, kollaborativ verbale psychologische Theorien soweit zu formalisieren, dass man sie in ein datengenerierendes Modell übersetzen und implementieren kann, um die generierten Daten dann zur Prüfung mit echten Daten zu vergleichen.\nWir werden Aspekte der Qualitätssicherung bei diesem Forschungsaspekt diskutieren und anwenden (Reproduzierbarkeit, Versionskontrolle, Sensitivitätsanalysen, gut dokumentierter Code / unit testing).\nDas Empra stellt etwas höhere Anforderungen an mathematisches und formales Denken, sowie ihre Programmierfähigkeit. Als Minimum werden die R-Kenntnisse vorausgesetzt, die im Rahmen der Seminare zu Statistik 1 und 2 gelehrt wurden, sowie die Bereitschaft, sich auch selbständig (anhand von bereitgestelltem Material) in Themen der Programmierung einzuarbeiten."
-  },
-  {
-    "objectID": "orga_material/call_for_submissions.html",
-    "href": "orga_material/call_for_submissions.html",
-    "title": "Call for theory submissions",
-    "section": "",
-    "text": "This is the email I sent to the colleagues in my department:\n\nSubject: We formalize your theory!\n\nBody:\nDear colleagues,\nthis semester, we want to explore something new. In my upcoming Empra (for 5th semester students), the participants get acquainted with formal modeling of psychological theories. The goal is to develop a mathematical or agent-based model of a verbal theory. In this project, …\n\nthe central phenomena are listed (What is to be explained?)\nthe verbal theory is explicated, and\na theory formalization is attempted (in a way that data can be simulated from the model).\n\nWe wanted to ask you - the colleagues in the department - if you want to submit a theory for this exercise.\nHere are some FAQs:\n\nWhat theory would be a good fit?\n\nA theory that is sufficiently precise and has a defined and not too large scope\nIts core premises are formulated in a clear and concise form on a few pages.\nThere doesn’t exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).\n\n\n\nWhat theory would not be a good fit?\n\nYou need to read three books to understand the theory.\nThe “all-encompassing theory of human nature”\nYou need a lot of expert input and judgement to fill in the gaps of the underspecified theory.\nYou need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.\n\n\n\nBut don’t the students lack domain knowledge?\nIn an ideal world, theories are so well specified that they can be formalized without further expert opinions. But as this is unrealistic in psychology, we need your input (see next question).\n\n\nWhat is my necessary commitment?\n\nProvide the written material for the theory.\nTwo or three meetings (each lasting ~2h) during the Empra’s teaching hours (XXX):\n\nMeeting 1 where you give a short overview of the theory. It should contain the following aspects:\n\nWhat is the central phenomenon that is aimed to be explained?\nHow does a typical study look like that produces the phenomenon?\n\nAn introduction to the theory that aims to explain the phenomenon.\n\nWhat is the central literature? (To get an impression of how the narrative theory is presented.)\n\nMeeting 2 where students present intermediate results and can ask questions for clarification.\n(optional) Meeting 3, where students present their results to you.\nIf you enjoy and benefit from the scientific discussion, of course more meetings are possible and welcome.\n\n\n\n\nWhat happens with the results?\nThe created models will be published with a CC-BY license. That means, you can reuse everything with a proper citation. If the models are really helpful (and more than just a vague inspiration for further work), we can think about a follow-up collaboration and write-up (where collaboration and co-authorship is offered to the student creators of the model).\n\n\nThe procedure would be as follows:\n\nWe collect candidate theories for formalization until 30.10.2023.\nWe screen all submissions and select one or two theories (depending on their complexity).\nIf your theory is selected, we will meet:\n\nFor the introductory meeting (xx.xx.2023, ~2h)\nFor the intermediate meeting (xx.xx.2024, ~2h)\nFor the results presentation (xx.xx.2024, ~2h)\n\n\nIf you want to participate, please send an email to xxx by xx.xx.2023, containing a short description of the theory (max. 200 words) and a link to a central paper describing the theory. It can be “your” theory, or an existing theory that you work with.\nA final caveat: We are aware that this collaboration requires a non-negligible time investment from you. At the same time, this is highly experimental and we cannot promise any success or even progress. But in any case we expect good scientific discussions and are convinced that the exercise is fruitful for all parties.\nIf you have any questions, drop me an email.\n\nHere are some (anonymized) reactions I got:\n\n“EPIC!”\n“A very good idea. Just trying it would fulfil my heart’s desire”\n\nAt the end, 3 theories got submitted. We discussed them and selected 1 of them, mostly based on feasibility and personal interest. (Formalizing more than 1 theory would have been impossible in the time frame of the course)."
-  },
-  {
-    "objectID": "orga_material/orga_material.html",
-    "href": "orga_material/orga_material.html",
-    "title": "Organizational Material",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nAug 1, 2023\n\n\nCourse announcement\n\n\nAnnouncement in the university’s course management system\n\n\n\n\nSep 16, 2023\n\n\nCall for theory submissions\n\n\nThis is the email I sent to the colleagues in my department, asking for the submission of theories for the formalization exercise.\n\n\n\n\nOct 15, 2024\n\n\nInstructions before course\n\n\nSome instructions for students before the course starts\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
-    "section": "",
-    "text": "Note: The material will (initially) be some mixture of German and English. Your mileage may vary.\nThe course has 14 sessions, each lasting 3.5h. In between sessions, homework is given."
-  },
-  {
-    "objectID": "index.html#modeling-methodology",
-    "href": "index.html#modeling-methodology",
-    "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
-    "section": "Modeling methodology",
-    "text": "Modeling methodology\n\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nGuest, O., & Martin, A. E. (2021). How Computational Modeling Can Force Theory Building in Psychological Science. Perspectives on Psychological Science, 16(4), 789–802. https://doi.org/10.1177/1745691620970585\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://doi.org/10.15626/MP.2021.2911\nWilson, R. C., & Collins, A. G. (2019). Ten simple rules for the computational modeling of behavioral data. ELife, 8, e49547. https://doi.org/10.7554/eLife.49547"
-  },
-  {
-    "objectID": "index.html#about-theories",
-    "href": "index.html#about-theories",
-    "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
-    "section": "About theories",
-    "text": "About theories\n\nGlöckner, A., Fiedler, S., & Renkewitz, F. (2018). Belastbare und effiziente Wissenschaft: Strategische Ausrichtung von Forschungsprozessen als Weg aus der Replikationskrise. Psychologische Rundschau, 69(1), 22–36. https://doi.org/10.1026/0033-3042/a000384\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2\nVan Dongen, N., Van Bork, R., Finnemann, A., Haslbeck, J. M. B., Van Der Maas, H. L. J., Robinaugh, D. J., De Ron, J., Sprenger, J., & Borsboom, D. (2024). Productive explanation: A framework for evaluating explanations in psychological science. Psychological Review. https://doi.org/10.1037/rev0000479\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nSutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
-  },
-  {
-    "objectID": "common/lastslide.html",
-    "href": "common/lastslide.html",
-    "title": "End",
-    "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
-  },
-  {
-    "objectID": "common/lastslide.html#contact",
-    "href": "common/lastslide.html#contact",
-    "title": "End",
-    "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
-  },
-  {
-    "objectID": "sessions/S1-Introduction.html",
-    "href": "sessions/S1-Introduction.html",
-    "title": "Session 01 - Introduction",
-    "section": "",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nInstructor introduction\n\n\nIntroduction of students in the plenum\n15\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nLecture: Introduction: Theory crisis\n90\nSlides\n\n\nWrap up [Homework 2]: Smaldino (2013), Chapter 1\n15\n\n\n\nGit Tutorial troubleshooting\n20\n\n\n\nMini Introduction VAST\n30\nSlides\n\n\n\n\n\nHomework 1 (individually)\nGoals: Learn how to pull, commit, and push to Github. Be able to resolve a merge conflict.\n\nCreate a Github account. (Skip if you have one already).\nSend your Github user name to me via email. I will give you access to the course’s private Homework Repository: https://github.com/nicebread/FOMO-homework_2024. (Note: You won’t be able to access, clone, or even see the repository until the lecturer has granted you access).\n\nIf you are proficient in git, you can skip step 3:\n\nDo the tutorial “Introduction to Version Control in R with RStudio, Git, and Github”, and complete the follow-up tutorial “Collaborative coding with GitHub and RStudio”. Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.\nOnce you have been granted access to the Homework Repository, clone the repository to your local machine. (This cannot be done on an iPad or smartphone; you need a computer for that.)\n\nDeliverable:\nPush your answer from Homework 2 (see below) to the folder homework/01-Smaldino-chapter of the remote repository (i.e., first save your file locally in the respective folder, then commit and push).\n\n\nHomework 2 (individually)\nDownload Chapter 1 of Paul Smaldino’s Book “Modeling Social Behavior: Mathematical and Agent-Based Models of Social Dynamics and Cultural Evolution”. Read the chapter and answer the following guiding questions:\n\nA typical criticism of formal models is: “You baked your results into the model, so the conclusions are trivial”. What could you answer to such a statement?\n\n\n\nWhat is done in a “decomposition”?\n\n\n\nWhat question should guide the decomposition?\n\n\n\nWhat is, according to Smaldino, the key difference between exact and inexact sciences?\n\n\n\nName the two types of models that typically are employed in social sciences.\n\n\nDeliverable: Submit answers to the guiding questions as a plain text or markdown file to the course’s Homework Repository:\n\nNavigate to /homework/01-Smaldino-chapter (After you cloned the repository in Homework 1, you should have that folder somewhere on your local machine.)\nAdd your answers as .txt or .md file with your first name as filename (e.g., “Heinz-Ruediger.md”)\ncommit and push\n(To verify your submission: If you go to the website of the repository, you should see your file in the folder 01-Smaldino-chapter.)\n\nYou can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\nUsing git for the first time can be challenging. But it’s a skill that will pay off in the long run. If you get stuck, and made honest attempts to solve the problems yourself, don’t get desperate: Just send me your homework via email, and we will sort it out together in the next session.\n\n\nHomework 3 (individually): Read the VAST paper\nRead the VAST paper:\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://open.lnu.se/index.php/metapsychology/article/view/2911\nDeliverable: Nothing - just read it and understand it.\n\n\nHomework 4 (individually): Your first (mini) VAST display\nThis homework consists of three steps, A, B, and C:\n\nRead the original definition of the concept “diffusion of responsibility”, printed below. Darley and Latané introduced the term in 1968, it’s even in the title of the publication: “Bystander intervention in emergencies: Diffusion of responsibility.”\n\nThese are the paragraphs that describe the concept (p. 377f):\n\n[After introducing the case of Kitty Genovese:] “In certain circumstances, the norms favoring intervention may be weakened, leading bystanders to resolve the conflict in the direction of nonintervention. One of these circumstances may be the presence of other onlookers. For example, in the case above, each observer, by seeing lights and figures in other apartment house windows, knew that others were also watching. However, there was no way to tell how the other observers were reacting. These two facts provide several reasons why any individual may have delayed or failed to help. The responsibility for helping was diffused among the observers; there was also diffusion of any potential blame for not taking action; and finally, it was possible that somebody, unperceived, had already initiated helping action.\nWhen only one bystander is present in an emergency, if help is to come, it must come from him. Although he may choose to ignore it (out of concern for his personal safety, or desires “not to get involved”), any pressure to intervene focuses uniquely on him. When there are several observers present, however, the pressures to intervene do not focus on any one of the observers; instead the responsibility for intervention is shared among all the onlookers and is not unique to any one. As a result, no one helps.\nA second possibility is that potential blame may be diffused. However much we may wish to think that an individual’s moral behavior is divorced from considerations of personal punishment or reward, there is both theory and evidence to the contrary (Aronfreed, 1964; Miller & Bollard, 1941, Whiting & Child, 19S3). It is perfectly reasonable to assume that, under circumstances of group responsibility for a punishable act, the punishment or blame that accrues to any one individual is often slight or nonexistent.\nFinally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that “somebody else must be doing something.”\n\n\nDraw your first (mini) VAST display for the definition of the concept “diffusion of responsibility” with draw.io (see concrete instructions below under “Deliverable”). As you noted, Darley and Latané provide no explicit section stating “Diffusion of responsibility is defined as …”. Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.\nAfter you created your VAST display, read a more recent summary of the concept in the Dorsch Lexikon der Psychologie, in particular the first and the third (last) paragraph. Write a few sentences, elaborating to what extent this definition is compatible to your own VAST display, and where it deviates.\n\n\nDeliverable: For task 4B, save your draw.io VAST diagram in our Homework Repository by choosing “Github” as destination for your file:\n\nThen choose the Homework Repository:\n\n… and navigate to the correct homework folder:\n\nSave the diagram with your name as filename (homework/02-VAST/YOURNAME.drawio). Additionally, save the diagram as a .png or .jpg file in the same folder (homework/02-VAST/YOURNAME.png).\nFor task 4C, save a file with your answers in the same folder (homework/02-VAST/YOURNAME.md). Don’t forget to push everything to the remote repo."
-  },
-  {
-    "objectID": "sessions/S4-MathModel2.html",
-    "href": "sessions/S4-MathModel2.html",
-    "title": "Session 4 - Mathematical Modeling Part 2",
-    "section": "",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize models in groups; push to repo; present\n40\n\n\n\nFormalization: Mathematical Models 2\n90\nSlides, Steps 2-3\n\n\n[Homework 1]: Read TCM paper\n-\n\n\n\n\n\n\nHomework (individually)\nRead:\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nGuiding questions:\n\nQuestion 1:\nWhat is the primary goal of the Theory Construction Methodology (TCM) proposed in the article?\n\n\n\n\nQuestion 2:\nList the five sequential steps proposed by TCM for theory construction.\n\n\n\n\nQuestion 3:\nAccording to the article, why is the lack of strong explanatory theories problematic for the field of psychology?\n\n\n\n\nQuestion 4:\nWhat are the three criteria used to evaluate the explanatory goodness of a theory according to TCM?\n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/03-TCM and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper."
-  },
-  {
-    "objectID": "sessions/S5-MathModel3.html",
-    "href": "sessions/S5-MathModel3.html",
-    "title": "Session 5 - Mathematical Modeling Part 3",
-    "section": "",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLecture: Intro 2: What is (not) a theory?\n60\nSlides\n\n\nShow consensus VAST model + my implementation\n60\n\n\n\nIn groups: Develop extension\n60\n\n\n\n\n\n\n2 Homework (individually)\nFor visualizing our simulation results in the next session, we will use the ggplot2 package in R. One of the most common types of plots we will use is a line plot with multiple groups and eventually multiple facets, like this one:\n\n\n\nLine plot with multiple groups\n\n\nWith such a plot, we can visualize one focal parameter on the x-axis, selected levels of another parameter as colors, and one or two other parameters as sub-plots in the facets. This allows a visualization of a high-dimensional parameter space in a single plot.\nIf you are not familiar with ggplot2, please do a tutorial as homework. Here are three choices:\n\nThe Data Visualization using ggplot2 tutorial from Datanovia. Do at least the following chapters:\n\nChapter 1 (“Introduction to GGPlot2”)\nChapter 7 (“GGPlot Line Plot”)\nChapter 14 (“Combine Multiple GGPlots into a Figure”), but only up to section “Multiple panels figure using ggplot facet” (skip the following section “Combine multiple ggplots using ggarrange”)\n\nThe most comprehensive resource is the free online ggplot2 book.\n\nStart with installing all necessary packages (see Prerequisites).\nNext, read chapter 2 “First Steps”\nFinally, do Chapter 16 “Faceting”\n\nData visualization with R and ggplot2 is a quite condensed tutorial on ggplot2 that explains the different layers of a plot with code examples, but not much explaining text.\n\nWhen you are unsure, I recommend the first resource.\n\n\n3 Homework Bonus (individually)\nFor an interactive visualization of your simulation results, you can program a Shiny app in R. Shiny is a web application framework for R, you can find various example for Shiny apps at https://shinyapps.org or https://shiny.posit.co.\nAmbitious students can (optionally!) create a Shiny app that allows the user to change parameters of the model interactively and see the results in real-time. For learning Shiny, I recommend the official Shiny tutorial. Although I use various code editors (e.g., Visual Studio Code), I recommend using RStudio because it has a deeply integrated support for building and testing Shiny apps."
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "lectures/Intro2/Intro2.html",
@@ -1428,151 +1246,354 @@
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory",
-    "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory",
-    "title": "What are (Not) Theories & Models?",
-    "section": "What is not a theory?",
-    "text": "What is not a theory?\n1. References To Theory Are Not Theory\n(Note: While the following features of a scholarly article do not constitute a theory, they might be important in their own right)\n\n\nA manuscript that Robert Sutton edited had strong data, but all three reviewers emphasized that it had “weak theory” and “poorly motivated hypotheses.” The author responded to these concerns by writing a new introduction that added citations to many papers containing theory and many terms like “psycho-social theory,” “identity theory,” and “social comparison theory.”\nBut it still contained no discussion of what these theories were about and no discussion of the logical arguments why these theories led to the author’s predictions. The result was that this paper contained almost no theory, despite the author’s assertion that much had been added.\n\nSolution:\n\nAuthors need to explicate which concepts and causal arguments are adopted from cited sources and how they are linked to the theory being developed or tested.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "objectID": "sessions/S5-MathModel3.html",
+    "href": "sessions/S5-MathModel3.html",
+    "title": "Session 5 - Mathematical Modeling Part 3",
+    "section": "",
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLecture: Intro 2: What is (not) a theory?\n60\nSlides\n\n\nShow consensus VAST model + my implementation\n60\n\n\n\nIn groups: Develop extension\n60\n\n\n\n\n\n\n2 Homework (individually)\nFor visualizing our simulation results in the next session, we will use the ggplot2 package in R. One of the most common types of plots we will use is a line plot with multiple groups and eventually multiple facets, like this one:\n\n\n\nLine plot with multiple groups\n\n\nWith such a plot, we can visualize one focal parameter on the x-axis, selected levels of another parameter as colors, and one or two other parameters as sub-plots in the facets. This allows a visualization of a high-dimensional parameter space in a single plot.\nIf you are not familiar with ggplot2, please do a tutorial as homework. Here are three choices:\n\nThe Data Visualization using ggplot2 tutorial from Datanovia. Do at least the following chapters:\n\nChapter 1 (“Introduction to GGPlot2”)\nChapter 7 (“GGPlot Line Plot”)\nChapter 14 (“Combine Multiple GGPlots into a Figure”), but only up to section “Multiple panels figure using ggplot facet” (skip the following section “Combine multiple ggplots using ggarrange”)\n\nThe most comprehensive resource is the free online ggplot2 book.\n\nStart with installing all necessary packages (see Prerequisites).\nNext, read chapter 2 “First Steps”\nFinally, do Chapter 16 “Faceting”\n\nData visualization with R and ggplot2 is a quite condensed tutorial on ggplot2 that explains the different layers of a plot with code examples, but not much explaining text.\n\nWhen you are unsure, I recommend the first resource.\n\n\n3 Homework Bonus (individually)\nFor an interactive visualization of your simulation results, you can program a Shiny app in R. Shiny is a web application framework for R, you can find various example for Shiny apps at https://shinyapps.org or https://shiny.posit.co.\nAmbitious students can (optionally!) create a Shiny app that allows the user to change parameters of the model interactively and see the results in real-time. For learning Shiny, I recommend the official Shiny tutorial. Although I use various code editors (e.g., Visual Studio Code), I recommend using RStudio because it has a deeply integrated support for building and testing Shiny apps."
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-1",
-    "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-1",
-    "title": "What are (Not) Theories & Models?",
-    "section": "What is not a theory?",
-    "text": "What is not a theory?\n2. Data Are Not Theory\n\n\nEmpirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.\nKaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: Data describe which empirical patterns were observed and theory explains why empirical patterns were observed or are expected to be observed.\n\nFurthermore: Theories do not explain data - theories explain phenomena!\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "objectID": "sessions/S4-MathModel2.html",
+    "href": "sessions/S4-MathModel2.html",
+    "title": "Session 4 - Mathematical Modeling Part 2",
+    "section": "",
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize models in groups; push to repo; present\n40\n\n\n\nFormalization: Mathematical Models 2\n90\nSlides, Steps 2-3\n\n\n[Homework 1]: Read TCM paper\n-\n\n\n\n\n\n\nHomework (individually)\nRead:\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nGuiding questions:\n\nQuestion 1:\nWhat is the primary goal of the Theory Construction Methodology (TCM) proposed in the article?\n\n\n\n\nQuestion 2:\nList the five sequential steps proposed by TCM for theory construction.\n\n\n\n\nQuestion 3:\nAccording to the article, why is the lack of strong explanatory theories problematic for the field of psychology?\n\n\n\n\nQuestion 4:\nWhat are the three criteria used to evaluate the explanatory goodness of a theory according to TCM?\n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/03-TCM and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper."
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-2",
-    "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-2",
-    "title": "What are (Not) Theories & Models?",
-    "section": "What is not a theory?",
-    "text": "What is not a theory?\n3. Lists of Variables or Constructs Are Not Theory\n\n\nPapers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.\nSuch lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.\n\nLists of constructs (without an explicit definition of their causal relationship) often are called a framework.\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "objectID": "sessions/S1-Introduction.html",
+    "href": "sessions/S1-Introduction.html",
+    "title": "Session 01 - Introduction",
+    "section": "",
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nInstructor introduction\n\n\nIntroduction of students in the plenum\n15\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nLecture: Introduction: Theory crisis\n90\nSlides\n\n\nWrap up [Homework 2]: Smaldino (2013), Chapter 1\n15\n\n\n\nGit Tutorial troubleshooting\n20\n\n\n\nMini Introduction VAST\n30\nSlides\n\n\n\n\n\nHomework 1 (individually)\nGoals: Learn how to pull, commit, and push to Github. Be able to resolve a merge conflict.\n\nCreate a Github account. (Skip if you have one already).\nSend your Github user name to me via email. I will give you access to the course’s private Homework Repository: https://github.com/nicebread/FOMO-homework_2024. (Note: You won’t be able to access, clone, or even see the repository until the lecturer has granted you access).\n\nIf you are proficient in git, you can skip step 3:\n\nDo the tutorial “Introduction to Version Control in R with RStudio, Git, and Github”, and complete the follow-up tutorial “Collaborative coding with GitHub and RStudio”. Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.\nOnce you have been granted access to the Homework Repository, clone the repository to your local machine. (This cannot be done on an iPad or smartphone; you need a computer for that.)\n\nDeliverable:\nPush your answer from Homework 2 (see below) to the folder homework/01-Smaldino-chapter of the remote repository (i.e., first save your file locally in the respective folder, then commit and push).\n\n\nHomework 2 (individually)\nDownload Chapter 1 of Paul Smaldino’s Book “Modeling Social Behavior: Mathematical and Agent-Based Models of Social Dynamics and Cultural Evolution”. Read the chapter and answer the following guiding questions:\n\nA typical criticism of formal models is: “You baked your results into the model, so the conclusions are trivial”. What could you answer to such a statement?\n\n\n\nWhat is done in a “decomposition”?\n\n\n\nWhat question should guide the decomposition?\n\n\n\nWhat is, according to Smaldino, the key difference between exact and inexact sciences?\n\n\n\nName the two types of models that typically are employed in social sciences.\n\n\nDeliverable: Submit answers to the guiding questions as a plain text or markdown file to the course’s Homework Repository:\n\nNavigate to /homework/01-Smaldino-chapter (After you cloned the repository in Homework 1, you should have that folder somewhere on your local machine.)\nAdd your answers as .txt or .md file with your first name as filename (e.g., “Heinz-Ruediger.md”)\ncommit and push\n(To verify your submission: If you go to the website of the repository, you should see your file in the folder 01-Smaldino-chapter.)\n\nYou can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\nUsing git for the first time can be challenging. But it’s a skill that will pay off in the long run. If you get stuck, and made honest attempts to solve the problems yourself, don’t get desperate: Just send me your homework via email, and we will sort it out together in the next session.\n\n\nHomework 3 (individually): Read the VAST paper\nRead the VAST paper:\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://open.lnu.se/index.php/metapsychology/article/view/2911\nDeliverable: Nothing - just read it and understand it.\n\n\nHomework 4 (individually): Your first (mini) VAST display\nThis homework consists of three steps, A, B, and C:\n\nRead the original definition of the concept “diffusion of responsibility”, printed below. Darley and Latané introduced the term in 1968, it’s even in the title of the publication: “Bystander intervention in emergencies: Diffusion of responsibility.”\n\nThese are the paragraphs that describe the concept (p. 377f):\n\n[After introducing the case of Kitty Genovese:] “In certain circumstances, the norms favoring intervention may be weakened, leading bystanders to resolve the conflict in the direction of nonintervention. One of these circumstances may be the presence of other onlookers. For example, in the case above, each observer, by seeing lights and figures in other apartment house windows, knew that others were also watching. However, there was no way to tell how the other observers were reacting. These two facts provide several reasons why any individual may have delayed or failed to help. The responsibility for helping was diffused among the observers; there was also diffusion of any potential blame for not taking action; and finally, it was possible that somebody, unperceived, had already initiated helping action.\nWhen only one bystander is present in an emergency, if help is to come, it must come from him. Although he may choose to ignore it (out of concern for his personal safety, or desires “not to get involved”), any pressure to intervene focuses uniquely on him. When there are several observers present, however, the pressures to intervene do not focus on any one of the observers; instead the responsibility for intervention is shared among all the onlookers and is not unique to any one. As a result, no one helps.\nA second possibility is that potential blame may be diffused. However much we may wish to think that an individual’s moral behavior is divorced from considerations of personal punishment or reward, there is both theory and evidence to the contrary (Aronfreed, 1964; Miller & Bollard, 1941, Whiting & Child, 19S3). It is perfectly reasonable to assume that, under circumstances of group responsibility for a punishable act, the punishment or blame that accrues to any one individual is often slight or nonexistent.\nFinally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that “somebody else must be doing something.”\n\n\nDraw your first (mini) VAST display for the definition of the concept “diffusion of responsibility” with draw.io (see concrete instructions below under “Deliverable”). As you noted, Darley and Latané provide no explicit section stating “Diffusion of responsibility is defined as …”. Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.\nAfter you created your VAST display, read a more recent summary of the concept in the Dorsch Lexikon der Psychologie, in particular the first and the third (last) paragraph. Write a few sentences, elaborating to what extent this definition is compatible to your own VAST display, and where it deviates.\n\n\nDeliverable: For task 4B, save your draw.io VAST diagram in our Homework Repository by choosing “Github” as destination for your file:\n\nThen choose the Homework Repository:\n\n… and navigate to the correct homework folder:\n\nSave the diagram with your name as filename (homework/02-VAST/YOURNAME.drawio). Additionally, save the diagram as a .png or .jpg file in the same folder (homework/02-VAST/YOURNAME.png).\nFor task 4C, save a file with your answers in the same folder (homework/02-VAST/YOURNAME.md). Don’t forget to push everything to the remote repo."
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-3",
-    "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-3",
-    "title": "What are (Not) Theories & Models?",
-    "section": "What is not a theory?",
-    "text": "What is not a theory?\n4. Diagrams (Alone) Are Not Theory\n\n\n\n\n\n\nThis is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)\n\n\n\n\n\n\n\n\n\n\n\n\nIqbal, S. et al. (2021). https://doi.org/10.3389/fpsyg.2021.620838"
+    "objectID": "common/lastslide.html",
+    "href": "common/lastslide.html",
+    "title": "End",
+    "section": "",
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#diagrams-alone-are-not-theory-1",
-    "href": "lectures/Intro2/Intro2.slide.html#diagrams-alone-are-not-theory-1",
-    "title": "What are (Not) Theories & Models?",
-    "section": "4. Diagrams (Alone) Are Not Theory",
-    "text": "4. Diagrams (Alone) Are Not Theory\n\nFigure 1. Holistic wellbeing model for school education.\nNorozi, S. A. (2023). The Nexus of Holistic Wellbeing and School Education: A Literature-Informed Theoretical Framework. Societies, 13(5), 113. https://doi.org/10.3390/soc13050113"
+    "objectID": "common/lastslide.html#contact",
+    "href": "common/lastslide.html#contact",
+    "title": "End",
+    "section": "",
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#diagrams-alone-are-not-theory-2",
-    "href": "lectures/Intro2/Intro2.slide.html#diagrams-alone-are-not-theory-2",
-    "title": "What are (Not) Theories & Models?",
-    "section": "4. Diagrams (Alone) Are Not Theory",
-    "text": "4. Diagrams (Alone) Are Not Theory\n\n\nCBCB, CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0, via Wikimedia Commons"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
+    "section": "",
+    "text": "Note: The material will (initially) be some mixture of German and English. Your mileage may vary.\nThe course has 14 sessions, each lasting 3.5h. In between sessions, homework is given."
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#diagrams-alone-are-not-theory-3",
-    "href": "lectures/Intro2/Intro2.slide.html#diagrams-alone-are-not-theory-3",
-    "title": "What are (Not) Theories & Models?",
-    "section": "4. Diagrams (Alone) Are Not Theory",
-    "text": "4. Diagrams (Alone) Are Not Theory\n\n\n\n\n\n\nhttp://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html"
+    "objectID": "index.html#modeling-methodology",
+    "href": "index.html#modeling-methodology",
+    "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
+    "section": "Modeling methodology",
+    "text": "Modeling methodology\n\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nGuest, O., & Martin, A. E. (2021). How Computational Modeling Can Force Theory Building in Psychological Science. Perspectives on Psychological Science, 16(4), 789–802. https://doi.org/10.1177/1745691620970585\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://doi.org/10.15626/MP.2021.2911\nWilson, R. C., & Collins, A. G. (2019). Ten simple rules for the computational modeling of behavioral data. ELife, 8, e49547. https://doi.org/10.7554/eLife.49547"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-4",
-    "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-4",
-    "title": "What are (Not) Theories & Models?",
-    "section": "What is not a theory? 4",
-    "text": "What is not a theory? 4\n4. Diagrams (Alone) Are Not Theory\n\n\nDiagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. […]\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\nDiscussion: Are then VAST displays on their own sufficient to constitute a theory?\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "objectID": "index.html#about-theories",
+    "href": "index.html#about-theories",
+    "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
+    "section": "About theories",
+    "text": "About theories\n\nGlöckner, A., Fiedler, S., & Renkewitz, F. (2018). Belastbare und effiziente Wissenschaft: Strategische Ausrichtung von Forschungsprozessen als Weg aus der Replikationskrise. Psychologische Rundschau, 69(1), 22–36. https://doi.org/10.1026/0033-3042/a000384\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2\nVan Dongen, N., Van Bork, R., Finnemann, A., Haslbeck, J. M. B., Van Der Maas, H. L. J., Robinaugh, D. J., De Ron, J., Sprenger, J., & Borsboom, D. (2024). Productive explanation: A framework for evaluating explanations in psychological science. Psychological Review. https://doi.org/10.1037/rev0000479\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nSutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-5",
-    "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-5",
-    "title": "What are (Not) Theories & Models?",
-    "section": "What is not a theory?",
-    "text": "What is not a theory?\n5. Hypotheses (or Predictions) Are Not Theory.\n\n\nHypotheses can be an important part of a well-crafted conceptual argument. They serve as crucial bridges between theory and data, making explicit how the variables and relationships that follow from a logical argument will be operationalized. […]\nHypotheses do not (and should not) contain logical arguments about why empirical relationships are expected to occur. Hypotheses are concise statements about what is expected to occur, not why it is expected to occur.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "objectID": "orga_material/orga_material.html",
+    "href": "orga_material/orga_material.html",
+    "title": "Organizational Material",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nAug 1, 2023\n\n\nCourse announcement\n\n\nAnnouncement in the university’s course management system\n\n\n\n\nSep 16, 2023\n\n\nCall for theory submissions\n\n\nThis is the email I sent to the colleagues in my department, asking for the submission of theories for the formalization exercise.\n\n\n\n\nOct 15, 2024\n\n\nInstructions before course\n\n\nSome instructions for students before the course starts\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#theories-as-causal-explanations",
-    "href": "lectures/Intro2/Intro2.slide.html#theories-as-causal-explanations",
-    "title": "What are (Not) Theories & Models?",
-    "section": "Theories as causal explanations",
-    "text": "Theories as causal explanations\n\n“It may be said… that an explanation is not fully adequate unless its explanans […] could have served as a basis for predicting the phenomenon under consideration.\n… not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment”\n\n Hempel & Oppenheim, 1948, (p. 138)\n\n\n\nPredict new (unseen) data\nHave (causal) control through manipulation"
+    "objectID": "orga_material/call_for_submissions.html",
+    "href": "orga_material/call_for_submissions.html",
+    "title": "Call for theory submissions",
+    "section": "",
+    "text": "This is the email I sent to the colleagues in my department:\n\nSubject: We formalize your theory!\n\nBody:\nDear colleagues,\nthis semester, we want to explore something new. In my upcoming Empra (for 5th semester students), the participants get acquainted with formal modeling of psychological theories. The goal is to develop a mathematical or agent-based model of a verbal theory. In this project, …\n\nthe central phenomena are listed (What is to be explained?)\nthe verbal theory is explicated, and\na theory formalization is attempted (in a way that data can be simulated from the model).\n\nWe wanted to ask you - the colleagues in the department - if you want to submit a theory for this exercise.\nHere are some FAQs:\n\nWhat theory would be a good fit?\n\nA theory that is sufficiently precise and has a defined and not too large scope\nIts core premises are formulated in a clear and concise form on a few pages.\nThere doesn’t exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).\n\n\n\nWhat theory would not be a good fit?\n\nYou need to read three books to understand the theory.\nThe “all-encompassing theory of human nature”\nYou need a lot of expert input and judgement to fill in the gaps of the underspecified theory.\nYou need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.\n\n\n\nBut don’t the students lack domain knowledge?\nIn an ideal world, theories are so well specified that they can be formalized without further expert opinions. But as this is unrealistic in psychology, we need your input (see next question).\n\n\nWhat is my necessary commitment?\n\nProvide the written material for the theory.\nTwo or three meetings (each lasting ~2h) during the Empra’s teaching hours (XXX):\n\nMeeting 1 where you give a short overview of the theory. It should contain the following aspects:\n\nWhat is the central phenomenon that is aimed to be explained?\nHow does a typical study look like that produces the phenomenon?\n\nAn introduction to the theory that aims to explain the phenomenon.\n\nWhat is the central literature? (To get an impression of how the narrative theory is presented.)\n\nMeeting 2 where students present intermediate results and can ask questions for clarification.\n(optional) Meeting 3, where students present their results to you.\nIf you enjoy and benefit from the scientific discussion, of course more meetings are possible and welcome.\n\n\n\n\nWhat happens with the results?\nThe created models will be published with a CC-BY license. That means, you can reuse everything with a proper citation. If the models are really helpful (and more than just a vague inspiration for further work), we can think about a follow-up collaboration and write-up (where collaboration and co-authorship is offered to the student creators of the model).\n\n\nThe procedure would be as follows:\n\nWe collect candidate theories for formalization until 30.10.2023.\nWe screen all submissions and select one or two theories (depending on their complexity).\nIf your theory is selected, we will meet:\n\nFor the introductory meeting (xx.xx.2023, ~2h)\nFor the intermediate meeting (xx.xx.2024, ~2h)\nFor the results presentation (xx.xx.2024, ~2h)\n\n\nIf you want to participate, please send an email to xxx by xx.xx.2023, containing a short description of the theory (max. 200 words) and a link to a central paper describing the theory. It can be “your” theory, or an existing theory that you work with.\nA final caveat: We are aware that this collaboration requires a non-negligible time investment from you. At the same time, this is highly experimental and we cannot promise any success or even progress. But in any case we expect good scientific discussions and are convinced that the exercise is fruitful for all parties.\nIf you have any questions, drop me an email.\n\nHere are some (anonymized) reactions I got:\n\n“EPIC!”\n“A very good idea. Just trying it would fulfil my heart’s desire”\n\nAt the end, 3 theories got submitted. We discussed them and selected 1 of them, mostly based on feasibility and personal interest. (Formalizing more than 1 theory would have been impossible in the time frame of the course)."
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#tcm-a-methodology-for-constructing-theories",
-    "href": "lectures/Intro2/Intro2.slide.html#tcm-a-methodology-for-constructing-theories",
-    "title": "What are (Not) Theories & Models?",
-    "section": "TCM: A methodology for constructing theories",
-    "text": "TCM: A methodology for constructing theories\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories (the explanandum). In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona).\nExplanatory Theories are constructed to explain the empirical phenomena that are evidenced by data (i.e., they are the explanans). Explanatory theories can be expressed in terms of a set of linked propositions referring to latent psychological constructs. At least one of these propositions expresses a general principle.\n\n\nSee Borsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
+    "objectID": "orga_material/course_announcement.html",
+    "href": "orga_material/course_announcement.html",
+    "title": "Course announcement",
+    "section": "",
+    "text": "Im Empirisch-psychologischen Praktikum “Formale Modellierung in der Psychologie” tauchen die Studierenden in die Welt der quantitativen Darstellung psychologischer Theorien ein. Dabei geht es nicht um die quantitative Auswertung von Daten mit Hilfe statistischer Modelle, sondern um Theorien und datengenerierende Modelle, die so präzise sind, dass man konkrete Daten vorhersagen kann.\nAls eine Reaktion auf die Replikationskrise wurde der Ruf nach besseren Theorien laut, mit dem Ziel, verbale und konzeptionelle Theorien in formale, mathematische Modelle zu übersetzen. Diese Modelle dienen mehreren Zwecken: Sie ermöglichen eine rigorose Prüfung von Hypothesen, bieten klarere Vorhersagen und bilden einen Rahmen, um scheinbar disparate Ergebnisse zu vereinheitlichen. Außerdem schärfen sie den Blick auf “Leerstellen” in den meist hoffnungslos unterspezifizierten Theorien in der Psychologie.\nIn diesem Kurs werden die Studierenden in die grundlegenden Prinzipien der formalen Modellierung und ihre verschiedenen Varianten eingeführt (z.B. mathematische Modelle, Regelkreismodelle, agentenbasierte Modelle) und mit den Werkzeugen ausgestattet, die sie benötigen, um aus vorhandenen verbalen Theorien Modelle abzuleiten. Entsprechend werden wir uns viel mit der Implementierung in Programmiersprachen befassen. Wir werden dabei vermutlich viel in R programmieren, ggf. auch in NetLogo (für ABMs).\nWir werden versuchen, kollaborativ verbale psychologische Theorien soweit zu formalisieren, dass man sie in ein datengenerierendes Modell übersetzen und implementieren kann, um die generierten Daten dann zur Prüfung mit echten Daten zu vergleichen.\nWir werden Aspekte der Qualitätssicherung bei diesem Forschungsaspekt diskutieren und anwenden (Reproduzierbarkeit, Versionskontrolle, Sensitivitätsanalysen, gut dokumentierter Code / unit testing).\nDas Empra stellt etwas höhere Anforderungen an mathematisches und formales Denken, sowie ihre Programmierfähigkeit. Als Minimum werden die R-Kenntnisse vorausgesetzt, die im Rahmen der Seminare zu Statistik 1 und 2 gelehrt wurden, sowie die Bereitschaft, sich auch selbständig (anhand von bereitgestelltem Material) in Themen der Programmierung einzuarbeiten."
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#definitions-1",
-    "href": "lectures/Intro2/Intro2.slide.html#definitions-1",
-    "title": "What are (Not) Theories & Models?",
-    "section": "Definitions (1)",
-    "text": "Definitions (1)\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (explanans)\n\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
+    "objectID": "orga_material/instructions_before_course.html",
+    "href": "orga_material/instructions_before_course.html",
+    "title": "Instructions before course",
+    "section": "",
+    "text": "Liebe Studierende,\nich freue mich schon auf unser Empra zur formalen Modellierung psychologischer Theorien. Hier kommen einige Hinweise für den Start:\n\nIch würde gerne den Start von 8:15 auf 8:30 verlegen. Die Sitzung geht dann in der Regel bis 12:00.\nWir werden in fast jeder Sitzung am Computer arbeiten - z.B. Code schreiben, Diagramme zeichnen, oder Dateien in git einchecken. Daher wäre es gut, wenn Sie, wenn möglich, immer ihren Laptop mitbringen. Wenn Sie keinen Laptop haben, können Sie auch bei Kommilitonen reinschauen und im “pair programming” Modus arbeiten.\nWenn das letzte Programmieren in R schon etwas länger her ist, frischen Sie gerne vorab Ihre Kenntnisse auf. Das Empra wird keine Auffrischung in R beinhalten. Hier sind einige Ressourcen:\n\nDie neuen R-Tutorials aus Statistik 1: Teil 1 - Grundlagen und Teil 2 - Workflows bei der Arbeit mit Datensätzen\nMoodle Kurs “R Tutorials”. Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR\nYouTube-Video: “Want to learn R (#rstats) in 4 hours with NO programming experience?”\nhttps://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf (12 page PDF document)\nhttps://github.com/jobreu/r-intro-gesis-2021 (5 day course: slides & exercises)\n\nDas bedeutet nicht, dass Sie all diese Ressourcen durcharbeiten müssen. Wenn Sie auf dem Stand der beiden R-Tutorials (siehe 3.1) sind, sind Sie hinreichend vorbereitet.\nDie Kommunikation wird ab jetzt über den Moodle-Kurs laufen. Der Einschreibeschlüssel lautet: “theorie”. Bitte schreiben Sie sich schon zeitnah ein; ich verschicke ab jetzt die Emails über den Kurs.\nDas Kursmaterial wird sich alles auf Github finden: https://nicebread.github.io/FOMO-Psy/. Im Moment befindet sich dort noch das alte Material; ich baue das gerade substantiell um. Aber dann haben Sie schon mal den Link.\n\nDann sehen wir uns am Freitag, 18.10.24, um 8:30 in Raum 1407 zur ersten Sitzung! Bei Fragen können Sie sich gerne auch vorab schon bei mir melden.\nViele Grüße, Felix Schönbrodt"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-a-model",
-    "href": "lectures/Intro2/Intro2.slide.html#what-is-a-model",
-    "title": "What are (Not) Theories & Models?",
-    "section": "What is a model?",
-    "text": "What is a model?\nA {formal|mathematical|computational} model is a precise, mathematical or algorithmic representation of the theory’s principles and relationships. It serves as a bridge between abstract theoretical principles and the empirical world.\nSometimes a theory is so highly formalized that it is virtually identical to a model of it. But more often, there is a gap between theory and implemented models: We need more assumptions to implement a model in computer code. In this case, multiple models can satisfy the axioms and constraints of a theory."
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Thinking Tools for building theories",
+    "section": "",
+    "text": "The following tools can help to build a model collaboratively. They are ordered in increasing complexity and versatility:"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models",
-    "href": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models",
-    "title": "What are (Not) Theories & Models?",
-    "section": "Explicating a verbal theory into formal model(s)",
-    "text": "Explicating a verbal theory into formal model(s)\nExample: van Dongen et al (2023) on Ego Depletion\n\n\nThe regulatory resource theory pertains to self-control: cognitive processes that inhibit and suppress immediate thoughts, impulses, expression of emotions, and behaviors that deviate from standards or goals.\nThe theory postulates that one’s ability for self-control depends on a finite resource: a stored supply of energy, for which some use the term willpower. Every act of self-control reduces the amount of willpower, so that one’s ability to inhibit or suppress the next unwanted impulse is diminished\nThe theory is said to explain the phenomenon of ego depletion: people perform worse on a task that requires self-control, right after having done something else that used this resource.\n\n\n\nAbridged from van Dongen et al. (2022). Improving psychological explanations. PsyArXiv. https://doi.org/10.31234/osf.io/qd69g"
+    "objectID": "tools.html#participatory-system-mapper-prsm",
+    "href": "tools.html#participatory-system-mapper-prsm",
+    "title": "Thinking Tools for building theories",
+    "section": "Participatory System Mapper (PRSM)",
+    "text": "Participatory System Mapper (PRSM)\nThe Participatory System Mapper (PRSM) is a free, open-source and secure tool for mind-mapping and system visualisation. It’s only for drawing stuff, not for simulating data.\nPro: No login needed.\nCon: It only supports Mason diagrams, not Bischof diagrams (where arrows are variables).\n🤓 ▶️ Tutorial webinar (1h).\n ✅ This format is trackable in git. You can export the graph in two text file representations (.gv and .gml files). Both are relatively well human-readable."
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models-1",
-    "href": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models-1",
-    "title": "What are (Not) Theories & Models?",
-    "section": "Explicating a verbal theory into formal model(s)",
-    "text": "Explicating a verbal theory into formal model(s)\nKey theoretical principles of the verbal theory\n\n\nthere is a domain-general “resource” called willpower (\\(W\\))\ntasks requiring willpower deplete this resource (e.g., a task that requires self-control depletes the resource, but a task that requires no self-control does not), and\nthe resource is replenished at some rate after the task ends.\n\n\n\nTo these, we add the following auxiliary assumptions:\n\nwillpower \\(W\\) is a positive valued quantitative variable (\\(W \\in \\mathbb{R}^{+}\\))\nwillpower changes continuously in time, and\nwillpower has a default value when at rest ( i.e., when there is no task that requires willpower; \\(W^r\\)).\n\n\n\nvan Dongen et al. (2022). https://doi.org/10.31234/osf.io/qd69g"
+    "objectID": "tools.html#draw.io",
+    "href": "tools.html#draw.io",
+    "title": "Thinking Tools for building theories",
+    "section": "Draw.io",
+    "text": "Draw.io\nhttps://app.diagrams.net\nPro: No login needed. Open Source.\nCon: Needs Google Drive for collaborative editing.\n🤓 ▶️ TODO.\n ✅ This format is trackable in git. You can export the graph as .xml file (Datei → Exportieren als → XML…). This file is, however, not very human-readable."
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models-2",
-    "href": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models-2",
-    "title": "What are (Not) Theories & Models?",
-    "section": "Explicating a verbal theory into formal model(s)",
-    "text": "Explicating a verbal theory into formal model(s)\nMultiple possible implementations\n\nThe theoretical key principles are not precise enough yet to program an implementation - e.g.: Is the decrease of the resouce linear or curved? How fast does the resource recover under rest?\nThese additional auxiliary assumptions (which are not in the core of the theory) can lead to very different possible implementations - all of which are compatible with the theory:\n\n\n\n\n\n\n\n\n\n\nhttps://github.com/jmbh/explanationpaper"
+    "objectID": "tools.html#loopy",
+    "href": "tools.html#loopy",
+    "title": "Thinking Tools for building theories",
+    "section": "Loopy",
+    "text": "Loopy\nLoopy is an intuitive open source tool created by Nicky Case. With Loopy, you can build (and simulate) dynamic systems simply by drawing nodes and arrows with your mouse. It is great for quick prototyping and testing, but does not allow specific functional relationships or data export of the simulations.\n🤓 ▶️ Short tutorial (6 min.)\n ✅ This format is trackable in git. You can export a text file representation of the model. This is, however, not very human-readable."
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-a-computational-model",
-    "href": "lectures/Intro2/Intro2.slide.html#what-is-a-computational-model",
-    "title": "What are (Not) Theories & Models?",
-    "section": "What is a computational model?",
-    "text": "What is a computational model?\nA model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms input variables into output variables (the dependent variables). The formulas that compute the output contain parameters."
+    "objectID": "tools.html#insight-maker",
+    "href": "tools.html#insight-maker",
+    "title": "Thinking Tools for building theories",
+    "section": "Insight Maker",
+    "text": "Insight Maker\nInsight Maker is a free tool that allows to build system dynamics models and agent-based models in the browser, simulate data, and to share the models with others.\n🤓 ▶️ Collection of short tutorial clips (~35 min. overall).\n ❌ This format is not trackable in git. I could not find a way to export the model as a text file (or any local file format)."
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#what-are-explanations",
-    "href": "lectures/Intro2/Intro2.slide.html#what-are-explanations",
-    "title": "What are (Not) Theories & Models?",
-    "section": "What are explanations?",
-    "text": "What are explanations?\nWith the definition of explanatory theories and formal models, a definition of explanations can be proposed:\n\n“Theory T putatively explains phenomenon P” means:\n“if the world were as T says it is, P would follow as a matter of course.”\nAlthough this notion of explanation is arguably incomplete, it has the advantages of being close to the commonsense understanding of the concept and being easy to implement in a formal model—namely by creating a virtual world in which theory T is true and showing that this world will indeed produce phenomenon P.\n\n\nCharles S. Peirce (1931, p. 185); Borsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
+    "objectID": "tools.html#netlogo",
+    "href": "tools.html#netlogo",
+    "title": "Thinking Tools for building theories",
+    "section": "Netlogo",
+    "text": "Netlogo\nNetLogo is the classical tool for agent-based modeling. Being there since 1999, it has the charm of early-days internet software, but offers the most functions and flexibility. It has an open license, is still actively maintained, and is probably the best way for exploring ABMs with quick results and less frustrations. Netlogo has its own programming language, which is easy to learn. The model library gives a head-start for your own ideas.\n🤓 ▶️ Free, self-paced online course with several short videos (total video material ~2h; in addition, one can do quizzes and “homework” that can be compared to solutions).\n ✅ This format is trackable in git. You can export a text file representation of the model as .nlogo files. This contains the actual code (from Netlogo’s “Code” pane) on the top, followed by code describing the “Interface” and the “Info” pane (i.e., locations and properties of sliders, buttons, etc.)."
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#understandability-of-explanations",
-    "href": "lectures/Intro2/Intro2.slide.html#understandability-of-explanations",
-    "title": "What are (Not) Theories & Models?",
-    "section": "Understandability of explanations",
-    "text": "Understandability of explanations\nFarrell & Lewandowsky (2018), referring to Trout (2007), emphasize the understandability of explanations:\n\n\nExplanations can “be epistemically valuable only if we could, implicitly or explicitly, understand them. As a result, explanation must maintain some contact with our psychological powers of understanding” (Trout, 2007, p. 565)\n“an explanation that cannot be understood is not an explanation”\n“some facts of the universe may remain irreducibly mysterious to humans - not because explanations do not exist in principle but because they cannot be humanly understood and hence cannot be formulated”\n“models in psychology benefit from simplifying the reality they seek to explain even though this simplification would likely render the model wrong. At the risk of being provocative, we would even argue that models are useful only because they are wrong.” (cf. von Uexküll!)\n\n\n\nFarrell, S., & Lewandowsky, S. (2018). Computational Modeling of Cognition and Behavior. Cambridge University Press, Chapter 3. https://doi.org/10.1017/CBO9781316272503"
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is material for the course “P19 Empirisch-psychologisches Praktikum” at the Ludwig-Maximilians-Universität München. The course is given in the winter term 2023/24 by Prof. Dr. Felix Schönbrodt."
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#definitions-2",
-    "href": "lectures/Intro2/Intro2.slide.html#definitions-2",
-    "title": "What are (Not) Theories & Models?",
-    "section": "Definitions (2)",
-    "text": "Definitions (2)\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character.\n\n\n\n\n\n\n\n\n\nWhat is a formal model?\n\n\nA formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory and the model are sufficiently accurate.\n\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647; van Dongen et al. (2023). https://doi.org/10.31234/osf.io/qd69g"
+    "objectID": "sessions/S6-MathModel4.html",
+    "href": "sessions/S6-MathModel4.html",
+    "title": "Session 6 - Mathematical Modeling Part 4",
+    "section": "",
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrapup: TCM\n20\n\n\n\nLecture: Intro 2: What is (not) a theory? (catch up from last session)\n60\nSlides\n\n\nFormalization: Mathematical Models 3\n60\nSlides, Steps 4-5\n\n\nIn groups: Simulate experiments\n60\n\n\n\n\n\n\n2 Homework (individually)\nRead: Van Dongen et al. (2024). Productive explanation: A framework for evaluating explanations in psychological science. Psychological Review. https://doi.org/10.1037/rev0000479 (available in the /literature folder):\n\nQuestion 1: What are two intermediate processes that are necessary for providing a productive explanation? \nQuestion 2: According to the authors, what are the three steps of productive explanation? \nQuestion 3: What does the paper identify as a limitation of verbal psychological theories compared to formal models in other scientific disciplines? \nQuestion 4: What criteria are suggested for evaluating the quality of explanations in the productive explanation framework? \nQuestion 5: In the case study of ego-depletion, what were the primary theoretical principles incorporated into the formal model? \n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/04-Productive_explanations and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper."
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#contact",
-    "href": "lectures/Intro2/Intro2.slide.html#contact",
-    "title": "What are (Not) Theories & Models?",
+    "objectID": "sessions/S3-MathModel1.html",
+    "href": "sessions/S3-MathModel1.html",
+    "title": "Session 3 - The first mathematical model",
+    "section": "",
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in group\n20\n\n\n\nPresent and discuss solutions\n60\n\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, Steps 1 & 2\n\n\nHomework 1: Create new version of VAST\n\n\n\n\n\n\n\n2 Homework (in groups)\n\nWe extend the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the explanatory target is (a) the “classical” bystander effect and (b) the reduction of the bystander effect in dangerous situations (i.e., the dangerousness of situation is a moderator of the bystander main effect).\nAt the same time we reduce the VAST display by cutting all elements that are not relevant for this specific explanation.\n\nWe cut the “Five-step process model”\nFrom the three potential processes we only keep diffusion of responsibility (and ignore pluralistic ignorance and evaluation apprehension).\n\n\nIn other words, we try to build a minimal model that explains our explanatory target.\nThe additional theoretical explanation can be found in Fischer et al., p. 520-521. These are the relevant paragraphs:\n\n“[…] the most noteworthy tendency in recent research is that the bystander effect often does not occur when the emergency is a dangerous one or when the bystanders are highly competent. The classic bystander research regarded present bystanders as”something negative,” which reduces the probability of prosocial intervention. On the basis of the review of the more recent literature, we suspect that this perspective is not always correct. Bystanders can act as a positive source of physical support in case a focal person is in the process of deciding whether to intervene in a critical situation (especially when they are perceived as competent bystanders). The present meta-analysis allows us to systematically examine the possibility of a non-inhibiting (non-negative) bystander effect. In the following, we further explore this theoretical idea. We explain why we expect that dangerous emergencies are associated with a reduced magnitude of the bystander effect.”\nIf one is to intervene in a dangerous emergency, one may have to fear negative physical consequences. A perpetrator may not only attack the victim but also the intervener. In that case, additional bystanders may provide support in defeating a potential perpetrator. […] To conclude, we expect that high-danger emergencies increase the focal bystander’s fear that he or she will be attacked or injured in case of intervention. However, if other bystanders are present, they are recognized as a source of physical support, which mitigates against the traditional bystander effect. Note that we do not expect a complete disappearance of the bystander effect in dangerous emergencies. Instead, we expect that it substantially declines because of the fact that many dangerous emergency situations can only be resolved by a group.\nThus, we expect that it is mainly increased danger to the focal bystander that reduces the bystander effect, but not increased danger to the victim (which can be completely distinct from danger of intervention). […] In other words, if bystanders experience increased danger to themselves in case of intervention, they look for other bystanders to help them to intervene (e,g,, to overpower a fierce perpetrator), which should finally reduce diffusion of responsibility and thus also attenuate the magnitude of the bystander effect (because bystanders acknowledge that they can only resolve the dangerous situation by cooperation in a group).\n\nDeliverable: Create a new draw.io VAST display with the extended and reduced theory. Push the file to the homework repository in the folder Bystander_effect."
+  },
+  {
+    "objectID": "sessions/S2-VAST.html",
+    "href": "sessions/S2-VAST.html",
+    "title": "Session 02 - Introduction Theories / Practice VAST",
+    "section": "",
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: VAST displays for “diffusion of responsibility”\n45\n\n\n\nLecture: “Applying VAST to an existing theory”\n60\nSlides\n\n\nWorkshop: Formalize the bystander effect theory\n90\nSee Google Drive\n\n\n[Homework]: Finalize Bystander VAST in group\n-\n\n\n\n\n\n\n2 Workshop (in course): Formalize the bystander effect theory\n\nCreate the Construct Source Table for the Bystander Effect. Use the Google Drive template.\nBased on the table, create a VAST display. The goal is an easily understandable display: prioritize understandability over completeness and over a maximally truthful mapping of the original statements. Use as few concepts as possible (but as many as necessary). (Why aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that).\n\n\n\n3 Homework (as a group): Finalize Bystander VAST\nDeliverables: - Clean up your Construct Source Table on Google Drive - Upload/commit your draw.io VAST display in the Homework Repository, subfolder Bystander_effect."
+  },
+  {
+    "objectID": "sessions/sessions_overview.html",
+    "href": "sessions/sessions_overview.html",
+    "title": "Overview of sessions",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\nSession 02 - Introduction Theories / Practice VAST\n\n\nIntro to theory 2; Apply VAST to Bystander effect\n\n\n\n\nSession 3 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\nSession 4 - Mathematical Modeling Part 2\n\n\nCreate all functions for our reduced Bystander Effect Model\n\n\n\n\nSession 5 - Mathematical Modeling Part 3\n\n\nConsensus model\n\n\n\n\nSession 6 - Mathematical Modeling Part 4\n\n\nEmpirical calibration + simulated experiments\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.html",
+    "href": "lectures/Empra-Orga/Empra-Orga.html",
+    "title": "Formal modeling in psychology",
+    "section": "",
+    "text": "Learn skills and tools that aid theory development\n\nTechnical: Git, semantic versioning, Netlogo, …\nConceptual:\n\nVisual Argument Structure Tool (VAST)\nTheory Construction Methodology (TCM)\n\n\nPractice theory formalization with multiple examples\nUnderstand the advantages and barriers of formal modeling\n\nHigh likelihood of “failure”!\n\n“Hacker space” for theory building: We all are learners."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.html#goals",
+    "href": "lectures/Empra-Orga/Empra-Orga.html#goals",
+    "title": "Formal modeling in psychology",
+    "section": "",
+    "text": "Learn skills and tools that aid theory development\n\nTechnical: Git, semantic versioning, Netlogo, …\nConceptual:\n\nVisual Argument Structure Tool (VAST)\nTheory Construction Methodology (TCM)\n\n\nPractice theory formalization with multiple examples\nUnderstand the advantages and barriers of formal modeling\n\nHigh likelihood of “failure”!\n\n“Hacker space” for theory building: We all are learners."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.html#content",
+    "href": "lectures/Empra-Orga/Empra-Orga.html#content",
+    "title": "Formal modeling in psychology",
+    "section": "Content",
+    "text": "Content\nThree types of activities:\n\nLectures: Gain knowledge\nSkills: Learn new tools\nWorkshop: Apply tools and knowledge to a research question\n\nAll slides, homework instructions, etc. are on this website: https://nicebread.github.io/FOMO-Psy/\nAll homework will be submitted to a private Git repo."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.html#formalia-expectations",
+    "href": "lectures/Empra-Orga/Empra-Orga.html#formalia-expectations",
+    "title": "Formal modeling in psychology",
+    "section": "Formalia & Expectations",
+    "text": "Formalia & Expectations\n\n\n9 ECTS credit points\n\n≙ 3 lectures with exam\n≙ 12h expected time investment per week (in person course + homework)\n\nDo your weekly homework\nParticipate actively in the course\nWrite your final report"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit",
+    "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit",
+    "title": "Formal modeling in psychology",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\n\nAufbau\n\nDa wir keine klassisch empirische Arbeit schreiben, sondern eine Theorie formalisieren, sieht der Aufbau der Hausarbeit etwas anders aus; z.B. so:\n\n\nZielsetzung benennen: Eine bestehende psychologische Theorie zu formalisieren\nKurze Vorstellung der gewählten Theorie\nZentrale Konstrukte der Theorie (Text: Konstrukte auflisten; VAST: Konstrukte definieren)\nIdentifizierung relevanter Phänomene\nFormulierung der (Proto-)Theorie und der Phänomene\nAufstellen eines formalen Modells\nEvaluation des formalen Modells\nDiskussion: Meta-Reflexion\n\n\nMehr Details im Laufe des Seminars. Wir arbeiten bereits im Seminar auf ihre konkrete Hausarbeit hin."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-1",
+    "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-1",
+    "title": "Formal modeling in psychology",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\n\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nWenn Sie in papaja/Rmarkdown/apaquarto schreiben:\n\ndas exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nSchreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\n\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-2",
+    "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-2",
+    "title": "Formal modeling in psychology",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\n\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\nZwei Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2024.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2024.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: yes angeben (siehe Anleitung)\nSie können in apaquarto einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: true angeben (siehe Anleitung)"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-3",
+    "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-3",
+    "title": "Formal modeling in psychology",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\n\nBenotung\n\nWer anwesend ist, aktiv mitmacht und eine sinnvolle Hausarbeit abgibt bekommt eine (sehr) gute Note\nEs geht um:\n\ndas Engagement\ndie Auseinandersetzung mit den Tools und der Materie der Theoriebildung\neine kritische Reflexion des Prozesses\n\nWenn die Theorie, die man sich vorgenommen hat, einfach keine Formalisierung hergibt, dann ist das ein Problem der Theorie (und keine Fehlleistung des Studentys). In dem Fall …\n\nreflektieren, warum es nicht funktioniert hat\nwas wäre notwendig gewesen, um weiterzukommen\ndie gemachten Schritte und Hürden dokumentieren"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-4",
+    "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-4",
+    "title": "Formal modeling in psychology",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\n\nBewertungsschema (aktueller Entwurf)"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-5",
+    "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-5",
+    "title": "Formal modeling in psychology",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\n\nNutzung von KI-Tools (ChatGPT etc.)\n\nKI-Tools sind Realität und können in der wissenschaftlichen Arbeit unterstützend eingesetzt werden. Niels Van Quaquebeke hat eine schöne Übersicht.\nEs muss jedoch klar sein, was die Eigenleistung des/der Studierenden ist, und dass die Verantwortung für den Inhalt der Arbeit beim Autor bzw. der Autorin liegt.\nAm Ende der Hausarbeit müssen Sie entsprechend zwei Erklärungen anhängen:\n\neine Eigenständigkeitserklärung (siehe nächste Folie)\neine ergänzende Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess (siehe übernächste Folie)."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-6",
+    "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-6",
+    "title": "Formal modeling in psychology",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\n\nEigenständigkeitserklärung\n\nHiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig und ohne fremde Hilfe verfasst habe. Ich habe keine anderen als die angegebenen Quellen und Hilfsmittel benutzt und alle wörtlich oder sinngemäß übernommenen Stellen als solche kenntlich gemacht.\nOrt, Datum, Unterschrift"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
+    "href": "lectures/Empra-Orga/Empra-Orga.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
+    "title": "Formal modeling in psychology",
+    "section": "Nutzung von KI-Tools: Selbsterklärung (deutsch)",
+    "text": "Nutzung von KI-Tools: Selbsterklärung (deutsch)\n\n\nErklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess\nBei der Erstellung dieser Arbeit habe ich folgende/s Tool/s verwendet: [NAME TOOL / DIENST]. Art der Nutzung [bitte ankreuzen]:\n\nVerbesserung der sprachlichen Qualität und Lesbarkeit\nSchreibassistent z.B. zum Erstellen von Inhaltsverzeichnissen, Gliederungen, ersten Sätzen und Absätzen\nAuffinden von relevanten Zitaten, die als solche gekennzeichnet sind\nAuffinden von relevanten wissenschaftlichen Quellen, die als solche gekennzeichnet sind\nÜbersetzung von Zitaten oder Textabschnitten, die als solche gekennzeichnet sind (etwa: „Translated with DeepL“)\nZusammenfassung von Information\nTexttranskription von Audio- oder Videodateien\nErstellen von Bild- oder Videomaterial\nErstellen bzw. verbessern von Programmiercode (bspw. R- oder Python-Code)\nRecherche zu Begriffen\nErstellen von Begriffsdefinitionen\nSonstiges [bitte erläutern]:\n\nNach der Nutzung dieses Tools bzw. Dienstes habe ich den Inhalt überprüft, nach Bedarf bearbeitet und ich übernehme die volle Verantwortung für den Inhalt dieser Arbeit. Ich bestätige, dass diese Arbeit keine längeren Passagen (z.B. Zusammenfassung/Abstract der Arbeit, ganze Absätze im Text) an rein KI-generiertem Text enthält."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
+    "href": "lectures/Empra-Orga/Empra-Orga.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
+    "title": "Formal modeling in psychology",
+    "section": "Statement on the use of generative AI and AI-assisted technologies in the writing process",
+    "text": "Statement on the use of generative AI and AI-assisted technologies in the writing process\n\n\nStatement on the use of generative AI and AI-assisted technologies in the writing process\nIn writing this paper, I have used the following tool/s: [NAME TOOL / SERVICE]. I used it for the following purpose/s:\n\nimproving linguistic quality and readability\nwriting assistance e.g. for generating table of contents, outlines, first sentences and paragraphs\nfinding relevant citations (correctly marked as such)\nfinding relevant scientific sources (correctly marked as such)\ntranslation of citations or text passages (correctly marked as such, e.g. “translated with DeepL”)\nsummarizing information\ntranscribing assistance from audio or video\ngenerating or optimizing programming code (e.g. R- or Python-Code)\nresearching terms\ngenerating term definitions\nother [please specify]:\n\n\n\nAfter using this tool or service, I reviewed and edited the content as needed and I take full responsibility for the content of this paper. I certify that this paper does not contain lengthy passages (e.g. summary/abstract, or full paragraphs) of purely AI-generated text."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.html#contact",
+    "href": "lectures/Empra-Orga/Empra-Orga.html#contact",
+    "title": "Formal modeling in psychology",
     "section": "Contact",
-    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#goals",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#goals",
+    "title": "Formal modeling in psychology",
+    "section": "Goals",
+    "text": "Goals\n\n\nLearn skills and tools that aid theory development\n\nTechnical: Git, semantic versioning, Netlogo, …\nConceptual:\n\nVisual Argument Structure Tool (VAST)\nTheory Construction Methodology (TCM)\n\n\nPractice theory formalization with multiple examples\nUnderstand the advantages and barriers of formal modeling\n\nHigh likelihood of “failure”!\n\n“Hacker space” for theory building: We all are learners."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#content",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#content",
+    "title": "Formal modeling in psychology",
+    "section": "Content",
+    "text": "Content\nThree types of activities:\n\nLectures: Gain knowledge\nSkills: Learn new tools\nWorkshop: Apply tools and knowledge to a research question\n\nAll slides, homework instructions, etc. are on this website: https://nicebread.github.io/FOMO-Psy/\nAll homework will be submitted to a private Git repo."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#formalia-expectations",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#formalia-expectations",
+    "title": "Formal modeling in psychology",
+    "section": "Formalia & Expectations",
+    "text": "Formalia & Expectations\n\n\n9 ECTS credit points\n\n≙ 3 lectures with exam\n≙ 12h expected time investment per week (in person course + homework)\n\nDo your weekly homework\nParticipate actively in the course\nWrite your final report"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
+    "title": "Formal modeling in psychology",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nAufbau\n\nDa wir keine klassisch empirische Arbeit schreiben, sondern eine Theorie formalisieren, sieht der Aufbau der Hausarbeit etwas anders aus; z.B. so:\n\n\nZielsetzung benennen: Eine bestehende psychologische Theorie zu formalisieren\nKurze Vorstellung der gewählten Theorie\nZentrale Konstrukte der Theorie (Text: Konstrukte auflisten; VAST: Konstrukte definieren)\nIdentifizierung relevanter Phänomene\nFormulierung der (Proto-)Theorie und der Phänomene\nAufstellen eines formalen Modells\nEvaluation des formalen Modells\nDiskussion: Meta-Reflexion\n\n\nMehr Details im Laufe des Seminars. Wir arbeiten bereits im Seminar auf ihre konkrete Hausarbeit hin."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
+    "title": "Formal modeling in psychology",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nWenn Sie in papaja/Rmarkdown/apaquarto schreiben:\n\ndas exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nSchreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\n\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-2",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-2",
+    "title": "Formal modeling in psychology",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\nZwei Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2024.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2024.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: yes angeben (siehe Anleitung)\nSie können in apaquarto einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: true angeben (siehe Anleitung)"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-3",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-3",
+    "title": "Formal modeling in psychology",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nBenotung\n\nWer anwesend ist, aktiv mitmacht und eine sinnvolle Hausarbeit abgibt bekommt eine (sehr) gute Note\nEs geht um:\n\ndas Engagement\ndie Auseinandersetzung mit den Tools und der Materie der Theoriebildung\neine kritische Reflexion des Prozesses\n\nWenn die Theorie, die man sich vorgenommen hat, einfach keine Formalisierung hergibt, dann ist das ein Problem der Theorie (und keine Fehlleistung des Studentys). In dem Fall …\n\nreflektieren, warum es nicht funktioniert hat\nwas wäre notwendig gewesen, um weiterzukommen\ndie gemachten Schritte und Hürden dokumentieren"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-4",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-4",
+    "title": "Formal modeling in psychology",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nBewertungsschema (aktueller Entwurf)"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-5",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-5",
+    "title": "Formal modeling in psychology",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nNutzung von KI-Tools (ChatGPT etc.)\n\nKI-Tools sind Realität und können in der wissenschaftlichen Arbeit unterstützend eingesetzt werden. Niels Van Quaquebeke hat eine schöne Übersicht.\nEs muss jedoch klar sein, was die Eigenleistung des/der Studierenden ist, und dass die Verantwortung für den Inhalt der Arbeit beim Autor bzw. der Autorin liegt.\nAm Ende der Hausarbeit müssen Sie entsprechend zwei Erklärungen anhängen:\n\neine Eigenständigkeitserklärung (siehe nächste Folie)\neine ergänzende Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess (siehe übernächste Folie)."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-6",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-6",
+    "title": "Formal modeling in psychology",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nEigenständigkeitserklärung\n\nHiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig und ohne fremde Hilfe verfasst habe. Ich habe keine anderen als die angegebenen Quellen und Hilfsmittel benutzt und alle wörtlich oder sinngemäß übernommenen Stellen als solche kenntlich gemacht.\nOrt, Datum, Unterschrift"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
+    "title": "Formal modeling in psychology",
+    "section": "Nutzung von KI-Tools: Selbsterklärung (deutsch)",
+    "text": "Nutzung von KI-Tools: Selbsterklärung (deutsch)\n\n\nErklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess\nBei der Erstellung dieser Arbeit habe ich folgende/s Tool/s verwendet: [NAME TOOL / DIENST]. Art der Nutzung [bitte ankreuzen]:\n\nVerbesserung der sprachlichen Qualität und Lesbarkeit\nSchreibassistent z.B. zum Erstellen von Inhaltsverzeichnissen, Gliederungen, ersten Sätzen und Absätzen\nAuffinden von relevanten Zitaten, die als solche gekennzeichnet sind\nAuffinden von relevanten wissenschaftlichen Quellen, die als solche gekennzeichnet sind\nÜbersetzung von Zitaten oder Textabschnitten, die als solche gekennzeichnet sind (etwa: „Translated with DeepL“)\nZusammenfassung von Information\nTexttranskription von Audio- oder Videodateien\nErstellen von Bild- oder Videomaterial\nErstellen bzw. verbessern von Programmiercode (bspw. R- oder Python-Code)\nRecherche zu Begriffen\nErstellen von Begriffsdefinitionen\nSonstiges [bitte erläutern]:\n\nNach der Nutzung dieses Tools bzw. Dienstes habe ich den Inhalt überprüft, nach Bedarf bearbeitet und ich übernehme die volle Verantwortung für den Inhalt dieser Arbeit. Ich bestätige, dass diese Arbeit keine längeren Passagen (z.B. Zusammenfassung/Abstract der Arbeit, ganze Absätze im Text) an rein KI-generiertem Text enthält."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
+    "title": "Formal modeling in psychology",
+    "section": "Statement on the use of generative AI and AI-assisted technologies in the writing process",
+    "text": "Statement on the use of generative AI and AI-assisted technologies in the writing process\n\n\nStatement on the use of generative AI and AI-assisted technologies in the writing process\nIn writing this paper, I have used the following tool/s: [NAME TOOL / SERVICE]. I used it for the following purpose/s:\n\nimproving linguistic quality and readability\nwriting assistance e.g. for generating table of contents, outlines, first sentences and paragraphs\nfinding relevant citations (correctly marked as such)\nfinding relevant scientific sources (correctly marked as such)\ntranslation of citations or text passages (correctly marked as such, e.g. “translated with DeepL”)\nsummarizing information\ntranscribing assistance from audio or video\ngenerating or optimizing programming code (e.g. R- or Python-Code)\nresearching terms\ngenerating term definitions\nother [please specify]:\n\n\n\nAfter using this tool or service, I reviewed and edited the content as needed and I take full responsibility for the content of this paper. I certify that this paper does not contain lengthy passages (e.g. summary/abstract, or full paragraphs) of purely AI-generated text."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#contact",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#contact",
+    "title": "Formal modeling in psychology",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0\n\n\n\n\n\n\nFormal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
   },
   {
     "objectID": "lectures/MathModel/MathModel.html",
@@ -1740,7 +1761,35 @@
     "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-1",
     "title": "Mathematical Modeling 1",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n\nIf your model is deterministic, the same input parameters will always produce the exact same output.\nIn real data sets, however, we see a huge variability in the output variables. Where does the variability come from?\n\nAssuming that our model is the true data generating model (i.e., we modeled all relevant input variables and got the functional relationships right) and all model parameters are fixed (i.e., identical for all participants - there are no interindividual differences): - Participants bring different values in their exogenous variables - Measurement error in all measured variables, or probabilistic processes in the system\n\nIf we accept that our model is not the true model\n\nInterindividual differences in the sensors (i.e., manipulations and perceptions do not work the same for everyone) or actors (i.e., people differ in their helping behavior)\nRandom noise in the system (this could be modeled as a random error term as additional input to the final outcome variable)\n\n\nAssume a specific distribution of all input variables that participants bring to the experiment. Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications.\nMaybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via z-standardization)."
+    "text": "Step 5: Simulate a full data set\n\nIf your model is deterministic, the same input parameters will always produce exactly the same output.\nIn real data sets, however, we see a huge variability in the output variables. Where does the variability come from?"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-2",
+    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-2",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 5: Simulate a full data set",
+    "text": "Step 5: Simulate a full data set\n\nIf we assume that our model is the true data generating model, i.e.:\n\nwe modeled all relevant input variables (none is missing)\nwe got all functional relationships right\n\nand we assume that:\n\nall model parameters are fixed (i.e., identical for all participants - there are no interindividual differences)\n\n… then we still see variability in the output variables. This can come from:\n\nParticipants bring different values in their exogenous variables\nMeasurement error in all measured variables, or probabilistic processes in the system"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-3",
+    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-3",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 5: Simulate a full data set",
+    "text": "Step 5: Simulate a full data set\n\nMore interindividual differences\nNot every person is identical, so in reality there probably are interindividual differences in all steps:\n\nin the sensors (i.e., manipulations and perceptions do not work the same for everyone)\nin the actors (i.e., people differ how internal impulses are translated into overt behavior)\nDifferent parameter values in the functional relationships. For example, the individual treatment effect (ITE) could vary between participants."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-4",
+    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-4",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 5: Simulate a full data set",
+    "text": "Step 5: Simulate a full data set\n\nUnexplained variance / random noise\nFurthermore, our models are always simplifications of reality. We can never model all relevant variables and all relevant interactions. Therefore there certainly is some unexplained variability (aka. random noise) in the system.\nAll additional sources of variation could be modeled as a random error term pointing to the final outcome variable:\n\n\n\n\n\n\n\n\nG\n\n\n\nX\n\nX\n\n\n\nY\n\nY\n\n\n\nX-&gt;Y\n\n\nc  \n\n\n\n\nstart-&gt;Y"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-5",
+    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-5",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 5: Simulate a full data set",
+    "text": "Step 5: Simulate a full data set\n\nHow to add interindividual variance\n\nAssume a specific distribution of all exogenous input variables that participants bring to the experiment.\nEven better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications.\nMaybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via z-standardization)."
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#tool-2-the-distribution-zoo",
@@ -1785,11 +1834,18 @@
     "text": "Tool 3: The beta distribution\n\nApproximating a normal distribution with a beta distibution"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-2",
-    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-2",
+    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-6",
+    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-6",
     "title": "Mathematical Modeling 1",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\nOnce all of these values are defined, simulate a sample of participants (with their starting values), and put half of them into the experimental group, and half of them into the control group. Use the resulting output values to computer a regular t-test.\nNow the questions are:\n\nDoes the simulated model produce the phenomenon? How large is the effect size?\nWhat happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?"
+    "text": "Step 5: Simulate a full data set\nSimulate this design, analog to Fischer et al. (2006): “A 2 (bystander: yes vs. no) x 2 (danger: low vs high) factorial design was employed.”\n\n\nDoes the simulated model produce the phenomenon? How large is the effect size?\nWhat happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#evaluation-of-the-model-1",
+    "href": "lectures/MathModel/MathModel.html#evaluation-of-the-model-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Evaluation of the model",
+    "text": "Evaluation of the model\n\nWhen does the formal model produce the phenomenon?\n“one could conduct this simulation with very large sample sizes and use a statistical function for an effect size, like Cohen’s d, to express the results. Any effect size that would be detectable with “realistic sample sizes” could then count as production of the statistical pattern and as such be used to evaluate robustness.”"
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#contact",
@@ -1957,7 +2013,35 @@
     "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-1",
     "title": "Mathematical Modeling 1",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n\nIf your model is deterministic, the same input parameters will always produce the exact same output.\nIn real data sets, however, we see a huge variability in the output variables. Where does the variability come from?\n\nAssuming that our model is the true data generating model (i.e., we modeled all relevant input variables and got the functional relationships right) and all model parameters are fixed (i.e., identical for all participants - there are no interindividual differences): - Participants bring different values in their exogenous variables - Measurement error in all measured variables, or probabilistic processes in the system\n\nIf we accept that our model is not the true model\n\nInterindividual differences in the sensors (i.e., manipulations and perceptions do not work the same for everyone) or actors (i.e., people differ in their helping behavior)\nRandom noise in the system (this could be modeled as a random error term as additional input to the final outcome variable)\n\n\nAssume a specific distribution of all input variables that participants bring to the experiment. Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications.\nMaybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via z-standardization)."
+    "text": "Step 5: Simulate a full data set\n\nIf your model is deterministic, the same input parameters will always produce exactly the same output.\nIn real data sets, however, we see a huge variability in the output variables. Where does the variability come from?"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-2",
+    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-2",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 5: Simulate a full data set",
+    "text": "Step 5: Simulate a full data set\n\nIf we assume that our model is the true data generating model, i.e.:\n\nwe modeled all relevant input variables (none is missing)\nwe got all functional relationships right\n\nand we assume that:\n\nall model parameters are fixed (i.e., identical for all participants - there are no interindividual differences)\n\n… then we still see variability in the output variables. This can come from:\n\nParticipants bring different values in their exogenous variables\nMeasurement error in all measured variables, or probabilistic processes in the system"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-3",
+    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-3",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 5: Simulate a full data set",
+    "text": "Step 5: Simulate a full data set\nMore interindividual differences\nNot every person is identical, so in reality there probably are interindividual differences in all steps:\n\nin the sensors (i.e., manipulations and perceptions do not work the same for everyone)\nin the actors (i.e., people differ how internal impulses are translated into overt behavior)\nDifferent parameter values in the functional relationships. For example, the individual treatment effect (ITE) could vary between participants."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-4",
+    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-4",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 5: Simulate a full data set",
+    "text": "Step 5: Simulate a full data set\nUnexplained variance / random noise\nFurthermore, our models are always simplifications of reality. We can never model all relevant variables and all relevant interactions. Therefore there certainly is some unexplained variability (aka. random noise) in the system.\nAll additional sources of variation could be modeled as a random error term pointing to the final outcome variable:\n\n\n\n\n\n\n\n\nG\n\n\n\nX\n\nX\n\n\n\nY\n\nY\n\n\n\nX-&gt;Y\n\n\nc  \n\n\n\n\nstart-&gt;Y"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-5",
+    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-5",
+    "title": "Mathematical Modeling 1",
+    "section": "Step 5: Simulate a full data set",
+    "text": "Step 5: Simulate a full data set\nHow to add interindividual variance\n\nAssume a specific distribution of all exogenous input variables that participants bring to the experiment.\nEven better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications.\nMaybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via z-standardization)."
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#tool-2-the-distribution-zoo",
@@ -2002,11 +2086,18 @@
     "text": "Tool 3: The beta distribution\nApproximating a normal distribution with a beta distibution"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-2",
-    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-2",
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-6",
+    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-6",
     "title": "Mathematical Modeling 1",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\nOnce all of these values are defined, simulate a sample of participants (with their starting values), and put half of them into the experimental group, and half of them into the control group. Use the resulting output values to computer a regular t-test.\nNow the questions are:\n\nDoes the simulated model produce the phenomenon? How large is the effect size?\nWhat happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?"
+    "text": "Step 5: Simulate a full data set\nSimulate this design, analog to Fischer et al. (2006): “A 2 (bystander: yes vs. no) x 2 (danger: low vs high) factorial design was employed.”\n\n\nDoes the simulated model produce the phenomenon? How large is the effect size?\nWhat happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#evaluation-of-the-model-1",
+    "href": "lectures/MathModel/MathModel.slide.html#evaluation-of-the-model-1",
+    "title": "Mathematical Modeling 1",
+    "section": "Evaluation of the model",
+    "text": "Evaluation of the model\nWhen does the formal model produce the phenomenon?\n“one could conduct this simulation with very large sample sizes and use a statistical function for an effect size, like Cohen’s d, to express the results. Any effect size that would be detectable with “realistic sample sizes” could then count as production of the statistical pattern and as such be used to evaluate robustness.”"
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#contact",

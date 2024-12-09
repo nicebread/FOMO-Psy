@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/orga_material/orga_material.html",
+    "items": [
+      "/orga_material/course_announcement.html",
+      "/orga_material/call_for_submissions.html",
+      "/orga_material/instructions_before_course.html"
+    ]
+  },
+  {
     "listing": "/sessions/sessions_overview.html",
     "items": [
       "/sessions/S1-Introduction.html",
@@ -8,14 +16,6 @@
       "/sessions/S4-MathModel2.html",
       "/sessions/S5-MathModel3.html",
       "/sessions/S6-MathModel4.html"
-    ]
-  },
-  {
-    "listing": "/orga_material/orga_material.html",
-    "items": [
-      "/orga_material/course_announcement.html",
-      "/orga_material/call_for_submissions.html",
-      "/orga_material/instructions_before_course.html"
     ]
   }
 ]

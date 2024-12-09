@@ -263,6 +263,19 @@ window.Quarto = {
   <li><a href="#step-5-simulate-a-full-data-set" id="toc-step-5-simulate-a-full-data-set" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set">Step 5: Simulate a full data set</a>
   <ul class="collapse">
   <li><a href="#step-5-simulate-a-full-data-set-1" id="toc-step-5-simulate-a-full-data-set-1" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-1">Step 5: Simulate a full data set</a></li>
+  <li><a href="#step-5-simulate-a-full-data-set-2" id="toc-step-5-simulate-a-full-data-set-2" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-2">Step 5: Simulate a full data set</a></li>
+  <li><a href="#step-5-simulate-a-full-data-set-3" id="toc-step-5-simulate-a-full-data-set-3" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-3">Step 5: Simulate a full data set</a>
+  <ul class="collapse">
+  <li><a href="#more-interindividual-differences" id="toc-more-interindividual-differences" class="nav-link" data-scroll-target="#more-interindividual-differences">More interindividual differences</a></li>
+  </ul></li>
+  <li><a href="#step-5-simulate-a-full-data-set-4" id="toc-step-5-simulate-a-full-data-set-4" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-4">Step 5: Simulate a full data set</a>
+  <ul class="collapse">
+  <li><a href="#unexplained-variance-random-noise" id="toc-unexplained-variance-random-noise" class="nav-link" data-scroll-target="#unexplained-variance-random-noise">Unexplained variance / random noise</a></li>
+  </ul></li>
+  <li><a href="#step-5-simulate-a-full-data-set-5" id="toc-step-5-simulate-a-full-data-set-5" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-5">Step 5: Simulate a full data set</a>
+  <ul class="collapse">
+  <li><a href="#how-to-add-interindividual-variance" id="toc-how-to-add-interindividual-variance" class="nav-link" data-scroll-target="#how-to-add-interindividual-variance">How to add interindividual variance</a></li>
+  </ul></li>
   <li><a href="#tool-2-the-distribution-zoo" id="toc-tool-2-the-distribution-zoo" class="nav-link" data-scroll-target="#tool-2-the-distribution-zoo">Tool 2: The Distribution Zoo</a></li>
   <li><a href="#tool-3-the-beta-distribution" id="toc-tool-3-the-beta-distribution" class="nav-link" data-scroll-target="#tool-3-the-beta-distribution">Tool 3: The beta distribution</a></li>
   <li><a href="#tool-3-the-beta-distribution-1" id="toc-tool-3-the-beta-distribution-1" class="nav-link" data-scroll-target="#tool-3-the-beta-distribution-1">Tool 3: The beta distribution</a></li>
@@ -272,7 +285,14 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#approximating-a-normal-distribution-with-a-beta-distibution" id="toc-approximating-a-normal-distribution-with-a-beta-distibution" class="nav-link" data-scroll-target="#approximating-a-normal-distribution-with-a-beta-distibution">Approximating a normal distribution with a beta distibution</a></li>
   </ul></li>
-  <li><a href="#step-5-simulate-a-full-data-set-2" id="toc-step-5-simulate-a-full-data-set-2" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-2">Step 5: Simulate a full data set</a></li>
+  <li><a href="#step-5-simulate-a-full-data-set-6" id="toc-step-5-simulate-a-full-data-set-6" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-6">Step 5: Simulate a full data set</a></li>
+  </ul></li>
+  <li><a href="#evaluation-of-the-model" id="toc-evaluation-of-the-model" class="nav-link" data-scroll-target="#evaluation-of-the-model">Evaluation of the model</a>
+  <ul class="collapse">
+  <li><a href="#evaluation-of-the-model-1" id="toc-evaluation-of-the-model-1" class="nav-link" data-scroll-target="#evaluation-of-the-model-1">Evaluation of the model</a>
+  <ul class="collapse">
+  <li><a href="#when-does-the-formal-model-produce-the-phenomenon" id="toc-when-does-the-formal-model-produce-the-phenomenon" class="nav-link" data-scroll-target="#when-does-the-formal-model-produce-the-phenomenon">When does the formal model produce the phenomenon?</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a>
   <ul class="collapse">
@@ -833,19 +853,103 @@ Note
 <section id="step-5-simulate-a-full-data-set-1" class="level2">
 <h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-1">Step 5: Simulate a full data set</h2>
 <ul>
-<li>If your model is deterministic, the same input parameters will always produce the exact same output.</li>
+<li>If your model is deterministic, the same input parameters will always produce exactly the same output.</li>
 <li>In real data sets, however, we see a huge variability in the output variables. <strong>Where does the variability come from?</strong></li>
 </ul>
-<p>Assuming that our model is the <strong>true data generating model</strong> (i.e., we modeled all relevant input variables and got the functional relationships right) and all model parameters are fixed (i.e., identical for all participants - there are no interindividual differences): - Participants bring different values in their exogenous variables - Measurement error in all measured variables, or probabilistic processes in the system</p>
+</section>
+<section id="step-5-simulate-a-full-data-set-2" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-2">Step 5: Simulate a full data set</h2>
+<div class="smaller">
+<p>If we assume that our model is the <strong>true data generating model</strong>, i.e.:</p>
 <ul>
-<li>If we accept that our model is not the true model
-<ul>
-<li>Interindividual differences in the sensors (i.e., manipulations and perceptions do not work the same for everyone) or actors (i.e., people differ in their helping behavior)</li>
-<li>Random noise in the system (this could be modeled as a random error term as additional input to the final outcome variable)</li>
-</ul></li>
+<li>we modeled all relevant input variables (none is missing)</li>
+<li>we got all functional relationships right</li>
 </ul>
-<p>Assume a specific distribution of all input variables that participants bring to the experiment. Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications.</p>
-<p>Maybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via <em>z</em>-standardization).</p>
+<p><strong>and</strong> we assume that:</p>
+<ul>
+<li>all model parameters are fixed (i.e., identical for all participants - there are no interindividual differences)</li>
+</ul>
+<p>… then we still see variability in the output variables. This can come from:</p>
+<ul>
+<li>Participants bring different values in their exogenous variables</li>
+<li>Measurement error in all measured variables, or probabilistic processes in the system</li>
+</ul>
+</div>
+</section>
+<section id="step-5-simulate-a-full-data-set-3" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-3">Step 5: Simulate a full data set</h2>
+<section id="more-interindividual-differences" class="level3">
+<h3 class="anchored" data-anchor-id="more-interindividual-differences">More interindividual differences</h3>
+<p>Not every person is identical, so in reality there probably are interindividual differences in all steps:</p>
+<ul>
+<li>in the sensors (i.e., manipulations and perceptions do not work the same for everyone)</li>
+<li>in the actors (i.e., people differ how internal impulses are translated into overt behavior)</li>
+<li>Different parameter values in the functional relationships. For example, the individual treatment effect (ITE) could vary between participants.</li>
+</ul>
+</section>
+</section>
+<section id="step-5-simulate-a-full-data-set-4" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-4">Step 5: Simulate a full data set</h2>
+<section id="unexplained-variance-random-noise" class="level3">
+<h3 class="anchored" data-anchor-id="unexplained-variance-random-noise">Unexplained variance / random noise</h3>
+<p>Furthermore, our models are always simplifications of reality. We can never model all relevant variables and all relevant interactions. Therefore there certainly is some <strong>unexplained variability</strong> (aka. random noise) in the system.</p>
+<p>All additional sources of variation could be modeled as a random error term pointing to the final outcome variable:</p>
+<div class="svg-h300" style="text-align: center;">
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<svg width="672" height="480" viewbox="0.00 0.00 206.00 99.80" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 95.8)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-95.8 202,-95.8 202,4 -4,4"></polygon>
+<!-- X -->
+<g id="node1" class="node">
+<title>X</title>
+<polygon fill="none" stroke="black" points="54,-36 0,-36 0,0 54,0 54,-36"></polygon>
+<text text-anchor="middle" x="27" y="-13.8" font-family="Times,serif" font-size="14.00">X</text>
+</g>
+<!-- Y -->
+<g id="node2" class="node">
+<title>Y</title>
+<polygon fill="none" stroke="black" points="198,-36 144,-36 144,0 198,0 198,-36"></polygon>
+<text text-anchor="middle" x="171" y="-13.8" font-family="Times,serif" font-size="14.00">Y</text>
+</g>
+<!-- X&#45;&gt;Y -->
+<g id="edge1" class="edge">
+<title>X-&gt;Y</title>
+<path fill="none" stroke="black" d="M54.09,-18C76.47,-18 108.5,-18 133.37,-18"></path>
+<polygon fill="black" stroke="black" points="133.55,-21.5 143.55,-18 133.55,-14.5 133.55,-21.5"></polygon>
+<text text-anchor="middle" x="87.12" y="-22.2" font-family="Times,serif" font-size="14.00">c &nbsp;</text>
+</g>
+<!-- start -->
+<!-- start&#45;&gt;Y -->
+<g id="edge2" class="edge">
+<title>start-&gt;Y</title>
+<path fill="none" stroke="red" d="M171,-87.92C171,-81.76 171,-62.96 171,-46.4"></path>
+<polygon fill="red" stroke="red" points="174.5,-46 171,-36 167.5,-46 174.5,-46"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="step-5-simulate-a-full-data-set-5" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-5">Step 5: Simulate a full data set</h2>
+<section id="how-to-add-interindividual-variance" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-add-interindividual-variance">How to add interindividual variance</h3>
+<ul>
+<li>Assume a specific distribution of all exogenous input variables that participants bring to the experiment.</li>
+<li>Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications.</li>
+<li>Maybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via <em>z</em>-standardization).</li>
+</ul>
+</section>
 </section>
 <section id="tool-2-the-distribution-zoo" class="level2">
 <h2 class="anchored" data-anchor-id="tool-2-the-distribution-zoo">Tool 2: The Distribution Zoo</h2>
@@ -865,7 +969,7 @@ Note
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-15-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-16-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -918,12 +1022,12 @@ Note
 <div>
 
 </div>
-<div class="cell quarto-layout-panel" data-layout-ncol="1" data-layout-align="center" data-layout-nrow="2">
+<div class="cell quarto-layout-panel" data-layout-ncol="1" data-layout-nrow="2" data-layout-align="center">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-17-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-18-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -932,7 +1036,7 @@ Note
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-17-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-18-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -940,15 +1044,25 @@ Note
 </div>
 </section>
 </section>
-<section id="step-5-simulate-a-full-data-set-2" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-2">Step 5: Simulate a full data set</h2>
-<p>Once all of these values are defined, simulate a sample of participants (with their starting values), and put half of them into the experimental group, and half of them into the control group. Use the resulting output values to computer a regular t-test.</p>
-<p>Now the questions are:</p>
+<section id="step-5-simulate-a-full-data-set-6" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-6">Step 5: Simulate a full data set</h2>
+<p>Simulate this design, analog to Fischer et al.&nbsp;(2006): “A 2 (bystander: yes vs.&nbsp;no) x 2 (danger: low vs high) factorial design was employed.”</p>
+<p><img src="img/study_to_simulate.png" height="250"></p>
 <ul>
 <li>Does the simulated model produce the phenomenon? How large is the effect size?</li>
 <li>What happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?</li>
 </ul>
+</section>
+</section>
+<section id="evaluation-of-the-model" class="level1">
+<h1>Evaluation of the model</h1>
+<section id="evaluation-of-the-model-1" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation-of-the-model-1">Evaluation of the model</h2>
+<section id="when-does-the-formal-model-produce-the-phenomenon" class="level3">
+<h3 class="anchored" data-anchor-id="when-does-the-formal-model-produce-the-phenomenon">When does the formal model produce the phenomenon?</h3>
+<p>“one could conduct this simulation with very large sample sizes and use a statistical function for an effect size, like Cohen’s d, to express the results. Any effect size that would be detectable with “realistic sample sizes” could then count as production of the statistical pattern and as such be used to evaluate robustness.”</p>
 <!-- Footer insert below -->
+</section>
 </section>
 </section>
 <section id="end" class="level1">

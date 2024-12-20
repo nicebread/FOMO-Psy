@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d1b12f2568ecbe55642fee6aa00bd082.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -206,12 +206,20 @@ ul.task-list li input[type="checkbox"] {
 <h1 data-number="2"><span class="header-section-number">2</span> Homework (individually)</h1>
 <p>Read: Van Dongen et al.&nbsp;(2024). Productive explanation: A framework for evaluating explanations in psychological science. <em>Psychological Review</em>. <a href="https://doi.org/10.1037/rev0000479">https://doi.org/10.1037/rev0000479</a> (available in the <code>/literature</code> folder):</p>
 <ul>
-<li><p><strong>Question 1:</strong> What are two intermediate processes that are necessary for providing a productive explanation? <!-- - **Answer:** "Productive explanation provides a clear connection between a verbal theory and a phenomenon through the use of two intermediaries (a) a formal model that is an explication of the theory and (b) a statistical pattern that represents the phenomenon." (Page 5) --></p></li>
-<li><p><strong>Question 2:</strong> According to the authors, what are the three steps of productive explanation? <!-- - **Answer:** "1. Represent the phenomenon as a statistical pattern, 2. Explicate the verbal theory as a formal model, 3. Evaluate whether the formal model produces the statistical pattern." (Page 5) --></p></li>
-<li><p><strong>Question 3:</strong> What does the paper identify as a limitation of verbal psychological theories compared to formal models in other scientific disciplines? <!-- - **Answer:** "However, the fact that the theory is purely verbal in character makes it hard to evaluate what exactly is implied by the theory. As a result, it is difficult to assess whether the theory indeed explains a certain phenomenon." (Page 2) --></p></li>
-<li><p><strong>Question 4:</strong> What criteria are suggested for evaluating the <em>quality</em> of explanations in the productive explanation framework? <!-- - **Answer:** "The first criterion, precision, refers to the strength of the theoretical anchor between verbal theory and formal model. The second criterion is robustness: it specifies to what extent the formal models consistent with the verbal theory produce the phenomenon. Finally, empirical relevance captures to what extent the theory is necessary for the explanation of the phenomenon." (Page 9) --></p></li>
-<li><p><strong>Question 5:</strong> In the case study of ego-depletion, what were the primary theoretical principles incorporated into the formal model? <!-- - **Answer:** "The key theoretical principles of the verbal theory are that (a) there is a domain-general 'resource' called willpower (W), (b) tasks requiring willpower deplete this resource, and (c) the resource is replenished at some rate after the task ends." (Page 7) --></p></li>
+<li><p><strong>Question 1:</strong> What is the role an original authors should play when predictions are derived from a theory? <!-- Answer: None. --></p></li>
+<li><p><strong>Question 2:</strong> Are phenomena, according to Bogen and Woodward, directly observable?</p></li>
 </ul>
+<!-- Answer: No. Although they are *established* by evidence from observations, they transcend any particular set of structured or unstructured data. -->
+<ul>
+<li><p><strong>Question 3:</strong> What are two intermediate processes that are necessary for providing a productive explanation? <!-- - **Answer:** "Productive explanation provides a clear connection between a verbal theory and a phenomenon through the use of two intermediaries (a) a formal model that is an explication of the theory and (b) a statistical pattern that represents the phenomenon." (Page 5) --></p></li>
+<li><p><strong>Question 4:</strong> According to the authors, what are the three steps of productive explanation? <!-- - **Answer:** "1. Represent the phenomenon as a statistical pattern, 2. Explicate the verbal theory as a formal model, 3. Evaluate whether the formal model produces the statistical pattern." (Page 5) --></p></li>
+<li><p><strong>Question 5:</strong> What does the paper identify as a limitation of verbal psychological theories compared to formal models in other scientific disciplines? <!-- - **Answer:** "However, the fact that the theory is purely verbal in character makes it hard to evaluate what exactly is implied by the theory. As a result, it is difficult to assess whether the theory indeed explains a certain phenomenon." (Page 2) --></p></li>
+<li><p><strong>Question 6:</strong> What criteria are suggested for evaluating the <em>quality</em> of explanations in the productive explanation framework? <!-- - **Answer:** "The first criterion, precision, refers to the strength of the theoretical anchor between verbal theory and formal model. The second criterion is robustness: it specifies to what extent the formal models consistent with the verbal theory produce the phenomenon. Finally, empirical relevance captures to what extent the theory is necessary for the explanation of the phenomenon." (Page 9) --></p></li>
+<li><p><strong>Question 7:</strong> Does Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?</p></li>
+</ul>
+<!-- Answer: 
+With the specifically chosen parameters: Yes. But it "depends on a quite delicate balance between parameters that characterize the interplay between task demand and willpower." 
+ -->
 <p><strong>Deliverable</strong>: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to <code>homework/04-Productive_explanations</code> and upload an <code>.md</code> file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper.</p>
 
 
@@ -300,8 +308,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -412,7 +418,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

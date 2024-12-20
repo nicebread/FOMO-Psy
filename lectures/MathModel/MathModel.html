@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felix Schönbrodt">
 <meta name="dcterms.date" content="2024-11-08">
 
-<title>Mathematical Modeling 1 – FOMO-Psy: Formal Modeling of Psychological Theories</title>
+<title>Mathematical Modeling of Psychological Theories – FOMO-Psy: Formal Modeling of Psychological Theories</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,10 +71,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-d1b12f2568ecbe55642fee6aa00bd082.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -262,30 +262,53 @@ window.Quarto = {
   </ul></li>
   <li><a href="#step-5-simulate-a-full-data-set" id="toc-step-5-simulate-a-full-data-set" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set">Step 5: Simulate a full data set</a>
   <ul class="collapse">
-  <li><a href="#step-5-simulate-a-full-data-set-1" id="toc-step-5-simulate-a-full-data-set-1" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-1">Step 5: Simulate a full data set</a></li>
-  <li><a href="#step-5-simulate-a-full-data-set-2" id="toc-step-5-simulate-a-full-data-set-2" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-2">Step 5: Simulate a full data set</a></li>
+  <li><a href="#step-5-simulate-a-full-data-set-1" id="toc-step-5-simulate-a-full-data-set-1" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-1">Step 5: Simulate a full data set</a>
+  <ul class="collapse">
+  <li><a href="#a-create-a-design-matrix-for-experimental-factors" id="toc-a-create-a-design-matrix-for-experimental-factors" class="nav-link" data-scroll-target="#a-create-a-design-matrix-for-experimental-factors">5a: Create a design matrix for experimental factors</a></li>
+  </ul></li>
+  <li><a href="#step-5-simulate-a-full-data-set-2" id="toc-step-5-simulate-a-full-data-set-2" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-2">Step 5: Simulate a full data set</a>
+  <ul class="collapse">
+  <li><a href="#a-create-a-design-matrix-for-experimental-factors-1" id="toc-a-create-a-design-matrix-for-experimental-factors-1" class="nav-link" data-scroll-target="#a-create-a-design-matrix-for-experimental-factors-1">5a: Create a design matrix for experimental factors</a></li>
+  </ul></li>
   <li><a href="#step-5-simulate-a-full-data-set-3" id="toc-step-5-simulate-a-full-data-set-3" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-3">Step 5: Simulate a full data set</a>
   <ul class="collapse">
-  <li><a href="#more-interindividual-differences" id="toc-more-interindividual-differences" class="nav-link" data-scroll-target="#more-interindividual-differences">More interindividual differences</a></li>
+  <li><a href="#b-simulate-random-observed-variables" id="toc-b-simulate-random-observed-variables" class="nav-link" data-scroll-target="#b-simulate-random-observed-variables">5b: Simulate random observed variables</a></li>
   </ul></li>
   <li><a href="#step-5-simulate-a-full-data-set-4" id="toc-step-5-simulate-a-full-data-set-4" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-4">Step 5: Simulate a full data set</a>
   <ul class="collapse">
-  <li><a href="#unexplained-variance-random-noise" id="toc-unexplained-variance-random-noise" class="nav-link" data-scroll-target="#unexplained-variance-random-noise">Unexplained variance / random noise</a></li>
+  <li><a href="#c-compute-the-outcome-variable-i.e.-the-model-output" id="toc-c-compute-the-outcome-variable-i.e.-the-model-output" class="nav-link" data-scroll-target="#c-compute-the-outcome-variable-i.e.-the-model-output">5c: Compute the outcome variable (i.e., the model output)</a></li>
   </ul></li>
   <li><a href="#step-5-simulate-a-full-data-set-5" id="toc-step-5-simulate-a-full-data-set-5" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-5">Step 5: Simulate a full data set</a>
   <ul class="collapse">
+  <li><a href="#sources-of-interindividual-differences" id="toc-sources-of-interindividual-differences" class="nav-link" data-scroll-target="#sources-of-interindividual-differences">Sources of interindividual differences</a></li>
+  </ul></li>
+  <li><a href="#step-5-simulate-a-full-data-set-6" id="toc-step-5-simulate-a-full-data-set-6" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-6">Step 5: Simulate a full data set</a>
+  <ul class="collapse">
+  <li><a href="#c-unexplained-variance-random-noise" id="toc-c-unexplained-variance-random-noise" class="nav-link" data-scroll-target="#c-unexplained-variance-random-noise">5c: Unexplained variance / random noise</a></li>
+  </ul></li>
+  <li><a href="#step-5-simulate-a-full-data-set-7" id="toc-step-5-simulate-a-full-data-set-7" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-7">Step 5: Simulate a full data set</a>
+  <ul class="collapse">
+  <li><a href="#c-compute-the-outcome-variable-i.e.-the-model-output-1" id="toc-c-compute-the-outcome-variable-i.e.-the-model-output-1" class="nav-link" data-scroll-target="#c-compute-the-outcome-variable-i.e.-the-model-output-1">5c: Compute the outcome variable (i.e., the model output)</a></li>
+  </ul></li>
+  <li><a href="#group-work-20-min.-create-a-design-matrix" id="toc-group-work-20-min.-create-a-design-matrix" class="nav-link" data-scroll-target="#group-work-20-min.-create-a-design-matrix"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (20 min.):<br>Create a design matrix</a></li>
+  <li><a href="#step-5-simulate-a-full-data-set-8" id="toc-step-5-simulate-a-full-data-set-8" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-8">Step 5: Simulate a full data set</a>
+  <ul class="collapse">
   <li><a href="#how-to-add-interindividual-variance" id="toc-how-to-add-interindividual-variance" class="nav-link" data-scroll-target="#how-to-add-interindividual-variance">How to add interindividual variance</a></li>
   </ul></li>
-  <li><a href="#tool-2-the-distribution-zoo" id="toc-tool-2-the-distribution-zoo" class="nav-link" data-scroll-target="#tool-2-the-distribution-zoo">Tool 2: The Distribution Zoo</a></li>
+  <li><a href="#tool-the-distribution-zoo" id="toc-tool-the-distribution-zoo" class="nav-link" data-scroll-target="#tool-the-distribution-zoo">Tool: The Distribution Zoo</a></li>
   <li><a href="#tool-3-the-beta-distribution" id="toc-tool-3-the-beta-distribution" class="nav-link" data-scroll-target="#tool-3-the-beta-distribution">Tool 3: The beta distribution</a></li>
   <li><a href="#tool-3-the-beta-distribution-1" id="toc-tool-3-the-beta-distribution-1" class="nav-link" data-scroll-target="#tool-3-the-beta-distribution-1">Tool 3: The beta distribution</a></li>
   <li><a href="#tool-3-the-beta-distribution-2" id="toc-tool-3-the-beta-distribution-2" class="nav-link" data-scroll-target="#tool-3-the-beta-distribution-2">Tool 3: The beta distribution</a></li>
-  <li><a href="#tool-3-the-beta-distribution-3" id="toc-tool-3-the-beta-distribution-3" class="nav-link" data-scroll-target="#tool-3-the-beta-distribution-3">Tool 3: The beta distribution</a></li>
-  <li><a href="#tool-3-the-beta-distribution-4" id="toc-tool-3-the-beta-distribution-4" class="nav-link" data-scroll-target="#tool-3-the-beta-distribution-4">Tool 3: The beta distribution</a>
+  <li><a href="#tool-3-the-beta-distribution-3" id="toc-tool-3-the-beta-distribution-3" class="nav-link" data-scroll-target="#tool-3-the-beta-distribution-3">Tool 3: The beta distribution</a>
   <ul class="collapse">
   <li><a href="#approximating-a-normal-distribution-with-a-beta-distibution" id="toc-approximating-a-normal-distribution-with-a-beta-distibution" class="nav-link" data-scroll-target="#approximating-a-normal-distribution-with-a-beta-distibution">Approximating a normal distribution with a beta distibution</a></li>
   </ul></li>
-  <li><a href="#step-5-simulate-a-full-data-set-6" id="toc-step-5-simulate-a-full-data-set-6" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-6">Step 5: Simulate a full data set</a></li>
+  <li><a href="#tool-3-the-beta-distribution-4" id="toc-tool-3-the-beta-distribution-4" class="nav-link" data-scroll-target="#tool-3-the-beta-distribution-4">Tool 3: The beta distribution</a>
+  <ul class="collapse">
+  <li><a href="#approximating-a-normal-distribution-with-a-beta-distibution-1" id="toc-approximating-a-normal-distribution-with-a-beta-distibution-1" class="nav-link" data-scroll-target="#approximating-a-normal-distribution-with-a-beta-distibution-1">Approximating a normal distribution with a beta distibution</a></li>
+  </ul></li>
+  <li><a href="#group-work-45-min.-full-simulation" id="toc-group-work-45-min.-full-simulation" class="nav-link" data-scroll-target="#group-work-45-min.-full-simulation"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (45 min.):<br>Full simulation</a></li>
+  <li><a href="#step-5-simulate-a-full-data-set-9" id="toc-step-5-simulate-a-full-data-set-9" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-9">Step 5: Simulate a full data set</a></li>
   </ul></li>
   <li><a href="#evaluation-of-the-model" id="toc-evaluation-of-the-model" class="nav-link" data-scroll-target="#evaluation-of-the-model">Evaluation of the model</a>
   <ul class="collapse">
@@ -306,7 +329,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Mathematical Modeling 1</h1>
+<h1 class="title">Mathematical Modeling of Psychological Theories</h1>
 <p class="subtitle lead">Introduction</p>
 </div>
 
@@ -455,7 +478,7 @@ window.Quarto = {
 </tbody>
 </table>
 </div>
-<p>Note: This resembles a <strong>codebook</strong>; but for theoretical variables, not for measured variables. As a heuristic, list <strong>all concepts that are not higher-order concepts</strong> (because these usually have no single numerical representation).</p>
+<p>Note: This resembles a <strong>codebook</strong>; but for theoretical variables, not only for measured variables. As a heuristic, list <strong>all concepts that are not higher-order concepts</strong> (because these usually have no single numerical representation).</p>
 </div>
 </section>
 </section>
@@ -852,49 +875,181 @@ Note
 <h1>Step 5: Simulate a full data set</h1>
 <section id="step-5-simulate-a-full-data-set-1" class="level2">
 <h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-1">Step 5: Simulate a full data set</h2>
-<ul>
-<li>If your model is deterministic, the same input parameters will always produce exactly the same output.</li>
-<li>In real data sets, however, we see a huge variability in the output variables. <strong>Where does the variability come from?</strong></li>
-</ul>
+<section id="a-create-a-design-matrix-for-experimental-factors" class="level3">
+<h3 class="anchored" data-anchor-id="a-create-a-design-matrix-for-experimental-factors">5a: Create a design matrix for experimental factors</h3>
+<p>Create a design matrix for all possible combinations of experimental factors (i.e., those variables that you control/manipulate at specific levels).</p>
+<p>The <code>expand.grid()</code> function in <code>R</code> comes as a handy tool for fully crossed factors (the first factor varies fastest, the last factor varies slowest):</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add all factors as arguments:</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">F1 =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>), </span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">F2 =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>),</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">F3 =</span> <span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output cell-output-stdout">
+<pre><code>   F1 F2    F3
+1   A  1  TRUE
+2   B  1  TRUE
+3   A  2  TRUE
+4   B  2  TRUE
+5   A  3  TRUE
+6   B  3  TRUE
+7   A  1 FALSE
+8   B  1 FALSE
+9   A  2 FALSE
+10  B  2 FALSE
+11  A  3 FALSE
+12  B  3 FALSE</code></pre>
+</div>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section id="step-5-simulate-a-full-data-set-2" class="level2">
 <h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-2">Step 5: Simulate a full data set</h2>
+<section id="a-create-a-design-matrix-for-experimental-factors-1" class="level3">
+<h3 class="anchored" data-anchor-id="a-create-a-design-matrix-for-experimental-factors-1">5a: Create a design matrix for experimental factors</h3>
 <div class="smaller">
-<p>If we assume that our model is the <strong>true data generating model</strong>, i.e.:</p>
-<ul>
-<li>we modeled all relevant input variables (none is missing)</li>
-<li>we got all functional relationships right</li>
-</ul>
-<p><strong>and</strong> we assume that:</p>
-<ul>
-<li>all model parameters are fixed (i.e., identical for all participants - there are no interindividual differences)</li>
-</ul>
-<p>… then we still see variability in the output variables. This can come from:</p>
-<ul>
-<li>Participants bring different values in their exogenous variables</li>
-<li>Measurement error in all measured variables, or probabilistic processes in the system</li>
-</ul>
+<p>To create a virtual sample, add one additional variable with a participant ID (this also determines the size of your sample):</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>n_per_condition <span class="ot">&lt;-</span> <span class="dv">3</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">pID     =</span> <span class="dv">1</span><span class="sc">:</span>n_per_condition, </span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">valence =</span> <span class="fu">c</span>(<span class="st">"pos"</span>, <span class="st">"neg"</span>), </span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">speed   =</span> <span class="fu">c</span>(<span class="st">"slow"</span>, <span class="st">"fast"</span>)</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</div><div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output cell-output-stdout">
+<pre><code>   pID valence speed
+1    1     pos  slow
+2    2     pos  slow
+3    3     pos  slow
+4    1     neg  slow
+5    2     neg  slow
+6    3     neg  slow
+7    1     pos  fast
+8    2     pos  fast
+9    3     pos  fast
+10   1     neg  fast
+11   2     neg  fast
+12   3     neg  fast</code></pre>
+</div>
+</div>
+</div>
+</div>
+<p>We have 12 participants overall: 3 participants in the <code>pos/slow</code> condition, 3 in the <code>neg/slow</code> condition, and so forth. Note that, although the participant ID repeats within each condition, these could be different (independent) participants if we assume a between-person design.</p>
+</div>
+</section>
 </section>
 <section id="step-5-simulate-a-full-data-set-3" class="level2">
 <h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-3">Step 5: Simulate a full data set</h2>
-<section id="more-interindividual-differences" class="level3">
-<h3 class="anchored" data-anchor-id="more-interindividual-differences">More interindividual differences</h3>
-<p>Not every person is identical, so in reality there probably are interindividual differences in all steps:</p>
-<ul>
-<li>in the sensors (i.e., manipulations and perceptions do not work the same for everyone)</li>
-<li>in the actors (i.e., people differ how internal impulses are translated into overt behavior)</li>
-<li>Different parameter values in the functional relationships. For example, the individual treatment effect (ITE) could vary between participants.</li>
-</ul>
+<section id="b-simulate-random-observed-variables" class="level3">
+<h3 class="anchored" data-anchor-id="b-simulate-random-observed-variables">5b: Simulate random observed variables</h3>
+<p>Add observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="fu">nrow</span>(df)</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>age <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n, <span class="at">mean=</span><span class="dv">26</span>, <span class="at">sd=</span><span class="dv">4</span>) <span class="sc">|&gt;</span> <span class="fu">round</span>()</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Extraversion</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="co"># z-scores: standard normal distribution</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>extra <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n) <span class="sc">|&gt;</span> <span class="fu">round</span>(<span class="dv">1</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output cell-output-stdout">
+<pre><code>   pID valence speed age extra
+1    1     pos  slow  27   0.5
+2    2     pos  slow  27  -2.1
+3    3     pos  slow  29  -0.4
+4    1     neg  slow  29   1.0
+5    2     neg  slow  21  -0.9
+6    3     neg  slow  27   0.6
+7    1     pos  fast  29  -0.4
+8    2     pos  fast  31  -1.3
+9    3     pos  fast  28  -1.7
+10   1     neg  fast  29   2.2
+11   2     neg  fast  25   0.2
+12   3     neg  fast  22   0.5</code></pre>
+</div>
+</div>
+</div>
+</div>
 </section>
 </section>
 <section id="step-5-simulate-a-full-data-set-4" class="level2">
 <h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-4">Step 5: Simulate a full data set</h2>
-<section id="unexplained-variance-random-noise" class="level3">
-<h3 class="anchored" data-anchor-id="unexplained-variance-random-noise">Unexplained variance / random noise</h3>
-<p>Furthermore, our models are always simplifications of reality. We can never model all relevant variables and all relevant interactions. Therefore there certainly is some <strong>unexplained variability</strong> (aka. random noise) in the system.</p>
-<p>All additional sources of variation could be modeled as a random error term pointing to the final outcome variable:</p>
-<div class="svg-h300" style="text-align: center;">
+<section id="c-compute-the-outcome-variable-i.e.-the-model-output" class="level3">
+<h3 class="anchored" data-anchor-id="c-compute-the-outcome-variable-i.e.-the-model-output">5c: Compute the outcome variable (i.e., the model output)</h3>
+<p>Once all input variables have been simulated, submit them to your model function and compute the outcome variable <span class="math inline">\(y\)</span>:</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># psi() is the model function that takes </span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co"># all input parameters and returns the </span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co"># simulated output</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y <span class="ot">&lt;-</span> <span class="fu">psi</span>(df<span class="sc">$</span>valence, df<span class="sc">$</span>speed, </span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>            df<span class="sc">$</span>age, df<span class="sc">$</span>extra)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output cell-output-stdout">
+<pre><code>   pID valence speed age extra    y
+1    1     pos  slow  27   0.5  6.4
+2    2     pos  slow  27  -2.1 12.3
+3    3     pos  slow  29  -0.4  9.0
+4    1     neg  slow  29   1.0  9.5
+5    2     neg  slow  21  -0.9  8.8
+6    3     neg  slow  27   0.6 10.0
+7    1     pos  fast  29  -0.4 12.0
+8    2     pos  fast  31  -1.3  9.6
+9    3     pos  fast  28  -1.7  6.9
+10   1     neg  fast  29   2.2  7.3
+11   2     neg  fast  25   0.2 11.3
+12   3     neg  fast  22   0.5  9.8</code></pre>
+</div>
+</div>
+</div>
+</div>
+<p>Make sure that the <code>psi()</code> function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function).</p>
+</section>
+</section>
+<section id="step-5-simulate-a-full-data-set-5" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-5">Step 5: Simulate a full data set</h2>
+<section id="sources-of-interindividual-differences" class="level3">
+<h3 class="anchored" data-anchor-id="sources-of-interindividual-differences">Sources of interindividual differences</h3>
+<p>Not every person is identical, so in reality there probably are interindividual differences at several places:</p>
+<ul>
+<li>in the sensors (i.e., manipulations and perceptions do not work the same for everyone)</li>
+<li>in the actors (i.e., people differ how internal impulses are translated into overt behavior)</li>
+<li>interindividual difference variables in the model</li>
+<li>Different parameter values in the functional relationships. For example, the individual treatment effect (ITE) could vary between participants.</li>
+</ul>
+<p>We <strong>can</strong> model these interindividual differences - or we assume that some of them are constant for all participants.</p>
+</section>
+</section>
+<section id="step-5-simulate-a-full-data-set-6" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-6">Step 5: Simulate a full data set</h2>
+<section id="c-unexplained-variance-random-noise" class="level3">
+<h3 class="anchored" data-anchor-id="c-unexplained-variance-random-noise">5c: Unexplained variance / random noise</h3>
+<div class="smaller">
+<p>Furthermore, our models are always simplifications of reality. We can never model all relevant variables; and measurement error adds further noise. Consequently there is some <strong>unexplained variability</strong> (aka. random noise) in the system.</p>
+<p>All additional sources of variation could be modeled as a single random error term pointing to the final outcome variable. This summarizes all additional sources of variation that are not explicitly modeled:</p>
+</div>
+<div class="svg-h200" style="text-align: center;">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -940,8 +1095,71 @@ Note
 </div>
 </section>
 </section>
-<section id="step-5-simulate-a-full-data-set-5" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-5">Step 5: Simulate a full data set</h2>
+<section id="step-5-simulate-a-full-data-set-7" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-7">Step 5: Simulate a full data set</h2>
+<section id="c-compute-the-outcome-variable-i.e.-the-model-output-1" class="level3">
+<h3 class="anchored" data-anchor-id="c-compute-the-outcome-variable-i.e.-the-model-output-1">5c: Compute the outcome variable (i.e., the model output)</h3>
+<p>Add additional (summative) error variance to output variable:</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># deterministic model output</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y <span class="ot">&lt;-</span> <span class="fu">psi</span>(df<span class="sc">$</span>valence, df<span class="sc">$</span>speed, </span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>            df<span class="sc">$</span>age, df<span class="sc">$</span>extra)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Add additional noise to observed variable.</span></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="co"># The SD of the normal distribution</span></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a><span class="co"># determines the amount of error</span></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y_obs <span class="ot">&lt;-</span> df<span class="sc">$</span>y <span class="sc">+</span> <span class="fu">rnorm</span>(n, <span class="at">mean=</span><span class="dv">0</span>, <span class="at">sd=</span><span class="dv">2</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>            <span class="fu">round</span>(<span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="cell" data-layout-align="center">
+<div class="cell-output cell-output-stdout">
+<pre><code>   pID valence speed age extra    y y_obs
+1    1     pos  slow  27   0.5  6.4   5.9
+2    2     pos  slow  27  -2.1 12.3  13.8
+3    3     pos  slow  29  -0.4  9.0  10.3
+4    1     neg  slow  29   1.0  9.5   8.4
+5    2     neg  slow  21  -0.9  8.8   6.4
+6    3     neg  slow  27   0.6 10.0   8.9
+7    1     pos  fast  29  -0.4 12.0  12.6
+8    2     pos  fast  31  -1.3  9.6   9.6
+9    3     pos  fast  28  -1.7  6.9   7.4
+10   1     neg  fast  29   2.2  7.3   9.1
+11   2     neg  fast  25   0.2 11.3  11.1
+12   3     neg  fast  22   0.5  9.8   9.8</code></pre>
+</div>
+</div>
+</div>
+</div>
+<p>The size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size.</p>
+</section>
+</section>
+<section id="group-work-20-min.-create-a-design-matrix" class="level2">
+<h2 class="anchored" data-anchor-id="group-work-20-min.-create-a-design-matrix"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (20 min.):<br>Create a design matrix</h2>
+<div class="smaller">
+<ol type="1">
+<li>In your own <code>R</code> project, create a design matrix with <code>expand.grid()</code> and the following fully crossed experimental factors (<span class="math inline">\(n=30\)</span> participants per condition):
+<ul>
+<li>Danger of intervention (<code>DoI</code>) with the levels 0.2 and 0.8</li>
+<li>Number of passive bystanders (<code>NOPB</code>) with the levels 0, 1, and 4</li>
+</ul></li>
+<li>Add random variables for all exogenous* variables of your model that are not experimentally manipulated.
+<ul>
+<li>This includes, e.g., the personal base resposibility, <code>baseResp</code>.</li>
+<li>Furthermore, add neuroticism (<code>neuro</code>) and age (<code>age</code>). (Note: We don’t need them for our model, just for practice.)</li>
+<li>Think about justifiable settings for the simulated variables (e.g., type of distribution, range, mean, SD).</li>
+</ul></li>
+<li>Push everything to the repository.</li>
+</ol>
+</div>
+<div class="footer">
+<p>* Reminder: Exogenous variables are those variables in your model that have no arrows pointing towards them.</p>
+</div>
+</section>
+<section id="step-5-simulate-a-full-data-set-8" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-8">Step 5: Simulate a full data set</h2>
 <section id="how-to-add-interindividual-variance" class="level3">
 <h3 class="anchored" data-anchor-id="how-to-add-interindividual-variance">How to add interindividual variance</h3>
 <ul>
@@ -951,9 +1169,9 @@ Note
 </ul>
 </section>
 </section>
-<section id="tool-2-the-distribution-zoo" class="level2">
-<h2 class="anchored" data-anchor-id="tool-2-the-distribution-zoo">Tool 2: The Distribution Zoo</h2>
-<p>If you start <strong>simulating</strong> data for your virtual participants, you want to simulate their starting values by drawing random values from a distribution. For example, the virtual participants might differ in their anxiety, which you previously defined on the range <span class="math inline">\([0; 1]\)</span>.</p>
+<section id="tool-the-distribution-zoo" class="level2">
+<h2 class="anchored" data-anchor-id="tool-the-distribution-zoo">Tool: The Distribution Zoo</h2>
+<p>If you start simulating data for your virtual participants, you draw random values from a distribution. For example, the virtual participants might differ in their anxiety, which you previously defined on the range <span class="math inline">\([0; 1]\)</span>.</p>
 <p>How can you generate random values that roughly look like a normal distribution, but are bounded to the defined range?</p>
 <p>For simulations, it is good to know some basic distributions. Here are three interactive resources for choosing your distribution:</p>
 <ul>
@@ -969,7 +1187,7 @@ Note
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-16-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-26-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1006,28 +1224,31 @@ Note
 </section>
 <section id="tool-3-the-beta-distribution-3" class="level2">
 <h2 class="anchored" data-anchor-id="tool-3-the-beta-distribution-3">Tool 3: The beta distribution</h2>
+<section id="approximating-a-normal-distribution-with-a-beta-distibution" class="level3">
+<h3 class="anchored" data-anchor-id="approximating-a-normal-distribution-with-a-beta-distibution">Approximating a normal distribution with a beta distibution</h3>
 <p>You can generate random values in <code>R</code> with the <code>rbeta</code> function. Here’s a comparison of a normal distribution and a matched beta distribution that respects the boundaries <span class="math inline">\([0; 1]\)</span>:</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>x.random <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">10000</span>, <span class="at">mean=</span><span class="fl">0.2</span>, <span class="at">sd=</span><span class="fl">0.1</span>)</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.random, <span class="at">xlab =</span> <span class="st">"x"</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"Normal distribution (M=0.2, SD=0.1)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>x.beta <span class="ot">&lt;-</span> <span class="fu">rbeta</span>(<span class="dv">10000</span>, <span class="at">shape1=</span><span class="dv">3</span>, <span class="at">shape2=</span><span class="dv">12</span>)</span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.beta, <span class="at">xlab =</span> <span class="st">"x"</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"beta distribution (a=3, b=12)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>x.random <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">10000</span>, <span class="at">mean=</span><span class="fl">0.2</span>, <span class="at">sd=</span><span class="fl">0.1</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.random, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"Normal distribution (M=0.2, SD=0.1)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>x.beta <span class="ot">&lt;-</span> <span class="fu">rbeta</span>(<span class="dv">10000</span>, <span class="at">shape1=</span><span class="dv">3</span>, <span class="at">shape2=</span><span class="dv">12</span>)</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.beta, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"beta distribution (a=3, b=12)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</section>
 </section>
 <section id="tool-3-the-beta-distribution-4" class="level2">
 <h2 class="anchored" data-anchor-id="tool-3-the-beta-distribution-4">Tool 3: The beta distribution</h2>
-<section id="approximating-a-normal-distribution-with-a-beta-distibution" class="level3">
-<h3 class="anchored" data-anchor-id="approximating-a-normal-distribution-with-a-beta-distibution">Approximating a normal distribution with a beta distibution</h3>
+<section id="approximating-a-normal-distribution-with-a-beta-distibution-1" class="level3">
+<h3 class="anchored" data-anchor-id="approximating-a-normal-distribution-with-a-beta-distibution-1">Approximating a normal distribution with a beta distibution</h3>
 <div>
 
 </div>
-<div class="cell quarto-layout-panel" data-layout-ncol="1" data-layout-nrow="2" data-layout-align="center">
+<div class="cell quarto-layout-panel" data-layout-nrow="2" data-layout-ncol="1" data-layout-align="center">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-18-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-28-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1036,7 +1257,7 @@ Note
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-18-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-28-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1044,8 +1265,20 @@ Note
 </div>
 </section>
 </section>
-<section id="step-5-simulate-a-full-data-set-6" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-6">Step 5: Simulate a full data set</h2>
+<section id="group-work-45-min.-full-simulation" class="level2">
+<h2 class="anchored" data-anchor-id="group-work-45-min.-full-simulation"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (45 min.):<br>Full simulation</h2>
+<p>Based on your design matrix from the previous exercise:</p>
+<ol start="3" type="1">
+<li>Compute the output variable of your model for each participant. Optionally: Add additional noise to the output variable.</li>
+<li>Visualize the simulated data (e.g., with <code>ggplot2</code>).</li>
+<li>Push everything to the repository.</li>
+</ol>
+<div class="footer">
+<p>* Reminder: Exogenous variables are those variables in your model that have no arrows pointing towards them.</p>
+</div>
+</section>
+<section id="step-5-simulate-a-full-data-set-9" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-9">Step 5: Simulate a full data set</h2>
 <p>Simulate this design, analog to Fischer et al.&nbsp;(2006): “A 2 (bystander: yes vs.&nbsp;no) x 2 (danger: low vs high) factorial design was employed.”</p>
 <p><img src="img/study_to_simulate.png" height="250"></p>
 <ul>
@@ -1092,6 +1325,34 @@ Note
 </figure>
 </div>
 </small><p><small style="text-align:left;"></small></p>
+<!-- SPEICHER
+
+
+## Step 5: Simulate a full data set
+
+- If your model is deterministic, the same input parameters will always produce exactly the same output.
+- In real data sets, however, we see a huge variability in the output variables. **Where does the variability come from?**
+  
+## Step 5: Simulate a full data set
+
+::: {.smaller}
+
+If we assume that our model is the **true data generating model**, i.e.:
+
+- we modeled all relevant input variables (none is missing) 
+- we got all functional relationships right
+
+**and** we assume that:
+
+- all model parameters are fixed (i.e., identical for all participants - there are no interindividual differences)
+
+... then we still see variability in the output variables. This can come from:
+
+- Participants bring different values in their exogenous variables
+- Measurement error in all measured variables, or probabilistic processes in the system
+:::
+
+ -->
 
 
 </section>
@@ -1218,8 +1479,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -1330,7 +1589,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

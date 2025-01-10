@@ -40,6 +40,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-d1b12f2568ecbe55642fee6aa00bd082.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,6 +110,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../orga_material/orga_material.html"> 
 <span class="menu-text">Organizational Material</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../Formalization_steps.html"> 
+<span class="menu-text">Overview: Formalization Steps</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../about.html"> 
@@ -181,12 +187,12 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>How to simulate data from model: <strong>Mathematical Models Step 5</strong></td>
-<td>90</td>
+<td>120</td>
 <td><a href="../lectures/MathModel/MathModel.html">Slides</a>, Step 5</td>
 </tr>
 <tr class="even">
 <td>Start working on the new formalizations</td>
-<td>120</td>
+<td>45</td>
 <td></td>
 </tr>
 </tbody>
@@ -194,9 +200,15 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="steps-of-formalization-overview" class="level1">
 <h1>Steps of formalization (overview)</h1>
-<!-- TODO: Refactor into top level page? -->
 <p>(see also <a href="../lectures/VAST/VAST_Application.html">VAST application</a>).</p>
 <ol type="1">
+<li>Set up technical infrastructure.
+<ol type="1">
+<li>Create a fresh Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.</li>
+<li>Link the latter in the README of the repository.</li>
+<li>Invite the lecturer as a collaborator: <i class="fa-solid fa-gear" aria-label="gear"></i> Settings → <i class="fa-solid fa-user-group" aria-label="user-group"></i> Collaborators → “Add people”<br>
+</li>
+</ol></li>
 <li>Choose your <a href="../sessions/S7-MathModel5.html#prototypical-formalization-styles">starting point</a>:
 <ol type="1">
 <li>Existing theory –&gt; Narrative Theory Reconstruction (NTR)</li>
@@ -204,11 +216,11 @@ ul.task-list li input[type="checkbox"] {
 </ol></li>
 <li>Define the <a href="../lectures/VAST/VAST_application.qmd">scope</a>
 <ol type="1">
-<li>Define <em>scope of original literature</em> that is used as basis for the formalization.</li>
+<li>Define scope of <em>original literature</em> that is used as basis for the formalization.</li>
 <li>Limit the <em>number of phenomena</em> that your model is supposed to explain.</li>
 <li>Limit the <em>number of constructs</em> and their <em>relationships.</em></li>
 </ol></li>
-<li>Collect <a href="(../lectures/VAST/VAST_application.qmd)">robust phenomena</a>
+<li>Collect <a href="../lectures/VAST/VAST_application.qmd">robust phenomena</a>
 <ol type="1">
 <li>Evaluate the <em>generalizability</em> separately for each UTOS dimension</li>
 <li>Evaluate the <em>strength of evidence</em> (Quality of studies? Number of studies? Large samples?)</li>
@@ -219,28 +231,33 @@ ul.task-list li input[type="checkbox"] {
 <li>Distill a working definition for each construct</li>
 <li>Add relationships between constructs</li>
 </ol></li>
-<li>Formalized model: Create your <em>Variable Table</em> (see slides on <a href="../lectures/MathModel/MathModel.html">Mathematical Modeling</a>)
+<li>Formalize model: Create your <em>Variable Table</em> (see slides on <a href="../lectures/MathModel/MathModel.html">Mathematical Modeling</a>)
 <ol type="1">
 <li>List all concepts of your VAST display that are not higher-order concepts (because higher-order concepts typically are not reducible to a single metric)</li>
 <li>Define the scale level, the possible range of values, and semantic anchors</li>
 </ol></li>
-<li>Formalized model: Create your <em>Relationship Table</em> (see slides on <a href="../lectures/MathModel/MathModel.html">Mathematical Modeling</a>)
+<li>Formalize model: Create your <em>Relationship Table</em> (see slides on <a href="../lectures/MathModel/MathModel.html">Mathematical Modeling</a>)
 <ol type="1">
-<li>Provide a mathematical function for each endogenous variable in the VAST display.</li>
+<li>Develop a mathematical function for each endogenous variable in the VAST display.</li>
 <li>What functional form does the theory imply? What are free parameters that can “bend” the function? Which parameters can be fixed?</li>
 </ol></li>
 <li>Program the functions in <code>R</code>
 <ol type="1">
 <li>Build atomic functions based on the Relationship Table</li>
 <li>Document the functions with roxygen2</li>
-<li>Combine atomic functions into one “super function” that takes all exogenous variables of the model as input and computes the focal output variable (typically, an observable behavior).</li>
+<li>Combine atomic functions into one “super function” that takes all exogenous variables of the model as input and computes the focal output variable (typically, an observable behavior). Make sure that it can take vectors as input.</li>
 </ol></li>
-<li>Evaluate the model
+<li>Evaluate the model behavior
 <ol type="1">
 <li>Try different parameter settings. Under which conditions does the model produce the phenomenon?</li>
 <li>Plot the model behavior: Choose a focal predictor for the x-axis, focal outcome on y-axis, additional parameters as colors, shapes, or multiple plots.</li>
 </ol></li>
-<li>Simulate the model: Would a real study (with noise) be able to detect the phenomenon?</li>
+<li>Simulate the model: Would a real study (with noise) be able to detect the phenomenon?
+<ol type="1">
+<li>Simulate data</li>
+<li>Do the statistical analysis on your simulated data: Is the focal effect significant?</li>
+<li>What is the necessary sample size to reliably detect the phenomenon (i.e., with a high statistical power)?</li>
+</ol></li>
 </ol>
 
 

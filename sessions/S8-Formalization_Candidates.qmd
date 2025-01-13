@@ -1,0 +1,14 @@
+---
+title: Session 8 - Propose and discuss your own formalization candidate theories
+number-sections: false
+description: We decide which theories will be formalized in the second part of the course.
+---
+
+# Overview
+
+| Topic                                         | Duration | Notes                                                 |
+| --------------------------------------------- | -------- | ----------------------------------------------------- |
+| Discuss the candidate theories, form groups   | 150      |                                                       |
+: {.striped}
+
+

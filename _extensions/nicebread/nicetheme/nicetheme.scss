@@ -317,14 +317,14 @@ $selection-bg: #26351c !default;
 // new class: Tables with grid lines
 
 .table-grid table {
-  border-collapse: collapse;
-  width: 100%;
+  border-collapse: collapse !important;
+  width: 100% !important;
 }
 
 .table-grid th, td {
   border: 1px solid #868585 !important;
-  text-align: left;
-  padding: 8px;
+  text-align: left !important;
+  padding: 8px !important;
 }
 
 .table-grid tr:nth-child(even) {
@@ -332,8 +332,8 @@ $selection-bg: #26351c !default;
 }
 
 .table-grid th {
-  background-color: #6a6969;
-  color: white;
+  background-color: #6a6969 !important;
+  color: white !important;
   text-align: center !important;
 }
 

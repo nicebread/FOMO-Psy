@@ -17,6 +17,7 @@ website:
         text: Thinking Tools
       - file: orga_material/orga_material.qmd
         text: Organizational Material
+      - Formalization_steps.qmd
       - about.qmd
     right:
       - icon: github

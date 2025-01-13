@@ -1,5 +1,5 @@
 ---
-title: "Mathematical Modeling 1"
+title: "Mathematical Modeling of Psychological Theories"
 subtitle: "Introduction"
 author:
   - name: Felix Schönbrodt
@@ -85,7 +85,7 @@ In the Google doc, below your *Construct Source Table*, create a new *Variables 
 | ...                                    |             | ...         | ...          | ...                                                               |
 </div>
 
-Note: This resembles a **codebook**; but for theoretical variables, not for measured variables.
+Note: This resembles a **codebook**; but for theoretical variables, not only for measured variables.
 As a heuristic, list **all concepts that are not higher-order concepts** (because these usually have no single numerical representation).
 :::
 
@@ -235,23 +235,23 @@ x_values <- seq(-5, 5, by = 0.1)
 
 plot(x_values, logistic(x_values, d=2), type = "l", col = "blue", xlab = "x", ylab = "y", ylim=c(0, 1), main="d=2 ('difficulty')")
 abline(v=2, col="red", lty="dashed")
-lines(x_values, logistic(x_values), type = "l", lty="dotted", lwd=1.5, col = "darkgrey", add=TRUE)
+lines(x_values, logistic(x_values), type = "l", lty="dotted", lwd=1.5, col = "darkgrey")
 ```
 #### Steepness
 ```{r}
 plot(x_values, logistic(x_values, a=0.6), type = "l", col = "blue", xlab = "x", ylab = "y", ylim=c(0, 1), main="a=0.6 (blue/flat); a=2 (green/steep)")
-lines(x_values, logistic(x_values, a=2), type = "l", col = "darkgreen", add=TRUE)
-lines(x_values, logistic(x_values), type = "l", lty="dotted", lwd=1.5, col = "darkgrey", add=TRUE)
+lines(x_values, logistic(x_values, a=2), type = "l", col = "darkgreen")
+lines(x_values, logistic(x_values), type = "l", lty="dotted", lwd=1.5, col = "darkgrey")
 ```
 #### Lower asymptote
 ```{r}
 plot(x_values, logistic(x_values, min=0.2), type = "l", col = "blue", xlab = "x", ylab = "y", ylim=c(0, 1), main="min=0.2")
-lines(x_values, logistic(x_values), type = "l", lty="dotted", lwd=1.5, col = "darkgrey", add=TRUE)
+lines(x_values, logistic(x_values), type = "l", lty="dotted", lwd=1.5, col = "darkgrey")
 ```
 #### Upper asymptote
 ```{r}
 plot(x_values, logistic(x_values, max=0.7), type = "l", col = "blue", xlab = "x", ylab = "y", ylim=c(0, 1), main="max=0.7")
-lines(x_values, logistic(x_values), type = "l", lty="dotted", lwd=1.5, col = "darkgrey", add=TRUE)
+lines(x_values, logistic(x_values), type = "l", lty="dotted", lwd=1.5, col = "darkgrey")
 ```
 :::
 
@@ -483,46 +483,153 @@ See the [Find-a-fit app](https://shinyapps.org/showapp.php?app=https://shiny.psy
 # Step 5: Simulate a full data set
 
 ## Step 5: Simulate a full data set
+### 5a: Create a design matrix for experimental factors
 
-- If your model is deterministic, the same input parameters will always produce exactly the same output.
-- In real data sets, however, we see a huge variability in the output variables. **Where does the variability come from?**
-  
-## Step 5: Simulate a full data set
+Create a design matrix for all possible combinations of experimental factors (i.e., those variables that you control/manipulate at specific levels).
 
-::: {.smaller}
+The `expand.grid()` function in `R` comes as a handy tool for fully crossed factors (the first factor varies fastest, the last factor varies slowest):
 
-If we assume that our model is the **true data generating model**, i.e.:
+:::: {.columns}
+::: {.column width='50%'}
+```{r}
+#| echo: true
+#| results: hide
 
-- we modeled all relevant input variables (none is missing) 
-- we got all functional relationships right
-
-**and** we assume that:
-
-- all model parameters are fixed (i.e., identical for all participants - there are no interindividual differences)
-
-... then we still see variability in the output variables. This can come from:
-
-- Participants bring different values in their exogenous variables
-- Measurement error in all measured variables, or probabilistic processes in the system
+# Add all factors as arguments:
+df <- expand.grid(
+  F1 = c("A", "B"), 
+  F2 = c(1, 2, 3),
+  F3 = c(TRUE, FALSE)
+)
+```
 :::
 
-## Step 5: Simulate a full data set
-### More interindividual differences
+::: {.column width='50%'}
+```{r}
+#| echo: false
+print(df)
+```
+:::
+::::
 
-Not every person is identical, so in reality there probably are interindividual differences in all steps:
+
+## Step 5: Simulate a full data set
+### 5a: Create a design matrix for experimental factors
+
+::: {.smaller}
+To create a virtual sample, add one additional variable with a participant ID (this also determines the size of your sample):
+
+:::: {.columns}
+::: {.column width='50%'}
+```{r}
+#| echo: true
+#| results: hide
+n_per_condition <- 3
+
+df <- expand.grid(
+  pID     = 1:n_per_condition, 
+  valence = c("pos", "neg"), 
+  speed   = c("slow", "fast")
+)
+```
+:::
+
+::: {.column width='50%'}
+```{r}
+#| echo: false
+print(df)
+```
+:::
+::::
+
+We have 12 participants overall: 3 participants in the `pos/slow` condition, 3 in the `neg/slow` condition, and so forth.
+Note that, although the participant ID repeats within each condition, these could be different (independent) participants if we assume a between-person design.
+:::
+
+
+## Step 5: Simulate a full data set
+### 5b: Simulate random observed variables
+
+Add observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:
+
+:::: {.columns}
+::: {.column width='50%'}
+```{r}
+#| echo: true
+#| results: hide
+n <- nrow(df)
+df$age <- rnorm(n, mean=26, sd=4) |> round()
+
+# Extraversion
+# z-scores: standard normal distribution
+df$extra <- rnorm(n) |> round(1) 
+```
+:::
+
+::: {.column width='50%'}
+```{r}
+#| echo: false
+print(df)
+```
+:::
+::::
+
+
+## Step 5: Simulate a full data set
+### 5c: Compute the outcome variable (i.e., the model output)
+
+Once all input variables have been simulated, submit them to your model function and compute the outcome variable $y$:
+
+:::: {.columns}
+::: {.column width='50%'}
+```{r}
+#| echo: true
+#| eval: false
+#| results: hide
+
+# psi() is the model function that takes 
+# all input parameters and returns the 
+# simulated output
+
+df$y <- psi(df$valence, df$speed, 
+            df$age, df$extra)
+```
+:::
+
+::: {.column width='50%'}
+```{r}
+#| echo: false
+df$y <- rnorm(nrow(df), mean=10, sd=2) |> round(1)
+print(df)
+```
+:::
+::::
+
+Make sure that the `psi()` function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function).
+
+
+## Step 5: Simulate a full data set
+### Sources of interindividual differences
+
+Not every person is identical, so in reality there probably are interindividual differences at several places:
 
 - in the sensors (i.e., manipulations and perceptions do not work the same for everyone)
 - in the actors (i.e., people differ how internal impulses are translated into overt behavior)
+- interindividual difference variables in the model
 - Different parameter values in the functional relationships. For example, the individual treatment effect (ITE) could vary between participants.
 
+We **can** model these interindividual differences - or we assume that some of them are constant for all participants.
+
 ## Step 5: Simulate a full data set
-### Unexplained variance / random noise
+### 5c: Unexplained variance / random noise
 
-Furthermore, our models are always simplifications of reality. We can never model all relevant variables and all relevant interactions. Therefore there certainly is some **unexplained variability** (aka. random noise) in the system. 
+::: {.smaller}
+Furthermore, our models are always simplifications of reality. We can never model all relevant variables; and measurement error adds further noise. Consequently there is some **unexplained variability** (aka. random noise) in the system. 
 
-All additional sources of variation could be modeled as a random error term pointing to the final outcome variable:
+All additional sources of variation could be modeled as a single random error term pointing to the final outcome variable. This summarizes all additional sources of variation that are not explicitly modeled:
+:::
 
-::: {.svg-h300 style="text-align: center;"}
+::: {.svg-h200 style="text-align: center;"}
 ```{dot}
 digraph G {
     // Use neato layout engine to allow manual positioning
@@ -542,27 +649,65 @@ digraph G {
 ```
 :::
 
+
+
 ## Step 5: Simulate a full data set
-### How to add interindividual variance
+### 5c: Compute the outcome variable (i.e., the model output)
 
-- Assume a specific distribution of all exogenous input variables that participants bring to the experiment. 
-- Even better: find empirical evidence for it, for example from existing open data sets or summary statistics from publications. 
-- Maybe you need to transform the scale of the empirical variable into the scale of your simulated equivalent (e.g., via *z*-standardization).
+Add additional (summative) error variance to output variable:
+
+:::: {.columns}
+::: {.column width='50%'}
+```{r}
+#| echo: true
+#| eval: false
+#| results: hide
+
+# deterministic model output
+df$y <- psi(df$valence, df$speed, 
+            df$age, df$extra)
+
+# Add additional noise to observed variable.
+# The SD of the normal distribution
+# determines the amount of error
+df$y_obs <- df$y + rnorm(n, mean=0, sd=2) |> 
+            round(1)
+```
+:::
+
+::: {.column width='50%'}
+```{r}
+#| echo: false
+df$y_obs <- df$y + rnorm(n, mean=0, sd=2) |> 
+            round(1)
+print(df)
+```
+:::
+::::
+
+The size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size.
 
 
 
 
-## Tool 2: The Distribution Zoo
+## {{< fa people-group size=2x >}} Group work (20 min.):<br>Create a design matrix
 
-If you start **simulating** data for your virtual participants, you want to simulate their starting values by drawing random values from a distribution. For example, the virtual participants might differ in their anxiety, which you previously defined on the range $[0; 1]$. 
+::: {.smaller}
+1. In your own `R` project, create a design matrix with `expand.grid()` and the following fully crossed experimental factors ($n=30$ participants per condition):
+   - Danger of intervention (`DoI`) with the levels 0.2 and 0.8
+   - Number of passive bystanders (`NOPB`) with the levels 0, 1, and 4
+2. Add random variables for all exogenous\* variables of your model that are not experimentally manipulated. 
+   - This includes, e.g., the personal base resposibility, `baseResp`. 
+   - Furthermore, add neuroticism (`neuro`) and age (`age`). (Note: We don't need them for our model, just for practice.)
+   - Think about justifiable settings for the simulated variables (e.g., type of distribution, range, mean, SD).
+3. (Do *not* compute the output variable yet)
+4. Push everything to the repository.
+:::
 
-How can you generate random values that roughly look like a normal distribution, but are bounded to the defined range?
+::: footer
+\* Reminder: Exogenous variables are those variables in your model that have no arrows pointing towards them.
+:::
 
-For simulations, it is good to know some basic distributions. Here are three interactive resources for choosing your distribution:
-
-- The [Distribution Zoo](https://ben18785.shinyapps.io/distribution-zoo/) by Ben Lambert and Fergus Cooper
-- The [Probability Distribution Explorer](https://distribution-explorer.github.io/index.html) by Justin Bois
-- [Interactive collection of distributions](https://richarddmorey.github.io/stat-distributions-js/) by Richard Morey
 
 
 
@@ -619,6 +764,7 @@ How can you achieve a beta distribution that approximates the properties of this
 
 
 ## Tool 3: The beta distribution
+### Approximating a normal distribution with a beta distibution
 
 You can generate random values in `R` with the `rbeta` function. Here's a comparison of a normal distribution and a matched beta distribution that respects the boundaries $[0; 1]$:
 
@@ -627,10 +773,10 @@ You can generate random values in `R` with the `rbeta` function. Here's a compar
 #| eval: false
 
 x.random <- rnorm(10000, mean=0.2, sd=0.1)
-hist(x.random, xlab = "x", ylab="", main="Normal distribution (M=0.2, SD=0.1)", xlim=c(-0.3, 1.1))
+hist(x.random, xlab = "", ylab="", main="Normal distribution (M=0.2, SD=0.1)", xlim=c(-0.3, 1.1))
 
 x.beta <- rbeta(10000, shape1=3, shape2=12)
-hist(x.beta, xlab = "x", ylab="", main="beta distribution (a=3, b=12)", xlim=c(-0.3, 1.1))
+hist(x.beta, xlab = "", ylab="", main="beta distribution (a=3, b=12)", xlim=c(-0.3, 1.1))
 ```
 
 
@@ -656,6 +802,31 @@ abline(v=1, col="red")
 
 
 
+## Tool: The Distribution Zoo
+
+If you start simulating data for your virtual participants, you draw random values from a distribution. For example, the virtual participants might differ in their anxiety, which you previously defined on the range $[0; 1]$. 
+
+How can you generate random values that roughly look like a normal distribution, but are bounded to the defined range?
+
+For simulations, it is good to know some basic distributions. Here are three interactive resources for choosing your distribution:
+
+- The [Distribution Zoo](https://ben18785.shinyapps.io/distribution-zoo/) by Ben Lambert and Fergus Cooper
+- The [Probability Distribution Explorer](https://distribution-explorer.github.io/index.html) by Justin Bois
+- [Interactive collection of distributions](https://richarddmorey.github.io/stat-distributions-js/) by Richard Morey
+
+
+
+## {{< fa people-group size=2x >}} Group work (45 min.):<br>Full simulation
+
+Based on your design matrix from the previous exercise:
+
+3. Compute the output variable of your model for each participant. Optionally: Add additional noise to the output variable.
+4. Visualize the simulated data (e.g., with `ggplot2`).
+5. Push everything to the repository.
+
+::: footer
+\* Reminder: Exogenous variables are those variables in your model that have no arrows pointing towards them.
+:::
 
 
 ## Step 5: Simulate a full data set
@@ -679,3 +850,33 @@ Simulate this design, analog to Fischer et al. (2006): "A 2 (bystander: yes vs. 
 <!-- Footer insert below -->
 ```{r child="../../common/lastslide.qmd"}
 ```
+
+
+<!-- SPEICHER
+
+
+## Step 5: Simulate a full data set
+
+- If your model is deterministic, the same input parameters will always produce exactly the same output.
+- In real data sets, however, we see a huge variability in the output variables. **Where does the variability come from?**
+  
+## Step 5: Simulate a full data set
+
+::: {.smaller}
+
+If we assume that our model is the **true data generating model**, i.e.:
+
+- we modeled all relevant input variables (none is missing) 
+- we got all functional relationships right
+
+**and** we assume that:
+
+- all model parameters are fixed (i.e., identical for all participants - there are no interindividual differences)
+
+... then we still see variability in the output variables. This can come from:
+
+- Participants bring different values in their exogenous variables
+- Measurement error in all measured variables, or probabilistic processes in the system
+:::
+
+ -->

@@ -1,3 +1,6 @@
+## Add folder structure to it-tools lecture
+- with all relevant files
+
 ## Notes
 
 - Operationalisierung gehört zur Theoriearbeit

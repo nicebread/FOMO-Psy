@@ -34,6 +34,9 @@ quarto update extension nicebread/quarto-FS
 ```
 quarto render
 quarto publish gh-pages
+
+# With this option, it does not wait until the browser opens.
+quarto publish gh-pages --no-browser
 ```
 
 To make this website/repository reusable for multiple runs of the course, I define some the course-specific content (e.g. specific links) as parameters in the `_variables.yml` file. This way, I can easily change the content for the next iteration of the course.

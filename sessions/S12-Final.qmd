@@ -1,0 +1,26 @@
+---
+title: Session 12 - Final presentations
+number-sections: false
+description: The groups present their work
+---
+
+# Overview
+
+| Topic                                            | Duration              | Notes |
+| ------------------------------------------------ | --------------------- | ----- |
+| Homework wrap-up: Lange et al. (2025)            | 20                    |       |
+| Groups finalize models, plan their presentations | 30                    |       |
+| Group presentations                              | 20 min each (100 min) |       |
+| Some hints for the final report                  | 20                    |       |
+: {.striped}
+
+
+## Presentation content
+
+Important: I do not expect that you already finished every step!
+
+The presentation should contain:
+
+- That's what we did; we came this far.
+- We encountered the following obstacles.
+- This would be the next steps.

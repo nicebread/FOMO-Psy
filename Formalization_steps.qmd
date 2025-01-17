@@ -7,7 +7,8 @@ title: "Overview: Formalization Steps"
 1. Set up technical infrastructure.
    1. Create a fresh Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.
    2. Link the latter in the README of the repository.
-   3. Invite the lecturer as a collaborator: {{<fa gear>}} Settings → {{<fa user-group>}} Collaborators → "Add people"   
+   3. Add your `CITATION.cff` (see [instructions](lectures/it-tools/it-tools.qmd#cff-citation-files))
+   4. Invite the lecturer as a collaborator: {{<fa gear>}} Settings → {{<fa user-group>}} Collaborators → "Add people"   
 2. Choose your [starting point](sessions/S7-MathModel5.qmd#prototypical-formalization-styles):
    1. Existing theory --> Narrative Theory Reconstruction (NTR)
    2. Robust phenomenon --> Theory Construction Methodology (TCM)

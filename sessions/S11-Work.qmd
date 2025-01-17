@@ -1,0 +1,28 @@
+---
+title: Session 11 - Work on formalization
+number-sections: false
+description: The groups work on their formalizations
+---
+
+# Overview
+
+| Topic                                               | Duration | Notes |
+| --------------------------------------------------- | -------- | ----- |
+| Groups work on their formalization                  | 180      |       |
+: {.striped}
+
+
+# Tasks for today
+
+Work on steps on the remaining steps (8-11) of the [Formalization Steps](../Formalization_steps.qmd).
+You probably won't finish all steps, but the more you achieve, the less you have to do for the final report.
+
+Remember to restrict yourself: Aim for *few* phenomena (ideally, only one) and *simple* theories and models. It gets complicated all by itself!
+
+**Deliverable**: 
+
+- Increase the version (e.g., to `0.3.0`) in the `CITATION.cff` file.
+- Push your current version to the repository.
+- Create a tag, give it the version name (e.g., `v0.3.0`) and write a short description for the release.
+ 
+Do these steps regardless whether the theory object currently is in a "functional state" or still in a messy development version.

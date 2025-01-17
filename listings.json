@@ -1,18 +1,11 @@
 [
   {
-    "listing": "/orga_material/orga_material.html",
-    "items": [
-      "/orga_material/course_announcement.html",
-      "/orga_material/call_for_submissions.html",
-      "/orga_material/instructions_before_course.html"
-    ]
-  },
-  {
     "listing": "/sessions/sessions_overview.html",
     "items": [
       "/sessions/S1-Introduction.html",
       "/sessions/S2-VAST.html",
       "/sessions/S10-CFF_semver.html",
+      "/sessions/S11-Work.html",
       "/sessions/S3-MathModel1.html",
       "/sessions/S4-MathModel2.html",
       "/sessions/S5-MathModel3.html",
@@ -20,6 +13,14 @@
       "/sessions/S7-MathModel5.html",
       "/sessions/S8-Formalization_Candidates.html",
       "/sessions/S9-Simulation.html"
+    ]
+  },
+  {
+    "listing": "/orga_material/orga_material.html",
+    "items": [
+      "/orga_material/course_announcement.html",
+      "/orga_material/call_for_submissions.html",
+      "/orga_material/instructions_before_course.html"
     ]
   }
 ]

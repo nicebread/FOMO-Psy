@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,12 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-d1b12f2568ecbe55642fee6aa00bd082.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -143,7 +141,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#steps-of-formalization-overview" id="toc-steps-of-formalization-overview" class="nav-link" data-scroll-target="#steps-of-formalization-overview">Steps of formalization (overview)</a></li>
   </ul>
 </nav>
     </div>
@@ -193,72 +190,10 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>Start working on the new formalizations</td>
 <td>45</td>
-<td></td>
+<td>See also <a href="../Formalization_steps.html">Overview Formalization Steps</a></td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="steps-of-formalization-overview" class="level1">
-<h1>Steps of formalization (overview)</h1>
-<p>(see also <a href="../lectures/VAST/VAST_Application.html">VAST application</a>).</p>
-<ol type="1">
-<li>Set up technical infrastructure.
-<ol type="1">
-<li>Create a fresh Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.</li>
-<li>Link the latter in the README of the repository.</li>
-<li>Invite the lecturer as a collaborator: <i class="fa-solid fa-gear" aria-label="gear"></i> Settings → <i class="fa-solid fa-user-group" aria-label="user-group"></i> Collaborators → “Add people”<br>
-</li>
-</ol></li>
-<li>Choose your <a href="../sessions/S7-MathModel5.html#prototypical-formalization-styles">starting point</a>:
-<ol type="1">
-<li>Existing theory –&gt; Narrative Theory Reconstruction (NTR)</li>
-<li>Robust phenomenon –&gt; Theory Construction Methodology (TCM)</li>
-</ol></li>
-<li>Define the <a href="../lectures/VAST/VAST_application.qmd">scope</a>
-<ol type="1">
-<li>Define scope of <em>original literature</em> that is used as basis for the formalization.</li>
-<li>Limit the <em>number of phenomena</em> that your model is supposed to explain.</li>
-<li>Limit the <em>number of constructs</em> and their <em>relationships.</em></li>
-</ol></li>
-<li>Collect <a href="../lectures/VAST/VAST_application.qmd">robust phenomena</a>
-<ol type="1">
-<li>Evaluate the <em>generalizability</em> separately for each UTOS dimension</li>
-<li>Evaluate the <em>strength of evidence</em> (Quality of studies? Number of studies? Large samples?)</li>
-</ol></li>
-<li>Create your <a href="../lectures/VAST/VAST_application.qmd"><em>Construct Source Table</em></a></li>
-<li>Create your VAST display (see slides on <a href="../lectures/VAST/VAST_Intro.html">VAST</a> and <a href="../lectures/VAST/VAST_Application.html">VAST application</a>)
-<ol type="1">
-<li>Distill a working definition for each construct</li>
-<li>Add relationships between constructs</li>
-</ol></li>
-<li>Formalize model: Create your <em>Variable Table</em> (see slides on <a href="../lectures/MathModel/MathModel.html">Mathematical Modeling</a>)
-<ol type="1">
-<li>List all concepts of your VAST display that are not higher-order concepts (because higher-order concepts typically are not reducible to a single metric)</li>
-<li>Define the scale level, the possible range of values, and semantic anchors</li>
-</ol></li>
-<li>Formalize model: Create your <em>Relationship Table</em> (see slides on <a href="../lectures/MathModel/MathModel.html">Mathematical Modeling</a>)
-<ol type="1">
-<li>Develop a mathematical function for each endogenous variable in the VAST display.</li>
-<li>What functional form does the theory imply? What are free parameters that can “bend” the function? Which parameters can be fixed?</li>
-</ol></li>
-<li>Program the functions in <code>R</code>
-<ol type="1">
-<li>Build atomic functions based on the Relationship Table</li>
-<li>Document the functions with roxygen2</li>
-<li>Combine atomic functions into one “super function” that takes all exogenous variables of the model as input and computes the focal output variable (typically, an observable behavior). Make sure that it can take vectors as input.</li>
-</ol></li>
-<li>Evaluate the model behavior
-<ol type="1">
-<li>Try different parameter settings. Under which conditions does the model produce the phenomenon?</li>
-<li>Plot the model behavior: Choose a focal predictor for the x-axis, focal outcome on y-axis, additional parameters as colors, shapes, or multiple plots.</li>
-</ol></li>
-<li>Simulate the model: Would a real study (with noise) be able to detect the phenomenon?
-<ol type="1">
-<li>Simulate data</li>
-<li>Do the statistical analysis on your simulated data: Is the focal effect significant?</li>
-<li>What is the necessary sample size to reliably detect the phenomenon (i.e., with a high statistical power)?</li>
-</ol></li>
-</ol>
 
 
 </section>

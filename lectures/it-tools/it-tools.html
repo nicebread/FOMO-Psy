@@ -169,10 +169,11 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#semantic-versioning-semver" id="toc-semantic-versioning-semver" class="nav-link" data-scroll-target="#semantic-versioning-semver">Semantic Versioning (semver)</a></li>
   <li><a href="#some-rules-conventions" id="toc-some-rules-conventions" class="nav-link" data-scroll-target="#some-rules-conventions">Some rules &amp; conventions:</a></li>
-  <li><a href="#applied-to-versioned-theories" id="toc-applied-to-versioned-theories" class="nav-link" data-scroll-target="#applied-to-versioned-theories">Applied to versioned theories</a></li>
   <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example">Example</a></li>
   <li><a href="#patch-minor-major-changes" id="toc-patch-minor-major-changes" class="nav-link" data-scroll-target="#patch-minor-major-changes">Patch, Minor, Major changes</a></li>
   <li><a href="#git-best-practice" id="toc-git-best-practice" class="nav-link" data-scroll-target="#git-best-practice">Git best practice</a></li>
+  <li><a href="#what-is-a-release-on-github" id="toc-what-is-a-release-on-github" class="nav-link" data-scroll-target="#what-is-a-release-on-github">What is a “release” on Github?</a></li>
+  <li><a href="#git-best-practice-1" id="toc-git-best-practice-1" class="nav-link" data-scroll-target="#git-best-practice-1">Git best practice</a></li>
   <li><a href="#how-to-create-a-release" id="toc-how-to-create-a-release" class="nav-link" data-scroll-target="#how-to-create-a-release">How to create a release?</a></li>
   </ul></li>
   <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a>
@@ -353,7 +354,7 @@ type: software </code></pre>
 <p>Version numbers have three numbers: MAJOR.MINOR.PATCH.</p>
 <p>Increment the:</p>
 <ul>
-<li>MAJOR version when you make incompatible API changes</li>
+<li>MAJOR version when you make changes that break backward compability</li>
 <li>MINOR version when you add functionality in a backward compatible manner</li>
 <li>PATCH version when you make backward compatible bug fixes</li>
 </ul>
@@ -370,22 +371,6 @@ type: software </code></pre>
 <li>The first stable public release is <code>1.0.0</code></li>
 <li>Once a versioned package has been released, the contents of that version <em>must not</em> be modified. Any modifications <em>must</em> be released as a new version.</li>
 <li>Major version X (X.y.z) <em>must</em> be incremented if any backward incompatible changes are introduced. Patch and minor versions <em>must</em> be reset to 0 when the major version is incremented.</li>
-<li>In <code>git</code>: Create a <em>tag</em> or a <em>release</em> whenever a major or minor version is released:
-<ul>
-<li>With tags and releases, you can “pin” and label important commits in your history.</li>
-<li>Users can quickly go to a specific “frozen” version of your repository.</li>
-<li>In our context, there is no real difference between <em>tags</em> and <em>releases</em>, you can use either.</li>
-</ul></li>
-</ul>
-<div class="footer">
-<p>See <a href="https://semver.org">https://semver.org</a></p>
-</div>
-</section>
-<section id="applied-to-versioned-theories" class="level2">
-<h2 class="anchored" data-anchor-id="applied-to-versioned-theories">Applied to versioned theories</h2>
-<ul>
-<li>Internal development versions do not automatically get a new version number; the commit hash is a sufficient identifier, if specific versions in the history need to be referenced.</li>
-<li>Every release in Github needs an incremented minor or major version.</li>
 </ul>
 </section>
 <section id="example" class="level2">
@@ -435,16 +420,35 @@ Evidence that would have confirmed or falsified the previous version does differ
 </ol>
 <p>Is every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:</p>
 <ul>
-<li>Maintain a <code>developer</code> branch for ongoing development. It is not necessary to update the version number in each development step.</li>
+<li>Maintain a <code>dev</code> developer branch for ongoing development. It is not necessary to update the version number in each development step.</li>
 <li>Whenever a stable stage has been reached:
 <ul>
 <li>Increase the version number in the <code>CITATION.cff</code> file</li>
 <li>Record the substantive changes in your <code>CHANGELOG.md</code></li>
 <li>Push the development branch to the <code>main</code> branch</li>
-<li>Create a <em>tag</em> or <em>release</em> on the main branch and write the version number into the label of the tag (see also <a href="#how-to-create-a-release">next slide</a>, “How to create a release?”)</li>
+<li>Create a <em>tag</em> or <em>release</em> on the main branch and write the version number into the label of the tag (see also <a href="#how-to-create-a-release">“How to create a release?”</a>)</li>
 </ul></li>
 </ul>
 </div>
+</section>
+<section id="what-is-a-release-on-github" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-release-on-github">What is a “release” on Github?</h2>
+<p>Create a <em>tag</em> or a <em>release</em> whenever a major or minor version is released:</p>
+<ul>
+<li>With tags and releases, you can “pin” and label important commits in your history.</li>
+<li>Users can quickly go to a specific “frozen” version of your repository.</li>
+<li>These releases can be expected to be stable/functional versions of your software or theory (but see also semantic versioning: Everything with a <code>0.x.x</code> version probably is not properly tested yet).</li>
+<li>In our context, there is no real difference between <em>tags</em> and <em>releases</em>, you can use either.</li>
+</ul>
+</section>
+<section id="git-best-practice-1" class="level2">
+<h2 class="anchored" data-anchor-id="git-best-practice-1">Git best practice</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/git-workflow.webp" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>(of course <a href="https://github.com/ruhulmus/Git-Flow-Architecture">more complicated setups</a> with multiple branches, e.g.&nbsp;feature branches, are possible).</p>
 </section>
 <section id="how-to-create-a-release" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-create-a-release">How to create a release?</h2>

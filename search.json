@@ -361,21 +361,14 @@
     "href": "lectures/it-tools/it-tools.slide.html#semantic-versioning-semver",
     "title": "Metadata for Digital Theory Objects",
     "section": "Semantic Versioning (semver)",
-    "text": "Semantic Versioning (semver)\nVersion numbers have three numbers: MAJOR.MINOR.PATCH.\nIncrement the:\n\nMAJOR version when you make incompatible API changes\nMINOR version when you add functionality in a backward compatible manner\nPATCH version when you make backward compatible bug fixes\n\nThe numbers are plain integers! For example, after 9 comes 10:\n0.9.0 → 0.10.0 → 0.11.0 → 1.0.0 → 1.1.0\n\nSee https://semver.org"
+    "text": "Semantic Versioning (semver)\nVersion numbers have three numbers: MAJOR.MINOR.PATCH.\nIncrement the:\n\nMAJOR version when you make changes that break backward compability\nMINOR version when you add functionality in a backward compatible manner\nPATCH version when you make backward compatible bug fixes\n\nThe numbers are plain integers! For example, after 9 comes 10:\n0.9.0 → 0.10.0 → 0.11.0 → 1.0.0 → 1.1.0\n\nSee https://semver.org"
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#some-rules-conventions",
     "href": "lectures/it-tools/it-tools.slide.html#some-rules-conventions",
     "title": "Metadata for Digital Theory Objects",
     "section": "Some rules & conventions:",
-    "text": "Some rules & conventions:\n\nThe first development version starts with 0.1.0\nThe first stable public release is 1.0.0\nOnce a versioned package has been released, the contents of that version must not be modified. Any modifications must be released as a new version.\nMajor version X (X.y.z) must be incremented if any backward incompatible changes are introduced. Patch and minor versions must be reset to 0 when the major version is incremented.\nIn git: Create a tag or a release whenever a major or minor version is released:\n\nWith tags and releases, you can “pin” and label important commits in your history.\nUsers can quickly go to a specific “frozen” version of your repository.\nIn our context, there is no real difference between tags and releases, you can use either.\n\n\n\nSee https://semver.org"
-  },
-  {
-    "objectID": "lectures/it-tools/it-tools.slide.html#applied-to-versioned-theories",
-    "href": "lectures/it-tools/it-tools.slide.html#applied-to-versioned-theories",
-    "title": "Metadata for Digital Theory Objects",
-    "section": "Applied to versioned theories",
-    "text": "Applied to versioned theories\n\nInternal development versions do not automatically get a new version number; the commit hash is a sufficient identifier, if specific versions in the history need to be referenced.\nEvery release in Github needs an incremented minor or major version."
+    "text": "Some rules & conventions:\n\nThe first development version starts with 0.1.0\nThe first stable public release is 1.0.0\nOnce a versioned package has been released, the contents of that version must not be modified. Any modifications must be released as a new version.\nMajor version X (X.y.z) must be incremented if any backward incompatible changes are introduced. Patch and minor versions must be reset to 0 when the major version is incremented."
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#example",
@@ -396,7 +389,21 @@
     "href": "lectures/it-tools/it-tools.slide.html#git-best-practice",
     "title": "Metadata for Digital Theory Objects",
     "section": "Git best practice",
-    "text": "Git best practice\n\nThe version number is recorded in two places:\n\nIn the CITATION.cff file\nIn the names of all tags or releases\n\nIs every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the CITATION.cff file\nRecord the substantive changes in your CHANGELOG.md\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also next slide, “How to create a release?”)"
+    "text": "Git best practice\n\nThe version number is recorded in two places:\n\nIn the CITATION.cff file\nIn the names of all tags or releases\n\nIs every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a dev developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the CITATION.cff file\nRecord the substantive changes in your CHANGELOG.md\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also “How to create a release?”)"
+  },
+  {
+    "objectID": "lectures/it-tools/it-tools.slide.html#what-is-a-release-on-github",
+    "href": "lectures/it-tools/it-tools.slide.html#what-is-a-release-on-github",
+    "title": "Metadata for Digital Theory Objects",
+    "section": "What is a “release” on Github?",
+    "text": "What is a “release” on Github?\nCreate a tag or a release whenever a major or minor version is released:\n\nWith tags and releases, you can “pin” and label important commits in your history.\nUsers can quickly go to a specific “frozen” version of your repository.\nThese releases can be expected to be stable/functional versions of your software or theory (but see also semantic versioning: Everything with a 0.x.x version probably is not properly tested yet).\nIn our context, there is no real difference between tags and releases, you can use either."
+  },
+  {
+    "objectID": "lectures/it-tools/it-tools.slide.html#git-best-practice-1",
+    "href": "lectures/it-tools/it-tools.slide.html#git-best-practice-1",
+    "title": "Metadata for Digital Theory Objects",
+    "section": "Git best practice",
+    "text": "Git best practice\n\n(of course more complicated setups with multiple branches, e.g. feature branches, are possible)."
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#how-to-create-a-release",
@@ -473,21 +480,14 @@
     "href": "lectures/it-tools/it-tools.html#semantic-versioning-semver",
     "title": "Metadata for Digital Theory Objects",
     "section": "Semantic Versioning (semver)",
-    "text": "Semantic Versioning (semver)\nVersion numbers have three numbers: MAJOR.MINOR.PATCH.\nIncrement the:\n\nMAJOR version when you make incompatible API changes\nMINOR version when you add functionality in a backward compatible manner\nPATCH version when you make backward compatible bug fixes\n\nThe numbers are plain integers! For example, after 9 comes 10:\n0.9.0 → 0.10.0 → 0.11.0 → 1.0.0 → 1.1.0\n\nSee https://semver.org"
+    "text": "Semantic Versioning (semver)\nVersion numbers have three numbers: MAJOR.MINOR.PATCH.\nIncrement the:\n\nMAJOR version when you make changes that break backward compability\nMINOR version when you add functionality in a backward compatible manner\nPATCH version when you make backward compatible bug fixes\n\nThe numbers are plain integers! For example, after 9 comes 10:\n0.9.0 → 0.10.0 → 0.11.0 → 1.0.0 → 1.1.0\n\nSee https://semver.org"
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#some-rules-conventions",
     "href": "lectures/it-tools/it-tools.html#some-rules-conventions",
     "title": "Metadata for Digital Theory Objects",
     "section": "Some rules & conventions:",
-    "text": "Some rules & conventions:\n\nThe first development version starts with 0.1.0\nThe first stable public release is 1.0.0\nOnce a versioned package has been released, the contents of that version must not be modified. Any modifications must be released as a new version.\nMajor version X (X.y.z) must be incremented if any backward incompatible changes are introduced. Patch and minor versions must be reset to 0 when the major version is incremented.\nIn git: Create a tag or a release whenever a major or minor version is released:\n\nWith tags and releases, you can “pin” and label important commits in your history.\nUsers can quickly go to a specific “frozen” version of your repository.\nIn our context, there is no real difference between tags and releases, you can use either.\n\n\n\nSee https://semver.org"
-  },
-  {
-    "objectID": "lectures/it-tools/it-tools.html#applied-to-versioned-theories",
-    "href": "lectures/it-tools/it-tools.html#applied-to-versioned-theories",
-    "title": "Metadata for Digital Theory Objects",
-    "section": "Applied to versioned theories",
-    "text": "Applied to versioned theories\n\nInternal development versions do not automatically get a new version number; the commit hash is a sufficient identifier, if specific versions in the history need to be referenced.\nEvery release in Github needs an incremented minor or major version."
+    "text": "Some rules & conventions:\n\nThe first development version starts with 0.1.0\nThe first stable public release is 1.0.0\nOnce a versioned package has been released, the contents of that version must not be modified. Any modifications must be released as a new version.\nMajor version X (X.y.z) must be incremented if any backward incompatible changes are introduced. Patch and minor versions must be reset to 0 when the major version is incremented."
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#example",
@@ -508,7 +508,21 @@
     "href": "lectures/it-tools/it-tools.html#git-best-practice",
     "title": "Metadata for Digital Theory Objects",
     "section": "Git best practice",
-    "text": "Git best practice\n\nThe version number is recorded in two places:\n\nIn the CITATION.cff file\nIn the names of all tags or releases\n\nIs every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the CITATION.cff file\nRecord the substantive changes in your CHANGELOG.md\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also next slide, “How to create a release?”)"
+    "text": "Git best practice\n\nThe version number is recorded in two places:\n\nIn the CITATION.cff file\nIn the names of all tags or releases\n\nIs every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a dev developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the CITATION.cff file\nRecord the substantive changes in your CHANGELOG.md\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also “How to create a release?”)"
+  },
+  {
+    "objectID": "lectures/it-tools/it-tools.html#what-is-a-release-on-github",
+    "href": "lectures/it-tools/it-tools.html#what-is-a-release-on-github",
+    "title": "Metadata for Digital Theory Objects",
+    "section": "What is a “release” on Github?",
+    "text": "What is a “release” on Github?\nCreate a tag or a release whenever a major or minor version is released:\n\nWith tags and releases, you can “pin” and label important commits in your history.\nUsers can quickly go to a specific “frozen” version of your repository.\nThese releases can be expected to be stable/functional versions of your software or theory (but see also semantic versioning: Everything with a 0.x.x version probably is not properly tested yet).\nIn our context, there is no real difference between tags and releases, you can use either."
+  },
+  {
+    "objectID": "lectures/it-tools/it-tools.html#git-best-practice-1",
+    "href": "lectures/it-tools/it-tools.html#git-best-practice-1",
+    "title": "Metadata for Digital Theory Objects",
+    "section": "Git best practice",
+    "text": "Git best practice\n\n\n\n\n\n(of course more complicated setups with multiple branches, e.g. feature branches, are possible)."
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#how-to-create-a-release",
@@ -1145,7 +1159,14 @@
     "href": "sessions/S12-Final.html",
     "title": "Session 12 - Final presentations",
     "section": "",
-    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: Lange et al. (2025)\n20\n\n\n\nGroups finalize models, plan their presentations\n30\n\n\n\nGroup presentations\n20 min each (100 min)\n\n\n\nSome hints for the final report\n20"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: Lange et al. (2025)\n20\n\n\n\nGroups finalize models, plan their presentations\n30\n\n\n\nGroup presentations\n20 min each (100 min)\n\n\n\nSome hints for the final report\n20\n\n\n\n\n\n\nImportant: I do not expect that you already finished every step!\nThe presentation should contain:\n\nThat’s what we did; we came this far.\nWe encountered the following obstacles.\nThis would be the next steps."
+  },
+  {
+    "objectID": "sessions/S12-Final.html#presentation-content",
+    "href": "sessions/S12-Final.html#presentation-content",
+    "title": "Session 12 - Final presentations",
+    "section": "",
+    "text": "Important: I do not expect that you already finished every step!\nThe presentation should contain:\n\nThat’s what we did; we came this far.\nWe encountered the following obstacles.\nThis would be the next steps."
   },
   {
     "objectID": "sessions/S11-Work.html",

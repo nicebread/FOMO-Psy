@@ -182,33 +182,34 @@ ul.task-list li input[type="checkbox"] {
 <li>Limit the <em>number of phenomena</em> that your model is supposed to explain.</li>
 <li>Limit the <em>number of constructs</em> and their <em>relationships.</em></li>
 </ol></li>
-<li>Collect <a href="./lectures/VAST/VAST_Application.html">robust phenomena</a>
+<li>Collect <a href="./lectures/VAST/VAST_Application.html#step-5-collect-robust-empirical-phenomena-1">robust phenomena</a>
 <ol type="1">
 <li>Evaluate the <em>generalizability</em> separately for each UTOS dimension</li>
 <li>Evaluate the <em>strength of evidence</em> (Quality of studies? Number of studies? Large samples?)</li>
 </ol></li>
-<li>Create your <a href="./lectures/VAST/VAST_Application.html"><em>Construct Source Table</em></a></li>
+<li>Create your <a href="./lectures/VAST/VAST_Application.html#construct-source-table"><em>Construct Source Table</em></a></li>
 <li>Create your VAST display (see slides on <a href="./lectures/VAST/VAST_Intro.html">VAST</a> and <a href="./lectures/VAST/VAST_Application.html">VAST application</a>)
 <ol type="1">
 <li>Distill a working definition for each construct</li>
 <li>Add relationships between constructs</li>
 </ol></li>
-<li>Formalize model: Create your <em>Variable Table</em> (see slides on <a href="./lectures/MathModel/MathModel.html">Mathematical Modeling</a>)
+<li>Formalize model: Create your <em>Variable Table</em> (see slides on <a href="./lectures/MathModel/MathModel.html#define-variables-1">Mathematical Modeling</a>)
 <ol type="1">
 <li>List all concepts of your VAST display that are not higher-order concepts (because higher-order concepts typically are not reducible to a single metric)</li>
 <li>Define the scale level, the possible range of values, and semantic anchors</li>
 </ol></li>
-<li>Formalize model: Create your <em>Relationship Table</em> (see slides on <a href="./lectures/MathModel/MathModel.html">Mathematical Modeling</a>)
+</ol>
+<!-- TODO: Hier fehlt in der MathModel.qmd noch ein slide zur *Relationship Table* -->
+<ol start="8" type="1">
+<li>Formalize model: Create your <em>Relationship Table</em> (see slides on <a href="./lectures/MathModel/MathModel.html#group-work-10-min.">Mathematical Modeling</a>)
 <ol type="1">
 <li>Develop a mathematical function for each endogenous variable in the VAST display.</li>
 <li>What functional form does the theory imply? What are free parameters that can “bend” the function? Which parameters can be fixed?</li>
 </ol></li>
-<li>Program the functions in <code>R</code>
-<ol type="1">
+<li>Program the functions in <code>R</code></li>
 <li>Build atomic functions based on the Relationship Table</li>
-<li>Document the functions with roxygen2</li>
+<li>Document the functions with roxygen2 (see slides on <a href="./lectures/MathModel/MathModel.html#example-with-roxygen2-documentation">Mathematical Modeling</a>))</li>
 <li>Combine atomic functions into one “super function” that takes all exogenous variables of the model as input and computes the focal output variable (typically, an observable behavior). Make sure that it can take vectors as input.</li>
-</ol></li>
 <li>Evaluate the model behavior
 <ol type="1">
 <li>Try different parameter settings. Under which conditions does the model produce the phenomenon?</li>

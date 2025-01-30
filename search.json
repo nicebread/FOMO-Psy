@@ -1215,7 +1215,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This is material for the course “P19 Empirisch-psychologisches Praktikum” at the Ludwig-Maximilians-Universität München. The course was given in the winter terms 2023/24 and 2024/25 by Prof. Dr. Felix Schönbrodt."
+    "text": "This is material for the course “P19 Empirisch-psychologisches Praktikum” at the Ludwig-Maximilians-Universität München. The course was given in the winter terms 2023/24 and 2024/25 by Felix Schönbrodt. The material contains contributions from Daniel Leising and Aaron Peikert, and is partially inspired by a course from Noah van Dongen.\n\n\n\nCitationBibTeX citation:@online{schönbrodt,\n  author = {Schönbrodt, Felix and Leising, Daniel and Peikert, Aaron},\n  title = {Formalizing Narrative Theories in Psychology {{[}Course}\n    Material{]}},\n  url = {https://nicebread.github.io/FOMO-Psy/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSchönbrodt, F., Leising, D., & Peikert, A. (n.d.). Formalizing\nnarrative theories in psychology [Course material]. LMU Open\nScience Center. https://nicebread.github.io/FOMO-Psy/"
   },
   {
     "objectID": "tools.html",

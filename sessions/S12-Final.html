@@ -148,6 +148,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#possible-outline-of-the-final-report" id="toc-possible-outline-of-the-final-report" class="nav-link" data-scroll-target="#possible-outline-of-the-final-report">Possible Outline of the Final Report</a></li>
   <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
+  <li><a href="#lmu-specifics-in-german" id="toc-lmu-specifics-in-german" class="nav-link" data-scroll-target="#lmu-specifics-in-german">LMU specifics (in German)</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -333,8 +334,57 @@ ul.task-list li input[type="checkbox"] {
 <li>Is the code well documented?</li>
 </ul>
 <p>You can see a tentative grading sheet (likely subject to change) <a href="https://docs.google.com/document/d/1C02Oc8iDXjyVtANgWglF8XF4O7HHoTF8_42N5ItN3r4/edit?usp=sharing">here</a>.</p>
+</section>
+<section id="lmu-specifics-in-german" class="level3">
+<h3 class="anchored" data-anchor-id="lmu-specifics-in-german">LMU specifics (in German)</h3>
+<section id="format-hausarbeit" class="level4">
+<h4 class="anchored" data-anchor-id="format-hausarbeit">Format Hausarbeit</h4>
+<ul>
+<li>Schriftgröße 12pt, Zeilenabstand 1.5x</li>
+<li>15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)</li>
+<li>Wenn Sie in papaja/apaquarto/Rmarkdown schreiben, dann ist das exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).</li>
+<li>Deckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung</li>
+<li>Bei papaja/apaquarto/Rmarkdown schreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die author notes.</li>
+<li>Kein Inhaltsverzeichnis</li>
+<li>Mindestens 3 Publikationen zitieren</li>
+<li>Zitate &amp; Literaturverzeichnis nach <a href="http://owl.english.purdue.edu/owl/resource/664/01/">APA-Richtlinien</a> (6. oder 7. Version)</li>
+<li>Die Links zu Repositorium mit open code, etc. kommen an den Anfang des Methodenteils</li>
+</ul>
+</section>
+<section id="abgabe-hausarbeit" class="level4">
+<h4 class="anchored" data-anchor-id="abgabe-hausarbeit">Abgabe Hausarbeit</h4>
+<ul>
+<li><strong>Abgabetermin: 23.3.2025</strong></li>
+<li>Als PDF-Datei per Email an den Dozenten – Empfang wird bestätigt</li>
+<li>Man kann zum Zwecke der Anonymisierung 2 Versionen einreichen:
+<ul>
+<li>Vollständige Version (Dateiname: IhrNachname_Kurztitel_Jahr.pdf) – z.B.: „Schmid_Empra_2020.pdf“</li>
+<li>Anonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Kurztitel_Jahr.pdf)
+<ul>
+<li>Diese Version wird benotet.</li>
+<li>Dateiname z.B.:„98234034_Empra_2020.pdf“</li>
+<li>Das Github Repo als zip-Datei.</li>
+<li>Sie können in <code>papaja</code> einfach eine anonyme Version erzeugen, indem Sie im YAML <code>mask: yes</code> angeben (siehe <a href="https://frederikaust.com/papaja_man/r-markdown-components.html">hier</a>)</li>
+<li>Sie können in <code>apaquarto</code> einfach eine anonyme Version erzeugen, indem Sie im YAML <code>mask: true</code> angeben (siehe <a href="https://wjschne.github.io/apaquarto/options.html#general-options">hier</a>)</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="gruppenarbeit-eigenleistung" class="level4">
+<h4 class="anchored" data-anchor-id="gruppenarbeit-eigenleistung">Gruppenarbeit / Eigenleistung</h4>
+<p>Innerhalb der Gruppen kann das gemeinsame Basismodell von allen Gruppenmitgliedern genutzt werden. Die Eigenleistung besteht in folgenden Aspekten:</p>
+<ul>
+<li>Die Beschreibung des Modells wird individuell geschrieben</li>
+<li>Das Basismodell wird durch mindestens eine Komponente individuell und selbständig erweitert, z.B.:
+<ul>
+<li>ein weiterer Mediator oder Moderator im VAST (und entsprechend in den Simulationen)</li>
+<li>eine neue experimentelle Simulationsbedingung (d.h., es werden andere Settings für die Modellparameter systematisch untersucht, und ob/wann das Phänomen noch vom Modell produziert wird)</li>
+<li>Ein anderes Phänomen wird untersucht, welches aber auch durch das Modell abgedeckt ist/sein könnte. Das neue Phänomen wird durch eine neue Literaturrecherche (die sich z.B. auf eine andere Metaanalyse bezieht) bzgl. seiner Robustheit evaluiert.</li>
+</ul></li>
+</ul>
 
 
+</section>
 </section>
 </section>
 

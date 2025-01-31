@@ -1,5 +1,5 @@
 ---
-title: Session 8 - Propose and discuss your own formalization candidate theories
+title: Session 08 - Propose and discuss your own formalization candidate theories
 number-sections: false
 description: We decide which theories will be formalized in the second part of the course.
 ---

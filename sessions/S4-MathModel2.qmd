@@ -1,5 +1,5 @@
 ---
-title: Session 4 - Mathematical Modeling Part 2
+title: Session 04 - Mathematical Modeling Part 2
 description: Create all functions for our reduced Bystander Effect Model
 ---
 

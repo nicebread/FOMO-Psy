@@ -1,5 +1,5 @@
 ---
-title: Session 5 - Mathematical Modeling Part 3
+title: Session 05 - Mathematical Modeling Part 3
 number-sections: true
 description: Consensus model
 ---

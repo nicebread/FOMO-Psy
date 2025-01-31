@@ -1,5 +1,5 @@
 ---
-title: Session 6 - Mathematical Modeling Part 4
+title: Session 06 - Mathematical Modeling Part 4
 number-sections: true
 description: Empirical calibration + simulated experiments
 ---

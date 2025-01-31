@@ -1,5 +1,5 @@
 ---
-title: Session 7 - Presentation of candidate theories
+title: Session 07 - Presentation of candidate theories
 number-sections: false
 description: We have a presentation and initial discussion of candidate theories for the next formalization exercise.
 ---

@@ -1,5 +1,5 @@
 ---
-title: Session 9 - How to simulate virtual experiments
+title: Session 09 - How to simulate virtual experiments
 number-sections: false
 description: We practice how to generate data for simulated experiments
 ---

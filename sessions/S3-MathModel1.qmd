@@ -1,5 +1,5 @@
 ---
-title: Session 3 - The first mathematical model
+title: Session 03 - The first mathematical model
 number-sections: true
 description: We finalize our Bystander VAST displays and start with the first mathematical model
 ---

@@ -1,14 +1,25 @@
+## Minor todos:
+
+- fix order of sessions in overview table
+- fix links in lectures table
+- (re)move thinking tools?
+- add date to citation / about page
+
 ## Add folder structure to it-tools lecture
-- with all relevant files
 
-## Notes
+With all relevant files:
 
-- Operationalisierung gehört zur Theoriearbeit
+|- README.md (this should link to any associated Google docs, if applicable)
+|- CITATION.cff
+|- VAST_display.drawio
+|- simulation
+     |- raw_data (a subfolder with empirical raw data, if applicable)
+	      |- dat.csv
+	 |- README.md
+     |- functions.R (or any other name)
+|- manuscript
+     |- manuscript.qmd
 
-## CFF files
-
-CFF files: mention whether this theory version was peer-reviewed (or what the last peer-reviewed version was), with a link to the doi of the peer-reviewed publication and ideally the open peer reviews.
-How does "release" relate to "peer review"? Principally it's independent.
 
 
 ## Ablauf Intro 2:
@@ -35,18 +46,10 @@ Every major change needs a new peer review.
 
 Kann eine Theorie *zu* präzise sein? Dann würde man extrem viele arbiträre Festlegeungen treffen, die dann im Core der Theorie sind, aber eigentlich nur Overfitting oder arbiträr.
 
-# VAST früher bringen?
-Bei der Evaluation, ob eingereichte Theorien sinnvoll formalisiert werden können, wäre es gut schon VAST zu kennen.
 
 # Beispiele:
 
 Callaway, F., Hardy, M., & Griffiths, T. L. (2023). Optimal nudging for cognitively bounded agents: A framework for modeling, predicting, and controlling the effects of choice architectures. Psychological Review. Advance online publication. https://doi.org/10.1037/rev0000445
-
-# Erwin:
-
-"machine model" / perfect model:
-See Jarecki et al 2020:
-Connotation 1: Process models versus rational models: "Such rational models provide optimal solutions to a problem (Tanner & Swets, 1954) or constrained optimal solutions (rational analysis by Anderson, 1991) to formal statistical problems faced by decision makers (Griffiths et al., 2010; Lewis, Howes, & Singh, 2014). Cognitive processes can then be singled out by the “ways in which human behavior deviates from ideal solutions”
 
 # Demiurg 2
 

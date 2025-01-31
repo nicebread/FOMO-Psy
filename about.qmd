@@ -1,5 +1,25 @@
 ---
 title: "About"
+citation:
+  type: "webpage"
+  title: "Formalizing narrative theories in psychology [Course material]"  
+  container-title: "LMU Open Science Center"
+  url: https://nicebread.github.io/FOMO-Psy/
+csl: common/apa.csl
+author:
+  - name: Felix Schönbrodt
+    orcid: 0000-0002-8282-3910
+    email: felix.schoenbrodt@psy.lmu.de
+    affiliations: Ludwig-Maximilians-Universität München
+  - name: Daniel Leising
+    orcid: 0000-0001-8503-5840
+    email: Daniel.Leising@tu-dresden.de
+    affiliations: Technical University Dresden
+  - name: Aaron Peikert
+    orcid: 0000-0001-7813-818X
+    email: peikert@mpib-berlin.mpg.de
+    affiliations: Max Planck Institute for Human Development
 ---
 
-This is material for the course "P19 Empirisch-psychologisches Praktikum" at the Ludwig-Maximilians-Universität München. The course was given in the winter terms 2023/24 and 2024/25 by [Prof. Dr. Felix Schönbrodt](http://www.nicebread.de).
+This is material for the course "P19 Empirisch-psychologisches Praktikum" at the Ludwig-Maximilians-Universität München. The course was given in the winter terms 2023/24 and 2024/25 by [Felix Schönbrodt](https://www.nicebread.de).
+The material contains contributions from [Daniel Leising](https://tu-dresden.de/mn/psychologie/iaosp/diagnostische/die-professur/inhaber-in) and [Aaron Peikert](https://www.mpib-berlin.mpg.de/person/103737), and is partially inspired by a [course](https://osf.io/abxut/) from [Noah van Dongen](http://noahvandongen.com).

@@ -16,22 +16,24 @@ title: "Overview: Formalization Steps"
    1. Define scope of *original literature* that is used as basis for the formalization.
    2. Limit the *number of phenomena* that your model is supposed to explain.
    3. Limit the *number of constructs* and their *relationships.*
-4. Collect [robust phenomena](lectures/VAST/VAST_Application.qmd)
+4. Collect [robust phenomena](lectures/VAST/VAST_Application.qmd#step-5-collect-robust-empirical-phenomena-1)
    1. Evaluate the *generalizability* separately for each UTOS dimension
    2. Evaluate the *strength of evidence* (Quality of studies? Number of studies? Large samples?)
-5. Create your [*Construct Source Table*](lectures/VAST/VAST_Application.qmd)
+5. Create your [*Construct Source Table*](lectures/VAST/VAST_Application.qmd#construct-source-table)
 6. Create your VAST display (see slides on [VAST](lectures/VAST/VAST_Intro.qmd) and [VAST application](lectures/VAST/VAST_Application.qmd))
    1. Distill a working definition for each construct
    2. Add relationships between constructs
-7. Formalize model: Create your *Variable Table* (see slides on [Mathematical Modeling](lectures/MathModel/MathModel.qmd))
+7. Formalize model: Create your *Variable Table* (see slides on [Mathematical Modeling](lectures/MathModel/MathModel.qmd#define-variables-1))
    1. List all concepts of your VAST display that are not higher-order concepts (because higher-order concepts typically are not reducible to a single metric)
    2. Define the scale level, the possible range of values, and semantic anchors
-8. Formalize model: Create your *Relationship Table* (see slides on [Mathematical Modeling](lectures/MathModel/MathModel.qmd))
+
+<!-- TODO: Hier fehlt in der MathModel.qmd noch ein slide zur *Relationship Table* -->
+8. Formalize model: Create your *Relationship Table* (see slides on [Mathematical Modeling](lectures/MathModel/MathModel.qmd#group-work-10-min.))
    1. Develop a mathematical function for each endogenous variable in the VAST display.
    2. What functional form does the theory imply? What are free parameters that can "bend" the function? Which parameters can be fixed?
-9. Program the functions in `R`
+9.  Program the functions in `R`
    1. Build atomic functions based on the Relationship Table
-   2. Document the functions with roxygen2
+   2. Document the functions with roxygen2 (see slides on [Mathematical Modeling](lectures/MathModel/MathModel.qmd#example-with-roxygen2-documentation)))
    3. Combine atomic functions into one "super function" that takes all exogenous variables of the model as input and computes the focal output variable (typically, an observable behavior). Make sure that it can take vectors as input.
 10. Evaluate the model behavior
     1.  Try different parameter settings. Under which conditions does the model produce the phenomenon?

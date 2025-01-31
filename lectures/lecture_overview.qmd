@@ -25,7 +25,7 @@ for (i in 1:n) {
   lectures[i , 'file_name'] = files[i]
 }
 
-lecture.list <- data.frame(Date    = lectures$date, 
+lecture.list <- data.frame(Date = lectures$date, 
            Lecture = lectures$title,
            Website = paste0('<a href="', gsub(".qmd", ".html", lectures$url, fixed=TRUE), '" target="_blank" class="external">link</a>'),
            Slides  = paste0('<a href="', gsub(".qmd", ".slide.html", lectures$url, fixed=TRUE), '" target="_blank" class="external">link</a>')
@@ -39,6 +39,8 @@ knitr::kable(
     dplyr::arrange(lecture.list, desc(Date)), 
     col.names = c("Date", "Topic", "Slides (as a single website)", "Slides (presentation mode)"),
     escape = FALSE
-  ) %>%
-  kable_styling(full_width = TRUE)
+  )
+  # For some reasons, kable_styling() escapes the < > html tags
+  # %>%
+  #kable_styling(full_width = TRUE)
 ```

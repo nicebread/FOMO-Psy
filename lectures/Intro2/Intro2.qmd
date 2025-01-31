@@ -7,7 +7,7 @@ author:
     affiliations: Ludwig-Maximilians-Universität München
 date: 2023-10-27
 date-format: iso
-footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
+footer: "These slides are part of the course [Formal modeling in psychology](https://nicebread.github.io/FOMO-Psy/) at LMU Munich"
 format:   
   nicetheme-revealjs: 
     output-ext: slide.html

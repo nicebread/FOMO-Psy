@@ -1,6 +1,5 @@
 ## Minor todos:
 
-- fix order of sessions in overview table
 - fix links in lectures table
 - (re)move thinking tools?
 - add date to citation / about page

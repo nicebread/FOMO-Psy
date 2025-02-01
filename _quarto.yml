@@ -13,8 +13,8 @@ website:
         file: sessions/sessions_overview.qmd  
       - text: "Lectures"
         file: lectures/lecture_overview.qmd
-      - href: tools.qmd
-        text: Thinking Tools
+      # - href: tools.qmd
+      #   text: Thinking Tools
       - file: orga_material/orga_material.qmd
         text: Organizational Material
       - Formalization_steps.qmd

@@ -1,8 +1,6 @@
 ## Minor todos:
 
-- fix links in lectures table
-- (re)move thinking tools?
-- add date to citation / about page
+- fix order in lectures table
 
 ## Add folder structure to it-tools lecture
 

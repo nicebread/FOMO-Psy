@@ -1,9 +1,9 @@
 ---
 title: "About"
+date: 2025-01-30
 citation:
   type: "webpage"
-  title: "Formalizing narrative theories in psychology [Course material]"  
-  container-title: "LMU Open Science Center"
+  title: "Formalizing narrative theories in psychology [Course material]"    
   url: https://nicebread.github.io/FOMO-Psy/
 csl: common/apa.csl
 author:

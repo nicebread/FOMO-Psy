@@ -119,6 +119,7 @@ You can see a tentative grading sheet (likely subject to change) [here](https://
 - Mindestens 3 Publikationen zitieren
 - Zitate & Literaturverzeichnis nach [APA-Richtlinien](http://owl.english.purdue.edu/owl/resource/664/01/) (6. oder 7. Version)
 - Die Links zu Repositorium mit open code, etc. kommen an den Anfang des Methodenteils
+- Sprache kann deutsch oder englisch sein.
 
 
 #### Abgabe Hausarbeit
@@ -130,7 +131,7 @@ You can see a tentative grading sheet (likely subject to change) [here](https://
   - Anonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Kurztitel_Jahr.pdf)
     - Diese Version wird benotet.
     - Dateiname z.B.:„98234034_Empra_2020.pdf“
-    - Das Github Repo als zip-Datei.
+    - Das Github Repo sollte man in der anonymen Version herausnehmen, da der Username im Allgemeinen die Identität erhält.
     - Sie können in `papaja` einfach eine anonyme Version erzeugen, indem Sie im YAML `mask: yes` angeben (siehe [hier](https://frederikaust.com/papaja_man/r-markdown-components.html))
     - Sie können in `apaquarto` einfach eine anonyme Version erzeugen, indem Sie im YAML `mask: true` angeben (siehe [hier](https://wjschne.github.io/apaquarto/options.html#general-options))
 
@@ -144,4 +145,6 @@ Die Eigenleistung besteht in folgenden Aspekten:
   - ein weiterer Mediator oder Moderator im VAST (und entsprechend in den Simulationen)
   - eine neue experimentelle Simulationsbedingung (d.h., es werden andere Settings für die Modellparameter systematisch untersucht, und ob/wann das Phänomen noch vom Modell produziert wird)
   - Ein anderes Phänomen wird untersucht, welches aber auch durch das Modell abgedeckt ist/sein könnte. Das neue Phänomen wird durch eine neue Literaturrecherche (die sich z.B. auf eine andere Metaanalyse bezieht) bzgl. seiner Robustheit evaluiert.
+- Gleich das erweiterte Modell präsentieren (nicht separat erst das Basismodell und dann auch noch das erweiterte Modell)
+- Jeder sollte ein eigenes Github-Repositorium einreichen/verlinken. D.h., man macht eine Kopie/Fork von dem gemeinsamen Basismodell, und arbeitet dann darin weiter.
 

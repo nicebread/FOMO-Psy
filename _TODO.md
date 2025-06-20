@@ -72,3 +72,7 @@ Answer: No! If all 12,000 participants were female psychology students between 1
 --> Provide exemplary good UTOS section.
 Show first the evidence ("in general, there seems to be a phenomenon") and *then* the generalizability check along the UTOS dimensions. (If there is no base phenomenon in the first place, it's futile to check its generalizability and robustness).
 
+
+# Formalization exercise:
+
+"Channels of Communication in Small Groups"  (in 1951) https://www.jstor.org/stable/2088276 If you have 5 person in a panel, uniform distribution of time would be 20% each. In reality, it's more 44%, 22%, 15%, 11%,  9%, i.e. what is called "discrete harmonic" (or Zipf distribution with power index of 1)

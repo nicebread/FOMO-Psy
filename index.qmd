@@ -1,40 +1,55 @@
 ---
 title: "FOMO-Psy: Formal Modeling of Psychological Theories"
-subtitle: "A 14-week course"
+subtitle: "A 13-week course"
 ---
 
-*Note: The material will (initially) be some mixture of German and English. Your mileage may vary.*
+*Note: While most content is in English, some administrative parts are in German.*
 
-The course has 14 [sessions](sessions/sessions_overview.qmd), each lasting 3.5h. In between sessions, homework is given.
+This course is held in the 5th semester of the BSc. Psychology at the Department Psychology, Ludwig-Maximilians-Universität München.
+
+See the [Sessions](sessions/sessions_overview.qmd) section for a description of each session. In these sessions, sometimes [lecture slides](lectures/lecture_overview.qmd) are linked.
+
+## Course announcement
+
+In the empirical-psychological practical course ‘Formal Modelling in Psychology’, students immerse themselves in the world of quantitative representation of psychological theories. This is not about the quantitative evaluation of data with the help of statistical models, but about theories and data-generating models that are so precise that concrete data can be predicted.
+
+As a reaction to the replication crisis, there has been a call for better theories. One branch of that movement aims to translate verbal and conceptual theories into formal, mathematical models. These models serve multiple purposes: they provide precise definitions of concepts, enable rigorous testing of hypotheses, provide clearer predictions, and can provide a framework to unify seemingly disparate results. They also sharpen the focus on ‘gaps’ in the usually hopelessly underspecified theories in psychology.
+
+In this course, students will be introduced to basic principles of formal modelling and equipped with tools they need to derive models from existing verbal theories. 
+Accordingly, we will deal a lot with the implementation in programming languages. We will probably do a lot of programming in R, possibly also in NetLogo (for ABMs).
+
+We will try to collaboratively formalise verbal psychological theories so that they can be translated and implemented in a data-generating model that allows to regenerate the phenomenon of interest.
+
+We will discuss and apply aspects of quality assurance in theorizing (reproducibility, version control, sensitivity analyses, well-documented code).
+
+This course requires a higher level of mathematical and formal thinking than typical courses at our department, as well as programming skills. As a minimum, the R skills taught in the Statistics 1 and 2 seminars are required, as well as the willingness to familiarise yourself with programming topics independently (using the material provided).
 
 
-# Sessions Overview
+## Relevant literature
 
-TBD
-
-# Relevant literature
-
-## Modeling methodology
+### Theorizing/modeling methodology
 
 - Borsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647
 - Guest, O., & Martin, A. E. (2021). How Computational Modeling Can Force Theory Building in Psychological Science. Perspectives on Psychological Science, 16(4), 789–802. https://doi.org/10.1177/1745691620970585
 - Leising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://doi.org/10.15626/MP.2021.2911
+- Van Lissa, C. J. (2025). theorytools: FAIR theory construction [Manual]. [https://github.com/cjvanlissa/theorytools](https://github.com/cjvanlissa/theorytools)
+- Van Lissa, C. J., Peikert, A., Ernst, M., Van Dongen, N., Schönbrodt, F. D., & Brandmaier, A. M. (2025, March 9). To be FAIR: Theory Specification Needs an Update. [https://doi.org/10.31234/osf.io/t53np_v1](https://doi.org/10.31234/osf.io/t53np_v1)
 - Wilson, R. C., & Collins, A. G. (2019). Ten simple rules for the computational modeling of behavioral data. ELife, 8, e49547. https://doi.org/10.7554/eLife.49547
 
-## About theories
 
+### About theories
+
+- Borsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647
 - Glöckner, A., Fiedler, S., & Renkewitz, F. (2018). Belastbare und effiziente Wissenschaft: Strategische Ausrichtung von Forschungsprozessen als Weg aus der Replikationskrise. Psychologische Rundschau, 69(1), 22–36. https://doi.org/10.1026/0033-3042/a000384
 - Oberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2
-- Van Dongen, N., Van Bork, R., Finnemann, A., Haslbeck, J. M. B., Van Der Maas, H. L. J., Robinaugh, D. J., De Ron, J., Sprenger, J., & Borsboom, D. (2024). Productive explanation: A framework for evaluating explanations in psychological science. Psychological Review. https://doi.org/10.1037/rev0000479
-- Borsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647
 - Sutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788
+- Van Dongen, N., Van Bork, R., Finnemann, A., Haslbeck, J. M. B., Van Der Maas, H. L. J., Robinaugh, D. J., De Ron, J., Sprenger, J., & Borsboom, D. (2025). Productive explanation: A framework for evaluating explanations in psychological science. *Psychological Review, 132*(2), 311–329. https://doi.org/10.1037/rev0000479
 
 
-# Credit
+## Credit and Contributors
 
 Thanks goes to:
 
 - Noah van Dongen and Denny Borsboom for great inspiration from the *ManyModelers Project* (performed on SIPS 2022)
-- Noah van Dongen for providing his material for an TCM course
-- Aaron Peikert, Maximilian Ernst and Caspar van Lissa for several discussions and inspirations about technical aspects of theory versioning
-- ...
+- Noah van Dongen for providing his material for an [TCM course](https://osf.io/abxut/)
+- Aaron Peikert, Maximilian Ernst and Caspar van Lissa for several discussions and inspirations about technical aspects of theory versioning and FAIR theories

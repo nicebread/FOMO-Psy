@@ -1,8 +1,8 @@
-# Course material for "Formale Modellierung in der Psychologie"
+# Course material for "Introduction to Formal modeling in Psychology" (FOMO-Psy)
 
 This is the source code of the Quarto website. See the rendered website at [https://nicebread.github.io/FOMO-Psy/](https://nicebread.github.io/FOMO-Psy/).
 
-*Note: The material will (initially) be a crude mixture of German and English. Your mileage may vary.*
+*Note: While most content is in English, some administrative parts are in German.*
 
 ## Compilation / dependencies
 
@@ -25,13 +25,13 @@ quarto update extension nicebread/quarto-FS
 
 ## Notes to self:
 
-- The default presentation size is 1050 x 700.
+- The default presentation slide size is 1050 x 700.
 - To publish online, run `quarto publish gh-pages` locally.
 - Right arrow (→): `&rarr;`
 - Double headed arrow (↔): `&harr;`
 - Full processing:
 
-```
+```sh
 quarto render
 quarto publish gh-pages
 

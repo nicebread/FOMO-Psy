@@ -303,238 +303,252 @@
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#git-overview",
     "href": "lectures/it-tools/it-tools.slide.html#git-overview",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
+    "section": "Git overview",
+    "text": "Git overview\nGit is a tool from software development that solves two major challenges:\n\nTracking changes in source code (or any text files)\n\nKeeps a complete version history and allows reverting to previous states.\nEnables reproducibility by “freezing” project states (releases, tags).\n\nHow to work collaboratively on the same files."
+  },
+  {
+    "objectID": "lectures/it-tools/it-tools.slide.html#git-overview-1",
+    "href": "lectures/it-tools/it-tools.slide.html#git-overview-1",
+    "title": "Tools for Digital Theory Objects",
     "section": "Git overview",
     "text": "Git overview"
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#git-hands-on",
     "href": "lectures/it-tools/it-tools.slide.html#git-hands-on",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Git hands-on",
-    "text": "Git hands-on\n\nShowcase how git works\n\nLecturer creates a private project on Github for this course. This will be the central project for submitting homework.\nStudents create their Github accounts; add them as contributors to the course project.\nShow how to commit, push, pull changes.\nShow a merge conflict (make a change in the web frontend and locally) and how to resolve it.\n\nWe start the OSC git tutorial together to weed out technical hurdles. The rest of tutorial is homework."
+    "text": "Git hands-on\n\nShowcase how git works\n\nLecturer creates a private project on Github for this course. This will be the central project for submitting homework.\nStudents create their Github accounts; add them as contributors to the course project.\nShow how to commit, push, pull changes.\nShow a merge conflict (make a change in the web frontend and locally) and how to resolve it.\n\nWe start the OSC git tutorial together to weed out technical hurdles. Aim to get until section “Secure the connection between your computer and GitHub”. The rest of tutorial is homework until next week.\n\nNote: In chapter “Secure the connection …” it says “You will then be asked to provide a passphrase. Protecting your keys with a password is optional but highly recommended”. I recommend not to set a passphrase (just leave it empty), unless you deal with very sensitive data. You will get crazy if you need to enter your passphrase at every SSH operation."
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#never-forget",
     "href": "lectures/it-tools/it-tools.slide.html#never-forget",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Never forget …",
     "text": "Never forget …\n\n\nFound on https://mstdn.games/@64bithero/111251230901866156"
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#citation-file-format-schema-version-1.2.0",
     "href": "lectures/it-tools/it-tools.slide.html#citation-file-format-schema-version-1.2.0",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Citation File Format schema version 1.2.0",
     "text": "Citation File Format schema version 1.2.0\nTell other users how your theory should be cited, what the current version is, and more meta-data. This can be stored in a file called CITATION.cff in the top level folder of your repository:\ncff-version: 1.2.0\ntitle: 'AST: Action selection theory'\nmessage: &gt;-\n  If you refer to this theory, please cite it using the\n  metadata from this file. This theory has not been peer reviewed yet.\ntype: report\nauthors:\n  - given-names: Felix\n    family-names: Schönbrodt\n    email: felix.schoenbrodt@psy.lmu.de\n    orcid: 'https://orcid.org/0000-0002-8282-3910'\n    affiliation: Ludwig-Maximilians-Universität München\nrepository-code: 'https://github.com/nicebread/AST'\nabstract: &gt;-\n  A theoretical model that explains how a donkey solves the\n  approach-approach conflict of hunger and thirst when the\n  two sources are separated.\nkeywords:\n  - approach-approach conflict\n  - action selection\n  - motivation\nlicense: CC-BY-4.0\nversion: 0.2.5\ndate-released: '2023-10-30'"
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#citation-file-format-schema-version-1.2.0-1",
     "href": "lectures/it-tools/it-tools.slide.html#citation-file-format-schema-version-1.2.0-1",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Citation File Format schema version 1.2.0",
     "text": "Citation File Format schema version 1.2.0\nHow to create\nCreate an initial version of your CITATION.cff file with the cffinit tool"
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#citation-file-format-schema-version-1.2.0-2",
     "href": "lectures/it-tools/it-tools.slide.html#citation-file-format-schema-version-1.2.0-2",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Citation File Format schema version 1.2.0",
     "text": "Citation File Format schema version 1.2.0\nHow to create\nThe tool currently only knows “software” and “data set” as types. Create it with type software and update the message field:\nmessage: &gt;-\n  If you refer to this theory, please cite it using the metadata from this file.\ntype: software \nSave the CITATION.cff file in the top level folder of your repository."
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#effect-of-a-citation.cff-file",
     "href": "lectures/it-tools/it-tools.slide.html#effect-of-a-citation.cff-file",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Effect of a CITATION.cff file",
     "text": "Effect of a CITATION.cff file\nBoth Github and Zenodo (and probably more repositories) parse an existing CITATION.cff and display the citation information:"
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#citation-file-format-schema-version-1.2.0-3",
     "href": "lectures/it-tools/it-tools.slide.html#citation-file-format-schema-version-1.2.0-3",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Citation File Format schema version 1.2.0",
     "text": "Citation File Format schema version 1.2.0\nPeer review status\n\nFor users of your theory, it is helpful if the peer review status is made explicit.\nThis can be done in the message field, e.g.:\n\n“This theory has not been peer-reviewed yet.”\nIf the current version is, say, 2.1.0: “The last peer-reviewed version was 1.0.4”\n“An open peer review of version 1.0.2 is published at doi …”\n\nIn future versions of the cff schema, one could also use the isReviewedBy annotation of an identifier."
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#semantic-versioning-semver",
     "href": "lectures/it-tools/it-tools.slide.html#semantic-versioning-semver",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Semantic Versioning (semver)",
     "text": "Semantic Versioning (semver)\nVersion numbers have three numbers: MAJOR.MINOR.PATCH.\nIncrement the:\n\nMAJOR version when you make changes that break backward compability\nMINOR version when you add functionality in a backward compatible manner\nPATCH version when you make backward compatible bug fixes\n\nThe numbers are plain integers! For example, after 9 comes 10:\n0.9.0 → 0.10.0 → 0.11.0 → 1.0.0 → 1.1.0\n\nSee https://semver.org"
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#some-rules-conventions",
     "href": "lectures/it-tools/it-tools.slide.html#some-rules-conventions",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Some rules & conventions:",
     "text": "Some rules & conventions:\n\nThe first development version starts with 0.1.0\nThe first stable public release is 1.0.0\nOnce a versioned package has been released, the contents of that version must not be modified. Any modifications must be released as a new version.\nMajor version X (X.y.z) must be incremented if any backward incompatible changes are introduced. Patch and minor versions must be reset to 0 when the major version is incremented."
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#example",
     "href": "lectures/it-tools/it-tools.slide.html#example",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Example",
-    "text": "Example\n\n\nFirst commit to repository: 0.1.0\nOh, I found and corrected a typo: 0.1.1\nImplemented a minor new feature (that does not break the functionality of the existing features): 0.2.0\n\nAlways reset the patch number to zero when increasing the minor or major number\n\nBy and by, more features get implemented: 0.3.0 → 0.4.0 → ... → 0.12.6\nNow we are ready to tag our first public release! 0.12.6 → 1.0.0\n…\nAfter years of work and minor version updates (e.g., 1.4.0), we made a huge change that makes the product incompatible to version 1: 2.0.0"
+    "text": "Example\n\nFirst commit to repository: 0.1.0\nOh, I found and corrected a typo: 0.1.1\nImplemented a minor new feature (that does not break the functionality of the existing features): 0.2.0\n\nAlways reset the patch number to zero when increasing the minor or major number\n\nBy and by, more features get implemented: 0.3.0 → 0.4.0 → ... → 0.12.6\nNow we are ready to tag our first public release! 0.12.6 → 1.0.0\n…\nAfter years of work and minor version updates (e.g., 1.4.0), we made a huge change that makes the product incompatible to version 1: 2.0.0"
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#patch-minor-major-changes",
     "href": "lectures/it-tools/it-tools.slide.html#patch-minor-major-changes",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Patch, Minor, Major changes",
     "text": "Patch, Minor, Major changes\nSo what changes warrant what kind of version increments? For theories it makes sense to think in terms of predictions.\n\n\npatch\n\nThe predictions your theory makes do not change, instead you have clarified things, defined terminology, fixed typos, added references etc.\n\nminor\n\nThe predictions your theory makes have expanded but previous predictions are substantively compatible, i.e. the theory makes the same prediction as older versions for the same settings. All things that would have confirmed or falsified the older version, still apply to the new version. For example, you have included more settings your theory covers; added more previously unrecognized variables; became more certain about some predictions (i.e. range predictions became narrower); added more operationalizations for constructs.\n\nmajor\n\nEvidence that would have confirmed or falsified the previous version does differently affect this version. You changed core tenets of the definition of constructs or their operationalization, changed the functional relationship between two variables, changed the type of a relation (causation to correlation) or the timescale of a process, etc."
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#git-best-practice",
     "href": "lectures/it-tools/it-tools.slide.html#git-best-practice",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Git best practice",
     "text": "Git best practice\n\nThe version number is recorded in two places:\n\nIn the CITATION.cff file\nIn the names of all tags or releases\n\nIs every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a dev developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the CITATION.cff file\nRecord the substantive changes in your CHANGELOG.md\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also “How to create a release?”)"
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#what-is-a-release-on-github",
     "href": "lectures/it-tools/it-tools.slide.html#what-is-a-release-on-github",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "What is a “release” on Github?",
     "text": "What is a “release” on Github?\nCreate a tag or a release whenever a major or minor version is released:\n\nWith tags and releases, you can “pin” and label important commits in your history.\nUsers can quickly go to a specific “frozen” version of your repository.\nThese releases can be expected to be stable/functional versions of your software or theory (but see also semantic versioning: Everything with a 0.x.x version probably is not properly tested yet).\nIn our context, there is no real difference between tags and releases, you can use either."
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#git-best-practice-1",
     "href": "lectures/it-tools/it-tools.slide.html#git-best-practice-1",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Git best practice",
     "text": "Git best practice\n\n(of course more complicated setups with multiple branches, e.g. feature branches, are possible)."
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#how-to-create-a-release",
     "href": "lectures/it-tools/it-tools.slide.html#how-to-create-a-release",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "How to create a release?",
     "text": "How to create a release?\n\nUse GitHub’s inbuild release mechanism\nRemember to set the tag to the correct version number\nCopy the content of your CHANGELOG.md into the release notes.\nOptional: create a DOI for your release, and archive it with Zenodo\nOptional: update your CITATION.cff file to include the new DOI\n\nThis is a hen/egg problem: The doi will not be in the release itself, as it is assigned only after the release."
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#contact",
     "href": "lectures/it-tools/it-tools.slide.html#contact",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
     "objectID": "lectures/it-tools/it-tools.html",
     "href": "lectures/it-tools/it-tools.html",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "",
-    "text": "Showcase how git works\n\nLecturer creates a private project on Github for this course. This will be the central project for submitting homework.\nStudents create their Github accounts; add them as contributors to the course project.\nShow how to commit, push, pull changes.\nShow a merge conflict (make a change in the web frontend and locally) and how to resolve it.\n\nWe start the OSC git tutorial together to weed out technical hurdles. The rest of tutorial is homework.\n\n\n\n\n\n\n\n\n\n\nFound on https://mstdn.games/@64bithero/111251230901866156"
+    "text": "Git is a tool from software development that solves two major challenges:\n\nTracking changes in source code (or any text files)\n\nKeeps a complete version history and allows reverting to previous states.\nEnables reproducibility by “freezing” project states (releases, tags).\n\nHow to work collaboratively on the same files.\n\n\n\n\n\n\n\n\n\n\n\n\n\nShowcase how git works\n\nLecturer creates a private project on Github for this course. This will be the central project for submitting homework.\nStudents create their Github accounts; add them as contributors to the course project.\nShow how to commit, push, pull changes.\nShow a merge conflict (make a change in the web frontend and locally) and how to resolve it.\n\nWe start the OSC git tutorial together to weed out technical hurdles. Aim to get until section “Secure the connection between your computer and GitHub”. The rest of tutorial is homework until next week.\n\nNote: In chapter “Secure the connection …” it says “You will then be asked to provide a passphrase. Protecting your keys with a password is optional but highly recommended”. I recommend not to set a passphrase (just leave it empty), unless you deal with very sensitive data. You will get crazy if you need to enter your passphrase at every SSH operation.\n\n\n\n\n\n\n\n\n\n\n\nFound on https://mstdn.games/@64bithero/111251230901866156"
+  },
+  {
+    "objectID": "lectures/it-tools/it-tools.html#git-overview",
+    "href": "lectures/it-tools/it-tools.html#git-overview",
+    "title": "Tools for Digital Theory Objects",
+    "section": "",
+    "text": "Git is a tool from software development that solves two major challenges:\n\nTracking changes in source code (or any text files)\n\nKeeps a complete version history and allows reverting to previous states.\nEnables reproducibility by “freezing” project states (releases, tags).\n\nHow to work collaboratively on the same files."
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#git-hands-on",
     "href": "lectures/it-tools/it-tools.html#git-hands-on",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "",
-    "text": "Showcase how git works\n\nLecturer creates a private project on Github for this course. This will be the central project for submitting homework.\nStudents create their Github accounts; add them as contributors to the course project.\nShow how to commit, push, pull changes.\nShow a merge conflict (make a change in the web frontend and locally) and how to resolve it.\n\nWe start the OSC git tutorial together to weed out technical hurdles. The rest of tutorial is homework."
+    "text": "Showcase how git works\n\nLecturer creates a private project on Github for this course. This will be the central project for submitting homework.\nStudents create their Github accounts; add them as contributors to the course project.\nShow how to commit, push, pull changes.\nShow a merge conflict (make a change in the web frontend and locally) and how to resolve it.\n\nWe start the OSC git tutorial together to weed out technical hurdles. Aim to get until section “Secure the connection between your computer and GitHub”. The rest of tutorial is homework until next week.\n\nNote: In chapter “Secure the connection …” it says “You will then be asked to provide a passphrase. Protecting your keys with a password is optional but highly recommended”. I recommend not to set a passphrase (just leave it empty), unless you deal with very sensitive data. You will get crazy if you need to enter your passphrase at every SSH operation."
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#never-forget",
     "href": "lectures/it-tools/it-tools.html#never-forget",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "",
     "text": "Found on https://mstdn.games/@64bithero/111251230901866156"
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#citation-file-format-schema-version-1.2.0",
     "href": "lectures/it-tools/it-tools.html#citation-file-format-schema-version-1.2.0",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Citation File Format schema version 1.2.0",
     "text": "Citation File Format schema version 1.2.0\nTell other users how your theory should be cited, what the current version is, and more meta-data. This can be stored in a file called CITATION.cff in the top level folder of your repository:\ncff-version: 1.2.0\ntitle: 'AST: Action selection theory'\nmessage: &gt;-\n  If you refer to this theory, please cite it using the\n  metadata from this file. This theory has not been peer reviewed yet.\ntype: report\nauthors:\n  - given-names: Felix\n    family-names: Schönbrodt\n    email: felix.schoenbrodt@psy.lmu.de\n    orcid: 'https://orcid.org/0000-0002-8282-3910'\n    affiliation: Ludwig-Maximilians-Universität München\nrepository-code: 'https://github.com/nicebread/AST'\nabstract: &gt;-\n  A theoretical model that explains how a donkey solves the\n  approach-approach conflict of hunger and thirst when the\n  two sources are separated.\nkeywords:\n  - approach-approach conflict\n  - action selection\n  - motivation\nlicense: CC-BY-4.0\nversion: 0.2.5\ndate-released: '2023-10-30'"
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#citation-file-format-schema-version-1.2.0-1",
     "href": "lectures/it-tools/it-tools.html#citation-file-format-schema-version-1.2.0-1",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Citation File Format schema version 1.2.0",
     "text": "Citation File Format schema version 1.2.0\n\nHow to create\nCreate an initial version of your CITATION.cff file with the cffinit tool"
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#citation-file-format-schema-version-1.2.0-2",
     "href": "lectures/it-tools/it-tools.html#citation-file-format-schema-version-1.2.0-2",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Citation File Format schema version 1.2.0",
     "text": "Citation File Format schema version 1.2.0\n\nHow to create\nThe tool currently only knows “software” and “data set” as types. Create it with type software and update the message field:\nmessage: &gt;-\n  If you refer to this theory, please cite it using the metadata from this file.\ntype: software \nSave the CITATION.cff file in the top level folder of your repository."
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#effect-of-a-citation.cff-file",
     "href": "lectures/it-tools/it-tools.html#effect-of-a-citation.cff-file",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Effect of a CITATION.cff file",
     "text": "Effect of a CITATION.cff file\nBoth Github and Zenodo (and probably more repositories) parse an existing CITATION.cff and display the citation information:"
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#citation-file-format-schema-version-1.2.0-3",
     "href": "lectures/it-tools/it-tools.html#citation-file-format-schema-version-1.2.0-3",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Citation File Format schema version 1.2.0",
     "text": "Citation File Format schema version 1.2.0\n\nPeer review status\n\nFor users of your theory, it is helpful if the peer review status is made explicit.\nThis can be done in the message field, e.g.:\n\n“This theory has not been peer-reviewed yet.”\nIf the current version is, say, 2.1.0: “The last peer-reviewed version was 1.0.4”\n“An open peer review of version 1.0.2 is published at doi …”\n\nIn future versions of the cff schema, one could also use the isReviewedBy annotation of an identifier."
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#semantic-versioning-semver",
     "href": "lectures/it-tools/it-tools.html#semantic-versioning-semver",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Semantic Versioning (semver)",
     "text": "Semantic Versioning (semver)\nVersion numbers have three numbers: MAJOR.MINOR.PATCH.\nIncrement the:\n\nMAJOR version when you make changes that break backward compability\nMINOR version when you add functionality in a backward compatible manner\nPATCH version when you make backward compatible bug fixes\n\nThe numbers are plain integers! For example, after 9 comes 10:\n0.9.0 → 0.10.0 → 0.11.0 → 1.0.0 → 1.1.0\n\nSee https://semver.org"
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#some-rules-conventions",
     "href": "lectures/it-tools/it-tools.html#some-rules-conventions",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Some rules & conventions:",
     "text": "Some rules & conventions:\n\nThe first development version starts with 0.1.0\nThe first stable public release is 1.0.0\nOnce a versioned package has been released, the contents of that version must not be modified. Any modifications must be released as a new version.\nMajor version X (X.y.z) must be incremented if any backward incompatible changes are introduced. Patch and minor versions must be reset to 0 when the major version is incremented."
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#example",
     "href": "lectures/it-tools/it-tools.html#example",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Example",
     "text": "Example\n\n\nFirst commit to repository: 0.1.0\nOh, I found and corrected a typo: 0.1.1\nImplemented a minor new feature (that does not break the functionality of the existing features): 0.2.0\n\nAlways reset the patch number to zero when increasing the minor or major number\n\nBy and by, more features get implemented: 0.3.0 → 0.4.0 → ... → 0.12.6\nNow we are ready to tag our first public release! 0.12.6 → 1.0.0\n…\nAfter years of work and minor version updates (e.g., 1.4.0), we made a huge change that makes the product incompatible to version 1: 2.0.0"
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#patch-minor-major-changes",
     "href": "lectures/it-tools/it-tools.html#patch-minor-major-changes",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Patch, Minor, Major changes",
     "text": "Patch, Minor, Major changes\nSo what changes warrant what kind of version increments? For theories it makes sense to think in terms of predictions.\n\n\npatch\n\nThe predictions your theory makes do not change, instead you have clarified things, defined terminology, fixed typos, added references etc.\n\nminor\n\nThe predictions your theory makes have expanded but previous predictions are substantively compatible, i.e. the theory makes the same prediction as older versions for the same settings. All things that would have confirmed or falsified the older version, still apply to the new version. For example, you have included more settings your theory covers; added more previously unrecognized variables; became more certain about some predictions (i.e. range predictions became narrower); added more operationalizations for constructs.\n\nmajor\n\nEvidence that would have confirmed or falsified the previous version does differently affect this version. You changed core tenets of the definition of constructs or their operationalization, changed the functional relationship between two variables, changed the type of a relation (causation to correlation) or the timescale of a process, etc."
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#git-best-practice",
     "href": "lectures/it-tools/it-tools.html#git-best-practice",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Git best practice",
     "text": "Git best practice\n\nThe version number is recorded in two places:\n\nIn the CITATION.cff file\nIn the names of all tags or releases\n\nIs every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a dev developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the CITATION.cff file\nRecord the substantive changes in your CHANGELOG.md\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also “How to create a release?”)"
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#what-is-a-release-on-github",
     "href": "lectures/it-tools/it-tools.html#what-is-a-release-on-github",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "What is a “release” on Github?",
     "text": "What is a “release” on Github?\nCreate a tag or a release whenever a major or minor version is released:\n\nWith tags and releases, you can “pin” and label important commits in your history.\nUsers can quickly go to a specific “frozen” version of your repository.\nThese releases can be expected to be stable/functional versions of your software or theory (but see also semantic versioning: Everything with a 0.x.x version probably is not properly tested yet).\nIn our context, there is no real difference between tags and releases, you can use either."
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#git-best-practice-1",
     "href": "lectures/it-tools/it-tools.html#git-best-practice-1",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Git best practice",
     "text": "Git best practice\n\n\n\n\n\n(of course more complicated setups with multiple branches, e.g. feature branches, are possible)."
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#how-to-create-a-release",
     "href": "lectures/it-tools/it-tools.html#how-to-create-a-release",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "How to create a release?",
     "text": "How to create a release?\n\nUse GitHub’s inbuild release mechanism\nRemember to set the tag to the correct version number\nCopy the content of your CHANGELOG.md into the release notes.\nOptional: create a DOI for your release, and archive it with Zenodo\nOptional: update your CITATION.cff file to include the new DOI\n\nThis is a hen/egg problem: The doi will not be in the release itself, as it is assigned only after the release."
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#contact",
     "href": "lectures/it-tools/it-tools.html#contact",
-    "title": "Metadata for Digital Theory Objects",
+    "title": "Tools for Digital Theory Objects",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
@@ -550,21 +564,21 @@
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#an-example-for-the-jingle-problem",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "An Example for the Jingle Problem",
-    "text": "An Example for the Jingle Problem\nAutonomy\n\n” … at least three views of autonomy appear to be present in the current autonomy literature [and] autonomy measures are not assessing the same construct” (Hmel & Pincus, 2002)\n\n\n\nAutonomy\\(_1\\): A cognitive vulnerability associated with depression\n\n“… lacks the essential agentic core that would be necessary for an autonomy construct. […] it is inconsistent with conceptualizations of autonomy and in need of a label more consistent with its nature”\n\nAutonomy\\(_2\\): Self (auto) – governance (nomous)\nAutonomy\\(_3\\): Emphasis on interpersonal separation\n\n\nAll three are labeled “autonomy” in the literature!\n\nHmel & Pincus (2002)"
+    "text": "An Example for the Jingle Problem\nAutonomy\n\n” … at least three views of autonomy appear to be present in the current autonomy literature [and] autonomy measures are not assessing the same construct” (Hmel & Pincus, 2002)\n\n\nAutonomy\\(_1\\): A cognitive vulnerability associated with depression\n\n“… lacks the essential agentic core that would be necessary for an autonomy construct. […] it is inconsistent with conceptualizations of autonomy and in need of a label more consistent with its nature”\n\nAutonomy\\(_2\\): Self (auto) – governance (nomous)\nAutonomy\\(_3\\): Emphasis on interpersonal separation\n\nAll three are labeled “autonomy” in the literature!\n\nHmel & Pincus (2002)"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#an-example-for-the-jangle-problem",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#an-example-for-the-jangle-problem",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "An Example for the Jangle Problem",
-    "text": "An Example for the Jangle Problem\nGrit = ???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n“Grit is not only an excellent predictor of success and performance but also the secret to success” - Duckworth et al. (2007)\n\n\n\n\nAngela Duckworth’s speaking fee range is $100,000 or more"
+    "text": "An Example for the Jangle Problem\nGrit = ???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n“We define grit as perseverance and passion for long-term goals.” (Duckworth & Peterson, 2007)\n\n\n\n“Grit is not only an excellent predictor of success and performance but also the secret to success” - Duckworth et al. (2007)\n\n\n\n\nAngela Duckworth’s speaking fee range is $100,000 or more"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#an-example-for-the-jangle-problem-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#an-example-for-the-jangle-problem-1",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "An Example for the Jangle Problem",
-    "text": "An Example for the Jangle Problem\nGrit = Conscientiousness (Big 5 dimension)\n\n\n“the best available evidence strongly suggests that grit is largely a repackaging of conscientiousness — a widely studied personality trait” (Credé, 2018)\n“Given the long history of research on conscientiousness and the better measures of it (compared to scales frequently used to measure grit) we believe that it would be better to …\n\nstop measuring grit with the Grit-S questionnaire\nstop examining grit and rather continue to explore conscientiousness.” (paraphrased from Ponnock et al., 2020)\n\n\n\n\nCredé (2018); Ponnock et al. (2020);"
+    "text": "An Example for the Jangle Problem\nGrit = Conscientiousness (Big 5 dimension)\n\n“the best available evidence strongly suggests that grit is largely a repackaging of conscientiousness — a widely studied personality trait” (Credé, 2018)\n“Given the long history of research on conscientiousness and the better measures of it (compared to scales frequently used to measure grit) we believe that it would be better to …\n\nstop measuring grit with the Grit-S questionnaire\nstop examining grit and rather continue to explore conscientiousness.” (paraphrased from Ponnock et al., 2020)\n\n\n\nCredé (2018); Ponnock et al. (2020);"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-jingle-jangle-problem-1",
@@ -613,21 +627,21 @@
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-relation-of-data-and-phenomena-3",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "The relation of data and phenomena",
-    "text": "The relation of data and phenomena\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\nProbably most of psychological research is about establishing phenomena (disguised as “theories”).\nTechniques used to detect data patterns:\n\nFactor analysis\nPrincipal components analysis\nRegression\nANOVA\n…\n\n\nSee presentation of Denny Borsboom"
+    "text": "The relation of data and phenomena\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\nProbably most of psychological research is about establishing phenomena (disguised as “theories”).\nTechniques used to detect data patterns:\n\nFactor analysis\nPrincipal components analysis\nRegression\nANOVA\n…\n\n\nSee presentation of Denny Borsboom"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-relation-of-data-and-phenomena-4",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-relation-of-data-and-phenomena-4",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "The relation of data and phenomena",
-    "text": "The relation of data and phenomena\nPrediction\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 0 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\nPhenomena (once their existence has been established) predict similar data patterns in new data sets of the same operationalization (as in “direct replication”) and ideally also for new operationalizations (as in “conceptual replication”, changing more UTOS dimensions)."
+    "text": "The relation of data and phenomena\nPrediction\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 0 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\nPhenomena (once their existence has been established) predict similar data patterns in new data sets of the same operationalization (as in “direct replication”) and ideally also for new operationalizations (as in “conceptual replication”, changing more UTOS dimensions)."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#interlude-the-risky-shift-phenomenon-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#interlude-the-risky-shift-phenomenon-1",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "Interlude: The risky shift phenomenon 1",
-    "text": "Interlude: The risky shift phenomenon 1\n\nThe risky shift phenomenon: A group’s decisions are riskier than the average of the individual decisions of members before the group met (i.e., the group discussion made individuals riskier).\n\n\nArea of very active research in social psychology in the 1960s.\n“It could be easily replicated. Most of the replication studies […] employed the CDQ [Choice Dilemma Questionnaire] as their stimulus set, and they generally had no trouble obtaining the basic risky shift result.”\nToday we know that there is no risky shift. “It is now clear that the items contained in the original CDQ are in no sense a representative sample of the universe of all possible items. Instruments similar to the CDQ could readily be constructed whose scores would display risky shifts, cautious ones, or none at all” (Cartwright, 1971, p. 368).\nIn the early risky shift literature, theoretical progress was unnecessarily impeded by multiple generations of replication studies (k ⋍ 200), nearly all relying on the same CQD questionnaire.\n\n\n\n\nSee Westfall et al. (2015). Replicating Studies in Which Samples of Participants Respond to Samples of Stimuli. Perspectives on Psychological Science, 10(3), 390–399. https://doi.org/10.1177/1745691614564879"
+    "text": "Interlude: The risky shift phenomenon 1\n\nThe risky shift phenomenon: A group’s decisions are riskier than the average of the individual decisions of members before the group met (i.e., the group discussion made individuals riskier).\n\nArea of very active research in social psychology in the 1960s.\n“It could be easily replicated. Most of the replication studies […] employed the CDQ [Choice Dilemma Questionnaire] as their stimulus set, and they generally had no trouble obtaining the basic risky shift result.”\nToday we know that there is no risky shift. “It is now clear that the items contained in the original CDQ are in no sense a representative sample of the universe of all possible items. Instruments similar to the CDQ could readily be constructed whose scores would display risky shifts, cautious ones, or none at all” (Cartwright, 1971, p. 368).\nIn the early risky shift literature, theoretical progress was unnecessarily impeded by multiple generations of replication studies (k ⋍ 200), nearly all relying on the same CQD questionnaire.\n\n\n\nSee Westfall et al. (2015). Replicating Studies in Which Samples of Participants Respond to Samples of Stimuli. Perspectives on Psychological Science, 10(3), 390–399. https://doi.org/10.1177/1745691614564879"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#interlude-the-risky-shift-phenomenon-2",
@@ -641,14 +655,14 @@
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#replication-crisis",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "Replication crisis",
-    "text": "Replication crisis\nFocus on phenomena\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nThe concerns of the replication crisis typically referred to the relation between data and phenomena:\n\nDoes an empirical pattern even exist? (Or is it a false positive?)\nIf we found a reproducible pattern with a specific operationalization: Is it generalizable (to other measures, other cultural contexts, other samples)?\nDo we even have a phenomenon in a particular research line? And how strongly should we belief in the existence of a phenomenon, given the empirical evidence?"
+    "text": "Replication crisis\nFocus on phenomena\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nThe concerns of the replication crisis typically referred to the relation between data and phenomena:\n\nDoes an empirical pattern even exist? (Or is it a false positive?)\nIf we found a reproducible pattern with a specific operationalization: Is it generalizable (to other measures, other cultural contexts, other samples)?\nDo we even have a phenomenon in a particular research line? And how strongly should we belief in the existence of a phenomenon, given the empirical evidence?"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#replication-crisis-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#replication-crisis-1",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "Replication crisis",
-    "text": "Replication crisis\nFocus on phenomena\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(?? Phenomena ??)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"??\" --&gt; D\n  D -. \"?? Generalization ??\" .-&gt; P\n  \n  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;\n  linkStyle 3 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\nDoubts about phenomena propagate to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete."
+    "text": "Replication crisis\nFocus on phenomena\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(?? Phenomena ??)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"??\" --&gt; D\n  D -. \"?? Generalization ??\" .-&gt; P\n  \n  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;\n  linkStyle 3 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\nDoubts about phenomena propagate to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#reimagining-psychology-as-a-science",
@@ -662,14 +676,14 @@
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#addressing-the-theory-crisis-in-psychology",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "“Addressing the theory crisis in psychology”",
-    "text": "“Addressing the theory crisis in psychology”\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\n\n“We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests. […] A strong link between theories and hypotheses is best achieved by formalizing theories as computational models.”\n“Many of these proposals [i.e., method reforms] are helpful ideas for raising the standards of good research practice, primarily ensuring more trustworthy inferences on the empirical level of scientific inference — the level connecting observations to empirical generalizations. Our concern is that shoring up the strength of inferences on the empirical level does not by itself address deficits on the theory level — the level connecting empirical generalizations to theories.”\n\nOberauer & Lewandowsky (2019)\n\n\n\n\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2"
+    "text": "“Addressing the theory crisis in psychology”\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\n\n\n“We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests. […] A strong link between theories and hypotheses is best achieved by formalizing theories as computational models.”\n“Many of these proposals [i.e., method reforms] are helpful ideas for raising the standards of good research practice, primarily ensuring more trustworthy inferences on the empirical level of scientific inference — the level connecting observations to empirical generalizations. Our concern is that shoring up the strength of inferences on the empirical level does not by itself address deficits on the theory level — the level connecting empirical generalizations to theories.”\n\nOberauer & Lewandowsky (2019)\n\n\n\n\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#summary-challenges-to-building-useful-theories-in-psychology",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#summary-challenges-to-building-useful-theories-in-psychology",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "Summary: Challenges to building useful theories in psychology",
-    "text": "Summary: Challenges to building useful theories in psychology\n\n\nProblems of theoretical precision of psychological constructs (jingle-jangle)\nRelative lack of robust phenomena that impose constraints on possible theories\nThese two lead to problems of validity of psychological constructs (i.e., do they actually related to the real world?)\nObstacles to discovering causal relationships between psychological variables\nProbably the most complex research object in the known universe …\n… and ridiculously small samples.\n\n\n\nSee Eronen & Bringmann (2021); Slide adapted from Karolin Salmen, CC-BY"
+    "text": "Summary: Challenges to building useful theories in psychology\n\nProblems of theoretical precision of psychological constructs (jingle-jangle)\nRelative lack of robust phenomena that impose constraints on possible theories\nThese two lead to problems of validity of psychological constructs (i.e., do they actually related to the real world?)\nObstacles to discovering causal relationships between psychological variables\nThe probably most complex research object in the known universe is investigated with…\n\n… ridiculously small samples and\n… imprecise methods.\n\n\n\nSee Eronen & Bringmann (2021); Slide adapted from Karolin Salmen, CC-BY"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#outlook-how-we-will-try-to-make-it-better",
@@ -753,7 +767,7 @@
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "",
-    "text": "“Almost a century ago, it was remarked by a Professor Aikins that the science of psychology frequently manifests what he called ‘the jingle fallacy,’ a circumstance wherein two things that are quite different may be labeled equivalently, and thus the unwary may consider them interchangeable” (Block, 1995, p. 209)\n\n\n\nThe jangle fallacy: “two separate words or expressions covering in fact the same basic situation, but sounding different, as though they were in truth different” (Kelley, 1927, p. 64)\n\n\n\nThorndike (1904); Kelley (1927); Block (1995)\n\n\n\n\n\n\n\n” … at least three views of autonomy appear to be present in the current autonomy literature [and] autonomy measures are not assessing the same construct” (Hmel & Pincus, 2002)\n\n\n\nAutonomy\\(_1\\): A cognitive vulnerability associated with depression\n\n“… lacks the essential agentic core that would be necessary for an autonomy construct. […] it is inconsistent with conceptualizations of autonomy and in need of a label more consistent with its nature”\n\nAutonomy\\(_2\\): Self (auto) – governance (nomous)\nAutonomy\\(_3\\): Emphasis on interpersonal separation\n\n\nAll three are labeled “autonomy” in the literature!\n\nHmel & Pincus (2002)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n“Grit is not only an excellent predictor of success and performance but also the secret to success” - Duckworth et al. (2007)\n\n\n\n\nAngela Duckworth’s speaking fee range is $100,000 or more\n\n\n\n\n\n\n\n\n\n\n“the best available evidence strongly suggests that grit is largely a repackaging of conscientiousness — a widely studied personality trait” (Credé, 2018)\n“Given the long history of research on conscientiousness and the better measures of it (compared to scales frequently used to measure grit) we believe that it would be better to …\n\nstop measuring grit with the Grit-S questionnaire\nstop examining grit and rather continue to explore conscientiousness.” (paraphrased from Ponnock et al., 2020)\n\n\n\n\nCredé (2018); Ponnock et al. (2020);\n\n\n\n\n\nThese jingle and jangle fallacies waste scientific time:\n\nJingle creates confusion and unncessary dispute (“No, the true meaning of autonomy is …”).\nJangle involves useless redundancies, that lead to the …\n\nreinvention of constructs under new labels\ndecades of parallel literatures\n(To what extent) are two theories actually the same theory?\n\n→ both slow down cumulative knowledge.\n\n\nparaphrased from Block (1995)\n\n\n\n\nCollect candidates for the jingle and the jangle fallacy that you encountered during your studies.\n\n\n\n\n\n\nReminder\n\n\n\n\nJingle = the same term for two (or more) distinct phenomena\nJangle = different terms for the same underlying phenomenon"
+    "text": "“Almost a century ago, it was remarked by a Professor Aikins that the science of psychology frequently manifests what he called ‘the jingle fallacy,’ a circumstance wherein two things that are quite different may be labeled equivalently, and thus the unwary may consider them interchangeable” (Block, 1995, p. 209)\n\n\n\nThe jangle fallacy: “two separate words or expressions covering in fact the same basic situation, but sounding different, as though they were in truth different” (Kelley, 1927, p. 64)\n\n\n\nThorndike (1904); Kelley (1927); Block (1995)\n\n\n\n\n\n\n\n” … at least three views of autonomy appear to be present in the current autonomy literature [and] autonomy measures are not assessing the same construct” (Hmel & Pincus, 2002)\n\n\n\nAutonomy\\(_1\\): A cognitive vulnerability associated with depression\n\n“… lacks the essential agentic core that would be necessary for an autonomy construct. […] it is inconsistent with conceptualizations of autonomy and in need of a label more consistent with its nature”\n\nAutonomy\\(_2\\): Self (auto) – governance (nomous)\nAutonomy\\(_3\\): Emphasis on interpersonal separation\n\n\nAll three are labeled “autonomy” in the literature!\n\nHmel & Pincus (2002)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n“We define grit as perseverance and passion for long-term goals.” (Duckworth & Peterson, 2007)\n\n\n\n“Grit is not only an excellent predictor of success and performance but also the secret to success” - Duckworth et al. (2007)\n\n\n\n\nAngela Duckworth’s speaking fee range is $100,000 or more\n\n\n\n\n\n\n\n\n\n\n“the best available evidence strongly suggests that grit is largely a repackaging of conscientiousness — a widely studied personality trait” (Credé, 2018)\n“Given the long history of research on conscientiousness and the better measures of it (compared to scales frequently used to measure grit) we believe that it would be better to …\n\nstop measuring grit with the Grit-S questionnaire\nstop examining grit and rather continue to explore conscientiousness.” (paraphrased from Ponnock et al., 2020)\n\n\n\n\nCredé (2018); Ponnock et al. (2020);\n\n\n\n\n\nThese jingle and jangle fallacies waste scientific time:\n\nJingle creates confusion and unncessary dispute (“No, the true meaning of autonomy is …”).\nJangle involves useless redundancies, that lead to the …\n\nreinvention of constructs under new labels\ndecades of parallel literatures\n(To what extent) are two theories actually the same theory?\n\n→ both slow down cumulative knowledge.\n\n\nparaphrased from Block (1995)\n\n\n\n\nCollect candidates for the jingle and the jangle fallacy that you encountered during your studies.\n\n\n\n\n\n\nReminder\n\n\n\n\nJingle = the same term for two (or more) distinct phenomena\nJangle = different terms for the same underlying phenomenon"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-jingle-jangle-problem",
@@ -774,7 +788,7 @@
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#an-example-for-the-jangle-problem",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "",
-    "text": "“Grit is not only an excellent predictor of success and performance but also the secret to success” - Duckworth et al. (2007)\n\n\n\n\nAngela Duckworth’s speaking fee range is $100,000 or more"
+    "text": "“We define grit as perseverance and passion for long-term goals.” (Duckworth & Peterson, 2007)\n\n\n\n“Grit is not only an excellent predictor of success and performance but also the secret to success” - Duckworth et al. (2007)\n\n\n\n\nAngela Duckworth’s speaking fee range is $100,000 or more"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#an-example-for-the-jangle-problem-1",
@@ -830,14 +844,14 @@
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-relation-of-data-and-phenomena-3",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "The relation of data and phenomena",
-    "text": "The relation of data and phenomena\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\nProbably most of psychological research is about establishing phenomena (disguised as “theories”).\nTechniques used to detect data patterns:\n\nFactor analysis\nPrincipal components analysis\nRegression\nANOVA\n…\n\n\nSee presentation of Denny Borsboom"
+    "text": "The relation of data and phenomena\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\nProbably most of psychological research is about establishing phenomena (disguised as “theories”).\nTechniques used to detect data patterns:\n\nFactor analysis\nPrincipal components analysis\nRegression\nANOVA\n…\n\n\nSee presentation of Denny Borsboom"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-relation-of-data-and-phenomena-4",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-relation-of-data-and-phenomena-4",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "The relation of data and phenomena",
-    "text": "The relation of data and phenomena\n\nPrediction\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 0 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\nPhenomena (once their existence has been established) predict similar data patterns in new data sets of the same operationalization (as in “direct replication”) and ideally also for new operationalizations (as in “conceptual replication”, changing more UTOS dimensions)."
+    "text": "The relation of data and phenomena\n\nPrediction\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 0 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\nPhenomena (once their existence has been established) predict similar data patterns in new data sets of the same operationalization (as in “direct replication”) and ideally also for new operationalizations (as in “conceptual replication”, changing more UTOS dimensions)."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#interlude-the-risky-shift-phenomenon-1",
@@ -858,14 +872,14 @@
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#replication-crisis",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "Replication crisis",
-    "text": "Replication crisis\n\nFocus on phenomena\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\nThe concerns of the replication crisis typically referred to the relation between data and phenomena:\n\nDoes an empirical pattern even exist? (Or is it a false positive?)\nIf we found a reproducible pattern with a specific operationalization: Is it generalizable (to other measures, other cultural contexts, other samples)?\nDo we even have a phenomenon in a particular research line? And how strongly should we belief in the existence of a phenomenon, given the empirical evidence?"
+    "text": "Replication crisis\n\nFocus on phenomena\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nThe concerns of the replication crisis typically referred to the relation between data and phenomena:\n\nDoes an empirical pattern even exist? (Or is it a false positive?)\nIf we found a reproducible pattern with a specific operationalization: Is it generalizable (to other measures, other cultural contexts, other samples)?\nDo we even have a phenomenon in a particular research line? And how strongly should we belief in the existence of a phenomenon, given the empirical evidence?"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#replication-crisis-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#replication-crisis-1",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "Replication crisis",
-    "text": "Replication crisis\n\nFocus on phenomena\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(?? Phenomena ??)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"??\" --&gt; D\n  D -. \"?? Generalization ??\" .-&gt; P\n  \n  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;\n  linkStyle 3 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\nDoubts about phenomena propagate to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete."
+    "text": "Replication crisis\n\nFocus on phenomena\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(?? Phenomena ??)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"??\" --&gt; D\n  D -. \"?? Generalization ??\" .-&gt; P\n  \n  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;\n  linkStyle 3 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\nDoubts about phenomena propagate to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#reimagining-psychology-as-a-science",
@@ -879,14 +893,14 @@
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#addressing-the-theory-crisis-in-psychology",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "“Addressing the theory crisis in psychology”",
-    "text": "“Addressing the theory crisis in psychology”\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\n\n“We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests. […] A strong link between theories and hypotheses is best achieved by formalizing theories as computational models.”\n“Many of these proposals [i.e., method reforms] are helpful ideas for raising the standards of good research practice, primarily ensuring more trustworthy inferences on the empirical level of scientific inference — the level connecting observations to empirical generalizations. Our concern is that shoring up the strength of inferences on the empirical level does not by itself address deficits on the theory level — the level connecting empirical generalizations to theories.”\n\nOberauer & Lewandowsky (2019)\n\n\n\n\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2"
+    "text": "“Addressing the theory crisis in psychology”\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\n\n\n“We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests. […] A strong link between theories and hypotheses is best achieved by formalizing theories as computational models.”\n“Many of these proposals [i.e., method reforms] are helpful ideas for raising the standards of good research practice, primarily ensuring more trustworthy inferences on the empirical level of scientific inference — the level connecting observations to empirical generalizations. Our concern is that shoring up the strength of inferences on the empirical level does not by itself address deficits on the theory level — the level connecting empirical generalizations to theories.”\n\nOberauer & Lewandowsky (2019)\n\n\n\n\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#summary-challenges-to-building-useful-theories-in-psychology",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#summary-challenges-to-building-useful-theories-in-psychology",
     "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
     "section": "Summary: Challenges to building useful theories in psychology",
-    "text": "Summary: Challenges to building useful theories in psychology\n\n\nProblems of theoretical precision of psychological constructs (jingle-jangle)\nRelative lack of robust phenomena that impose constraints on possible theories\nThese two lead to problems of validity of psychological constructs (i.e., do they actually related to the real world?)\nObstacles to discovering causal relationships between psychological variables\nProbably the most complex research object in the known universe …\n… and ridiculously small samples.\n\n\n\nSee Eronen & Bringmann (2021); Slide adapted from Karolin Salmen, CC-BY"
+    "text": "Summary: Challenges to building useful theories in psychology\n\n\nProblems of theoretical precision of psychological constructs (jingle-jangle)\nRelative lack of robust phenomena that impose constraints on possible theories\nThese two lead to problems of validity of psychological constructs (i.e., do they actually related to the real world?)\nObstacles to discovering causal relationships between psychological variables\nThe probably most complex research object in the known universe is investigated with…\n\n… ridiculously small samples and\n… imprecise methods.\n\n\n\n\nSee Eronen & Bringmann (2021); Slide adapted from Karolin Salmen, CC-BY"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#outlook-how-we-will-try-to-make-it-better",
@@ -968,189 +982,189 @@
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#goals",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#goals",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Goals",
-    "text": "Goals\n\n\nLearn skills and tools that aid theory development\n\nTechnical: Git, semantic versioning, Netlogo, …\nConceptual:\n\nVisual Argument Structure Tool (VAST)\nTheory Construction Methodology (TCM)\n\n\nPractice theory formalization with multiple examples\nUnderstand the advantages and barriers of formal modeling\n\nHigh likelihood of “failure”!\n\n“Hacker space” for theory building: We all are learners."
+    "text": "Goals\n\nLearn skills and tools that aid theory development\n\nTechnical: Git, semantic versioning, make a theory pbject citeable…\nConceptual:\n\nVisual Argument Structure Tool (VAST)\nTheory Construction Methodology (TCM)\nFAIR theories\n\n\nPractice theory formalization with multiple examples\nUnderstand the advantages and barriers of formal modeling\n\nHigh likelihood of “failure”!\n\n“Hacker space” for theory building: We all are learners."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#content",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#content",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Content",
     "text": "Content\nThree types of activities:\n\nLectures: Gain knowledge\nSkills: Learn new tools\nWorkshop: Apply tools and knowledge to a research question\n\nAll slides, homework instructions, etc. are on this website: https://nicebread.github.io/FOMO-Psy/\nAll homework will be submitted to a private Git repo."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#formalia-expectations",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#formalia-expectations",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Formalia & Expectations",
     "text": "Formalia & Expectations\n\n\n9 ECTS credit points\n\n≙ 3 lectures with exam\n≙ 12h expected time investment per week (in person course + homework)\n\nDo your weekly homework\nParticipate actively in the course\nWrite your final report"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
     "text": "Hausarbeit\nAufbau\n\nDa wir keine klassisch empirische Arbeit schreiben, sondern eine Theorie formalisieren, sieht der Aufbau der Hausarbeit etwas anders aus; z.B. so:\n\n\nZielsetzung benennen: Eine bestehende psychologische Theorie zu formalisieren\nKurze Vorstellung der gewählten Theorie\nZentrale Konstrukte der Theorie (Text: Konstrukte auflisten; VAST: Konstrukte definieren)\nIdentifizierung relevanter Phänomene\nFormulierung der (Proto-)Theorie und der Phänomene\nAufstellen eines formalen Modells\nEvaluation des formalen Modells\nDiskussion: Meta-Reflexion\n\n\nMehr Details im Laufe des Seminars. Wir arbeiten bereits im Seminar auf ihre konkrete Hausarbeit hin."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
     "text": "Hausarbeit\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nWenn Sie in papaja/Rmarkdown/apaquarto schreiben:\n\ndas exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nSchreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\n\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-2",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-2",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
     "text": "Hausarbeit\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\nZwei Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2024.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2024.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: yes angeben (siehe Anleitung)\nSie können in apaquarto einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: true angeben (siehe Anleitung)"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-3",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-3",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
-    "text": "Hausarbeit\nBenotung\n\nWer anwesend ist, aktiv mitmacht und eine sinnvolle Hausarbeit abgibt bekommt eine (sehr) gute Note\nEs geht um:\n\ndas Engagement\ndie Auseinandersetzung mit den Tools und der Materie der Theoriebildung\neine kritische Reflexion des Prozesses\n\nWenn die Theorie, die man sich vorgenommen hat, einfach keine Formalisierung hergibt, dann ist das ein Problem der Theorie (und keine Fehlleistung des Studentys). In dem Fall …\n\nreflektieren, warum es nicht funktioniert hat\nwas wäre notwendig gewesen, um weiterzukommen\ndie gemachten Schritte und Hürden dokumentieren"
+    "text": "Hausarbeit\nBenotung\n\nWer anwesend ist, aktiv mitmacht und eine sinnvolle Hausarbeit abgibt bekommt eine (sehr) gute Note\nEs geht um:\n\ndas Engagement\ndie Auseinandersetzung mit den Tools und der Materie der Theoriebildung\neine kritische Reflexion des Prozesses\n\nWenn die Theorie, die man sich vorgenommen hat, einfach keine Formalisierung hergibt, dann ist das ein Problem der Theorie (und keine Fehlleistung auf Seite der Studierenden). In dem Fall …\n\nreflektieren, warum es nicht funktioniert hat\nwas wäre notwendig gewesen, um weiterzukommen\ndie gemachten Schritte und Hürden dokumentieren"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-4",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-4",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
     "text": "Hausarbeit\nBewertungsschema (aktueller Entwurf)"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-5",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-5",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
     "text": "Hausarbeit\nNutzung von KI-Tools (ChatGPT etc.)\n\nKI-Tools sind Realität und können in der wissenschaftlichen Arbeit unterstützend eingesetzt werden. Niels Van Quaquebeke hat eine schöne Übersicht.\nEs muss jedoch klar sein, was die Eigenleistung des/der Studierenden ist, und dass die Verantwortung für den Inhalt der Arbeit beim Autor bzw. der Autorin liegt.\nAm Ende der Hausarbeit müssen Sie entsprechend zwei Erklärungen anhängen:\n\neine Eigenständigkeitserklärung (siehe nächste Folie)\neine ergänzende Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess (siehe übernächste Folie)."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-6",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-6",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
     "text": "Hausarbeit\nEigenständigkeitserklärung\n\nHiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig und ohne fremde Hilfe verfasst habe. Ich habe keine anderen als die angegebenen Quellen und Hilfsmittel benutzt und alle wörtlich oder sinngemäß übernommenen Stellen als solche kenntlich gemacht.\nOrt, Datum, Unterschrift"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Nutzung von KI-Tools: Selbsterklärung (deutsch)",
     "text": "Nutzung von KI-Tools: Selbsterklärung (deutsch)\n\n\nErklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess\nBei der Erstellung dieser Arbeit habe ich folgende/s Tool/s verwendet: [NAME TOOL / DIENST]. Art der Nutzung [bitte ankreuzen]:\n\nVerbesserung der sprachlichen Qualität und Lesbarkeit\nSchreibassistent z.B. zum Erstellen von Inhaltsverzeichnissen, Gliederungen, ersten Sätzen und Absätzen\nAuffinden von relevanten Zitaten, die als solche gekennzeichnet sind\nAuffinden von relevanten wissenschaftlichen Quellen, die als solche gekennzeichnet sind\nÜbersetzung von Zitaten oder Textabschnitten, die als solche gekennzeichnet sind (etwa: „Translated with DeepL“)\nZusammenfassung von Information\nTexttranskription von Audio- oder Videodateien\nErstellen von Bild- oder Videomaterial\nErstellen bzw. verbessern von Programmiercode (bspw. R- oder Python-Code)\nRecherche zu Begriffen\nErstellen von Begriffsdefinitionen\nSonstiges [bitte erläutern]:\n\nNach der Nutzung dieses Tools bzw. Dienstes habe ich den Inhalt überprüft, nach Bedarf bearbeitet und ich übernehme die volle Verantwortung für den Inhalt dieser Arbeit. Ich bestätige, dass diese Arbeit keine längeren Passagen (z.B. Zusammenfassung/Abstract der Arbeit, ganze Absätze im Text) an rein KI-generiertem Text enthält."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Statement on the use of generative AI and AI-assisted technologies in the writing process",
     "text": "Statement on the use of generative AI and AI-assisted technologies in the writing process\n\n\nStatement on the use of generative AI and AI-assisted technologies in the writing process\nIn writing this paper, I have used the following tool/s: [NAME TOOL / SERVICE]. I used it for the following purpose/s:\n\nimproving linguistic quality and readability\nwriting assistance e.g. for generating table of contents, outlines, first sentences and paragraphs\nfinding relevant citations (correctly marked as such)\nfinding relevant scientific sources (correctly marked as such)\ntranslation of citations or text passages (correctly marked as such, e.g. “translated with DeepL”)\nsummarizing information\ntranscribing assistance from audio or video\ngenerating or optimizing programming code (e.g. R- or Python-Code)\nresearching terms\ngenerating term definitions\nother [please specify]:\n\n\n\nAfter using this tool or service, I reviewed and edited the content as needed and I take full responsibility for the content of this paper. I certify that this paper does not contain lengthy passages (e.g. summary/abstract, or full paragraphs) of purely AI-generated text."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#contact",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#contact",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html",
     "href": "lectures/Empra-Orga/Empra-Orga.html",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "",
-    "text": "Learn skills and tools that aid theory development\n\nTechnical: Git, semantic versioning, Netlogo, …\nConceptual:\n\nVisual Argument Structure Tool (VAST)\nTheory Construction Methodology (TCM)\n\n\nPractice theory formalization with multiple examples\nUnderstand the advantages and barriers of formal modeling\n\nHigh likelihood of “failure”!\n\n“Hacker space” for theory building: We all are learners."
+    "text": "Learn skills and tools that aid theory development\n\nTechnical: Git, semantic versioning, make a theory pbject citeable…\nConceptual:\n\nVisual Argument Structure Tool (VAST)\nTheory Construction Methodology (TCM)\nFAIR theories\n\n\nPractice theory formalization with multiple examples\nUnderstand the advantages and barriers of formal modeling\n\nHigh likelihood of “failure”!\n\n“Hacker space” for theory building: We all are learners."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#goals",
     "href": "lectures/Empra-Orga/Empra-Orga.html#goals",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "",
-    "text": "Learn skills and tools that aid theory development\n\nTechnical: Git, semantic versioning, Netlogo, …\nConceptual:\n\nVisual Argument Structure Tool (VAST)\nTheory Construction Methodology (TCM)\n\n\nPractice theory formalization with multiple examples\nUnderstand the advantages and barriers of formal modeling\n\nHigh likelihood of “failure”!\n\n“Hacker space” for theory building: We all are learners."
+    "text": "Learn skills and tools that aid theory development\n\nTechnical: Git, semantic versioning, make a theory pbject citeable…\nConceptual:\n\nVisual Argument Structure Tool (VAST)\nTheory Construction Methodology (TCM)\nFAIR theories\n\n\nPractice theory formalization with multiple examples\nUnderstand the advantages and barriers of formal modeling\n\nHigh likelihood of “failure”!\n\n“Hacker space” for theory building: We all are learners."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#content",
     "href": "lectures/Empra-Orga/Empra-Orga.html#content",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Content",
     "text": "Content\nThree types of activities:\n\nLectures: Gain knowledge\nSkills: Learn new tools\nWorkshop: Apply tools and knowledge to a research question\n\nAll slides, homework instructions, etc. are on this website: https://nicebread.github.io/FOMO-Psy/\nAll homework will be submitted to a private Git repo."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#formalia-expectations",
     "href": "lectures/Empra-Orga/Empra-Orga.html#formalia-expectations",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Formalia & Expectations",
     "text": "Formalia & Expectations\n\n\n9 ECTS credit points\n\n≙ 3 lectures with exam\n≙ 12h expected time investment per week (in person course + homework)\n\nDo your weekly homework\nParticipate actively in the course\nWrite your final report"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit",
     "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
     "text": "Hausarbeit\n\nAufbau\n\nDa wir keine klassisch empirische Arbeit schreiben, sondern eine Theorie formalisieren, sieht der Aufbau der Hausarbeit etwas anders aus; z.B. so:\n\n\nZielsetzung benennen: Eine bestehende psychologische Theorie zu formalisieren\nKurze Vorstellung der gewählten Theorie\nZentrale Konstrukte der Theorie (Text: Konstrukte auflisten; VAST: Konstrukte definieren)\nIdentifizierung relevanter Phänomene\nFormulierung der (Proto-)Theorie und der Phänomene\nAufstellen eines formalen Modells\nEvaluation des formalen Modells\nDiskussion: Meta-Reflexion\n\n\nMehr Details im Laufe des Seminars. Wir arbeiten bereits im Seminar auf ihre konkrete Hausarbeit hin."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-1",
     "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-1",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
     "text": "Hausarbeit\n\nFormalia\n\n\nSchriftgröße 12pt, Zeilenabstand 1.5x\n15.000 Zeichen +/- 20% (Zählung inkl. Leerzeichen; ohne Deckblatt, Referenzen und Anhänge)\nDeckblatt: Titel, Datum, Name, Matrikel-Nr., Name der Veranstaltung\nWenn Sie in papaja/Rmarkdown/apaquarto schreiben:\n\ndas exportierte PDF von der Formatierung her gut so wie es ist (Sie brauchen nicht das Deckblatt, Zeilenabstand etc. anpassen).\nSchreiben Sie Datum, Matrikel-Nr. und Name der Veranstaltung in die Author Notes.\n\nKein Inhaltsverzeichnis\nMindestens 5 Publikationen zitieren\nZitate & Literaturverzeichnis nach APA-Richtlinien (6. oder 7. Version)"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-2",
     "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-2",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
     "text": "Hausarbeit\n\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\nZwei Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2024.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2024.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: yes angeben (siehe Anleitung)\nSie können in apaquarto einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: true angeben (siehe Anleitung)"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-3",
     "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-3",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
-    "text": "Hausarbeit\n\nBenotung\n\nWer anwesend ist, aktiv mitmacht und eine sinnvolle Hausarbeit abgibt bekommt eine (sehr) gute Note\nEs geht um:\n\ndas Engagement\ndie Auseinandersetzung mit den Tools und der Materie der Theoriebildung\neine kritische Reflexion des Prozesses\n\nWenn die Theorie, die man sich vorgenommen hat, einfach keine Formalisierung hergibt, dann ist das ein Problem der Theorie (und keine Fehlleistung des Studentys). In dem Fall …\n\nreflektieren, warum es nicht funktioniert hat\nwas wäre notwendig gewesen, um weiterzukommen\ndie gemachten Schritte und Hürden dokumentieren"
+    "text": "Hausarbeit\n\nBenotung\n\nWer anwesend ist, aktiv mitmacht und eine sinnvolle Hausarbeit abgibt bekommt eine (sehr) gute Note\nEs geht um:\n\ndas Engagement\ndie Auseinandersetzung mit den Tools und der Materie der Theoriebildung\neine kritische Reflexion des Prozesses\n\nWenn die Theorie, die man sich vorgenommen hat, einfach keine Formalisierung hergibt, dann ist das ein Problem der Theorie (und keine Fehlleistung auf Seite der Studierenden). In dem Fall …\n\nreflektieren, warum es nicht funktioniert hat\nwas wäre notwendig gewesen, um weiterzukommen\ndie gemachten Schritte und Hürden dokumentieren"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-4",
     "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-4",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
     "text": "Hausarbeit\n\nBewertungsschema (aktueller Entwurf)"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-5",
     "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-5",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
     "text": "Hausarbeit\n\nNutzung von KI-Tools (ChatGPT etc.)\n\nKI-Tools sind Realität und können in der wissenschaftlichen Arbeit unterstützend eingesetzt werden. Niels Van Quaquebeke hat eine schöne Übersicht.\nEs muss jedoch klar sein, was die Eigenleistung des/der Studierenden ist, und dass die Verantwortung für den Inhalt der Arbeit beim Autor bzw. der Autorin liegt.\nAm Ende der Hausarbeit müssen Sie entsprechend zwei Erklärungen anhängen:\n\neine Eigenständigkeitserklärung (siehe nächste Folie)\neine ergänzende Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess (siehe übernächste Folie)."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-6",
     "href": "lectures/Empra-Orga/Empra-Orga.html#hausarbeit-6",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
     "text": "Hausarbeit\n\nEigenständigkeitserklärung\n\nHiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig und ohne fremde Hilfe verfasst habe. Ich habe keine anderen als die angegebenen Quellen und Hilfsmittel benutzt und alle wörtlich oder sinngemäß übernommenen Stellen als solche kenntlich gemacht.\nOrt, Datum, Unterschrift"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
     "href": "lectures/Empra-Orga/Empra-Orga.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Nutzung von KI-Tools: Selbsterklärung (deutsch)",
     "text": "Nutzung von KI-Tools: Selbsterklärung (deutsch)\n\n\nErklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess\nBei der Erstellung dieser Arbeit habe ich folgende/s Tool/s verwendet: [NAME TOOL / DIENST]. Art der Nutzung [bitte ankreuzen]:\n\nVerbesserung der sprachlichen Qualität und Lesbarkeit\nSchreibassistent z.B. zum Erstellen von Inhaltsverzeichnissen, Gliederungen, ersten Sätzen und Absätzen\nAuffinden von relevanten Zitaten, die als solche gekennzeichnet sind\nAuffinden von relevanten wissenschaftlichen Quellen, die als solche gekennzeichnet sind\nÜbersetzung von Zitaten oder Textabschnitten, die als solche gekennzeichnet sind (etwa: „Translated with DeepL“)\nZusammenfassung von Information\nTexttranskription von Audio- oder Videodateien\nErstellen von Bild- oder Videomaterial\nErstellen bzw. verbessern von Programmiercode (bspw. R- oder Python-Code)\nRecherche zu Begriffen\nErstellen von Begriffsdefinitionen\nSonstiges [bitte erläutern]:\n\nNach der Nutzung dieses Tools bzw. Dienstes habe ich den Inhalt überprüft, nach Bedarf bearbeitet und ich übernehme die volle Verantwortung für den Inhalt dieser Arbeit. Ich bestätige, dass diese Arbeit keine längeren Passagen (z.B. Zusammenfassung/Abstract der Arbeit, ganze Absätze im Text) an rein KI-generiertem Text enthält."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
     "href": "lectures/Empra-Orga/Empra-Orga.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Statement on the use of generative AI and AI-assisted technologies in the writing process",
     "text": "Statement on the use of generative AI and AI-assisted technologies in the writing process\n\n\nStatement on the use of generative AI and AI-assisted technologies in the writing process\nIn writing this paper, I have used the following tool/s: [NAME TOOL / SERVICE]. I used it for the following purpose/s:\n\nimproving linguistic quality and readability\nwriting assistance e.g. for generating table of contents, outlines, first sentences and paragraphs\nfinding relevant citations (correctly marked as such)\nfinding relevant scientific sources (correctly marked as such)\ntranslation of citations or text passages (correctly marked as such, e.g. “translated with DeepL”)\nsummarizing information\ntranscribing assistance from audio or video\ngenerating or optimizing programming code (e.g. R- or Python-Code)\nresearching terms\ngenerating term definitions\nother [please specify]:\n\n\n\nAfter using this tool or service, I reviewed and edited the content as needed and I take full responsibility for the content of this paper. I certify that this paper does not contain lengthy passages (e.g. summary/abstract, or full paragraphs) of purely AI-generated text."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#contact",
     "href": "lectures/Empra-Orga/Empra-Orga.html#contact",
-    "title": "Formal modeling in psychology",
+    "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
@@ -1169,11 +1183,11 @@
     "text": "Important: I do not expect that you already finished every step!\n\nWe will meet as usual at 8:30. The groups will then have 1 hour to finalize their work and presentations to reach an (interim) result.\nFrom 9:30 to approximately 12:00, the groups will present their current progress.\n\nDon’t be alarmed: Some guests who are interested in the formalizations will be attending.\nPlease don’t stress too much about the presentation: The goal is not to sell a perfect product. Instead, it should be more like a “workshop insight” — just show what you have done, where you currently stand, and what issues still need to be solved, along with your next steps.\nPresentation structure:\n\nPresent the phenomenon and (verbal) theory on one slide\nShow and guide us through the VAST\nIf available: Present initial formulas and simulations\nIdentify open questions\n\nThe actual presentation should take a maximum of 10 minutes so that we have about 10 minutes for discussion and joint reflection.\n\nAfterward, I will provide the final information on the term paper, and we will discuss the evaluation.\n\nThis time, we will need a bit longer—expect to finish around 12:30 (or possibly a bit later). We will, of course, include breaks."
   },
   {
-    "objectID": "sessions/S11-Work.html",
-    "href": "sessions/S11-Work.html",
-    "title": "Session 11 - Work on formalization",
+    "objectID": "sessions/S2-VAST01.html",
+    "href": "sessions/S2-VAST01.html",
+    "title": "Session 01 - Introduction",
     "section": "",
-    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nGroups work on their formalization\n180\n\n\n\n\n\n\nTasks for today\nWork on steps on the remaining steps (8-11) of the Formalization Steps. You probably won’t finish all steps, but the more you achieve, the less you have to do for the final report.\nRemember to restrict yourself: Aim for few phenomena (ideally, only one) and simple theories and models. It gets complicated all by itself!\nDeliverable:\n\nIncrease the version (e.g., to 0.3.0) in the CITATION.cff file.\nPush your current version to the repository.\nCreate a tag, give it the version name (e.g., v0.3.0) and write a short description for the release.\n\nDo these steps regardless whether the theory object currently is in a “functional state” or still in a messy development version."
+    "text": "Instructor notes\n\n\n\n\n\n\nCreate subfolder homework/02-VAST\n\n\n\n\n\nOverview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nInstructor introduction\n\n\nIntroduction of students in the plenum\n15\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nLecture: Introduction: Theory crisis\n90\nSlides\n\n\nWrap up [Homework 2]: Smaldino (2013), Chapter 1\n15\n\n\n\nGit Tutorial troubleshooting\n20\n\n\n\nMini Introduction VAST\n30\nSlides\n\n\n\n\n\nHomework 1 (individually): Read the VAST paper\nRead the VAST paper:\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://open.lnu.se/index.php/metapsychology/article/view/2911\nDeliverable: Nothing - just read it and understand it.\n\n\nHomework 2 (individually): Your first (mini) VAST display\nThis homework consists of three steps, A, B, and C:\n\nRead the original definition of the concept “diffusion of responsibility”, printed below (no need to read the full paper yet). Darley and Latané introduced the term in 1968, it’s even in the title of the publication: “Bystander intervention in emergencies: Diffusion of responsibility.”\n\nThese are the paragraphs that describe the concept (p. 377f):\n\n[After introducing the case of Kitty Genovese:] “In certain circumstances, the norms favoring intervention may be weakened, leading bystanders to resolve the conflict in the direction of nonintervention. One of these circumstances may be the presence of other onlookers. For example, in the case above, each observer, by seeing lights and figures in other apartment house windows, knew that others were also watching. However, there was no way to tell how the other observers were reacting. These two facts provide several reasons why any individual may have delayed or failed to help. The responsibility for helping was diffused among the observers; there was also diffusion of any potential blame for not taking action; and finally, it was possible that somebody, unperceived, had already initiated helping action.\nWhen only one bystander is present in an emergency, if help is to come, it must come from him. Although he may choose to ignore it (out of concern for his personal safety, or desires “not to get involved”), any pressure to intervene focuses uniquely on him. When there are several observers present, however, the pressures to intervene do not focus on any one of the observers; instead the responsibility for intervention is shared among all the onlookers and is not unique to any one. As a result, no one helps.\nA second possibility is that potential blame may be diffused. However much we may wish to think that an individual’s moral behavior is divorced from considerations of personal punishment or reward, there is both theory and evidence to the contrary (Aronfreed, 1964; Miller & Bollard, 1941, Whiting & Child, 19S3). It is perfectly reasonable to assume that, under circumstances of group responsibility for a punishable act, the punishment or blame that accrues to any one individual is often slight or nonexistent.\nFinally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that “somebody else must be doing something.”\n\n\nDraw your first (mini) VAST display for the definition of the concept “diffusion of responsibility” with draw.io (see concrete instructions below under “Deliverable”). As you noted, Darley and Latané provide no explicit section stating “Diffusion of responsibility is defined as …”. Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.\nAfter you created your VAST display, read a more recent summary of the concept in the Dorsch Lexikon der Psychologie, in particular the first and the third (last) paragraph. Write a few sentences, elaborating to what extent this definition is compatible to your own VAST display, and where it deviates.\n\n\nDeliverable: For task 2B, save your draw.io VAST diagram in our Homework Repository by choosing “Github” as destination for your file:\n\nThen choose the Homework Repository:\n\n… and navigate to the correct homework folder:\n\nSave the diagram with your name as filename (homework/02-VAST/YOURNAME.drawio). Additionally, save the diagram as a .png or .jpg file in the same folder (homework/02-VAST/YOURNAME.png).\nFor task 4C, save a file with your answers in the same folder (homework/02-VAST/YOURNAME.md). Don’t forget to push everything to the remote repo."
   },
   {
     "objectID": "sessions/S5-MathModel3.html",
@@ -1197,60 +1211,32 @@
     "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in group\n20\n\n\n\nPresent and discuss solutions\n60\n\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, Steps 1 & 2\n\n\nHomework 1: Create new version of VAST\n\n\n\n\n\n\n\n2 Homework (in groups)\n\nWe extend the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the explanatory target is (a) the “classical” bystander effect and (b) the reduction of the bystander effect in dangerous situations (i.e., the dangerousness of situation is a moderator of the bystander main effect).\nAt the same time we reduce the VAST display by cutting all elements that are not relevant for this specific explanation.\n\nWe cut the “Five-step process model”\nFrom the three potential processes we only keep diffusion of responsibility (and ignore pluralistic ignorance and evaluation apprehension).\n\n\nIn other words, we try to build a minimal model that explains our explanatory target.\nThe additional theoretical explanation can be found in Fischer et al., p. 520-521. These are the relevant paragraphs:\n\n“[…] the most noteworthy tendency in recent research is that the bystander effect often does not occur when the emergency is a dangerous one or when the bystanders are highly competent. The classic bystander research regarded present bystanders as”something negative,” which reduces the probability of prosocial intervention. On the basis of the review of the more recent literature, we suspect that this perspective is not always correct. Bystanders can act as a positive source of physical support in case a focal person is in the process of deciding whether to intervene in a critical situation (especially when they are perceived as competent bystanders). The present meta-analysis allows us to systematically examine the possibility of a non-inhibiting (non-negative) bystander effect. In the following, we further explore this theoretical idea. We explain why we expect that dangerous emergencies are associated with a reduced magnitude of the bystander effect.”\nIf one is to intervene in a dangerous emergency, one may have to fear negative physical consequences. A perpetrator may not only attack the victim but also the intervener. In that case, additional bystanders may provide support in defeating a potential perpetrator. […] To conclude, we expect that high-danger emergencies increase the focal bystander’s fear that he or she will be attacked or injured in case of intervention. However, if other bystanders are present, they are recognized as a source of physical support, which mitigates against the traditional bystander effect. Note that we do not expect a complete disappearance of the bystander effect in dangerous emergencies. Instead, we expect that it substantially declines because of the fact that many dangerous emergency situations can only be resolved by a group.\nThus, we expect that it is mainly increased danger to the focal bystander that reduces the bystander effect, but not increased danger to the victim (which can be completely distinct from danger of intervention). […] In other words, if bystanders experience increased danger to themselves in case of intervention, they look for other bystanders to help them to intervene (e,g,, to overpower a fierce perpetrator), which should finally reduce diffusion of responsibility and thus also attenuate the magnitude of the bystander effect (because bystanders acknowledge that they can only resolve the dangerous situation by cooperation in a group).\n\nDeliverable: Create a new draw.io VAST display with the extended and reduced theory. Push the file to the homework repository in the folder Bystander_effect."
   },
   {
-    "objectID": "sessions/S1-Introduction.html",
-    "href": "sessions/S1-Introduction.html",
-    "title": "Session 01 - Introduction",
+    "objectID": "sessions/S7-MathModel5.html",
+    "href": "sessions/S7-MathModel5.html",
+    "title": "Session 07 - Presentation of candidate theories",
     "section": "",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nInstructor introduction\n\n\nIntroduction of students in the plenum\n15\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nLecture: Introduction: Theory crisis\n90\nSlides\n\n\nWrap up [Homework 2]: Smaldino (2013), Chapter 1\n15\n\n\n\nGit Tutorial troubleshooting\n20\n\n\n\nMini Introduction VAST\n30\nSlides\n\n\n\n\n\nHomework 1 (individually)\nGoals: Learn how to pull, commit, and push to Github. Be able to resolve a merge conflict.\n\nCreate a Github account. (Skip if you have one already).\nSend your Github user name to me via email. I will give you access to the course’s private Homework Repository: https://github.com/nicebread/FOMO-homework_2024. (Note: You won’t be able to access, clone, or even see the repository until the lecturer has granted you access).\n\nIf you are proficient in git, you can skip step 3:\n\nDo the tutorial “Introduction to Version Control in R with RStudio, Git, and Github”, and complete the follow-up tutorial “Collaborative coding with GitHub and RStudio”. Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.\nOnce you have been granted access to the Homework Repository, clone the repository to your local machine. (This cannot be done on an iPad or smartphone; you need a computer for that.)\n\nDeliverable:\nPush your answer from Homework 2 (see below) to the folder homework/01-Smaldino-chapter of the remote repository (i.e., first save your file locally in the respective folder, then commit and push).\n\n\nHomework 2 (individually)\nDownload Chapter 1 of Paul Smaldino’s Book “Modeling Social Behavior: Mathematical and Agent-Based Models of Social Dynamics and Cultural Evolution”. Read the chapter and answer the following guiding questions:\n\nA typical criticism of formal models is: “You baked your results into the model, so the conclusions are trivial”. What could you answer to such a statement?\n\n\n\nWhat is done in a “decomposition”?\n\n\n\nWhat question should guide the decomposition?\n\n\n\nWhat is, according to Smaldino, the key difference between exact and inexact sciences?\n\n\n\nName the two types of models that typically are employed in social sciences.\n\n\nDeliverable: Submit answers to the guiding questions as a plain text or markdown file to the course’s Homework Repository:\n\nNavigate to /homework/01-Smaldino-chapter (After you cloned the repository in Homework 1, you should have that folder somewhere on your local machine.)\nAdd your answers as .txt or .md file with your first name as filename (e.g., “Heinz-Ruediger.md”)\ncommit and push\n(To verify your submission: If you go to the website of the repository, you should see your file in the folder 01-Smaldino-chapter.)\n\nYou can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\nUsing git for the first time can be challenging. But it’s a skill that will pay off in the long run. If you get stuck, and made honest attempts to solve the problems yourself, don’t get desperate: Just send me your homework via email, and we will sort it out together in the next session.\n\n\nHomework 3 (individually): Read the VAST paper\nRead the VAST paper:\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://open.lnu.se/index.php/metapsychology/article/view/2911\nDeliverable: Nothing - just read it and understand it.\n\n\nHomework 4 (individually): Your first (mini) VAST display\nThis homework consists of three steps, A, B, and C:\n\nRead the original definition of the concept “diffusion of responsibility”, printed below. Darley and Latané introduced the term in 1968, it’s even in the title of the publication: “Bystander intervention in emergencies: Diffusion of responsibility.”\n\nThese are the paragraphs that describe the concept (p. 377f):\n\n[After introducing the case of Kitty Genovese:] “In certain circumstances, the norms favoring intervention may be weakened, leading bystanders to resolve the conflict in the direction of nonintervention. One of these circumstances may be the presence of other onlookers. For example, in the case above, each observer, by seeing lights and figures in other apartment house windows, knew that others were also watching. However, there was no way to tell how the other observers were reacting. These two facts provide several reasons why any individual may have delayed or failed to help. The responsibility for helping was diffused among the observers; there was also diffusion of any potential blame for not taking action; and finally, it was possible that somebody, unperceived, had already initiated helping action.\nWhen only one bystander is present in an emergency, if help is to come, it must come from him. Although he may choose to ignore it (out of concern for his personal safety, or desires “not to get involved”), any pressure to intervene focuses uniquely on him. When there are several observers present, however, the pressures to intervene do not focus on any one of the observers; instead the responsibility for intervention is shared among all the onlookers and is not unique to any one. As a result, no one helps.\nA second possibility is that potential blame may be diffused. However much we may wish to think that an individual’s moral behavior is divorced from considerations of personal punishment or reward, there is both theory and evidence to the contrary (Aronfreed, 1964; Miller & Bollard, 1941, Whiting & Child, 19S3). It is perfectly reasonable to assume that, under circumstances of group responsibility for a punishable act, the punishment or blame that accrues to any one individual is often slight or nonexistent.\nFinally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that “somebody else must be doing something.”\n\n\nDraw your first (mini) VAST display for the definition of the concept “diffusion of responsibility” with draw.io (see concrete instructions below under “Deliverable”). As you noted, Darley and Latané provide no explicit section stating “Diffusion of responsibility is defined as …”. Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.\nAfter you created your VAST display, read a more recent summary of the concept in the Dorsch Lexikon der Psychologie, in particular the first and the third (last) paragraph. Write a few sentences, elaborating to what extent this definition is compatible to your own VAST display, and where it deviates.\n\n\nDeliverable: For task 4B, save your draw.io VAST diagram in our Homework Repository by choosing “Github” as destination for your file:\n\nThen choose the Homework Repository:\n\n… and navigate to the correct homework folder:\n\nSave the diagram with your name as filename (homework/02-VAST/YOURNAME.drawio). Additionally, save the diagram as a .png or .jpg file in the same folder (homework/02-VAST/YOURNAME.png).\nFor task 4C, save a file with your answers in the same folder (homework/02-VAST/YOURNAME.md). Don’t forget to push everything to the remote repo."
+    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrapup: Productive Explanations\n45\nApply the three quality criteria to our bystander formalization\n\n\nPhD students present their theoretical frameworks\n60 for each theory\n\n\n\n\n\n\nPrototypical formalization styles:\nNarrative Theory Reconstruction (NTR):\n\nStarting point: The existing verbal theory.\nMain tasks: Read and understand the narrative theory, then formalize it. Check whether a simulation can produce the target phenomenon.\nOf only minor importance: Whether the phenomenon is actually robust.\n\nTheory Construction Methodology (TCM):\n\nStarting point: A robust phenomenon.\nMain tasks:\n\nUnderstand the phenomenon (its robustness, evidence, moderating conditions, operationalizations; search for meta-analyses).\nInvent a new theory that can explain the phenomenon, or use an established theory from another domain and make necessary adjustments (could be within psychology, but also from completely different disciplines).\nCheck whether a formal model of your theory produces the phenomenon.\n\nOf only minor importance: Any existing theory that aims to explain the phenomenon. You might compare your own formal model to existing theories later.\n\n\n\n\n\nFormalization Style / Theory\nPhD A\nPhD B\nAny other C\n…\n\n\n\n\nNTR\n\n\n\n\n\n\nTCM\n\n\n\n\n\n\n\n\n\n\nHomework (individually)\nThink about which theory you want to work on: Either one of the two suggested theories, or propose another one. Next week we will form groups.\nThink about:\n\nScope: Which aspect of the theory do you want to focus on?\nTarget phenomenon\nWhich formalization style?"
   },
   {
-    "objectID": "sessions/S6-MathModel4.html",
-    "href": "sessions/S6-MathModel4.html",
-    "title": "Session 06 - Mathematical Modeling Part 4",
+    "objectID": "sessions/S9-Simulation.html",
+    "href": "sessions/S9-Simulation.html",
+    "title": "Session 09 - How to simulate virtual experiments",
     "section": "",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrapup: TCM\n30\n\n\n\nLecture: Intro 2: What is (not) a theory? (catch up from last session)\n90\nSlides\n\n\nFormalization: Mathematical Models 3\n60\nSlides, Steps 4-5\n\n\n\n\n\n2 Homework (individually)\nRead: Van Dongen et al. (2024). Productive explanation: A framework for evaluating explanations in psychological science. Psychological Review. https://doi.org/10.1037/rev0000479 (available in the /literature folder):\n\nQuestion 1: What is the role an original authors should play when predictions are derived from a theory? \nQuestion 2: Are phenomena, according to Bogen and Woodward, directly observable?\n\n\n\nQuestion 3: What are two intermediate processes that are necessary for providing a productive explanation? \nQuestion 4: According to the authors, what are the three steps of productive explanation? \nQuestion 5: What does the paper identify as a limitation of verbal psychological theories compared to formal models in other scientific disciplines? \nQuestion 6: What criteria are suggested for evaluating the quality of explanations in the productive explanation framework? \nQuestion 7: Does Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?\n\n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/04-Productive_explanations and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper."
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHow to simulate data from model: Mathematical Models Step 5\n120\nSlides, Step 5\n\n\nStart working on the new formalizations\n45\nSee also Overview Formalization Steps"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "common/lastslide.html",
+    "href": "common/lastslide.html",
+    "title": "End",
     "section": "",
-    "text": "This is material for the course “P19 Empirisch-psychologisches Praktikum” at the Ludwig-Maximilians-Universität München. The course was given in the winter terms 2023/24 and 2024/25 by Felix Schönbrodt. The material contains contributions from Daniel Leising and Aaron Peikert, and is partially inspired by a course from Noah van Dongen.\n\n\n\nCitationBibTeX citation:@online{schönbrodt2025,\n  author = {Schönbrodt, Felix and Leising, Daniel and Peikert, Aaron},\n  title = {Formalizing Narrative Theories in Psychology {{[}Course}\n    Material{]}},\n  date = {2025-01-30},\n  url = {https://nicebread.github.io/FOMO-Psy/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSchönbrodt, F., Leising, D., & Peikert, A. (2025, January 30).\nFormalizing narrative theories in psychology [Course material].\nhttps://nicebread.github.io/FOMO-Psy/"
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
-    "objectID": "orga_material/orga_material.html",
-    "href": "orga_material/orga_material.html",
-    "title": "Organizational Material",
+    "objectID": "common/lastslide.html#contact",
+    "href": "common/lastslide.html#contact",
+    "title": "End",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nAug 1, 2023\n\n\nCourse announcement\n\n\nAnnouncement in the university’s course management system\n\n\n\n\nSep 16, 2023\n\n\nCall for theory submissions\n\n\nThis is the email I sent to the colleagues in my department, asking for the submission of theories for the formalization exercise.\n\n\n\n\nOct 15, 2024\n\n\nInstructions before course\n\n\nSome instructions for students before the course starts\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "orga_material/call_for_submissions.html",
-    "href": "orga_material/call_for_submissions.html",
-    "title": "Call for theory submissions",
-    "section": "",
-    "text": "This is the email I sent to the colleagues in my department:\n\nSubject: We formalize your theory!\n\nBody:\nDear colleagues,\nthis semester, we want to explore something new. In my upcoming Empra (for 5th semester students), the participants get acquainted with formal modeling of psychological theories. The goal is to develop a mathematical or agent-based model of a verbal theory. In this project, …\n\nthe central phenomena are listed (What is to be explained?)\nthe verbal theory is explicated, and\na theory formalization is attempted (in a way that data can be simulated from the model).\n\nWe wanted to ask you - the colleagues in the department - if you want to submit a theory for this exercise.\nHere are some FAQs:\n\nWhat theory would be a good fit?\n\nA theory that is sufficiently precise and has a defined and not too large scope\nIts core premises are formulated in a clear and concise form on a few pages.\nThere doesn’t exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).\n\n\n\nWhat theory would not be a good fit?\n\nYou need to read three books to understand the theory.\nThe “all-encompassing theory of human nature”\nYou need a lot of expert input and judgement to fill in the gaps of the underspecified theory.\nYou need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.\n\n\n\nBut don’t the students lack domain knowledge?\nIn an ideal world, theories are so well specified that they can be formalized without further expert opinions. But as this is unrealistic in psychology, we need your input (see next question).\n\n\nWhat is my necessary commitment?\n\nProvide the written material for the theory.\nTwo or three meetings (each lasting ~2h) during the Empra’s teaching hours (XXX):\n\nMeeting 1 where you give a short overview of the theory. It should contain the following aspects:\n\nWhat is the central phenomenon that is aimed to be explained?\nHow does a typical study look like that produces the phenomenon?\n\nAn introduction to the theory that aims to explain the phenomenon.\n\nWhat is the central literature? (To get an impression of how the narrative theory is presented.)\n\nMeeting 2 where students present intermediate results and can ask questions for clarification.\n(optional) Meeting 3, where students present their results to you.\nIf you enjoy and benefit from the scientific discussion, of course more meetings are possible and welcome.\n\n\n\n\nWhat happens with the results?\nThe created models will be published with a CC-BY license. That means, you can reuse everything with a proper citation. If the models are really helpful (and more than just a vague inspiration for further work), we can think about a follow-up collaboration and write-up (where collaboration and co-authorship is offered to the student creators of the model).\n\n\nThe procedure would be as follows:\n\nWe collect candidate theories for formalization until 30.10.2023.\nWe screen all submissions and select one or two theories (depending on their complexity).\nIf your theory is selected, we will meet:\n\nFor the introductory meeting (xx.xx.2023, ~2h)\nFor the intermediate meeting (xx.xx.2024, ~2h)\nFor the results presentation (xx.xx.2024, ~2h)\n\n\nIf you want to participate, please send an email to xxx by xx.xx.2023, containing a short description of the theory (max. 200 words) and a link to a central paper describing the theory. It can be “your” theory, or an existing theory that you work with.\nA final caveat: We are aware that this collaboration requires a non-negligible time investment from you. At the same time, this is highly experimental and we cannot promise any success or even progress. But in any case we expect good scientific discussions and are convinced that the exercise is fruitful for all parties.\nIf you have any questions, drop me an email.\n\nHere are some (anonymized) reactions I got:\n\n“EPIC!”\n“A very good idea. Just trying it would fulfil my heart’s desire”\n\nAt the end, 3 theories got submitted. We discussed them and selected 1 of them, mostly based on feasibility and personal interest. (Formalizing more than 1 theory would have been impossible in the time frame of the course)."
-  },
-  {
-    "objectID": "Formalization_steps.html",
-    "href": "Formalization_steps.html",
-    "title": "Overview: Formalization Steps",
-    "section": "",
-    "text": "This can be used as a checklist for your course report. The details for each step are explained in the linked slides.\n\nSet up technical infrastructure.\n\nCreate a fresh Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nAdd your CITATION.cff (see instructions)\nInvite the lecturer as a collaborator:  Settings →  Collaborators → “Add people”\n\n\nChoose your starting point:\n\nExisting theory –&gt; Narrative Theory Reconstruction (NTR)\nRobust phenomenon –&gt; Theory Construction Methodology (TCM)\n\nDefine the scope\n\nDefine scope of original literature that is used as basis for the formalization.\nLimit the number of phenomena that your model is supposed to explain.\nLimit the number of constructs and their relationships.\n\nCollect robust phenomena\n\nEvaluate the generalizability separately for each UTOS dimension\nEvaluate the strength of evidence (Quality of studies? Number of studies? Large samples?)\n\nCreate your Construct Source Table\nCreate your VAST display (see slides on VAST and VAST application)\n\nDistill a working definition for each construct\nAdd relationships between constructs\n\nFormalize model: Create your Variable Table (see slides on Mathematical Modeling)\n\nList all concepts of your VAST display that are not higher-order concepts (because higher-order concepts typically are not reducible to a single metric)\nDefine the scale level, the possible range of values, and semantic anchors\n\n\n\n\nFormalize model: Create your Relationship Table (see slides on Mathematical Modeling)\n\nDevelop a mathematical function for each endogenous variable in the VAST display.\nWhat functional form does the theory imply? What are free parameters that can “bend” the function? Which parameters can be fixed?\n\nProgram the functions in R\nBuild atomic functions based on the Relationship Table\nDocument the functions with roxygen2 (see slides on Mathematical Modeling))\nCombine atomic functions into one “super function” that takes all exogenous variables of the model as input and computes the focal output variable (typically, an observable behavior). Make sure that it can take vectors as input.\nEvaluate the model behavior\n\nTry different parameter settings. Under which conditions does the model produce the phenomenon?\nPlot the model behavior: Choose a focal predictor for the x-axis, focal outcome on y-axis, additional parameters as colors, shapes, or multiple plots.\n\nSimulate the model: Would a real study (with noise) be able to detect the phenomenon?\n\nSimulate data\nDo the statistical analysis on your simulated data: Is the focal effect significant?\nWhat is the necessary sample size to reliably detect the phenomenon (i.e., with a high statistical power)?"
-  },
-  {
-    "objectID": "orga_material/course_announcement.html",
-    "href": "orga_material/course_announcement.html",
-    "title": "Course announcement",
-    "section": "",
-    "text": "Im Empirisch-psychologischen Praktikum “Formale Modellierung in der Psychologie” tauchen die Studierenden in die Welt der quantitativen Darstellung psychologischer Theorien ein. Dabei geht es nicht um die quantitative Auswertung von Daten mit Hilfe statistischer Modelle, sondern um Theorien und datengenerierende Modelle, die so präzise sind, dass man konkrete Daten vorhersagen kann.\nAls eine Reaktion auf die Replikationskrise wurde der Ruf nach besseren Theorien laut, mit dem Ziel, verbale und konzeptionelle Theorien in formale, mathematische Modelle zu übersetzen. Diese Modelle dienen mehreren Zwecken: Sie ermöglichen eine rigorose Prüfung von Hypothesen, bieten klarere Vorhersagen und bilden einen Rahmen, um scheinbar disparate Ergebnisse zu vereinheitlichen. Außerdem schärfen sie den Blick auf “Leerstellen” in den meist hoffnungslos unterspezifizierten Theorien in der Psychologie.\nIn diesem Kurs werden die Studierenden in die grundlegenden Prinzipien der formalen Modellierung und ihre verschiedenen Varianten eingeführt (z.B. mathematische Modelle, Regelkreismodelle, agentenbasierte Modelle) und mit den Werkzeugen ausgestattet, die sie benötigen, um aus vorhandenen verbalen Theorien Modelle abzuleiten. Entsprechend werden wir uns viel mit der Implementierung in Programmiersprachen befassen. Wir werden dabei vermutlich viel in R programmieren, ggf. auch in NetLogo (für ABMs).\nWir werden versuchen, kollaborativ verbale psychologische Theorien soweit zu formalisieren, dass man sie in ein datengenerierendes Modell übersetzen und implementieren kann, um die generierten Daten dann zur Prüfung mit echten Daten zu vergleichen.\nWir werden Aspekte der Qualitätssicherung bei diesem Forschungsaspekt diskutieren und anwenden (Reproduzierbarkeit, Versionskontrolle, Sensitivitätsanalysen, gut dokumentierter Code / unit testing).\nDas Empra stellt etwas höhere Anforderungen an mathematisches und formales Denken, sowie ihre Programmierfähigkeit. Als Minimum werden die R-Kenntnisse vorausgesetzt, die im Rahmen der Seminare zu Statistik 1 und 2 gelehrt wurden, sowie die Bereitschaft, sich auch selbständig (anhand von bereitgestelltem Material) in Themen der Programmierung einzuarbeiten."
-  },
-  {
-    "objectID": "orga_material/instructions_before_course.html",
-    "href": "orga_material/instructions_before_course.html",
-    "title": "Instructions before course",
-    "section": "",
-    "text": "Liebe Studierende,\nich freue mich schon auf unser Empra zur formalen Modellierung psychologischer Theorien. Hier kommen einige Hinweise für den Start:\n\nIch würde gerne den Start von 8:15 auf 8:30 verlegen. Die Sitzung geht dann in der Regel bis 12:00.\nWir werden in fast jeder Sitzung am Computer arbeiten - z.B. Code schreiben, Diagramme zeichnen, oder Dateien in git einchecken. Daher wäre es gut, wenn Sie, wenn möglich, immer ihren Laptop mitbringen. Wenn Sie keinen Laptop haben, können Sie auch bei Kommilitonen reinschauen und im “pair programming” Modus arbeiten.\nWenn das letzte Programmieren in R schon etwas länger her ist, frischen Sie gerne vorab Ihre Kenntnisse auf. Das Empra wird keine Auffrischung in R beinhalten. Hier sind einige Ressourcen:\n\nDie neuen R-Tutorials aus Statistik 1: Teil 1 - Grundlagen und Teil 2 - Workflows bei der Arbeit mit Datensätzen\nMoodle Kurs “R Tutorials”. Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR\nYouTube-Video: “Want to learn R (#rstats) in 4 hours with NO programming experience?”\nhttps://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf (12 page PDF document)\nhttps://github.com/jobreu/r-intro-gesis-2021 (5 day course: slides & exercises)\n\nDas bedeutet nicht, dass Sie all diese Ressourcen durcharbeiten müssen. Wenn Sie auf dem Stand der beiden R-Tutorials (siehe 3.1) sind, sind Sie hinreichend vorbereitet.\nDie Kommunikation wird ab jetzt über den Moodle-Kurs laufen. Der Einschreibeschlüssel lautet: “theorie”. Bitte schreiben Sie sich schon zeitnah ein; ich verschicke ab jetzt die Emails über den Kurs.\nDas Kursmaterial wird sich alles auf Github finden: https://nicebread.github.io/FOMO-Psy/. Im Moment befindet sich dort noch das alte Material; ich baue das gerade substantiell um. Aber dann haben Sie schon mal den Link.\n\nDann sehen wir uns am Freitag, 18.10.24, um 8:30 in Raum 1407 zur ersten Sitzung! Bei Fragen können Sie sich gerne auch vorab schon bei mir melden.\nViele Grüße, Felix Schönbrodt"
+    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
     "objectID": "index.html",
@@ -1271,7 +1257,7 @@
     "href": "index.html#relevant-literature",
     "title": "FOMO-Psy: Formal Modeling of Psychological Theories",
     "section": "Relevant literature",
-    "text": "Relevant literature\n\nTheorizing/modeling methodology\n\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nGuest, O., & Martin, A. E. (2021). How Computational Modeling Can Force Theory Building in Psychological Science. Perspectives on Psychological Science, 16(4), 789–802. https://doi.org/10.1177/1745691620970585\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://doi.org/10.15626/MP.2021.2911\nVan Lissa, C. J. (2025). theorytools: FAIR theory construction [Manual]. https://github.com/cjvanlissa/theorytools\nVan Lissa, C. J., Peikert, A., Ernst, M., Van Dongen, N., Schönbrodt, F. D., & Brandmaier, A. M. (2025, March 9). To be FAIR: Theory Specification Needs an Update. https://doi.org/10.31234/osf.io/t53np_v1\nWilson, R. C., & Collins, A. G. (2019). Ten simple rules for the computational modeling of behavioral data. ELife, 8, e49547. https://doi.org/10.7554/eLife.49547\n\n\n\nAbout theories\n\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nGlöckner, A., Fiedler, S., & Renkewitz, F. (2018). Belastbare und effiziente Wissenschaft: Strategische Ausrichtung von Forschungsprozessen als Weg aus der Replikationskrise. Psychologische Rundschau, 69(1), 22–36. https://doi.org/10.1026/0033-3042/a000384\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2\nSutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\nVan Dongen, N., Van Bork, R., Finnemann, A., Haslbeck, J. M. B., Van Der Maas, H. L. J., Robinaugh, D. J., De Ron, J., Sprenger, J., & Borsboom, D. (2025). Productive explanation: A framework for evaluating explanations in psychological science. Psychological Review, 132(2), 311–329. https://doi.org/10.1037/rev0000479"
+    "text": "Relevant literature\n\nTheorizing/modeling methodology\n\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nGuest, O., & Martin, A. E. (2021). How Computational Modeling Can Force Theory Building in Psychological Science. Perspectives on Psychological Science, 16(4), 789–802. https://doi.org/10.1177/1745691620970585\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://doi.org/10.15626/MP.2021.2911\nVan Lissa, C. J. (2025). theorytools: FAIR theory construction [Manual]. https://github.com/cjvanlissa/theorytools\nVan Lissa, C. J., Peikert, A., Ernst, M., Van Dongen, N., Schönbrodt, F. D., & Brandmaier, A. M. (2025, March 9). To be FAIR: Theory Specification Needs an Update. https://doi.org/10.31234/osf.io/t53np_v1\nWilson, R. C., & Collins, A. G. (2019). Ten simple rules for the computational modeling of behavioral data. ELife, 8, e49547. https://doi.org/10.7554/eLife.49547\n\n\n\nAbout theories\n\nBorsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647\nGlöckner, A., Fiedler, S., & Renkewitz, F. (2018). Belastbare und effiziente Wissenschaft: Strategische Ausrichtung von Forschungsprozessen als Weg aus der Replikationskrise. Psychologische Rundschau, 69(1), 22–36. https://doi.org/10.1026/0033-3042/a000384\nLange, J., Freyer, N., Musfeld, P., Schönbrodt, F., & Leising, D. (2025). A checklist for incentivizing and facilitating good theory building. Zeitschrift Für Psychologie, 2151-2604/a000604. https://doi.org/10.1027/2151-2604/a000604\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2\nSutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\nVan Dongen, N., Van Bork, R., Finnemann, A., Haslbeck, J. M. B., Van Der Maas, H. L. J., Robinaugh, D. J., De Ron, J., Sprenger, J., & Borsboom, D. (2025). Productive explanation: A framework for evaluating explanations in psychological science. Psychological Review, 132(2), 311–329. https://doi.org/10.1037/rev0000479"
   },
   {
     "objectID": "index.html#credit-and-contributors",
@@ -1281,32 +1267,67 @@
     "text": "Credit and Contributors\nThanks goes to:\n\nNoah van Dongen and Denny Borsboom for great inspiration from the ManyModelers Project (performed on SIPS 2022)\nNoah van Dongen for providing his material for an TCM course\nAaron Peikert, Maximilian Ernst and Caspar van Lissa for several discussions and inspirations about technical aspects of theory versioning and FAIR theories"
   },
   {
-    "objectID": "common/lastslide.html",
-    "href": "common/lastslide.html",
-    "title": "End",
+    "objectID": "orga_material/instructions_before_course.html",
+    "href": "orga_material/instructions_before_course.html",
+    "title": "Instructions before course",
     "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "Liebe Studierende,\nich freue mich schon auf unser Empra zur formalen Modellierung psychologischer Theorien. Hier kommen einige Hinweise für den Start:\n\nIch würde gerne den Start von 8:15 auf 8:30 verlegen. Die Sitzung geht dann in der Regel bis 12:00.\nWir werden in fast jeder Sitzung am Computer arbeiten - z.B. Code schreiben, Diagramme zeichnen, oder Dateien in git einchecken. Daher wäre es gut, wenn Sie, wenn möglich, immer ihren Laptop mitbringen. Wenn Sie keinen Laptop haben, können Sie auch bei Kommilitonen reinschauen und im “pair programming” Modus arbeiten.\nWenn das letzte Programmieren in R schon etwas länger her ist, frischen Sie gerne vorab Ihre Kenntnisse auf. Das Empra wird keine Auffrischung in R beinhalten. Hier sind einige Ressourcen:\n\nDie neuen R-Tutorials aus Statistik 1: Teil 1 - Grundlagen und Teil 2 - Workflows bei der Arbeit mit Datensätzen\nMoodle Kurs “R Tutorials”. Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR\nYouTube-Video: “Want to learn R (#rstats) in 4 hours with NO programming experience?”\nhttps://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf (12 page PDF document)\nhttps://github.com/jobreu/r-intro-gesis-2021 (5 day course: slides & exercises)\n\nDas bedeutet nicht, dass Sie all diese Ressourcen durcharbeiten müssen. Wenn Sie auf dem Stand der beiden R-Tutorials (siehe 3.1) sind, sind Sie hinreichend vorbereitet.\nDie Kommunikation wird ab jetzt über den Moodle-Kurs laufen. Der Einschreibeschlüssel lautet: “theorie”. Bitte schreiben Sie sich schon zeitnah ein; ich verschicke ab jetzt die Emails über den Kurs.\nDas Kursmaterial wird sich alles auf Github finden: https://nicebread.github.io/FOMO-Psy/. Im Moment befindet sich dort noch das alte Material; ich baue das gerade substantiell um. Aber dann haben Sie schon mal den Link.\n\nDann sehen wir uns am Freitag, 18.10.24, um 8:30 in Raum 1407 zur ersten Sitzung! Bei Fragen können Sie sich gerne auch vorab schon bei mir melden.\nViele Grüße, Felix Schönbrodt"
   },
   {
-    "objectID": "common/lastslide.html#contact",
-    "href": "common/lastslide.html#contact",
-    "title": "End",
+    "objectID": "orga_material/course_announcement.html",
+    "href": "orga_material/course_announcement.html",
+    "title": "Course announcement",
     "section": "",
-    "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+    "text": "Im Empirisch-psychologischen Praktikum “Formale Modellierung in der Psychologie” tauchen die Studierenden in die Welt der quantitativen Darstellung psychologischer Theorien ein. Dabei geht es nicht um die quantitative Auswertung von Daten mit Hilfe statistischer Modelle, sondern um Theorien und datengenerierende Modelle, die so präzise sind, dass man konkrete Daten vorhersagen kann.\nAls eine Reaktion auf die Replikationskrise wurde der Ruf nach besseren Theorien laut, mit dem Ziel, verbale und konzeptionelle Theorien in formale, mathematische Modelle zu übersetzen. Diese Modelle dienen mehreren Zwecken: Sie ermöglichen eine rigorose Prüfung von Hypothesen, bieten klarere Vorhersagen und bilden einen Rahmen, um scheinbar disparate Ergebnisse zu vereinheitlichen. Außerdem schärfen sie den Blick auf “Leerstellen” in den meist hoffnungslos unterspezifizierten Theorien in der Psychologie.\nIn diesem Kurs werden die Studierenden in die grundlegenden Prinzipien der formalen Modellierung und ihre verschiedenen Varianten eingeführt (z.B. mathematische Modelle, Regelkreismodelle, agentenbasierte Modelle) und mit den Werkzeugen ausgestattet, die sie benötigen, um aus vorhandenen verbalen Theorien Modelle abzuleiten. Entsprechend werden wir uns viel mit der Implementierung in Programmiersprachen befassen. Wir werden dabei vermutlich viel in R programmieren, ggf. auch in NetLogo (für ABMs).\nWir werden versuchen, kollaborativ verbale psychologische Theorien soweit zu formalisieren, dass man sie in ein datengenerierendes Modell übersetzen und implementieren kann, um die generierten Daten dann zur Prüfung mit echten Daten zu vergleichen.\nWir werden Aspekte der Qualitätssicherung bei diesem Forschungsaspekt diskutieren und anwenden (Reproduzierbarkeit, Versionskontrolle, Sensitivitätsanalysen, gut dokumentierter Code / unit testing).\nDas Empra stellt etwas höhere Anforderungen an mathematisches und formales Denken, sowie ihre Programmierfähigkeit. Als Minimum werden die R-Kenntnisse vorausgesetzt, die im Rahmen der Seminare zu Statistik 1 und 2 gelehrt wurden, sowie die Bereitschaft, sich auch selbständig (anhand von bereitgestelltem Material) in Themen der Programmierung einzuarbeiten."
   },
   {
-    "objectID": "sessions/S9-Simulation.html",
-    "href": "sessions/S9-Simulation.html",
-    "title": "Session 09 - How to simulate virtual experiments",
+    "objectID": "Formalization_steps.html",
+    "href": "Formalization_steps.html",
+    "title": "Overview: Formalization Steps",
     "section": "",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHow to simulate data from model: Mathematical Models Step 5\n120\nSlides, Step 5\n\n\nStart working on the new formalizations\n45\nSee also Overview Formalization Steps"
+    "text": "This can be used as a checklist for your course report. The details for each step are explained in the linked slides.\n\nSet up technical infrastructure.\n\nCreate a fresh Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nAdd your CITATION.cff (see instructions)\nInvite the lecturer as a collaborator:  Settings →  Collaborators → “Add people”\n\n\nChoose your starting point:\n\nExisting theory –&gt; Narrative Theory Reconstruction (NTR)\nRobust phenomenon –&gt; Theory Construction Methodology (TCM)\n\nDefine the scope\n\nDefine scope of original literature that is used as basis for the formalization.\nLimit the number of phenomena that your model is supposed to explain.\nLimit the number of constructs and their relationships.\n\nCollect robust phenomena\n\nEvaluate the generalizability separately for each UTOS dimension\nEvaluate the strength of evidence (Quality of studies? Number of studies? Large samples?)\n\nCreate your Construct Source Table\nCreate your VAST display (see slides on VAST and VAST application)\n\nDistill a working definition for each construct\nAdd relationships between constructs\n\nFormalize model: Create your Variable Table (see slides on Mathematical Modeling)\n\nList all concepts of your VAST display that are not higher-order concepts (because higher-order concepts typically are not reducible to a single metric)\nDefine the scale level, the possible range of values, and semantic anchors\n\n\n\n\nFormalize model: Create your Relationship Table (see slides on Mathematical Modeling)\n\nDevelop a mathematical function for each endogenous variable in the VAST display.\nWhat functional form does the theory imply? What are free parameters that can “bend” the function? Which parameters can be fixed?\n\nProgram the functions in R\nBuild atomic functions based on the Relationship Table\nDocument the functions with roxygen2 (see slides on Mathematical Modeling))\nCombine atomic functions into one “super function” that takes all exogenous variables of the model as input and computes the focal output variable (typically, an observable behavior). Make sure that it can take vectors as input.\nEvaluate the model behavior\n\nTry different parameter settings. Under which conditions does the model produce the phenomenon?\nPlot the model behavior: Choose a focal predictor for the x-axis, focal outcome on y-axis, additional parameters as colors, shapes, or multiple plots.\n\nSimulate the model: Would a real study (with noise) be able to detect the phenomenon?\n\nSimulate data\nDo the statistical analysis on your simulated data: Is the focal effect significant?\nWhat is the necessary sample size to reliably detect the phenomenon (i.e., with a high statistical power)?"
   },
   {
-    "objectID": "sessions/S7-MathModel5.html",
-    "href": "sessions/S7-MathModel5.html",
-    "title": "Session 07 - Presentation of candidate theories",
+    "objectID": "orga_material/call_for_submissions.html",
+    "href": "orga_material/call_for_submissions.html",
+    "title": "Call for theory submissions",
     "section": "",
-    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrapup: Productive Explanations\n45\nApply the three quality criteria to our bystander formalization\n\n\nPhD students present their theoretical frameworks\n60 for each theory\n\n\n\n\n\n\nPrototypical formalization styles:\nNarrative Theory Reconstruction (NTR):\n\nStarting point: The existing verbal theory.\nMain tasks: Read and understand the narrative theory, then formalize it. Check whether a simulation can produce the target phenomenon.\nOf only minor importance: Whether the phenomenon is actually robust.\n\nTheory Construction Methodology (TCM):\n\nStarting point: A robust phenomenon.\nMain tasks:\n\nUnderstand the phenomenon (its robustness, evidence, moderating conditions, operationalizations; search for meta-analyses).\nInvent a new theory that can explain the phenomenon, or use an established theory from another domain and make necessary adjustments (could be within psychology, but also from completely different disciplines).\nCheck whether a formal model of your theory produces the phenomenon.\n\nOf only minor importance: Any existing theory that aims to explain the phenomenon. You might compare your own formal model to existing theories later.\n\n\n\n\n\nFormalization Style / Theory\nPhD A\nPhD B\nAny other C\n…\n\n\n\n\nNTR\n\n\n\n\n\n\nTCM\n\n\n\n\n\n\n\n\n\n\nHomework (individually)\nThink about which theory you want to work on: Either one of the two suggested theories, or propose another one. Next week we will form groups.\nThink about:\n\nScope: Which aspect of the theory do you want to focus on?\nTarget phenomenon\nWhich formalization style?"
+    "text": "This is the email I sent to the colleagues in my department:\n\nSubject: We formalize your theory!\n\nBody:\nDear colleagues,\nthis semester, we want to explore something new. In my upcoming Empra (for 5th semester students), the participants get acquainted with formal modeling of psychological theories. The goal is to develop a mathematical or agent-based model of a verbal theory. In this project, …\n\nthe central phenomena are listed (What is to be explained?)\nthe verbal theory is explicated, and\na theory formalization is attempted (in a way that data can be simulated from the model).\n\nWe wanted to ask you - the colleagues in the department - if you want to submit a theory for this exercise.\nHere are some FAQs:\n\nWhat theory would be a good fit?\n\nA theory that is sufficiently precise and has a defined and not too large scope\nIts core premises are formulated in a clear and concise form on a few pages.\nThere doesn’t exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).\n\n\n\nWhat theory would not be a good fit?\n\nYou need to read three books to understand the theory.\nThe “all-encompassing theory of human nature”\nYou need a lot of expert input and judgement to fill in the gaps of the underspecified theory.\nYou need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.\n\n\n\nBut don’t the students lack domain knowledge?\nIn an ideal world, theories are so well specified that they can be formalized without further expert opinions. But as this is unrealistic in psychology, we need your input (see next question).\n\n\nWhat is my necessary commitment?\n\nProvide the written material for the theory.\nTwo or three meetings (each lasting ~2h) during the Empra’s teaching hours (XXX):\n\nMeeting 1 where you give a short overview of the theory. It should contain the following aspects:\n\nWhat is the central phenomenon that is aimed to be explained?\nHow does a typical study look like that produces the phenomenon?\n\nAn introduction to the theory that aims to explain the phenomenon.\n\nWhat is the central literature? (To get an impression of how the narrative theory is presented.)\n\nMeeting 2 where students present intermediate results and can ask questions for clarification.\n(optional) Meeting 3, where students present their results to you.\nIf you enjoy and benefit from the scientific discussion, of course more meetings are possible and welcome.\n\n\n\n\nWhat happens with the results?\nThe created models will be published with a CC-BY license. That means, you can reuse everything with a proper citation. If the models are really helpful (and more than just a vague inspiration for further work), we can think about a follow-up collaboration and write-up (where collaboration and co-authorship is offered to the student creators of the model).\n\n\nThe procedure would be as follows:\n\nWe collect candidate theories for formalization until 30.10.2023.\nWe screen all submissions and select one or two theories (depending on their complexity).\nIf your theory is selected, we will meet:\n\nFor the introductory meeting (xx.xx.2023, ~2h)\nFor the intermediate meeting (xx.xx.2024, ~2h)\nFor the results presentation (xx.xx.2024, ~2h)\n\n\nIf you want to participate, please send an email to xxx by xx.xx.2023, containing a short description of the theory (max. 200 words) and a link to a central paper describing the theory. It can be “your” theory, or an existing theory that you work with.\nA final caveat: We are aware that this collaboration requires a non-negligible time investment from you. At the same time, this is highly experimental and we cannot promise any success or even progress. But in any case we expect good scientific discussions and are convinced that the exercise is fruitful for all parties.\nIf you have any questions, drop me an email.\n\nHere are some (anonymized) reactions I got:\n\n“EPIC!”\n“A very good idea. Just trying it would fulfil my heart’s desire”\n\nAt the end, 3 theories got submitted. We discussed them and selected 1 of them, mostly based on feasibility and personal interest. (Formalizing more than 1 theory would have been impossible in the time frame of the course)."
+  },
+  {
+    "objectID": "orga_material/orga_material.html",
+    "href": "orga_material/orga_material.html",
+    "title": "Organizational Material",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nAug 1, 2023\n\n\nCourse announcement\n\n\nAnnouncement in the university’s course management system\n\n\n\n\n\n\nSep 16, 2023\n\n\nCall for theory submissions\n\n\nThis is the email I sent to the colleagues in my department, asking for the submission of theories for the formalization exercise.\n\n\n\n\n\n\nOct 15, 2024\n\n\nInstructions before course\n\n\nSome instructions for students before the course starts\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is material for the course “P19 Empirisch-psychologisches Praktikum” at the Ludwig-Maximilians-Universität München. The course was given in the winter terms 2023/24 and 2024/25 by Felix Schönbrodt. The material contains contributions from Daniel Leising and Aaron Peikert, and is partially inspired by a course from Noah van Dongen.\n\n\n\nCitationBibTeX citation:@online{schönbrodt2025,\n  author = {Schönbrodt, Felix and Leising, Daniel and Peikert, Aaron},\n  title = {Formalizing Narrative Theories in Psychology {{[}Course}\n    Material{]}},\n  date = {2025-01-30},\n  url = {https://nicebread.github.io/FOMO-Psy/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSchönbrodt, F., Leising, D., & Peikert, A. (2025, January 30).\nFormalizing narrative theories in psychology [Course material].\nhttps://nicebread.github.io/FOMO-Psy/"
+  },
+  {
+    "objectID": "sessions/S6-MathModel4.html",
+    "href": "sessions/S6-MathModel4.html",
+    "title": "Session 06 - Mathematical Modeling Part 4",
+    "section": "",
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrapup: TCM\n30\n\n\n\nLecture: Intro 2: What is (not) a theory? (catch up from last session)\n90\nSlides\n\n\nFormalization: Mathematical Models 3\n60\nSlides, Steps 4-5\n\n\n\n\n\n2 Homework (individually)\nRead: Van Dongen et al. (2024). Productive explanation: A framework for evaluating explanations in psychological science. Psychological Review. https://doi.org/10.1037/rev0000479 (available in the /literature folder):\n\nQuestion 1: What is the role an original authors should play when predictions are derived from a theory? \nQuestion 2: Are phenomena, according to Bogen and Woodward, directly observable?\n\n\n\nQuestion 3: What are two intermediate processes that are necessary for providing a productive explanation? \nQuestion 4: According to the authors, what are the three steps of productive explanation? \nQuestion 5: What does the paper identify as a limitation of verbal psychological theories compared to formal models in other scientific disciplines? \nQuestion 6: What criteria are suggested for evaluating the quality of explanations in the productive explanation framework? \nQuestion 7: Does Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?\n\n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/04-Productive_explanations and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper."
+  },
+  {
+    "objectID": "sessions/S1-Introduction.html",
+    "href": "sessions/S1-Introduction.html",
+    "title": "Session 01 - Introduction",
+    "section": "",
+    "text": "Overview\n\n\n\n\n\n\nInstructor notes\n\n\n\n\n\n\nBring empty name tags and board markers.\nDuring the Git intro, create the course’s private homework repo. Create the folder homework/01-Smaldino-chapter.\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nInstructor introduction\n\n\nIntroduction of students in the plenum\n15\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nLecture: Introduction: Theory crisis\n90\nSlides\n\n\nGit Intro\n20\nSlides 1-6\n\n\n\n\n\nHomework 1 (individually)\nLearning Goals: Learn how to pull, commit, and push to Github. Be able to resolve a merge conflict.\nHomework steps:\n\nCreate a Github account. (Skip if you have one already).\nSend your Github user name to me via email. I will give you access to the course’s private Homework Repository: https://github.com/nicebread/FOMO-homework_2024. (Note: You won’t be able to access, clone, or even see the repository until the lecturer has granted you access).\n\nIf you are proficient in git and Github, you can skip step 3:\n\nDo the tutorial “Introduction to version Control with git and GitHub within RStudio”, and the follow-up tutorial “Collaborative coding with GitHub and RStudio”. Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.\nOnce you have been granted access to the Homework Repository, clone the repository to your local machine. (This cannot be done on an iPad or smartphone; you need a computer for that.)\n\nDeliverable:\nPush your answer from Homework 2 (see below) to the folder homework/01-Smaldino-chapter of the remote repository (i.e., first save your file locally in the respective folder, then commit and push).\n\n\nHomework 2 (individually)\nDownload Chapter 1 of Paul Smaldino’s Book “Modeling Social Behavior: Mathematical and Agent-Based Models of Social Dynamics and Cultural Evolution”. Read the chapter and answer the following guiding questions:\n\nA typical criticism of formal models is: “You baked your results into the model, so the conclusions are trivial”. What could you answer to such a statement?\n\n\n\nWhat is done in a “decomposition”?\n\n\n\nWhat question should guide the decomposition?\n\n\n\nWhat is, according to Smaldino, the key difference between exact and inexact sciences?\n\n\n\nName the two types of models that typically are employed in social sciences.\n\n\nDeliverable: Submit answers to the guiding questions as a plain text or markdown file to the course’s Homework Repository:\n\nNavigate to /homework/01-Smaldino-chapter (After you cloned the repository in Homework 1, you should have that folder somewhere on your local machine.)\nAdd your answers as .txt or .md file with your first name as filename (e.g., “Heinz-Ruediger.md”)\ncommit and push\n(To verify your submission: If you go to the website of the repository, you should see your file in the folder 01-Smaldino-chapter.)\n\nYou can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\nUsing git for the first time can be challenging. But it’s a skill that will pay off in the long run. If you get stuck, and made honest attempts to solve the problems yourself, don’t get desperate: Just send me your homework via email, and we will sort it out together in the next session.\n\n\nHomework 3 (individually): Read the VAST paper\nRead the VAST paper:\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://open.lnu.se/index.php/metapsychology/article/view/2911\nDeliverable: Nothing - just read it and understand it.\n\n\nHomework 4 (individually): Your first (mini) VAST display\nThis homework consists of three steps, A, B, and C:\n\nRead the original definition of the concept “diffusion of responsibility”, printed below. Darley and Latané introduced the term in 1968, it’s even in the title of the publication: “Bystander intervention in emergencies: Diffusion of responsibility.”\n\nThese are the paragraphs that describe the concept (p. 377f):\n\n[After introducing the case of Kitty Genovese:] “In certain circumstances, the norms favoring intervention may be weakened, leading bystanders to resolve the conflict in the direction of nonintervention. One of these circumstances may be the presence of other onlookers. For example, in the case above, each observer, by seeing lights and figures in other apartment house windows, knew that others were also watching. However, there was no way to tell how the other observers were reacting. These two facts provide several reasons why any individual may have delayed or failed to help. The responsibility for helping was diffused among the observers; there was also diffusion of any potential blame for not taking action; and finally, it was possible that somebody, unperceived, had already initiated helping action.\nWhen only one bystander is present in an emergency, if help is to come, it must come from him. Although he may choose to ignore it (out of concern for his personal safety, or desires “not to get involved”), any pressure to intervene focuses uniquely on him. When there are several observers present, however, the pressures to intervene do not focus on any one of the observers; instead the responsibility for intervention is shared among all the onlookers and is not unique to any one. As a result, no one helps.\nA second possibility is that potential blame may be diffused. However much we may wish to think that an individual’s moral behavior is divorced from considerations of personal punishment or reward, there is both theory and evidence to the contrary (Aronfreed, 1964; Miller & Bollard, 1941, Whiting & Child, 19S3). It is perfectly reasonable to assume that, under circumstances of group responsibility for a punishable act, the punishment or blame that accrues to any one individual is often slight or nonexistent.\nFinally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that “somebody else must be doing something.”\n\n\nDraw your first (mini) VAST display for the definition of the concept “diffusion of responsibility” with draw.io (see concrete instructions below under “Deliverable”). As you noted, Darley and Latané provide no explicit section stating “Diffusion of responsibility is defined as …”. Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.\nAfter you created your VAST display, read a more recent summary of the concept in the Dorsch Lexikon der Psychologie, in particular the first and the third (last) paragraph. Write a few sentences, elaborating to what extent this definition is compatible to your own VAST display, and where it deviates.\n\n\nDeliverable: For task 4B, save your draw.io VAST diagram in our Homework Repository by choosing “Github” as destination for your file:\n\nThen choose the Homework Repository:\n\n… and navigate to the correct homework folder:\n\nSave the diagram with your name as filename (homework/02-VAST/YOURNAME.drawio). Additionally, save the diagram as a .png or .jpg file in the same folder (homework/02-VAST/YOURNAME.png).\nFor task 4C, save a file with your answers in the same folder (homework/02-VAST/YOURNAME.md). Don’t forget to push everything to the remote repo."
+  },
+  {
+    "objectID": "sessions/S13-Work.html",
+    "href": "sessions/S13-Work.html",
+    "title": "Session 11 - Work on formalization",
+    "section": "",
+    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nGroups work on their formalization\n180\n\n\n\n\n\n\nTasks for today\nWork on steps on the remaining steps (8-11) of the Formalization Steps. You probably won’t finish all steps, but the more you achieve, the less you have to do for the final report.\nRemember to restrict yourself: Aim for few phenomena (ideally, only one) and simple theories and models. It gets complicated all by itself!\nDeliverable:\n\nIncrease the version (e.g., to 0.3.0) in the CITATION.cff file.\nPush your current version to the repository.\nCreate a tag, give it the version name (e.g., v0.3.0) and write a short description for the release.\n\nDo these steps regardless whether the theory object currently is in a “functional state” or still in a messy development version."
   },
   {
     "objectID": "sessions/S4-MathModel2.html",
@@ -1327,7 +1348,7 @@
     "href": "sessions/sessions_overview.html",
     "title": "Overview of sessions",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\nSession 02 - Introduction Theories / Practice VAST\n\n\nIntro to theory 2; Apply VAST to Bystander effect\n\n\n\n\nSession 03 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\nSession 04 - Mathematical Modeling Part 2\n\n\nCreate all functions for our reduced Bystander Effect Model\n\n\n\n\nSession 05 - Mathematical Modeling Part 3\n\n\nConsensus model\n\n\n\n\nSession 06 - Mathematical Modeling Part 4\n\n\nEmpirical calibration + simulated experiments\n\n\n\n\nSession 07 - Presentation of candidate theories\n\n\nWe have a presentation and initial discussion of candidate theories for the next formalization exercise.\n\n\n\n\nSession 08 - Propose and discuss your own formalization candidate theories\n\n\nWe decide which theories will be formalized in the second part of the course.\n\n\n\n\nSession 09 - How to simulate virtual experiments\n\n\nWe practice how to generate data for simulated experiments\n\n\n\n\nSession 10 - Theory metadata\n\n\nWe learn how to use CFF files and semantic versioning for documenting digital theory objects\n\n\n\n\nSession 11 - Work on formalization\n\n\nThe groups work on their formalizations\n\n\n\n\nSession 12 - Final presentations\n\n\nThe groups present their work\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\n\n\nSession 02 - Introduction Theories / Practice VAST\n\n\nIntro to theory 2; Apply VAST to Bystander effect\n\n\n\n\n\n\nSession 03 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\n\n\nSession 04 - Mathematical Modeling Part 2\n\n\nCreate all functions for our reduced Bystander Effect Model\n\n\n\n\n\n\nSession 05 - Mathematical Modeling Part 3\n\n\nConsensus model\n\n\n\n\n\n\nSession 06 - Mathematical Modeling Part 4\n\n\nEmpirical calibration + simulated experiments\n\n\n\n\n\n\nSession 07 - Presentation of candidate theories\n\n\nWe have a presentation and initial discussion of candidate theories for the next formalization exercise.\n\n\n\n\n\n\nSession 08 - Propose and discuss your own formalization candidate theories\n\n\nWe decide which theories will be formalized in the second part of the course.\n\n\n\n\n\n\nSession 09 - How to simulate virtual experiments\n\n\nWe practice how to generate data for simulated experiments\n\n\n\n\n\n\nSession 10 - Theory metadata\n\n\nWe learn how to use CFF files and semantic versioning for documenting digital theory objects\n\n\n\n\n\n\nSession 11 - Work on formalization\n\n\nThe groups work on their formalizations\n\n\n\n\n\n\nSession 12 - Final presentations\n\n\nThe groups present their work\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/S10-CFF_semver.html",

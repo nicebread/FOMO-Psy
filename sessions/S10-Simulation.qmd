@@ -1,0 +1,14 @@
+---
+title: Session 10 - How to simulate virtual experiments
+number-sections: false
+description: We practice how to generate data for simulated experiments
+---
+
+# Overview
+
+| Topic                                                           | Duration | Notes                                                               |
+| --------------------------------------------------------------- | -------- | ------------------------------------------------------------------- |
+| How to simulate data from model: **Mathematical Models Step 5** | 120      | [Slides](../lectures/MathModel/MathModel.qmd), Step 5               |
+| Start working on the new formalizations                         | 45       | See also [Overview Formalization Steps](../Formalization_steps.qmd) |                                                                 |          |                                                                     |
+: {.striped}
+

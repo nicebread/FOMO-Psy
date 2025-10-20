@@ -1,0 +1,37 @@
+---
+title: Session 12 - Work on formalization
+number-sections: false
+description: The groups work on their formalizations
+---
+
+# Overview
+
+| Topic                                               | Duration | Notes |
+| --------------------------------------------------- | -------- | ----- |
+| Groups work on their formalization                  | 180      |       |
+: {.striped}
+
+
+# Tasks for today
+
+Work on steps on the remaining steps (8-11) of the [Formalization Steps](../Formalization_steps.qmd).
+You probably won't finish all steps, but the more you achieve, the less you have to do for the final report.
+
+Remember to restrict yourself: Aim for *few* phenomena (ideally, only one) and *simple* theories and models. It gets complicated all by itself!
+
+**Deliverable**: 
+
+- Increase the version (e.g., to `0.3.0`) in the `CITATION.cff` file.
+- Push your current version to the repository.
+- Create a tag, give it the version name (e.g., `v0.3.0`) and write a short description for the release.
+ 
+Do these steps regardless whether the theory object currently is in a "functional state" or still in a messy development version.
+
+
+<!-- # Homework: Read Lange et al (2025)
+
+Lange, J., Freyer, N., Musfeld, P., Schönbrodt, F. D., & Leising, D. (2025, January 10). *A checklist for incentivizing and facilitating good theory building*. [https://doi.org/10.31219/osf.io/7qvfz](https://doi.org/10.31219/osf.io/7qvfz)
+
+Also read the checklist itself: [https://osf.io/bqd4m/](https://osf.io/bqd4m/)
+
+**Deliverable** (one document per group): Evaluate the [checklist](https://osf.io/bqd4m/) for your own theory formalization: If we follow the plan of our course, which quality checks would we pass? Which are not satisfied yet? Upload a short document with answers to these questions into `homework/05-QualityChecklist` of the [Homework Repository]({{< var homework_repo >}}) (e.g., you could use the PDF of the checklist and make annotations into the PDF). -->

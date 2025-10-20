@@ -1,5 +1,5 @@
 ---
-title: "How to formalize a verbal theory with VAST"
+title: "Introduction: How to formalize a verbal theory with VAST"
 subtitle: "Visual Argument Structure Tool (VAST) by Leising, Grenke & Cramer"
 author:
   - name: Daniel Leising
@@ -11,6 +11,7 @@ author:
     email: felix.schoenbrodt@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München
 date: 2024-10-25
+order: 30
 footer: "These slides are part of the course [Formal modeling in psychology](https://nicebread.github.io/FOMO-Psy/) at LMU Munich"
 format: 
   nicetheme-revealjs: 

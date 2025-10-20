@@ -1,0 +1,49 @@
+---
+title: Session 07 - Mathematical Modeling Part 4
+number-sections: true
+description: Empirical calibration + simulated experiments
+---
+
+# Overview
+
+| Topic                                                                      | Duration | Notes                                                    |
+| -------------------------------------------------------------------------- | -------- | -------------------------------------------------------- |
+| Homework wrapup: TCM                                                       | 30       |                                                          |
+| **Lecture**: Intro 2: What is (not) a theory? (catch up from last session) | 90       | [Slides](../lectures/Intro2/Intro2.qmd)                  |
+| Formalization: **Mathematical Models 3**                                   | 60       | [Slides](../lectures/MathModel/MathModel.qmd), Steps 4-5 |
+: {.striped}
+
+
+
+# Homework (individually)
+
+Read: Van Dongen et al. (2024). Productive explanation: A framework for evaluating explanations in psychological science. *Psychological Review*. [https://doi.org/10.1037/rev0000479](https://doi.org/10.1037/rev0000479) (available in the `/literature` folder):
+
+- **Question 1:** What is the role an original authors should play when predictions are derived from a theory?
+<!-- Answer: None. -->
+
+- **Question 2:** Are phenomena, according to Bogen and Woodward, directly observable?
+
+<!-- Answer: No. Although they are *established* by evidence from observations, they transcend any particular set of structured or unstructured data. -->
+
+
+- **Question 3:** What are two intermediate processes that are necessary for providing a productive explanation?
+  <!-- - **Answer:** "Productive explanation provides a clear connection between a verbal theory and a phenomenon through the use of two intermediaries (a) a formal model that is an explication of the theory and (b) a statistical pattern that represents the phenomenon." (Page 5) -->
+
+- **Question 4:** According to the authors, what are the three steps of productive explanation?
+  <!-- - **Answer:** "1. Represent the phenomenon as a statistical pattern, 2. Explicate the verbal theory as a formal model, 3. Evaluate whether the formal model produces the statistical pattern." (Page 5) -->
+
+- **Question 5:** What does the paper identify as a limitation of verbal psychological theories compared to formal models in other scientific disciplines?
+  <!-- - **Answer:** "However, the fact that the theory is purely verbal in character makes it hard to evaluate what exactly is implied by the theory. As a result, it is difficult to assess whether the theory indeed explains a certain phenomenon." (Page 2) -->
+
+- **Question 6:** What criteria are suggested for evaluating the *quality* of explanations in the productive explanation framework?
+  <!-- - **Answer:** "The first criterion, precision, refers to the strength of the theoretical anchor between verbal theory and formal model. The second criterion is robustness: it specifies to what extent the formal models consistent with the verbal theory produce the phenomenon. Finally, empirical relevance captures to what extent the theory is necessary for the explanation of the phenomenon." (Page 9) -->
+
+- **Question 7:** Does Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?
+
+<!-- Answer: 
+With the specifically chosen parameters: Yes. But it "depends on a quite delicate balance between parameters that characterize the interplay between task demand and willpower." 
+ -->
+
+
+**Deliverable**: Submit answers to the guiding questions as a plain text/markdown file to the course's Github repo (go to `homework/04-Productive_explanations` and upload an `.md` file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. 

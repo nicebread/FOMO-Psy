@@ -1,12 +1,14 @@
 ---
-title: "Formal modeling in psychology"
+title: "Formal modeling in psychology: Organizational Stuff"
 subtitle: "Formalia of the course (partly in German)"
 author:
   - name: Felix Schönbrodt
     orcid: 0000-0002-8282-3910
     email: felix.schoenbrodt@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München
-date: 2023-10-20
+date: 2025-10-17
+order: 0
+duration: 20
 footer: "These slides are part of the course [Formal modeling in psychology](https://nicebread.github.io/FOMO-Psy/) at LMU Munich"
 format: 
   nicetheme-revealjs: 
@@ -21,10 +23,11 @@ revealjs-plugins:
 
 ::: {.incremental}
 - Learn skills and tools that aid theory development
-  - Technical: Git, semantic versioning, Netlogo, ...
+  - Technical: Git, semantic versioning, make a theory pbject citeable...
   - Conceptual: 
     - Visual Argument Structure Tool (VAST)
     - Theory Construction Methodology (TCM)
+    - FAIR theories
 - Practice theory formalization with multiple examples
 - Understand the advantages and barriers of formal modeling
   - High likelihood of "failure"!
@@ -41,6 +44,10 @@ Three types of activities:
 
 All slides, homework instructions, etc. are on this website:
 [https://nicebread.github.io/FOMO-Psy/](https://nicebread.github.io/FOMO-Psy/)
+
+Note: Github (where the website is hosted) is using chaching. 
+That means if I update the website, you will *only* see the updates if you 
+actively reload it with Ctrl+R (Win/Linux) or Cmd-R (Mac).
 
 All homework will be submitted to a private Git repo.
 
@@ -115,7 +122,7 @@ Mehr Details im Laufe des Seminars. Wir arbeiten bereits im Seminar auf ihre kon
   - das Engagement
   - die Auseinandersetzung mit den Tools und der Materie der Theoriebildung
   - eine kritische Reflexion des Prozesses
-- Wenn die Theorie, die man sich vorgenommen hat, einfach keine Formalisierung hergibt, dann ist das ein Problem der Theorie (und keine Fehlleistung des Studentys). In dem Fall ...
+- Wenn die Theorie, die man sich vorgenommen hat, einfach keine Formalisierung hergibt, dann ist das ein Problem der Theorie (und keine Fehlleistung auf Seite der Studierenden). In dem Fall ...
   - reflektieren, warum es nicht funktioniert hat
   - was wäre notwendig gewesen, um weiterzukommen
   - die gemachten Schritte und Hürden dokumentieren
@@ -125,7 +132,6 @@ Mehr Details im Laufe des Seminars. Wir arbeiten bereits im Seminar auf ihre kon
 ## Hausarbeit
 ### Bewertungsschema (aktueller Entwurf)
 ![](img/Bewertungsschema.png)
-
 
 
 

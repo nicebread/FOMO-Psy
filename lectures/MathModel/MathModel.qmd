@@ -1,12 +1,12 @@
 ---
 title: "Mathematical Modeling of Psychological Theories"
-subtitle: "Introduction"
 author:
   - name: Felix Schönbrodt
     orcid: 0000-0002-8282-3910
     email: felix.schoenbrodt@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München
 date: 2024-11-08
+order: 50
 footer: "These slides are part of the course [Formal modeling in psychology](https://nicebread.github.io/FOMO-Psy/) at LMU Munich"
 format: 
   nicetheme-revealjs: 
@@ -57,7 +57,7 @@ You can either refer to an actual measurement procedure or simply define a varia
 ### Some guiding questions and heuristics
 
 - Type of variable: continuous, dichotomous, ordinal, categorical?
-- Scale level of measurement ([Stevens's typology](https://en.wikipedia.org/wiki/Level_of_measurement)): <br>Nominal &rarr; Ordinal &rarr; Interval &rarr; Ratio
+<!-- - Scale level of measurement ([Stevens's typology](https://en.wikipedia.org/wiki/Level_of_measurement)): <br>Nominal &rarr; Ordinal &rarr; Interval &rarr; Ratio -->
 - Is the variable naturally bounded? On both sides or only one?
 - How can the numbers be interpreted?
   - Natural/objective scale (e.g. physical distance)
@@ -126,6 +126,7 @@ Two types of parameters:
 
 ::: {.callout-note}
 Virtually all parameters (except natural constants) could be imagined as being free. It is a *choice* to fix some of them in order to simplify the model.
+In our course, we do not attempt to estimate parameters from data. Instead, we will *explore* the behavior of our models under different parameter settings (i.e., a *sensitivity analysis*).
 :::
 
 
@@ -164,7 +165,7 @@ For example, sometimes a theory specifies the general functional form of a relat
 
 <!-- ChatGPRT /Wolfram Alpha prompt
 
-Create a function that maps values of x (which can go from 0 to infinity) to values of y (which goes from 0 to 1). It should start at a high value of y (this starting point should be free parameter of the function), decreases monotonically, and levels out at a certain value > 0 (which should also be a free parameter). A third free parameter is the speed of the decreasing.
+Create a function that maps values of x (which can go from 0 to infinity) to values of y (which goes from 0 to 1). It should start at a high value of y (this starting point should be free parameter of the function), decreases monotonically, and levels out at a certain value >= 0 (which should also be a free parameter). A third free parameter is the speed of the decreasing.
 Provide plots for multiple instances of this function family.
 
  -->

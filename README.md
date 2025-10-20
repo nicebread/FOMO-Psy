@@ -44,7 +44,9 @@ quarto publish gh-pages --no-browser
 To make this website/repository reusable for multiple runs of the course, I define some the course-specific content (e.g. specific links) as parameters in the `_variables.yml` file. This way, I can easily change the content for the next iteration of the course.
 Reference the variables in any .qmd file by using `{{< var var_name >}}`, e.g. `{{< var homework_repo >}}`.
 
-## Link to Zenodo
+On the overview page, the lectures are ordered by the hidden `order` parameter in the YAML frontmatter of each lecture .qmd file.
+
+## Link to Zenodo (to get a doi)
 
 1. Go to Zenodo --> My Account --> Github
 2. Enable the repository for Zenodo (switch it on)
@@ -57,8 +59,4 @@ Reference the variables in any .qmd file by using `{{< var var_name >}}`, e.g. `
 ![](common/Zenodo_related_works.png)
 
 1. Add it to the "fairtheory" community (in the project view (not edit view) -> right sidebar -> "Communities" --> "Submit to community" --> search for "FAIR Theory Community" and select it)
-
-## Resources
-
-- https://github.com/coatless-quarto/r-shinylive-demo
 

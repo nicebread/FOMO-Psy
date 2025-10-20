@@ -1,11 +1,13 @@
 ---
-title: "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis"
+title: "Theory crisis: Jingle jangle jungle & non-robust phenomena"
 author:
   - name: Felix Schönbrodt
     orcid: 0000-0002-8282-3910
     email: felix.schoenbrodt@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München
-date: "2023-10-20"
+date: "2025-10-17"
+order: 10
+duration: 105
 footer: "These slides are part of the course [Formal modeling in psychology](https://nicebread.github.io/FOMO-Psy/) at LMU Munich"
 format: 
   nicetheme-revealjs: 
@@ -68,6 +70,7 @@ Hmel & Pincus ([2002](https://doi.org/10.1111/1467-6494.05006))
 :::
 
 ::: {.notes}
+- "We define grit as perseverance and passion for long-term goals." ([Duckworth & Peterson, 2007](https://www.researchgate.net/profile/Angela-Duckworth/publication/6290064_Grit_Perseverance_and_Passion_for_Long-Term_Goals/links/56c3366c08ae602342507e84/Grit-Perseverance-and-Passion-for-Long-Term-Goals.pdf))
 - Angela Duckworth's speaking fee range is $100,000 or more
 :::
 
@@ -117,7 +120,41 @@ Collect candidates for the *jingle* and the *jangle* fallacy that you encountere
 :::
 
 
+## A modern approach to solve the jingle-jangle problem 
+### ... using LLMs
 
+- Analyzed 4452 items comprising 459 scales, capturing 277 constructs
+- Automated jingle–jangle detection: Assessed the similarity of scales, 
+  - jingle fallacy: high similarity in construct labels associated with low similarity in the associated scales (i.e., content)
+  - jangle fallacy: low similarity in construct labels associated with high similarity in the associated scales (i.e., content).
+- 504 fallacy candidates (340 jingle, 164 jangle)
+
+::: footer
+Wulff, D. U., & Mata, R. (2025). Semantic embeddings reveal and address taxonomic incommensurability in psychological measurement. Nature Human Behaviour, 9(5), 944–954. [https://doi.org/10.1038/s41562-024-02089-y](https://doi.org/10.1038/s41562-024-02089-y).
+:::
+
+
+## A modern approach to solve the jingle-jangle problem 
+
+How many clusters are necessary to compress 459 scales (and how many jingle and jangle fallacies would we have)?
+
+![](img/Wulff_JingleJangle_1.png){fig-align="center"}
+
+::: footer
+Wulff, D. U., & Mata, R. ([2025](https://doi.org/10.1038/s41562-024-02089-y)). Picture from [https://osf.io/nmv29](https://osf.io/nmv29) under CC-BY.
+:::
+
+
+## A modern approach to solve the jingle-jangle problem 
+
+Mapping 459 scales to 68 labels based on a parsimonious solution (compressing to 15%).
+
+![](img/Wulff_JingleJangle_2.png){fig-align="center"}
+
+
+::: footer
+Wulff, D. U., & Mata, R. ([2025](https://doi.org/10.1038/s41562-024-02089-y)). Picture from [https://osf.io/nmv29](https://osf.io/nmv29) under CC-BY.
+:::
 
 
 
@@ -234,6 +271,8 @@ To claim a (robust) phenomenon, you ideally need:
 
 
 ## The relation of data and phenomena
+
+::: {.svg-h100 style="text-align: center;"}
 ```{mermaid}
 %%| fig-width: 6
 %%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
@@ -246,6 +285,7 @@ flowchart LR
   
   linkStyle 1 stroke-width:2px,stroke:red,color:red;
 ```
+:::
 
 Probably most of psychological research is about *establishing phenomena* (disguised as "theories").
 
@@ -264,6 +304,8 @@ See [presentation](https://video.uu.nl/videos/helmholtz-lecture-2023-02-10-prof-
 
 ## The relation of data and phenomena
 ### Prediction
+
+::: {.svg-h100 style="text-align: center;"}
 ```{mermaid}
 %%| fig-width: 6
 %%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
@@ -276,6 +318,7 @@ flowchart LR
   
   linkStyle 0 stroke-width:2px,stroke:red,color:red;
 ```
+:::
 
 Phenomena (once their existence has been established) [predict]{style="color:red"} similar data patterns in new data sets of the *same* operationalization (as in "direct replication") and ideally also for *new* operationalizations (as in "conceptual replication", changing more UTOS dimensions).
 
@@ -312,6 +355,7 @@ See Westfall et al. (2015). Replicating Studies in Which Samples of Participants
 ## Replication crisis
 ### Focus on phenomena
 
+::: {.svg-h100 style="text-align: center;"}
 ```{mermaid}
 %%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
 flowchart LR
@@ -321,6 +365,7 @@ flowchart LR
   P -- "Prediction" --> D
   D -- "Generalization" --> P
 ```
+:::
 
 The concerns of the replication crisis typically referred to the relation between *data* and *phenomena*:
 
@@ -330,7 +375,7 @@ The concerns of the replication crisis typically referred to the relation betwee
 
 ## Replication crisis
 ### Focus on phenomena
-
+::: {.svg-h100 style="text-align: center;"}
 ```{mermaid}
 %%| fig-width: 6
 %%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
@@ -347,6 +392,7 @@ flowchart LR
   linkStyle 2 stroke-width:0px,stroke:grey,color:grey;
   linkStyle 3 stroke-width:2px,stroke:red,color:red;
 ```
+:::
 
 Doubts about phenomena propagate to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete.
 
@@ -358,6 +404,7 @@ Doubts about phenomena propagate to theories: If there is no phenomenon to expla
 
 ## "Addressing the theory crisis in psychology"
 
+::: {.svg-h100 style="text-align: center;"}
 ```{mermaid}
 %%| fig-width: 18
 %%{ init: { 'flowchart': { 'curve': 'natural' } } }%%
@@ -371,6 +418,7 @@ flowchart LR
   P -- "Prediction" --> D
   D -- "Generalization" --> P
 ```
+:::
 
 ::: {.smaller}
 > "We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests. [...] A strong link between theories and hypotheses is best achieved by formalizing theories as computational models."
@@ -396,8 +444,9 @@ Oberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psycholo
 - Relative **lack of robust phenomena** that impose constraints on possible theories
 - These two lead to problems of **validity of psychological constructs** (i.e., do they actually related to the real world?)
 - **Obstacles to discovering causal relationships** between psychological variables
-- Probably the most complex research object in the known universe ...
-- ... and ridiculously small samples.
+- The probably **most complex research object** in the known universe is investigated with...
+  - ... ridiculously small samples and
+  - ... imprecise methods.
 :::
 
 ::: footer
@@ -418,6 +467,7 @@ See Eronen & Bringmann (2021); Slide adapted from [Karolin Salmen](https://www.p
 - Practice with your own theory
 
 
+<!-- TODO: Move these last slides to another presentation? They are a bit an addendum here. -->
 
 # "Der Wirklichkeit Gewalt antun"  {background-color="#40666e"}
 

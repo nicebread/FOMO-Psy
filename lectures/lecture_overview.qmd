@@ -4,12 +4,14 @@ title: "Lectures Overview"
 
 These are all slides used for the “lecture” part of the course:
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
+```{r, echo=FALSE, warning=FALSE, message=FALSE, cache=FALSE}
 # code inspired by https://github.com/ShKlinkenberg/statistics-lectures/blob/master/courses/SSR/2022-2023/SSR.qmd
-files <- list.files(full.names = FALSE, pattern = "\\.qmd", recursive = T)
+# This code is evaluated within the lectures/ subfolder
+# for testing: setwd("lectures")
+files <- list.files(full.names = FALSE, pattern = "\\.qmd", recursive = TRUE)
 
 # exclude the overview file
-files <- files[grep("lecture_overview.qmd", files, invert = TRUE)]
+files <- files[!grepl("lecture_overview.qmd", files)]
 
 lectures <- data.frame()
 n <- length(files)
@@ -22,22 +24,23 @@ for (i in 1:n) {
   
   lectures[i , 'title'] = yaml$title
   lectures[i , 'date'] = yaml$date
+  order <- ifelse(is.null(yaml$order), 999, yaml$order)
+  lectures[i , 'order'] = order  # the manual order in which to display the lectures
   lectures[i , 'file_name'] = files[i]
 }
 
-lecture.list <- data.frame(Date = lectures$date, 
+lectures <- lectures |> dplyr::arrange(order)
+
+lecture.list <- data.frame(
            Lecture = lectures$title,
            Website = paste0('<a href="', gsub(".qmd", ".html", lectures$url, fixed=TRUE), '" target="_blank" class="external">link</a>'),
            Slides  = paste0('<a href="', gsub(".qmd", ".slide.html", lectures$url, fixed=TRUE), '" target="_blank" class="external">link</a>')
           )
 
-# Sort on date
-library("dplyr")
 library('kableExtra')
-
 knitr::kable(
-    dplyr::arrange(lecture.list, desc(Date)), 
-    col.names = c("Date", "Topic", "Slides (as a single website)", "Slides (presentation mode)"),
+    lecture.list, 
+    col.names = c("Topic", "Slides (as a single website)", "Slides (presentation mode)"),
     escape = FALSE
   )
   # For some reasons, kable_styling() escapes the < > html tags

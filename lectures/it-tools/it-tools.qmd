@@ -1,5 +1,5 @@
 ---
-title: "Metadata for Digital Theory Objects"
+title: "Tools for Digital Theory Objects"
 subtitle: "Making Theories FAIR by Version control, CFF citation files & Semantic Versioning"
 author:
   - name: Felix Schönbrodt
@@ -10,7 +10,8 @@ author:
     orcid: 0000-0001-7813-818X
     email: peikert@mpib-berlin.mpg.de
     affiliations: Max Planck Institute for Human Development  
-date: 2025-01-17
+date: 2025-10-17
+order: 60
 footer: "These slides are part of the course [Formal modeling in psychology](https://nicebread.github.io/FOMO-Psy/) at LMU Munich"
 format: 
   nicetheme-revealjs: 
@@ -26,17 +27,30 @@ revealjs-plugins:
 
 # Git Showcase {background-color="#40666e"}
 
+## Git overview
+
+Git is a tool from software development that solves two major challenges:
+
+1. Tracking changes in source code (or any text files)
+   - Keeps a complete version history and allows reverting to previous states.
+   - Enables reproducibility by “freezing” project states (releases, tags).
+2. How to work collaboratively on the same files.
+
 ## Git overview {.stretch}
 ![](img/Git_workflow.jpeg){fig-align='center' style='filter: drop-shadow(6px 6px 8px #555555);'}
 
 ## Git hands-on
 
+::: {.smaller}
 1. Showcase how git works
    - Lecturer creates a private project on [Github](http://github.com/) for this course. This will be the central project for submitting homework.
    - Students create their Github accounts; add them as contributors to the course project.
    - Show how to commit, push, pull changes.
    - Show a merge conflict (make a change in the web frontend and locally) and how to resolve it.
-2. We start the [OSC git tutorial](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/) together to weed out technical hurdles. The rest of tutorial is homework.
+2. We start the [OSC git tutorial](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/) together to weed out technical hurdles. Aim to get until section "Secure the connection between your computer and GitHub". The rest of tutorial is homework until next week.
+   - Note: In chapter "Secure the connection ..." it says "You will then be asked to provide a passphrase. Protecting your keys with a password is optional but highly recommended". I recommend *not* to set a passphrase (just leave it empty), unless you deal with very sensitive data. You will get crazy if you need to enter your passphrase at every SSH operation.
+:::
+
 
 ## Never forget ...
 

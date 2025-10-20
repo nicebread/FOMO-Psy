@@ -1,7 +1,10 @@
 ## Minor todos:
 
-- fix order in lectures table
 - add the term "generative model" at an appropriate place
+
+- Add Lange Checklist somewhere
+- Read Oude Maatman, F. (2021, July 12). Psychology's Theory Crisis, and Why Formal Modelling Cannot Solve It. https://doi.org/10.31234/osf.io/puqvs
+
 
 ## Add folder structure to it-tools lecture
 
@@ -18,13 +21,6 @@ With all relevant files:
 |- manuscript
      |- manuscript.qmd
 
-
-
-## Ablauf Intro 2:
-
-Nächstes Mal zuerst die Bischof-Notation einführen, und dann erst die Unterscheidung zwischen fixed und free parameters.
-Dann kann man das sofort sinnvoll visualisieren.
-Zwei Varianten für fixed parameters: Entweder als hard-coded constant im Block, oder als freier Eingang in einen Block, der aber einen anderen visuellen Stil hat (um klar zumachen, dass es keine Variable ist; z.B. gestrichelt).
 
 
 ## THEORY versioning
@@ -63,7 +59,7 @@ Eiko Fried: https://www.tandfonline.com/doi/full/10.1080/1047840X.2020.1854011
 
 # UTOS generalizability group exercise:
 
-Consider this statement: In a meta-analysis of 80 studies, a strong evidence was found for the phenomenon (d = 0.75, p < .0001). It had over 12,000 participants, therefore we can assume a good generalizability along the U(nits) dimensions.
+Consider this statement: In a meta-analysis of 80 studies, a strong evidence was found for the phenomenon (d = 0.75, p < .0001). It had over 12,000 participants, therefore we can assume a good generalizability along the U(nits) dimension.
 
 Think - Pair - Share.
 

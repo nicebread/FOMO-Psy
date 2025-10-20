@@ -1,20 +1,26 @@
 ---
 title: Session 01 - Introduction
 number-sections: false
-description: Intro to theory 1 - First steps in modeling
+description: Discussing the theory crisis; showcasing Git
 ---
 
 # Overview
 
-| Topic                                                | Duration | Notes                                                                          |
-| ---------------------------------------------------- | -------- | ------------------------------------------------------------------------------ |
-| Introduction                                         | 5        | Instructor introduction                                                          |
-| Introduction of students in the plenum               | 15       | Guiding questions: Name, home town, why chose this Empra. Write your name tag. |
-| Formalia                                             | 20       | [Slides](../lectures/Empra-Orga/Empra-Orga.qmd)                                |
-| **Lecture**: Introduction: Theory crisis             | 90       | [Slides](../lectures/Intro1/FOMO-Psy_1_Theory_crisis.qmd)                      |
-| Wrap up **[Homework 2]**: Smaldino (2013), Chapter 1 | 15       |                                                                                |
-| Git Tutorial troubleshooting                         | 20       |                                                                                |
-| Mini Introduction VAST                               | 30       | [Slides](../lectures/VAST/VAST_Intro.qmd)                                                                 |
+::: {.callout-note collapse="true" title="Instructor notes"}
+- Bring empty name tags and board markers.
+- During the Git intro, create the course's private homework repo. Create the folder `homework/01-Smaldino-chapter`.
+- At the end, collect the name tags (and bring them along next time)
+:::
+
+
+| Topic                                    | Duration | Notes                                                                          |
+| ---------------------------------------- | -------- | ------------------------------------------------------------------------------ |
+| Introduction                             | 5        | Instructor introduction                                                        |
+| Introduction of students in the plenum   | 10       | Guiding questions: Name, home town, why chose this Empra. Write your name tag. |
+| Formalia                                 | 20       | [Slides](../lectures/Empra-Orga/Empra-Orga.qmd)                                |
+| **Lecture**: Introduction: Theory crisis | 100      | [Slides](../lectures/Intro1/FOMO-Psy_1_Theory_crisis.qmd)                      |
+| Git Intro                                | 20       | [Slides 1-6](../lectures/it-tools/it-tools.qmd)                                |
+| Explain homework                         | 10       |                                                                                |
 
 : {.striped}
 
@@ -22,14 +28,17 @@ description: Intro to theory 1 - First steps in modeling
 
 # Homework 1 (individually)
 
-**Goals**: Learn how to `pull`, `commit`, and `push` to Github. Be able to resolve a merge conflict.
+**Learning Goals**: Learn how to `pull`, `commit`, and `push` to Github. Be able to resolve a merge conflict.
+
+**Homework steps**:
 
 1. Create a Github account. (Skip if you have one already).
 2. Send your Github user name to me via email. I will give you access to the course's private *Homework Repository*: [{{< var homework_repo >}}]({{< var homework_repo >}}). (Note: You won't be able to access, clone, or even see the repository until the lecturer has granted you access).
 
-If you are proficient in `git`, you can skip step 3:
+If you are proficient in `git` and Github, you can skip step 3:
 
-3. Do the tutorial ["Introduction to Version Control in R with RStudio, Git, and Github"](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/), **and** complete the follow-up tutorial "[Collaborative coding with GitHub and RStudio](https://lmu-osc.github.io/Collaborative-RStudio-GitHub/)". Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.
+3. Do the tutorial ["Introduction to version Control with git and GitHub within RStudio"](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/), **and** the follow-up tutorial "[Collaborative coding with GitHub and RStudio](https://lmu-osc.github.io/Collaborative-RStudio-GitHub/)". Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.
+    - Note: In chapter "Secure the connection ..." it says "You will then be asked to provide a passphrase. Protecting your keys with a password is optional but highly recommended". I recommend *not* to set a passphrase (just leave it empty), unless you deal with very sensitive data. You will get crazy if you need to enter your passphrase at every SSH operation.
 4. Once you have been granted access to the [Homework Repository]({{< var homework_repo >}}), `clone` the repository to your local machine. (This cannot be done on an iPad or smartphone; you need a computer for that.)
 
 **Deliverable**: 
@@ -72,74 +81,3 @@ You can answer in English or in German. Most questions can be easily answered in
 
 Using `git` for the first time can be challenging. But it's a skill that will pay off in the long run. If you get stuck, and made honest attempts to solve the problems yourself, don't get desperate: Just send me your homework via email, and we will sort it out together in the next session.
 
-
-
-# Homework 3 (individually): Read the VAST paper
-
-Read the VAST paper:
-
-Leising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. *Meta-Psychology*, 7. [https://open.lnu.se/index.php/metapsychology/article/view/2911](https://open.lnu.se/index.php/metapsychology/article/view/2911)
-
-**Deliverable**: Nothing - just read it and understand it.
-
-
-
-# Homework 4 (individually): Your first (mini) VAST display
-
-This homework consists of three steps, A, B, and C:
-
-(A) Read the original definition of the concept "diffusion of responsibility", printed below. Darley and Latané introduced the term in [1968](https://doi.apa.org/doi/10.1037/h0025589), it's even in the title of the publication: "Bystander intervention in emergencies: Diffusion of responsibility."
-
-These are the paragraphs that describe the concept (p. 377f):
-
-> [After introducing the case of Kitty Genovese:] "In certain circumstances, the norms favoring intervention may be weakened, leading bystanders to resolve the conflict in the direction of nonintervention. One of these circumstances may be the presence of other onlookers. For example, in the case above, each observer, by seeing lights and figures in other apartment house windows, knew that others were also watching. However, there was no way to tell how the other observers were reacting. These two facts provide several reasons why any individual may have delayed or failed to help. The responsibility for helping was diffused among the observers; there was also diffusion of any potential blame for not taking action; and finally, it was possible that somebody, unperceived, had already initiated helping action. 
-> 
-> When only one bystander is present in an emergency, if help is to come, it must come from him. Although he may choose to ignore it (out of concern for his personal safety, or desires "not to get involved"), any pressure to intervene focuses uniquely on him. When there are several observers present, however, the pressures to intervene do not focus on any one of the observers; instead the responsibility for intervention is shared among all the onlookers and is not unique to any one. As a result, no one helps. 
-> 
-> A second possibility is that potential blame may be diffused. However much we may wish to think that an individual's moral behavior is divorced from considerations of personal punishment or reward, there is both theory and evidence to the contrary (Aronfreed, 1964; Miller & Bollard, 1941, Whiting & Child, 19S3). It is perfectly reasonable to assume that, under circumstances of group responsibility for a punishable act, the punishment or blame that accrues to any one individual is often slight or nonexistent. 
-> 
-> Finally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that "somebody else must be doing something."
-
-(B) Draw your first (mini) VAST display for the definition of the concept "diffusion of responsibility" with [draw.io](https://app.diagrams.net) (see concrete instructions below under "Deliverable"). As you noted, Darley and Latané provide no explicit section stating "Diffusion of responsibility is defined as ...". Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.
-
-(C) *After* you created your VAST display, read a more recent summary of the concept in the [Dorsch Lexikon der Psychologie](https://dorsch.hogrefe.com/stichwort/diffusion-der-verantwortung), in particular the first and the third (last) paragraph.
-**Write a few sentences, elaborating to what extent this definition is compatible to your own VAST display, and where it deviates.**
-
-<!-- Notes:
-In the Dorsch text, the definition mostly relates to the empirical phenomenon that the helping behavior is diminished. But then the label does not really fit, because this refers to a suggested psychological process with unobservable psychological variables (i.e., the feeling of responsibility). In theory, the empirical phenomenon ("less helping") could be there *without* a decrease in felt responsibility.
-
-One sentence seems to be tautological (at least when you read the label literally): "Die Erklärung der Diffusion der Verantwortung besteht nach Latané und Nida (1981) darin, dass sich Zeugen einer Notlage weniger für eine Intervention verantwortlich fühlen, wenn sie Teil einer Gruppe sind."
-
-Last paragraph: "Neben der Diffusion der Verantwortung trägt auch die pluralistische Ignoranz und die Hemmung durch die Beobachtung durch andere zur Verringerung der Interventionsbereitschaft" -> if "diffusion of responsibility" *IS* "Verringerung der Interventionsbereitschaft", then this sentence is tautological as well.
- -->
-
-
-**Deliverable**:
-For task 4B, save your draw.io VAST diagram in our [Homework Repository]({{< var homework_repo >}}) by choosing "Github" as destination for your file:
-
-![](img/S1_drawio_0.png)
-
-Then choose the Homework Repository:
-
-![](img/S1_drawio_1.png)
-
-... and navigate to the correct homework folder:
-
-![](img/S1_drawio_2.png)
-
-Save the diagram with your name as filename (`homework/02-VAST/YOURNAME.drawio`).
-*Additionally*, save the diagram as a `.png` or `.jpg` file in the same folder (`homework/02-VAST/YOURNAME.png`).
-
-For task 4C, save a file with your answers in the same folder (`homework/02-VAST/YOURNAME.md`). Don't forget to `push` everything to the remote repo.
-
-
-
-<!-- - Reflect with a few sentences: What does the chosen label "diffusion" imply for the process? What analogy does it suggest, and what are the implications if this analogy is taken literally? -->
-
-<!-- 
-Analogy: Diffusion of molecules in gases.
-Possible implications:
-(a) Responsibility is a fixed quantity
-(b) Diffusion means that it flows to all corners of the room until the pressure is equally distributed. Adding more persons to the group is like opening up new adjactent rooms, where the gases diffuse into.
-(c) If the room suddenly gets larger, the gas does not suddenly jump to a uniform distribution - it slowly diffuses to equalize the pressure/concentration of molecules. Is that the same in groups? If you start alone, and then more people are added to the group?
- -->

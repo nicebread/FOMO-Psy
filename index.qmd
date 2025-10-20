@@ -1,6 +1,6 @@
 ---
 title: "FOMO-Psy: Formal Modeling of Psychological Theories"
-subtitle: "A 13-week course"
+subtitle: "Winter term 2025/26, LMU Munich"
 ---
 
 *Note: While most content is in English, some administrative parts are in German.*
@@ -39,9 +39,10 @@ This course requires a higher level of mathematical and formal thinking than typ
 
 ### About theories
 
-- Borsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647
-- Glöckner, A., Fiedler, S., & Renkewitz, F. (2018). Belastbare und effiziente Wissenschaft: Strategische Ausrichtung von Forschungsprozessen als Weg aus der Replikationskrise. Psychologische Rundschau, 69(1), 22–36. https://doi.org/10.1026/0033-3042/a000384
-- Oberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2
+- Borsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., & Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. *Perspectives on Psychological Science, 16(4)*, 756–766. https://doi.org/10.1177/1745691620969647
+- Glöckner, A., Fiedler, S., & Renkewitz, F. (2018). Belastbare und effiziente Wissenschaft: Strategische Ausrichtung von Forschungsprozessen als Weg aus der Replikationskrise. *Psychologische Rundschau, 69(1)*, 22–36. https://doi.org/10.1026/0033-3042/a000384
+- Lange, J., Freyer, N., Musfeld, P., Schönbrodt, F., & Leising, D. (2025). A checklist for incentivizing and facilitating good theory building. *Zeitschrift Für Psychologie*, 2151-2604/a000604. [https://doi.org/10.1027/2151-2604/a000604](https://doi.org/10.1027/2151-2604/a000604)
+- Oberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. *Psychonomic Bulletin & Review, 26(5)*, 1596–1618. https://doi.org/10.3758/s13423-019-01645-2
 - Sutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788
 - Van Dongen, N., Van Bork, R., Finnemann, A., Haslbeck, J. M. B., Van Der Maas, H. L. J., Robinaugh, D. J., De Ron, J., Sprenger, J., & Borsboom, D. (2025). Productive explanation: A framework for evaluating explanations in psychological science. *Psychological Review, 132*(2), 311–329. https://doi.org/10.1037/rev0000479
 

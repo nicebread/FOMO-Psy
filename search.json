@@ -2,301 +2,301 @@
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#where-do-theories-come-from",
     "href": "lectures/VAST/VAST_Intro.slide.html#where-do-theories-come-from",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Where do theories come from?",
     "text": "Where do theories come from?\n\n\n\nFalsificationism starts with a (tentative) theory, which is repeatedly tested, refuted, and refined.\nBut where does the initial theory come from? “Flair”? Flash of inspiration in the shower?\nPopper did not care much about the first stage of creating theories - just about the later testing of theories.\n\nConjecture: We have a refined methodology¹ to test theories (e.g., experimental designs, statistical methods, preregistration, …). But we had (so far) no good methodology for constructing theories.\n\n¹ “A scientific methodology is an ordered series of steps that assist a researcher in reaching a desired end state from a specified starting point.” (Borsboom et al., 2021)\n\n\n\n\n\nSir Karl Popper, 1902 - 1994\n\n\n\n\n“Abduction” actually refers to the process of coming up with a theory."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#introduction",
     "href": "lectures/VAST/VAST_Intro.slide.html#introduction",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Introduction",
     "text": "Introduction\nThis is a brief introduction into some of the core features of VAST. In doing this, I will simplify a few features and ignore others completely.\n\n\n\n\n\n\n\n\nG\n\n\n\nX\n\nX\n\n\n\nY\n\nY\n\n\n\nX-&gt;Y\n\n\np"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#types-of-elements-selection",
     "href": "lectures/VAST/VAST_Intro.slide.html#types-of-elements-selection",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Types of elements (selection)",
     "text": "Types of elements (selection)"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#arrows-stand-for-if-then-relationships",
     "href": "lectures/VAST/VAST_Intro.slide.html#arrows-stand-for-if-then-relationships",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Arrows stand for IF-THEN relationships",
     "text": "Arrows stand for IF-THEN relationships\nIf X, THEN Y\n\n\n\n\n\n\n\n\nG\n\n\n\nX\n\nX\n\n\n\nY\n\nY\n\n\n\nX-&gt;Y\n\n\n\n\n\n\n\n\n\n\n\nSix types of relationships:\n\nnaming (n)\nconceptual implication (i)\ncausation (c)\nprediction (p)\ntransformation (t)\nreasoning (r)"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#naming-concepts",
     "href": "lectures/VAST/VAST_Intro.slide.html#naming-concepts",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Naming concepts",
     "text": "Naming concepts\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"For example, this entire\nsentence here may also\nbe used as a name\nin a VAST display\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\nThe I in the box symbolizes a concept\n\nA concept is an idea about a condition that may or may not apply to certain objects (e.g., people)\nThe labels of concepts (i.e., I) are abstract and basically arbitrary\n\n\nThe n stands for a naming relationship\nA name is a word (or sentence, or paragraph) that is used to describe those objects to which a concept applies. Names (or “labels”) are set in quotation marks \"\" in VAST displays."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#naming-concepts-1",
     "href": "lectures/VAST/VAST_Intro.slide.html#naming-concepts-1",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Naming concepts",
     "text": "Naming concepts\nSynonyms\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\nB_n\n\n\"Bright\"\n\n\n\nI-&gt;B_n\n\n\nn\n\n\n\nS_n\n\n\"Smart\"\n\n\n\nI-&gt;S_n\n\n\nn\n\n\n\n\n\n\n\n\n\nA concept may have any number of names. Here, all three names are synonyms regarding concept I."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#naming-concepts-2",
     "href": "lectures/VAST/VAST_Intro.slide.html#naming-concepts-2",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Naming concepts",
     "text": "Naming concepts\nHomonyms\n\n\n\n\n\n\n\n\nG\n\n\n\nF\n\nF\n\n\n\nB_n\n\n\"Big\"\n\n\n\nF-&gt;B_n\n\n\nn\n\n\n\nT\n\nT\n\n\n\nT-&gt;B_n\n\n\nn\n\n\n\n\n\n\n\n\n\nThis expresses the idea that the same name is used for conditions that may not be the same. This name might thus be a homonym."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#naming-concepts-3",
     "href": "lectures/VAST/VAST_Intro.slide.html#naming-concepts-3",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Naming concepts",
     "text": "Naming concepts\nVisualizing a jingle-jangle situation\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nF\n\nF\n\n\n\nF_n\n\n\"Famous\"\n\n\n\nF-&gt;F_n\n\n\nn\n\n\n\nB_n\n\n\"Big\"\n\n\n\nF-&gt;B_n\n\n\nn\n\n\n\nT\n\nT\n\n\n\nT-&gt;B_n\n\n\nn\n\n\n\nT_n\n\n\"Tall\"\n\n\n\nT-&gt;T_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n“Big” = jingle for F and T\n“Big” and “Famous” = jangle for F"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#data",
     "href": "lectures/VAST/VAST_Intro.slide.html#data",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
     "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nT\n\nT\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nT-&gt;I_n\n\n\nn\n\n\n\nH_n\n\n\"High Test Score\"\n\n\n\nT-&gt;H_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\nData (left box, folder-shaped) is a special kind of concept, which explicitly refers to something observable.\n\nSame as a manifest variable in Structural Equation Modeling\n\nThis display is supposed to capture the idea that “Intelligence is what the intelligence test measures”"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#data-1",
     "href": "lectures/VAST/VAST_Intro.slide.html#data-1",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
     "text": "Data\nSymbol\nNote: In the original VAST paper, the Data concept has a different shape (but that shape is not available in the Graphviz system used to create the graphs in this presentation):"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#data-2",
     "href": "lectures/VAST/VAST_Intro.slide.html#data-2",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
     "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nHighScoreTest1\n\n\"High Score\nin Test 1\"\n\n\n\nHighScoreTest2\n\n\"High Score\nin Test 2\"\n\n\n\nT1\n\nT1\n\n\n\nT1-&gt;HighScoreTest1\n\n\nn  \n\n\n\nI\n\nI\n\n\n\nT1-&gt;I\n\n\nr \n\n\n\nT2\n\nT2\n\n\n\nT2-&gt;HighScoreTest2\n\n\nn  \n\n\n\nT2-&gt;I\n\n\nr \n\n\n\nIntelligent\n\n\"Intelligent\"\n\n\n\nI-&gt;Intelligent\n\n\nn\n\n\n\n\n\n\n\n\n\n\nThe r denotes reasoning relationships\nThis display is supposed to capture the idea that more than one test may be used as evidence for people‘s intelligence"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#data-3",
     "href": "lectures/VAST/VAST_Intro.slide.html#data-3",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
     "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nHighScoreTest1\n\n\"High Score\nin Test 1\"\n\n\n\nHighScoreTest2\n\n\"High Score\nin Test 2\"\n\n\n\nT1\n\nT1\n\n\n\nT1-&gt;HighScoreTest1\n\n\nn  \n\n\n\nT2\n\nT2\n\n\n\nT1-&gt;T2\n\n\n\np  \n\n\n\nT2-&gt;HighScoreTest2\n\n\nn  \n\n\n\nI\n\nI\n\n\n\nI-&gt;T1\n\n\nc \n\n\n\nI-&gt;T2\n\n\nc\n\n\n\nIntelligent\n\n\"Intelligent\"\n\n\n\nI-&gt;Intelligent\n\n\nn\n\n\n\n\n\n\n\n\n\n\nThe p stands for a prediction\nThe c stands for causal effects"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#data-4",
     "href": "lectures/VAST/VAST_Intro.slide.html#data-4",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
     "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nHighScoreTest1\n\n\"High Score\nin Test 1\"\n\n\n\nHighScoreTest2\n\n\"High Score\nin Test 2\"\n\n\n\nT1\n\nT1\n\n\n\nT1-&gt;HighScoreTest1\n\n\nn  \n\n\n\nT2\n\nT2\n\n\n\nT1-&gt;T2\n\n\n\np  \n\n\n\nT2-&gt;HighScoreTest2\n\n\nn  \n\n\n\nI\n\nI\n\n\n\nI-&gt;T1\n\n\nc \n\n\n\nI-&gt;T2\n\n\nc\n\n\n\nIntelligent\n\n\"Intelligent\"\n\n\n\nI-&gt;Intelligent\n\n\nn\n\n\n\n\n\n\n\n\n\nThis display is supposed to capture the idea that …\n\nThe same thing has a causal effect on the outcomes of both tests\nTherefore, the outcomes of the two tests correlate with one another"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#splitting-up-the-display-elements-1",
     "href": "lectures/VAST/VAST_Intro.slide.html#splitting-up-the-display-elements-1",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Splitting up the display elements 1",
     "text": "Splitting up the display elements 1\n\n\n\n\n\n\n\n\nG\n\n\n\nT1\n\nT1\n\n\n\nHighScoreTest1\n\n\"High Score\nin Test 1\"\n\n\n\nT1-&gt;HighScoreTest1\n\n\nn  \n\n\n\nT2\n\nT2\n\n\n\nHighScoreTest2\n\n\"High Score\nin Test 2\"\n\n\n\nT2-&gt;HighScoreTest2\n\n\nn  \n\n\n\nI\n\nI\n\n\n\nIntelligent\n\n\"Intelligent\"\n\n\n\nI-&gt;Intelligent\n\n\nn\n\n\n\n\n\n\n\n\n\nReadability may often be promoted by setting naming relationships aside."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#splitting-up-the-display-elements-2",
     "href": "lectures/VAST/VAST_Intro.slide.html#splitting-up-the-display-elements-2",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Splitting up the display elements 2",
     "text": "Splitting up the display elements 2\n\n\n\n\n\n\n\n\nG\n\n\n\nT1\n\nT1\n\n\n\nHighScoreTest1\n\n\"High Score\nin Test 1\"\n\n\n\nT1-&gt;HighScoreTest1\n\n\nn  \n\n\n\nT2\n\nT2\n\n\n\nHighScoreTest2\n\n\"High Score\nin Test 2\"\n\n\n\nT2-&gt;HighScoreTest2\n\n\nn  \n\n\n\nI\n\nI\n\n\n\nIntelligent\n\n\"Intelligent\"\n\n\n\nI-&gt;Intelligent\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nT1_a\n\nT1\n\n\n\nT2_a\n\nT2\n\n\n\nT1_a-&gt;T2_a\n\n\n\np  \n\n\n\nT1_b\n\nT1\n\n\n\nT2_b\n\nT2\n\n\n\nI\n\nI\n\n\n\nI-&gt;T1_b\n\n\nc\n\n\n\nI-&gt;T2_b\n\n\nc"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#strength-of-relationship",
     "href": "lectures/VAST/VAST_Intro.slide.html#strength-of-relationship",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Strength of relationship",
     "text": "Strength of relationship\n\nDefault interpretation of a directional arrow X → Y: this relationship is considered relevant and positive (i.e., the more X the more Y)\nRelationship strength can be expressed with a number between -1 (perfect negative relationship), 0 (no relationship), and 1 (perfect positive relationship)\n\nIf no number is explicitly specified: default relationship strength is “&gt; 0”\n\nThe strength of a relationship can also be expressed in a vague verbal way, e.g., “strong”, “weak”, “negative”, …\nThe relationship strength can be applied to any relationship type:\n\ntype p: “wearing glasses” makes it 70 percent likely for a person to also be “smart”\ntype r: It is 90 percent reasonable to assume someone “is in love with you” when that person “giggles a lot while talking to you”\ntype c: being “obese” makes it 50 percent likely for someone to develop “Diabetes Type II” as a consequence"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#fuzziness-as-a-feature",
     "href": "lectures/VAST/VAST_Intro.slide.html#fuzziness-as-a-feature",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Fuzziness as a feature",
     "text": "Fuzziness as a feature\n\nThe goal are precise theories - but in reality, they often are (at least partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”, “&gt;0.5”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps, underspecifications, and inconsistencies in the theory"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#notes-on-the-different-types-of-relationships",
     "href": "lectures/VAST/VAST_Intro.slide.html#notes-on-the-different-types-of-relationships",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Notes on the different types of relationships",
     "text": "Notes on the different types of relationships\n\nRelationships between constructs can be …\n\non a theoretical level. Then it’s typically a causal path (c)\non empirical level: A relationship has been found! This is a prediction path (p)\nResearch cycle: One author’s exploratory p-path is the next author’s theoretical c-path\n\nConsider what you want to formalize:\n\nA certain author’s theoretical point of view at a certain point in time?\nOr your personal, current point of view?\nThe empirical support for a statement?"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this",
     "href": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": " Exercise: How would you interpret this?",
     "text": "Exercise: How would you interpret this?"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this-1",
     "href": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this-1",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": " Exercise: How would you interpret this?",
     "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira is assumes that she has presented Robert’s and Ayse’s views correctly (with strength &gt; 0.5, which is the default for IS and OUGHT elements). This implies that these two have different and incompatible statements about the single causal effect on I.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira is certain (relationship strength = -1) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#contact",
     "href": "lectures/VAST/VAST_Intro.slide.html#contact",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html",
     "href": "lectures/VAST/VAST_Intro.html",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "",
     "text": "Falsificationism starts with a (tentative) theory, which is repeatedly tested, refuted, and refined.\nBut where does the initial theory come from? “Flair”? Flash of inspiration in the shower?\nPopper did not care much about the first stage of creating theories - just about the later testing of theories.\n\nConjecture: We have a refined methodology¹ to test theories (e.g., experimental designs, statistical methods, preregistration, …). But we had (so far) no good methodology for constructing theories.\n\n¹ “A scientific methodology is an ordered series of steps that assist a researcher in reaching a desired end state from a specified starting point.” (Borsboom et al., 2021)\n\n\n\n\n\nSir Karl Popper, 1902 - 1994\n\n\n\n\n\n“Abduction” actually refers to the process of coming up with a theory."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#where-do-theories-come-from",
     "href": "lectures/VAST/VAST_Intro.html#where-do-theories-come-from",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "",
     "text": "Falsificationism starts with a (tentative) theory, which is repeatedly tested, refuted, and refined.\nBut where does the initial theory come from? “Flair”? Flash of inspiration in the shower?\nPopper did not care much about the first stage of creating theories - just about the later testing of theories.\n\nConjecture: We have a refined methodology¹ to test theories (e.g., experimental designs, statistical methods, preregistration, …). But we had (so far) no good methodology for constructing theories.\n\n¹ “A scientific methodology is an ordered series of steps that assist a researcher in reaching a desired end state from a specified starting point.” (Borsboom et al., 2021)\n\n\n\n\n\nSir Karl Popper, 1902 - 1994\n\n\n\n\n\n“Abduction” actually refers to the process of coming up with a theory."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#introduction",
     "href": "lectures/VAST/VAST_Intro.html#introduction",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Introduction",
     "text": "Introduction\nThis is a brief introduction into some of the core features of VAST. In doing this, I will simplify a few features and ignore others completely.\n\n\n\n\n\n\n\n\nG\n\n\n\nX\n\nX\n\n\n\nY\n\nY\n\n\n\nX-&gt;Y\n\n\np"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#types-of-elements-selection",
     "href": "lectures/VAST/VAST_Intro.html#types-of-elements-selection",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Types of elements (selection)",
     "text": "Types of elements (selection)"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#arrows-stand-for-if-then-relationships",
     "href": "lectures/VAST/VAST_Intro.html#arrows-stand-for-if-then-relationships",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Arrows stand for IF-THEN relationships",
     "text": "Arrows stand for IF-THEN relationships\n\nIf X, THEN Y\n\n\n\n\n\n\n\n\nG\n\n\n\nX\n\nX\n\n\n\nY\n\nY\n\n\n\nX-&gt;Y\n\n\n\n\n\n\n\n\n\n\n\nSix types of relationships:\n\nnaming (n)\nconceptual implication (i)\ncausation (c)\nprediction (p)\ntransformation (t)\nreasoning (r)"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#naming-concepts",
     "href": "lectures/VAST/VAST_Intro.html#naming-concepts",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Naming concepts",
     "text": "Naming concepts\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"For example, this entire\nsentence here may also\nbe used as a name\nin a VAST display\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n\nThe I in the box symbolizes a concept\n\nA concept is an idea about a condition that may or may not apply to certain objects (e.g., people)\nThe labels of concepts (i.e., I) are abstract and basically arbitrary\n\n\nThe n stands for a naming relationship\nA name is a word (or sentence, or paragraph) that is used to describe those objects to which a concept applies. Names (or “labels”) are set in quotation marks \"\" in VAST displays."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#naming-concepts-1",
     "href": "lectures/VAST/VAST_Intro.html#naming-concepts-1",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Naming concepts",
     "text": "Naming concepts\n\nSynonyms\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\nB_n\n\n\"Bright\"\n\n\n\nI-&gt;B_n\n\n\nn\n\n\n\nS_n\n\n\"Smart\"\n\n\n\nI-&gt;S_n\n\n\nn\n\n\n\n\n\n\n\n\n\nA concept may have any number of names. Here, all three names are synonyms regarding concept I."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#naming-concepts-2",
     "href": "lectures/VAST/VAST_Intro.html#naming-concepts-2",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Naming concepts",
     "text": "Naming concepts\n\nHomonyms\n\n\n\n\n\n\n\n\nG\n\n\n\nF\n\nF\n\n\n\nB_n\n\n\"Big\"\n\n\n\nF-&gt;B_n\n\n\nn\n\n\n\nT\n\nT\n\n\n\nT-&gt;B_n\n\n\nn\n\n\n\n\n\n\n\n\n\nThis expresses the idea that the same name is used for conditions that may not be the same. This name might thus be a homonym."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#naming-concepts-3",
     "href": "lectures/VAST/VAST_Intro.html#naming-concepts-3",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Naming concepts",
     "text": "Naming concepts\n\nVisualizing a jingle-jangle situation\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nF\n\nF\n\n\n\nF_n\n\n\"Famous\"\n\n\n\nF-&gt;F_n\n\n\nn\n\n\n\nB_n\n\n\"Big\"\n\n\n\nF-&gt;B_n\n\n\nn\n\n\n\nT\n\nT\n\n\n\nT-&gt;B_n\n\n\nn\n\n\n\nT_n\n\n\"Tall\"\n\n\n\nT-&gt;T_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n“Big” = jingle for F and T\n“Big” and “Famous” = jangle for F"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#data",
     "href": "lectures/VAST/VAST_Intro.html#data",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
     "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nT\n\nT\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nT-&gt;I_n\n\n\nn\n\n\n\nH_n\n\n\"High Test Score\"\n\n\n\nT-&gt;H_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\nData (left box, folder-shaped) is a special kind of concept, which explicitly refers to something observable.\n\nSame as a manifest variable in Structural Equation Modeling\n\nThis display is supposed to capture the idea that “Intelligence is what the intelligence test measures”"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#data-1",
     "href": "lectures/VAST/VAST_Intro.html#data-1",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
     "text": "Data\n\nSymbol\nNote: In the original VAST paper, the Data concept has a different shape (but that shape is not available in the Graphviz system used to create the graphs in this presentation):"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#data-2",
     "href": "lectures/VAST/VAST_Intro.html#data-2",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
     "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nHighScoreTest1\n\n\"High Score\nin Test 1\"\n\n\n\nHighScoreTest2\n\n\"High Score\nin Test 2\"\n\n\n\nT1\n\nT1\n\n\n\nT1-&gt;HighScoreTest1\n\n\nn  \n\n\n\nI\n\nI\n\n\n\nT1-&gt;I\n\n\nr \n\n\n\nT2\n\nT2\n\n\n\nT2-&gt;HighScoreTest2\n\n\nn  \n\n\n\nT2-&gt;I\n\n\nr \n\n\n\nIntelligent\n\n\"Intelligent\"\n\n\n\nI-&gt;Intelligent\n\n\nn\n\n\n\n\n\n\n\n\n\n\nThe r denotes reasoning relationships\nThis display is supposed to capture the idea that more than one test may be used as evidence for people‘s intelligence"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#data-3",
     "href": "lectures/VAST/VAST_Intro.html#data-3",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
     "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nHighScoreTest1\n\n\"High Score\nin Test 1\"\n\n\n\nHighScoreTest2\n\n\"High Score\nin Test 2\"\n\n\n\nT1\n\nT1\n\n\n\nT1-&gt;HighScoreTest1\n\n\nn  \n\n\n\nT2\n\nT2\n\n\n\nT1-&gt;T2\n\n\n\np  \n\n\n\nT2-&gt;HighScoreTest2\n\n\nn  \n\n\n\nI\n\nI\n\n\n\nI-&gt;T1\n\n\nc \n\n\n\nI-&gt;T2\n\n\nc\n\n\n\nIntelligent\n\n\"Intelligent\"\n\n\n\nI-&gt;Intelligent\n\n\nn\n\n\n\n\n\n\n\n\n\n\nThe p stands for a prediction\nThe c stands for causal effects"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#data-4",
     "href": "lectures/VAST/VAST_Intro.html#data-4",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
     "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nHighScoreTest1\n\n\"High Score\nin Test 1\"\n\n\n\nHighScoreTest2\n\n\"High Score\nin Test 2\"\n\n\n\nT1\n\nT1\n\n\n\nT1-&gt;HighScoreTest1\n\n\nn  \n\n\n\nT2\n\nT2\n\n\n\nT1-&gt;T2\n\n\n\np  \n\n\n\nT2-&gt;HighScoreTest2\n\n\nn  \n\n\n\nI\n\nI\n\n\n\nI-&gt;T1\n\n\nc \n\n\n\nI-&gt;T2\n\n\nc\n\n\n\nIntelligent\n\n\"Intelligent\"\n\n\n\nI-&gt;Intelligent\n\n\nn\n\n\n\n\n\n\n\n\n\nThis display is supposed to capture the idea that …\n\nThe same thing has a causal effect on the outcomes of both tests\nTherefore, the outcomes of the two tests correlate with one another"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#splitting-up-the-display-elements-1",
     "href": "lectures/VAST/VAST_Intro.html#splitting-up-the-display-elements-1",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Splitting up the display elements 1",
     "text": "Splitting up the display elements 1\n\n\n\n\n\n\n\n\nG\n\n\n\nT1\n\nT1\n\n\n\nHighScoreTest1\n\n\"High Score\nin Test 1\"\n\n\n\nT1-&gt;HighScoreTest1\n\n\nn  \n\n\n\nT2\n\nT2\n\n\n\nHighScoreTest2\n\n\"High Score\nin Test 2\"\n\n\n\nT2-&gt;HighScoreTest2\n\n\nn  \n\n\n\nI\n\nI\n\n\n\nIntelligent\n\n\"Intelligent\"\n\n\n\nI-&gt;Intelligent\n\n\nn\n\n\n\n\n\n\n\n\n\nReadability may often be promoted by setting naming relationships aside."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#splitting-up-the-display-elements-2",
     "href": "lectures/VAST/VAST_Intro.html#splitting-up-the-display-elements-2",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Splitting up the display elements 2",
     "text": "Splitting up the display elements 2\n\n\n\n\n\n\n\n\nG\n\n\n\nT1\n\nT1\n\n\n\nHighScoreTest1\n\n\"High Score\nin Test 1\"\n\n\n\nT1-&gt;HighScoreTest1\n\n\nn  \n\n\n\nT2\n\nT2\n\n\n\nHighScoreTest2\n\n\"High Score\nin Test 2\"\n\n\n\nT2-&gt;HighScoreTest2\n\n\nn  \n\n\n\nI\n\nI\n\n\n\nIntelligent\n\n\"Intelligent\"\n\n\n\nI-&gt;Intelligent\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nT1_a\n\nT1\n\n\n\nT2_a\n\nT2\n\n\n\nT1_a-&gt;T2_a\n\n\n\np  \n\n\n\nT1_b\n\nT1\n\n\n\nT2_b\n\nT2\n\n\n\nI\n\nI\n\n\n\nI-&gt;T1_b\n\n\nc\n\n\n\nI-&gt;T2_b\n\n\nc"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#strength-of-relationship",
     "href": "lectures/VAST/VAST_Intro.html#strength-of-relationship",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Strength of relationship",
     "text": "Strength of relationship\n\nDefault interpretation of a directional arrow X → Y: this relationship is considered relevant and positive (i.e., the more X the more Y)\nRelationship strength can be expressed with a number between -1 (perfect negative relationship), 0 (no relationship), and 1 (perfect positive relationship)\n\nIf no number is explicitly specified: default relationship strength is “&gt; 0”\n\nThe strength of a relationship can also be expressed in a vague verbal way, e.g., “strong”, “weak”, “negative”, …\nThe relationship strength can be applied to any relationship type:\n\ntype p: “wearing glasses” makes it 70 percent likely for a person to also be “smart”\ntype r: It is 90 percent reasonable to assume someone “is in love with you” when that person “giggles a lot while talking to you”\ntype c: being “obese” makes it 50 percent likely for someone to develop “Diabetes Type II” as a consequence"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#fuzziness-as-a-feature",
     "href": "lectures/VAST/VAST_Intro.html#fuzziness-as-a-feature",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Fuzziness as a feature",
     "text": "Fuzziness as a feature\n\nThe goal are precise theories - but in reality, they often are (at least partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”, “&gt;0.5”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps, underspecifications, and inconsistencies in the theory"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#notes-on-the-different-types-of-relationships",
     "href": "lectures/VAST/VAST_Intro.html#notes-on-the-different-types-of-relationships",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Notes on the different types of relationships",
     "text": "Notes on the different types of relationships\n\nRelationships between constructs can be …\n\non a theoretical level. Then it’s typically a causal path (c)\non empirical level: A relationship has been found! This is a prediction path (p)\nResearch cycle: One author’s exploratory p-path is the next author’s theoretical c-path\n\nConsider what you want to formalize:\n\nA certain author’s theoretical point of view at a certain point in time?\nOr your personal, current point of view?\nThe empirical support for a statement?"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this",
     "href": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": " Exercise: How would you interpret this?",
     "text": "Exercise: How would you interpret this?"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this-1",
     "href": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this-1",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": " Exercise: How would you interpret this?",
     "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira is assumes that she has presented Robert’s and Ayse’s views correctly (with strength &gt; 0.5, which is the default for IS and OUGHT elements). This implies that these two have different and incompatible statements about the single causal effect on I.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira is certain (relationship strength = -1) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#contact",
     "href": "lectures/VAST/VAST_Intro.html#contact",
-    "title": "How to formalize a verbal theory with VAST",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
@@ -555,469 +555,469 @@
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-jingle-jangle-problem",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-jingle-jangle-problem",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The Jingle-Jangle Problem",
     "text": "The Jingle-Jangle Problem\n\n“Almost a century ago, it was remarked by a Professor Aikins that the science of psychology frequently manifests what he called ‘the jingle fallacy,’ a circumstance wherein two things that are quite different may be labeled equivalently, and thus the unwary may consider them interchangeable” (Block, 1995, p. 209)\n\n\n\nThe jangle fallacy: “two separate words or expressions covering in fact the same basic situation, but sounding different, as though they were in truth different” (Kelley, 1927, p. 64)\n\n\n\nThorndike (1904); Kelley (1927); Block (1995)"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#an-example-for-the-jingle-problem",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#an-example-for-the-jingle-problem",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "An Example for the Jingle Problem",
     "text": "An Example for the Jingle Problem\nAutonomy\n\n” … at least three views of autonomy appear to be present in the current autonomy literature [and] autonomy measures are not assessing the same construct” (Hmel & Pincus, 2002)\n\n\nAutonomy\\(_1\\): A cognitive vulnerability associated with depression\n\n“… lacks the essential agentic core that would be necessary for an autonomy construct. […] it is inconsistent with conceptualizations of autonomy and in need of a label more consistent with its nature”\n\nAutonomy\\(_2\\): Self (auto) – governance (nomous)\nAutonomy\\(_3\\): Emphasis on interpersonal separation\n\nAll three are labeled “autonomy” in the literature!\n\nHmel & Pincus (2002)"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#an-example-for-the-jangle-problem",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#an-example-for-the-jangle-problem",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "An Example for the Jangle Problem",
     "text": "An Example for the Jangle Problem\nGrit = ???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n“Grit is not only an excellent predictor of success and performance but also the secret to success” - Duckworth et al. (2007)\n\n\n\n\n“We define grit as perseverance and passion for long-term goals.” (Duckworth & Peterson, 2007)\nAngela Duckworth’s speaking fee range is $100,000 or more"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#an-example-for-the-jangle-problem-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#an-example-for-the-jangle-problem-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "An Example for the Jangle Problem",
     "text": "An Example for the Jangle Problem\nGrit = Conscientiousness (Big 5 dimension)\n\n“the best available evidence strongly suggests that grit is largely a repackaging of conscientiousness — a widely studied personality trait” (Credé, 2018)\n“Given the long history of research on conscientiousness and the better measures of it (compared to scales frequently used to measure grit) we believe that it would be better to …\n\nstop measuring grit with the Grit-S questionnaire\nstop examining grit and rather continue to explore conscientiousness.” (paraphrased from Ponnock et al., 2020)\n\n\n\nCredé (2018); Ponnock et al. (2020);"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-jingle-jangle-problem-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-jingle-jangle-problem-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The Jingle-Jangle Problem",
     "text": "The Jingle-Jangle Problem\nThese jingle and jangle fallacies waste scientific time:\n\nJingle creates confusion and unncessary dispute (“No, the true meaning of autonomy is …”).\nJangle involves useless redundancies, that lead to the …\n\nreinvention of constructs under new labels\ndecades of parallel literatures\n(To what extent) are two theories actually the same theory?\n\n→ both slow down cumulative knowledge.\n\n\nparaphrased from Block (1995)"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#group-work-10-min.",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#group-work-10-min.",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": " Group work (10 min.)",
     "text": "Group work (10 min.)\nCollect candidates for the jingle and the jangle fallacy that you encountered during your studies.\n\n\n\n\n\n\n\nReminder\n\n\n\nJingle = the same term for two (or more) distinct phenomena\nJangle = different terms for the same underlying phenomenon"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#a-modern-approach-to-solve-the-jingle-jangle-problem",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#a-modern-approach-to-solve-the-jingle-jangle-problem",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "A modern approach to solve the jingle-jangle problem",
     "text": "A modern approach to solve the jingle-jangle problem\n… using LLMs\n\nAnalyzed 4452 items comprising 459 scales, capturing 277 constructs\nAutomated jingle–jangle detection: Assessed the similarity of scales,\n\njingle fallacy: high similarity in construct labels associated with low similarity in the associated scales (i.e., content)\njangle fallacy: low similarity in construct labels associated with high similarity in the associated scales (i.e., content).\n\n504 fallacy candidates (340 jingle, 164 jangle)\n\n\nWulff, D. U., & Mata, R. (2025). Semantic embeddings reveal and address taxonomic incommensurability in psychological measurement. Nature Human Behaviour, 9(5), 944–954. https://doi.org/10.1038/s41562-024-02089-y."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#a-modern-approach-to-solve-the-jingle-jangle-problem-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#a-modern-approach-to-solve-the-jingle-jangle-problem-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "A modern approach to solve the jingle-jangle problem",
     "text": "A modern approach to solve the jingle-jangle problem\nHow many clusters are necessary to compress 459 scales (and how many jingle and jangle fallacies would we have)?\n\n\nWulff, D. U., & Mata, R. (2025). Picture from https://osf.io/nmv29 under CC-BY."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#a-modern-approach-to-solve-the-jingle-jangle-problem-2",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#a-modern-approach-to-solve-the-jingle-jangle-problem-2",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "A modern approach to solve the jingle-jangle problem",
     "text": "A modern approach to solve the jingle-jangle problem\nMapping 459 scales to 68 labels based on a parsimonious solution (compressing to 15%).\n\n\nWulff, D. U., & Mata, R. (2025). Picture from https://osf.io/nmv29 under CC-BY."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-relation-of-theory-phenomena-and-data",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-relation-of-theory-phenomena-and-data",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The relation of theory, phenomena, and data",
     "text": "The relation of theory, phenomena, and data\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\n(We will discuss this model in detail in the next session)\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-relation-of-data-and-phenomena",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-relation-of-data-and-phenomena",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The relation of data and phenomena",
     "text": "The relation of data and phenomena\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories. In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona). Also called a “finding”.\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-relation-of-data-and-phenomena-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-relation-of-data-and-phenomena-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The relation of data and phenomena",
     "text": "The relation of data and phenomena\nGeneralization\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\n\nData provide evidence for the existence of empirical phenomena: You generalize from one or more data sets with strong evidence to a general phenomenon.\nGeneralize to what? UTOS framework:\n\nUnits (i.e., sample characteristics): To which other types of tested units does it generalize?\nTreatments: Does it generalize to other operationalizations of the independent variable/treatment?\nOutcomes: Does it generalize to other operationalizations of the dependent variable/outcome?\nSettings: Does it generalize to other settings, e.g. lab vs. field, other countries?\n\n\n\nUTOS framework from Cronbach & Shapiro (1982); for an update to “M-STOUT”, including mechanims and time, see Findley et al. (2021)."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-relation-of-data-and-phenomena-2",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-relation-of-data-and-phenomena-2",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The relation of data and phenomena",
     "text": "The relation of data and phenomena\nGeneralization\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\n\nTo claim a (robust) phenomenon, you ideally need:\n\nIndependent replications with the same operationalizations (U, maybe S is varied): Often called “direct”, “exact”, or “close” replications\nReplications with different operationalizations (UTOS is varied): Often called “conceptual” replications"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-relation-of-data-and-phenomena-3",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-relation-of-data-and-phenomena-3",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The relation of data and phenomena",
     "text": "The relation of data and phenomena\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\nProbably most of psychological research is about establishing phenomena (disguised as “theories”).\nTechniques used to detect data patterns:\n\nFactor analysis\nPrincipal components analysis\nRegression\nANOVA\n…\n\n\nSee presentation of Denny Borsboom"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-relation-of-data-and-phenomena-4",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-relation-of-data-and-phenomena-4",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The relation of data and phenomena",
     "text": "The relation of data and phenomena\nPrediction\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 0 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\nPhenomena (once their existence has been established) predict similar data patterns in new data sets of the same operationalization (as in “direct replication”) and ideally also for new operationalizations (as in “conceptual replication”, changing more UTOS dimensions)."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#interlude-the-risky-shift-phenomenon-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#interlude-the-risky-shift-phenomenon-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Interlude: The risky shift phenomenon 1",
     "text": "Interlude: The risky shift phenomenon 1\n\nThe risky shift phenomenon: A group’s decisions are riskier than the average of the individual decisions of members before the group met (i.e., the group discussion made individuals riskier).\n\nArea of very active research in social psychology in the 1960s.\n“It could be easily replicated. Most of the replication studies […] employed the CDQ [Choice Dilemma Questionnaire] as their stimulus set, and they generally had no trouble obtaining the basic risky shift result.”\nToday we know that there is no risky shift. “It is now clear that the items contained in the original CDQ are in no sense a representative sample of the universe of all possible items. Instruments similar to the CDQ could readily be constructed whose scores would display risky shifts, cautious ones, or none at all” (Cartwright, 1971, p. 368).\nIn the early risky shift literature, theoretical progress was unnecessarily impeded by multiple generations of replication studies (k ⋍ 200), nearly all relying on the same CQD questionnaire.\n\n\n\nSee Westfall et al. (2015). Replicating Studies in Which Samples of Participants Respond to Samples of Stimuli. Perspectives on Psychological Science, 10(3), 390–399. https://doi.org/10.1177/1745691614564879"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#interlude-the-risky-shift-phenomenon-2",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#interlude-the-risky-shift-phenomenon-2",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Interlude: The risky shift phenomenon 2",
     "text": "Interlude: The risky shift phenomenon 2\n Questions for discussion (10 min.):\n\nAnalyse the situation in the UTOS dimensions (units, treatments, outcomes, settings): To which dimensions did the successful replications (not) refer to?\nIs the “risky shift” effect - as demonstrated in the early publications - a phenomenon?\n\n\nMy take: It is a phenomenon (though a weak one), as it generalizes to new units (i.e., new participants) of the same operationalization. But the generalizability was much weaker than initially expected. It is a phenomenon of this specific stimulus set (outcome operationalization) and suggests certain types of research questions (e.g., “What is so specific to this stimulus set?”)."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#replication-crisis",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#replication-crisis",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Replication crisis",
     "text": "Replication crisis\nFocus on phenomena\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nThe concerns of the replication crisis typically referred to the relation between data and phenomena:\n\nDoes an empirical pattern even exist? (Or is it a false positive?)\nIf we found a reproducible pattern with a specific operationalization: Is it generalizable (to other measures, other cultural contexts, other samples)?\nDo we even have a phenomenon in a particular research line? And how strongly should we belief in the existence of a phenomenon, given the empirical evidence?"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#replication-crisis-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#replication-crisis-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Replication crisis",
     "text": "Replication crisis\nFocus on phenomena\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(?? Phenomena ??)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"??\" --&gt; D\n  D -. \"?? Generalization ??\" .-&gt; P\n  \n  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;\n  linkStyle 3 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\nDoubts about phenomena propagate to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#reimagining-psychology-as-a-science",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#reimagining-psychology-as-a-science",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Reimagining psychology as a science",
     "text": "Reimagining psychology as a science"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#addressing-the-theory-crisis-in-psychology",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#addressing-the-theory-crisis-in-psychology",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "“Addressing the theory crisis in psychology”",
     "text": "“Addressing the theory crisis in psychology”\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\n\n\n“We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests. […] A strong link between theories and hypotheses is best achieved by formalizing theories as computational models.”\n“Many of these proposals [i.e., method reforms] are helpful ideas for raising the standards of good research practice, primarily ensuring more trustworthy inferences on the empirical level of scientific inference — the level connecting observations to empirical generalizations. Our concern is that shoring up the strength of inferences on the empirical level does not by itself address deficits on the theory level — the level connecting empirical generalizations to theories.”\n\nOberauer & Lewandowsky (2019)\n\n\n\n\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#summary-challenges-to-building-useful-theories-in-psychology",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#summary-challenges-to-building-useful-theories-in-psychology",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Summary: Challenges to building useful theories in psychology",
     "text": "Summary: Challenges to building useful theories in psychology\n\nProblems of theoretical precision of psychological constructs (jingle-jangle)\nRelative lack of robust phenomena that impose constraints on possible theories\nThese two lead to problems of validity of psychological constructs (i.e., do they actually related to the real world?)\nObstacles to discovering causal relationships between psychological variables\nThe probably most complex research object in the known universe is investigated with…\n\n… ridiculously small samples and\n… imprecise methods.\n\n\n\nSee Eronen & Bringmann (2021); Slide adapted from Karolin Salmen, CC-BY"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#outlook-how-we-will-try-to-make-it-better",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#outlook-how-we-will-try-to-make-it-better",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Outlook: How we will try to make it better …",
     "text": "Outlook: How we will try to make it better …\n\nLearn to use the Visual Argument Structure Tool (VAST)\n\nClear labels, that denote a precise latent construct.\nA consensus about the meaning of words helps to communicate within and beyond the scientific community.\nConceptual precision increases its ability to be criticized\n\nLearn how to formalize verbal theories\n\nMathematical models\nAgent-based models (ABMs)\n\nSimulate the models: Are they able to produce the phenomena we observe in the data?\nPractice with your own theory"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "“Der Wirklichkeit Gewalt antun”",
     "text": "“Der Wirklichkeit Gewalt antun”\n\n\n\n“Die Wahrheit liegt in der uns umgebenden Wirklichkeit unmittelbar vor uns. Diese können wir aber unverändert nicht gebrauchen. Eine lückenlose Beschreibung der Wirklichkeit wäre zugleich das wahrste und unnützste Ding von der Welt und gewiß keine Wissenschaft. Wir müssen der Wirklichkeit und damit der Wahrheit Gewalt antun, wenn wir sie wissenschaftlich verwerten wollen. Wir müssen die Unterscheidung von wesentlich und unwesentlich einführen, die es in der ganzen Natur nicht gibt. In ihr ist alles gleich wesentlich. Indem wir die uns wesentlich erscheinenden Zusammenhänge aufsuchen, ordnen wir zugleich den Stoff übersichtlich. Dann treiben wir Wissenschaft.”\n(von Uexküll, 1909, S. 58)\n\n\n\n\n\n\n\n\n\nvon Uexküll, J. (1909). Umwelt und Innenwelt der Tiere. Berlin: J. Springer, p. 58. Quote found in Smaldino (2023)"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-2",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-2",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "“Der Wirklichkeit Gewalt antun”",
     "text": "“Der Wirklichkeit Gewalt antun”"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-3",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-3",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "“Der Wirklichkeit Gewalt antun”",
     "text": "“Der Wirklichkeit Gewalt antun”"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-4",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-4",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "“Der Wirklichkeit Gewalt antun”",
     "text": "“Der Wirklichkeit Gewalt antun”\n\n\n\n\n\nWe want to distill those concepts that are most useful to explain parts of the human psyche.\n(We will learn later what „explain“ means).\nThese concepts are tools that guide our attention towards certain features, which we might not have seen before.\nThey help us to organize our language and our reasoning about people."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-map-and-the-territory",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-map-and-the-territory",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The map and the territory",
     "text": "The map and the territory\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s not confuse the map with the territory!\n\nparaphrased from Alfred Korzybski (1933) “Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics”\n\n\nKorzybski warned against confusing our mental models of the world with the world itself, a mistake he believed was at the root of much human suffering."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-map-and-the-territory-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-map-and-the-territory-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The map and the territory",
     "text": "The map and the territory\n\n„A language is like a map; it is not the territory represented, but it may be a good map or a bad map. If the map shows a different structure from the territory represented […] then the map is worse than useless, as it misinforms and leads astray. One who made use of it could never be certain of reaching his destination.“ (Korzybski, 1933, p. 375)"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#models-vs-reality",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#models-vs-reality",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Models vs Reality",
     "text": "Models vs Reality\n\n\nAll models are wrong, but some models are useful.\n\n\n\n\nGeorg Box (1919 - 2013)\n\n\n\n\nImage CC-BY-SA 3.0 by DavidMCEddy (Wikimedia Commons)"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#useful-for-a-specific-purpose-not-true",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#useful-for-a-specific-purpose-not-true",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Useful (for a specific purpose), not true",
     "text": "Useful (for a specific purpose), not true\n\n\n“His design for a London underground railway was initially rejected as too revolutionary. Today, his idea has gained worldwide acceptance: Beck simplified the route (only horizontal, vertical and diagonal lines) and ignored exact distances.”\n\n\n\n\n\n\n\n→ By omission of details (and making the map less realistic) the map got more useful!\n\nInfographic and quote from Die ZEIT"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#group-work-10-min.-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#group-work-10-min.-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": " Group work (10 min.)",
     "text": "Group work (10 min.)\nHow can we ensure that we do not create a purely self-referential system of symbols that does not refer to reality any more?\nOf course we can play the mathematician’s game (and might have a lot of fun meanwhile). But ultimately, if we want to understand and explain the human psyche, we need to make sure that our constructs are grounded in reality.\nHow can this grounding happen?"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#contact",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#contact",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "",
     "text": "“Almost a century ago, it was remarked by a Professor Aikins that the science of psychology frequently manifests what he called ‘the jingle fallacy,’ a circumstance wherein two things that are quite different may be labeled equivalently, and thus the unwary may consider them interchangeable” (Block, 1995, p. 209)\n\n\n\nThe jangle fallacy: “two separate words or expressions covering in fact the same basic situation, but sounding different, as though they were in truth different” (Kelley, 1927, p. 64)\n\n\n\nThorndike (1904); Kelley (1927); Block (1995)\n\n\n\n\n\n\n\n” … at least three views of autonomy appear to be present in the current autonomy literature [and] autonomy measures are not assessing the same construct” (Hmel & Pincus, 2002)\n\n\n\nAutonomy\\(_1\\): A cognitive vulnerability associated with depression\n\n“… lacks the essential agentic core that would be necessary for an autonomy construct. […] it is inconsistent with conceptualizations of autonomy and in need of a label more consistent with its nature”\n\nAutonomy\\(_2\\): Self (auto) – governance (nomous)\nAutonomy\\(_3\\): Emphasis on interpersonal separation\n\n\nAll three are labeled “autonomy” in the literature!\n\nHmel & Pincus (2002)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n“Grit is not only an excellent predictor of success and performance but also the secret to success” - Duckworth et al. (2007)\n\n\n\n\n“We define grit as perseverance and passion for long-term goals.” (Duckworth & Peterson, 2007)\nAngela Duckworth’s speaking fee range is $100,000 or more\n\n\n\n\n\n\n\n\n\n\n“the best available evidence strongly suggests that grit is largely a repackaging of conscientiousness — a widely studied personality trait” (Credé, 2018)\n“Given the long history of research on conscientiousness and the better measures of it (compared to scales frequently used to measure grit) we believe that it would be better to …\n\nstop measuring grit with the Grit-S questionnaire\nstop examining grit and rather continue to explore conscientiousness.” (paraphrased from Ponnock et al., 2020)\n\n\n\n\nCredé (2018); Ponnock et al. (2020);\n\n\n\n\n\nThese jingle and jangle fallacies waste scientific time:\n\nJingle creates confusion and unncessary dispute (“No, the true meaning of autonomy is …”).\nJangle involves useless redundancies, that lead to the …\n\nreinvention of constructs under new labels\ndecades of parallel literatures\n(To what extent) are two theories actually the same theory?\n\n→ both slow down cumulative knowledge.\n\n\nparaphrased from Block (1995)\n\n\n\n\nCollect candidates for the jingle and the jangle fallacy that you encountered during your studies.\n\n\n\n\n\n\nReminder\n\n\n\n\nJingle = the same term for two (or more) distinct phenomena\nJangle = different terms for the same underlying phenomenon\n\n\n\n\n\n\n\n\n\nAnalyzed 4452 items comprising 459 scales, capturing 277 constructs\nAutomated jingle–jangle detection: Assessed the similarity of scales,\n\njingle fallacy: high similarity in construct labels associated with low similarity in the associated scales (i.e., content)\njangle fallacy: low similarity in construct labels associated with high similarity in the associated scales (i.e., content).\n\n504 fallacy candidates (340 jingle, 164 jangle)\n\n\nWulff, D. U., & Mata, R. (2025). Semantic embeddings reveal and address taxonomic incommensurability in psychological measurement. Nature Human Behaviour, 9(5), 944–954. https://doi.org/10.1038/s41562-024-02089-y.\n\n\n\n\n\nHow many clusters are necessary to compress 459 scales (and how many jingle and jangle fallacies would we have)?\n\n\n\n\n\n\nWulff, D. U., & Mata, R. (2025). Picture from https://osf.io/nmv29 under CC-BY.\n\n\n\n\nMapping 459 scales to 68 labels based on a parsimonious solution (compressing to 15%).\n\n\n\n\n\n\nWulff, D. U., & Mata, R. (2025). Picture from https://osf.io/nmv29 under CC-BY."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-jingle-jangle-problem",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-jingle-jangle-problem",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "",
     "text": "“Almost a century ago, it was remarked by a Professor Aikins that the science of psychology frequently manifests what he called ‘the jingle fallacy,’ a circumstance wherein two things that are quite different may be labeled equivalently, and thus the unwary may consider them interchangeable” (Block, 1995, p. 209)\n\n\n\nThe jangle fallacy: “two separate words or expressions covering in fact the same basic situation, but sounding different, as though they were in truth different” (Kelley, 1927, p. 64)\n\n\n\nThorndike (1904); Kelley (1927); Block (1995)"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#an-example-for-the-jingle-problem",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#an-example-for-the-jingle-problem",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "",
     "text": "” … at least three views of autonomy appear to be present in the current autonomy literature [and] autonomy measures are not assessing the same construct” (Hmel & Pincus, 2002)\n\n\n\nAutonomy\\(_1\\): A cognitive vulnerability associated with depression\n\n“… lacks the essential agentic core that would be necessary for an autonomy construct. […] it is inconsistent with conceptualizations of autonomy and in need of a label more consistent with its nature”\n\nAutonomy\\(_2\\): Self (auto) – governance (nomous)\nAutonomy\\(_3\\): Emphasis on interpersonal separation\n\n\nAll three are labeled “autonomy” in the literature!\n\nHmel & Pincus (2002)"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#an-example-for-the-jangle-problem",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#an-example-for-the-jangle-problem",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "",
     "text": "“Grit is not only an excellent predictor of success and performance but also the secret to success” - Duckworth et al. (2007)\n\n\n\n\n“We define grit as perseverance and passion for long-term goals.” (Duckworth & Peterson, 2007)\nAngela Duckworth’s speaking fee range is $100,000 or more"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#an-example-for-the-jangle-problem-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#an-example-for-the-jangle-problem-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "",
     "text": "“the best available evidence strongly suggests that grit is largely a repackaging of conscientiousness — a widely studied personality trait” (Credé, 2018)\n“Given the long history of research on conscientiousness and the better measures of it (compared to scales frequently used to measure grit) we believe that it would be better to …\n\nstop measuring grit with the Grit-S questionnaire\nstop examining grit and rather continue to explore conscientiousness.” (paraphrased from Ponnock et al., 2020)\n\n\n\n\nCredé (2018); Ponnock et al. (2020);"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-jingle-jangle-problem-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-jingle-jangle-problem-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "",
     "text": "These jingle and jangle fallacies waste scientific time:\n\nJingle creates confusion and unncessary dispute (“No, the true meaning of autonomy is …”).\nJangle involves useless redundancies, that lead to the …\n\nreinvention of constructs under new labels\ndecades of parallel literatures\n(To what extent) are two theories actually the same theory?\n\n→ both slow down cumulative knowledge.\n\n\nparaphrased from Block (1995)"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#group-work-10-min.",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#group-work-10-min.",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "",
     "text": "Collect candidates for the jingle and the jangle fallacy that you encountered during your studies.\n\n\n\n\n\n\nReminder\n\n\n\n\nJingle = the same term for two (or more) distinct phenomena\nJangle = different terms for the same underlying phenomenon"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#a-modern-approach-to-solve-the-jingle-jangle-problem",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#a-modern-approach-to-solve-the-jingle-jangle-problem",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "",
     "text": "Analyzed 4452 items comprising 459 scales, capturing 277 constructs\nAutomated jingle–jangle detection: Assessed the similarity of scales,\n\njingle fallacy: high similarity in construct labels associated with low similarity in the associated scales (i.e., content)\njangle fallacy: low similarity in construct labels associated with high similarity in the associated scales (i.e., content).\n\n504 fallacy candidates (340 jingle, 164 jangle)\n\n\nWulff, D. U., & Mata, R. (2025). Semantic embeddings reveal and address taxonomic incommensurability in psychological measurement. Nature Human Behaviour, 9(5), 944–954. https://doi.org/10.1038/s41562-024-02089-y."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#a-modern-approach-to-solve-the-jingle-jangle-problem-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#a-modern-approach-to-solve-the-jingle-jangle-problem-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "",
     "text": "How many clusters are necessary to compress 459 scales (and how many jingle and jangle fallacies would we have)?\n\n\n\n\n\n\nWulff, D. U., & Mata, R. (2025). Picture from https://osf.io/nmv29 under CC-BY."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#a-modern-approach-to-solve-the-jingle-jangle-problem-2",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#a-modern-approach-to-solve-the-jingle-jangle-problem-2",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "",
     "text": "Mapping 459 scales to 68 labels based on a parsimonious solution (compressing to 15%).\n\n\n\n\n\n\nWulff, D. U., & Mata, R. (2025). Picture from https://osf.io/nmv29 under CC-BY."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-relation-of-theory-phenomena-and-data",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-relation-of-theory-phenomena-and-data",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The relation of theory, phenomena, and data",
     "text": "The relation of theory, phenomena, and data\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\n(We will discuss this model in detail in the next session)\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-relation-of-data-and-phenomena",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-relation-of-data-and-phenomena",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The relation of data and phenomena",
     "text": "The relation of data and phenomena\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nPhenomena: Stable and general features of the world in need of explanation. Can be understood as robust generalizations of patterns in empirical data. They are the explanatory targets for scientific theories. In psychology often called “effects”.\nData: Relatively direct observations. Refer to particular empirical patterns in concrete data sets rather than empirical generalizations (which would be phenomenona). Also called a “finding”.\n\nSee Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-relation-of-data-and-phenomena-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-relation-of-data-and-phenomena-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The relation of data and phenomena",
     "text": "The relation of data and phenomena\n\nGeneralization\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\n\nData provide evidence for the existence of empirical phenomena: You generalize from one or more data sets with strong evidence to a general phenomenon.\nGeneralize to what? UTOS framework:\n\nUnits (i.e., sample characteristics): To which other types of tested units does it generalize?\nTreatments: Does it generalize to other operationalizations of the independent variable/treatment?\nOutcomes: Does it generalize to other operationalizations of the dependent variable/outcome?\nSettings: Does it generalize to other settings, e.g. lab vs. field, other countries?\n\n\n\nUTOS framework from Cronbach & Shapiro (1982); for an update to “M-STOUT”, including mechanims and time, see Findley et al. (2021)."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-relation-of-data-and-phenomena-2",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-relation-of-data-and-phenomena-2",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The relation of data and phenomena",
     "text": "The relation of data and phenomena\n\nGeneralization\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\n\nTo claim a (robust) phenomenon, you ideally need:\n\nIndependent replications with the same operationalizations (U, maybe S is varied): Often called “direct”, “exact”, or “close” replications\nReplications with different operationalizations (UTOS is varied): Often called “conceptual” replications"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-relation-of-data-and-phenomena-3",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-relation-of-data-and-phenomena-3",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The relation of data and phenomena",
     "text": "The relation of data and phenomena\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 1 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\nProbably most of psychological research is about establishing phenomena (disguised as “theories”).\nTechniques used to detect data patterns:\n\nFactor analysis\nPrincipal components analysis\nRegression\nANOVA\n…\n\n\nSee presentation of Denny Borsboom"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-relation-of-data-and-phenomena-4",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-relation-of-data-and-phenomena-4",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The relation of data and phenomena",
     "text": "The relation of data and phenomena\n\nPrediction\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n  \n  linkStyle 0 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\nPhenomena (once their existence has been established) predict similar data patterns in new data sets of the same operationalization (as in “direct replication”) and ideally also for new operationalizations (as in “conceptual replication”, changing more UTOS dimensions)."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#interlude-the-risky-shift-phenomenon-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#interlude-the-risky-shift-phenomenon-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Interlude: The risky shift phenomenon 1",
     "text": "Interlude: The risky shift phenomenon 1\n\nThe risky shift phenomenon: A group’s decisions are riskier than the average of the individual decisions of members before the group met (i.e., the group discussion made individuals riskier).\n\n\nArea of very active research in social psychology in the 1960s.\n“It could be easily replicated. Most of the replication studies […] employed the CDQ [Choice Dilemma Questionnaire] as their stimulus set, and they generally had no trouble obtaining the basic risky shift result.”\nToday we know that there is no risky shift. “It is now clear that the items contained in the original CDQ are in no sense a representative sample of the universe of all possible items. Instruments similar to the CDQ could readily be constructed whose scores would display risky shifts, cautious ones, or none at all” (Cartwright, 1971, p. 368).\nIn the early risky shift literature, theoretical progress was unnecessarily impeded by multiple generations of replication studies (k ⋍ 200), nearly all relying on the same CQD questionnaire.\n\n\n\n\nSee Westfall et al. (2015). Replicating Studies in Which Samples of Participants Respond to Samples of Stimuli. Perspectives on Psychological Science, 10(3), 390–399. https://doi.org/10.1177/1745691614564879"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#interlude-the-risky-shift-phenomenon-2",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#interlude-the-risky-shift-phenomenon-2",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Interlude: The risky shift phenomenon 2",
     "text": "Interlude: The risky shift phenomenon 2\n Questions for discussion (10 min.):\n\nAnalyse the situation in the UTOS dimensions (units, treatments, outcomes, settings): To which dimensions did the successful replications (not) refer to?\nIs the “risky shift” effect - as demonstrated in the early publications - a phenomenon?\n\n. . .\nMy take: It is a phenomenon (though a weak one), as it generalizes to new units (i.e., new participants) of the same operationalization. But the generalizability was much weaker than initially expected. It is a phenomenon of this specific stimulus set (outcome operationalization) and suggests certain types of research questions (e.g., “What is so specific to this stimulus set?”)."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#replication-crisis",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#replication-crisis",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Replication crisis",
     "text": "Replication crisis\n\nFocus on phenomena\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  P(Phenomena)\n  D(Data)\n  \n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nThe concerns of the replication crisis typically referred to the relation between data and phenomena:\n\nDoes an empirical pattern even exist? (Or is it a false positive?)\nIf we found a reproducible pattern with a specific operationalization: Is it generalizable (to other measures, other cultural contexts, other samples)?\nDo we even have a phenomenon in a particular research line? And how strongly should we belief in the existence of a phenomenon, given the empirical evidence?"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#replication-crisis-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#replication-crisis-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Replication crisis",
     "text": "Replication crisis\n\nFocus on phenomena\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(?? Phenomena ??)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"??\" --&gt; D\n  D -. \"?? Generalization ??\" .-&gt; P\n  \n  linkStyle 2 stroke-width:0px,stroke:grey,color:grey;\n  linkStyle 3 stroke-width:2px,stroke:red,color:red;\n\n\n\n\n\n\n\nDoubts about phenomena propagate to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#reimagining-psychology-as-a-science",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#reimagining-psychology-as-a-science",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Reimagining psychology as a science",
     "text": "Reimagining psychology as a science"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#addressing-the-theory-crisis-in-psychology",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#addressing-the-theory-crisis-in-psychology",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "“Addressing the theory crisis in psychology”",
     "text": "“Addressing the theory crisis in psychology”\n\n\n\n\n\n\n%%{ init: { 'flowchart': { 'curve': 'natural' } } }%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  \n  T -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\n\n\n“We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests. […] A strong link between theories and hypotheses is best achieved by formalizing theories as computational models.”\n“Many of these proposals [i.e., method reforms] are helpful ideas for raising the standards of good research practice, primarily ensuring more trustworthy inferences on the empirical level of scientific inference — the level connecting observations to empirical generalizations. Our concern is that shoring up the strength of inferences on the empirical level does not by itself address deficits on the theory level — the level connecting empirical generalizations to theories.”\n\nOberauer & Lewandowsky (2019)\n\n\n\n\nOberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. Psychonomic Bulletin & Review, 26(5), 1596–1618. https://doi.org/10.3758/s13423-019-01645-2"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#summary-challenges-to-building-useful-theories-in-psychology",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#summary-challenges-to-building-useful-theories-in-psychology",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Summary: Challenges to building useful theories in psychology",
     "text": "Summary: Challenges to building useful theories in psychology\n\n\nProblems of theoretical precision of psychological constructs (jingle-jangle)\nRelative lack of robust phenomena that impose constraints on possible theories\nThese two lead to problems of validity of psychological constructs (i.e., do they actually related to the real world?)\nObstacles to discovering causal relationships between psychological variables\nThe probably most complex research object in the known universe is investigated with…\n\n… ridiculously small samples and\n… imprecise methods.\n\n\n\n\nSee Eronen & Bringmann (2021); Slide adapted from Karolin Salmen, CC-BY"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#outlook-how-we-will-try-to-make-it-better",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#outlook-how-we-will-try-to-make-it-better",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Outlook: How we will try to make it better …",
     "text": "Outlook: How we will try to make it better …\n\nLearn to use the Visual Argument Structure Tool (VAST)\n\nClear labels, that denote a precise latent construct.\nA consensus about the meaning of words helps to communicate within and beyond the scientific community.\nConceptual precision increases its ability to be criticized\n\nLearn how to formalize verbal theories\n\nMathematical models\nAgent-based models (ABMs)\n\nSimulate the models: Are they able to produce the phenomena we observe in the data?\nPractice with your own theory"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "“Der Wirklichkeit Gewalt antun”",
     "text": "“Der Wirklichkeit Gewalt antun”\n\n\n\n“Die Wahrheit liegt in der uns umgebenden Wirklichkeit unmittelbar vor uns. Diese können wir aber unverändert nicht gebrauchen. Eine lückenlose Beschreibung der Wirklichkeit wäre zugleich das wahrste und unnützste Ding von der Welt und gewiß keine Wissenschaft. Wir müssen der Wirklichkeit und damit der Wahrheit Gewalt antun, wenn wir sie wissenschaftlich verwerten wollen. Wir müssen die Unterscheidung von wesentlich und unwesentlich einführen, die es in der ganzen Natur nicht gibt. In ihr ist alles gleich wesentlich. Indem wir die uns wesentlich erscheinenden Zusammenhänge aufsuchen, ordnen wir zugleich den Stoff übersichtlich. Dann treiben wir Wissenschaft.”\n(von Uexküll, 1909, S. 58)\n\n\n\n\n\n\n\n\n\n\nvon Uexküll, J. (1909). Umwelt und Innenwelt der Tiere. Berlin: J. Springer, p. 58. Quote found in Smaldino (2023)"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-2",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-2",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "“Der Wirklichkeit Gewalt antun”",
     "text": "“Der Wirklichkeit Gewalt antun”"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-3",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-3",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "“Der Wirklichkeit Gewalt antun”",
     "text": "“Der Wirklichkeit Gewalt antun”"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-4",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-4",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "“Der Wirklichkeit Gewalt antun”",
     "text": "“Der Wirklichkeit Gewalt antun”\n\n\n\n\n\nWe want to distill those concepts that are most useful to explain parts of the human psyche.\n(We will learn later what „explain“ means).\nThese concepts are tools that guide our attention towards certain features, which we might not have seen before.\nThey help us to organize our language and our reasoning about people."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-map-and-the-territory",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-map-and-the-territory",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The map and the territory",
     "text": "The map and the territory\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s not confuse the map with the territory!\n\nparaphrased from Alfred Korzybski (1933) “Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics”\n\n\nKorzybski warned against confusing our mental models of the world with the world itself, a mistake he believed was at the root of much human suffering."
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-map-and-the-territory-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-map-and-the-territory-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "The map and the territory",
     "text": "The map and the territory\n\n„A language is like a map; it is not the territory represented, but it may be a good map or a bad map. If the map shows a different structure from the territory represented […] then the map is worse than useless, as it misinforms and leads astray. One who made use of it could never be certain of reaching his destination.“ (Korzybski, 1933, p. 375)"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#models-vs-reality",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#models-vs-reality",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Models vs Reality",
     "text": "Models vs Reality\n\n\nAll models are wrong, but some models are useful.\n\n\n\n\nGeorg Box (1919 - 2013)\n\n\n\n\n\nImage CC-BY-SA 3.0 by DavidMCEddy (Wikimedia Commons)"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#useful-for-a-specific-purpose-not-true",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#useful-for-a-specific-purpose-not-true",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Useful (for a specific purpose), not true",
     "text": "Useful (for a specific purpose), not true\n\n\n“His design for a London underground railway was initially rejected as too revolutionary. Today, his idea has gained worldwide acceptance: Beck simplified the route (only horizontal, vertical and diagonal lines) and ignored exact distances.”\n\n\n\n\n\n\n\n→ By omission of details (and making the map less realistic) the map got more useful!\n\nInfographic and quote from Die ZEIT"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#group-work-10-min.-1",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#group-work-10-min.-1",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": " Group work (10 min.)",
     "text": "Group work (10 min.)\nHow can we ensure that we do not create a purely self-referential system of symbols that does not refer to reality any more?\nOf course we can play the mathematician’s game (and might have a lot of fun meanwhile). But ultimately, if we want to understand and explain the human psyche, we need to make sure that our constructs are grounded in reality.\nHow can this grounding happen?"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#contact",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#contact",
-    "title": "FOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis",
+    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
@@ -1033,7 +1033,7 @@
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#content",
     "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Content",
-    "text": "Content\nThree types of activities:\n\nLectures: Gain knowledge\nSkills: Learn new tools\nWorkshop: Apply tools and knowledge to a research question\n\nAll slides, homework instructions, etc. are on this website: https://nicebread.github.io/FOMO-Psy/\nAll homework will be submitted to a private Git repo."
+    "text": "Content\nThree types of activities:\n\nLectures: Gain knowledge\nSkills: Learn new tools\nWorkshop: Apply tools and knowledge to a research question\n\nAll slides, homework instructions, etc. are on this website: https://nicebread.github.io/FOMO-Psy/\nNote: Github (where the website is hosted) is using chaching. That means if I update the website, you will only see the updates if you actively reload it with Ctrl+R (Win/Linux) or Cmd-R (Mac).\nAll homework will be submitted to a private Git repo."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#formalia-expectations",
@@ -1131,7 +1131,7 @@
     "href": "lectures/Empra-Orga/Empra-Orga.html#content",
     "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Content",
-    "text": "Content\nThree types of activities:\n\nLectures: Gain knowledge\nSkills: Learn new tools\nWorkshop: Apply tools and knowledge to a research question\n\nAll slides, homework instructions, etc. are on this website: https://nicebread.github.io/FOMO-Psy/\nAll homework will be submitted to a private Git repo."
+    "text": "Content\nThree types of activities:\n\nLectures: Gain knowledge\nSkills: Learn new tools\nWorkshop: Apply tools and knowledge to a research question\n\nAll slides, homework instructions, etc. are on this website: https://nicebread.github.io/FOMO-Psy/\nNote: Github (where the website is hosted) is using chaching. That means if I update the website, you will only see the updates if you actively reload it with Ctrl+R (Win/Linux) or Cmd-R (Mac).\nAll homework will be submitted to a private Git repo."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html#formalia-expectations",
@@ -1264,7 +1264,7 @@
     "href": "sessions/S6-MathModel3.html",
     "title": "Session 06 - Mathematical Modeling Part 3",
     "section": "",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLecture: Intro 2: What is (not) a theory?\n60\nSlides\n\n\nShow consensus VAST model + my implementation\n60\n\n\n\nIn groups: Develop extension\n60\n\n\n\n\n\n\n2 Homework (individually)\nFor visualizing our simulation results in the next session, we will use the ggplot2 package in R. One of the most common types of plots we will use is a line plot with multiple groups and eventually multiple facets, like this one:\n\n\n\nLine plot with multiple groups\n\n\nWith such a plot, we can visualize one focal parameter on the x-axis, selected levels of another parameter as colors, and one or two other parameters as sub-plots in the facets. This allows a visualization of a high-dimensional parameter space in a single plot.\nIf you are not familiar with ggplot2, please do a tutorial as homework. Here are three choices:\n\nThe Data Visualization using ggplot2 tutorial from Datanovia. Do at least the following chapters:\n\nChapter 1 (“Introduction to GGPlot2”)\nChapter 7 (“GGPlot Line Plot”)\nChapter 14 (“Combine Multiple GGPlots into a Figure”), but only up to section “Multiple panels figure using ggplot facet” (skip the following section “Combine multiple ggplots using ggarrange”)\n\nThe most comprehensive resource is the free online ggplot2 book.\n\nStart with installing all necessary packages (see Prerequisites).\nNext, read chapter 2 “First Steps”\nFinally, do Chapter 16 “Faceting”\n\nData visualization with R and ggplot2 is a quite condensed tutorial on ggplot2 that explains the different layers of a plot with code examples, but not much explaining text.\n\nWhen you are unsure, I recommend the first resource.\n\n\n3 Homework Bonus (individually)\nFor an interactive visualization of your simulation results, you can program a Shiny app in R. Shiny is a web application framework for R, you can find various example for Shiny apps at https://shinyapps.org or https://shiny.posit.co.\nAmbitious students can (optionally!) create a Shiny app that allows the user to change parameters of the model interactively and see the results in real-time. For learning Shiny, I recommend the official Shiny tutorial. Although I use various code editors (e.g., Visual Studio Code), I recommend using RStudio because it has a deeply integrated support for building and testing Shiny apps."
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nTODO: We had THIS ALREADY! Lecture: Intro 2: What is (not) a theory?\n60\nSlides\n\n\nShow consensus VAST model + my implementation\n60\n\n\n\nIn groups: Develop extension\n60\n\n\n\n\n\n\n2 Homework (individually)\nFor visualizing our simulation results in the next session, we will use the ggplot2 package in R. One of the most common types of plots we will use is a line plot with multiple groups and eventually multiple facets, like this one:\n\n\n\nLine plot with multiple groups\n\n\nWith such a plot, we can visualize one focal parameter on the x-axis, selected levels of another parameter as colors, and one or two other parameters as sub-plots in the facets. This allows a visualization of a high-dimensional parameter space in a single plot.\nIf you are not familiar with ggplot2, please do a tutorial as homework. Here are three choices:\n\nThe Data Visualization using ggplot2 tutorial from Datanovia. Do at least the following chapters:\n\nChapter 1 (“Introduction to GGPlot2”)\nChapter 7 (“GGPlot Line Plot”)\nChapter 14 (“Combine Multiple GGPlots into a Figure”), but only up to section “Multiple panels figure using ggplot facet” (skip the following section “Combine multiple ggplots using ggarrange”)\n\nThe most comprehensive resource is the free online ggplot2 book.\n\nStart with installing all necessary packages (see Prerequisites).\nNext, read chapter 2 “First Steps”\nFinally, do Chapter 16 “Faceting”\n\nData visualization with R and ggplot2 is a quite condensed tutorial on ggplot2 that explains the different layers of a plot with code examples, but not much explaining text.\n\nWhen you are unsure, I recommend the first resource.\n\n\n3 Homework Bonus (individually)\nFor an interactive visualization of your simulation results, you can program a Shiny app in R. Shiny is a web application framework for R, you can find various example for Shiny apps at https://shinyapps.org or https://shiny.posit.co.\nAmbitious students can (optionally!) create a Shiny app that allows the user to change parameters of the model interactively and see the results in real-time. For learning Shiny, I recommend the official Shiny tutorial. Although I use various code editors (e.g., Visual Studio Code), I recommend using RStudio because it has a deeply integrated support for building and testing Shiny apps."
   },
   {
     "objectID": "common/lastslide.html",
@@ -1397,7 +1397,7 @@
     "href": "sessions/S2-VAST_intro.html",
     "title": "Session 02 - Introduction to the Visual Argument Structure Tool",
     "section": "",
-    "text": "Instructor notes\n\n\n\n\n\n\nCreate subfolder homework/02-VAST\n\n\n\n\n\nOverview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWrap up [Homework 2]: Smaldino (2013), Chapter 1\n15\n\n\n\nGit Tutorial troubleshooting\n30\n\n\n\nMini Introduction VAST\n30\nSlides\n\n\n\n\n\nHomework 1 (individually): Read the VAST paper\nRead the VAST paper:\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://open.lnu.se/index.php/metapsychology/article/view/2911\nDeliverable: Nothing - just read it and understand it.\n\n\nHomework 2 (individually): Your first (mini) VAST display\nThis homework consists of three steps, A, B, and C:\n\nRead the original definition of the concept “diffusion of responsibility”, printed below (no need to read the full paper yet). Darley and Latané introduced the term in 1968, it’s even in the title of the publication: “Bystander intervention in emergencies: Diffusion of responsibility.”\n\nThese are the paragraphs that describe the concept (p. 377f):\n\n[After introducing the case of Kitty Genovese:] “In certain circumstances, the norms favoring intervention may be weakened, leading bystanders to resolve the conflict in the direction of nonintervention. One of these circumstances may be the presence of other onlookers. For example, in the case above, each observer, by seeing lights and figures in other apartment house windows, knew that others were also watching. However, there was no way to tell how the other observers were reacting. These two facts provide several reasons why any individual may have delayed or failed to help. The responsibility for helping was diffused among the observers; there was also diffusion of any potential blame for not taking action; and finally, it was possible that somebody, unperceived, had already initiated helping action.\nWhen only one bystander is present in an emergency, if help is to come, it must come from him. Although he may choose to ignore it (out of concern for his personal safety, or desires “not to get involved”), any pressure to intervene focuses uniquely on him. When there are several observers present, however, the pressures to intervene do not focus on any one of the observers; instead the responsibility for intervention is shared among all the onlookers and is not unique to any one. As a result, no one helps.\nA second possibility is that potential blame may be diffused. However much we may wish to think that an individual’s moral behavior is divorced from considerations of personal punishment or reward, there is both theory and evidence to the contrary (Aronfreed, 1964; Miller & Bollard, 1941, Whiting & Child, 19S3). It is perfectly reasonable to assume that, under circumstances of group responsibility for a punishable act, the punishment or blame that accrues to any one individual is often slight or nonexistent.\nFinally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that “somebody else must be doing something.”\n\n\nDraw your first (mini) VAST display for the definition of the concept “diffusion of responsibility” with draw.io (see concrete instructions below under “Deliverable”). As you noted, Darley and Latané provide no explicit section stating “Diffusion of responsibility is defined as …”. Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.\nAfter you created your VAST display, read a more recent summary of the concept in the Dorsch Lexikon der Psychologie, in particular the first and the third (last) paragraph. Write a few sentences, elaborating to what extent this definition is compatible to your own VAST display, and where it deviates.\n\n\nDeliverable: For task 2B, save your draw.io VAST diagram in our Homework Repository by choosing “Github” as destination for your file:\n\nThen choose the Homework Repository:\n\n… and navigate to the correct homework folder:\n\nSave the diagram with your name as filename (homework/02-VAST/YOURNAME.drawio). Additionally, save the diagram as a .png or .jpg file in the same folder (homework/02-VAST/YOURNAME.png).\nFor task 4C, save a file with your answers in the same folder (homework/02-VAST/YOURNAME.md). Don’t forget to push everything to the remote repo."
+    "text": "Instructor notes\n\n\n\n\n\n\nCreate subfolder homework/02-VAST\n\n\n\n\n\nOverview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWrap up [Homework 2]: Smaldino (2013), Chapter 1\n15\n\n\n\nGit Tutorial troubleshooting\n30\n\n\n\nLecture: Short introduction to VAST\n45\nSlides\n\n\nLecture: What is (not) a theory?\n90\nSlides\n\n\n\n\n\nHomework 1 (individually): Read the VAST paper\nRead the VAST paper:\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://open.lnu.se/index.php/metapsychology/article/view/2911\nDeliverable: Nothing - just read it and understand it.\n\n\nHomework 2 (individually): Your first (mini) VAST display\nThis homework consists of three steps, A, B, and C:\n\nRead the original definition of the concept “diffusion of responsibility”, printed below (no need to read the full paper yet). Darley and Latané introduced the term in 1968, it’s even in the title of the publication: “Bystander intervention in emergencies: Diffusion of responsibility.”\n\nThese are the paragraphs that describe the concept (p. 377f):\n\n[After introducing the case of Kitty Genovese:] “In certain circumstances, the norms favoring intervention may be weakened, leading bystanders to resolve the conflict in the direction of nonintervention. One of these circumstances may be the presence of other onlookers. For example, in the case above, each observer, by seeing lights and figures in other apartment house windows, knew that others were also watching. However, there was no way to tell how the other observers were reacting. These two facts provide several reasons why any individual may have delayed or failed to help. The responsibility for helping was diffused among the observers; there was also diffusion of any potential blame for not taking action; and finally, it was possible that somebody, unperceived, had already initiated helping action.\nWhen only one bystander is present in an emergency, if help is to come, it must come from him. Although he may choose to ignore it (out of concern for his personal safety, or desires “not to get involved”), any pressure to intervene focuses uniquely on him. When there are several observers present, however, the pressures to intervene do not focus on any one of the observers; instead the responsibility for intervention is shared among all the onlookers and is not unique to any one. As a result, no one helps.\nA second possibility is that potential blame may be diffused. However much we may wish to think that an individual’s moral behavior is divorced from considerations of personal punishment or reward, there is both theory and evidence to the contrary (Aronfreed, 1964; Miller & Bollard, 1941, Whiting & Child, 19S3). It is perfectly reasonable to assume that, under circumstances of group responsibility for a punishable act, the punishment or blame that accrues to any one individual is often slight or nonexistent.\nFinally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that “somebody else must be doing something.”\n\n\nDraw your first (mini) VAST display for the definition of the concept “diffusion of responsibility” with draw.io (see concrete instructions below under “Deliverable”). As you noted, Darley and Latané provide no explicit section stating “Diffusion of responsibility is defined as …”. Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.\nAfter you created your VAST display, read a more recent summary of the concept in the Dorsch Lexikon der Psychologie, in particular the first and the third (last) paragraph. Write a few sentences, elaborating to what extent this definition is compatible to your own VAST display, and where it deviates.\n\n\nDeliverable: For task 2B, save your draw.io VAST diagram in our Homework Repository by choosing “Github” as destination for your file:\n\nThen choose the Homework Repository:\n\n… and navigate to the correct homework folder:\n\nSave the diagram with your name as filename (homework/02-VAST/YOURNAME.drawio). Additionally, save the diagram as a .png or .jpg file in the same folder (homework/02-VAST/YOURNAME.png).\nFor task 4C, save a file with your answers in the same folder (homework/02-VAST/YOURNAME.md). Don’t forget to push everything to the remote repo."
   },
   {
     "objectID": "lectures/Intro2/Intro2.html",
@@ -1726,7 +1726,7 @@
     "href": "lectures/MathModel/MathModel.html#define-variables-1",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Define variables",
-    "text": "Define variables\n\nSome guiding questions and heuristics\n\nType of variable: continuous, dichotomous, ordinal, categorical?\nScale level of measurement (Stevens’s typology): Nominal → Ordinal → Interval → Ratio\nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”"
+    "text": "Define variables\n\nSome guiding questions and heuristics\n\nType of variable: continuous, dichotomous, ordinal, categorical? \nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”"
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#group-work-15-min.-specify-variables",
@@ -1754,7 +1754,7 @@
     "href": "lectures/MathModel/MathModel.html#step-2-define-functional-relationships-between-variables-2",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 2: Define functional relationships between variables",
-    "text": "Step 2: Define functional relationships between variables\n\nFixed and free parameters\n\n\\(\\color{red} y = \\color{forestgreen} \\beta_0 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\) → \\(\\color{red} y\\) = output variable, \\(\\color{forestgreen} \\beta\\)s = parameters, \\(\\color{blue} x\\) = input variable.\nTwo types of parameters:\n\nFixed parameters: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters: Can be adjusted to optimize the fit of the model to data. They are estimated from empirical data.\n\n\n\n\n\n\n\n\nNote\n\n\n\nVirtually all parameters (except natural constants) could be imagined as being free. It is a choice to fix some of them in order to simplify the model."
+    "text": "Step 2: Define functional relationships between variables\n\nFixed and free parameters\n\n\\(\\color{red} y = \\color{forestgreen} \\beta_0 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\) → \\(\\color{red} y\\) = output variable, \\(\\color{forestgreen} \\beta\\)s = parameters, \\(\\color{blue} x\\) = input variable.\nTwo types of parameters:\n\nFixed parameters: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters: Can be adjusted to optimize the fit of the model to data. They are estimated from empirical data.\n\n\n\n\n\n\n\n\nNote\n\n\n\nVirtually all parameters (except natural constants) could be imagined as being free. It is a choice to fix some of them in order to simplify the model. In our course, we do not attempt to estimate parameters from data. Instead, we will explore the behavior of our models under different parameter settings (i.e., a sensitivity analysis)."
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#step-2-define-functional-relationships-between-variables-3",
@@ -1880,14 +1880,14 @@
     "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-3",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n\n5b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:\n\n\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\n\n\n\n   pID valence speed age extra\n1    1     pos  slow  22   0.4\n2    2     pos  slow  26   0.4\n3    3     pos  slow  28   0.7\n4    1     neg  slow  19   0.7\n5    2     neg  slow  24  -0.3\n6    3     neg  slow  34  -0.2\n7    1     pos  fast  23   0.7\n8    2     pos  fast  25  -0.9\n9    3     pos  fast  26  -0.6\n10   1     neg  fast  25   1.1\n11   2     neg  fast  32  -1.5\n12   3     neg  fast  26   1.0"
+    "text": "Step 5: Simulate a full data set\n\n5b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:\n\n\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\n\n\n\n   pID valence speed age extra\n1    1     pos  slow  26  -0.4\n2    2     pos  slow  26   1.2\n3    3     pos  slow  28   1.1\n4    1     neg  slow  21   0.6\n5    2     neg  slow  21   0.5\n6    3     neg  slow  28  -0.3\n7    1     pos  fast  25   1.2\n8    2     pos  fast  24  -1.0\n9    3     pos  fast  22   0.5\n10   1     neg  fast  27   0.6\n11   2     neg  fast  25  -0.8\n12   3     neg  fast  27   0.9"
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-4",
     "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-4",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n\n5c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\):\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  22   0.4 11.5\n2    2     pos  slow  26   0.4 12.8\n3    3     pos  slow  28   0.7  9.2\n4    1     neg  slow  19   0.7  5.0\n5    2     neg  slow  24  -0.3 12.7\n6    3     neg  slow  34  -0.2 10.1\n7    1     pos  fast  23   0.7  6.8\n8    2     pos  fast  25  -0.9 12.4\n9    3     pos  fast  26  -0.6 10.5\n10   1     neg  fast  25   1.1  7.7\n11   2     neg  fast  32  -1.5 11.2\n12   3     neg  fast  26   1.0  9.1\n\n\n\n\nMake sure that the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
+    "text": "Step 5: Simulate a full data set\n\n5c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\):\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  26  -0.4 12.0\n2    2     pos  slow  26   1.2  7.9\n3    3     pos  slow  28   1.1  9.3\n4    1     neg  slow  21   0.6  6.4\n5    2     neg  slow  21   0.5  8.8\n6    3     neg  slow  28  -0.3 11.3\n7    1     pos  fast  25   1.2 10.2\n8    2     pos  fast  24  -1.0 12.0\n9    3     pos  fast  22   0.5  8.1\n10   1     neg  fast  27   0.6  8.6\n11   2     neg  fast  25  -0.8  8.4\n12   3     neg  fast  27   0.9 10.0\n\n\n\n\nMake sure that the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-5",
@@ -1908,7 +1908,7 @@
     "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-7",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n\n5c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  22   0.4 11.5   9.5\n2    2     pos  slow  26   0.4 12.8  11.3\n3    3     pos  slow  28   0.7  9.2   6.5\n4    1     neg  slow  19   0.7  5.0   4.9\n5    2     neg  slow  24  -0.3 12.7  14.1\n6    3     neg  slow  34  -0.2 10.1  13.7\n7    1     pos  fast  23   0.7  6.8   2.0\n8    2     pos  fast  25  -0.9 12.4  14.0\n9    3     pos  fast  26  -0.6 10.5   7.5\n10   1     neg  fast  25   1.1  7.7   7.7\n11   2     neg  fast  32  -1.5 11.2   9.9\n12   3     neg  fast  26   1.0  9.1   9.7\n\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
+    "text": "Step 5: Simulate a full data set\n\n5c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  26  -0.4 12.0  14.0\n2    2     pos  slow  26   1.2  7.9   8.2\n3    3     pos  slow  28   1.1  9.3  10.1\n4    1     neg  slow  21   0.6  6.4   2.6\n5    2     neg  slow  21   0.5  8.8   9.3\n6    3     neg  slow  28  -0.3 11.3  11.3\n7    1     pos  fast  25   1.2 10.2   6.6\n8    2     pos  fast  24  -1.0 12.0  13.4\n9    3     pos  fast  22   0.5  8.1   9.3\n10   1     neg  fast  27   0.6  8.6   7.6\n11   2     neg  fast  25  -0.8  8.4   8.8\n12   3     neg  fast  27   0.9 10.0   9.0\n\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#group-work-20-min.-create-a-design-matrix",
@@ -2006,7 +2006,7 @@
     "href": "lectures/MathModel/MathModel.slide.html#define-variables-1",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Define variables",
-    "text": "Define variables\nSome guiding questions and heuristics\n\nType of variable: continuous, dichotomous, ordinal, categorical?\nScale level of measurement (Stevens’s typology): Nominal → Ordinal → Interval → Ratio\nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”"
+    "text": "Define variables\nSome guiding questions and heuristics\n\nType of variable: continuous, dichotomous, ordinal, categorical? \nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”"
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#group-work-15-min.-specify-variables",
@@ -2034,7 +2034,7 @@
     "href": "lectures/MathModel/MathModel.slide.html#step-2-define-functional-relationships-between-variables-2",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 2: Define functional relationships between variables",
-    "text": "Step 2: Define functional relationships between variables\nFixed and free parameters\n\n\\(\\color{red} y = \\color{forestgreen} \\beta_0 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\) → \\(\\color{red} y\\) = output variable, \\(\\color{forestgreen} \\beta\\)s = parameters, \\(\\color{blue} x\\) = input variable.\nTwo types of parameters:\n\nFixed parameters: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters: Can be adjusted to optimize the fit of the model to data. They are estimated from empirical data.\n\n\n\n\n\n\n\n\nNote\n\n\nVirtually all parameters (except natural constants) could be imagined as being free. It is a choice to fix some of them in order to simplify the model."
+    "text": "Step 2: Define functional relationships between variables\nFixed and free parameters\n\n\\(\\color{red} y = \\color{forestgreen} \\beta_0 \\color{black} + \\color{forestgreen} \\beta_1 \\color{blue} x\\) → \\(\\color{red} y\\) = output variable, \\(\\color{forestgreen} \\beta\\)s = parameters, \\(\\color{blue} x\\) = input variable.\nTwo types of parameters:\n\nFixed parameters: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).\nFree parameters: Can be adjusted to optimize the fit of the model to data. They are estimated from empirical data.\n\n\n\n\n\n\n\n\nNote\n\n\nVirtually all parameters (except natural constants) could be imagined as being free. It is a choice to fix some of them in order to simplify the model. In our course, we do not attempt to estimate parameters from data. Instead, we will explore the behavior of our models under different parameter settings (i.e., a sensitivity analysis)."
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#step-2-define-functional-relationships-between-variables-3",
@@ -2160,14 +2160,14 @@
     "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-3",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n5b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:\n\n\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\n\n\n\n   pID valence speed age extra\n1    1     pos  slow  22   0.4\n2    2     pos  slow  26   0.4\n3    3     pos  slow  28   0.7\n4    1     neg  slow  19   0.7\n5    2     neg  slow  24  -0.3\n6    3     neg  slow  34  -0.2\n7    1     pos  fast  23   0.7\n8    2     pos  fast  25  -0.9\n9    3     pos  fast  26  -0.6\n10   1     neg  fast  25   1.1\n11   2     neg  fast  32  -1.5\n12   3     neg  fast  26   1.0"
+    "text": "Step 5: Simulate a full data set\n5b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:\n\n\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\n\n\n\n   pID valence speed age extra\n1    1     pos  slow  26  -0.4\n2    2     pos  slow  26   1.2\n3    3     pos  slow  28   1.1\n4    1     neg  slow  21   0.6\n5    2     neg  slow  21   0.5\n6    3     neg  slow  28  -0.3\n7    1     pos  fast  25   1.2\n8    2     pos  fast  24  -1.0\n9    3     pos  fast  22   0.5\n10   1     neg  fast  27   0.6\n11   2     neg  fast  25  -0.8\n12   3     neg  fast  27   0.9"
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-4",
     "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-4",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n5c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\):\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  22   0.4 11.5\n2    2     pos  slow  26   0.4 12.8\n3    3     pos  slow  28   0.7  9.2\n4    1     neg  slow  19   0.7  5.0\n5    2     neg  slow  24  -0.3 12.7\n6    3     neg  slow  34  -0.2 10.1\n7    1     pos  fast  23   0.7  6.8\n8    2     pos  fast  25  -0.9 12.4\n9    3     pos  fast  26  -0.6 10.5\n10   1     neg  fast  25   1.1  7.7\n11   2     neg  fast  32  -1.5 11.2\n12   3     neg  fast  26   1.0  9.1\n\n\n\nMake sure that the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
+    "text": "Step 5: Simulate a full data set\n5c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\):\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  26  -0.4 12.0\n2    2     pos  slow  26   1.2  7.9\n3    3     pos  slow  28   1.1  9.3\n4    1     neg  slow  21   0.6  6.4\n5    2     neg  slow  21   0.5  8.8\n6    3     neg  slow  28  -0.3 11.3\n7    1     pos  fast  25   1.2 10.2\n8    2     pos  fast  24  -1.0 12.0\n9    3     pos  fast  22   0.5  8.1\n10   1     neg  fast  27   0.6  8.6\n11   2     neg  fast  25  -0.8  8.4\n12   3     neg  fast  27   0.9 10.0\n\n\n\nMake sure that the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-5",
@@ -2188,7 +2188,7 @@
     "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-7",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n5c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  22   0.4 11.5   9.5\n2    2     pos  slow  26   0.4 12.8  11.3\n3    3     pos  slow  28   0.7  9.2   6.5\n4    1     neg  slow  19   0.7  5.0   4.9\n5    2     neg  slow  24  -0.3 12.7  14.1\n6    3     neg  slow  34  -0.2 10.1  13.7\n7    1     pos  fast  23   0.7  6.8   2.0\n8    2     pos  fast  25  -0.9 12.4  14.0\n9    3     pos  fast  26  -0.6 10.5   7.5\n10   1     neg  fast  25   1.1  7.7   7.7\n11   2     neg  fast  32  -1.5 11.2   9.9\n12   3     neg  fast  26   1.0  9.1   9.7\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
+    "text": "Step 5: Simulate a full data set\n5c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  26  -0.4 12.0  14.0\n2    2     pos  slow  26   1.2  7.9   8.2\n3    3     pos  slow  28   1.1  9.3  10.1\n4    1     neg  slow  21   0.6  6.4   2.6\n5    2     neg  slow  21   0.5  8.8   9.3\n6    3     neg  slow  28  -0.3 11.3  11.3\n7    1     pos  fast  25   1.2 10.2   6.6\n8    2     pos  fast  24  -1.0 12.0  13.4\n9    3     pos  fast  22   0.5  8.1   9.3\n10   1     neg  fast  27   0.6  8.6   7.6\n11   2     neg  fast  25  -0.8  8.4   8.8\n12   3     neg  fast  27   0.9 10.0   9.0\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#group-work-20-min.-create-a-design-matrix",
@@ -2272,7 +2272,7 @@
     "href": "lectures/lecture_overview.html",
     "title": "Lectures Overview",
     "section": "",
-    "text": "These are all slides used for the “lecture” part of the course:\n\n\n\n\n\n\n\n\n\n\n\nDate\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\n2025-01-17\nMetadata for Digital Theory Objects\nlink\nlink\n\n\n2024-11-08\nMathematical Modeling of Psychological Theories\nlink\nlink\n\n\n2024-11-08\nApplying VAST to an existing theory\nlink\nlink\n\n\n2024-10-25\nHow to formalize a verbal theory with VAST\nlink\nlink\n\n\n2023-10-27\nWhat are (Not) Theories & Models?\nlink\nlink\n\n\n2023-10-20\nFormal modeling in psychology\nlink\nlink\n\n\n2023-10-20\nFOMO-Psy 1: Jingle jangle jungle, non-robust phenomena, and the theory crisis\nlink\nlink"
+    "text": "These are all slides used for the “lecture” part of the course:\n\n\n\n\n\n\n\n\n\n\nTopic\nSlides (as a single website)\nSlides (presentation mode)\n\n\n\n\nFormal modeling in psychology: Organizational Stuff\nlink\nlink\n\n\nTheory crisis: Jingle jangle jungle & non-robust phenomena\nlink\nlink\n\n\nWhat are (Not) Theories & Models?\nlink\nlink\n\n\nIntroduction: How to formalize a verbal theory with VAST\nlink\nlink\n\n\nApplying VAST to an existing theory\nlink\nlink\n\n\nMathematical Modeling of Psychological Theories\nlink\nlink\n\n\nTools for Digital Theory Objects\nlink\nlink"
   },
   {
     "objectID": "lectures/VAST/VAST_Application.html",

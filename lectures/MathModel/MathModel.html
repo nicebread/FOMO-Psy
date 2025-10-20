@@ -328,7 +328,6 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Mathematical Modeling of Psychological Theories</h1>
-<p class="subtitle lead">Introduction</p>
 </div>
 
 
@@ -404,8 +403,7 @@ window.Quarto = {
 <section id="some-guiding-questions-and-heuristics" class="level3">
 <h3 class="anchored" data-anchor-id="some-guiding-questions-and-heuristics">Some guiding questions and heuristics</h3>
 <ul>
-<li>Type of variable: continuous, dichotomous, ordinal, categorical?</li>
-<li>Scale level of measurement (<a href="https://en.wikipedia.org/wiki/Level_of_measurement">Stevens’s typology</a>): <br>Nominal → Ordinal → Interval → Ratio</li>
+<li>Type of variable: continuous, dichotomous, ordinal, categorical? <!-- - Scale level of measurement ([Stevens's typology](https://en.wikipedia.org/wiki/Level_of_measurement)): <br>Nominal &rarr; Ordinal &rarr; Interval &rarr; Ratio --></li>
 <li>Is the variable naturally bounded? On both sides or only one?</li>
 <li>How can the numbers be interpreted?
 <ul>
@@ -523,7 +521,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Virtually all parameters (except natural constants) could be imagined as being free. It is a <em>choice</em> to fix some of them in order to simplify the model.</p>
+<p>Virtually all parameters (except natural constants) could be imagined as being free. It is a <em>choice</em> to fix some of them in order to simplify the model. In our course, we do not attempt to estimate parameters from data. Instead, we will <em>explore</em> the behavior of our models under different parameter settings (i.e., a <em>sensitivity analysis</em>).</p>
 </div>
 </div>
 </section>
@@ -557,7 +555,7 @@ Note
  -->
 <!-- ChatGPRT /Wolfram Alpha prompt
 
-Create a function that maps values of x (which can go from 0 to infinity) to values of y (which goes from 0 to 1). It should start at a high value of y (this starting point should be free parameter of the function), decreases monotonically, and levels out at a certain value > 0 (which should also be a free parameter). A third free parameter is the speed of the decreasing.
+Create a function that maps values of x (which can go from 0 to infinity) to values of y (which goes from 0 to 1). It should start at a high value of y (this starting point should be free parameter of the function), decreases monotonically, and levels out at a certain value >= 0 (which should also be a free parameter). A third free parameter is the speed of the decreasing.
 Provide plots for multiple instances of this function family.
 
  -->
@@ -575,7 +573,7 @@ Provide plots for multiple instances of this function family.
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-1-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -612,7 +610,7 @@ Provide plots for multiple instances of this function family.
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-3-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -623,7 +621,7 @@ Provide plots for multiple instances of this function family.
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-4-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -634,7 +632,7 @@ Provide plots for multiple instances of this function family.
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-5-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -645,7 +643,7 @@ Provide plots for multiple instances of this function family.
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-6-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -661,7 +659,7 @@ Provide plots for multiple instances of this function family.
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-7-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -969,18 +967,18 @@ Note
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra
-1    1     pos  slow  22   0.4
-2    2     pos  slow  26   0.4
-3    3     pos  slow  28   0.7
-4    1     neg  slow  19   0.7
-5    2     neg  slow  24  -0.3
-6    3     neg  slow  34  -0.2
-7    1     pos  fast  23   0.7
-8    2     pos  fast  25  -0.9
-9    3     pos  fast  26  -0.6
-10   1     neg  fast  25   1.1
-11   2     neg  fast  32  -1.5
-12   3     neg  fast  26   1.0</code></pre>
+1    1     pos  slow  26  -0.4
+2    2     pos  slow  26   1.2
+3    3     pos  slow  28   1.1
+4    1     neg  slow  21   0.6
+5    2     neg  slow  21   0.5
+6    3     neg  slow  28  -0.3
+7    1     pos  fast  25   1.2
+8    2     pos  fast  24  -1.0
+9    3     pos  fast  22   0.5
+10   1     neg  fast  27   0.6
+11   2     neg  fast  25  -0.8
+12   3     neg  fast  27   0.9</code></pre>
 </div>
 </div>
 </div>
@@ -1006,18 +1004,18 @@ Note
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y
-1    1     pos  slow  22   0.4 11.5
-2    2     pos  slow  26   0.4 12.8
-3    3     pos  slow  28   0.7  9.2
-4    1     neg  slow  19   0.7  5.0
-5    2     neg  slow  24  -0.3 12.7
-6    3     neg  slow  34  -0.2 10.1
-7    1     pos  fast  23   0.7  6.8
-8    2     pos  fast  25  -0.9 12.4
-9    3     pos  fast  26  -0.6 10.5
-10   1     neg  fast  25   1.1  7.7
-11   2     neg  fast  32  -1.5 11.2
-12   3     neg  fast  26   1.0  9.1</code></pre>
+1    1     pos  slow  26  -0.4 12.0
+2    2     pos  slow  26   1.2  7.9
+3    3     pos  slow  28   1.1  9.3
+4    1     neg  slow  21   0.6  6.4
+5    2     neg  slow  21   0.5  8.8
+6    3     neg  slow  28  -0.3 11.3
+7    1     pos  fast  25   1.2 10.2
+8    2     pos  fast  24  -1.0 12.0
+9    3     pos  fast  22   0.5  8.1
+10   1     neg  fast  27   0.6  8.6
+11   2     neg  fast  25  -0.8  8.4
+12   3     neg  fast  27   0.9 10.0</code></pre>
 </div>
 </div>
 </div>
@@ -1115,18 +1113,18 @@ Note
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y y_obs
-1    1     pos  slow  22   0.4 11.5   9.5
-2    2     pos  slow  26   0.4 12.8  11.3
-3    3     pos  slow  28   0.7  9.2   6.5
-4    1     neg  slow  19   0.7  5.0   4.9
-5    2     neg  slow  24  -0.3 12.7  14.1
-6    3     neg  slow  34  -0.2 10.1  13.7
-7    1     pos  fast  23   0.7  6.8   2.0
-8    2     pos  fast  25  -0.9 12.4  14.0
-9    3     pos  fast  26  -0.6 10.5   7.5
-10   1     neg  fast  25   1.1  7.7   7.7
-11   2     neg  fast  32  -1.5 11.2   9.9
-12   3     neg  fast  26   1.0  9.1   9.7</code></pre>
+1    1     pos  slow  26  -0.4 12.0  14.0
+2    2     pos  slow  26   1.2  7.9   8.2
+3    3     pos  slow  28   1.1  9.3  10.1
+4    1     neg  slow  21   0.6  6.4   2.6
+5    2     neg  slow  21   0.5  8.8   9.3
+6    3     neg  slow  28  -0.3 11.3  11.3
+7    1     pos  fast  25   1.2 10.2   6.6
+8    2     pos  fast  24  -1.0 12.0  13.4
+9    3     pos  fast  22   0.5  8.1   9.3
+10   1     neg  fast  27   0.6  8.6   7.6
+11   2     neg  fast  25  -0.8  8.4   8.8
+12   3     neg  fast  27   0.9 10.0   9.0</code></pre>
 </div>
 </div>
 </div>
@@ -1164,7 +1162,7 @@ Note
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-26-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-26-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1217,12 +1215,12 @@ Note
 <h2 class="anchored" data-anchor-id="tool-3-the-beta-distribution-4">Tool 3: The beta distribution</h2>
 <section id="approximating-a-normal-distribution-with-a-beta-distibution-1" class="level3">
 <h3 class="anchored" data-anchor-id="approximating-a-normal-distribution-with-a-beta-distibution-1">Approximating a normal distribution with a beta distibution</h3>
-<div class="cell quarto-layout-panel" data-layout-nrow="2" data-layout-align="center" data-layout-ncol="1">
+<div class="cell quarto-layout-panel" data-layout-align="center" data-layout-ncol="1" data-layout-nrow="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-28-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-28-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1231,7 +1229,7 @@ Note
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-28-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-28-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1344,6 +1342,44 @@ If we assume that our model is the **true data generating model**, i.e.:
 </section>
 
 </main> <!-- /main -->
+
+<script>
+  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+  // slide changes (different for each slide format).
+  (function () {
+    // dispatch for htmlwidgets
+    function fireSlideEnter() {
+      const event = window.document.createEvent("Event");
+      event.initEvent("slideenter", true, true);
+      window.document.dispatchEvent(event);
+    }
+
+    function fireSlideChanged(previousSlide, currentSlide) {
+      fireSlideEnter();
+
+      // dispatch for shiny
+      if (window.jQuery) {
+        if (previousSlide) {
+          window.jQuery(previousSlide).trigger("hidden");
+        }
+        if (currentSlide) {
+          window.jQuery(currentSlide).trigger("shown");
+        }
+      }
+    }
+
+    // hookup for slidy
+    if (window.w3c_slidy) {
+      window.w3c_slidy.add_observer(function (slide_num) {
+        // slide_num starts at position 1
+        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+      });
+    }
+
+  })();
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

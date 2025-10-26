@@ -4,11 +4,12 @@ number-sections: false
 description: Discussing the theory crisis; showcasing Git
 ---
 
-# Overview
+## Overview
 
 ::: {.callout-note collapse="true" title="Instructor notes"}
 - Bring empty name tags and board markers.
 - During the Git intro, create the course's private homework repo. Create the folder `homework/01-Smaldino-chapter`.
+- Create an R-project file (without that, `git` does not work in R-Studio). Otherwise, many students will create that project fiel themselves, leading to many merge conflicts.
 - At the end, collect the name tags (and bring them along next time)
 :::
 
@@ -26,7 +27,7 @@ description: Discussing the theory crisis; showcasing Git
 
 
 
-# Homework 1 (individually)
+## Homework 1 (individually)
 
 **Learning Goals**: Learn how to `pull`, `commit`, and `push` to Github. Be able to resolve a merge conflict.
 
@@ -39,13 +40,13 @@ If you are proficient in `git` and Github, you can skip step 3:
 
 3. Do the tutorial ["Introduction to version Control with git and GitHub within RStudio"](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/), **and** the follow-up tutorial "[Collaborative coding with GitHub and RStudio](https://lmu-osc.github.io/Collaborative-RStudio-GitHub/)". Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.
     - Note: In chapter "Secure the connection ..." it says "You will then be asked to provide a passphrase. Protecting your keys with a password is optional but highly recommended". I recommend *not* to set a passphrase (just leave it empty), unless you deal with very sensitive data. You will get crazy if you need to enter your passphrase at every SSH operation.
-4. Once you have been granted access to the [Homework Repository]({{< var homework_repo >}}), `clone` the repository to your local machine. (This cannot be done on an iPad or smartphone; you need a computer for that.)
+4. Once you have been granted access to the [Homework Repository]({{< var homework_repo >}}), `clone` the repository to your local machine. (This cannot be done on an iPad or smartphone; you need a computer for that.). **Important**: Do *not* fork the repository (as you did in the tutorial), but *clone* it (i.e., we are all working within the same repository, not on individual forked copies of it).
 
 **Deliverable**: 
 
 Push your answer from Homework 2 (see below) to the folder `homework/01-Smaldino-chapter` of the remote repository (i.e., first save your file locally in the respective folder, then `commit` and `push`).
 
-# Homework 2 (individually)
+## Homework 2 (individually)
 
 Download [Chapter 1](https://pup-assets.imgix.net/onix/images/9780691224145/9780691224138.pdf) of Paul Smaldino's Book "Modeling Social Behavior: Mathematical and Agent-Based Models of Social Dynamics and Cultural Evolution". Read the chapter and answer the following guiding questions:
 
@@ -75,7 +76,7 @@ The inexact sciences are those in which the mappings between measurements and th
 - Navigate to `/homework/01-Smaldino-chapter` (After you cloned the repository in Homework 1, you should have that folder somewhere on your local machine.)
 - Add your answers as `.txt` or `.md` file with your first name as filename (e.g., "`Heinz-Ruediger.md`")
 - `commit` and `push`
-- (To verify your submission: If you go to the [website]({{< var homework_repo >}}) of the repository, you should see your file in the folder `01-Smaldino-chapter`.)
+- (To verify your submission: Go to the [website]({{< var homework_repo >}}) of the repository, and check whether your file is in the folder `homework/01-Smaldino-chapter`.)
 
 You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don't do the homework at all (after all, the goal of this exercise is that you *learn* something, not that you make your lecturer happy).
 

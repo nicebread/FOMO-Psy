@@ -59,7 +59,7 @@ Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science 
 > 
 > Kaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: **Data describe *which* empirical patterns were observed and theory explains *why* empirical patterns were observed or are expected to be observed.**
 
-**Furthermore**: Theories do not explain data - theories explain *phenomena*!
+In our words: [Repeated patterns in data *establish* phenomena. They do not explain them.]{.hl}
 :::
 
 ::: footer
@@ -75,7 +75,10 @@ Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science 
 > 
 > Such lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations [...], but they do not constitute theory.
 
-Lists of constructs (without an explicit definition of their causal relationship) often are called a *framework*.
+**Notes**: 
+
+- Lists of constructs (without an explicit definition of their causal relationship) often are called a *framework*.
+- When we build our models, we will also create tables of constructs and variables. But that alone is not yet a theory!
 :::
 
 ::: footer
@@ -138,6 +141,10 @@ http://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html
 :::
 
 **Discussion**: Are then VAST displays on their own sufficient to constitute a theory?
+
+::: {.notes}
+No, because they do not present arguments *why* a certain causal path (or other elements) should exist.
+:::
 
 ::: footer
 Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. [https://doi.org/10.2307/2393788](https://doi.org/10.2307/2393788)

@@ -5,29 +5,37 @@ description: Intro to theory 2; Apply VAST to Bystander effect
 ---
 
 ::: {.callout-note collapse="true" title="Instructor notes"}
-- Create subfolder `Bystander_effect`
+- Create subfolder `Bystander_effect` in the [homework repository]({{< var homework_repo >}})
+- Create a Google Drive folder and add the Construct Source Table template.
+- Add link to Google Drive template in the README of the [homework repository]({{< var homework_repo >}})
+- Add the group compositions to the README of the [homework repository]({{< var homework_repo >}})
 :::
 
-# Overview
+## Overview
 
 | Topic                                                             | Duration | Notes                                           |
 | ----------------------------------------------------------------- | -------- | ----------------------------------------------- |
+| **Lecture**: What is (not) a theory? (Part 2)                     | 30       | [Slides](../lectures/Intro2/Intro2.qmd), 18-end |
 | Homework wrap-up: VAST displays for "diffusion of responsibility" | 45       |                                                 |
 | **Lecture**: "Applying VAST to an existing theory"                | 60       | [Slides](../lectures/VAST/VAST_Application.qmd) |
-| **Workshop**: Formalize the bystander effect theory               | 90       | See Google Drive                                |
+| Group formation                                                   | 10       |                                                 |
+| **Workshop**: Start formalizing the bystander effect theory       | 45       | See Google Drive                                |
 | **[Homework]**: Finalize Bystander VAST in group                  | -        |                                                 |
 
 : {.striped}
 
-# Workshop (in course): Formalize the bystander effect theory
+## Group formation
 
-1. Create the Construct Source Table for the Bystander Effect. Use the Google Drive template.
+Create a maximum of 4 groups. These will work together for the bystander formalization.
+(Note: When their own theories are formalized later in the course, students can form new groups).
+
+## Workshop (in course): Formalize the bystander effect theory
+
+1. Each group should create their Construct Source Table for the Bystander Effect (use your group name in the file name). Copy the template file that you find on Google Drive.
 2. Based on the table, create a VAST display. The goal is an easily understandable display: prioritize understandability over completeness and over a maximally truthful mapping of the original statements. Use as few concepts as possible (but as many as necessary).
 (Why aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that).
 
-
-
-# Homework (as a group): Finalize Bystander VAST
+## Homework (as a group): Finalize Bystander VAST
 
 **Deliverables**: 
 - Clean up your Construct Source Table on Google Drive

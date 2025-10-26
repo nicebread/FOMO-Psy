@@ -60,14 +60,14 @@
     "href": "lectures/VAST/VAST_Intro.slide.html#data",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
-    "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nT\n\nT\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nT-&gt;I_n\n\n\nn\n\n\n\nH_n\n\n\"High Test Score\"\n\n\n\nT-&gt;H_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\nData (left box, folder-shaped) is a special kind of concept, which explicitly refers to something observable.\n\nSame as a manifest variable in Structural Equation Modeling\n\nThis display is supposed to capture the idea that “Intelligence is what the intelligence test measures”"
+    "text": "Data\nSymbol\nNote: In the original VAST paper, the Data concept has the shape on the left. As that shape is not available in the Graphviz system used to create some graphs in this presentation, we also use this this alternative symbol for Data:"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#data-1",
     "href": "lectures/VAST/VAST_Intro.slide.html#data-1",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
-    "text": "Data\nSymbol\nNote: In the original VAST paper, the Data concept has a different shape (but that shape is not available in the Graphviz system used to create the graphs in this presentation):"
+    "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nT\n\nT\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nT-&gt;I_n\n\n\nn\n\n\n\nH_n\n\n\"High Test Score\"\n\n\n\nT-&gt;H_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\nData (left box, folder-shaped) is a special kind of concept, which explicitly refers to something observable.\n\nSame as a manifest variable in Structural Equation Modeling\n\nThis display is supposed to capture the idea that “Intelligence is what the intelligence test measures”"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#data-2",
@@ -105,11 +105,67 @@
     "text": "Splitting up the display elements 2\n\n\n\n\n\n\n\n\nG\n\n\n\nT1\n\nT1\n\n\n\nHighScoreTest1\n\n\"High Score\nin Test 1\"\n\n\n\nT1-&gt;HighScoreTest1\n\n\nn  \n\n\n\nT2\n\nT2\n\n\n\nHighScoreTest2\n\n\"High Score\nin Test 2\"\n\n\n\nT2-&gt;HighScoreTest2\n\n\nn  \n\n\n\nI\n\nI\n\n\n\nIntelligent\n\n\"Intelligent\"\n\n\n\nI-&gt;Intelligent\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nT1_a\n\nT1\n\n\n\nT2_a\n\nT2\n\n\n\nT1_a-&gt;T2_a\n\n\n\np  \n\n\n\nT1_b\n\nT1\n\n\n\nT2_b\n\nT2\n\n\n\nI\n\nI\n\n\n\nI-&gt;T1_b\n\n\nc\n\n\n\nI-&gt;T2_b\n\n\nc"
   },
   {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#higher-order-concepts-1",
+    "href": "lectures/VAST/VAST_Intro.slide.html#higher-order-concepts-1",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Higher-order concepts 1",
+    "text": "Higher-order concepts 1\n\n\n\n\n\nAny combination of elements may be made into a new „higher-order concept“ by putting it into a frame:"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#higher-order-concepts-2",
+    "href": "lectures/VAST/VAST_Intro.slide.html#higher-order-concepts-2",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Higher-order concepts 2",
+    "text": "Higher-order concepts 2\n\n\n\n\n\n\nHigher order concepts may be related to one another in exactly the same ways in which „simple“ concepts may be:\n\n\n\n\n\n\n\nThis diagram expresses the idea that a correlation between the two sets of test scores would be a reason (r) to assume that both sets of test scores reflect causal influences of some common factor (called “intelligence”)."
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#is-and-ought",
+    "href": "lectures/VAST/VAST_Intro.slide.html#is-and-ought",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "IS and OUGHT",
+    "text": "IS and OUGHT\nThe IS element tells us that a concept is not a mere possibility, but is considered to actually apply:\n\n\n\n\n\n\n“I is causally affected by GCE”\n“I is causally affected by GGD”"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#the-analyst",
+    "href": "lectures/VAST/VAST_Intro.slide.html#the-analyst",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "The analyst",
+    "text": "The analyst\nThe “analyst” heading names the person who made the VAST display. A VAST-display always reflects this person‘s view:"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#no-other-causal-paths",
+    "href": "lectures/VAST/VAST_Intro.slide.html#no-other-causal-paths",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "No other causal paths?",
+    "text": "No other causal paths?\n\n\n\n\n\n\nA c 0 arrow expresses the idea that there is no other causal influence on “Intelligence” apart from the ones that were specified (CGE or GGD).\n\n\n\nMira’s display now contains two ideas that are mutually incompatible. This is not a problem: VAST is used for displaying ideas correctly – those ideas themselves may still be nonsensical or incoherent!"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#perspectives",
+    "href": "lectures/VAST/VAST_Intro.slide.html#perspectives",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Perspectives",
+    "text": "Perspectives\n\n\n\n\n\nHere, Mira expresses the idea, that Robert holds the view on the left-hand side, whereas Ayşe holds the view on the right-hand side. Now the the display is not logically incoherent anymore."
+  },
+  {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#strength-of-relationship",
     "href": "lectures/VAST/VAST_Intro.slide.html#strength-of-relationship",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Strength of relationship",
     "text": "Strength of relationship\n\nDefault interpretation of a directional arrow X → Y: this relationship is considered relevant and positive (i.e., the more X the more Y)\nRelationship strength can be expressed with a number between -1 (perfect negative relationship), 0 (no relationship), and 1 (perfect positive relationship)\n\nIf no number is explicitly specified: default relationship strength is “&gt; 0”\n\nThe strength of a relationship can also be expressed in a vague verbal way, e.g., “strong”, “weak”, “negative”, …\nThe relationship strength can be applied to any relationship type:\n\ntype p: “wearing glasses” makes it 70 percent likely for a person to also be “smart”\ntype r: It is 90 percent reasonable to assume someone “is in love with you” when that person “giggles a lot while talking to you”\ntype c: being “obese” makes it 50 percent likely for someone to develop “Diabetes Type II” as a consequence"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this",
+    "href": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": " Exercise: How would you interpret this?",
+    "text": "Exercise: How would you interpret this?"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this-1",
+    "href": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this-1",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": " Exercise: How would you interpret this?",
+    "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira assumes that she has presented Robert’s and Ayse’s views correctly (with strength &gt; 0.5, which is the default for IS and OUGHT elements). This implies that these two persons have different and incompatible statements about the single causal effect on I.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira is certain (relationship strength = -1) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#fuzziness-as-a-feature",
@@ -124,20 +180,6 @@
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Notes on the different types of relationships",
     "text": "Notes on the different types of relationships\n\nRelationships between constructs can be …\n\non a theoretical level. Then it’s typically a causal path (c)\non empirical level: A relationship has been found! This is a prediction path (p)\nResearch cycle: One author’s exploratory p-path is the next author’s theoretical c-path\n\nConsider what you want to formalize:\n\nA certain author’s theoretical point of view at a certain point in time?\nOr your personal, current point of view?\nThe empirical support for a statement?"
-  },
-  {
-    "objectID": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this",
-    "href": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this",
-    "title": "Introduction: How to formalize a verbal theory with VAST",
-    "section": " Exercise: How would you interpret this?",
-    "text": "Exercise: How would you interpret this?"
-  },
-  {
-    "objectID": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this-1",
-    "href": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this-1",
-    "title": "Introduction: How to formalize a verbal theory with VAST",
-    "section": " Exercise: How would you interpret this?",
-    "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira is assumes that she has presented Robert’s and Ayse’s views correctly (with strength &gt; 0.5, which is the default for IS and OUGHT elements). This implies that these two have different and incompatible statements about the single causal effect on I.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira is certain (relationship strength = -1) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#contact",
@@ -214,14 +256,14 @@
     "href": "lectures/VAST/VAST_Intro.html#data",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
-    "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nT\n\nT\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nT-&gt;I_n\n\n\nn\n\n\n\nH_n\n\n\"High Test Score\"\n\n\n\nT-&gt;H_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\nData (left box, folder-shaped) is a special kind of concept, which explicitly refers to something observable.\n\nSame as a manifest variable in Structural Equation Modeling\n\nThis display is supposed to capture the idea that “Intelligence is what the intelligence test measures”"
+    "text": "Data\n\nSymbol\nNote: In the original VAST paper, the Data concept has the shape on the left. As that shape is not available in the Graphviz system used to create some graphs in this presentation, we also use this this alternative symbol for Data:"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#data-1",
     "href": "lectures/VAST/VAST_Intro.html#data-1",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
-    "text": "Data\n\nSymbol\nNote: In the original VAST paper, the Data concept has a different shape (but that shape is not available in the Graphviz system used to create the graphs in this presentation):"
+    "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nT\n\nT\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nT-&gt;I_n\n\n\nn\n\n\n\nH_n\n\n\"High Test Score\"\n\n\n\nT-&gt;H_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\nData (left box, folder-shaped) is a special kind of concept, which explicitly refers to something observable.\n\nSame as a manifest variable in Structural Equation Modeling\n\nThis display is supposed to capture the idea that “Intelligence is what the intelligence test measures”"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#data-2",
@@ -259,11 +301,67 @@
     "text": "Splitting up the display elements 2\n\n\n\n\n\n\n\n\nG\n\n\n\nT1\n\nT1\n\n\n\nHighScoreTest1\n\n\"High Score\nin Test 1\"\n\n\n\nT1-&gt;HighScoreTest1\n\n\nn  \n\n\n\nT2\n\nT2\n\n\n\nHighScoreTest2\n\n\"High Score\nin Test 2\"\n\n\n\nT2-&gt;HighScoreTest2\n\n\nn  \n\n\n\nI\n\nI\n\n\n\nIntelligent\n\n\"Intelligent\"\n\n\n\nI-&gt;Intelligent\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nT1_a\n\nT1\n\n\n\nT2_a\n\nT2\n\n\n\nT1_a-&gt;T2_a\n\n\n\np  \n\n\n\nT1_b\n\nT1\n\n\n\nT2_b\n\nT2\n\n\n\nI\n\nI\n\n\n\nI-&gt;T1_b\n\n\nc\n\n\n\nI-&gt;T2_b\n\n\nc"
   },
   {
+    "objectID": "lectures/VAST/VAST_Intro.html#higher-order-concepts-1",
+    "href": "lectures/VAST/VAST_Intro.html#higher-order-concepts-1",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Higher-order concepts 1",
+    "text": "Higher-order concepts 1\n\n\n\n\n\nAny combination of elements may be made into a new „higher-order concept“ by putting it into a frame:"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.html#higher-order-concepts-2",
+    "href": "lectures/VAST/VAST_Intro.html#higher-order-concepts-2",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Higher-order concepts 2",
+    "text": "Higher-order concepts 2\n\n\n\n\n\n\nHigher order concepts may be related to one another in exactly the same ways in which „simple“ concepts may be:\n\n\n\n\n\n\n\nThis diagram expresses the idea that a correlation between the two sets of test scores would be a reason (r) to assume that both sets of test scores reflect causal influences of some common factor (called “intelligence”)."
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.html#is-and-ought",
+    "href": "lectures/VAST/VAST_Intro.html#is-and-ought",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "IS and OUGHT",
+    "text": "IS and OUGHT\nThe IS element tells us that a concept is not a mere possibility, but is considered to actually apply:\n\n\n\n\n\n\n“I is causally affected by GCE”\n“I is causally affected by GGD”"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.html#the-analyst",
+    "href": "lectures/VAST/VAST_Intro.html#the-analyst",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "The analyst",
+    "text": "The analyst\nThe “analyst” heading names the person who made the VAST display. A VAST-display always reflects this person‘s view:"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.html#no-other-causal-paths",
+    "href": "lectures/VAST/VAST_Intro.html#no-other-causal-paths",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "No other causal paths?",
+    "text": "No other causal paths?\n\n\n\n\n\n\nA c 0 arrow expresses the idea that there is no other causal influence on “Intelligence” apart from the ones that were specified (CGE or GGD).\n\n\n\nMira’s display now contains two ideas that are mutually incompatible. This is not a problem: VAST is used for displaying ideas correctly – those ideas themselves may still be nonsensical or incoherent!"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.html#perspectives",
+    "href": "lectures/VAST/VAST_Intro.html#perspectives",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Perspectives",
+    "text": "Perspectives\n\n\n\n\n\nHere, Mira expresses the idea, that Robert holds the view on the left-hand side, whereas Ayşe holds the view on the right-hand side. Now the the display is not logically incoherent anymore."
+  },
+  {
     "objectID": "lectures/VAST/VAST_Intro.html#strength-of-relationship",
     "href": "lectures/VAST/VAST_Intro.html#strength-of-relationship",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Strength of relationship",
     "text": "Strength of relationship\n\nDefault interpretation of a directional arrow X → Y: this relationship is considered relevant and positive (i.e., the more X the more Y)\nRelationship strength can be expressed with a number between -1 (perfect negative relationship), 0 (no relationship), and 1 (perfect positive relationship)\n\nIf no number is explicitly specified: default relationship strength is “&gt; 0”\n\nThe strength of a relationship can also be expressed in a vague verbal way, e.g., “strong”, “weak”, “negative”, …\nThe relationship strength can be applied to any relationship type:\n\ntype p: “wearing glasses” makes it 70 percent likely for a person to also be “smart”\ntype r: It is 90 percent reasonable to assume someone “is in love with you” when that person “giggles a lot while talking to you”\ntype c: being “obese” makes it 50 percent likely for someone to develop “Diabetes Type II” as a consequence"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this",
+    "href": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": " Exercise: How would you interpret this?",
+    "text": "Exercise: How would you interpret this?"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this-1",
+    "href": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this-1",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": " Exercise: How would you interpret this?",
+    "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira assumes that she has presented Robert’s and Ayse’s views correctly (with strength &gt; 0.5, which is the default for IS and OUGHT elements). This implies that these two persons have different and incompatible statements about the single causal effect on I.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira is certain (relationship strength = -1) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#fuzziness-as-a-feature",
@@ -278,20 +376,6 @@
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Notes on the different types of relationships",
     "text": "Notes on the different types of relationships\n\nRelationships between constructs can be …\n\non a theoretical level. Then it’s typically a causal path (c)\non empirical level: A relationship has been found! This is a prediction path (p)\nResearch cycle: One author’s exploratory p-path is the next author’s theoretical c-path\n\nConsider what you want to formalize:\n\nA certain author’s theoretical point of view at a certain point in time?\nOr your personal, current point of view?\nThe empirical support for a statement?"
-  },
-  {
-    "objectID": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this",
-    "href": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this",
-    "title": "Introduction: How to formalize a verbal theory with VAST",
-    "section": " Exercise: How would you interpret this?",
-    "text": "Exercise: How would you interpret this?"
-  },
-  {
-    "objectID": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this-1",
-    "href": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this-1",
-    "title": "Introduction: How to formalize a verbal theory with VAST",
-    "section": " Exercise: How would you interpret this?",
-    "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira is assumes that she has presented Robert’s and Ayse’s views correctly (with strength &gt; 0.5, which is the default for IS and OUGHT elements). This implies that these two have different and incompatible statements about the single causal effect on I.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira is certain (relationship strength = -1) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#contact",
@@ -1243,7 +1327,7 @@
     "href": "sessions/sessions_overview.html",
     "title": "Overview of sessions",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nIntro to theory 1 - First steps in modeling\n\n\n\n\n\n\nSession 02 - Introduction to the Visual Argument Structure Tool\n\n\nIntro to theory 2 / VAST-Displays\n\n\n\n\n\n\nSession 03 - Introduction Theories / Practice VAST\n\n\nIntro to theory 2; Apply VAST to Bystander effect\n\n\n\n\n\n\nSession 04 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\n\n\nSession 05 - Mathematical Modeling Part 2\n\n\nCreate all functions for our reduced Bystander Effect Model\n\n\n\n\n\n\nSession 06 - Mathematical Modeling Part 3\n\n\nConsensus model\n\n\n\n\n\n\nSession 07 - Mathematical Modeling Part 4\n\n\nEmpirical calibration + simulated experiments\n\n\n\n\n\n\nSession 08 - Presentation of candidate theories\n\n\nWe have a presentation and initial discussion of candidate theories for the next formalization exercise.\n\n\n\n\n\n\nSession 09 - Propose and discuss your own formalization candidate theories\n\n\nWe decide which theories will be formalized in the second part of the course.\n\n\n\n\n\n\nSession 10 - How to simulate virtual experiments\n\n\nWe practice how to generate data for simulated experiments\n\n\n\n\n\n\nSession 11 - Theory metadata\n\n\nWe learn how to use CFF files and semantic versioning for documenting digital theory objects\n\n\n\n\n\n\nSession 12 - Work on formalization\n\n\nThe groups work on their formalizations\n\n\n\n\n\n\nSession 13 - Final presentations\n\n\nThe groups present their work\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nDiscussing the theory crisis; showcasing Git\n\n\n\n\n\n\nSession 02 - Introduction to the Visual Argument Structure Tool\n\n\nIntro to theory 2 / VAST-Displays\n\n\n\n\n\n\nSession 03 - Introduction Theories / Practice VAST\n\n\nIntro to theory 2; Apply VAST to Bystander effect\n\n\n\n\n\n\nSession 04 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\n\n\nSession 05 - Mathematical Modeling Part 2\n\n\nCreate all functions for our reduced Bystander Effect Model\n\n\n\n\n\n\nSession 06 - Mathematical Modeling Part 3\n\n\nConsensus model\n\n\n\n\n\n\nSession 07 - Mathematical Modeling Part 4\n\n\nEmpirical calibration + simulated experiments\n\n\n\n\n\n\nSession 08 - Presentation of candidate theories\n\n\nWe have a presentation and initial discussion of candidate theories for the next formalization exercise.\n\n\n\n\n\n\nSession 09 - Propose and discuss your own formalization candidate theories\n\n\nWe decide which theories will be formalized in the second part of the course.\n\n\n\n\n\n\nSession 10 - How to simulate virtual experiments\n\n\nWe practice how to generate data for simulated experiments\n\n\n\n\n\n\nSession 11 - Theory metadata\n\n\nWe learn how to use CFF files and semantic versioning for documenting digital theory objects\n\n\n\n\n\n\nSession 12 - Work on formalization\n\n\nThe groups work on their formalizations\n\n\n\n\n\n\nSession 13 - Final presentations\n\n\nThe groups present their work\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/S4-MathModel1.html",
@@ -1355,7 +1439,28 @@
     "href": "sessions/S1-Introduction.html",
     "title": "Session 01 - Introduction",
     "section": "",
-    "text": "Overview\n\n\n\n\n\n\nInstructor notes\n\n\n\n\n\n\nBring empty name tags and board markers.\nDuring the Git intro, create the course’s private homework repo. Create the folder homework/01-Smaldino-chapter.\nAt the end, collect the name tags (and bring them along next time)\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nInstructor introduction\n\n\nIntroduction of students in the plenum\n10\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nLecture: Introduction: Theory crisis\n100\nSlides\n\n\nGit Intro\n20\nSlides 1-6\n\n\nExplain homework\n10\n\n\n\n\n\n\nHomework 1 (individually)\nLearning Goals: Learn how to pull, commit, and push to Github. Be able to resolve a merge conflict.\nHomework steps:\n\nCreate a Github account. (Skip if you have one already).\nSend your Github user name to me via email. I will give you access to the course’s private Homework Repository: https://github.com/nicebread/FOMO-homework-2025. (Note: You won’t be able to access, clone, or even see the repository until the lecturer has granted you access).\n\nIf you are proficient in git and Github, you can skip step 3:\n\nDo the tutorial “Introduction to version Control with git and GitHub within RStudio”, and the follow-up tutorial “Collaborative coding with GitHub and RStudio”. Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.\n\nNote: In chapter “Secure the connection …” it says “You will then be asked to provide a passphrase. Protecting your keys with a password is optional but highly recommended”. I recommend not to set a passphrase (just leave it empty), unless you deal with very sensitive data. You will get crazy if you need to enter your passphrase at every SSH operation.\n\nOnce you have been granted access to the Homework Repository, clone the repository to your local machine. (This cannot be done on an iPad or smartphone; you need a computer for that.)\n\nDeliverable:\nPush your answer from Homework 2 (see below) to the folder homework/01-Smaldino-chapter of the remote repository (i.e., first save your file locally in the respective folder, then commit and push).\n\n\nHomework 2 (individually)\nDownload Chapter 1 of Paul Smaldino’s Book “Modeling Social Behavior: Mathematical and Agent-Based Models of Social Dynamics and Cultural Evolution”. Read the chapter and answer the following guiding questions:\n\nA typical criticism of formal models is: “You baked your results into the model, so the conclusions are trivial”. What could you answer to such a statement?\n\n\n\nWhat is done in a “decomposition”?\n\n\n\nWhat question should guide the decomposition?\n\n\n\nWhat is, according to Smaldino, the key difference between exact and inexact sciences?\n\n\n\nName the two types of models that typically are employed in social sciences.\n\n\nDeliverable: Submit answers to the guiding questions as a plain text or markdown file to the course’s Homework Repository:\n\nNavigate to /homework/01-Smaldino-chapter (After you cloned the repository in Homework 1, you should have that folder somewhere on your local machine.)\nAdd your answers as .txt or .md file with your first name as filename (e.g., “Heinz-Ruediger.md”)\ncommit and push\n(To verify your submission: If you go to the website of the repository, you should see your file in the folder 01-Smaldino-chapter.)\n\nYou can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\nUsing git for the first time can be challenging. But it’s a skill that will pay off in the long run. If you get stuck, and made honest attempts to solve the problems yourself, don’t get desperate: Just send me your homework via email, and we will sort it out together in the next session."
+    "text": "Instructor notes\n\n\n\n\n\n\nBring empty name tags and board markers.\nDuring the Git intro, create the course’s private homework repo. Create the folder homework/01-Smaldino-chapter.\nCreate an R-project file (without that, git does not work in R-Studio). Otherwise, many students will create that project fiel themselves, leading to many merge conflicts.\nAt the end, collect the name tags (and bring them along next time)\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nInstructor introduction\n\n\nIntroduction of students in the plenum\n10\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nLecture: Introduction: Theory crisis\n100\nSlides\n\n\nGit Intro\n20\nSlides 1-6\n\n\nExplain homework\n10"
+  },
+  {
+    "objectID": "sessions/S1-Introduction.html#overview",
+    "href": "sessions/S1-Introduction.html#overview",
+    "title": "Session 01 - Introduction",
+    "section": "",
+    "text": "Instructor notes\n\n\n\n\n\n\nBring empty name tags and board markers.\nDuring the Git intro, create the course’s private homework repo. Create the folder homework/01-Smaldino-chapter.\nCreate an R-project file (without that, git does not work in R-Studio). Otherwise, many students will create that project fiel themselves, leading to many merge conflicts.\nAt the end, collect the name tags (and bring them along next time)\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nInstructor introduction\n\n\nIntroduction of students in the plenum\n10\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nLecture: Introduction: Theory crisis\n100\nSlides\n\n\nGit Intro\n20\nSlides 1-6\n\n\nExplain homework\n10"
+  },
+  {
+    "objectID": "sessions/S1-Introduction.html#homework-1-individually",
+    "href": "sessions/S1-Introduction.html#homework-1-individually",
+    "title": "Session 01 - Introduction",
+    "section": "Homework 1 (individually)",
+    "text": "Homework 1 (individually)\nLearning Goals: Learn how to pull, commit, and push to Github. Be able to resolve a merge conflict.\nHomework steps:\n\nCreate a Github account. (Skip if you have one already).\nSend your Github user name to me via email. I will give you access to the course’s private Homework Repository: https://github.com/nicebread/FOMO-homework-2025. (Note: You won’t be able to access, clone, or even see the repository until the lecturer has granted you access).\n\nIf you are proficient in git and Github, you can skip step 3:\n\nDo the tutorial “Introduction to version Control with git and GitHub within RStudio”, and the follow-up tutorial “Collaborative coding with GitHub and RStudio”. Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.\n\nNote: In chapter “Secure the connection …” it says “You will then be asked to provide a passphrase. Protecting your keys with a password is optional but highly recommended”. I recommend not to set a passphrase (just leave it empty), unless you deal with very sensitive data. You will get crazy if you need to enter your passphrase at every SSH operation.\n\nOnce you have been granted access to the Homework Repository, clone the repository to your local machine. (This cannot be done on an iPad or smartphone; you need a computer for that.). Important: Do not fork the repository (as you did in the tutorial), but clone it (i.e., we are all working within the same repository, not on individual forked copies of it).\n\nDeliverable:\nPush your answer from Homework 2 (see below) to the folder homework/01-Smaldino-chapter of the remote repository (i.e., first save your file locally in the respective folder, then commit and push)."
+  },
+  {
+    "objectID": "sessions/S1-Introduction.html#homework-2-individually",
+    "href": "sessions/S1-Introduction.html#homework-2-individually",
+    "title": "Session 01 - Introduction",
+    "section": "Homework 2 (individually)",
+    "text": "Homework 2 (individually)\nDownload Chapter 1 of Paul Smaldino’s Book “Modeling Social Behavior: Mathematical and Agent-Based Models of Social Dynamics and Cultural Evolution”. Read the chapter and answer the following guiding questions:\n\nA typical criticism of formal models is: “You baked your results into the model, so the conclusions are trivial”. What could you answer to such a statement?\n\n\n\nWhat is done in a “decomposition”?\n\n\n\nWhat question should guide the decomposition?\n\n\n\nWhat is, according to Smaldino, the key difference between exact and inexact sciences?\n\n\n\nName the two types of models that typically are employed in social sciences.\n\n\nDeliverable: Submit answers to the guiding questions as a plain text or markdown file to the course’s Homework Repository:\n\nNavigate to /homework/01-Smaldino-chapter (After you cloned the repository in Homework 1, you should have that folder somewhere on your local machine.)\nAdd your answers as .txt or .md file with your first name as filename (e.g., “Heinz-Ruediger.md”)\ncommit and push\n(To verify your submission: Go to the website of the repository, and check whether your file is in the folder homework/01-Smaldino-chapter.)\n\nYou can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\nUsing git for the first time can be challenging. But it’s a skill that will pay off in the long run. If you get stuck, and made honest attempts to solve the problems yourself, don’t get desperate: Just send me your homework via email, and we will sort it out together in the next session."
   },
   {
     "objectID": "sessions/S8-MathModel5.html",
@@ -1390,21 +1495,70 @@
     "href": "sessions/S3-VAST_application.html",
     "title": "Session 03 - Introduction Theories / Practice VAST",
     "section": "",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: VAST displays for “diffusion of responsibility”\n45\n\n\n\nLecture: “Applying VAST to an existing theory”\n60\nSlides\n\n\nWorkshop: Formalize the bystander effect theory\n90\nSee Google Drive\n\n\n[Homework]: Finalize Bystander VAST in group\n-\n\n\n\n\n\n\n2 Workshop (in course): Formalize the bystander effect theory\n\nCreate the Construct Source Table for the Bystander Effect. Use the Google Drive template.\nBased on the table, create a VAST display. The goal is an easily understandable display: prioritize understandability over completeness and over a maximally truthful mapping of the original statements. Use as few concepts as possible (but as many as necessary). (Why aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that).\n\n\n\n3 Homework (as a group): Finalize Bystander VAST\nDeliverables: - Clean up your Construct Source Table on Google Drive - Upload/commit your draw.io VAST display in the Homework Repository, subfolder Bystander_effect."
+    "text": "Instructor notes\n\n\n\n\n\n\nCreate subfolder Bystander_effect in the homework repository\nCreate a Google Drive folder and add the Construct Source Table template.\nAdd link to Google Drive template in the README of the homework repository\nAdd the group compositions to the README of the homework repository"
+  },
+  {
+    "objectID": "sessions/S3-VAST_application.html#overview",
+    "href": "sessions/S3-VAST_application.html#overview",
+    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "section": "1 Overview",
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLecture: What is (not) a theory? (Part 2)\n30\nSlides, 18-end\n\n\nHomework wrap-up: VAST displays for “diffusion of responsibility”\n45\n\n\n\nLecture: “Applying VAST to an existing theory”\n60\nSlides\n\n\nGroup formation\n10\n\n\n\nWorkshop: Start formalizing the bystander effect theory\n45\nSee Google Drive\n\n\n[Homework]: Finalize Bystander VAST in group\n-"
+  },
+  {
+    "objectID": "sessions/S3-VAST_application.html#group-formation",
+    "href": "sessions/S3-VAST_application.html#group-formation",
+    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "section": "2 Group formation",
+    "text": "2 Group formation\nCreate a maximum of 4 groups. These will work together for the bystander formalization. (Note: When their own theories are formalized later in the course, students can form new groups)."
+  },
+  {
+    "objectID": "sessions/S3-VAST_application.html#workshop-in-course-formalize-the-bystander-effect-theory",
+    "href": "sessions/S3-VAST_application.html#workshop-in-course-formalize-the-bystander-effect-theory",
+    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "section": "3 Workshop (in course): Formalize the bystander effect theory",
+    "text": "3 Workshop (in course): Formalize the bystander effect theory\n\nEach group should create their Construct Source Table for the Bystander Effect (use your group name in the file name). Copy the template file that you find on Google Drive.\nBased on the table, create a VAST display. The goal is an easily understandable display: prioritize understandability over completeness and over a maximally truthful mapping of the original statements. Use as few concepts as possible (but as many as necessary). (Why aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that)."
+  },
+  {
+    "objectID": "sessions/S3-VAST_application.html#homework-as-a-group-finalize-bystander-vast",
+    "href": "sessions/S3-VAST_application.html#homework-as-a-group-finalize-bystander-vast",
+    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "section": "4 Homework (as a group): Finalize Bystander VAST",
+    "text": "4 Homework (as a group): Finalize Bystander VAST\nDeliverables: - Clean up your Construct Source Table on Google Drive - Upload/commit your draw.io VAST display in the Homework Repository, subfolder Bystander_effect."
   },
   {
     "objectID": "sessions/S2-VAST_intro.html",
     "href": "sessions/S2-VAST_intro.html",
     "title": "Session 02 - Introduction to the Visual Argument Structure Tool",
     "section": "",
-    "text": "Instructor notes\n\n\n\n\n\n\nCreate subfolder homework/02-VAST\n\n\n\n\n\nOverview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWrap up [Homework 2]: Smaldino (2013), Chapter 1\n15\n\n\n\nGit Tutorial troubleshooting\n30\n\n\n\nLecture: Short introduction to VAST\n45\nSlides\n\n\nLecture: What is (not) a theory?\n90\nSlides\n\n\n\n\n\nHomework 1 (individually): Read the VAST paper\nRead the VAST paper:\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://open.lnu.se/index.php/metapsychology/article/view/2911\nDeliverable: Nothing - just read it and understand it.\n\n\nHomework 2 (individually): Your first (mini) VAST display\nThis homework consists of three steps, A, B, and C:\n\nRead the original definition of the concept “diffusion of responsibility”, printed below (no need to read the full paper yet). Darley and Latané introduced the term in 1968, it’s even in the title of the publication: “Bystander intervention in emergencies: Diffusion of responsibility.”\n\nThese are the paragraphs that describe the concept (p. 377f):\n\n[After introducing the case of Kitty Genovese:] “In certain circumstances, the norms favoring intervention may be weakened, leading bystanders to resolve the conflict in the direction of nonintervention. One of these circumstances may be the presence of other onlookers. For example, in the case above, each observer, by seeing lights and figures in other apartment house windows, knew that others were also watching. However, there was no way to tell how the other observers were reacting. These two facts provide several reasons why any individual may have delayed or failed to help. The responsibility for helping was diffused among the observers; there was also diffusion of any potential blame for not taking action; and finally, it was possible that somebody, unperceived, had already initiated helping action.\nWhen only one bystander is present in an emergency, if help is to come, it must come from him. Although he may choose to ignore it (out of concern for his personal safety, or desires “not to get involved”), any pressure to intervene focuses uniquely on him. When there are several observers present, however, the pressures to intervene do not focus on any one of the observers; instead the responsibility for intervention is shared among all the onlookers and is not unique to any one. As a result, no one helps.\nA second possibility is that potential blame may be diffused. However much we may wish to think that an individual’s moral behavior is divorced from considerations of personal punishment or reward, there is both theory and evidence to the contrary (Aronfreed, 1964; Miller & Bollard, 1941, Whiting & Child, 19S3). It is perfectly reasonable to assume that, under circumstances of group responsibility for a punishable act, the punishment or blame that accrues to any one individual is often slight or nonexistent.\nFinally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that “somebody else must be doing something.”\n\n\nDraw your first (mini) VAST display for the definition of the concept “diffusion of responsibility” with draw.io (see concrete instructions below under “Deliverable”). As you noted, Darley and Latané provide no explicit section stating “Diffusion of responsibility is defined as …”. Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.\nAfter you created your VAST display, read a more recent summary of the concept in the Dorsch Lexikon der Psychologie, in particular the first and the third (last) paragraph. Write a few sentences, elaborating to what extent this definition is compatible to your own VAST display, and where it deviates.\n\n\nDeliverable: For task 2B, save your draw.io VAST diagram in our Homework Repository by choosing “Github” as destination for your file:\n\nThen choose the Homework Repository:\n\n… and navigate to the correct homework folder:\n\nSave the diagram with your name as filename (homework/02-VAST/YOURNAME.drawio). Additionally, save the diagram as a .png or .jpg file in the same folder (homework/02-VAST/YOURNAME.png).\nFor task 4C, save a file with your answers in the same folder (homework/02-VAST/YOURNAME.md). Don’t forget to push everything to the remote repo."
+    "text": "Instructor notes\n\n\n\n\n\n\nCreate subfolder homework/02-VAST in the homework repository\nMake sure that the file VAST_Displays.xml is available in the root folder of the homework repository. This file contains all VAST shapes for draw.io.\nInstall the draw.io app in Github (only then access to private repositories is possible):\n\nGo to https://github.com/apps/draw-io-app → Configure → Repository access → Select “Only select repositories” → Select our homework repository → Save."
+  },
+  {
+    "objectID": "sessions/S2-VAST_intro.html#overview",
+    "href": "sessions/S2-VAST_intro.html#overview",
+    "title": "Session 02 - Introduction to the Visual Argument Structure Tool",
+    "section": "Overview",
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nWrap up [Homework 2]: Smaldino (2013), Chapter 1\n15\n\n\n\nGit Tutorial troubleshooting\n30\n\n\n\nLecture: Short introduction to VAST\n60\nSlides\n\n\nLecture: What is (not) a theory? (Part 1)\n30\nSlides, 1-17"
+  },
+  {
+    "objectID": "sessions/S2-VAST_intro.html#homework-1-individually-read-the-vast-paper",
+    "href": "sessions/S2-VAST_intro.html#homework-1-individually-read-the-vast-paper",
+    "title": "Session 02 - Introduction to the Visual Argument Structure Tool",
+    "section": "Homework 1 (individually): Read the VAST paper",
+    "text": "Homework 1 (individually): Read the VAST paper\nRead the VAST paper:\nLeising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://open.lnu.se/index.php/metapsychology/article/view/2911\nDeliverable: Nothing - just read it and understand it."
+  },
+  {
+    "objectID": "sessions/S2-VAST_intro.html#homework-2-individually-your-first-mini-vast-display",
+    "href": "sessions/S2-VAST_intro.html#homework-2-individually-your-first-mini-vast-display",
+    "title": "Session 02 - Introduction to the Visual Argument Structure Tool",
+    "section": "Homework 2 (individually): Your first (mini) VAST display",
+    "text": "Homework 2 (individually): Your first (mini) VAST display\nThis homework consists of three steps, A, B, and C:\n\nRead the original definition of the concept “diffusion of responsibility”, printed below (no need to read the full paper yet). Darley and Latané introduced the term in 1968, it’s even in the title of the publication: “Bystander intervention in emergencies: Diffusion of responsibility.”\n\nThese are the paragraphs that describe the concept (p. 377f):\n\n[After introducing the case of Kitty Genovese:] “In certain circumstances, the norms favoring intervention may be weakened, leading bystanders to resolve the conflict in the direction of nonintervention. One of these circumstances may be the presence of other onlookers. For example, in the case above, each observer, by seeing lights and figures in other apartment house windows, knew that others were also watching. However, there was no way to tell how the other observers were reacting. These two facts provide several reasons why any individual may have delayed or failed to help. The responsibility for helping was diffused among the observers; there was also diffusion of any potential blame for not taking action; and finally, it was possible that somebody, unperceived, had already initiated helping action.\nWhen only one bystander is present in an emergency, if help is to come, it must come from him. Although he may choose to ignore it (out of concern for his personal safety, or desires “not to get involved”), any pressure to intervene focuses uniquely on him. When there are several observers present, however, the pressures to intervene do not focus on any one of the observers; instead the responsibility for intervention is shared among all the onlookers and is not unique to any one. As a result, no one helps.\nA second possibility is that potential blame may be diffused. However much we may wish to think that an individual’s moral behavior is divorced from considerations of personal punishment or reward, there is both theory and evidence to the contrary (Aronfreed, 1964; Miller & Bollard, 1941, Whiting & Child, 19S3). It is perfectly reasonable to assume that, under circumstances of group responsibility for a punishable act, the punishment or blame that accrues to any one individual is often slight or nonexistent.\nFinally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that “somebody else must be doing something.”\n\n\nDraw your first (mini) VAST display for the definition of the concept “diffusion of responsibility” with draw.io (see concrete instructions below under “Deliverable”). You can either use the online version of draw.io, or download the desktop application. As you may have noted, Darley and Latané provide no explicit section stating “Diffusion of responsibility is defined as …”. Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.\nAfter you created your VAST display, read a more recent summary of the concept in the Dorsch Lexikon der Psychologie, in particular the first and the third (last) paragraph. Write a few sentences, elaborating to what extent this definition is compatible to your own VAST display, and where it deviates.\n\n\n\nDeliverables:\n\nInstall VAST shapes in draw.io:\nTo add VAST displays more easily in draw.io, Benedikt Ehrenwirth created a library with pre-made VAST elements.\nIn the online version of draw.io, you can insert the library file by going to Datei &gt; Bibliothek öffnen von … &gt; GitHub…, then navigating to our homework repository and selecting VAST_Displays.xml &gt; Autorisieren.\n\n\nIn the desktop version of draw.io, you might need to run git pull to download the file VAST_Displays.xml to your local repository Then, go to Datei &gt; Bibliothek öffnen, and select the VAST_Displays.xml file in your local repository.\n\nAfter successful installation, you should see a new section “VAST Displays” in the left sidebar of draw.io:\n\n\n\nSave your draw.io diagram in Github:\nFor task 2B, save your draw.io VAST diagram in our Homework Repository by choosing “Github” as destination for your file:\n\nThen choose the Homework Repository (Note: The screenshots might show an old homework repository, but you should select our current homework repository):\n\n… and navigate to the correct homework folder:\n\nSave the diagram with your name as filename (homework/02-VAST/YOURNAME.drawio). Additionally, save the diagram as a .png or .jpg file in the same folder (homework/02-VAST/YOURNAME.png). Use Datei -&gt; Exportieren als -&gt; PNG/JPG in draw.io to do so.\nFor task 4C, save a file with your answers in the same folder (homework/02-VAST/YOURNAME.md). Don’t forget to push everything to the remote repo."
   },
   {
     "objectID": "lectures/Intro2/Intro2.html",
     "href": "lectures/Intro2/Intro2.html",
     "title": "What are (Not) Theories & Models?",
     "section": "",
-    "text": "Like so many words that are bandied about, the word theory threatens to become meaningless. Because its referents are so diverse - including everything from minor working hypotheses, through comprehensive but vague and unordered speculations,to axiomatic systems of thought - use of the word often obscures rather than creates understanding.\n\nMerton (1967, p. 39)\n\n\nMaybe an easier question for the start: What is not a theory?\n\nCited from Sutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n(Note: While the following features of a scholarly article do not constitute a theory, they might be important in their own right)\n\n\nA manuscript that Robert Sutton edited had strong data, but all three reviewers emphasized that it had “weak theory” and “poorly motivated hypotheses.” The author responded to these concerns by writing a new introduction that added citations to many papers containing theory and many terms like “psycho-social theory,” “identity theory,” and “social comparison theory.”\nBut it still contained no discussion of what these theories were about and no discussion of the logical arguments why these theories led to the author’s predictions. The result was that this paper contained almost no theory, despite the author’s assertion that much had been added.\n\nSolution:\n\nAuthors need to explicate which concepts and causal arguments are adopted from cited sources and how they are linked to the theory being developed or tested.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\nEmpirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.\nKaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: Data describe which empirical patterns were observed and theory explains why empirical patterns were observed or are expected to be observed.\n\nFurthermore: Theories do not explain data - theories explain phenomena!\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\nPapers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.\nSuch lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.\n\nLists of constructs (without an explicit definition of their causal relationship) often are called a framework.\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)\n\n\n\n\n\n\n\n\n\n\n\n\nIqbal, S. et al. (2021). https://doi.org/10.3389/fpsyg.2021.620838\n\n\n\n\n\n\n\n\nFigure 1. Holistic wellbeing model for school education.\n\n\n\nNorozi, S. A. (2023). The Nexus of Holistic Wellbeing and School Education: A Literature-Informed Theoretical Framework. Societies, 13(5), 113. https://doi.org/10.3390/soc13050113\n\n\n\n\n\n\n\n\n\n\nCBCB, CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0, via Wikimedia Commons\n\n\n\n\n\n\n\n\n\n\nhttp://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html\n\n\n\n\n\n\n\n\nDiagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. […]\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\nDiscussion: Are then VAST displays on their own sufficient to constitute a theory?\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\nHypotheses can be an important part of a well-crafted conceptual argument. They serve as crucial bridges between theory and data, making explicit how the variables and relationships that follow from a logical argument will be operationalized. […]\nHypotheses do not (and should not) contain logical arguments about why empirical relationships are expected to occur. Hypotheses are concise statements about what is expected to occur, not why it is expected to occur.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "text": "Like so many words that are bandied about, the word theory threatens to become meaningless. Because its referents are so diverse - including everything from minor working hypotheses, through comprehensive but vague and unordered speculations,to axiomatic systems of thought - use of the word often obscures rather than creates understanding.\n\nMerton (1967, p. 39)\n\n\nMaybe an easier question for the start: What is not a theory?\n\nCited from Sutton, R. I., & Staw, B. M. (1995). What theory is not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n(Note: While the following features of a scholarly article do not constitute a theory, they might be important in their own right)\n\n\nA manuscript that Robert Sutton edited had strong data, but all three reviewers emphasized that it had “weak theory” and “poorly motivated hypotheses.” The author responded to these concerns by writing a new introduction that added citations to many papers containing theory and many terms like “psycho-social theory,” “identity theory,” and “social comparison theory.”\nBut it still contained no discussion of what these theories were about and no discussion of the logical arguments why these theories led to the author’s predictions. The result was that this paper contained almost no theory, despite the author’s assertion that much had been added.\n\nSolution:\n\nAuthors need to explicate which concepts and causal arguments are adopted from cited sources and how they are linked to the theory being developed or tested.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\nEmpirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.\nKaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: Data describe which empirical patterns were observed and theory explains why empirical patterns were observed or are expected to be observed.\n\nIn our words: Repeated patterns in data establish phenomena. They do not explain them.\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\nPapers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.\nSuch lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.\n\nNotes:\n\nLists of constructs (without an explicit definition of their causal relationship) often are called a framework.\nWhen we build our models, we will also create tables of constructs and variables. But that alone is not yet a theory!\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)\n\n\n\n\n\n\n\n\n\n\n\n\nIqbal, S. et al. (2021). https://doi.org/10.3389/fpsyg.2021.620838\n\n\n\n\n\n\n\n\nFigure 1. Holistic wellbeing model for school education.\n\n\n\nNorozi, S. A. (2023). The Nexus of Holistic Wellbeing and School Education: A Literature-Informed Theoretical Framework. Societies, 13(5), 113. https://doi.org/10.3390/soc13050113\n\n\n\n\n\n\n\n\n\n\nCBCB, CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0, via Wikimedia Commons\n\n\n\n\n\n\n\n\n\n\nhttp://alchemicaldiagrams.blogspot.com/2010_12_01_archive.html\n\n\n\n\n\n\n\n\nDiagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. […]\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\nDiscussion: Are then VAST displays on their own sufficient to constitute a theory?\n\nNo, because they do not present arguments why a certain causal path (or other elements) should exist.\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788\n\n\n\n\n\n\n\n\n\nHypotheses can be an important part of a well-crafted conceptual argument. They serve as crucial bridges between theory and data, making explicit how the variables and relationships that follow from a logical argument will be operationalized. […]\nHypotheses do not (and should not) contain logical arguments about why empirical relationships are expected to occur. Hypotheses are concise statements about what is expected to occur, not why it is expected to occur.\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#what-is-not-a-theory",
@@ -1418,14 +1572,14 @@
     "href": "lectures/Intro2/Intro2.html#what-is-not-a-theory-1",
     "title": "What are (Not) Theories & Models?",
     "section": "",
-    "text": "Empirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.\nKaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: Data describe which empirical patterns were observed and theory explains why empirical patterns were observed or are expected to be observed.\n\nFurthermore: Theories do not explain data - theories explain phenomena!\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "text": "Empirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.\nKaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: Data describe which empirical patterns were observed and theory explains why empirical patterns were observed or are expected to be observed.\n\nIn our words: Repeated patterns in data establish phenomena. They do not explain them.\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#what-is-not-a-theory-2",
     "href": "lectures/Intro2/Intro2.html#what-is-not-a-theory-2",
     "title": "What are (Not) Theories & Models?",
     "section": "",
-    "text": "Papers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.\nSuch lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.\n\nLists of constructs (without an explicit definition of their causal relationship) often are called a framework.\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "text": "Papers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.\nSuch lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.\n\nNotes:\n\nLists of constructs (without an explicit definition of their causal relationship) often are called a framework.\nWhen we build our models, we will also create tables of constructs and variables. But that alone is not yet a theory!\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#what-is-not-a-theory-3",
@@ -1460,7 +1614,7 @@
     "href": "lectures/Intro2/Intro2.html#what-is-not-a-theory-4",
     "title": "What are (Not) Theories & Models?",
     "section": "",
-    "text": "Diagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. […]\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\nDiscussion: Are then VAST displays on their own sufficient to constitute a theory?\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "text": "Diagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. […]\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\nDiscussion: Are then VAST displays on their own sufficient to constitute a theory?\n\nNo, because they do not present arguments why a certain causal path (or other elements) should exist.\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#what-is-not-a-theory-5",
@@ -1565,14 +1719,14 @@
     "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-1",
     "title": "What are (Not) Theories & Models?",
     "section": "What is not a theory?",
-    "text": "What is not a theory?\n2. Data Are Not Theory\n\n\nEmpirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.\nKaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: Data describe which empirical patterns were observed and theory explains why empirical patterns were observed or are expected to be observed.\n\nFurthermore: Theories do not explain data - theories explain phenomena!\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "text": "What is not a theory?\n2. Data Are Not Theory\n\n\nEmpirical evidence plays an important role in confirming, revising, or discrediting existing theory and in guiding the development of new theory. But observed patterns like beta weights, factor loadings, or consistent statements by informants rarely constitute causal explanations.\nKaplan (1964) asserted that theory and data each play a distinct role in behavioral science research: Data describe which empirical patterns were observed and theory explains why empirical patterns were observed or are expected to be observed.\n\nIn our words: Repeated patterns in data establish phenomena. They do not explain them.\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-2",
     "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-2",
     "title": "What are (Not) Theories & Models?",
     "section": "What is not a theory?",
-    "text": "What is not a theory?\n3. Lists of Variables or Constructs Are Not Theory\n\n\nPapers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.\nSuch lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.\n\nLists of constructs (without an explicit definition of their causal relationship) often are called a framework.\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "text": "What is not a theory?\n3. Lists of Variables or Constructs Are Not Theory\n\n\nPapers […] often are written as if well-defined variables or constructs, by themselves, are enough to make theory. Sometimes the list of variables represents a logical attempt to cover all or most of the determinants of a given outcome or process.\nSuch lists may be useful catalogs of variables that can be entered as predictors or controls in multiple regression equations […], but they do not constitute theory.\n\nNotes:\n\nLists of constructs (without an explicit definition of their causal relationship) often are called a framework.\nWhen we build our models, we will also create tables of constructs and variables. But that alone is not yet a theory!\n\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-3",
@@ -1607,7 +1761,7 @@
     "href": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-4",
     "title": "What are (Not) Theories & Models?",
     "section": "What is not a theory? 4",
-    "text": "What is not a theory? 4\n4. Diagrams (Alone) Are Not Theory\n\n\nDiagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. […]\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\nDiscussion: Are then VAST displays on their own sufficient to constitute a theory?\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
+    "text": "What is not a theory? 4\n4. Diagrams (Alone) Are Not Theory\n\n\nDiagrams or figures can be a valuable part of a research paper but also, by themselves, rarely constitute theory. […]\nMore helpful are figures that show causal relationships in a logical ordering, so that readers can see a chain of causation or how a third variable intervenes in or moderates a relationship. Also useful are temporal diagrams showing how a particular process unfolds over time. […]\nAs Whetten (1989) suggested, while boxes and arrows can add order to a conception by explicitly delineating patterns and causal connections, they rarely explain why the proposed connections will be observed. Some verbal explication is almost always necessary.\n\n\nDiscussion: Are then VAST displays on their own sufficient to constitute a theory?\n\nNo, because they do not present arguments why a certain causal path (or other elements) should exist.\n\n\nSutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science Quarterly, 40(3), 371. https://doi.org/10.2307/2393788"
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#what-is-not-a-theory-5",

@@ -5,22 +5,25 @@ description: Intro to theory 2 / VAST-Displays
 ---
 
 ::: {.callout-note collapse="true" title="Instructor notes"}
-- Create subfolder `homework/02-VAST`
+- Create subfolder `homework/02-VAST` in the [homework repository]({{< var homework_repo >}})
+- Make sure that the file `VAST_Displays.xml` is available in the root folder of the [homework repository]({{< var homework_repo >}}). This file contains all VAST shapes for draw.io.
+- Install the draw.io app in Github (only then access to private repositories is possible):
+  - Go to [https://github.com/apps/draw-io-app](https://github.com/apps/draw-io-app) → Configure → Repository access → Select "Only select repositories" → Select our homework repository → Save.
 :::
 
-# Overview
+## Overview
 
-| Topic                                                | Duration | Notes                                     |
-| ---------------------------------------------------- | -------- | ----------------------------------------- |
-| Wrap up **[Homework 2]**: Smaldino (2013), Chapter 1 | 15       |                                           |
-| Git Tutorial troubleshooting                         | 30       |                                           |
-| **Lecture**: Short introduction to VAST              | 45       | [Slides](../lectures/VAST/VAST_Intro.qmd) |
-| **Lecture**: What is (not) a theory?                 | 90       | [Slides](../lectures/Intro2/Intro2.qmd)   |
+| Topic                                                | Duration | Notes                                         |
+| ---------------------------------------------------- | -------- | --------------------------------------------- |
+| Wrap up **[Homework 2]**: Smaldino (2013), Chapter 1 | 15       |                                               |
+| Git Tutorial troubleshooting                         | 30       |                                               |
+| **Lecture**: Short introduction to VAST              | 60       | [Slides](../lectures/VAST/VAST_Intro.qmd)     |
+| **Lecture**: What is (not) a theory? (Part 1)        | 30       | [Slides](../lectures/Intro2/Intro2.qmd), 1-17 |
 
 : {.striped}
 
 
-# Homework 1 (individually): Read the VAST paper
+## Homework 1 (individually): Read the VAST paper
 
 Read the VAST paper:
 
@@ -30,7 +33,7 @@ Leising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VA
 
 
 
-# Homework 2 (individually): Your first (mini) VAST display
+## Homework 2 (individually): Your first (mini) VAST display
 
 This homework consists of three steps, A, B, and C:
 
@@ -46,7 +49,8 @@ These are the paragraphs that describe the concept (p. 377f):
 > 
 > Finally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that "somebody else must be doing something."
 
-(B) Draw your first (mini) VAST display for the definition of the concept "diffusion of responsibility" with [draw.io](https://app.diagrams.net) (see concrete instructions below under "Deliverable"). As you noted, Darley and Latané provide no explicit section stating "Diffusion of responsibility is defined as ...". Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.
+(B) Draw your first (mini) VAST display for the definition of the concept "diffusion of responsibility" with [draw.io](https://app.diagrams.net) (see concrete instructions below under "Deliverable"). You can either use the online version of draw.io, or download the desktop application.
+As you may have noted, Darley and Latané provide no explicit section stating "Diffusion of responsibility is defined as ...". Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.
 
 (C) *After* you created your VAST display, read a more recent summary of the concept in the [Dorsch Lexikon der Psychologie](https://dorsch.hogrefe.com/stichwort/diffusion-der-verantwortung), in particular the first and the third (last) paragraph.
 **Write a few sentences, elaborating to what extent this definition is compatible to your own VAST display, and where it deviates.**
@@ -60,21 +64,40 @@ Last paragraph: "Neben der Diffusion der Verantwortung trägt auch die pluralist
  -->
 
 
-**Deliverable**:
+### Deliverables:
+
+#### Install VAST shapes in draw.io:
+
+To add VAST displays more easily in draw.io, Benedikt Ehrenwirth created a library with pre-made VAST elements.
+
+In the **online version** of draw.io, you can insert the library file by going to *Datei* > *Bibliothek öffnen von ...* > *GitHub...*, then navigating to our homework repository and selecting `VAST_Displays.xml` > *Autorisieren*.
+
+![](img/S2_drawio_lib0.png){width="500px"}
+
+- In the **desktop version** of draw.io, you might need to run `git pull` to download the file `VAST_Displays.xml` to your local repository Then, go to *Datei* > *Bibliothek öffnen*, and select the `VAST_Displays.xml` file in your local repository.
+
+After successful installation, you should see a new section "VAST Displays" in the left sidebar of draw.io:
+
+![](img/S2_drawio_lib1.png){width="500px"}
+
+
+
+#### Save your draw.io diagram in Github:
+
 For task 2B, save your draw.io VAST diagram in our [Homework Repository]({{< var homework_repo >}}) by choosing "Github" as destination for your file:
 
-![](img/S1_drawio_0.png)
+![](img/S2_drawio_0.png)
 
-Then choose the Homework Repository:
+Then choose the Homework Repository (Note: The screenshots might show an old homework repository, but you should select *our current* homework repository):
 
-![](img/S1_drawio_1.png)
+![](img/S2_drawio_1.png)
 
 ... and navigate to the correct homework folder:
 
-![](img/S1_drawio_2.png)
+![](img/S2_drawio_2.png)
 
 Save the diagram with your name as filename (`homework/02-VAST/YOURNAME.drawio`).
-*Additionally*, save the diagram as a `.png` or `.jpg` file in the same folder (`homework/02-VAST/YOURNAME.png`).
+*Additionally*, save the diagram as a `.png` or `.jpg` file in the same folder (`homework/02-VAST/YOURNAME.png`). Use `Datei -> Exportieren als -> PNG/JPG` in draw.io to do so.
 
 For task 4C, save a file with your answers in the same folder (`homework/02-VAST/YOURNAME.md`). Don't forget to `push` everything to the remote repo.
 

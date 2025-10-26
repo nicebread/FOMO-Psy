@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Intro to theory 1 - First steps in modeling">
+<meta name="description" content="Discussing the theory crisis; showcasing Git">
 
 <title>Session 01 - Introduction – FOMO-Psy: Formal Modeling of Psychological Theories</title>
 <style>
@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Intro to theory 1 - First steps in modeling
+    Discussing the theory crisis; showcasing Git
   </div>
 </div>
 
@@ -170,8 +170,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level1">
-<h1>Overview</h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <div class="callout callout-style-default callout-note callout-titled" title="Instructor notes">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -187,6 +187,7 @@ Instructor notes
 <ul>
 <li>Bring empty name tags and board markers.</li>
 <li>During the Git intro, create the course’s private homework repo. Create the folder <code>homework/01-Smaldino-chapter</code>.</li>
+<li>Create an R-project file (without that, <code>git</code> does not work in R-Studio). Otherwise, many students will create that project fiel themselves, leading to many merge conflicts.</li>
 <li>At the end, collect the name tags (and bring them along next time)</li>
 </ul>
 </div>
@@ -234,8 +235,8 @@ Instructor notes
 </tbody>
 </table>
 </section>
-<section id="homework-1-individually" class="level1">
-<h1>Homework 1 (individually)</h1>
+<section id="homework-1-individually" class="level2">
+<h2 class="anchored" data-anchor-id="homework-1-individually">Homework 1 (individually)</h2>
 <p><strong>Learning Goals</strong>: Learn how to <code>pull</code>, <code>commit</code>, and <code>push</code> to Github. Be able to resolve a merge conflict.</p>
 <p><strong>Homework steps</strong>:</p>
 <ol type="1">
@@ -248,13 +249,13 @@ Instructor notes
 <ul>
 <li>Note: In chapter “Secure the connection …” it says “You will then be asked to provide a passphrase. Protecting your keys with a password is optional but highly recommended”. I recommend <em>not</em> to set a passphrase (just leave it empty), unless you deal with very sensitive data. You will get crazy if you need to enter your passphrase at every SSH operation.</li>
 </ul></li>
-<li>Once you have been granted access to the <a href="https://github.com/nicebread/FOMO-homework-2025">Homework Repository</a>, <code>clone</code> the repository to your local machine. (This cannot be done on an iPad or smartphone; you need a computer for that.)</li>
+<li>Once you have been granted access to the <a href="https://github.com/nicebread/FOMO-homework-2025">Homework Repository</a>, <code>clone</code> the repository to your local machine. (This cannot be done on an iPad or smartphone; you need a computer for that.). <strong>Important</strong>: Do <em>not</em> fork the repository (as you did in the tutorial), but <em>clone</em> it (i.e., we are all working within the same repository, not on individual forked copies of it).</li>
 </ol>
 <p><strong>Deliverable</strong>:</p>
 <p>Push your answer from Homework 2 (see below) to the folder <code>homework/01-Smaldino-chapter</code> of the remote repository (i.e., first save your file locally in the respective folder, then <code>commit</code> and <code>push</code>).</p>
 </section>
-<section id="homework-2-individually" class="level1">
-<h1>Homework 2 (individually)</h1>
+<section id="homework-2-individually" class="level2">
+<h2 class="anchored" data-anchor-id="homework-2-individually">Homework 2 (individually)</h2>
 <p>Download <a href="https://pup-assets.imgix.net/onix/images/9780691224145/9780691224138.pdf">Chapter 1</a> of Paul Smaldino’s Book “Modeling Social Behavior: Mathematical and Agent-Based Models of Social Dynamics and Cultural Evolution”. Read the chapter and answer the following guiding questions:</p>
 <ol type="1">
 <li>A typical criticism of formal models is: “You baked your results into the model, so the conclusions are trivial”. What could you answer to such a statement?</li>
@@ -282,7 +283,7 @@ The inexact sciences are those in which the mappings between measurements and th
 <li>Navigate to <code>/homework/01-Smaldino-chapter</code> (After you cloned the repository in Homework 1, you should have that folder somewhere on your local machine.)</li>
 <li>Add your answers as <code>.txt</code> or <code>.md</code> file with your first name as filename (e.g., “<code>Heinz-Ruediger.md</code>”)</li>
 <li><code>commit</code> and <code>push</code></li>
-<li>(To verify your submission: If you go to the <a href="https://github.com/nicebread/FOMO-homework-2025">website</a> of the repository, you should see your file in the folder <code>01-Smaldino-chapter</code>.)</li>
+<li>(To verify your submission: Go to the <a href="https://github.com/nicebread/FOMO-homework-2025">website</a> of the repository, and check whether your file is in the folder <code>homework/01-Smaldino-chapter</code>.)</li>
 </ul>
 <p>You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you <em>learn</em> something, not that you make your lecturer happy).</p>
 <p>Using <code>git</code> for the first time can be challenging. But it’s a skill that will pay off in the long run. If you get stuck, and made honest attempts to solve the problems yourself, don’t get desperate: Just send me your homework via email, and we will sort it out together in the next session.</p>
@@ -363,7 +364,7 @@ The inexact sciences are those in which the mappings between measurements and th
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/nicebread\.github\.io\/FOMO-Psy\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

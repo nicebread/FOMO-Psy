@@ -12,6 +12,7 @@ author:
     affiliations: Ludwig-Maximilians-Universität München
 date: 2024-10-25
 order: 30
+duration: 60
 footer: "These slides are part of the course [Formal modeling in psychology](https://nicebread.github.io/FOMO-Psy/) at LMU Munich"
 format: 
   nicetheme-revealjs: 
@@ -224,6 +225,13 @@ digraph G {
 ::::
 
 
+## Data
+### Symbol
+
+Note: In the original VAST paper, the Data concept has the shape on the left. As that shape is not available in the Graphviz system used to create some graphs in this presentation, we also use this this alternative symbol for Data:
+
+![](img/VAST_Data_folder.png)
+
 
 
 ## Data
@@ -245,13 +253,6 @@ digraph G {
 - **Data** (left box, folder-shaped) is a special kind of concept, which explicitly refers to something observable. 
   - Same as a manifest variable in Structural Equation Modeling 
 - This display is supposed to capture the idea that "Intelligence is what the intelligence test measures"
-
-## Data
-### Symbol
-
-Note: In the original VAST paper, the Data concept has a different shape (but that shape is not available in the Graphviz system used to create the graphs in this presentation):
-
-![](img/VAST_Data_folder.png)
 
 
 
@@ -402,7 +403,6 @@ digraph G {
     T2 -> HighScoreTest2 [label="n  "];
     I -> Intelligent [label="n"];    
 }
-
 ```
 :::
 
@@ -432,9 +432,63 @@ digraph G {
 
 
 
-<!-- TODO: Weitere Plots aus Daniels pptx hier aufnehmen -->
+## Higher-order concepts 1
+
+![](img/VAST_HOC_naming.png){fig-align="center" height="70px"}
+
+Any combination of elements may be made into a new „higher-order concept“ by putting it into a frame:
+
+![](img/VAST_HOC_1.png){fig-align="center" height="250px"}
 
 
+## Higher-order concepts 2
+
+![](img/VAST_HOC_naming.png){fig-align="center" height="70px"}
+
+::: {.smaller}
+Higher order concepts may be related to one another in exactly the same ways in which „simple“ concepts may be:
+:::
+
+![](img/VAST_HOC_2.png){fig-align="center" height="200px"}
+
+::: {.smaller}
+This diagram expresses the idea that a correlation between the two sets of test scores would be a reason (`r`) to assume that both sets of test scores reflect causal influences of some common factor (called "intelligence").
+:::
+
+
+## IS and OUGHT
+
+The `IS` element tells us that a concept is not a mere possibility, but is considered to actually apply:
+
+![](img/VAST_IS.png){fig-align="center" height="300px"}
+
+- "`I` is causally affected by `GCE`"
+- "`I` is causally affected by `GGD`"
+
+
+## The analyst
+
+The "analyst" heading names the person who made the VAST display. A VAST-display always reflects this person‘s view:
+
+![](img/VAST_Analyst.png){fig-align="center" height="300px"}
+
+
+## No other causal paths?
+
+![](img/VAST_c0.png){fig-align="center" height="300px"}
+
+- A `c 0` arrow expresses the idea that there is no other causal influence on "Intelligence" apart from the ones that were specified (CGE or GGD). 
+
+::: {.fragment}
+- Mira's display now contains two ideas that are mutually incompatible. This is not a problem: VAST is used for displaying ideas correctly – those ideas themselves may still be nonsensical or incoherent!
+:::
+
+## Perspectives
+
+![](img/VAST_perspective.png){fig-align="center" height="300px"}
+
+Here, Mira expresses the idea, that Robert holds the view on the left-hand side, whereas Ayşe
+holds the view on the right-hand side. Now the the display is not logically incoherent anymore.
 
 
 ## Strength of relationship
@@ -447,6 +501,33 @@ digraph G {
   - type `p`: "wearing glasses" makes it 70 percent likely for a person to also be "smart"
   - type `r`: It is 90 percent reasonable to assume someone "is in love with you" when that person "giggles a lot while talking to you"
   - type `c`: being "obese" makes it 50 percent likely for someone to develop "Diabetes Type II" as a consequence
+
+
+
+## {{< fa people-group size=1x >}} Exercise: How would you interpret this?
+
+![](img/VAST_example.png){fig-align="center" height="500px"}
+
+
+## {{< fa people-group size=1x >}} Exercise: How would you interpret this?
+
+:::: {.columns}
+::: {.column width='50%' .r-fit-text}
+![](img/VAST_example.png)
+
+:::
+
+::: {.column width='50%' .smallest}
+
+(A): "Mira assumes that she has presented Robert's and Ayse's views correctly (with strength > 0.5, which is the default for IS and OUGHT elements). This implies that these two persons have different and incompatible statements about the single causal effect on `I`.
+
+(B): Mira says (normatively) that Robert and Ayse should get along well.
+
+(C): Mira is certain (relationship strength = `-1`) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well.
+
+:::
+::::
+
 
 ## Fuzziness as a feature
 
@@ -468,32 +549,6 @@ digraph G {
   - Or your personal, current point of view?
   - The empirical support for a statement?
   
-
-
-## {{< fa people-group size=1x >}} Exercise: How would you interpret this?
-
-![](img/VAST_example.png)
-
-
-## {{< fa people-group size=1x >}} Exercise: How would you interpret this?
-
-:::: {.columns}
-::: {.column width='50%' .r-fit-text}
-![](img/VAST_example.png)
-
-:::
-
-::: {.column width='50%' .smallest}
-
-(A): "Mira is assumes that she has presented Robert's and Ayse's views correctly (with strength > 0.5, which is the default for IS and OUGHT elements). This implies that these two have different and incompatible statements about the single causal effect on `I`.
-
-(B): Mira says (normatively) that Robert and Ayse should get along well.
-
-(C): Mira is certain (relationship strength = `-1`) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well.
-
-:::
-::::
-
 
 
 

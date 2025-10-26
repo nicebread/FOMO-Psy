@@ -1,9 +1,29 @@
+## Structural changes (next time)
+
+- S2: Skip the "intro2" lecture, and rather let the groups start working on their VAST displays and familiarize themselves with draw.io. Show them how to install the custom shapes for VAST displays.
+- Move Intro2 lecture entirely to S3.
+
+# intro2.qmd
+
+Folie (nach der Einführung von Models) zu:
+
+ganz oben: narratives, unterspezifiziertes "associative framework" --> aufgrund der Unterspezifizierung lassen sich viele verschiedene (präzisere) formalisierte Theorien ableiten (die alle mit dem narrativen Framework kompatibel sind) --> aus jeder dieser Theorien lassen sich wiederum verschiedene Modelle ableiten (die alle mit der jeweiligen Theorie kompatibel sind)
+
+
 ## Minor todos:
 
 - add the term "generative model" at an appropriate place
 
 - Add Lange Checklist somewhere
 - Read Oude Maatman, F. (2021, July 12). Psychology's Theory Crisis, and Why Formal Modelling Cannot Solve It. https://doi.org/10.31234/osf.io/puqvs
+
+
+## Git tutorial
+
+EIn typisches Problem: Sie lernen im Tutorial erst mal eine Fork von dem Repositorium zu machen.
+Wenn sie dann anfangen im Homework-Repositorium zu arbeiten, machen manche davon erst mal eine Fork. Sie sollen aber alle im selben Repositorium arbeiten.
+
+In R-Studio erscheint der Git-Tab nur, wenn ein R-Project erstellt wurde.
 
 
 ## Add folder structure to it-tools lecture

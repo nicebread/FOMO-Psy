@@ -7,7 +7,7 @@ description: Intro to theory 2 / VAST-Displays
 ::: {.callout-note collapse="true" title="Instructor notes"}
 - Create subfolder `homework/02-VAST` in the [homework repository]({{< var homework_repo >}})
 - Make sure that the file `VAST_Displays.xml` is available in the root folder of the [homework repository]({{< var homework_repo >}}). This file contains all VAST shapes for draw.io.
-- Install the draw.io app in Github (only then access to private repositories is possible):
+- Install and authorize the draw.io app in Github (only then access to private repositories is possible):
   - Go to [https://github.com/apps/draw-io-app](https://github.com/apps/draw-io-app) → Configure → Repository access → Select "Only select repositories" → Select our homework repository → Save.
 :::
 

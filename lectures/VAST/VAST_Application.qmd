@@ -25,7 +25,10 @@ revealjs-plugins:
 - Step 3: Collect definitions of constructs, with reference to the literature.
 - Step 4: Distill a (consensus or working) definition for each construct, add relationships
 - Step 5: Collect robust empirical phenomena
-- Step X: Choose a specific formalization
+
+::: {.callout-tip}
+The full list of formalization steps is presented on [this website](../../Formalization_steps.qmd). This slide set covers steps 2 to 6 of the broader scheme. 
+:::
 
 
 ## Step 1: Choose your starting point
@@ -84,7 +87,7 @@ This table will be called the *[Construct Source Table]{.hl}*, as it collects th
 
 </div>
 
-- *Type* is one of: [P]{.hl}henomenon, [C]{.hl}oncept, [R]{.hl}elationship
+- *Type* is one (or multiple) of: [P]{.hl}henomenon, [C]{.hl}oncept, [R]{.hl}elationship. Note: Sometimes a single quoted statement defines both a concept and a relationship.
 - *Included (Y/N)*: Is this definition included in the VAST display?
 
 :::
@@ -93,7 +96,7 @@ This table will be called the *[Construct Source Table]{.hl}*, as it collects th
 ## Step 4: Distill a working definition for each construct, add relationships
 
 ::: {.smaller}
-- Draw a VAST display with a naming `n` relationship for each construct.
+- Draw a VAST display with a naming (`n`) relationship for each construct.
 - Use the ID from the *Construct Source Table* as subscript for each relationship. This way your claims in the VAST display can be easily backlinked to the original sources in the literature.
   - The small "A" subscript indicates that all relationships in this display are derived from the quote with ID "A" in the *Construct Source Table*.
 :::
@@ -177,14 +180,14 @@ We describe six prototypical examples:
 ## Step 5: Collect robust empirical phenomena
 ### Applying the heuristic to ManyLabs2
 
-All four UTOS dimensions can get an independent assessment. Consider the [ManyLabs2 study](https://journals.sagepub.com/doi/10.1177/2515245918810225): 
-
-The identical experiment (except translation of materials) has been administered online in very diverse samples (at least diverse with respect to nationality and cultural background). 
+All four UTOS dimensions can get an independent assessment. Consider the [ManyLabs2 study](https://journals.sagepub.com/doi/10.1177/2515245918810225), where identical experiment (except translation of materials) has been administered online in very diverse samples (at least diverse with respect to nationality and cultural background). 
 
 ::: {.fragment}
-Hence, there was high variation in the U(nits) and the S(ettings) dimensions, but very low variation in the T(reatment) and O(utcome) dimension.
+::: {.callout-tip}
+There was high variation in the U(nits) and the S(ettings) dimensions, but very low variation in the T(reatment) and O(utcome) dimension.
 
-Non-zero effects could be found with remarkably low variability across samples: "Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied" (quoted from the Abstract). 
+Non-zero effects could be found with remarkably low variability across samples: "Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied" (quoted from the Abstract).
+:::
 :::
 
 ## Step 5: Collect robust empirical phenomena
@@ -219,7 +222,7 @@ As to the settings investigated, [...] all participants were in some way part of
 In conclusion, based on the review of three studies, [we have only inconclusive evidence whether jet lag can be considered a robust phenomenon]{.hl}. However, it seems reasonable to assume that jet lag is vastly more robust, and that this contradiction might mainly arise from the small number of studies reviewed here."
 :::
 
-
+<!-- 
 
 ## Step X: Choose a specific formalization
 
@@ -230,11 +233,12 @@ But how is it reduced exactly? [(see Forsyth et al., 2002)]{.smallest}:
 - Linear relationship?
 - A reduction in personal responsibility as groups increase in size but an eventual leveling off in larger groups?
 - Where does responsibility go when it diffuses in the group? Does it diffuse equally, with each member getting an equal portion, or is it concentrated on certain individuals?
-- 
+
 
 ::: footer
 E.g., Forsyth et al. ([2002](https://journals.sagepub.com/doi/10.1177/0146167202281005))
-:::
+::: 
+-->
 
 <!-- Footer insert below -->
 ```{r child="../../common/lastslide.qmd"}

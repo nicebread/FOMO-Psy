@@ -12,7 +12,7 @@ title: "Overview: Formalization Steps"
 2. Choose your [starting point](sessions/S8-MathModel5.qmd#prototypical-formalization-styles):
    1. Existing theory --> Narrative Theory Reconstruction (NTR)
    2. Robust phenomenon --> Theory Construction Methodology (TCM)
-3. Define the [scope](lectures/VAST/VAST_Application.qmd)
+3. Define the [scope](lectures/VAST/VAST_Application.qmd#step-2-limit-your-scope)
    1. Define scope of *original literature* that is used as basis for the formalization.
    2. Limit the *number of phenomena* that your model is supposed to explain.
    3. Limit the *number of constructs* and their *relationships.*

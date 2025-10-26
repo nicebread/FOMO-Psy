@@ -2545,7 +2545,7 @@
     "href": "lectures/VAST/VAST_Application.slide.html#steps-to-formalize-an-existing-verbal-theory",
     "title": "Applying VAST to an existing theory",
     "section": "Steps to formalize an existing verbal theory",
-    "text": "Steps to formalize an existing verbal theory\nAgenda for this presentation\n\nStep 1: Choose your starting point\nStep 2: Limit your scope\nStep 3: Collect definitions of constructs, with reference to the literature.\nStep 4: Distill a (consensus or working) definition for each construct, add relationships\nStep 5: Collect robust empirical phenomena\nStep X: Choose a specific formalization"
+    "text": "Steps to formalize an existing verbal theory\nAgenda for this presentation\n\nStep 1: Choose your starting point\nStep 2: Limit your scope\nStep 3: Collect definitions of constructs, with reference to the literature.\nStep 4: Distill a (consensus or working) definition for each construct, add relationships\nStep 5: Collect robust empirical phenomena\n\n\n\n\n\n\n\nTip\n\n\nThe full list of formalization steps is presented on this website. This slide set covers steps 2 to 6 of the broader scheme."
   },
   {
     "objectID": "lectures/VAST/VAST_Application.slide.html#step-1-choose-your-starting-point",
@@ -2573,14 +2573,14 @@
     "href": "lectures/VAST/VAST_Application.slide.html#step-3-collect-definitions-of-constructs",
     "title": "Applying VAST to an existing theory",
     "section": "Step 3: Collect definitions of constructs",
-    "text": "Step 3: Collect definitions of constructs\nConstruct Source Table\n\n\nCollect quotes of definitions of constructs and their relationships from the literature.\nMake them atomic (i.e., split up long quotes into their basic components).\nAssign a unique ID to each statement.\n\nThis table will be called the Construct Source Table, as it collects the original sources for the definitions of the constructs.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nID\nType\nShort name\nQuote\nReference\nrel. type (n, p, i, r, …)\nComment\nIncl. (Y/N)\n\n\n\n\nA\nP\nbystander effect\n“The bystander effect refers to the phenomenon that an individual’s likelihood of helping decreases when passive bystanders are present in a critical situation.”\nFischer et al. (2011), p. 517\nn, p\n\nY\n\n\nB\n\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n\n\n\n\nType is one of: Phenomenon, Concept, Relationship\nIncluded (Y/N): Is this definition included in the VAST display?"
+    "text": "Step 3: Collect definitions of constructs\nConstruct Source Table\n\n\nCollect quotes of definitions of constructs and their relationships from the literature.\nMake them atomic (i.e., split up long quotes into their basic components).\nAssign a unique ID to each statement.\n\nThis table will be called the Construct Source Table, as it collects the original sources for the definitions of the constructs.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nID\nType\nShort name\nQuote\nReference\nrel. type (n, p, i, r, …)\nComment\nIncl. (Y/N)\n\n\n\n\nA\nP\nbystander effect\n“The bystander effect refers to the phenomenon that an individual’s likelihood of helping decreases when passive bystanders are present in a critical situation.”\nFischer et al. (2011), p. 517\nn, p\n\nY\n\n\nB\n\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n\n\n\n\nType is one (or multiple) of: Phenomenon, Concept, Relationship. Note: Sometimes a single quoted statement defines both a concept and a relationship.\nIncluded (Y/N): Is this definition included in the VAST display?"
   },
   {
     "objectID": "lectures/VAST/VAST_Application.slide.html#step-4-distill-a-working-definition-for-each-construct-add-relationships",
     "href": "lectures/VAST/VAST_Application.slide.html#step-4-distill-a-working-definition-for-each-construct-add-relationships",
     "title": "Applying VAST to an existing theory",
     "section": "Step 4: Distill a working definition for each construct, add relationships",
-    "text": "Step 4: Distill a working definition for each construct, add relationships\n\n\nDraw a VAST display with a naming n relationship for each construct.\nUse the ID from the Construct Source Table as subscript for each relationship. This way your claims in the VAST display can be easily backlinked to the original sources in the literature.\n\nThe small “A” subscript indicates that all relationships in this display are derived from the quote with ID “A” in the Construct Source Table."
+    "text": "Step 4: Distill a working definition for each construct, add relationships\n\n\nDraw a VAST display with a naming (n) relationship for each construct.\nUse the ID from the Construct Source Table as subscript for each relationship. This way your claims in the VAST display can be easily backlinked to the original sources in the literature.\n\nThe small “A” subscript indicates that all relationships in this display are derived from the quote with ID “A” in the Construct Source Table."
   },
   {
     "objectID": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-1",
@@ -2615,7 +2615,7 @@
     "href": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-5",
     "title": "Applying VAST to an existing theory",
     "section": "Step 5: Collect robust empirical phenomena",
-    "text": "Step 5: Collect robust empirical phenomena\nApplying the heuristic to ManyLabs2\nAll four UTOS dimensions can get an independent assessment. Consider the ManyLabs2 study:\nThe identical experiment (except translation of materials) has been administered online in very diverse samples (at least diverse with respect to nationality and cultural background).\n\nHence, there was high variation in the U(nits) and the S(ettings) dimensions, but very low variation in the T(reatment) and O(utcome) dimension.\nNon-zero effects could be found with remarkably low variability across samples: “Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied” (quoted from the Abstract)."
+    "text": "Step 5: Collect robust empirical phenomena\nApplying the heuristic to ManyLabs2\nAll four UTOS dimensions can get an independent assessment. Consider the ManyLabs2 study, where identical experiment (except translation of materials) has been administered online in very diverse samples (at least diverse with respect to nationality and cultural background).\n\n\n\n\n\n\n\nTip\n\n\nThere was high variation in the U(nits) and the S(ettings) dimensions, but very low variation in the T(reatment) and O(utcome) dimension.\nNon-zero effects could be found with remarkably low variability across samples: “Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied” (quoted from the Abstract)."
   },
   {
     "objectID": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-6",

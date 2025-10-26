@@ -521,6 +521,8 @@ holds the view on the right-hand side. Now the the display is not logically inco
 
 (A): "Mira assumes that she has presented Robert's and Ayse's views correctly (with strength > 0.5, which is the default for IS and OUGHT elements). This implies that these two persons have different and incompatible statements about the single causal effect on `I`.
 
+*Note:* The implication that Robert's and Ayse's views are incompatible is not explicitly represented in the display, and needs to be figured out by the reader. One could attach a naming relationship to the higher-order concept box that makes this explicit, e.g., by naming it "Incompatible views of Robert and Ayse".
+
 (B): Mira says (normatively) that Robert and Ayse should get along well.
 
 (C): Mira is certain (relationship strength = `-1`) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well.

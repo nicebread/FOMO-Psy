@@ -139,7 +139,10 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#homework-1-individually-read-the-vast-paper" id="toc-homework-1-individually-read-the-vast-paper" class="nav-link" data-scroll-target="#homework-1-individually-read-the-vast-paper">Homework 1 (individually): Read the VAST paper</a></li>
-  <li><a href="#homework-2-individually-your-first-mini-vast-display" id="toc-homework-2-individually-your-first-mini-vast-display" class="nav-link" data-scroll-target="#homework-2-individually-your-first-mini-vast-display">Homework 2 (individually): Your first (mini) VAST display</a></li>
+  <li><a href="#homework-2-individually-your-first-mini-vast-display" id="toc-homework-2-individually-your-first-mini-vast-display" class="nav-link" data-scroll-target="#homework-2-individually-your-first-mini-vast-display">Homework 2 (individually): Your first (mini) VAST display</a>
+  <ul class="collapse">
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables:</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -184,6 +187,11 @@ Instructor notes
 <div class="callout-body-container callout-body">
 <ul>
 <li>Create subfolder <code>homework/02-VAST</code> in the <a href="https://github.com/nicebread/FOMO-homework-2025">homework repository</a></li>
+<li>Make sure that the file <code>VAST_Displays.xml</code> is available in the root folder of the <a href="https://github.com/nicebread/FOMO-homework-2025">homework repository</a>. This file contains all VAST shapes for draw.io.</li>
+<li>Install the draw.io app in Github (only then access to private repositories is possible):
+<ul>
+<li>Go to <a href="https://github.com/apps/draw-io-app">https://github.com/apps/draw-io-app</a> → Configure → Repository access → Select “Only select repositories” → Select our homework repository → Save.</li>
+</ul></li>
 </ul>
 </div>
 </div>
@@ -211,13 +219,13 @@ Instructor notes
 </tr>
 <tr class="odd">
 <td><strong>Lecture</strong>: Short introduction to VAST</td>
-<td>45</td>
+<td>60</td>
 <td><a href="../lectures/VAST/VAST_Intro.html">Slides</a></td>
 </tr>
 <tr class="even">
-<td><strong>Lecture</strong>: What is (not) a theory?</td>
-<td>90</td>
-<td><a href="../lectures/Intro2/Intro2.html">Slides</a></td>
+<td><strong>Lecture</strong>: What is (not) a theory? (Part 1)</td>
+<td>30</td>
+<td><a href="../lectures/Intro2/Intro2.html">Slides</a>, 1-17</td>
 </tr>
 </tbody>
 </table>
@@ -242,7 +250,7 @@ Instructor notes
 <p>Finally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that “somebody else must be doing something.”</p>
 </blockquote>
 <ol start="2" type="A">
-<li><p>Draw your first (mini) VAST display for the definition of the concept “diffusion of responsibility” with <a href="https://app.diagrams.net">draw.io</a> (see concrete instructions below under “Deliverable”). You can either use the online version of draw.io, or download the desktop application. As you noted, Darley and Latané provide no explicit section stating “Diffusion of responsibility is defined as …”. Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.</p></li>
+<li><p>Draw your first (mini) VAST display for the definition of the concept “diffusion of responsibility” with <a href="https://app.diagrams.net">draw.io</a> (see concrete instructions below under “Deliverable”). You can either use the online version of draw.io, or download the desktop application. As you may have noted, Darley and Latané provide no explicit section stating “Diffusion of responsibility is defined as …”. Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.</p></li>
 <li><p><em>After</em> you created your VAST display, read a more recent summary of the concept in the <a href="https://dorsch.hogrefe.com/stichwort/diffusion-der-verantwortung">Dorsch Lexikon der Psychologie</a>, in particular the first and the third (last) paragraph. <strong>Write a few sentences, elaborating to what extent this definition is compatible to your own VAST display, and where it deviates.</strong></p></li>
 </ol>
 <!-- Notes:
@@ -252,12 +260,24 @@ One sentence seems to be tautological (at least when you read the label literall
 
 Last paragraph: "Neben der Diffusion der Verantwortung trägt auch die pluralistische Ignoranz und die Hemmung durch die Beobachtung durch andere zur Verringerung der Interventionsbereitschaft" -> if "diffusion of responsibility" *IS* "Verringerung der Interventionsbereitschaft", then this sentence is tautological as well.
  -->
-<p><strong>Deliverables</strong>: For task 2B, save your draw.io VAST diagram in our <a href="https://github.com/nicebread/FOMO-homework-2025">Homework Repository</a> by choosing “Github” as destination for your file:</p>
-<p><img src="img/S1_drawio_0.png" class="img-fluid"></p>
+<section id="deliverables" class="level3">
+<h3 class="anchored" data-anchor-id="deliverables">Deliverables:</h3>
+<p><strong>Install VAST shapes in draw.io</strong>:</p>
+<p>To add VAST displays more easily in draw.io, Benedikt Ehrenwirth created a library with pre-made VAST elements.</p>
+<p>In the <strong>online version</strong> of draw.io, you can insert the library file by going to <em>Datei</em> &gt; <em>Bibliothek öffnen von …</em> &gt; <em>GitHub…</em>, then navigating to our homework repository and selecting <code>VAST_Displays.xml</code> &gt; <em>Autorisieren</em>.</p>
+<p><img src="img/S2_drawio_lib0.png" class="img-fluid" width="500"></p>
+<ul>
+<li>In the <strong>desktop version</strong> of draw.io, you might need to run <code>git pull</code> to download the file <code>VAST_Displays.xml</code> to your local repository Then, go to <em>Datei</em> &gt; <em>Bibliothek öffnen</em>, and select the <code>VAST_Displays.xml</code> file in your local repository.</li>
+</ul>
+<p>After successful installation, you should see a new section “VAST Displays” in the left sidebar of draw.io:</p>
+<p><img src="img/S2_drawio_lib1.png" class="img-fluid" width="500"></p>
+<p><strong>Save your draw.io diagram in Github:</strong></p>
+<p>For task 2B, save your draw.io VAST diagram in our <a href="https://github.com/nicebread/FOMO-homework-2025">Homework Repository</a> by choosing “Github” as destination for your file:</p>
+<p><img src="img/S2_drawio_0.png" class="img-fluid"></p>
 <p>Then choose the Homework Repository (Note: The screenshots might show an old homework repository, but you should select <em>our current</em> homework repository):</p>
-<p><img src="img/S1_drawio_1.png" class="img-fluid"></p>
+<p><img src="img/S2_drawio_1.png" class="img-fluid"></p>
 <p>… and navigate to the correct homework folder:</p>
-<p><img src="img/S1_drawio_2.png" class="img-fluid"></p>
+<p><img src="img/S2_drawio_2.png" class="img-fluid"></p>
 <p>Save the diagram with your name as filename (<code>homework/02-VAST/YOURNAME.drawio</code>). <em>Additionally</em>, save the diagram as a <code>.png</code> or <code>.jpg</code> file in the same folder (<code>homework/02-VAST/YOURNAME.png</code>). Use <code>Datei -&gt; Exportieren als -&gt; PNG/JPG</code> in draw.io to do so.</p>
 <p>For task 4C, save a file with your answers in the same folder (<code>homework/02-VAST/YOURNAME.md</code>). Don’t forget to <code>push</code> everything to the remote repo.</p>
 <!-- - Reflect with a few sentences: What does the chosen label "diffusion" imply for the process? What analogy does it suggest, and what are the implications if this analogy is taken literally? -->
@@ -270,6 +290,7 @@ Possible implications:
  -->
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

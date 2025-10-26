@@ -60,14 +60,14 @@
     "href": "lectures/VAST/VAST_Intro.slide.html#data",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
-    "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nT\n\nT\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nT-&gt;I_n\n\n\nn\n\n\n\nH_n\n\n\"High Test Score\"\n\n\n\nT-&gt;H_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\nData (left box, folder-shaped) is a special kind of concept, which explicitly refers to something observable.\n\nSame as a manifest variable in Structural Equation Modeling\n\nThis display is supposed to capture the idea that “Intelligence is what the intelligence test measures”"
+    "text": "Data\nSymbol\nNote: In the original VAST paper, the Data concept has the shape on the left. As that shape is not available in the Graphviz system used to create some graphs in this presentation, we also use this this alternative symbol for Data:"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#data-1",
     "href": "lectures/VAST/VAST_Intro.slide.html#data-1",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
-    "text": "Data\nSymbol\nNote: In the original VAST paper, the Data concept has a different shape (but that shape is not available in the Graphviz system used to create the graphs in this presentation):"
+    "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nT\n\nT\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nT-&gt;I_n\n\n\nn\n\n\n\nH_n\n\n\"High Test Score\"\n\n\n\nT-&gt;H_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\nData (left box, folder-shaped) is a special kind of concept, which explicitly refers to something observable.\n\nSame as a manifest variable in Structural Equation Modeling\n\nThis display is supposed to capture the idea that “Intelligence is what the intelligence test measures”"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#data-2",
@@ -105,25 +105,53 @@
     "text": "Splitting up the display elements 2\n\n\n\n\n\n\n\n\nG\n\n\n\nT1\n\nT1\n\n\n\nHighScoreTest1\n\n\"High Score\nin Test 1\"\n\n\n\nT1-&gt;HighScoreTest1\n\n\nn  \n\n\n\nT2\n\nT2\n\n\n\nHighScoreTest2\n\n\"High Score\nin Test 2\"\n\n\n\nT2-&gt;HighScoreTest2\n\n\nn  \n\n\n\nI\n\nI\n\n\n\nIntelligent\n\n\"Intelligent\"\n\n\n\nI-&gt;Intelligent\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nT1_a\n\nT1\n\n\n\nT2_a\n\nT2\n\n\n\nT1_a-&gt;T2_a\n\n\n\np  \n\n\n\nT1_b\n\nT1\n\n\n\nT2_b\n\nT2\n\n\n\nI\n\nI\n\n\n\nI-&gt;T1_b\n\n\nc\n\n\n\nI-&gt;T2_b\n\n\nc"
   },
   {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#higher-order-concepts-1",
+    "href": "lectures/VAST/VAST_Intro.slide.html#higher-order-concepts-1",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Higher-order concepts 1",
+    "text": "Higher-order concepts 1\n\n\n\n\n\nAny combination of elements may be made into a new „higher-order concept“ by putting it into a frame:"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#higher-order-concepts-2",
+    "href": "lectures/VAST/VAST_Intro.slide.html#higher-order-concepts-2",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Higher-order concepts 2",
+    "text": "Higher-order concepts 2\n\n\n\n\n\n\nHigher order concepts may be related to one another in exactly the same ways in which „simple“ concepts may be:\n\n\n\n\n\n\n\nThis diagram expresses the idea that a correlation between the two sets of test scores would be a reason (r) to assume that both sets of test scores reflect causal influences of some common factor (called “intelligence”)."
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#is-and-ought",
+    "href": "lectures/VAST/VAST_Intro.slide.html#is-and-ought",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "IS and OUGHT",
+    "text": "IS and OUGHT\nThe IS element tells us that a concept is not a mere possibility, but is considered to actually apply:\n\n\n\n\n\n\n“I is causally affected by GCE”\n“I is causally affected by GGD”"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#the-analyst",
+    "href": "lectures/VAST/VAST_Intro.slide.html#the-analyst",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "The analyst",
+    "text": "The analyst\nThe “analyst” heading names the person who made the VAST display. A VAST-display always reflects this person‘s view:"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#no-other-causal-paths",
+    "href": "lectures/VAST/VAST_Intro.slide.html#no-other-causal-paths",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "No other causal paths?",
+    "text": "No other causal paths?\n\n\n\n\n\n\nA c 0 arrow expresses the idea that there is no other causal influence on “Intelligence” apart from the ones that were specified (CGE or GGD).\n\n\n\nMira’s display now contains two ideas that are mutually incompatible. This is not a problem: VAST is used for displaying ideas correctly – those ideas themselves may still be nonsensical or incoherent!"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#perspectives",
+    "href": "lectures/VAST/VAST_Intro.slide.html#perspectives",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Perspectives",
+    "text": "Perspectives\n\n\n\n\n\nHere, Mira expresses the idea, that Robert holds the view on the left-hand side, whereas Ayşe holds the view on the right-hand side. Now the the display is not logically incoherent anymore."
+  },
+  {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#strength-of-relationship",
     "href": "lectures/VAST/VAST_Intro.slide.html#strength-of-relationship",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Strength of relationship",
     "text": "Strength of relationship\n\nDefault interpretation of a directional arrow X → Y: this relationship is considered relevant and positive (i.e., the more X the more Y)\nRelationship strength can be expressed with a number between -1 (perfect negative relationship), 0 (no relationship), and 1 (perfect positive relationship)\n\nIf no number is explicitly specified: default relationship strength is “&gt; 0”\n\nThe strength of a relationship can also be expressed in a vague verbal way, e.g., “strong”, “weak”, “negative”, …\nThe relationship strength can be applied to any relationship type:\n\ntype p: “wearing glasses” makes it 70 percent likely for a person to also be “smart”\ntype r: It is 90 percent reasonable to assume someone “is in love with you” when that person “giggles a lot while talking to you”\ntype c: being “obese” makes it 50 percent likely for someone to develop “Diabetes Type II” as a consequence"
-  },
-  {
-    "objectID": "lectures/VAST/VAST_Intro.slide.html#fuzziness-as-a-feature",
-    "href": "lectures/VAST/VAST_Intro.slide.html#fuzziness-as-a-feature",
-    "title": "Introduction: How to formalize a verbal theory with VAST",
-    "section": "Fuzziness as a feature",
-    "text": "Fuzziness as a feature\n\nThe goal are precise theories - but in reality, they often are (at least partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”, “&gt;0.5”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps, underspecifications, and inconsistencies in the theory"
-  },
-  {
-    "objectID": "lectures/VAST/VAST_Intro.slide.html#notes-on-the-different-types-of-relationships",
-    "href": "lectures/VAST/VAST_Intro.slide.html#notes-on-the-different-types-of-relationships",
-    "title": "Introduction: How to formalize a verbal theory with VAST",
-    "section": "Notes on the different types of relationships",
-    "text": "Notes on the different types of relationships\n\nRelationships between constructs can be …\n\non a theoretical level. Then it’s typically a causal path (c)\non empirical level: A relationship has been found! This is a prediction path (p)\nResearch cycle: One author’s exploratory p-path is the next author’s theoretical c-path\n\nConsider what you want to formalize:\n\nA certain author’s theoretical point of view at a certain point in time?\nOr your personal, current point of view?\nThe empirical support for a statement?"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this",
@@ -138,6 +166,20 @@
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": " Exercise: How would you interpret this?",
     "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira assumes that she has presented Robert’s and Ayse’s views correctly (with strength &gt; 0.5, which is the default for IS and OUGHT elements). This implies that these two persons have different and incompatible statements about the single causal effect on I.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira is certain (relationship strength = -1) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well."
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#fuzziness-as-a-feature",
+    "href": "lectures/VAST/VAST_Intro.slide.html#fuzziness-as-a-feature",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Fuzziness as a feature",
+    "text": "Fuzziness as a feature\n\nThe goal are precise theories - but in reality, they often are (at least partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”, “&gt;0.5”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps, underspecifications, and inconsistencies in the theory"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.slide.html#notes-on-the-different-types-of-relationships",
+    "href": "lectures/VAST/VAST_Intro.slide.html#notes-on-the-different-types-of-relationships",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Notes on the different types of relationships",
+    "text": "Notes on the different types of relationships\n\nRelationships between constructs can be …\n\non a theoretical level. Then it’s typically a causal path (c)\non empirical level: A relationship has been found! This is a prediction path (p)\nResearch cycle: One author’s exploratory p-path is the next author’s theoretical c-path\n\nConsider what you want to formalize:\n\nA certain author’s theoretical point of view at a certain point in time?\nOr your personal, current point of view?\nThe empirical support for a statement?"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#contact",
@@ -214,14 +256,14 @@
     "href": "lectures/VAST/VAST_Intro.html#data",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
-    "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nT\n\nT\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nT-&gt;I_n\n\n\nn\n\n\n\nH_n\n\n\"High Test Score\"\n\n\n\nT-&gt;H_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\nData (left box, folder-shaped) is a special kind of concept, which explicitly refers to something observable.\n\nSame as a manifest variable in Structural Equation Modeling\n\nThis display is supposed to capture the idea that “Intelligence is what the intelligence test measures”"
+    "text": "Data\n\nSymbol\nNote: In the original VAST paper, the Data concept has the shape on the left. As that shape is not available in the Graphviz system used to create some graphs in this presentation, we also use this this alternative symbol for Data:"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#data-1",
     "href": "lectures/VAST/VAST_Intro.html#data-1",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Data",
-    "text": "Data\n\nSymbol\nNote: In the original VAST paper, the Data concept has a different shape (but that shape is not available in the Graphviz system used to create the graphs in this presentation):"
+    "text": "Data\n\n\n\n\n\n\n\n\nG\n\n\n\nT\n\nT\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nT-&gt;I_n\n\n\nn\n\n\n\nH_n\n\n\"High Test Score\"\n\n\n\nT-&gt;H_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\nData (left box, folder-shaped) is a special kind of concept, which explicitly refers to something observable.\n\nSame as a manifest variable in Structural Equation Modeling\n\nThis display is supposed to capture the idea that “Intelligence is what the intelligence test measures”"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#data-2",
@@ -259,25 +301,53 @@
     "text": "Splitting up the display elements 2\n\n\n\n\n\n\n\n\nG\n\n\n\nT1\n\nT1\n\n\n\nHighScoreTest1\n\n\"High Score\nin Test 1\"\n\n\n\nT1-&gt;HighScoreTest1\n\n\nn  \n\n\n\nT2\n\nT2\n\n\n\nHighScoreTest2\n\n\"High Score\nin Test 2\"\n\n\n\nT2-&gt;HighScoreTest2\n\n\nn  \n\n\n\nI\n\nI\n\n\n\nIntelligent\n\n\"Intelligent\"\n\n\n\nI-&gt;Intelligent\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nT1_a\n\nT1\n\n\n\nT2_a\n\nT2\n\n\n\nT1_a-&gt;T2_a\n\n\n\np  \n\n\n\nT1_b\n\nT1\n\n\n\nT2_b\n\nT2\n\n\n\nI\n\nI\n\n\n\nI-&gt;T1_b\n\n\nc\n\n\n\nI-&gt;T2_b\n\n\nc"
   },
   {
+    "objectID": "lectures/VAST/VAST_Intro.html#higher-order-concepts-1",
+    "href": "lectures/VAST/VAST_Intro.html#higher-order-concepts-1",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Higher-order concepts 1",
+    "text": "Higher-order concepts 1\n\n\n\n\n\nAny combination of elements may be made into a new „higher-order concept“ by putting it into a frame:"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.html#higher-order-concepts-2",
+    "href": "lectures/VAST/VAST_Intro.html#higher-order-concepts-2",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Higher-order concepts 2",
+    "text": "Higher-order concepts 2\n\n\n\n\n\n\nHigher order concepts may be related to one another in exactly the same ways in which „simple“ concepts may be:\n\n\n\n\n\n\n\nThis diagram expresses the idea that a correlation between the two sets of test scores would be a reason (r) to assume that both sets of test scores reflect causal influences of some common factor (called “intelligence”)."
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.html#is-and-ought",
+    "href": "lectures/VAST/VAST_Intro.html#is-and-ought",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "IS and OUGHT",
+    "text": "IS and OUGHT\nThe IS element tells us that a concept is not a mere possibility, but is considered to actually apply:\n\n\n\n\n\n\n“I is causally affected by GCE”\n“I is causally affected by GGD”"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.html#the-analyst",
+    "href": "lectures/VAST/VAST_Intro.html#the-analyst",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "The analyst",
+    "text": "The analyst\nThe “analyst” heading names the person who made the VAST display. A VAST-display always reflects this person‘s view:"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.html#no-other-causal-paths",
+    "href": "lectures/VAST/VAST_Intro.html#no-other-causal-paths",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "No other causal paths?",
+    "text": "No other causal paths?\n\n\n\n\n\n\nA c 0 arrow expresses the idea that there is no other causal influence on “Intelligence” apart from the ones that were specified (CGE or GGD).\n\n\n\nMira’s display now contains two ideas that are mutually incompatible. This is not a problem: VAST is used for displaying ideas correctly – those ideas themselves may still be nonsensical or incoherent!"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.html#perspectives",
+    "href": "lectures/VAST/VAST_Intro.html#perspectives",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Perspectives",
+    "text": "Perspectives\n\n\n\n\n\nHere, Mira expresses the idea, that Robert holds the view on the left-hand side, whereas Ayşe holds the view on the right-hand side. Now the the display is not logically incoherent anymore."
+  },
+  {
     "objectID": "lectures/VAST/VAST_Intro.html#strength-of-relationship",
     "href": "lectures/VAST/VAST_Intro.html#strength-of-relationship",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Strength of relationship",
     "text": "Strength of relationship\n\nDefault interpretation of a directional arrow X → Y: this relationship is considered relevant and positive (i.e., the more X the more Y)\nRelationship strength can be expressed with a number between -1 (perfect negative relationship), 0 (no relationship), and 1 (perfect positive relationship)\n\nIf no number is explicitly specified: default relationship strength is “&gt; 0”\n\nThe strength of a relationship can also be expressed in a vague verbal way, e.g., “strong”, “weak”, “negative”, …\nThe relationship strength can be applied to any relationship type:\n\ntype p: “wearing glasses” makes it 70 percent likely for a person to also be “smart”\ntype r: It is 90 percent reasonable to assume someone “is in love with you” when that person “giggles a lot while talking to you”\ntype c: being “obese” makes it 50 percent likely for someone to develop “Diabetes Type II” as a consequence"
-  },
-  {
-    "objectID": "lectures/VAST/VAST_Intro.html#fuzziness-as-a-feature",
-    "href": "lectures/VAST/VAST_Intro.html#fuzziness-as-a-feature",
-    "title": "Introduction: How to formalize a verbal theory with VAST",
-    "section": "Fuzziness as a feature",
-    "text": "Fuzziness as a feature\n\nThe goal are precise theories - but in reality, they often are (at least partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”, “&gt;0.5”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps, underspecifications, and inconsistencies in the theory"
-  },
-  {
-    "objectID": "lectures/VAST/VAST_Intro.html#notes-on-the-different-types-of-relationships",
-    "href": "lectures/VAST/VAST_Intro.html#notes-on-the-different-types-of-relationships",
-    "title": "Introduction: How to formalize a verbal theory with VAST",
-    "section": "Notes on the different types of relationships",
-    "text": "Notes on the different types of relationships\n\nRelationships between constructs can be …\n\non a theoretical level. Then it’s typically a causal path (c)\non empirical level: A relationship has been found! This is a prediction path (p)\nResearch cycle: One author’s exploratory p-path is the next author’s theoretical c-path\n\nConsider what you want to formalize:\n\nA certain author’s theoretical point of view at a certain point in time?\nOr your personal, current point of view?\nThe empirical support for a statement?"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this",
@@ -292,6 +362,20 @@
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": " Exercise: How would you interpret this?",
     "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira assumes that she has presented Robert’s and Ayse’s views correctly (with strength &gt; 0.5, which is the default for IS and OUGHT elements). This implies that these two persons have different and incompatible statements about the single causal effect on I.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira is certain (relationship strength = -1) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well."
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.html#fuzziness-as-a-feature",
+    "href": "lectures/VAST/VAST_Intro.html#fuzziness-as-a-feature",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Fuzziness as a feature",
+    "text": "Fuzziness as a feature\n\nThe goal are precise theories - but in reality, they often are (at least partially) vague and fuzzy\nVAST allows to make this fuzziness explicit by allowing vague quantifiers of relationship strength, e.g. “weakly positive”, “strong”, “&gt;0.5”\n\nBetter than assigning an arbitrary, pseudo-precise number\nIt’s about formalizing the current state/precision of a verbal theory - if it is imprecise, let’s show it!\n\nShow gaps, underspecifications, and inconsistencies in the theory"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Intro.html#notes-on-the-different-types-of-relationships",
+    "href": "lectures/VAST/VAST_Intro.html#notes-on-the-different-types-of-relationships",
+    "title": "Introduction: How to formalize a verbal theory with VAST",
+    "section": "Notes on the different types of relationships",
+    "text": "Notes on the different types of relationships\n\nRelationships between constructs can be …\n\non a theoretical level. Then it’s typically a causal path (c)\non empirical level: A relationship has been found! This is a prediction path (p)\nResearch cycle: One author’s exploratory p-path is the next author’s theoretical c-path\n\nConsider what you want to formalize:\n\nA certain author’s theoretical point of view at a certain point in time?\nOr your personal, current point of view?\nThe empirical support for a statement?"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#contact",
@@ -1467,7 +1551,7 @@
     "href": "sessions/S2-VAST_intro.html#homework-2-individually-your-first-mini-vast-display",
     "title": "Session 02 - Introduction to the Visual Argument Structure Tool",
     "section": "Homework 2 (individually): Your first (mini) VAST display",
-    "text": "Homework 2 (individually): Your first (mini) VAST display\nThis homework consists of three steps, A, B, and C:\n\nRead the original definition of the concept “diffusion of responsibility”, printed below (no need to read the full paper yet). Darley and Latané introduced the term in 1968, it’s even in the title of the publication: “Bystander intervention in emergencies: Diffusion of responsibility.”\n\nThese are the paragraphs that describe the concept (p. 377f):\n\n[After introducing the case of Kitty Genovese:] “In certain circumstances, the norms favoring intervention may be weakened, leading bystanders to resolve the conflict in the direction of nonintervention. One of these circumstances may be the presence of other onlookers. For example, in the case above, each observer, by seeing lights and figures in other apartment house windows, knew that others were also watching. However, there was no way to tell how the other observers were reacting. These two facts provide several reasons why any individual may have delayed or failed to help. The responsibility for helping was diffused among the observers; there was also diffusion of any potential blame for not taking action; and finally, it was possible that somebody, unperceived, had already initiated helping action.\nWhen only one bystander is present in an emergency, if help is to come, it must come from him. Although he may choose to ignore it (out of concern for his personal safety, or desires “not to get involved”), any pressure to intervene focuses uniquely on him. When there are several observers present, however, the pressures to intervene do not focus on any one of the observers; instead the responsibility for intervention is shared among all the onlookers and is not unique to any one. As a result, no one helps.\nA second possibility is that potential blame may be diffused. However much we may wish to think that an individual’s moral behavior is divorced from considerations of personal punishment or reward, there is both theory and evidence to the contrary (Aronfreed, 1964; Miller & Bollard, 1941, Whiting & Child, 19S3). It is perfectly reasonable to assume that, under circumstances of group responsibility for a punishable act, the punishment or blame that accrues to any one individual is often slight or nonexistent.\nFinally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that “somebody else must be doing something.”\n\n\nDraw your first (mini) VAST display for the definition of the concept “diffusion of responsibility” with draw.io (see concrete instructions below under “Deliverable”). You can either use the online version of draw.io, or download the desktop application. As you may have noted, Darley and Latané provide no explicit section stating “Diffusion of responsibility is defined as …”. Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.\nAfter you created your VAST display, read a more recent summary of the concept in the Dorsch Lexikon der Psychologie, in particular the first and the third (last) paragraph. Write a few sentences, elaborating to what extent this definition is compatible to your own VAST display, and where it deviates.\n\n\n\nDeliverables:\nInstall VAST shapes in draw.io:\nTo add VAST displays more easily in draw.io, Benedikt Ehrenwirth created a library with pre-made VAST elements.\nIn the online version of draw.io, you can insert the library file by going to Datei &gt; Bibliothek öffnen von … &gt; GitHub…, then navigating to our homework repository and selecting VAST_Displays.xml &gt; Autorisieren.\n\n\nIn the desktop version of draw.io, you might need to run git pull to download the file VAST_Displays.xml to your local repository Then, go to Datei &gt; Bibliothek öffnen, and select the VAST_Displays.xml file in your local repository.\n\nAfter successful installation, you should see a new section “VAST Displays” in the left sidebar of draw.io:\n\nSave your draw.io diagram in Github:\nFor task 2B, save your draw.io VAST diagram in our Homework Repository by choosing “Github” as destination for your file:\n\nThen choose the Homework Repository (Note: The screenshots might show an old homework repository, but you should select our current homework repository):\n\n… and navigate to the correct homework folder:\n\nSave the diagram with your name as filename (homework/02-VAST/YOURNAME.drawio). Additionally, save the diagram as a .png or .jpg file in the same folder (homework/02-VAST/YOURNAME.png). Use Datei -&gt; Exportieren als -&gt; PNG/JPG in draw.io to do so.\nFor task 4C, save a file with your answers in the same folder (homework/02-VAST/YOURNAME.md). Don’t forget to push everything to the remote repo."
+    "text": "Homework 2 (individually): Your first (mini) VAST display\nThis homework consists of three steps, A, B, and C:\n\nRead the original definition of the concept “diffusion of responsibility”, printed below (no need to read the full paper yet). Darley and Latané introduced the term in 1968, it’s even in the title of the publication: “Bystander intervention in emergencies: Diffusion of responsibility.”\n\nThese are the paragraphs that describe the concept (p. 377f):\n\n[After introducing the case of Kitty Genovese:] “In certain circumstances, the norms favoring intervention may be weakened, leading bystanders to resolve the conflict in the direction of nonintervention. One of these circumstances may be the presence of other onlookers. For example, in the case above, each observer, by seeing lights and figures in other apartment house windows, knew that others were also watching. However, there was no way to tell how the other observers were reacting. These two facts provide several reasons why any individual may have delayed or failed to help. The responsibility for helping was diffused among the observers; there was also diffusion of any potential blame for not taking action; and finally, it was possible that somebody, unperceived, had already initiated helping action.\nWhen only one bystander is present in an emergency, if help is to come, it must come from him. Although he may choose to ignore it (out of concern for his personal safety, or desires “not to get involved”), any pressure to intervene focuses uniquely on him. When there are several observers present, however, the pressures to intervene do not focus on any one of the observers; instead the responsibility for intervention is shared among all the onlookers and is not unique to any one. As a result, no one helps.\nA second possibility is that potential blame may be diffused. However much we may wish to think that an individual’s moral behavior is divorced from considerations of personal punishment or reward, there is both theory and evidence to the contrary (Aronfreed, 1964; Miller & Bollard, 1941, Whiting & Child, 19S3). It is perfectly reasonable to assume that, under circumstances of group responsibility for a punishable act, the punishment or blame that accrues to any one individual is often slight or nonexistent.\nFinally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that “somebody else must be doing something.”\n\n\nDraw your first (mini) VAST display for the definition of the concept “diffusion of responsibility” with draw.io (see concrete instructions below under “Deliverable”). You can either use the online version of draw.io, or download the desktop application. As you may have noted, Darley and Latané provide no explicit section stating “Diffusion of responsibility is defined as …”. Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.\nAfter you created your VAST display, read a more recent summary of the concept in the Dorsch Lexikon der Psychologie, in particular the first and the third (last) paragraph. Write a few sentences, elaborating to what extent this definition is compatible to your own VAST display, and where it deviates.\n\n\n\nDeliverables:\n\nInstall VAST shapes in draw.io:\nTo add VAST displays more easily in draw.io, Benedikt Ehrenwirth created a library with pre-made VAST elements.\nIn the online version of draw.io, you can insert the library file by going to Datei &gt; Bibliothek öffnen von … &gt; GitHub…, then navigating to our homework repository and selecting VAST_Displays.xml &gt; Autorisieren.\n\n\nIn the desktop version of draw.io, you might need to run git pull to download the file VAST_Displays.xml to your local repository Then, go to Datei &gt; Bibliothek öffnen, and select the VAST_Displays.xml file in your local repository.\n\nAfter successful installation, you should see a new section “VAST Displays” in the left sidebar of draw.io:\n\n\n\nSave your draw.io diagram in Github:\nFor task 2B, save your draw.io VAST diagram in our Homework Repository by choosing “Github” as destination for your file:\n\nThen choose the Homework Repository (Note: The screenshots might show an old homework repository, but you should select our current homework repository):\n\n… and navigate to the correct homework folder:\n\nSave the diagram with your name as filename (homework/02-VAST/YOURNAME.drawio). Additionally, save the diagram as a .png or .jpg file in the same folder (homework/02-VAST/YOURNAME.png). Use Datei -&gt; Exportieren als -&gt; PNG/JPG in draw.io to do so.\nFor task 4C, save a file with your answers in the same folder (homework/02-VAST/YOURNAME.md). Don’t forget to push everything to the remote repo."
   },
   {
     "objectID": "lectures/Intro2/Intro2.html",

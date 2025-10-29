@@ -26,23 +26,6 @@ Wenn sie dann anfangen im Homework-Repositorium zu arbeiten, machen manche davon
 In R-Studio erscheint der Git-Tab nur, wenn ein R-Project erstellt wurde.
 
 
-## Add folder structure to it-tools lecture
-
-With all relevant files:
-
-|- README.md (this should link to any associated Google docs, if applicable)
-|- CITATION.cff
-|- VAST_display.drawio
-|- simulation
-     |- raw_data (a subfolder with empirical raw data, if applicable)
-	      |- dat.csv
-	 |- README.md
-     |- functions.R (or any other name)
-|- manuscript
-     |- manuscript.qmd
-
-
-
 ## THEORY versioning
 minor:
 - do we require (a) perfect identity of predictions, or (b) "substantively the same"?

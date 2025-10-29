@@ -202,24 +202,20 @@ Hence, we have strong evidence for high generalizability for the U and the S dim
 
 
 ## Step 5: Collect robust empirical phenomena
-### Example: Jet lag (adapted from Keno Mersmann)
+### Example: Social Loafing (adapted from Emilia Wittig)
 
 ::: {.smallest}
-"No meta-analyses could be identified, that directly investigated the robustness of jet lag. Instead, three standalone studies shall be reviewed, investigating generalizability
-across the four UTOS dimensions.
+"A meta-analysis of 78 studies underlines that social loafing is a robust phenomenon that generalizes across tasks and populations (Karau & Williams, 1993). 
 
-As research units, an Olympic team support staff (n = 9; Rossiter et al., 2022), a
-professional male football team (n=23, Fowler et al., 2017) and master triathletes (n = 12, Stevens et al., 2018) were investigated. These samples were extremely small and relatively homogeneous, consisting mainly of men and an over-proportion of professional athletes. [We have no evidence about the generalizabilkity across the *units* dimension.]{.hl}
+Regarding different **units**, social loating was found among groups of organizational employees, college students as well as high school students. Furthermore, the phenomenon appears within different genders as well as various cultures. 
 
-The transmeridian flights are considered as treatments in this context. The sample
-from Rossiter et al. (2022) underwent a 24-h eastward travel over 8 time zones (Ireland-
-Japan), the sample from Fowler et al. (2017) experienced a 19-h eastward flight over 11 time zones (Australia-Brazil) and the sample from Stevens et al. (2018) an northeastward journey with a mean travel time of 22.6-h of which 11.5-h were spent flying (Australia-US). While these show some variation in treatment strength, they are homogeneous in the sense that no short flights were reported, and all were eastward journeys. [The there is only weak evidence for generalizability across the *treatment* dimension.]{.hl} 
+The studies mentioned in the meta-analysis used a variety of different tasks as **treatment**, such as physical exercises (e.g., rope pulling), cognitive tasks (e.g., brainstorming), evaluative efforts (e.g., rating items) and perceptual tasks (e.g., monitoring a screen for signals). These tasks also differed in complexity. 
 
-[Paragraph on outcomes omitted ...]
+Regarding the **outcomes**, social loafing was generally assessed by comparing individual's coactive efforts with the individual's collective efforts. The specific units of measurement varied across tasks, with some studies focusing on quantity of individual contributions and others taking the quality into account. 
 
-As to the settings investigated, [...] all participants were in some way part of a high stakes competition and within training camps during the study period, which is a very narrow and non-typical situation.
+Lastly, concerning different **settings** of studies, the meta analysis included laboratory studies as well as field studies. 
 
-In conclusion, based on the review of three studies, [we have only inconclusive evidence whether jet lag can be considered a robust phenomenon]{.hl}. However, it seems reasonable to assume that jet lag is vastly more robust, and that this contradiction might mainly arise from the small number of studies reviewed here."
+[In sum, we can conclude that evidence for social loafing found in this meta-analytic review is strong and the phenomenon generalizes over all of the UTOS dimensions. Social Loafing can be consider to be a robust phenomenon.]{.hl}"
 :::
 
 <!-- 

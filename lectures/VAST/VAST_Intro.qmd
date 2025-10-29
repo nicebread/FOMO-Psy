@@ -494,8 +494,10 @@ holds the view on the right-hand side. Now the the display is not logically inco
 ## Strength of relationship
 
 - [Default interpretation]{.hl} of a directional arrow `X` &rarr; `Y`: this relationship is considered *relevant* and *positive* (i.e., the more X the more Y)
-- Relationship strength can be expressed with a number between -1 (perfect negative relationship), 0 (no relationship), and 1 (perfect positive relationship)
+- Relationship strength of arrows can be expressed with a number between -1 (perfect negative relationship), 0 (no relationship), and 1 (perfect positive relationship)
   - If no number is explicitly specified: default relationship strength is "> 0"
+- Relationship strength of `IS` and `OUGHT` can be expressed with a number between 0 and 1
+  - If no number is explicitly specified: default relationship strength is "> 0.5"
 - The strength of a relationship can also be expressed in a vague verbal way, e.g., "strong", "weak", "negative", ...
 - The relationship strength can be applied to any relationship type:
   - type `p`: "wearing glasses" makes it 70 percent likely for a person to also be "smart"

@@ -4,7 +4,7 @@ number-sections: true
 description: We finalize our Bystander VAST displays and start with the first mathematical model
 ---
 
-# Overview
+## Overview
 
 | Topic                                          | Duration | Notes                                                      |
 | ---------------------------------------------- | -------- | ---------------------------------------------------------- |
@@ -17,7 +17,7 @@ description: We finalize our Bystander VAST displays and start with the first ma
 
 
 
-# Homework (in groups)
+## Homework (in groups)
 
 - We *extend* the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the **explanatory target** is (a) the "classical" bystander effect and (b) the reduction of the bystander effect in dangerous situations (i.e., the dangerousness of situation is a moderator of the bystander main effect).
 - At the same time we *reduce* the VAST display by cutting all elements that are not relevant for this specific explanation.

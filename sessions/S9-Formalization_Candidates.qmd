@@ -6,9 +6,18 @@ description: We decide which theories will be formalized in the second part of t
 
 # Overview
 
-| Topic                                         | Duration | Notes                                                 |
-| --------------------------------------------- | -------- | ----------------------------------------------------- |
-| Discuss the candidate theories, form groups   | 150      |                                                       |
+| Topic                                       | Duration | Notes |
+| ------------------------------------------- | -------- | ----- |
+| Discuss the candidate theories, form groups | 150      |       |
+| Prepare a new repository in each group      |          |       |
 : {.striped}
 
+
+## Prepare your own repository
+
+Each group should set up their technical infrastructure - from now on, you start working in your own repository.
+
+1. Create a fresh Github repository *and* a folder on Google Drive (or a comparable collaborative document) for the tables.
+2. Link the latter in the README of the repository.
+3. Invite the lecturer (user name: `nicebread`) as a collaborator: {{<fa gear>}} Settings → {{<fa user-group>}} Collaborators → "Add people"
 

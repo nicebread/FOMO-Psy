@@ -131,6 +131,28 @@ Both Github and Zenodo (and probably more repositories) parse an existing `CITAT
   - "An open peer review of version `1.0.2` is published at doi ..."
 - In [future versions of the cff schema](https://github.com/citation-file-format/citation-file-format/issues/455#issuecomment-1729232196), one could also use the `isReviewedBy` annotation of an identifier.
 
+
+# Folder Structure {background-color="#40666e"}
+
+## Recommended folder structure for our formalization projects
+
+```
+.
+├── README.md (this should link to any associated Google docs, if applicable)
+├── CITATION.cff
+├── VAST_display.drawio
+├── simulation/
+│   ├── README.md
+│   ├── raw_data/ (a subfolder with empirical raw data, if applicable)
+│   │   └── dat.csv
+│   ├── functions.R (or any other name)
+│   └── ...
+└── manuscript/
+    ├── manuscript.qmd	
+    └── ...
+```
+
+
 # Semantic Versioning {background-color="#40666e"}
 
 ## Semantic Versioning (semver)
@@ -157,8 +179,6 @@ See [https://semver.org](https://semver.org)
 - The first stable public release is `1.0.0`
 - Once a versioned package has been released, the contents of that version *must not* be modified. Any modifications *must* be released as a new version.
 - Major version X (X.y.z) *must* be incremented if any backward incompatible changes are introduced. Patch and minor versions *must* be reset to 0 when the major version is incremented.
-
-  
 
 ## Example
 

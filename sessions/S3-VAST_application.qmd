@@ -24,19 +24,36 @@ description: Intro to theory 2; Apply VAST to Bystander effect
 
 : {.striped}
 
+## Homework wrap-up: VAST displays for "diffusion of responsibility"
+
+- 3-4 people present their VAST displays that they created as homework.
+- We agree upon a consensus VAST display for "diffusion of responsibility".
+
 ## Group formation
 
-Create a maximum of 4 groups. These will work together for the bystander formalization.
-(Note: When their own theories are formalized later in the course, students can form new groups).
+- Create a maximum of 4 groups. These will work together for the bystander formalization.
+  - (Note: When their own theories are formalized later in the course, students can form new groups).
+- Each group chooses a group name starting with the letters A, B, C, or D.
 
 ## Workshop (in course): Formalize the bystander effect theory
 
-1. Each group should create their Construct Source Table for the Bystander Effect (use your group name in the file name). Copy the template file that you find on Google Drive.
-2. Based on the table, create a VAST display. The goal is an easily understandable display: prioritize understandability over completeness and over a maximally truthful mapping of the original statements. Use as few concepts as possible (but as many as necessary).
-(Why aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that).
+- All groups use the consensus VAST display for "diffusion of responsibility" as a starting point.
+- Each group makes a copy of the template file "Bystander Modell: Construct Source Table Template" that you find on Google Drive. Add your group name/letter to the file name!
+- Go through the steps 3-5 in the slides on ["Applying VAST to an existing theory"](../lectures/VAST/VAST_Application.qmd)
+  - Step 1 ("Choose your starting point") is already decided: We use the "[A-B Mixture Model](../lectures/VAST/VAST_Application.qmd#a-b-mixture-model-(for-formalization-attempts)"
+  - Step 2 ("Limit your scope") is already decided (see the quotes in the template file).
+- Step 3 ("Collect definitions of constructs"): Fill in the Construct Source Table 
+- Step 4 ("Distill a working definition for each construct, add relationships"): Based on the table, create a VAST display in draw.io. This should not only contain the definition of "diffusion of responsibility" (which we already did in the last homework) but be formalization of the *theory* (i.e., the generative mechanism). 
+  - Save the .drawio file on the [homework repository]({{< var homework_repo >}}) in the subfolder `Bystander_effect`. **Each group should create a subfolder within that folder, with your team name as folder name**.
+  - The goal is an easily understandable display: prioritize understandability over completeness and over a maximally truthful mapping of the original statements. 
+  - Use as few concepts as possible (but as many as necessary).
+  - Why aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that.
+
+*(Note: You won't finish all steps in class. You will finalize the tasks as homework.)*
 
 ## Homework (as a group): Finalize Bystander VAST
 
 **Deliverables**: 
-- Clean up your Construct Source Table on Google Drive
-- Upload/commit your draw.io VAST display in the [Homework Repository]({{< var homework_repo >}}), subfolder `Bystander_effect`.
+
+- Complete and clean up your Construct Source Table on Google Drive.
+- Upload/commit your draw.io VAST display in the [Homework Repository]({{< var homework_repo >}}), subfolder `Bystander_effect`, with your team name as file name.

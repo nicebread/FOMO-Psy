@@ -1376,9 +1376,13 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="strength-of-relationship">Strength of relationship</h2>
 <ul>
 <li><span class="hl">Default interpretation</span> of a directional arrow <code>X</code> → <code>Y</code>: this relationship is considered <em>relevant</em> and <em>positive</em> (i.e., the more X the more Y)</li>
-<li>Relationship strength can be expressed with a number between -1 (perfect negative relationship), 0 (no relationship), and 1 (perfect positive relationship)
+<li>Relationship strength of arrows can be expressed with a number between -1 (perfect negative relationship), 0 (no relationship), and 1 (perfect positive relationship)
 <ul>
 <li>If no number is explicitly specified: default relationship strength is “&gt; 0”</li>
+</ul></li>
+<li>Relationship strength of <code>IS</code> and <code>OUGHT</code> can be expressed with a number between 0 and 1
+<ul>
+<li>If no number is explicitly specified: default relationship strength is “&gt; 0.5”</li>
 </ul></li>
 <li>The strength of a relationship can also be expressed in a vague verbal way, e.g., “strong”, “weak”, “negative”, …</li>
 <li>The relationship strength can be applied to any relationship type:
@@ -1404,6 +1408,7 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="img/VAST_example.png" class="img-fluid"></p>
 </div><div class="column smallest" style="width:50%;">
 <p>(A): “Mira assumes that she has presented Robert’s and Ayse’s views correctly (with strength &gt; 0.5, which is the default for IS and OUGHT elements). This implies that these two persons have different and incompatible statements about the single causal effect on <code>I</code>.</p>
+<p><em>Note:</em> The implication that Robert’s and Ayse’s views are incompatible is not explicitly represented in the display, and needs to be figured out by the reader. One could attach a naming relationship to the higher-order concept box that makes this explicit, e.g., by naming it “Incompatible views of Robert and Ayse”.</p>
 <p>(B): Mira says (normatively) that Robert and Ayse should get along well.</p>
 <p>(C): Mira is certain (relationship strength = <code>-1</code>) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well.</p>
 </div>

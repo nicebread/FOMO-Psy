@@ -163,6 +163,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#peer-review-status" id="toc-peer-review-status" class="nav-link" data-scroll-target="#peer-review-status">Peer review status</a></li>
   </ul></li>
   </ul></li>
+  <li><a href="#folder-structure" id="toc-folder-structure" class="nav-link" data-scroll-target="#folder-structure">Folder Structure</a>
+  <ul class="collapse">
+  <li><a href="#recommended-folder-structure-for-our-formalization-projects" id="toc-recommended-folder-structure-for-our-formalization-projects" class="nav-link" data-scroll-target="#recommended-folder-structure-for-our-formalization-projects">Recommended folder structure for our formalization projects</a></li>
+  </ul></li>
   <li><a href="#semantic-versioning" id="toc-semantic-versioning" class="nav-link" data-scroll-target="#semantic-versioning">Semantic Versioning</a>
   <ul class="collapse">
   <li><a href="#semantic-versioning-semver" id="toc-semantic-versioning-semver" class="nav-link" data-scroll-target="#semantic-versioning-semver">Semantic Versioning (semver)</a></li>
@@ -360,6 +364,25 @@ type: software </code></pre>
 <li>In <a href="https://github.com/citation-file-format/citation-file-format/issues/455#issuecomment-1729232196">future versions of the cff schema</a>, one could also use the <code>isReviewedBy</code> annotation of an identifier.</li>
 </ul>
 </section>
+</section>
+</section>
+<section id="folder-structure" class="level1" data-background-color="#40666e">
+<h1 data-background-color="#40666e">Folder Structure</h1>
+<section id="recommended-folder-structure-for-our-formalization-projects" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-folder-structure-for-our-formalization-projects">Recommended folder structure for our formalization projects</h2>
+<pre><code>.
+├── README.md (this should link to any associated Google docs, if applicable)
+├── CITATION.cff
+├── VAST_display.drawio
+├── simulation/
+│   ├── README.md
+│   ├── raw_data/ (a subfolder with empirical raw data, if applicable)
+│   │   └── dat.csv
+│   ├── functions.R (or any other name)
+│   └── ...
+└── manuscript/
+    ├── manuscript.qmd  
+    └── ...</code></pre>
 </section>
 </section>
 <section id="semantic-versioning" class="level1" data-background-color="#40666e">

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felix Schönbrodt">
-<meta name="dcterms.date" content="2023-10-27">
+<meta name="dcterms.date" content="2025-10-31">
 
 <title>What are (Not) Theories &amp; Models? – FOMO-Psy: Formal Modeling of Psychological Theories</title>
 <style>
@@ -207,24 +207,34 @@ window.Quarto = {
   <li><a href="#theories-as-causal-explanations" id="toc-theories-as-causal-explanations" class="nav-link" data-scroll-target="#theories-as-causal-explanations">Theories as causal explanations</a></li>
   <li><a href="#tcm-a-methodology-for-constructing-theories" id="toc-tcm-a-methodology-for-constructing-theories" class="nav-link" data-scroll-target="#tcm-a-methodology-for-constructing-theories">TCM: A methodology for constructing theories</a></li>
   <li><a href="#definitions-1" id="toc-definitions-1" class="nav-link" data-scroll-target="#definitions-1">Definitions (1)</a></li>
+  </ul></li>
+  <li><a href="#what-is-an-explanatory-theory" id="toc-what-is-an-explanatory-theory" class="nav-link" data-scroll-target="#what-is-an-explanatory-theory">What is an (explanatory) theory?</a></li>
   <li><a href="#what-is-a-model" id="toc-what-is-a-model" class="nav-link" data-scroll-target="#what-is-a-model">What is a <span class="alert">model</span>?</a></li>
   <li><a href="#explicating-a-verbal-theory-into-formal-models" id="toc-explicating-a-verbal-theory-into-formal-models" class="nav-link" data-scroll-target="#explicating-a-verbal-theory-into-formal-models">Explicating a verbal theory into formal model(s)</a>
   <ul class="collapse">
   <li><a href="#example-van-dongen-et-al-2023-on-ego-depletion" id="toc-example-van-dongen-et-al-2023-on-ego-depletion" class="nav-link" data-scroll-target="#example-van-dongen-et-al-2023-on-ego-depletion">Example: van Dongen et al (2023) on Ego Depletion</a></li>
   </ul></li>
-  <li><a href="#explicating-a-verbal-theory-into-formal-models-1" id="toc-explicating-a-verbal-theory-into-formal-models-1" class="nav-link" data-scroll-target="#explicating-a-verbal-theory-into-formal-models-1">Explicating a verbal theory into formal model(s)</a>
+  <li><a href="#explicating-a-formal-theory-into-formal-models" id="toc-explicating-a-formal-theory-into-formal-models" class="nav-link" data-scroll-target="#explicating-a-formal-theory-into-formal-models">Explicating a formal theory into formal model(s)</a>
   <ul class="collapse">
   <li><a href="#key-theoretical-principles-of-the-verbal-theory" id="toc-key-theoretical-principles-of-the-verbal-theory" class="nav-link" data-scroll-target="#key-theoretical-principles-of-the-verbal-theory">Key theoretical principles of the verbal theory</a></li>
   </ul></li>
-  <li><a href="#explicating-a-verbal-theory-into-formal-models-2" id="toc-explicating-a-verbal-theory-into-formal-models-2" class="nav-link" data-scroll-target="#explicating-a-verbal-theory-into-formal-models-2">Explicating a verbal theory into formal model(s)</a>
+  <li><a href="#explicating-a-formal-theory-into-formal-models-1" id="toc-explicating-a-formal-theory-into-formal-models-1" class="nav-link" data-scroll-target="#explicating-a-formal-theory-into-formal-models-1">Explicating a formal theory into formal model(s)</a>
   <ul class="collapse">
   <li><a href="#multiple-possible-implementations" id="toc-multiple-possible-implementations" class="nav-link" data-scroll-target="#multiple-possible-implementations">Multiple possible implementations</a></li>
   </ul></li>
-  <li><a href="#what-is-a-computational-model" id="toc-what-is-a-computational-model" class="nav-link" data-scroll-target="#what-is-a-computational-model">What is a computational model?</a></li>
-  <li><a href="#what-are-explanations" id="toc-what-are-explanations" class="nav-link" data-scroll-target="#what-are-explanations">What are explanations?</a></li>
+  <li><a href="#narrative---theory---model" id="toc-narrative---theory---model" class="nav-link" data-scroll-target="#narrative---theory---model">Narrative - theory - model</a>
+  <ul class="collapse">
+  <li><a href="#die-aura-des-assoziativ-mitgedachten" id="toc-die-aura-des-assoziativ-mitgedachten" class="nav-link" data-scroll-target="#die-aura-des-assoziativ-mitgedachten">“Die Aura des assoziativ Mitgedachten”</a></li>
+  </ul></li>
+  <li><a href="#narrative---theory---model-1" id="toc-narrative---theory---model-1" class="nav-link" data-scroll-target="#narrative---theory---model-1">Narrative - theory - model</a></li>
+  <li><a href="#narrative---theory---model-2" id="toc-narrative---theory---model-2" class="nav-link" data-scroll-target="#narrative---theory---model-2">Narrative - theory - model</a></li>
+  <li><a href="#narrative---theory---model-3" id="toc-narrative---theory---model-3" class="nav-link" data-scroll-target="#narrative---theory---model-3">Narrative - theory - model</a></li>
+  <li><a href="#what-then-are-explanations" id="toc-what-then-are-explanations" class="nav-link" data-scroll-target="#what-then-are-explanations">What then are explanations?</a></li>
   <li><a href="#understandability-of-explanations" id="toc-understandability-of-explanations" class="nav-link" data-scroll-target="#understandability-of-explanations">Understandability of explanations</a></li>
   <li><a href="#definitions-2" id="toc-definitions-2" class="nav-link" data-scroll-target="#definitions-2">Definitions (2)</a></li>
-  </ul></li>
+  <li><a href="#what-is-an-explanatory-theory-1" id="toc-what-is-an-explanatory-theory-1" class="nav-link" data-scroll-target="#what-is-an-explanatory-theory-1">What is an (explanatory) theory?</a></li>
+  <li><a href="#what-is-a-formal-model" id="toc-what-is-a-formal-model" class="nav-link" data-scroll-target="#what-is-a-formal-model">What is a formal model?</a></li>
+  <li><a href="#what-is-an-explanation" id="toc-what-is-an-explanation" class="nav-link" data-scroll-target="#what-is-an-explanation">What is an explanation?</a></li>
   <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a>
   <ul class="collapse">
   <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
@@ -261,7 +271,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2023-10-27</p>
+      <p class="date">2025-10-31</p>
     </div>
   </div>
   
@@ -273,7 +283,6 @@ window.Quarto = {
 </header>
 
 
-<!-- Duration: 1h (without group exercises) -->
 <section id="what-is-a-theory" class="level1">
 <h1>What is a <span class="alert">theory</span>?</h1>
 <blockquote class="blockquote">
@@ -450,10 +459,7 @@ This is an extension of (3) “List of constructs”: Put each construct that yo
 <em> Hempel &amp; Oppenheim, 1948, (p.&nbsp;138)</em>
 </div>
 </blockquote>
-<ol type="1">
-<li>Predict new (unseen) data</li>
-<li>Have (causal) control through manipulation</li>
-</ol>
+<p>Put in other words: Explanatory theories aim at causal/mechanistic understanding that supports prediction and, under suitable scope conditions, control.</p>
 </section>
 <section id="tcm-a-methodology-for-constructing-theories" class="level2">
 <h2 class="anchored" data-anchor-id="tcm-a-methodology-for-constructing-theories">TCM: A methodology for constructing theories</h2>
@@ -494,27 +500,27 @@ flowchart LR
 </section>
 <section id="definitions-1" class="level2">
 <h2 class="anchored" data-anchor-id="definitions-1">Definitions (1)</h2>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-What is an (explanatory) theory?
-</div>
-</div>
-<div class="callout-body-container callout-body">
+</section>
+</section>
+<section id="what-is-an-explanatory-theory" class="level1 callout-info">
+<h1>What is an (explanatory) theory?</h1>
 <p>A theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e.&nbsp;law-like) character. (<em>explanans</em>)</p>
-</div>
-</div>
+</section>
+<p>Dissecting the dense definition:</p>
+<ul>
+<li>Theories are not about specific measurements or operationalizations: they are about (a) latent <em>constructs</em>, and (b) explains <em>phenomena</em> (generalizable patterns in data).</li>
+<li>“Statements”: Typically these are <em>causal</em> statements (if-then), but the definition is broad and includes also other statements (e.g., correlational).</li>
+</ul>
 <div class="footer">
 <p>Borsboom et al.&nbsp;(2021). <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a></p>
 </div>
-</section>
 <section id="what-is-a-model" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-a-model">What is a <span class="alert">model</span>?</h2>
+<div class="small">
 <p>A {formal|mathematical|computational} model is a precise, mathematical or algorithmic representation of the theory’s principles and relationships. It serves as a bridge between abstract theoretical principles and the empirical world.</p>
-<p>Sometimes a theory is so highly formalized that it is virtually <span class="alert">identical</span> to a model of it. But more often, there is a <span class="hl">gap</span> between theory and implemented models: We need more assumptions to implement a model in computer code. In this case, multiple models can satisfy the axioms and constraints of a theory.</p>
+<p>As theories are about constructs, there is a <span class="hl">gap</span> between theory and implemented models: We need more assumptions to implement a model in computer code and to make it empirically testable. These are typically assumptions about <em>operationalization</em> (how to measure constructs) and <em>auxiliary assumptions</em> (additional assumptions that are not part of the core theory, but are needed to implement it, such as specific functional forms).</p>
+<p>Filling the gaps between theory and implemented model is called <span class="hl">model specification</span>. There is no 1-to-1 mapping of a theory to a derived model: Multiple models can satisfy the axioms and constraints of a theory.</p>
+</div>
 </section>
 <section id="explicating-a-verbal-theory-into-formal-models" class="level2">
 <h2 class="anchored" data-anchor-id="explicating-a-verbal-theory-into-formal-models">Explicating a verbal theory into formal model(s)</h2>
@@ -532,8 +538,8 @@ What is an (explanatory) theory?
 </div>
 </section>
 </section>
-<section id="explicating-a-verbal-theory-into-formal-models-1" class="level2">
-<h2 class="anchored" data-anchor-id="explicating-a-verbal-theory-into-formal-models-1">Explicating a verbal theory into formal model(s)</h2>
+<section id="explicating-a-formal-theory-into-formal-models" class="level2">
+<h2 class="anchored" data-anchor-id="explicating-a-formal-theory-into-formal-models">Explicating a formal theory into formal model(s)</h2>
 <section id="key-theoretical-principles-of-the-verbal-theory" class="level3">
 <h3 class="anchored" data-anchor-id="key-theoretical-principles-of-the-verbal-theory">Key theoretical principles of the verbal theory</h3>
 <div class="smaller">
@@ -556,8 +562,8 @@ What is an (explanatory) theory?
 </div>
 </section>
 </section>
-<section id="explicating-a-verbal-theory-into-formal-models-2" class="level2">
-<h2 class="anchored" data-anchor-id="explicating-a-verbal-theory-into-formal-models-2">Explicating a verbal theory into formal model(s)</h2>
+<section id="explicating-a-formal-theory-into-formal-models-1" class="level2">
+<h2 class="anchored" data-anchor-id="explicating-a-formal-theory-into-formal-models-1">Explicating a formal theory into formal model(s)</h2>
 <section id="multiple-possible-implementations" class="level3">
 <h3 class="anchored" data-anchor-id="multiple-possible-implementations">Multiple possible implementations</h3>
 <div class="smaller">
@@ -576,15 +582,79 @@ What is an (explanatory) theory?
 <div class="footer">
 <p><a href="https://github.com/jmbh/explanationpaper">https://github.com/jmbh/explanationpaper</a></p>
 </div>
+<!-- ## What is a computational model?
+
+A model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms [input variables]{.hl} into [output variables]{.hl} (the dependent variables). The formulas that compute the output contain [parameters]{.hl}. -->
 </section>
 </section>
-<section id="what-is-a-computational-model" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-a-computational-model">What is a computational model?</h2>
-<p>A model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms <span class="hl">input variables</span> into <span class="hl">output variables</span> (the dependent variables). The formulas that compute the output contain <span class="hl">parameters</span>.</p>
-<!-- ----------------- -->
+<section id="narrative---theory---model" class="level2">
+<h2 class="anchored" data-anchor-id="narrative---theory---model">Narrative - theory - model</h2>
+<section id="die-aura-des-assoziativ-mitgedachten" class="level3">
+<h3 class="anchored" data-anchor-id="die-aura-des-assoziativ-mitgedachten">“Die Aura des assoziativ Mitgedachten”</h3>
+<div class="small">
+<blockquote class="blockquote">
+<p>In der sozialwissenschaftlichen Literatur finden sich oft Argumente, die gegen eine Formalisierung sprechen, wie z.B. die folgende Bemerkung: “Was bei der Formalisierung notwendig verloren geht, ist die Aura des assoziativ Mitgedachten, die verbale Aussagen stets umgibt, über ihren ausdrücklichen Gehalt hinaus mit Wirklichkeit sättigt und auch in Grenzfällen noch zutreffend erscheinen lässt” (Mayntz 1967: 28, vgl. auch Harbordt 1974:271).</p>
+</blockquote>
+<div class="fragment">
+<blockquote class="blockquote">
+<p>Solche Kritikpunkte können wir nicht nachvollziehen. (…) <strong>Wenn man daran interessiert ist, “die Aura des assoziativ Mitgedachten” zu erhalten, ist schöngeistige Literatur ein geeigneteres Betätigungsfeld als Wissenschaft</strong>.</p>
+</blockquote>
+<p><em>(Manhart, 2007)</em></p>
+</div>
+</div>
+<div class="footer">
+<p>Manhart, K. (2007). Theorie, Modell, Formalisierung. <a href="https://www.klaus-manhart.de/mediapool/28/284587/data/01-theorie-modell_2_.pdf">https://www.klaus-manhart.de/mediapool/28/284587/data/01-theorie-modell_2_.pdf</a></p>
+</div>
 </section>
-<section id="what-are-explanations" class="level2">
-<h2 class="anchored" data-anchor-id="what-are-explanations">What are explanations?</h2>
+</section>
+<section id="narrative---theory---model-1" class="level2">
+<h2 class="anchored" data-anchor-id="narrative---theory---model-1">Narrative - theory - model</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/Narrative-theory-model.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="narrative---theory---model-2" class="level2">
+<h2 class="anchored" data-anchor-id="narrative---theory---model-2">Narrative - theory - model</h2>
+<div class="columns">
+<div class="column r-fit-text" style="width:50%;">
+<p><strong>Theory Specification</strong>: Deriving a precise formal theory from a narrative framework</p>
+<ul>
+<li>Multiple formal theories can be derived from a narrative framework</li>
+<li>Even if they are all compatible with the narrative framework, they can be mutually incompatible.</li>
+<li>Or they can be complementary (e.g., referring to different domains, or covering different aspects of the narrative framework), e.g.&nbsp;evolution as framework</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/Narrative-theory.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="narrative---theory---model-3" class="level2">
+<h2 class="anchored" data-anchor-id="narrative---theory---model-3">Narrative - theory - model</h2>
+<div class="columns">
+<div class="column r-fit-text" style="width:50%;">
+<p><strong>Model Specification</strong>: Deriving a precise formal model from a theory</p>
+<ul>
+<li>Multiple formal models can be derived from a single theory</li>
+<li>Even if they are all compatible with the theory, they can be mutually incompatible due to different auxiliary assumptions.</li>
+<li>Even if the concrete numerical predictions will differ, all admissible models should satisfy the theory’s core qualitative predictions within its scope (e.g., direction of effects, monotonicity)</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/Theory-model.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="what-then-are-explanations" class="level2">
+<h2 class="anchored" data-anchor-id="what-then-are-explanations">What then are explanations?</h2>
 <p>With the definition of <span class="alert">explanatory theories</span> and <span class="alert">formal models</span>, a definition of <span class="hl">explanations</span> can be proposed:</p>
 <blockquote class="blockquote">
 <p><em>“Theory T putatively explains phenomenon P”</em> means:</p>
@@ -612,51 +682,51 @@ What is an (explanatory) theory?
 </section>
 <section id="definitions-2" class="level2">
 <h2 class="anchored" data-anchor-id="definitions-2">Definitions (2)</h2>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+</section>
+<section id="what-is-an-explanatory-theory-1" class="level1 callout-info">
+<h1>What is an (explanatory) theory?</h1>
+<p>A theory is a set of statements about the relationship(s) between two or more constructs with a law-like character.</p>
+</section>
+<section id="what-is-a-formal-model" class="level1 callout-info">
+<h1>What is a formal model?</h1>
+<p>A model is a precise mathematical or computational instantiation of some theory claims plus operationalizations and auxiliary assumptions. It is able to generate “fake” data and data patterns that would be observed in reality if the theory <em>and</em> the model are sufficiently accurate.</p>
+</section>
+<section id="what-is-an-explanation" class="level1 callout-info">
+<h1>What is an explanation?</h1>
+<p>In the <em>productive explanation framework</em>, a theory <span class="math inline">\(T\)</span> putatively explains a phenomenon <span class="math inline">\(P\)</span> if and only if a formal model <span class="math inline">\(M\)</span> of the theory <span class="math inline">\(T\)</span> produces a statistical pattern representing the empirical phenomenon <span class="math inline">\(P\)</span>.</p>
+</section>
+<div class="cell" data-fig-width="6" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{
+  init: {
+    'theme': 'base',
+    'flowchart': { 'curve': 'natural' }
+  }
+}%%
+flowchart LR
+  T(Theory)
+  P(Phenomena)
+  D(Data)
+  M(Model)
+  
+  T -- "Explanation" --&gt; M
+  M -- "Explanation" --&gt; P
+  P -- "Abduction" --&gt; T
+  P -- "Prediction" --&gt; D
+  D -- "Generalization" --&gt; P
+</pre>
 </div>
-<div class="callout-title-container flex-fill">
-What is an (explanatory) theory?
+<p></p></figure><p></p>
 </div>
-</div>
-<div class="callout-body-container callout-body">
-<p>A theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e.&nbsp;law-like) character.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-What is a formal model?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>A formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory <em>and</em> the model are sufficiently accurate.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-What is an explanation?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>In the <em>productive explanation framework</em>, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.</p>
 </div>
 </div>
 <div class="footer">
 <p>Borsboom et al.&nbsp;(2021). <a href="https://doi.org/10.1177/1745691620969647">https://doi.org/10.1177/1745691620969647</a>; van Dongen et al.&nbsp;(2023). <a href="https://doi.org/10.31234/osf.io/qd69g">https://doi.org/10.31234/osf.io/qd69g</a></p>
 </div>
 <!-- Footer insert below -->
-</section>
-</section>
 <section id="end" class="level1">
 <h1>End</h1>
 <section id="contact" class="level2">

@@ -9,12 +9,12 @@ author:
 date: 2023-11-10
 footer: "Formal modeling in psychology - Empirisches Praktikum, Ludwig-Maximilians-Universität München"
 format: 
-  nicetheme-revealjs: 
-    output-ext: slide.html
-    transition: slide
-    background-transition: fade
-    touch: true
-    embed-resources: true
+  # nicetheme-revealjs: 
+  #   output-ext: slide.html
+  #   transition: slide
+  #   background-transition: fade
+  #   touch: true
+  #   embed-resources: true
   html: default
 revealjs-plugins:
   - attribution 

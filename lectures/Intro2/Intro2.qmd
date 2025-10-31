@@ -5,7 +5,7 @@ author:
     orcid: 0000-0002-8282-3910
     email: felix.schoenbrodt@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München
-date: 2023-10-27
+date: 2025-10-31
 order: 20
 duration: 90
 date-format: iso
@@ -18,7 +18,6 @@ revealjs-plugins:
   - attribution 
 ---
 
-<!-- Duration: 1h (without group exercises) -->
 
 # What is a [theory]{.alert}?
 
@@ -177,8 +176,7 @@ Sutton, R. I., & Staw, B. M. (1995). What Theory is Not. Administrative Science 
 > ... not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to [anticipate new occurrences]{.hl} and to [control, at least to some extent, the changes in our environment]{.hl}"
 > <div style="text-align: right; font-size: 70%">* Hempel & Oppenheim, 1948, (p. 138)*</div>
 
-1. Predict new (unseen) data
-2. Have (causal) control through manipulation
+Put in other words: Explanatory theories aim at causal/mechanistic understanding that supports prediction and, under suitable scope conditions, control.
 
 ## TCM: A methodology for constructing theories
 
@@ -217,10 +215,15 @@ See Borsboom et al. (2021). [https://doi.org/10.1177/1745691620969647](https://d
 
 ## Definitions (1)
 
-::: {.callout-important}
+::: {.callout-tip}
 # What is an (explanatory) theory?
 A theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (*explanans*)
 :::
+
+Dissecting the dense definition:
+
+- Theories are not about specific measurements or operationalizations: they are about (a) latent *constructs*, and (b) explains *phenomena* (generalizable patterns in data).
+- "Statements": Typically these are *causal* statements (if-then), but the definition is broad and includes also other statements (e.g., correlational).
 
 ::: footer
 Borsboom et al. (2021). [https://doi.org/10.1177/1745691620969647](https://doi.org/10.1177/1745691620969647)
@@ -229,9 +232,14 @@ Borsboom et al. (2021). [https://doi.org/10.1177/1745691620969647](https://doi.o
 
 ## What is a [model]{.alert}?
 
+::: {.small}
 A {formal|mathematical|computational} model is a precise, mathematical or algorithmic representation of the theory’s principles and relationships. It serves as a bridge between abstract theoretical principles and the empirical world.
 
-Sometimes a theory is so highly formalized that it is virtually [identical]{.alert} to a model of it. But more often, there is a [gap]{.hl} between theory and implemented models: We need more assumptions to implement a model in computer code. In this case, multiple models can satisfy the axioms and constraints of a theory.
+As theories are about constructs, there is a [gap]{.hl} between theory and implemented models: We need more assumptions to implement a model in computer code and to make it empirically testable. These are typically assumptions about *operationalization* (how to measure constructs) and *auxiliary assumptions* (additional assumptions that are not part of the core theory, but are needed to implement it, such as specific functional forms).
+
+Filling the gaps between theory and implemented model is called [model specification]{.hl}. 
+There is no 1-to-1 mapping of a theory to a derived model: Multiple models can satisfy the axioms and constraints of a theory.
+:::
 
 
 ## Explicating a verbal theory into formal model(s)
@@ -248,7 +256,7 @@ Abridged from van Dongen et al. (2022). Improving psychological explanations. *P
 :::
 
 
-## Explicating a verbal theory into formal model(s)
+## Explicating a formal theory into formal model(s)
 ### Key theoretical principles of the verbal theory
 
 ::: {.smaller}
@@ -269,7 +277,7 @@ To these, we add the following auxiliary assumptions:
 van Dongen et al. (2022). [https://doi.org/10.31234/osf.io/qd69g](https://doi.org/10.31234/osf.io/qd69g)
 :::
 
-## Explicating a verbal theory into formal model(s)
+## Explicating a formal theory into formal model(s)
 ### Multiple possible implementations
 
 ::: {.smaller}
@@ -297,13 +305,75 @@ These additional auxiliary assumptions (which are not in the core of the theory)
 
 
 
-## What is a computational model?
+<!-- ## What is a computational model?
 
-A model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms [input variables]{.hl} into [output variables]{.hl} (the dependent variables). The formulas that compute the output contain [parameters]{.hl}.
+A model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms [input variables]{.hl} into [output variables]{.hl} (the dependent variables). The formulas that compute the output contain [parameters]{.hl}. -->
 
-<!-- ----------------- -->
 
-## What are explanations?
+## Narrative - theory - model
+### "Die Aura des assoziativ Mitgedachten"
+
+::: {.small}
+> In der sozialwissenschaftlichen Literatur finden sich oft Argumente, die gegen eine Formalisierung sprechen, wie z.B. die folgende Bemerkung: "Was bei der Formalisierung notwendig verloren geht, ist die Aura des assoziativ Mitgedachten, die verbale Aussagen stets umgibt, über ihren ausdrücklichen Gehalt hinaus mit Wirklichkeit sättigt und auch in Grenzfällen noch zutreffend erscheinen lässt" (Mayntz 1967: 28, vgl. auch Harbordt 1974:271). 
+>
+
+::: {.fragment}
+> Solche Kritikpunkte können wir nicht nachvollziehen. (…) **Wenn man daran interessiert ist, "die Aura des assoziativ Mitgedachten" zu erhalten, ist schöngeistige Literatur ein geeigneteres Betätigungsfeld als Wissenschaft**.
+
+*(Manhart, 2007)*
+:::
+:::
+
+::: {.footer}
+Manhart, K. (2007). Theorie, Modell, Formalisierung. [https://www.klaus-manhart.de/mediapool/28/284587/data/01-theorie-modell_2_.pdf](https://www.klaus-manhart.de/mediapool/28/284587/data/01-theorie-modell_2_.pdf)
+:::
+
+
+## Narrative - theory - model
+
+![](img/Narrative-theory-model.png){fig-align="center"}
+
+
+## Narrative - theory - model
+
+:::: {.columns}
+::: {.column width='50%' .r-fit-text}
+**Theory Specification**: Deriving a precise formal theory from a narrative framework
+
+- Multiple formal theories can be derived from a narrative framework
+- Even if they are all compatible with the narrative framework, they can be mutually incompatible.
+- Or they can be complementary (e.g., referring to different domains, or covering different aspects of the narrative framework), e.g. evolution as framework
+
+:::
+
+::: {.column width='50%'}
+![](img/Narrative-theory.png){fig-align="center"}
+:::
+::::
+
+
+
+## Narrative - theory - model
+
+:::: {.columns}
+::: {.column width='50%' .r-fit-text}
+**Model Specification**: Deriving a precise formal model from a theory
+
+- Multiple formal models can be derived from a single theory
+- Even if they are all compatible with the theory, they can be mutually incompatible due to different auxiliary assumptions.
+- A *generative model* is so precise (and fully specified) that it can be used to generate "fake" data.
+- Even if the concrete numerical predictions will differ, all admissible models should satisfy the theory’s core qualitative predictions within its scope (e.g., direction of effects, monotonicity)
+:::
+
+::: {.column width='50%'}
+![](img/Theory-model.png){fig-align="center"}
+:::
+::::
+
+
+
+
+## What then are explanations?
 
 With the definition of [explanatory theories]{.alert} and [formal models]{.alert}, a definition of [explanations]{.hl} can be proposed:
 
@@ -336,20 +406,41 @@ Farrell, S., & Lewandowsky, S. (2018). Computational Modeling of Cognition and B
 
 ## Definitions (2)
 
-::: {.callout-important}
+::: {.callout-tip}
 # What is an (explanatory) theory?
-A theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character.
+A theory is a set of statements about the relationship(s) between two or more constructs with a law-like character.
 :::
 
-::: {.callout-important}
+::: {.callout-tip}
 # What is a formal model?
-A formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate "fake" data and data patterns that would be observed in reality if the theory *and* the model are sufficiently accurate.
+A model is a precise mathematical or computational instantiation of some theory claims plus operationalizations and auxiliary assumptions. It is able to generate "fake" data and data patterns that would be observed in reality if the theory *and* the model are sufficiently accurate.
 :::
 
-::: {.callout-important}
+::: {.callout-tip}
 # What is an explanation?
-In the *productive explanation framework*, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P. 
+In the *productive explanation framework*, a theory $T$ putatively explains a phenomenon $P$ if and only if a formal model $M$ of the theory $T$ produces a statistical pattern representing the empirical phenomenon $P$. 
 :::
+
+```{mermaid}
+%%| fig-width: 6
+%%{
+  init: {
+    'theme': 'base',
+    'flowchart': { 'curve': 'natural' }
+  }
+}%%
+flowchart LR
+  T(Theory)
+  P(Phenomena)
+  D(Data)
+  M(Model)
+  
+  T -- "Explanation" --> M
+  M -- "Explanation" --> P
+  P -- "Abduction" --> T
+  P -- "Prediction" --> D
+  D -- "Generalization" --> P
+```
 
 ::: footer
 Borsboom et al. (2021). [https://doi.org/10.1177/1745691620969647](https://doi.org/10.1177/1745691620969647); van Dongen et al. (2023). [https://doi.org/10.31234/osf.io/qd69g](https://doi.org/10.31234/osf.io/qd69g)

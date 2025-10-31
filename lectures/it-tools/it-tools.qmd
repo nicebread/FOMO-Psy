@@ -170,7 +170,7 @@ The numbers are plain integers! For example, after 9 comes 10:
 `0.9.0 → 0.10.0 → 0.11.0 → 1.0.0 → 1.1.0`
 
 ::: footer
-See [https://semver.org](https://semver.org)
+See [https://semver.org](https://semver.org) and Van Lissa et al. (2025, October 4). To be FAIR: Theory Specification Needs an Update. [https://doi.org/10.31234/osf.io/t53np_v3](https://doi.org/10.31234/osf.io/t53np_v3)
 :::
 
 ## Some rules & conventions:

@@ -151,7 +151,7 @@
     "href": "lectures/VAST/VAST_Intro.slide.html#strength-of-relationship",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Strength of relationship",
-    "text": "Strength of relationship\n\nDefault interpretation of a directional arrow X → Y: this relationship is considered relevant and positive (i.e., the more X the more Y)\nRelationship strength can be expressed with a number between -1 (perfect negative relationship), 0 (no relationship), and 1 (perfect positive relationship)\n\nIf no number is explicitly specified: default relationship strength is “&gt; 0”\n\nThe strength of a relationship can also be expressed in a vague verbal way, e.g., “strong”, “weak”, “negative”, …\nThe relationship strength can be applied to any relationship type:\n\ntype p: “wearing glasses” makes it 70 percent likely for a person to also be “smart”\ntype r: It is 90 percent reasonable to assume someone “is in love with you” when that person “giggles a lot while talking to you”\ntype c: being “obese” makes it 50 percent likely for someone to develop “Diabetes Type II” as a consequence"
+    "text": "Strength of relationship\n\nDefault interpretation of a directional arrow X → Y: this relationship is considered relevant and positive (i.e., the more X the more Y)\nRelationship strength of arrows can be expressed with a number between -1 (perfect negative relationship), 0 (no relationship), and 1 (perfect positive relationship)\n\nIf no number is explicitly specified: default relationship strength is “&gt; 0”\n\nRelationship strength of IS and OUGHT can be expressed with a number between 0 and 1\n\nIf no number is explicitly specified: default relationship strength is “&gt; 0.5”\n\nThe strength of a relationship can also be expressed in a vague verbal way, e.g., “strong”, “weak”, “negative”, …\nThe relationship strength can be applied to any relationship type:\n\ntype p: “wearing glasses” makes it 70 percent likely for a person to also be “smart”\ntype r: It is 90 percent reasonable to assume someone “is in love with you” when that person “giggles a lot while talking to you”\ntype c: being “obese” makes it 50 percent likely for someone to develop “Diabetes Type II” as a consequence"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this",
@@ -165,7 +165,7 @@
     "href": "lectures/VAST/VAST_Intro.slide.html#exercise-how-would-you-interpret-this-1",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": " Exercise: How would you interpret this?",
-    "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira assumes that she has presented Robert’s and Ayse’s views correctly (with strength &gt; 0.5, which is the default for IS and OUGHT elements). This implies that these two persons have different and incompatible statements about the single causal effect on I.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira is certain (relationship strength = -1) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well."
+    "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira assumes that she has presented Robert’s and Ayse’s views correctly (with strength &gt; 0.5, which is the default for IS and OUGHT elements). This implies that these two persons have different and incompatible statements about the single causal effect on I.\nNote: The implication that Robert’s and Ayse’s views are incompatible is not explicitly represented in the display, and needs to be figured out by the reader. One could attach a naming relationship to the higher-order concept box that makes this explicit, e.g., by naming it “Incompatible views of Robert and Ayse”.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira is certain (relationship strength = -1) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#fuzziness-as-a-feature",
@@ -347,7 +347,7 @@
     "href": "lectures/VAST/VAST_Intro.html#strength-of-relationship",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Strength of relationship",
-    "text": "Strength of relationship\n\nDefault interpretation of a directional arrow X → Y: this relationship is considered relevant and positive (i.e., the more X the more Y)\nRelationship strength can be expressed with a number between -1 (perfect negative relationship), 0 (no relationship), and 1 (perfect positive relationship)\n\nIf no number is explicitly specified: default relationship strength is “&gt; 0”\n\nThe strength of a relationship can also be expressed in a vague verbal way, e.g., “strong”, “weak”, “negative”, …\nThe relationship strength can be applied to any relationship type:\n\ntype p: “wearing glasses” makes it 70 percent likely for a person to also be “smart”\ntype r: It is 90 percent reasonable to assume someone “is in love with you” when that person “giggles a lot while talking to you”\ntype c: being “obese” makes it 50 percent likely for someone to develop “Diabetes Type II” as a consequence"
+    "text": "Strength of relationship\n\nDefault interpretation of a directional arrow X → Y: this relationship is considered relevant and positive (i.e., the more X the more Y)\nRelationship strength of arrows can be expressed with a number between -1 (perfect negative relationship), 0 (no relationship), and 1 (perfect positive relationship)\n\nIf no number is explicitly specified: default relationship strength is “&gt; 0”\n\nRelationship strength of IS and OUGHT can be expressed with a number between 0 and 1\n\nIf no number is explicitly specified: default relationship strength is “&gt; 0.5”\n\nThe strength of a relationship can also be expressed in a vague verbal way, e.g., “strong”, “weak”, “negative”, …\nThe relationship strength can be applied to any relationship type:\n\ntype p: “wearing glasses” makes it 70 percent likely for a person to also be “smart”\ntype r: It is 90 percent reasonable to assume someone “is in love with you” when that person “giggles a lot while talking to you”\ntype c: being “obese” makes it 50 percent likely for someone to develop “Diabetes Type II” as a consequence"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this",
@@ -361,7 +361,7 @@
     "href": "lectures/VAST/VAST_Intro.html#exercise-how-would-you-interpret-this-1",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": " Exercise: How would you interpret this?",
-    "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira assumes that she has presented Robert’s and Ayse’s views correctly (with strength &gt; 0.5, which is the default for IS and OUGHT elements). This implies that these two persons have different and incompatible statements about the single causal effect on I.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira is certain (relationship strength = -1) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well."
+    "text": "Exercise: How would you interpret this?\n\n\n\n\n(A): “Mira assumes that she has presented Robert’s and Ayse’s views correctly (with strength &gt; 0.5, which is the default for IS and OUGHT elements). This implies that these two persons have different and incompatible statements about the single causal effect on I.\nNote: The implication that Robert’s and Ayse’s views are incompatible is not explicitly represented in the display, and needs to be figured out by the reader. One could attach a naming relationship to the higher-order concept box that makes this explicit, e.g., by naming it “Incompatible views of Robert and Ayse”.\n(B): Mira says (normatively) that Robert and Ayse should get along well.\n(C): Mira is certain (relationship strength = -1) that the big box below (i.e., the incompatible views) causally leads to Robert and Ayse not getting along well."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#fuzziness-as-a-feature",
@@ -448,11 +448,18 @@
     "text": "Citation File Format schema version 1.2.0\nPeer review status\n\nFor users of your theory, it is helpful if the peer review status is made explicit.\nThis can be done in the message field, e.g.:\n\n“This theory has not been peer-reviewed yet.”\nIf the current version is, say, 2.1.0: “The last peer-reviewed version was 1.0.4”\n“An open peer review of version 1.0.2 is published at doi …”\n\nIn future versions of the cff schema, one could also use the isReviewedBy annotation of an identifier."
   },
   {
+    "objectID": "lectures/it-tools/it-tools.slide.html#recommended-folder-structure-for-our-formalization-projects",
+    "href": "lectures/it-tools/it-tools.slide.html#recommended-folder-structure-for-our-formalization-projects",
+    "title": "Tools for Digital Theory Objects",
+    "section": "Recommended folder structure for our formalization projects",
+    "text": "Recommended folder structure for our formalization projects\n.\n├── README.md (this should link to any associated Google docs, if applicable)\n├── CITATION.cff\n├── VAST_display.drawio\n├── simulation/\n│   ├── README.md\n│   ├── raw_data/ (a subfolder with empirical raw data, if applicable)\n│   │   └── dat.csv\n│   ├── functions.R (or any other name)\n│   └── ...\n└── manuscript/\n    ├── manuscript.qmd  \n    └── ..."
+  },
+  {
     "objectID": "lectures/it-tools/it-tools.slide.html#semantic-versioning-semver",
     "href": "lectures/it-tools/it-tools.slide.html#semantic-versioning-semver",
     "title": "Tools for Digital Theory Objects",
     "section": "Semantic Versioning (semver)",
-    "text": "Semantic Versioning (semver)\nVersion numbers have three numbers: MAJOR.MINOR.PATCH.\nIncrement the:\n\nMAJOR version when you make changes that break backward compability\nMINOR version when you add functionality in a backward compatible manner\nPATCH version when you make backward compatible bug fixes\n\nThe numbers are plain integers! For example, after 9 comes 10:\n0.9.0 → 0.10.0 → 0.11.0 → 1.0.0 → 1.1.0\n\nSee https://semver.org"
+    "text": "Semantic Versioning (semver)\nVersion numbers have three numbers: MAJOR.MINOR.PATCH.\nIncrement the:\n\nMAJOR version when you make changes that break backward compability\nMINOR version when you add functionality in a backward compatible manner\nPATCH version when you make backward compatible bug fixes\n\nThe numbers are plain integers! For example, after 9 comes 10:\n0.9.0 → 0.10.0 → 0.11.0 → 1.0.0 → 1.1.0\n\nSee https://semver.org and Van Lissa et al. (2025, October 4). To be FAIR: Theory Specification Needs an Update. https://doi.org/10.31234/osf.io/t53np_v3"
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#some-rules-conventions",
@@ -574,11 +581,18 @@
     "text": "Citation File Format schema version 1.2.0\n\nPeer review status\n\nFor users of your theory, it is helpful if the peer review status is made explicit.\nThis can be done in the message field, e.g.:\n\n“This theory has not been peer-reviewed yet.”\nIf the current version is, say, 2.1.0: “The last peer-reviewed version was 1.0.4”\n“An open peer review of version 1.0.2 is published at doi …”\n\nIn future versions of the cff schema, one could also use the isReviewedBy annotation of an identifier."
   },
   {
+    "objectID": "lectures/it-tools/it-tools.html#recommended-folder-structure-for-our-formalization-projects",
+    "href": "lectures/it-tools/it-tools.html#recommended-folder-structure-for-our-formalization-projects",
+    "title": "Tools for Digital Theory Objects",
+    "section": "Recommended folder structure for our formalization projects",
+    "text": "Recommended folder structure for our formalization projects\n.\n├── README.md (this should link to any associated Google docs, if applicable)\n├── CITATION.cff\n├── VAST_display.drawio\n├── simulation/\n│   ├── README.md\n│   ├── raw_data/ (a subfolder with empirical raw data, if applicable)\n│   │   └── dat.csv\n│   ├── functions.R (or any other name)\n│   └── ...\n└── manuscript/\n    ├── manuscript.qmd  \n    └── ..."
+  },
+  {
     "objectID": "lectures/it-tools/it-tools.html#semantic-versioning-semver",
     "href": "lectures/it-tools/it-tools.html#semantic-versioning-semver",
     "title": "Tools for Digital Theory Objects",
     "section": "Semantic Versioning (semver)",
-    "text": "Semantic Versioning (semver)\nVersion numbers have three numbers: MAJOR.MINOR.PATCH.\nIncrement the:\n\nMAJOR version when you make changes that break backward compability\nMINOR version when you add functionality in a backward compatible manner\nPATCH version when you make backward compatible bug fixes\n\nThe numbers are plain integers! For example, after 9 comes 10:\n0.9.0 → 0.10.0 → 0.11.0 → 1.0.0 → 1.1.0\n\nSee https://semver.org"
+    "text": "Semantic Versioning (semver)\nVersion numbers have three numbers: MAJOR.MINOR.PATCH.\nIncrement the:\n\nMAJOR version when you make changes that break backward compability\nMINOR version when you add functionality in a backward compatible manner\nPATCH version when you make backward compatible bug fixes\n\nThe numbers are plain integers! For example, after 9 comes 10:\n0.9.0 → 0.10.0 → 0.11.0 → 1.0.0 → 1.1.0\n\nSee https://semver.org and Van Lissa et al. (2025, October 4). To be FAIR: Theory Specification Needs an Update. https://doi.org/10.31234/osf.io/t53np_v3"
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#some-rules-conventions",
@@ -1320,7 +1334,14 @@
     "href": "sessions/S9-Formalization_Candidates.html",
     "title": "Session 09 - Propose and discuss your own formalization candidate theories",
     "section": "",
-    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nDiscuss the candidate theories, form groups\n150"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nDiscuss the candidate theories, form groups\n150\n\n\n\nPrepare a new repository in each group\n\n\n\n\n\n\n\nEach group should set up their technical infrastructure - from now on, you start working in your own repository.\n\nCreate a fresh Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nInvite the lecturer (user name: nicebread) as a collaborator:  Settings →  Collaborators → “Add people”"
+  },
+  {
+    "objectID": "sessions/S9-Formalization_Candidates.html#prepare-your-own-repository",
+    "href": "sessions/S9-Formalization_Candidates.html#prepare-your-own-repository",
+    "title": "Session 09 - Propose and discuss your own formalization candidate theories",
+    "section": "",
+    "text": "Each group should set up their technical infrastructure - from now on, you start working in your own repository.\n\nCreate a fresh Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nInvite the lecturer (user name: nicebread) as a collaborator:  Settings →  Collaborators → “Add people”"
   },
   {
     "objectID": "sessions/sessions_overview.html",
@@ -1334,7 +1355,21 @@
     "href": "sessions/S4-MathModel1.html",
     "title": "Session 04 - The first mathematical model",
     "section": "",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in group\n20\n\n\n\nPresent and discuss solutions\n60\n\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, Steps 1 & 2\n\n\nHomework 1: Create new version of VAST\n\n\n\n\n\n\n\n2 Homework (in groups)\n\nWe extend the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the explanatory target is (a) the “classical” bystander effect and (b) the reduction of the bystander effect in dangerous situations (i.e., the dangerousness of situation is a moderator of the bystander main effect).\nAt the same time we reduce the VAST display by cutting all elements that are not relevant for this specific explanation.\n\nWe cut the “Five-step process model”\nFrom the three potential processes we only keep diffusion of responsibility (and ignore pluralistic ignorance and evaluation apprehension).\n\n\nIn other words, we try to build a minimal model that explains our explanatory target.\nThe additional theoretical explanation can be found in Fischer et al., p. 520-521. These are the relevant paragraphs:\n\n“[…] the most noteworthy tendency in recent research is that the bystander effect often does not occur when the emergency is a dangerous one or when the bystanders are highly competent. The classic bystander research regarded present bystanders as”something negative,” which reduces the probability of prosocial intervention. On the basis of the review of the more recent literature, we suspect that this perspective is not always correct. Bystanders can act as a positive source of physical support in case a focal person is in the process of deciding whether to intervene in a critical situation (especially when they are perceived as competent bystanders). The present meta-analysis allows us to systematically examine the possibility of a non-inhibiting (non-negative) bystander effect. In the following, we further explore this theoretical idea. We explain why we expect that dangerous emergencies are associated with a reduced magnitude of the bystander effect.”\nIf one is to intervene in a dangerous emergency, one may have to fear negative physical consequences. A perpetrator may not only attack the victim but also the intervener. In that case, additional bystanders may provide support in defeating a potential perpetrator. […] To conclude, we expect that high-danger emergencies increase the focal bystander’s fear that he or she will be attacked or injured in case of intervention. However, if other bystanders are present, they are recognized as a source of physical support, which mitigates against the traditional bystander effect. Note that we do not expect a complete disappearance of the bystander effect in dangerous emergencies. Instead, we expect that it substantially declines because of the fact that many dangerous emergency situations can only be resolved by a group.\nThus, we expect that it is mainly increased danger to the focal bystander that reduces the bystander effect, but not increased danger to the victim (which can be completely distinct from danger of intervention). […] In other words, if bystanders experience increased danger to themselves in case of intervention, they look for other bystanders to help them to intervene (e,g,, to overpower a fierce perpetrator), which should finally reduce diffusion of responsibility and thus also attenuate the magnitude of the bystander effect (because bystanders acknowledge that they can only resolve the dangerous situation by cooperation in a group).\n\nDeliverable: Create a new draw.io VAST display with the extended and reduced theory. Push the file to the homework repository in the folder Bystander_effect."
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in group\n20\n\n\n\nPresent and discuss solutions\n60\n\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, Steps 1 & 2\n\n\nHomework 1: Create new version of VAST"
+  },
+  {
+    "objectID": "sessions/S4-MathModel1.html#overview",
+    "href": "sessions/S4-MathModel1.html#overview",
+    "title": "Session 04 - The first mathematical model",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in group\n20\n\n\n\nPresent and discuss solutions\n60\n\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, Steps 1 & 2\n\n\nHomework 1: Create new version of VAST"
+  },
+  {
+    "objectID": "sessions/S4-MathModel1.html#homework-in-groups",
+    "href": "sessions/S4-MathModel1.html#homework-in-groups",
+    "title": "Session 04 - The first mathematical model",
+    "section": "2 Homework (in groups)",
+    "text": "2 Homework (in groups)\n\nWe extend the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the explanatory target is (a) the “classical” bystander effect and (b) the reduction of the bystander effect in dangerous situations (i.e., the dangerousness of situation is a moderator of the bystander main effect).\nAt the same time we reduce the VAST display by cutting all elements that are not relevant for this specific explanation.\n\nWe cut the “Five-step process model”\nFrom the three potential processes we only keep diffusion of responsibility (and ignore pluralistic ignorance and evaluation apprehension).\n\n\nIn other words, we try to build a minimal model that explains our explanatory target.\nThe additional theoretical explanation can be found in Fischer et al., p. 520-521. These are the relevant paragraphs:\n\n“[…] the most noteworthy tendency in recent research is that the bystander effect often does not occur when the emergency is a dangerous one or when the bystanders are highly competent. The classic bystander research regarded present bystanders as”something negative,” which reduces the probability of prosocial intervention. On the basis of the review of the more recent literature, we suspect that this perspective is not always correct. Bystanders can act as a positive source of physical support in case a focal person is in the process of deciding whether to intervene in a critical situation (especially when they are perceived as competent bystanders). The present meta-analysis allows us to systematically examine the possibility of a non-inhibiting (non-negative) bystander effect. In the following, we further explore this theoretical idea. We explain why we expect that dangerous emergencies are associated with a reduced magnitude of the bystander effect.”\nIf one is to intervene in a dangerous emergency, one may have to fear negative physical consequences. A perpetrator may not only attack the victim but also the intervener. In that case, additional bystanders may provide support in defeating a potential perpetrator. […] To conclude, we expect that high-danger emergencies increase the focal bystander’s fear that he or she will be attacked or injured in case of intervention. However, if other bystanders are present, they are recognized as a source of physical support, which mitigates against the traditional bystander effect. Note that we do not expect a complete disappearance of the bystander effect in dangerous emergencies. Instead, we expect that it substantially declines because of the fact that many dangerous emergency situations can only be resolved by a group.\nThus, we expect that it is mainly increased danger to the focal bystander that reduces the bystander effect, but not increased danger to the victim (which can be completely distinct from danger of intervention). […] In other words, if bystanders experience increased danger to themselves in case of intervention, they look for other bystanders to help them to intervene (e,g,, to overpower a fierce perpetrator), which should finally reduce diffusion of responsibility and thus also attenuate the magnitude of the bystander effect (because bystanders acknowledge that they can only resolve the dangerous situation by cooperation in a group).\n\nDeliverable: Create a new draw.io VAST display with the extended and reduced theory. Push the file to the homework repository in the folder Bystander_effect."
   },
   {
     "objectID": "sessions/S12-Work.html",
@@ -1505,32 +1540,39 @@
     "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLecture: What is (not) a theory? (Part 2)\n30\nSlides, 18-end\n\n\nHomework wrap-up: VAST displays for “diffusion of responsibility”\n45\n\n\n\nLecture: “Applying VAST to an existing theory”\n60\nSlides\n\n\nGroup formation\n10\n\n\n\nWorkshop: Start formalizing the bystander effect theory\n45\nSee Google Drive\n\n\n[Homework]: Finalize Bystander VAST in group\n-"
   },
   {
+    "objectID": "sessions/S3-VAST_application.html#homework-wrap-up-vast-displays-for-diffusion-of-responsibility",
+    "href": "sessions/S3-VAST_application.html#homework-wrap-up-vast-displays-for-diffusion-of-responsibility",
+    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "section": "2 Homework wrap-up: VAST displays for “diffusion of responsibility”",
+    "text": "2 Homework wrap-up: VAST displays for “diffusion of responsibility”\n\n3-4 people present their VAST displays that they created as homework."
+  },
+  {
     "objectID": "sessions/S3-VAST_application.html#group-formation",
     "href": "sessions/S3-VAST_application.html#group-formation",
     "title": "Session 03 - Introduction Theories / Practice VAST",
-    "section": "2 Group formation",
-    "text": "2 Group formation\nCreate a maximum of 4 groups. These will work together for the bystander formalization. (Note: When their own theories are formalized later in the course, students can form new groups)."
+    "section": "3 Group formation",
+    "text": "3 Group formation\n\nCreate a maximum of 4 groups. These will work together for the bystander formalization.\n\n(Note: When their own theories are formalized later in the course, students can form new groups).\n\nEach group chooses a group name starting with the letters A, B, C, or D."
   },
   {
     "objectID": "sessions/S3-VAST_application.html#workshop-in-course-formalize-the-bystander-effect-theory",
     "href": "sessions/S3-VAST_application.html#workshop-in-course-formalize-the-bystander-effect-theory",
     "title": "Session 03 - Introduction Theories / Practice VAST",
-    "section": "3 Workshop (in course): Formalize the bystander effect theory",
-    "text": "3 Workshop (in course): Formalize the bystander effect theory\n\nEach group should create their Construct Source Table for the Bystander Effect (use your group name in the file name). Copy the template file that you find on Google Drive.\nBased on the table, create a VAST display. The goal is an easily understandable display: prioritize understandability over completeness and over a maximally truthful mapping of the original statements. Use as few concepts as possible (but as many as necessary). (Why aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that)."
+    "section": "4 Workshop (in course): Formalize the bystander effect theory",
+    "text": "4 Workshop (in course): Formalize the bystander effect theory\n\nEach group makes a copy of the template file “Bystander Modell: Construct Source Table Template” that you find on Google Drive. Add your group name/letter to the file name!\nGo through the steps 3-5 in the slides on “Applying VAST to an existing theory”\n\nStep 1 (“Choose your starting point”) is already decided: We use the “A-B Mixture Model”\nStep 2 (“Limit your scope”) is already decided (see the quotes in the template file).\n\nStep 3: Collect robust empirical phenomena: Skim the meta-analysis by Fischer et al. (2011, see homework repository) and make a judgement about the robustness of the bystander effect across the UTOS dimensions. Only do this briefly, you don’t need to be exhaustive here.\nStep 4 (“Collect definitions of constructs”): Fill in the Construct Source Table\nStep 5 (“Distill a working definition for each construct, add relationships”): Based on the table, create a VAST display in draw.io. This should contain two aspects:\n\n\nThe definition of “diffusion of responsibility” (which we already tried in the last homework)\n\n\nformalization of the theory (i.e., the generative mechanism).\n\n\nThe goal is an easily understandable display: Prioritize understandability over completeness and over a maximally truthful mapping of the original statements.\n\nUse as few concepts as possible (but as many as necessary).\nWhy aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that.\n\nSave the .drawio file on the homework repository in the subfolder Bystander_effect. Each group should create a subfolder within that folder, with your team name as folder name.\n\n(Note: You won’t finish all steps in class. You will finalize the tasks as homework.)"
   },
   {
     "objectID": "sessions/S3-VAST_application.html#homework-as-a-group-finalize-bystander-vast",
     "href": "sessions/S3-VAST_application.html#homework-as-a-group-finalize-bystander-vast",
     "title": "Session 03 - Introduction Theories / Practice VAST",
-    "section": "4 Homework (as a group): Finalize Bystander VAST",
-    "text": "4 Homework (as a group): Finalize Bystander VAST\nDeliverables: - Clean up your Construct Source Table on Google Drive - Upload/commit your draw.io VAST display in the Homework Repository, subfolder Bystander_effect."
+    "section": "5 Homework (as a group): Finalize Bystander VAST",
+    "text": "5 Homework (as a group): Finalize Bystander VAST\nDeliverables:\n\nComplete and clean up your Construct Source Table on Google Drive.\nUpload/commit your draw.io VAST display in the Homework Repository, subfolder Bystander_effect, with your team name as file name."
   },
   {
     "objectID": "sessions/S2-VAST_intro.html",
     "href": "sessions/S2-VAST_intro.html",
     "title": "Session 02 - Introduction to the Visual Argument Structure Tool",
     "section": "",
-    "text": "Instructor notes\n\n\n\n\n\n\nCreate subfolder homework/02-VAST in the homework repository\nMake sure that the file VAST_Displays.xml is available in the root folder of the homework repository. This file contains all VAST shapes for draw.io.\nInstall the draw.io app in Github (only then access to private repositories is possible):\n\nGo to https://github.com/apps/draw-io-app → Configure → Repository access → Select “Only select repositories” → Select our homework repository → Save."
+    "text": "Instructor notes\n\n\n\n\n\n\nCreate subfolder homework/02-VAST in the homework repository\nMake sure that the file VAST_Displays.xml is available in the root folder of the homework repository. This file contains all VAST shapes for draw.io.\nInstall and authorize the draw.io app in Github (only then access to private repositories is possible):\n\nGo to https://github.com/apps/draw-io-app → Configure → Repository access → Select “Only select repositories” → Select our homework repository → Save."
   },
   {
     "objectID": "sessions/S2-VAST_intro.html#overview",
@@ -1551,7 +1593,7 @@
     "href": "sessions/S2-VAST_intro.html#homework-2-individually-your-first-mini-vast-display",
     "title": "Session 02 - Introduction to the Visual Argument Structure Tool",
     "section": "Homework 2 (individually): Your first (mini) VAST display",
-    "text": "Homework 2 (individually): Your first (mini) VAST display\nThis homework consists of three steps, A, B, and C:\n\nRead the original definition of the concept “diffusion of responsibility”, printed below (no need to read the full paper yet). Darley and Latané introduced the term in 1968, it’s even in the title of the publication: “Bystander intervention in emergencies: Diffusion of responsibility.”\n\nThese are the paragraphs that describe the concept (p. 377f):\n\n[After introducing the case of Kitty Genovese:] “In certain circumstances, the norms favoring intervention may be weakened, leading bystanders to resolve the conflict in the direction of nonintervention. One of these circumstances may be the presence of other onlookers. For example, in the case above, each observer, by seeing lights and figures in other apartment house windows, knew that others were also watching. However, there was no way to tell how the other observers were reacting. These two facts provide several reasons why any individual may have delayed or failed to help. The responsibility for helping was diffused among the observers; there was also diffusion of any potential blame for not taking action; and finally, it was possible that somebody, unperceived, had already initiated helping action.\nWhen only one bystander is present in an emergency, if help is to come, it must come from him. Although he may choose to ignore it (out of concern for his personal safety, or desires “not to get involved”), any pressure to intervene focuses uniquely on him. When there are several observers present, however, the pressures to intervene do not focus on any one of the observers; instead the responsibility for intervention is shared among all the onlookers and is not unique to any one. As a result, no one helps.\nA second possibility is that potential blame may be diffused. However much we may wish to think that an individual’s moral behavior is divorced from considerations of personal punishment or reward, there is both theory and evidence to the contrary (Aronfreed, 1964; Miller & Bollard, 1941, Whiting & Child, 19S3). It is perfectly reasonable to assume that, under circumstances of group responsibility for a punishable act, the punishment or blame that accrues to any one individual is often slight or nonexistent.\nFinally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that “somebody else must be doing something.”\n\n\nDraw your first (mini) VAST display for the definition of the concept “diffusion of responsibility” with draw.io (see concrete instructions below under “Deliverable”). You can either use the online version of draw.io, or download the desktop application. As you may have noted, Darley and Latané provide no explicit section stating “Diffusion of responsibility is defined as …”. Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.\nAfter you created your VAST display, read a more recent summary of the concept in the Dorsch Lexikon der Psychologie, in particular the first and the third (last) paragraph. Write a few sentences, elaborating to what extent this definition is compatible to your own VAST display, and where it deviates.\n\n\n\nDeliverables:\n\nInstall VAST shapes in draw.io:\nTo add VAST displays more easily in draw.io, Benedikt Ehrenwirth created a library with pre-made VAST elements.\nIn the online version of draw.io, you can insert the library file by going to Datei &gt; Bibliothek öffnen von … &gt; GitHub…, then navigating to our homework repository and selecting VAST_Displays.xml &gt; Autorisieren.\n\n\nIn the desktop version of draw.io, you might need to run git pull to download the file VAST_Displays.xml to your local repository Then, go to Datei &gt; Bibliothek öffnen, and select the VAST_Displays.xml file in your local repository.\n\nAfter successful installation, you should see a new section “VAST Displays” in the left sidebar of draw.io:\n\n\n\nSave your draw.io diagram in Github:\nFor task 2B, save your draw.io VAST diagram in our Homework Repository by choosing “Github” as destination for your file:\n\nThen choose the Homework Repository (Note: The screenshots might show an old homework repository, but you should select our current homework repository):\n\n… and navigate to the correct homework folder:\n\nSave the diagram with your name as filename (homework/02-VAST/YOURNAME.drawio). Additionally, save the diagram as a .png or .jpg file in the same folder (homework/02-VAST/YOURNAME.png). Use Datei -&gt; Exportieren als -&gt; PNG/JPG in draw.io to do so.\nFor task 4C, save a file with your answers in the same folder (homework/02-VAST/YOURNAME.md). Don’t forget to push everything to the remote repo."
+    "text": "Homework 2 (individually): Your first (mini) VAST display\n\nThis homework consists of two steps, A and B:\n\nRead the original definition of the concept “diffusion of responsibility”, printed below (no need to read the full paper yet). Darley and Latané introduced the term in 1968, it’s even in the title of the publication: “Bystander intervention in emergencies: Diffusion of responsibility.”\n\nThese are the paragraphs that describe the concept (p. 377f):\n\n[After introducing the case of Kitty Genovese:] “In certain circumstances, the norms favoring intervention may be weakened, leading bystanders to resolve the conflict in the direction of nonintervention. One of these circumstances may be the presence of other onlookers. For example, in the case above, each observer, by seeing lights and figures in other apartment house windows, knew that others were also watching. However, there was no way to tell how the other observers were reacting. These two facts provide several reasons why any individual may have delayed or failed to help. The responsibility for helping was diffused among the observers; there was also diffusion of any potential blame for not taking action; and finally, it was possible that somebody, unperceived, had already initiated helping action.\nWhen only one bystander is present in an emergency, if help is to come, it must come from him. Although he may choose to ignore it (out of concern for his personal safety, or desires “not to get involved”), any pressure to intervene focuses uniquely on him. When there are several observers present, however, the pressures to intervene do not focus on any one of the observers; instead the responsibility for intervention is shared among all the onlookers and is not unique to any one. As a result, no one helps.\nA second possibility is that potential blame may be diffused. However much we may wish to think that an individual’s moral behavior is divorced from considerations of personal punishment or reward, there is both theory and evidence to the contrary (Aronfreed, 1964; Miller & Bollard, 1941, Whiting & Child, 19S3). It is perfectly reasonable to assume that, under circumstances of group responsibility for a punishable act, the punishment or blame that accrues to any one individual is often slight or nonexistent.\nFinally, if others are known to be present, but their behavior cannot be closely observed, any one bystander can assume that one of the other observers is already taking action to end the emergency. Therefore, his own intervention would be only redundant—perhaps harmfully or confusingly so. Thus, given the presence of other onlookers whose behavior cannot be observed, any given bystander can rationalize his own inaction by convincing himself that “somebody else must be doing something.”\n\n\nDraw your first (mini) VAST display for the definition of the concept “diffusion of responsibility” with draw.io (see concrete instructions below under “Deliverable”). You can either use the online version of draw.io, or download the desktop application. As you may have noted, Darley and Latané provide no explicit section stating “Diffusion of responsibility is defined as …”. Therefore, you need to capture the essential elements of their definition yourself; do it precisely but also concisely in your VAST display.\n\n\n\n\nDeliverables:\n\nInstall VAST shapes in draw.io:\nTo add VAST displays more easily in draw.io, Benedikt Ehrenwirth created a library with pre-made VAST elements.\nIn the online version of draw.io, you can insert the library file by going to Datei &gt; Bibliothek öffnen von … &gt; GitHub…, then navigating to our homework repository and selecting VAST_Displays.xml &gt; Autorisieren.\n\n\nIn the desktop version of draw.io, you might need to run git pull to download the file VAST_Displays.xml to your local repository Then, go to Datei &gt; Bibliothek öffnen, and select the VAST_Displays.xml file in your local repository.\n\nAfter successful installation, you should see a new section “VAST Displays” in the left sidebar of draw.io:\n\n\n\nSave your draw.io diagram in Github:\nFor task 2B, save your draw.io VAST diagram in our Homework Repository by choosing “Github” as destination for your file:\n\nThen choose the Homework Repository (Note: The screenshots might show an old homework repository, but you should select our current homework repository):\n\n… and navigate to the correct homework folder:\n\nSave the diagram with your name as filename (homework/02-VAST/YOURNAME.drawio). Additionally, save the diagram as a .png or .jpg file in the same folder (homework/02-VAST/YOURNAME.png). Use Datei -&gt; Exportieren als -&gt; PNG/JPG in draw.io to do so."
   },
   {
     "objectID": "lectures/Intro2/Intro2.html",
@@ -1628,7 +1670,7 @@
     "href": "lectures/Intro2/Intro2.html#theories-as-causal-explanations",
     "title": "What are (Not) Theories & Models?",
     "section": "Theories as causal explanations",
-    "text": "Theories as causal explanations\n\n“It may be said… that an explanation is not fully adequate unless its explanans […] could have served as a basis for predicting the phenomenon under consideration.\n… not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment”\n\n Hempel & Oppenheim, 1948, (p. 138)\n\n\n\nPredict new (unseen) data\nHave (causal) control through manipulation"
+    "text": "Theories as causal explanations\n\n“It may be said… that an explanation is not fully adequate unless its explanans […] could have served as a basis for predicting the phenomenon under consideration.\n… not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment”\n\n Hempel & Oppenheim, 1948, (p. 138)\n\n\nPut in other words: Explanatory theories aim at causal/mechanistic understanding that supports prediction and, under suitable scope conditions, control."
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#tcm-a-methodology-for-constructing-theories",
@@ -1642,14 +1684,14 @@
     "href": "lectures/Intro2/Intro2.html#definitions-1",
     "title": "What are (Not) Theories & Models?",
     "section": "Definitions (1)",
-    "text": "Definitions (1)\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (explanans)\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
+    "text": "Definitions (1)\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (explanans)\n\n\nDissecting the dense definition:\n\nTheories are not about specific measurements or operationalizations: they are about (a) latent constructs, and (b) explains phenomena (generalizable patterns in data).\n“Statements”: Typically these are causal statements (if-then), but the definition is broad and includes also other statements (e.g., correlational).\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#what-is-a-model",
     "href": "lectures/Intro2/Intro2.html#what-is-a-model",
     "title": "What are (Not) Theories & Models?",
     "section": "What is a model?",
-    "text": "What is a model?\nA {formal|mathematical|computational} model is a precise, mathematical or algorithmic representation of the theory’s principles and relationships. It serves as a bridge between abstract theoretical principles and the empirical world.\nSometimes a theory is so highly formalized that it is virtually identical to a model of it. But more often, there is a gap between theory and implemented models: We need more assumptions to implement a model in computer code. In this case, multiple models can satisfy the axioms and constraints of a theory."
+    "text": "What is a model?\n\nA {formal|mathematical|computational} model is a precise, mathematical or algorithmic representation of the theory’s principles and relationships. It serves as a bridge between abstract theoretical principles and the empirical world.\nAs theories are about constructs, there is a gap between theory and implemented models: We need more assumptions to implement a model in computer code and to make it empirically testable. These are typically assumptions about operationalization (how to measure constructs) and auxiliary assumptions (additional assumptions that are not part of the core theory, but are needed to implement it, such as specific functional forms).\nFilling the gaps between theory and implemented model is called model specification. There is no 1-to-1 mapping of a theory to a derived model: Multiple models can satisfy the axioms and constraints of a theory."
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#explicating-a-verbal-theory-into-formal-models",
@@ -1659,32 +1701,53 @@
     "text": "Explicating a verbal theory into formal model(s)\n\nExample: van Dongen et al (2023) on Ego Depletion\n\n\nThe regulatory resource theory pertains to self-control: cognitive processes that inhibit and suppress immediate thoughts, impulses, expression of emotions, and behaviors that deviate from standards or goals.\nThe theory postulates that one’s ability for self-control depends on a finite resource: a stored supply of energy, for which some use the term willpower. Every act of self-control reduces the amount of willpower, so that one’s ability to inhibit or suppress the next unwanted impulse is diminished\nThe theory is said to explain the phenomenon of ego depletion: people perform worse on a task that requires self-control, right after having done something else that used this resource.\n\n\n\nAbridged from van Dongen et al. (2022). Improving psychological explanations. PsyArXiv. https://doi.org/10.31234/osf.io/qd69g"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.html#explicating-a-verbal-theory-into-formal-models-1",
-    "href": "lectures/Intro2/Intro2.html#explicating-a-verbal-theory-into-formal-models-1",
+    "objectID": "lectures/Intro2/Intro2.html#explicating-a-formal-theory-into-formal-models",
+    "href": "lectures/Intro2/Intro2.html#explicating-a-formal-theory-into-formal-models",
     "title": "What are (Not) Theories & Models?",
-    "section": "Explicating a verbal theory into formal model(s)",
-    "text": "Explicating a verbal theory into formal model(s)\n\nKey theoretical principles of the verbal theory\n\n\nthere is a domain-general “resource” called willpower (\\(W\\))\ntasks requiring willpower deplete this resource (e.g., a task that requires self-control depletes the resource, but a task that requires no self-control does not), and\nthe resource is replenished at some rate after the task ends.\n\n\n\nTo these, we add the following auxiliary assumptions:\n\nwillpower \\(W\\) is a positive valued quantitative variable (\\(W \\in \\mathbb{R}^{+}\\))\nwillpower changes continuously in time, and\nwillpower has a default value when at rest ( i.e., when there is no task that requires willpower; \\(W^r\\)).\n\n\n\nvan Dongen et al. (2022). https://doi.org/10.31234/osf.io/qd69g"
+    "section": "Explicating a formal theory into formal model(s)",
+    "text": "Explicating a formal theory into formal model(s)\n\nKey theoretical principles of the verbal theory\n\n\nthere is a domain-general “resource” called willpower (\\(W\\))\ntasks requiring willpower deplete this resource (e.g., a task that requires self-control depletes the resource, but a task that requires no self-control does not), and\nthe resource is replenished at some rate after the task ends.\n\n\n\nTo these, we add the following auxiliary assumptions:\n\nwillpower \\(W\\) is a positive valued quantitative variable (\\(W \\in \\mathbb{R}^{+}\\))\nwillpower changes continuously in time, and\nwillpower has a default value when at rest ( i.e., when there is no task that requires willpower; \\(W^r\\)).\n\n\n\nvan Dongen et al. (2022). https://doi.org/10.31234/osf.io/qd69g"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.html#explicating-a-verbal-theory-into-formal-models-2",
-    "href": "lectures/Intro2/Intro2.html#explicating-a-verbal-theory-into-formal-models-2",
+    "objectID": "lectures/Intro2/Intro2.html#explicating-a-formal-theory-into-formal-models-1",
+    "href": "lectures/Intro2/Intro2.html#explicating-a-formal-theory-into-formal-models-1",
     "title": "What are (Not) Theories & Models?",
-    "section": "Explicating a verbal theory into formal model(s)",
-    "text": "Explicating a verbal theory into formal model(s)\n\nMultiple possible implementations\n\nThe theoretical key principles are not precise enough yet to program an implementation - e.g.: Is the decrease of the resouce linear or curved? How fast does the resource recover under rest?\nThese additional auxiliary assumptions (which are not in the core of the theory) can lead to very different possible implementations - all of which are compatible with the theory:\n\n\n\n\n\n\n\n\n\n\n\nhttps://github.com/jmbh/explanationpaper"
+    "section": "Explicating a formal theory into formal model(s)",
+    "text": "Explicating a formal theory into formal model(s)\n\nMultiple possible implementations\n\nThe theoretical key principles are not precise enough yet to program an implementation - e.g.: Is the decrease of the resouce linear or curved? How fast does the resource recover under rest?\nThese additional auxiliary assumptions (which are not in the core of the theory) can lead to very different possible implementations - all of which are compatible with the theory:\n\n\n\n\n\n\n\n\n\n\n\nhttps://github.com/jmbh/explanationpaper"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.html#what-is-a-computational-model",
-    "href": "lectures/Intro2/Intro2.html#what-is-a-computational-model",
+    "objectID": "lectures/Intro2/Intro2.html#narrative---theory---model",
+    "href": "lectures/Intro2/Intro2.html#narrative---theory---model",
     "title": "What are (Not) Theories & Models?",
-    "section": "What is a computational model?",
-    "text": "What is a computational model?\nA model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms input variables into output variables (the dependent variables). The formulas that compute the output contain parameters."
+    "section": "Narrative - theory - model",
+    "text": "Narrative - theory - model\n\n“Die Aura des assoziativ Mitgedachten”\n\n\nIn der sozialwissenschaftlichen Literatur finden sich oft Argumente, die gegen eine Formalisierung sprechen, wie z.B. die folgende Bemerkung: “Was bei der Formalisierung notwendig verloren geht, ist die Aura des assoziativ Mitgedachten, die verbale Aussagen stets umgibt, über ihren ausdrücklichen Gehalt hinaus mit Wirklichkeit sättigt und auch in Grenzfällen noch zutreffend erscheinen lässt” (Mayntz 1967: 28, vgl. auch Harbordt 1974:271).\n\n\n\nSolche Kritikpunkte können wir nicht nachvollziehen. (…) Wenn man daran interessiert ist, “die Aura des assoziativ Mitgedachten” zu erhalten, ist schöngeistige Literatur ein geeigneteres Betätigungsfeld als Wissenschaft.\n\n(Manhart, 2007)\n\n\n\nManhart, K. (2007). Theorie, Modell, Formalisierung. https://www.klaus-manhart.de/mediapool/28/284587/data/01-theorie-modell_2_.pdf"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.html#what-are-explanations",
-    "href": "lectures/Intro2/Intro2.html#what-are-explanations",
+    "objectID": "lectures/Intro2/Intro2.html#narrative---theory---model-1",
+    "href": "lectures/Intro2/Intro2.html#narrative---theory---model-1",
     "title": "What are (Not) Theories & Models?",
-    "section": "What are explanations?",
-    "text": "What are explanations?\nWith the definition of explanatory theories and formal models, a definition of explanations can be proposed:\n\n“Theory T putatively explains phenomenon P” means:\n“if the world were as T says it is, P would follow as a matter of course.”\nAlthough this notion of explanation is arguably incomplete, it has the advantages of being close to the commonsense understanding of the concept and being easy to implement in a formal model—namely by creating a virtual world in which theory T is true and showing that this world will indeed produce phenomenon P.\n\n\nCharles S. Peirce (1931, p. 185); Borsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
+    "section": "Narrative - theory - model",
+    "text": "Narrative - theory - model"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.html#narrative---theory---model-2",
+    "href": "lectures/Intro2/Intro2.html#narrative---theory---model-2",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Narrative - theory - model",
+    "text": "Narrative - theory - model\n\n\nTheory Specification: Deriving a precise formal theory from a narrative framework\n\nMultiple formal theories can be derived from a narrative framework\nEven if they are all compatible with the narrative framework, they can be mutually incompatible.\nOr they can be complementary (e.g., referring to different domains, or covering different aspects of the narrative framework), e.g. evolution as framework"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.html#narrative---theory---model-3",
+    "href": "lectures/Intro2/Intro2.html#narrative---theory---model-3",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Narrative - theory - model",
+    "text": "Narrative - theory - model\n\n\nModel Specification: Deriving a precise formal model from a theory\n\nMultiple formal models can be derived from a single theory\nEven if they are all compatible with the theory, they can be mutually incompatible due to different auxiliary assumptions.\nA generative model is so precise (and fully specified) that it can be used to generate “fake” data.\nEven if the concrete numerical predictions will differ, all admissible models should satisfy the theory’s core qualitative predictions within its scope (e.g., direction of effects, monotonicity)"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.html#what-then-are-explanations",
+    "href": "lectures/Intro2/Intro2.html#what-then-are-explanations",
+    "title": "What are (Not) Theories & Models?",
+    "section": "What then are explanations?",
+    "text": "What then are explanations?\nWith the definition of explanatory theories and formal models, a definition of explanations can be proposed:\n\n“Theory T putatively explains phenomenon P” means:\n“if the world were as T says it is, P would follow as a matter of course.”\nAlthough this notion of explanation is arguably incomplete, it has the advantages of being close to the commonsense understanding of the concept and being easy to implement in a formal model—namely by creating a virtual world in which theory T is true and showing that this world will indeed produce phenomenon P.\n\n\nCharles S. Peirce (1931, p. 185); Borsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#understandability-of-explanations",
@@ -1698,7 +1761,7 @@
     "href": "lectures/Intro2/Intro2.html#definitions-2",
     "title": "What are (Not) Theories & Models?",
     "section": "Definitions (2)",
-    "text": "Definitions (2)\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character.\n\n\n\n\n\n\n\n\nWhat is a formal model?\n\n\n\nA formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory and the model are sufficiently accurate.\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647; van Dongen et al. (2023). https://doi.org/10.31234/osf.io/qd69g"
+    "text": "Definitions (2)\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a law-like character.\n\n\n\n\n\n\n\n\nWhat is a formal model?\n\n\n\nA model is a precise mathematical or computational instantiation of some theory claims plus operationalizations and auxiliary assumptions. It is able to generate “fake” data and data patterns that would be observed in reality if the theory and the model are sufficiently accurate.\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\n\nIn the productive explanation framework, a theory \\(T\\) putatively explains a phenomenon \\(P\\) if and only if a formal model \\(M\\) of the theory \\(T\\) produces a statistical pattern representing the empirical phenomenon \\(P\\).\n\n\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  M(Model)\n  \n  T -- \"Explanation\" --&gt; M\n  M -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647; van Dongen et al. (2023). https://doi.org/10.31234/osf.io/qd69g"
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#contact",
@@ -1775,7 +1838,7 @@
     "href": "lectures/Intro2/Intro2.slide.html#theories-as-causal-explanations",
     "title": "What are (Not) Theories & Models?",
     "section": "Theories as causal explanations",
-    "text": "Theories as causal explanations\n\n“It may be said… that an explanation is not fully adequate unless its explanans […] could have served as a basis for predicting the phenomenon under consideration.\n… not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment”\n\n Hempel & Oppenheim, 1948, (p. 138)\n\n\n\nPredict new (unseen) data\nHave (causal) control through manipulation"
+    "text": "Theories as causal explanations\n\n“It may be said… that an explanation is not fully adequate unless its explanans […] could have served as a basis for predicting the phenomenon under consideration.\n… not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to anticipate new occurrences and to control, at least to some extent, the changes in our environment”\n\n Hempel & Oppenheim, 1948, (p. 138)\n\n\nPut in other words: Explanatory theories aim at causal/mechanistic understanding that supports prediction and, under suitable scope conditions, control."
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#tcm-a-methodology-for-constructing-theories",
@@ -1789,14 +1852,14 @@
     "href": "lectures/Intro2/Intro2.slide.html#definitions-1",
     "title": "What are (Not) Theories & Models?",
     "section": "Definitions (1)",
-    "text": "Definitions (1)\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (explanans)\n\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
+    "text": "Definitions (1)\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (explanans)\n\n\n\nDissecting the dense definition:\n\nTheories are not about specific measurements or operationalizations: they are about (a) latent constructs, and (b) explains phenomena (generalizable patterns in data).\n“Statements”: Typically these are causal statements (if-then), but the definition is broad and includes also other statements (e.g., correlational).\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#what-is-a-model",
     "href": "lectures/Intro2/Intro2.slide.html#what-is-a-model",
     "title": "What are (Not) Theories & Models?",
     "section": "What is a model?",
-    "text": "What is a model?\nA {formal|mathematical|computational} model is a precise, mathematical or algorithmic representation of the theory’s principles and relationships. It serves as a bridge between abstract theoretical principles and the empirical world.\nSometimes a theory is so highly formalized that it is virtually identical to a model of it. But more often, there is a gap between theory and implemented models: We need more assumptions to implement a model in computer code. In this case, multiple models can satisfy the axioms and constraints of a theory."
+    "text": "What is a model?\n\nA {formal|mathematical|computational} model is a precise, mathematical or algorithmic representation of the theory’s principles and relationships. It serves as a bridge between abstract theoretical principles and the empirical world.\nAs theories are about constructs, there is a gap between theory and implemented models: We need more assumptions to implement a model in computer code and to make it empirically testable. These are typically assumptions about operationalization (how to measure constructs) and auxiliary assumptions (additional assumptions that are not part of the core theory, but are needed to implement it, such as specific functional forms).\nFilling the gaps between theory and implemented model is called model specification. There is no 1-to-1 mapping of a theory to a derived model: Multiple models can satisfy the axioms and constraints of a theory."
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models",
@@ -1806,32 +1869,53 @@
     "text": "Explicating a verbal theory into formal model(s)\nExample: van Dongen et al (2023) on Ego Depletion\n\n\nThe regulatory resource theory pertains to self-control: cognitive processes that inhibit and suppress immediate thoughts, impulses, expression of emotions, and behaviors that deviate from standards or goals.\nThe theory postulates that one’s ability for self-control depends on a finite resource: a stored supply of energy, for which some use the term willpower. Every act of self-control reduces the amount of willpower, so that one’s ability to inhibit or suppress the next unwanted impulse is diminished\nThe theory is said to explain the phenomenon of ego depletion: people perform worse on a task that requires self-control, right after having done something else that used this resource.\n\n\n\nAbridged from van Dongen et al. (2022). Improving psychological explanations. PsyArXiv. https://doi.org/10.31234/osf.io/qd69g"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models-1",
-    "href": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models-1",
+    "objectID": "lectures/Intro2/Intro2.slide.html#explicating-a-formal-theory-into-formal-models",
+    "href": "lectures/Intro2/Intro2.slide.html#explicating-a-formal-theory-into-formal-models",
     "title": "What are (Not) Theories & Models?",
-    "section": "Explicating a verbal theory into formal model(s)",
-    "text": "Explicating a verbal theory into formal model(s)\nKey theoretical principles of the verbal theory\n\n\nthere is a domain-general “resource” called willpower (\\(W\\))\ntasks requiring willpower deplete this resource (e.g., a task that requires self-control depletes the resource, but a task that requires no self-control does not), and\nthe resource is replenished at some rate after the task ends.\n\n\n\nTo these, we add the following auxiliary assumptions:\n\nwillpower \\(W\\) is a positive valued quantitative variable (\\(W \\in \\mathbb{R}^{+}\\))\nwillpower changes continuously in time, and\nwillpower has a default value when at rest ( i.e., when there is no task that requires willpower; \\(W^r\\)).\n\n\n\nvan Dongen et al. (2022). https://doi.org/10.31234/osf.io/qd69g"
+    "section": "Explicating a formal theory into formal model(s)",
+    "text": "Explicating a formal theory into formal model(s)\nKey theoretical principles of the verbal theory\n\n\nthere is a domain-general “resource” called willpower (\\(W\\))\ntasks requiring willpower deplete this resource (e.g., a task that requires self-control depletes the resource, but a task that requires no self-control does not), and\nthe resource is replenished at some rate after the task ends.\n\n\n\nTo these, we add the following auxiliary assumptions:\n\nwillpower \\(W\\) is a positive valued quantitative variable (\\(W \\in \\mathbb{R}^{+}\\))\nwillpower changes continuously in time, and\nwillpower has a default value when at rest ( i.e., when there is no task that requires willpower; \\(W^r\\)).\n\n\n\nvan Dongen et al. (2022). https://doi.org/10.31234/osf.io/qd69g"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models-2",
-    "href": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models-2",
+    "objectID": "lectures/Intro2/Intro2.slide.html#explicating-a-formal-theory-into-formal-models-1",
+    "href": "lectures/Intro2/Intro2.slide.html#explicating-a-formal-theory-into-formal-models-1",
     "title": "What are (Not) Theories & Models?",
-    "section": "Explicating a verbal theory into formal model(s)",
-    "text": "Explicating a verbal theory into formal model(s)\nMultiple possible implementations\n\nThe theoretical key principles are not precise enough yet to program an implementation - e.g.: Is the decrease of the resouce linear or curved? How fast does the resource recover under rest?\nThese additional auxiliary assumptions (which are not in the core of the theory) can lead to very different possible implementations - all of which are compatible with the theory:\n\n\n\n\n\n\n\n\n\n\nhttps://github.com/jmbh/explanationpaper"
+    "section": "Explicating a formal theory into formal model(s)",
+    "text": "Explicating a formal theory into formal model(s)\nMultiple possible implementations\n\nThe theoretical key principles are not precise enough yet to program an implementation - e.g.: Is the decrease of the resouce linear or curved? How fast does the resource recover under rest?\nThese additional auxiliary assumptions (which are not in the core of the theory) can lead to very different possible implementations - all of which are compatible with the theory:\n\n\n\n\n\n\n\n\n\n\nhttps://github.com/jmbh/explanationpaper"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#what-is-a-computational-model",
-    "href": "lectures/Intro2/Intro2.slide.html#what-is-a-computational-model",
+    "objectID": "lectures/Intro2/Intro2.slide.html#narrative---theory---model",
+    "href": "lectures/Intro2/Intro2.slide.html#narrative---theory---model",
     "title": "What are (Not) Theories & Models?",
-    "section": "What is a computational model?",
-    "text": "What is a computational model?\nA model is one possible implementation of a set of theoretical key assumptions. It is a function that transforms input variables into output variables (the dependent variables). The formulas that compute the output contain parameters."
+    "section": "Narrative - theory - model",
+    "text": "Narrative - theory - model\n“Die Aura des assoziativ Mitgedachten”\n\n\nIn der sozialwissenschaftlichen Literatur finden sich oft Argumente, die gegen eine Formalisierung sprechen, wie z.B. die folgende Bemerkung: “Was bei der Formalisierung notwendig verloren geht, ist die Aura des assoziativ Mitgedachten, die verbale Aussagen stets umgibt, über ihren ausdrücklichen Gehalt hinaus mit Wirklichkeit sättigt und auch in Grenzfällen noch zutreffend erscheinen lässt” (Mayntz 1967: 28, vgl. auch Harbordt 1974:271).\n\n\n\nSolche Kritikpunkte können wir nicht nachvollziehen. (…) Wenn man daran interessiert ist, “die Aura des assoziativ Mitgedachten” zu erhalten, ist schöngeistige Literatur ein geeigneteres Betätigungsfeld als Wissenschaft.\n\n(Manhart, 2007)\n\n\n\nManhart, K. (2007). Theorie, Modell, Formalisierung. https://www.klaus-manhart.de/mediapool/28/284587/data/01-theorie-modell_2_.pdf"
   },
   {
-    "objectID": "lectures/Intro2/Intro2.slide.html#what-are-explanations",
-    "href": "lectures/Intro2/Intro2.slide.html#what-are-explanations",
+    "objectID": "lectures/Intro2/Intro2.slide.html#narrative---theory---model-1",
+    "href": "lectures/Intro2/Intro2.slide.html#narrative---theory---model-1",
     "title": "What are (Not) Theories & Models?",
-    "section": "What are explanations?",
-    "text": "What are explanations?\nWith the definition of explanatory theories and formal models, a definition of explanations can be proposed:\n\n“Theory T putatively explains phenomenon P” means:\n“if the world were as T says it is, P would follow as a matter of course.”\nAlthough this notion of explanation is arguably incomplete, it has the advantages of being close to the commonsense understanding of the concept and being easy to implement in a formal model—namely by creating a virtual world in which theory T is true and showing that this world will indeed produce phenomenon P.\n\n\nCharles S. Peirce (1931, p. 185); Borsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
+    "section": "Narrative - theory - model",
+    "text": "Narrative - theory - model"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#narrative---theory---model-2",
+    "href": "lectures/Intro2/Intro2.slide.html#narrative---theory---model-2",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Narrative - theory - model",
+    "text": "Narrative - theory - model\n\n\nTheory Specification: Deriving a precise formal theory from a narrative framework\n\nMultiple formal theories can be derived from a narrative framework\nEven if they are all compatible with the narrative framework, they can be mutually incompatible.\nOr they can be complementary (e.g., referring to different domains, or covering different aspects of the narrative framework), e.g. evolution as framework"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#narrative---theory---model-3",
+    "href": "lectures/Intro2/Intro2.slide.html#narrative---theory---model-3",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Narrative - theory - model",
+    "text": "Narrative - theory - model\n\n\nModel Specification: Deriving a precise formal model from a theory\n\nMultiple formal models can be derived from a single theory\nEven if they are all compatible with the theory, they can be mutually incompatible due to different auxiliary assumptions.\nEven if the concrete numerical predictions will differ, all admissible models should satisfy the theory’s core qualitative predictions within its scope (e.g., direction of effects, monotonicity)"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#what-then-are-explanations",
+    "href": "lectures/Intro2/Intro2.slide.html#what-then-are-explanations",
+    "title": "What are (Not) Theories & Models?",
+    "section": "What then are explanations?",
+    "text": "What then are explanations?\nWith the definition of explanatory theories and formal models, a definition of explanations can be proposed:\n\n“Theory T putatively explains phenomenon P” means:\n“if the world were as T says it is, P would follow as a matter of course.”\nAlthough this notion of explanation is arguably incomplete, it has the advantages of being close to the commonsense understanding of the concept and being easy to implement in a formal model—namely by creating a virtual world in which theory T is true and showing that this world will indeed produce phenomenon P.\n\n\nCharles S. Peirce (1931, p. 185); Borsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#understandability-of-explanations",
@@ -1845,7 +1929,7 @@
     "href": "lectures/Intro2/Intro2.slide.html#definitions-2",
     "title": "What are (Not) Theories & Models?",
     "section": "Definitions (2)",
-    "text": "Definitions (2)\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character.\n\n\n\n\n\n\n\n\n\nWhat is a formal model?\n\n\nA formal model is one possible implementation of a theory (typically using additional auxiliary assumptions). It is able to generate “fake” data and data patterns that would be observed in reality if the theory and the model are sufficiently accurate.\n\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\nIn the productive explanation framework, a theory T putatively explains a phenomenon P if and only if a formal model of the theory T produces a statistical pattern representing the empirical phenomenon P.\n\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647; van Dongen et al. (2023). https://doi.org/10.31234/osf.io/qd69g"
+    "text": "Definitions (2)\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a law-like character.\n\n\n\n\n\n\n\n\n\nWhat is a formal model?\n\n\nA model is a precise mathematical or computational instantiation of some theory claims plus operationalizations and auxiliary assumptions. It is able to generate “fake” data and data patterns that would be observed in reality if the theory and the model are sufficiently accurate.\n\n\n\n\n\n\n\n\n\nWhat is an explanation?\n\n\nIn the productive explanation framework, a theory \\(T\\) putatively explains a phenomenon \\(P\\) if and only if a formal model \\(M\\) of the theory \\(T\\) produces a statistical pattern representing the empirical phenomenon \\(P\\).\n\n\n\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'base',\n    'flowchart': { 'curve': 'natural' }\n  }\n}%%\nflowchart LR\n  T(Theory)\n  P(Phenomena)\n  D(Data)\n  M(Model)\n  \n  T -- \"Explanation\" --&gt; M\n  M -- \"Explanation\" --&gt; P\n  P -- \"Abduction\" --&gt; T\n  P -- \"Prediction\" --&gt; D\n  D -- \"Generalization\" --&gt; P\n\n\n\n\n\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647; van Dongen et al. (2023). https://doi.org/10.31234/osf.io/qd69g"
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#contact",
@@ -2433,14 +2517,14 @@
     "href": "lectures/VAST/VAST_Application.html",
     "title": "Applying VAST to an existing theory",
     "section": "",
-    "text": "Step 1: Choose your starting point\nStep 2: Limit your scope\nStep 3: Collect definitions of constructs, with reference to the literature.\nStep 4: Distill a (consensus or working) definition for each construct, add relationships\nStep 5: Collect robust empirical phenomena\nStep X: Choose a specific formalization"
+    "text": "Step 1: Choose your starting point\nStep 2: Limit your scope\nStep 3: Collect robust empirical phenomena\nStep 4: Collect definitions of constructs, with reference to the literature.\nStep 5: Distill a (consensus or working) definition for each construct, add relationships\n\n\n\n\n\n\n\nTip\n\n\n\nThe full list of formalization steps is presented on this website. This slide set covers steps 2 to 6 of the broader scheme."
   },
   {
     "objectID": "lectures/VAST/VAST_Application.html#steps-to-formalize-an-existing-verbal-theory",
     "href": "lectures/VAST/VAST_Application.html#steps-to-formalize-an-existing-verbal-theory",
     "title": "Applying VAST to an existing theory",
     "section": "",
-    "text": "Step 1: Choose your starting point\nStep 2: Limit your scope\nStep 3: Collect definitions of constructs, with reference to the literature.\nStep 4: Distill a (consensus or working) definition for each construct, add relationships\nStep 5: Collect robust empirical phenomena\nStep X: Choose a specific formalization"
+    "text": "Step 1: Choose your starting point\nStep 2: Limit your scope\nStep 3: Collect robust empirical phenomena\nStep 4: Collect definitions of constructs, with reference to the literature.\nStep 5: Distill a (consensus or working) definition for each construct, add relationships\n\n\n\n\n\n\n\nTip\n\n\n\nThe full list of formalization steps is presented on this website. This slide set covers steps 2 to 6 of the broader scheme."
   },
   {
     "objectID": "lectures/VAST/VAST_Application.html#step-1-choose-your-starting-point",
@@ -2464,74 +2548,102 @@
     "text": "Step 2: Limit your scope\nMost theories in psychology are too fuzzy and broad to be formalized in one round. We restrict the scope of the theory to keep modelling feasible:\n\nDefine the scope of original literature that is used as basis for the formalization.\nLimit the number of phenomena that your model is supposed to explain. Focus on phenomena that are empirically robust.\nLimit the number of constructs and their relationships, add complexity later.\n\nStart with the smallest number of constructs necessary to explain your explanatory target.\nMaybe exclude entire sections of a theory.\nWhat is your focal outcome variable (DV)? What are the focal predictors or interventions?"
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.html#step-3-collect-definitions-of-constructs",
-    "href": "lectures/VAST/VAST_Application.html#step-3-collect-definitions-of-constructs",
+    "objectID": "lectures/VAST/VAST_Application.html#step-3-collect-robust-empirical-phenomena",
+    "href": "lectures/VAST/VAST_Application.html#step-3-collect-robust-empirical-phenomena",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 3: Collect definitions of constructs",
-    "text": "Step 3: Collect definitions of constructs\n\nConstruct Source Table\n\n\nCollect quotes of definitions of constructs and their relationships from the literature.\nMake them atomic (i.e., split up long quotes into their basic components).\nAssign a unique ID to each statement.\n\nThis table will be called the Construct Source Table, as it collects the original sources for the definitions of the constructs.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nID\nType\nShort name\nQuote\nReference\nrel. type (n, p, i, r, …)\nComment\nIncl. (Y/N)\n\n\n\n\nA\nP\nbystander effect\n“The bystander effect refers to the phenomenon that an individual’s likelihood of helping decreases when passive bystanders are present in a critical situation.”\nFischer et al. (2011), p. 517\nn, p\n\nY\n\n\nB\n\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n\n\n\n\nType is one of: Phenomenon, Concept, Relationship\nIncluded (Y/N): Is this definition included in the VAST display?"
+    "section": "Step 3: Collect robust empirical phenomena",
+    "text": "Step 3: Collect robust empirical phenomena\nRobustness of phenomena has two dimensions:\n\nGeneralizability (cf. UTOS framework): The effect has been shown for different Units, with different operationalizations of Treatments and Outcomes, and in multiple Settings.\nStrong empirical evidence for each/many of the generalizations."
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.html#step-4-distill-a-working-definition-for-each-construct-add-relationships",
-    "href": "lectures/VAST/VAST_Application.html#step-4-distill-a-working-definition-for-each-construct-add-relationships",
+    "objectID": "lectures/VAST/VAST_Application.html#step-3-collect-robust-empirical-phenomena-1",
+    "href": "lectures/VAST/VAST_Application.html#step-3-collect-robust-empirical-phenomena-1",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 4: Distill a working definition for each construct, add relationships",
-    "text": "Step 4: Distill a working definition for each construct, add relationships\n\n\nDraw a VAST display with a naming n relationship for each construct.\nUse the ID from the Construct Source Table as subscript for each relationship. This way your claims in the VAST display can be easily backlinked to the original sources in the literature.\n\nThe small “A” subscript indicates that all relationships in this display are derived from the quote with ID “A” in the Construct Source Table."
+    "section": "Step 3: Collect robust empirical phenomena",
+    "text": "Step 3: Collect robust empirical phenomena\nPractically, you should do the following steps to assess these two dimensions:\n\nSearch for meta-analyses that report on phenomena with our focal variables → Only if no meta-analysis is available, or it is not helpful: Do a broader literature search for primary studies.\nAssess the robustness of the phenomena along the two dimensions:\n\nHow generalizable is it? Go through all four UTOS dimensions and evaluate which types of generalization have been shown across studies.\nHow strong is the evidence? (e.g., based on number k of studies in a meta-analysis, strength of evidence, risk of bias)\n\nWrite a paragraph that makes an overall assessment of the robustness of each phenomenon and gives a clear and explicit answer: “The phenomenon can (not) be considered robust because, …”. Refer to the two dimensions of robustness and give references that back up your claim."
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.html#step-5-collect-robust-empirical-phenomena-1",
-    "href": "lectures/VAST/VAST_Application.html#step-5-collect-robust-empirical-phenomena-1",
+    "objectID": "lectures/VAST/VAST_Application.html#step-3-collect-robust-empirical-phenomena-2",
+    "href": "lectures/VAST/VAST_Application.html#step-3-collect-robust-empirical-phenomena-2",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 5: Collect robust empirical phenomena",
-    "text": "Step 5: Collect robust empirical phenomena\nRobustness of phenomena has two dimensions:\n\nGeneralizability (cf. UTOS framework): The effect has been shown for different Units, with different operationalizations of Treatments and Outcomes, and in multiple Settings.\nStrong empirical evidence for each/many of the generalizations."
+    "section": "Step 3: Collect robust empirical phenomena",
+    "text": "Step 3: Collect robust empirical phenomena\n\nHow to jointly assess “strength of evidence” and “generalizability”\n\nWhen you assess the generalizability, you should distinguish three prototypical epistemic states:\n\n“I know that it is generalizable.” → strong evidence for \\(H_1\\)\n“I know that it is not generalizable.” → strong evidence for \\(H_0\\)\n“I do not know whether it is generalizable or not - with the given empirical evidence I cannot answer this question.” → inconclusive evidence\n\nWhen is the strength of evidence strong? If …\n\nyou have many studies,\nwhich are methodologically sound (i.e., valid),\nand show (at least in sum) a decisive statistical result into either direction (i.e., either for a difference, or for a null effect)\n\n\n\nAs a sidenote: Ideally, evidence is quantified with a statistical technique that also allows to measure evidence for the null hypothesis and that gives a continuous quantification of the strength of evidence. A Bayes factor provides both desiderata."
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.html#step-5-collect-robust-empirical-phenomena-2",
-    "href": "lectures/VAST/VAST_Application.html#step-5-collect-robust-empirical-phenomena-2",
+    "objectID": "lectures/VAST/VAST_Application.html#step-3-collect-robust-empirical-phenomena-3",
+    "href": "lectures/VAST/VAST_Application.html#step-3-collect-robust-empirical-phenomena-3",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 5: Collect robust empirical phenomena",
-    "text": "Step 5: Collect robust empirical phenomena\nPractically, you should do the following steps to assess these two dimensions:\n\nSearch for meta-analyses that report on phenomena with our focal variables → Only if no meta-analysis is available, or it is not helpful: Do a broader literature search for primary studies.\nAssess the robustness of the phenomena along the two dimensions:\n\nHow generalizable is it? Go through all four UTOS dimensions and evaluate which types of generalization have been shown across studies.\nHow strong is the evidence? (e.g., based on number k of studies in a meta-analysis, strength of evidence, risk of bias)\n\nWrite a paragraph that makes an overall assessment of the robustness of each phenomenon and gives a clear and explicit answer: “The phenomenon can (not) be considered robust because, …”. Refer to the two dimensions of robustness and give references that back up your claim."
+    "section": "Step 3: Collect robust empirical phenomena",
+    "text": "Step 3: Collect robust empirical phenomena\n\n\n\n\n\nFigure 1: Possible results of a generalizability assessment.\n\n\n\n\n\n\n\n\nNote\n\n\n\nGeneral principle: We can only make statements about stuff that we actually studied.\n\n\n\nWe describe six prototypical examples:\n\n(A): strong evidence that the phenomenon is not generalizable.\n(B): strong evidence that the phenomenon is generalizable - at least within the space of sampled variations.\n(C): weak evidence that the phenomenon is not generalizable.\n(D): weak evidence that the phenomenon is generalizable. As we don’t know about the untested variations, the evidence principally cannot be very strong.\n(E): principally unknowable whether the result generalizes to other variations. We can only conclude that we cannot conclude anything about generalizability.\n(F): evidence is inconclusive. There are descriptive differences between variations, but they are small, and it is not clear if these differences are statistically significant and substantial."
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.html#step-5-collect-robust-empirical-phenomena-3",
-    "href": "lectures/VAST/VAST_Application.html#step-5-collect-robust-empirical-phenomena-3",
+    "objectID": "lectures/VAST/VAST_Application.html#step-3-collect-robust-empirical-phenomena-4",
+    "href": "lectures/VAST/VAST_Application.html#step-3-collect-robust-empirical-phenomena-4",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 5: Collect robust empirical phenomena",
-    "text": "Step 5: Collect robust empirical phenomena\n\nHow to jointly assess “strength of evidence” and “generalizability”\n\nWhen you assess the generalizability, you should distinguish three prototypical epistemic states:\n\n“I know that it is generalizable.” → strong evidence for \\(H_1\\)\n“I know that it is not generalizable.” → strong evidence for \\(H_0\\)\n“I do not know whether it is generalizable or not - with the given empirical evidence I cannot answer this question.” → inconclusive evidence\n\nWhen is the strength of evidence strong? If …\n\nyou have many studies,\nwhich are methodologically sound (i.e., valid),\nand show (at least in sum) a decisive statistical result into either direction (i.e., either for a difference, or for a null effect)\n\n\n\nAs a sidenote: Ideally, evidence is quantified with a statistical technique that also allows to measure evidence for the null hypothesis and that gives a continuous quantification of the strength of evidence. A Bayes factor provides both desiderata."
+    "section": "Step 3: Collect robust empirical phenomena",
+    "text": "Step 3: Collect robust empirical phenomena\n\n Exercise (5 min)\nAll four UTOS dimensions can get an independent assessment. Consider the ManyLabs2 study, where identical experiment (except translation of materials) has been administered online in very diverse samples (at least diverse with respect to nationality and cultural background).\nNon-zero effects could be found with remarkably low variability across samples. Quoted from the abstract:\n\n“Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied”.\n\nEvaluate the generalizability of the reported effects along the four UTOS dimensions."
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.html#step-5-collect-robust-empirical-phenomena-4",
-    "href": "lectures/VAST/VAST_Application.html#step-5-collect-robust-empirical-phenomena-4",
+    "objectID": "lectures/VAST/VAST_Application.html#step-3-collect-robust-empirical-phenomena-5",
+    "href": "lectures/VAST/VAST_Application.html#step-3-collect-robust-empirical-phenomena-5",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 5: Collect robust empirical phenomena",
-    "text": "Step 5: Collect robust empirical phenomena\n\n\n\n\n\nFigure 1: Possible results of a generalizability assessment.\n\n\n\n\n\n\n\n\nNote\n\n\n\nGeneral principle: We can only make statements about stuff that we actually studied.\n\n\n\nWe describe six prototypical examples:\n\n(A): strong evidence that the phenomenon is not generalizable.\n(B): strong evidence that the phenomenon is generalizable - at least within the space of sampled variations.\n(C): weak evidence that the phenomenon is not generalizable.\n(D): weak evidence that the phenomenon is generalizable. As we don’t know about the untested variations, the evidence principally cannot be very strong.\n(E): principally unknowable whether the result generalizes to other variations. We can only conclude that we cannot conclude anything about generalizability.\n(F): evidence is inconclusive. There are descriptive differences between variations, but they are small, and it is not clear if these differences are statistically significant and substantial."
+    "section": "Step 3: Collect robust empirical phenomena",
+    "text": "Step 3: Collect robust empirical phenomena\n\nApplying the heuristic to ManyLabs2\n\n\n\nFigure 2: A generalizability assessment of the UTOS dimensions in ManyLabs 2.\n\n\n\nHence, we have strong evidence for high generalizability for the U and the S dimension, but we cannot make a conclusion concerning the T and the O dimensions, as they lacked the necessary variation in the study."
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.html#step-5-collect-robust-empirical-phenomena-5",
-    "href": "lectures/VAST/VAST_Application.html#step-5-collect-robust-empirical-phenomena-5",
+    "objectID": "lectures/VAST/VAST_Application.html#step-3-collect-robust-empirical-phenomena-6",
+    "href": "lectures/VAST/VAST_Application.html#step-3-collect-robust-empirical-phenomena-6",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 5: Collect robust empirical phenomena",
-    "text": "Step 5: Collect robust empirical phenomena\n\nApplying the heuristic to ManyLabs2\nAll four UTOS dimensions can get an independent assessment. Consider the ManyLabs2 study:\nThe identical experiment (except translation of materials) has been administered online in very diverse samples (at least diverse with respect to nationality and cultural background).\n\nHence, there was high variation in the U(nits) and the S(ettings) dimensions, but very low variation in the T(reatment) and O(utcome) dimension.\nNon-zero effects could be found with remarkably low variability across samples: “Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied” (quoted from the Abstract)."
+    "section": "Step 3: Collect robust empirical phenomena",
+    "text": "Step 3: Collect robust empirical phenomena\n\nExample: Social Loafing (adapted from Emilia Wittig)\n\n“A meta-analysis of 78 studies underlines that social loafing is a robust phenomenon that generalizes across tasks and populations (Karau & Williams, 1993).\nRegarding different units, social loating was found among groups of organizational employees, college students as well as high school students. Furthermore, the phenomenon appears within different genders as well as various cultures.\nThe studies mentioned in the meta-analysis used a variety of different tasks as treatment, such as physical exercises (e.g., rope pulling), cognitive tasks (e.g., brainstorming), evaluative efforts (e.g., rating items) and perceptual tasks (e.g., monitoring a screen for signals). These tasks also differed in complexity.\nRegarding the outcomes, social loafing was generally assessed by comparing individual’s coactive efforts with the individual’s collective efforts. The specific units of measurement varied across tasks, with some studies focusing on quantity of individual contributions and others taking the quality into account.\nLastly, concerning different settings of studies, the meta analysis included laboratory studies as well as field studies.\nIn sum, we can conclude that evidence for social loafing found in this meta-analytic review is strong and the phenomenon generalizes over all of the UTOS dimensions. Social Loafing can be consider to be a robust phenomenon.”"
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.html#step-5-collect-robust-empirical-phenomena-6",
-    "href": "lectures/VAST/VAST_Application.html#step-5-collect-robust-empirical-phenomena-6",
+    "objectID": "lectures/VAST/VAST_Application.html#step-4-collect-definitions-of-constructs",
+    "href": "lectures/VAST/VAST_Application.html#step-4-collect-definitions-of-constructs",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 5: Collect robust empirical phenomena",
-    "text": "Step 5: Collect robust empirical phenomena\n\nApplying the heuristic to ManyLabs2\n\n\n\nFigure 2: A generalizability assessment of the UTOS dimensions in ManyLabs 2.\n\n\n\nHence, we have strong evidence for high generalizability for the U and the S dimension, but we cannot make a conclusion concerning the T and the O dimensions, as they lacked the necessary variation in the study."
+    "section": "Step 4: Collect definitions of constructs",
+    "text": "Step 4: Collect definitions of constructs\n\nConstruct Source Table\n\n\nCollect quotes of definitions of constructs and their relationships from the literature.\nMake them atomic (i.e., split up long quotes into their basic components).\nAssign a unique ID to each statement.\n\nThis table will be called the Construct Source Table, as it collects the original sources for the definitions of the constructs.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nID\nType\nShort name\nQuote\nReference\nrel. type (n, p, i, r, …)\nComment\nIncl. (Y/N)\n\n\n\n\nA\nP\nbystander effect\n“The bystander effect refers to the phenomenon that an individual’s likelihood of helping decreases when passive bystanders are present in a critical situation.”\nFischer et al. (2011), p. 517\nn, p\n\nY\n\n\nB\n\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n\n\n\n\nType is one (or multiple) of: Phenomenon, Concept, HOC: Higher-order Concept.\nIncluded (Y/N): Is this definition included in the VAST display?"
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.html#step-5-collect-robust-empirical-phenomena-7",
-    "href": "lectures/VAST/VAST_Application.html#step-5-collect-robust-empirical-phenomena-7",
+    "objectID": "lectures/VAST/VAST_Application.html#step-5-distill-a-working-definition-for-each-construct-add-relationships",
+    "href": "lectures/VAST/VAST_Application.html#step-5-distill-a-working-definition-for-each-construct-add-relationships",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 5: Collect robust empirical phenomena",
-    "text": "Step 5: Collect robust empirical phenomena\n\nExample: Jet lag (adapted from Keno Mersmann)\n\n“No meta-analyses could be identified, that directly investigated the robustness of jet lag. Instead, three standalone studies shall be reviewed, investigating generalizability across the four UTOS dimensions.\nAs research units, an Olympic team support staff (n = 9; Rossiter et al., 2022), a professional male football team (n=23, Fowler et al., 2017) and master triathletes (n = 12, Stevens et al., 2018) were investigated. These samples were extremely small and relatively homogeneous, consisting mainly of men and an over-proportion of professional athletes. We have no evidence about the generalizabilkity across the units dimension.\nThe transmeridian flights are considered as treatments in this context. The sample from Rossiter et al. (2022) underwent a 24-h eastward travel over 8 time zones (Ireland- Japan), the sample from Fowler et al. (2017) experienced a 19-h eastward flight over 11 time zones (Australia-Brazil) and the sample from Stevens et al. (2018) an northeastward journey with a mean travel time of 22.6-h of which 11.5-h were spent flying (Australia-US). While these show some variation in treatment strength, they are homogeneous in the sense that no short flights were reported, and all were eastward journeys. The there is only weak evidence for generalizability across the treatment dimension.\n[Paragraph on outcomes omitted …]\nAs to the settings investigated, […] all participants were in some way part of a high stakes competition and within training camps during the study period, which is a very narrow and non-typical situation.\nIn conclusion, based on the review of three studies, we have only inconclusive evidence whether jet lag can be considered a robust phenomenon. However, it seems reasonable to assume that jet lag is vastly more robust, and that this contradiction might mainly arise from the small number of studies reviewed here.”"
+    "section": "Step 5: Distill a working definition for each construct, add relationships",
+    "text": "Step 5: Distill a working definition for each construct, add relationships\n\n\nDraw a VAST display with a naming (n) relationship for each construct.\nUse the ID from the Construct Source Table as subscript for each relationship. This way your claims in the VAST display can be easily backlinked to the original sources in the literature.\n\nThe small “A” subscript indicates that all relationships in this display are derived from the quote with ID “A” in the Construct Source Table."
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.html#step-x-choose-a-specific-formalization",
-    "href": "lectures/VAST/VAST_Application.html#step-x-choose-a-specific-formalization",
+    "objectID": "lectures/VAST/VAST_Application.html#sensors",
+    "href": "lectures/VAST/VAST_Application.html#sensors",
     "title": "Applying VAST to an existing theory",
-    "section": "Step X: Choose a specific formalization",
-    "text": "Step X: Choose a specific formalization\n“Diffusion of responsibility” (Darley & Latané, 1968): The presence of others reduces the likelihood of helping behavior in emergencies.\nBut how is it reduced exactly? (see Forsyth et al., 2002):\n\nLinear relationship?\nA reduction in personal responsibility as groups increase in size but an eventual leveling off in larger groups?\nWhere does responsibility go when it diffuses in the group? Does it diffuse equally, with each member getting an equal portion, or is it concentrated on certain individuals?\n\n\n\nE.g., Forsyth et al. (2002)"
+    "section": "Sensors",
+    "text": "Sensors\n\nPerceiving the environment\nOrganisms have a vast range of sensors for perceiving their environment. These have been adapted to selection pressures:\n\nHumans don’t have sensors for ultraviolet light (bees do)\nWe have no sensors for radioactivity, as this was no relevant selective force\nSingle-celled organism have, for example …\n\nchemoreceptors for sugar\ntactile sense (simple membranes transmitting changes in pressure)"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Application.html#sensors-1",
+    "href": "lectures/VAST/VAST_Application.html#sensors-1",
+    "title": "Applying VAST to an existing theory",
+    "section": "Sensors",
+    "text": "Sensors\n\nBrunswik’s lens model\n\n\nOrganisms constantly need to form a judgement about latent properties of situations and objects (the criterion)\nMost criteria are not directly observable, but need to be inferred via cues. Example:\n\nLatent property: The caloric energy of a dessert\nCues: Size, taste, color\n\nCues often are not perfect indicators, but rather statistically correlated with the criterion. Higher correlation → higher cue validity\nNot all cues are used (with the same weight) in judgement formation → cue utilization\n\n\n\nBrunswik, E. (1952). The conceptual framework of psychology. (Int. Encycl. unified Sci., v. 1, no. 10.). Oxford, England: Univ. Chicago Press."
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Application.html#sensors-2",
+    "href": "lectures/VAST/VAST_Application.html#sensors-2",
+    "title": "Applying VAST to an existing theory",
+    "section": "Sensors",
+    "text": "Sensors\n\nBrunswik’s lens model\n\n\n\n\n\n\nFig. 1 from Hirschmüller et al. (2013). https://doi.org/10.1037/a0030383"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Application.html#sensors-3",
+    "href": "lectures/VAST/VAST_Application.html#sensors-3",
+    "title": "Applying VAST to an existing theory",
+    "section": "Sensors",
+    "text": "Sensors\n\nImplementing the lens model in a VAST display\n\n\nPrinciple:\n\nDraw a box (“higher-order concept”) that represents an organism with its boundaries\nAny external information must enter the organism via a sensor\nArrows going into a sensor must come from observable cues\nArrows going out of sensors are the organism’s representation of the phenomenon in the environment\nThe lens model (i.e., the weights of cue usage & utilization) is implemented in the sensor box\nNo arrow may directly cross the organisms border\\(*\\)\n\n\n\n\n\n\n\n\n\n\n\\(*\\) If we do so, then it is a shortcut, assuming that the external observable cue is perfectly represented inside the organism"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Application.html#actors",
+    "href": "lectures/VAST/VAST_Application.html#actors",
+    "title": "Applying VAST to an existing theory",
+    "section": "Actors",
+    "text": "Actors\n\n\n\n\n\nSensing the environment only makes sense when organisms are able to react on this information. Devices that allow to manipulate the environment (or the organism’s position within the environment) are called actors."
   },
   {
     "objectID": "lectures/VAST/VAST_Application.html#contact",
@@ -2545,7 +2657,7 @@
     "href": "lectures/VAST/VAST_Application.slide.html#steps-to-formalize-an-existing-verbal-theory",
     "title": "Applying VAST to an existing theory",
     "section": "Steps to formalize an existing verbal theory",
-    "text": "Steps to formalize an existing verbal theory\nAgenda for this presentation\n\nStep 1: Choose your starting point\nStep 2: Limit your scope\nStep 3: Collect definitions of constructs, with reference to the literature.\nStep 4: Distill a (consensus or working) definition for each construct, add relationships\nStep 5: Collect robust empirical phenomena\n\n\n\n\n\n\n\nTip\n\n\nThe full list of formalization steps is presented on this website. This slide set covers steps 2 to 6 of the broader scheme."
+    "text": "Steps to formalize an existing verbal theory\nAgenda for this presentation\n\nStep 1: Choose your starting point\nStep 2: Limit your scope\nStep 3: Collect robust empirical phenomena\nStep 3: Collect definitions of constructs, with reference to the literature.\nStep 4: Distill a (consensus or working) definition for each construct, add relationships\n\n\n\n\n\n\n\nTip\n\n\nThe full list of formalization steps is presented on this website. This slide set covers steps 2 to 6 of the broader scheme."
   },
   {
     "objectID": "lectures/VAST/VAST_Application.slide.html#step-1-choose-your-starting-point",
@@ -2569,74 +2681,102 @@
     "text": "Step 2: Limit your scope\nMost theories in psychology are too fuzzy and broad to be formalized in one round. We restrict the scope of the theory to keep modelling feasible:\n\nDefine the scope of original literature that is used as basis for the formalization.\nLimit the number of phenomena that your model is supposed to explain. Focus on phenomena that are empirically robust.\nLimit the number of constructs and their relationships, add complexity later.\n\nStart with the smallest number of constructs necessary to explain your explanatory target.\nMaybe exclude entire sections of a theory.\nWhat is your focal outcome variable (DV)? What are the focal predictors or interventions?"
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.slide.html#step-3-collect-definitions-of-constructs",
-    "href": "lectures/VAST/VAST_Application.slide.html#step-3-collect-definitions-of-constructs",
+    "objectID": "lectures/VAST/VAST_Application.slide.html#step-3-collect-robust-empirical-phenomena",
+    "href": "lectures/VAST/VAST_Application.slide.html#step-3-collect-robust-empirical-phenomena",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 3: Collect definitions of constructs",
-    "text": "Step 3: Collect definitions of constructs\nConstruct Source Table\n\n\nCollect quotes of definitions of constructs and their relationships from the literature.\nMake them atomic (i.e., split up long quotes into their basic components).\nAssign a unique ID to each statement.\n\nThis table will be called the Construct Source Table, as it collects the original sources for the definitions of the constructs.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nID\nType\nShort name\nQuote\nReference\nrel. type (n, p, i, r, …)\nComment\nIncl. (Y/N)\n\n\n\n\nA\nP\nbystander effect\n“The bystander effect refers to the phenomenon that an individual’s likelihood of helping decreases when passive bystanders are present in a critical situation.”\nFischer et al. (2011), p. 517\nn, p\n\nY\n\n\nB\n\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n\n\n\n\nType is one (or multiple) of: Phenomenon, Concept, Relationship. Note: Sometimes a single quoted statement defines both a concept and a relationship.\nIncluded (Y/N): Is this definition included in the VAST display?"
+    "section": "Step 3: Collect robust empirical phenomena",
+    "text": "Step 3: Collect robust empirical phenomena\nRobustness of phenomena has two dimensions:\n\nGeneralizability (cf. UTOS framework): The effect has been shown for different Units, with different operationalizations of Treatments and Outcomes, and in multiple Settings.\nStrong empirical evidence for each/many of the generalizations."
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.slide.html#step-4-distill-a-working-definition-for-each-construct-add-relationships",
-    "href": "lectures/VAST/VAST_Application.slide.html#step-4-distill-a-working-definition-for-each-construct-add-relationships",
+    "objectID": "lectures/VAST/VAST_Application.slide.html#step-3-collect-robust-empirical-phenomena-1",
+    "href": "lectures/VAST/VAST_Application.slide.html#step-3-collect-robust-empirical-phenomena-1",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 4: Distill a working definition for each construct, add relationships",
-    "text": "Step 4: Distill a working definition for each construct, add relationships\n\n\nDraw a VAST display with a naming (n) relationship for each construct.\nUse the ID from the Construct Source Table as subscript for each relationship. This way your claims in the VAST display can be easily backlinked to the original sources in the literature.\n\nThe small “A” subscript indicates that all relationships in this display are derived from the quote with ID “A” in the Construct Source Table."
+    "section": "Step 3: Collect robust empirical phenomena",
+    "text": "Step 3: Collect robust empirical phenomena\nPractically, you should do the following steps to assess these two dimensions:\n\nSearch for meta-analyses that report on phenomena with our focal variables → Only if no meta-analysis is available, or it is not helpful: Do a broader literature search for primary studies.\nAssess the robustness of the phenomena along the two dimensions:\n\nHow generalizable is it? Go through all four UTOS dimensions and evaluate which types of generalization have been shown across studies.\nHow strong is the evidence? (e.g., based on number k of studies in a meta-analysis, strength of evidence, risk of bias)\n\nWrite a paragraph that makes an overall assessment of the robustness of each phenomenon and gives a clear and explicit answer: “The phenomenon can (not) be considered robust because, …”. Refer to the two dimensions of robustness and give references that back up your claim."
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-1",
-    "href": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-1",
+    "objectID": "lectures/VAST/VAST_Application.slide.html#step-3-collect-robust-empirical-phenomena-2",
+    "href": "lectures/VAST/VAST_Application.slide.html#step-3-collect-robust-empirical-phenomena-2",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 5: Collect robust empirical phenomena",
-    "text": "Step 5: Collect robust empirical phenomena\nRobustness of phenomena has two dimensions:\n\nGeneralizability (cf. UTOS framework): The effect has been shown for different Units, with different operationalizations of Treatments and Outcomes, and in multiple Settings.\nStrong empirical evidence for each/many of the generalizations."
+    "section": "Step 3: Collect robust empirical phenomena",
+    "text": "Step 3: Collect robust empirical phenomena\nHow to jointly assess “strength of evidence” and “generalizability”\n\nWhen you assess the generalizability, you should distinguish three prototypical epistemic states:\n\n“I know that it is generalizable.” → strong evidence for \\(H_1\\)\n“I know that it is not generalizable.” → strong evidence for \\(H_0\\)\n“I do not know whether it is generalizable or not - with the given empirical evidence I cannot answer this question.” → inconclusive evidence\n\nWhen is the strength of evidence strong? If …\n\nyou have many studies,\nwhich are methodologically sound (i.e., valid),\nand show (at least in sum) a decisive statistical result into either direction (i.e., either for a difference, or for a null effect)\n\n\n\nAs a sidenote: Ideally, evidence is quantified with a statistical technique that also allows to measure evidence for the null hypothesis and that gives a continuous quantification of the strength of evidence. A Bayes factor provides both desiderata."
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-2",
-    "href": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-2",
+    "objectID": "lectures/VAST/VAST_Application.slide.html#step-3-collect-robust-empirical-phenomena-3",
+    "href": "lectures/VAST/VAST_Application.slide.html#step-3-collect-robust-empirical-phenomena-3",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 5: Collect robust empirical phenomena",
-    "text": "Step 5: Collect robust empirical phenomena\nPractically, you should do the following steps to assess these two dimensions:\n\nSearch for meta-analyses that report on phenomena with our focal variables → Only if no meta-analysis is available, or it is not helpful: Do a broader literature search for primary studies.\nAssess the robustness of the phenomena along the two dimensions:\n\nHow generalizable is it? Go through all four UTOS dimensions and evaluate which types of generalization have been shown across studies.\nHow strong is the evidence? (e.g., based on number k of studies in a meta-analysis, strength of evidence, risk of bias)\n\nWrite a paragraph that makes an overall assessment of the robustness of each phenomenon and gives a clear and explicit answer: “The phenomenon can (not) be considered robust because, …”. Refer to the two dimensions of robustness and give references that back up your claim."
+    "section": "Step 3: Collect robust empirical phenomena",
+    "text": "Step 3: Collect robust empirical phenomena\n\n\n\n\n\nFigure 1: Possible results of a generalizability assessment.\n\n\n\n\n\n\n\n\nNote\n\n\nGeneral principle: We can only make statements about stuff that we actually studied.\n\n\n\n\nWe describe six prototypical examples:\n\n(A): strong evidence that the phenomenon is not generalizable.\n(B): strong evidence that the phenomenon is generalizable - at least within the space of sampled variations.\n(C): weak evidence that the phenomenon is not generalizable.\n(D): weak evidence that the phenomenon is generalizable. As we don’t know about the untested variations, the evidence principally cannot be very strong.\n(E): principally unknowable whether the result generalizes to other variations. We can only conclude that we cannot conclude anything about generalizability.\n(F): evidence is inconclusive. There are descriptive differences between variations, but they are small, and it is not clear if these differences are statistically significant and substantial."
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-3",
-    "href": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-3",
+    "objectID": "lectures/VAST/VAST_Application.slide.html#step-3-collect-robust-empirical-phenomena-4",
+    "href": "lectures/VAST/VAST_Application.slide.html#step-3-collect-robust-empirical-phenomena-4",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 5: Collect robust empirical phenomena",
-    "text": "Step 5: Collect robust empirical phenomena\nHow to jointly assess “strength of evidence” and “generalizability”\n\nWhen you assess the generalizability, you should distinguish three prototypical epistemic states:\n\n“I know that it is generalizable.” → strong evidence for \\(H_1\\)\n“I know that it is not generalizable.” → strong evidence for \\(H_0\\)\n“I do not know whether it is generalizable or not - with the given empirical evidence I cannot answer this question.” → inconclusive evidence\n\nWhen is the strength of evidence strong? If …\n\nyou have many studies,\nwhich are methodologically sound (i.e., valid),\nand show (at least in sum) a decisive statistical result into either direction (i.e., either for a difference, or for a null effect)\n\n\n\nAs a sidenote: Ideally, evidence is quantified with a statistical technique that also allows to measure evidence for the null hypothesis and that gives a continuous quantification of the strength of evidence. A Bayes factor provides both desiderata."
+    "section": "Step 3: Collect robust empirical phenomena",
+    "text": "Step 3: Collect robust empirical phenomena\n Exercise (5 min)\nAll four UTOS dimensions can get an independent assessment. Consider the ManyLabs2 study, where identical experiment (except translation of materials) has been administered online in very diverse samples (at least diverse with respect to nationality and cultural background).\nNon-zero effects could be found with remarkably low variability across samples. Quoted from the abstract:\n\n“Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied”.\n\nEvaluate the generalizability of the reported effects along the four UTOS dimensions."
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-4",
-    "href": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-4",
+    "objectID": "lectures/VAST/VAST_Application.slide.html#step-3-collect-robust-empirical-phenomena-5",
+    "href": "lectures/VAST/VAST_Application.slide.html#step-3-collect-robust-empirical-phenomena-5",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 5: Collect robust empirical phenomena",
-    "text": "Step 5: Collect robust empirical phenomena\n\n\n\n\n\nFigure 1: Possible results of a generalizability assessment.\n\n\n\n\n\n\n\n\nNote\n\n\nGeneral principle: We can only make statements about stuff that we actually studied.\n\n\n\n\nWe describe six prototypical examples:\n\n(A): strong evidence that the phenomenon is not generalizable.\n(B): strong evidence that the phenomenon is generalizable - at least within the space of sampled variations.\n(C): weak evidence that the phenomenon is not generalizable.\n(D): weak evidence that the phenomenon is generalizable. As we don’t know about the untested variations, the evidence principally cannot be very strong.\n(E): principally unknowable whether the result generalizes to other variations. We can only conclude that we cannot conclude anything about generalizability.\n(F): evidence is inconclusive. There are descriptive differences between variations, but they are small, and it is not clear if these differences are statistically significant and substantial."
+    "section": "Step 3: Collect robust empirical phenomena",
+    "text": "Step 3: Collect robust empirical phenomena\nApplying the heuristic to ManyLabs2\n\nFigure 2: A generalizability assessment of the UTOS dimensions in ManyLabs 2.\nHence, we have strong evidence for high generalizability for the U and the S dimension, but we cannot make a conclusion concerning the T and the O dimensions, as they lacked the necessary variation in the study."
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-5",
-    "href": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-5",
+    "objectID": "lectures/VAST/VAST_Application.slide.html#step-3-collect-robust-empirical-phenomena-6",
+    "href": "lectures/VAST/VAST_Application.slide.html#step-3-collect-robust-empirical-phenomena-6",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 5: Collect robust empirical phenomena",
-    "text": "Step 5: Collect robust empirical phenomena\nApplying the heuristic to ManyLabs2\nAll four UTOS dimensions can get an independent assessment. Consider the ManyLabs2 study, where identical experiment (except translation of materials) has been administered online in very diverse samples (at least diverse with respect to nationality and cultural background).\n\n\n\n\n\n\n\nTip\n\n\nThere was high variation in the U(nits) and the S(ettings) dimensions, but very low variation in the T(reatment) and O(utcome) dimension.\nNon-zero effects could be found with remarkably low variability across samples: “Cumulatively, variability in the observed effect sizes was attributable more to the effect being studied than to the sample or setting in which it was studied” (quoted from the Abstract)."
+    "section": "Step 3: Collect robust empirical phenomena",
+    "text": "Step 3: Collect robust empirical phenomena\nExample: Social Loafing (adapted from Emilia Wittig)\n\n“A meta-analysis of 78 studies underlines that social loafing is a robust phenomenon that generalizes across tasks and populations (Karau & Williams, 1993).\nRegarding different units, social loating was found among groups of organizational employees, college students as well as high school students. Furthermore, the phenomenon appears within different genders as well as various cultures.\nThe studies mentioned in the meta-analysis used a variety of different tasks as treatment, such as physical exercises (e.g., rope pulling), cognitive tasks (e.g., brainstorming), evaluative efforts (e.g., rating items) and perceptual tasks (e.g., monitoring a screen for signals). These tasks also differed in complexity.\nRegarding the outcomes, social loafing was generally assessed by comparing individual’s coactive efforts with the individual’s collective efforts. The specific units of measurement varied across tasks, with some studies focusing on quantity of individual contributions and others taking the quality into account.\nLastly, concerning different settings of studies, the meta analysis included laboratory studies as well as field studies.\nIn sum, we can conclude that evidence for social loafing found in this meta-analytic review is strong and the phenomenon generalizes over all of the UTOS dimensions. Social Loafing can be consider to be a robust phenomenon.”"
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-6",
-    "href": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-6",
+    "objectID": "lectures/VAST/VAST_Application.slide.html#step-4-collect-definitions-of-constructs",
+    "href": "lectures/VAST/VAST_Application.slide.html#step-4-collect-definitions-of-constructs",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 5: Collect robust empirical phenomena",
-    "text": "Step 5: Collect robust empirical phenomena\nApplying the heuristic to ManyLabs2\n\nFigure 2: A generalizability assessment of the UTOS dimensions in ManyLabs 2.\nHence, we have strong evidence for high generalizability for the U and the S dimension, but we cannot make a conclusion concerning the T and the O dimensions, as they lacked the necessary variation in the study."
+    "section": "Step 4: Collect definitions of constructs",
+    "text": "Step 4: Collect definitions of constructs\nConstruct Source Table\n\n\nCollect quotes of definitions of constructs and their relationships from the literature.\nMake them atomic (i.e., split up long quotes into their basic components).\nAssign a unique ID to each statement.\n\nThis table will be called the Construct Source Table, as it collects the original sources for the definitions of the constructs.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nID\nType\nShort name\nQuote\nReference\nrel. type (n, p, i, r, …)\nComment\nIncl. (Y/N)\n\n\n\n\nA\nP\nbystander effect\n“The bystander effect refers to the phenomenon that an individual’s likelihood of helping decreases when passive bystanders are present in a critical situation.”\nFischer et al. (2011), p. 517\nn, p\n\nY\n\n\nB\n\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n\n\n\n\nType is one (or multiple) of: Phenomenon, Concept, Relationship, HOC: Higher-order Concept. Note: Sometimes a single quoted statement defines multiple of these, e.g. both a concept and a relationship.\nIncluded (Y/N): Is this definition included in the VAST display?"
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-7",
-    "href": "lectures/VAST/VAST_Application.slide.html#step-5-collect-robust-empirical-phenomena-7",
+    "objectID": "lectures/VAST/VAST_Application.slide.html#step-5-distill-a-working-definition-for-each-construct-add-relationships",
+    "href": "lectures/VAST/VAST_Application.slide.html#step-5-distill-a-working-definition-for-each-construct-add-relationships",
     "title": "Applying VAST to an existing theory",
-    "section": "Step 5: Collect robust empirical phenomena",
-    "text": "Step 5: Collect robust empirical phenomena\nExample: Social Loafing (adapted from Emilia Wittig)\n\n“A meta-analysis of 78 studies underlines that social loafing is a robust phenomenon that generalizes across tasks and populations (Karau & Williams, 1993).\nRegarding different units, social loating was found among groups of organizational employees, college students as well as high school students. Furthermore, the phenomenon appears within different genders as well as various cultures.\nThe studies mentioned in the meta-analysis used a variety of different tasks as treatment, such as physical exercises (e.g., rope pulling), cognitive tasks (e.g., brainstorming), evaluative efforts (e.g., rating items) and perceptual tasks (e.g., monitoring a screen for signals). These tasks also differed in complexity.\nRegarding the outcomes, social loafing was generally assessed by comparing individual’s coactive efforts with the individual’s collective efforts. The specific units of measurement varied across tasks, with some studies focusing on quantity of individual contributions and others taking the quality into account.\nLastly, concerning different settings of studies, the meta analysis included laboratory studies as well as field studies.\nIn sum, we can conclude that evidence for social loafing found in this meta-analytic review is strong and the phenomenon generalizes over all of the UTOS dimensions. Social Loafing can be consider to be a robust phenomenon.”"
+    "section": "Step 5: Distill a working definition for each construct, add relationships",
+    "text": "Step 5: Distill a working definition for each construct, add relationships\n\n\nDraw a VAST display with a naming (n) relationship for each construct.\nUse the ID from the Construct Source Table as subscript for each relationship. This way your claims in the VAST display can be easily backlinked to the original sources in the literature.\n\nThe small “A” subscript indicates that all relationships in this display are derived from the quote with ID “A” in the Construct Source Table."
   },
   {
-    "objectID": "lectures/VAST/VAST_Application.slide.html#step-x-choose-a-specific-formalization",
-    "href": "lectures/VAST/VAST_Application.slide.html#step-x-choose-a-specific-formalization",
+    "objectID": "lectures/VAST/VAST_Application.slide.html#sensors",
+    "href": "lectures/VAST/VAST_Application.slide.html#sensors",
     "title": "Applying VAST to an existing theory",
-    "section": "Step X: Choose a specific formalization",
-    "text": "Step X: Choose a specific formalization\n“Diffusion of responsibility” (Darley & Latané, 1968): The presence of others reduces the likelihood of helping behavior in emergencies.\nBut how is it reduced exactly? (see Forsyth et al., 2002):\n\nLinear relationship?\nA reduction in personal responsibility as groups increase in size but an eventual leveling off in larger groups?\nWhere does responsibility go when it diffuses in the group? Does it diffuse equally, with each member getting an equal portion, or is it concentrated on certain individuals?\n\n\n\nE.g., Forsyth et al. (2002)"
+    "section": "Sensors",
+    "text": "Sensors\nPerceiving the environment\nOrganisms have a vast range of sensors for perceiving their environment. These have been adapted to selection pressures:\n\nHumans don’t have sensors for ultraviolet light (bees do)\nWe have no sensors for radioactivity, as this was no relevant selective force\nSingle-celled organism have, for example …\n\nchemoreceptors for sugar\ntactile sense (simple membranes transmitting changes in pressure)"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Application.slide.html#sensors-1",
+    "href": "lectures/VAST/VAST_Application.slide.html#sensors-1",
+    "title": "Applying VAST to an existing theory",
+    "section": "Sensors",
+    "text": "Sensors\nBrunswik’s lens model\n\nOrganisms constantly need to form a judgement about latent properties of situations and objects (the criterion)\nMost criteria are not directly observable, but need to be inferred via cues. Example:\n\nLatent property: The caloric energy of a dessert\nCues: Size, taste, color\n\nCues often are not perfect indicators, but rather statistically correlated with the criterion. Higher correlation → higher cue validity\nNot all cues are used (with the same weight) in judgement formation → cue utilization\n\n\nBrunswik, E. (1952). The conceptual framework of psychology. (Int. Encycl. unified Sci., v. 1, no. 10.). Oxford, England: Univ. Chicago Press."
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Application.slide.html#sensors-2",
+    "href": "lectures/VAST/VAST_Application.slide.html#sensors-2",
+    "title": "Applying VAST to an existing theory",
+    "section": "Sensors",
+    "text": "Sensors\nBrunswik’s lens model\n\n\nFig. 1 from Hirschmüller et al. (2013). https://doi.org/10.1037/a0030383"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Application.slide.html#sensors-3",
+    "href": "lectures/VAST/VAST_Application.slide.html#sensors-3",
+    "title": "Applying VAST to an existing theory",
+    "section": "Sensors",
+    "text": "Sensors\nImplementing the lens model in a VAST display\n\n\nPrinciple:\n\nDraw a box (“higher-order concept”) that represents an organism with its boundaries\nAny external information must enter the organism via a sensor\nArrows going into a sensor must come from observable cues\nArrows going out of sensors are the organism’s representation of the phenomenon in the environment\nThe lens model (i.e., the weights of cue usage & utilization) is implemented in the sensor box\nNo arrow may directly cross the organisms border\\(*\\)\n\n\n\n\n\n\n\n\n\n\\(*\\) If we do so, then it is a shortcut, assuming that the external observable cue is perfectly represented inside the organism"
+  },
+  {
+    "objectID": "lectures/VAST/VAST_Application.slide.html#actors",
+    "href": "lectures/VAST/VAST_Application.slide.html#actors",
+    "title": "Applying VAST to an existing theory",
+    "section": "Actors",
+    "text": "Actors\n\n\n\n\n\nSensing the environment only makes sense when organisms are able to react on this information. Devices that allow to manipulate the environment (or the organism’s position within the environment) are called actors."
   },
   {
     "objectID": "lectures/VAST/VAST_Application.slide.html#contact",
@@ -2646,10 +2786,10 @@
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
   },
   {
-    "objectID": "lectures/it-tools/it-tools.slide.html#recommended-folder-structure-for-our-formalization-projects",
-    "href": "lectures/it-tools/it-tools.slide.html#recommended-folder-structure-for-our-formalization-projects",
-    "title": "Tools for Digital Theory Objects",
-    "section": "Recommended folder structure for our formalization projects",
-    "text": "Recommended folder structure for our formalization projects\n.\n├── README.md (this should link to any associated Google docs, if applicable)\n├── CITATION.cff\n├── VAST_display.drawio\n├── simulation/\n│   ├── README.md\n│   ├── raw_data/ (a subfolder with empirical raw data, if applicable)\n│   │   └── dat.csv\n│   ├── functions.R (or any other name)\n│   └── ...\n└── manuscript/\n    ├── manuscript.qmd  \n    └── ..."
+    "objectID": "sessions/S3-VAST_application.html#workshop-in-course-as-a-group-formalize-the-bystander-effect-theory",
+    "href": "sessions/S3-VAST_application.html#workshop-in-course-as-a-group-formalize-the-bystander-effect-theory",
+    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "section": "4 Workshop (in course, as a group): Formalize the bystander effect theory",
+    "text": "4 Workshop (in course, as a group): Formalize the bystander effect theory\n\nEach group makes a copy of the template file “Bystander Modell: Construct Source Table Template” that you find on Google Drive. Add your group name/letter to the file name!\nGo through the steps 3-5 in the slides on “Applying VAST to an existing theory”\n\nStep 1 (“Choose your starting point”) is already decided: We use the “A-B Mixture Model”\nStep 2 (“Limit your scope”) is already decided (see the quotes in the template file).\n\nStep 3: Collect robust empirical phenomena: Skim the meta-analysis by Fischer et al. (2011, see homework repository) and make a judgement about the robustness of the bystander effect across the UTOS dimensions. Only do this briefly, you don’t need to be exhaustive here.\nStep 4 (“Collect definitions of constructs”): Fill in the Construct Source Table\nStep 5 (“Distill a working definition for each construct, add relationships”): Based on the table, create a VAST display in draw.io. This should contain:\n\nDefinitions for the relevant constructs (maybe as separat naming relationships)\nIn particular a definition of “diffusion of responsibility” (which we already tried in the last homework - now find a consensus definition as a group)\nA formalization of the theory (i.e., the generative mechanisms that are supposed to explain the phenomenon).\n\nThe goal is an easily understandable display: Prioritize understandability over completeness and over a maximally truthful mapping of the original statements.\n\nUse as few concepts as possible (but as many as necessary).\nWhy aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that.\n\nSave the .drawio file on the homework repository in the subfolder Bystander_effect. Each group should create a subfolder within that folder, with your team name as folder name.\n\n(Note: You won’t finish all steps in class. You will finalize the tasks as homework.)"
   }
 ]

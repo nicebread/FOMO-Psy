@@ -2,17 +2,10 @@
 
 - S2: Skip the "intro2" lecture, and rather let the groups start working on their VAST displays and familiarize themselves with draw.io. Show them how to install the custom shapes for VAST displays.
 - Move Intro2 lecture entirely to S3.
-
-# intro2.qmd
-
-Folie (nach der Einführung von Models) zu:
-
-ganz oben: narratives, unterspezifiziertes "associative framework" --> aufgrund der Unterspezifizierung lassen sich viele verschiedene (präzisere) formalisierte Theorien ableiten (die alle mit dem narrativen Framework kompatibel sind) --> aus jeder dieser Theorien lassen sich wiederum verschiedene Modelle ableiten (die alle mit der jeweiligen Theorie kompatibel sind)
+  - But: S3 (with the second half of Intro2) was already quite packed with input - would be better with more interaction
 
 
 ## Minor todos:
-
-- add the term "generative model" at an appropriate place
 
 - Add Lange Checklist somewhere
 - Read Oude Maatman, F. (2021, July 12). Psychology's Theory Crisis, and Why Formal Modelling Cannot Solve It. https://doi.org/10.31234/osf.io/puqvs
@@ -59,17 +52,6 @@ See Jarecki et al 2020:
 https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268
 
 Eiko Fried: https://www.tandfonline.com/doi/full/10.1080/1047840X.2020.1854011
-
-# UTOS generalizability group exercise:
-
-Consider this statement: In a meta-analysis of 80 studies, a strong evidence was found for the phenomenon (d = 0.75, p < .0001). It had over 12,000 participants, therefore we can assume a good generalizability along the U(nits) dimension.
-
-Think - Pair - Share.
-
-Answer: No! If all 12,000 participants were female psychology students between 18 and 22 from the US, then we know nearly nothing about the generalizability along the U(nits) dimension.
-
---> Provide exemplary good UTOS section.
-Show first the evidence ("in general, there seems to be a phenomenon") and *then* the generalizability check along the UTOS dimensions. (If there is no base phenomenon in the first place, it's futile to check its generalizability and robustness).
 
 
 # Formalization exercise:

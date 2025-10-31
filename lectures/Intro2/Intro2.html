@@ -646,6 +646,7 @@ A model is one possible implementation of a set of theoretical key assumptions. 
 <ul>
 <li>Multiple formal models can be derived from a single theory</li>
 <li>Even if they are all compatible with the theory, they can be mutually incompatible due to different auxiliary assumptions.</li>
+<li>A <em>generative model</em> is so precise (and fully specified) that it can be used to generate “fake” data.</li>
 <li>Even if the concrete numerical predictions will differ, all admissible models should satisfy the theory’s core qualitative predictions within its scope (e.g., direction of effects, monotonicity)</li>
 </ul>
 </div><div class="column" style="width:50%;">
@@ -851,44 +852,6 @@ D[Data]
 </section>
 
 </main> <!-- /main -->
-
-<script>
-  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-  // slide changes (different for each slide format).
-  (function () {
-    // dispatch for htmlwidgets
-    function fireSlideEnter() {
-      const event = window.document.createEvent("Event");
-      event.initEvent("slideenter", true, true);
-      window.document.dispatchEvent(event);
-    }
-
-    function fireSlideChanged(previousSlide, currentSlide) {
-      fireSlideEnter();
-
-      // dispatch for shiny
-      if (window.jQuery) {
-        if (previousSlide) {
-          window.jQuery(previousSlide).trigger("hidden");
-        }
-        if (currentSlide) {
-          window.jQuery(currentSlide).trigger("shown");
-        }
-      }
-    }
-
-    // hookup for slidy
-    if (window.w3c_slidy) {
-      window.w3c_slidy.add_observer(function (slide_num) {
-        // slide_num starts at position 1
-        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-      });
-    }
-
-  })();
-</script>
-
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

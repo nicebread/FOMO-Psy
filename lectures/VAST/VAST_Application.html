@@ -283,8 +283,8 @@ window.Quarto = {
 <li>Step 1: Choose your starting point</li>
 <li>Step 2: Limit your scope</li>
 <li>Step 3: Collect robust empirical phenomena</li>
-<li>Step 3: Collect definitions of constructs, with reference to the literature.</li>
-<li>Step 4: Distill a (consensus or working) definition for each construct, add relationships</li>
+<li>Step 4: Collect definitions of constructs, with reference to the literature.</li>
+<li>Step 5: Distill a (consensus or working) definition for each construct, add relationships</li>
 </ul>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -546,7 +546,7 @@ Note
 </table>
 </div>
 <ul>
-<li><em>Type</em> is one (or multiple) of: <span class="hl">P</span>henomenon, <span class="hl">C</span>oncept, <span class="hl">R</span>elationship, <span class="hl">HOC</span>: Higher-order Concept. Note: Sometimes a single quoted statement defines multiple of these, e.g.&nbsp;both a concept and a relationship.</li>
+<li><em>Type</em> is one (or multiple) of: <span class="hl">P</span>henomenon, <span class="hl">C</span>oncept, <span class="hl">HOC</span>: Higher-order Concept.</li>
 <li><em>Included (Y/N)</em>: Is this definition included in the VAST display?</li>
 </ul>
 </div>
@@ -708,44 +708,6 @@ E.g., Forsyth et al. ([2002](https://journals.sagepub.com/doi/10.1177/0146167202
 </section>
 
 </main> <!-- /main -->
-
-<script>
-  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-  // slide changes (different for each slide format).
-  (function () {
-    // dispatch for htmlwidgets
-    function fireSlideEnter() {
-      const event = window.document.createEvent("Event");
-      event.initEvent("slideenter", true, true);
-      window.document.dispatchEvent(event);
-    }
-
-    function fireSlideChanged(previousSlide, currentSlide) {
-      fireSlideEnter();
-
-      // dispatch for shiny
-      if (window.jQuery) {
-        if (previousSlide) {
-          window.jQuery(previousSlide).trigger("hidden");
-        }
-        if (currentSlide) {
-          window.jQuery(currentSlide).trigger("shown");
-        }
-      }
-    }
-
-    // hookup for slidy
-    if (window.w3c_slidy) {
-      window.w3c_slidy.add_observer(function (slide_num) {
-        // slide_num starts at position 1
-        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-      });
-    }
-
-  })();
-</script>
-
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

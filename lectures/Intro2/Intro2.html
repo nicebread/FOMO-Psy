@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../../">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-6bdd2aebeb936dcddaa5f935a5de481c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f93c2b1f3f0577f377aefa4848a86a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -89,7 +90,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -115,6 +116,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">FOMO-Psy: Formal Modeling of Psychological Theories</span>
     </a>
@@ -351,13 +354,13 @@ Like so many words that are bandied about, the word theory threatens to become m
 <h2 class="anchored" data-anchor-id="what-is-not-a-theory-3">What is <em>not</em> a theory?</h2>
 <section id="diagrams-alone-are-not-theory" class="level3">
 <h3 class="anchored" data-anchor-id="diagrams-alone-are-not-theory">4. Diagrams (Alone) Are Not Theory</h3>
-<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout callout-style-default callout-note callout-empty-content callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-This is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)
+<span class="screen-reader-only">Note</span>This is an extension of (3) “List of constructs”: Put each construct that you deem relevant into a box and draw arrows between all constructs (because in a complex system everything is connected with everything)
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -502,7 +505,7 @@ flowchart LR
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-What is an (explanatory) theory?
+<span class="screen-reader-only">Tip</span>What is an (explanatory) theory?
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -693,7 +696,7 @@ A model is one possible implementation of a set of theoretical key assumptions. 
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-What is an (explanatory) theory?
+<span class="screen-reader-only">Tip</span>What is an (explanatory) theory?
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -706,7 +709,7 @@ What is an (explanatory) theory?
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-What is a formal model?
+<span class="screen-reader-only">Tip</span>What is a formal model?
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -719,7 +722,7 @@ What is a formal model?
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-What is an explanation?
+<span class="screen-reader-only">Tip</span>What is an explanation?
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -903,13 +906,14 @@ D[Data]
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

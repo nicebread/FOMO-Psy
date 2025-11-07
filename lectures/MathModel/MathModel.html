@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felix Schönbrodt">
-<meta name="dcterms.date" content="2024-11-08">
+<meta name="dcterms.date" content="2025-11-03">
 
 <title>Mathematical Modeling of Psychological Theories – FOMO-Psy: Formal Modeling of Psychological Theories</title>
 <style>
@@ -69,14 +69,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="../../">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-6bdd2aebeb936dcddaa5f935a5de481c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f93c2b1f3f0577f377aefa4848a86a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -121,7 +122,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -147,6 +148,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">FOMO-Psy: Formal Modeling of Psychological Theories</span>
     </a>
@@ -351,7 +354,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 8, 2024</p>
+      <p class="date">November 3, 2025</p>
     </div>
   </div>
   
@@ -367,13 +370,13 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="section"></h2>
 <p><img src="img/How_deep_is_your_love.png" style="filter: drop-shadow(6px 6px 8px #555555);" height="450"></p>
 <div class="fragment">
-<div class="callout callout-style-default callout-warning callout-titled" title="**Answer: -136.7**">
+<div class="callout callout-style-default callout-tip callout-empty-content callout-titled" title="**Answer: -136.7**">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<strong>Answer: -136.7</strong>
+<span class="screen-reader-only">Tip</span><strong>Answer: -136.7</strong>
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -388,7 +391,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="define-variables">Define variables</h2>
 <section id="how-deep-is-your-love" class="level3">
 <h3 class="anchored" data-anchor-id="how-deep-is-your-love">How deep is your love?</h3>
-<p>Define a variable for each construct of the VAST display. These can be <em>measured</em> variables or <em>unmeasured</em> (mediating) variables.</p>
+<p>Define a variable for each construct* of the VAST display. These can be <em>measured</em> variables or <em>unmeasured</em> (mediating) variables.</p>
 <p>You can either refer to an actual measurement procedure or simply define a variable. In both cases you should explicitly define the following properties:</p>
 <ul>
 <li><em>variable name</em> (i.e., to which concept in your VAST display does it refer?),</li>
@@ -396,6 +399,9 @@ window.Quarto = {
 <li><em>range</em> of possible values (e.g., 0 … 1),</li>
 <li><em>semantic anchors</em> (e.g., 0 = “complete absence”, 1 = “maximal possible value”)</li>
 </ul>
+<div class="footer">
+<p>* only uni-dimensional constructs, not higher-order concepts</p>
+</div>
 </section>
 </section>
 <section id="define-variables-1" class="level2">
@@ -415,6 +421,7 @@ window.Quarto = {
 <li>Just noticable difference</li>
 <li>100 = “largest realistically imaginable quantity of that variable”</li>
 </ul></li>
+<li>Psychological (“internal”) variables could range from <span class="math inline">\(-\inf\)</span> to <span class="math inline">\(+\inf\)</span>, and then are transformed to bounded manifest responses when they leave the <span class="math inline">\(\Psi\)</span>-box (cf.&nbsp;item response theory)</li>
 </ul></li>
 </ul>
 </section>
@@ -474,6 +481,8 @@ window.Quarto = {
 </tbody>
 </table>
 </div>
+</div>
+<div class="smallest">
 <p>Note: This resembles a <strong>codebook</strong>; but for theoretical variables, not only for measured variables. As a heuristic, list <strong>all concepts that are not higher-order concepts</strong> (because these usually have no single numerical representation).</p>
 </div>
 </section>
@@ -484,12 +493,20 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="group-work-10-min."><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (10 min.)</h2>
 <section id="sketch-a-first-functional-relationship-on-paper" class="level3">
 <h3 class="anchored" data-anchor-id="sketch-a-first-functional-relationship-on-paper">Sketch a first functional relationship on paper</h3>
+<div class="columns">
+<div class="column" style="width:60%;">
 <p>We want to model the following <strong>phenomenon</strong> (a specific version of the bystander effect):</p>
+<div class="smaller">
 <ol type="1">
 <li>Without other people present, the tendency (probability or frequency) that a person helps a victim is high.</li>
 <li>The tendency of helping a victim decreases monotonically with the number of other people (bystanders) present.</li>
 <li>The tendency of helping a victim never drops to 0.</li>
 </ol>
+</div>
+</div><div class="column" style="width:40%;">
+<p><img src="img/VAST_bystander_simple.png" class="img-fluid"></p>
+</div>
+</div>
 <p><strong>Task</strong>: Sketch a first functional relationship that could model this phenomenon. Use the variables you defined in the previous step (including their labels and ranges).</p>
 </section>
 </section>
@@ -506,6 +523,8 @@ window.Quarto = {
 <div class="smaller">
 <p><span class="math inline">\(\color{red} y = \color{forestgreen} \beta_0 \color{black} + \color{forestgreen} \beta_1 \color{blue} x\)</span> <br>→ <span class="math inline">\(\color{red} y\)</span> = output variable, <span class="math inline">\(\color{forestgreen} \beta\)</span>s = parameters, <span class="math inline">\(\color{blue} x\)</span> = input variable.</p>
 <p>Two types of parameters:</p>
+</div>
+<div class="smallest">
 <ul>
 <li><strong>Fixed parameters</strong>: Parameters that are chosen a priori and do not change in the light of empirical data. Their values are based on previous research, theory, or external information (such as properties of the world).</li>
 <li><strong>Free parameters</strong>: Can be adjusted to optimize the fit of the model to data. They are <em>estimated</em> from empirical data.</li>
@@ -530,8 +549,7 @@ Note
 <h2 class="anchored" data-anchor-id="step-2-define-functional-relationships-between-variables-3">Step 2: Define functional relationships between variables</h2>
 <section id="fixed-and-free-parameters-1" class="level3">
 <h3 class="anchored" data-anchor-id="fixed-and-free-parameters-1">Fixed and free parameters</h3>
-<p>Fixing a parameter:</p>
-<p><span class="math inline">\(\color{forestgreen} \beta_0 \color{black} = 1 \rightarrow \color{red} y = \color{forestgreen} 1 \color{black} + \color{forestgreen} \beta_1 \color{blue} x\)</span></p>
+<p>Fixing a parameter: <span class="math inline">\(\color{forestgreen} \beta_0 \color{black} = 1 \rightarrow \color{red} y = \color{forestgreen} 1 \color{black} + \color{forestgreen} \beta_1 \color{blue} x\)</span></p>
 <p>That means, the slope <span class="math inline">\(\color{forestgreen} \beta_1\)</span> still can vary, but the intercept is fixed to 1.</p>
 <div class="smaller">
 <p>Free parameters give <strong>flexibility</strong> to your function: If you are unsure about the exact relationship between two variables, you can estimate the best-fitting parameters from the data.</p>
@@ -591,9 +609,9 @@ Provide plots for multiple instances of this function family.
 </ul>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>logistic <span class="ot">&lt;-</span> <span class="cf">function</span>(x, <span class="at">d =</span> <span class="dv">0</span>, <span class="at">a =</span> <span class="dv">1</span>, <span class="at">min =</span> <span class="dv">0</span>, <span class="at">max =</span> <span class="dv">1</span>) {</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>logistic <span class="ot">&lt;-</span> <span class="cf">function</span>(x, <span class="at">d =</span> <span class="dv">0</span>, <span class="at">a =</span> <span class="dv">1</span>, <span class="at">min =</span> <span class="dv">0</span>, <span class="at">max =</span> <span class="dv">1</span>) {</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a> min <span class="sc">+</span> (max <span class="sc">-</span> min)<span class="sc">/</span>(<span class="dv">1</span> <span class="sc">+</span> <span class="fu">exp</span>(a <span class="sc">*</span> (d <span class="sc">-</span> x)))</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="footer">
 <p>*4PL = 4-parameter logistic model</p>
@@ -603,7 +621,7 @@ Provide plots for multiple instances of this function family.
 <h2 class="anchored" data-anchor-id="tool-1-the-logistic-function-family-2">Tool 1: The logistic function family</h2>
 <p><em>(basic logistic function as dotted grey line)</em></p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Shift on x-axis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Steepness</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Lower asymptote</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Upper asymptote</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Shift on x-axis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Steepness</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Lower asymptote</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Upper asymptote</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="cell" data-layout-align="center">
@@ -667,7 +685,7 @@ Provide plots for multiple instances of this function family.
 </section>
 <section id="use-the-full-mathematical-toolbox" class="level2">
 <h2 class="anchored" data-anchor-id="use-the-full-mathematical-toolbox">Use the full mathematical toolbox</h2>
-<p>Of course, the logistic function and the beta distribution are just a start - you can use the full toolbox of mathematical functions to implement your model!</p>
+<p>Of course, the logistic function is just a start - you can use the full toolbox of mathematical functions to implement your model!</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -706,12 +724,12 @@ Note
 <section id="anatomy-of-an-r-function" class="level2">
 <h2 class="anchored" data-anchor-id="anatomy-of-an-r-function">Anatomy of an R Function</h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Basic structure of a function</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Basic structure of a function</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>my_function <span class="ot">&lt;-</span> <span class="cf">function</span>(arg1, arg2) {</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Function body</span></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  result <span class="ot">&lt;-</span> arg1 <span class="sc">+</span> arg2</span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(result)</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="smaller">
 <ul>
@@ -724,19 +742,19 @@ Note
 <div class="columns fragment">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># use meaningful names</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># use meaningful names</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>sum <span class="ot">&lt;-</span> <span class="cf">function</span>(x, y) {</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  S <span class="ot">&lt;-</span> x<span class="sc">+</span>y</span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(S)</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># short version: the last computation </span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># short version: the last computation </span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># is returned by default</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>sum <span class="ot">&lt;-</span> <span class="cf">function</span>(x, y) {x<span class="sc">+</span>y}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>sum <span class="ot">&lt;-</span> <span class="cf">function</span>(x, y) {x<span class="sc">+</span>y}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </div>
@@ -747,17 +765,17 @@ Note
 <li><strong>Define the Function:</strong></li>
 </ol>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>get_y <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>get_y <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  y <span class="ot">&lt;-</span> x<span class="sc">^</span><span class="dv">2</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(y)</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <ol type="1">
 <li><strong>Call the Function:</strong></li>
 </ol>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">get_y</span>(<span class="at">x=</span><span class="dv">2</span>)</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(y)  <span class="co"># Output: 4</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">get_y</span>(<span class="at">x=</span><span class="dv">2</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(y)  <span class="co"># Output: 4</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p><strong>Tips:</strong></p>
 <div class="smaller">
@@ -772,7 +790,7 @@ Note
 <section id="example-with-roxygen2-documentation" class="level2">
 <h2 class="anchored" data-anchor-id="example-with-roxygen2-documentation">Example with roxygen2 documentation</h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Compute the updated expected anxiety</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Compute the updated expected anxiety</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co">#' The expected anxiety at any given moment is a weighted average of </span></span>
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co">#' the momentary anxiety and the previous expected anxiety.</span></span>
@@ -785,7 +803,7 @@ Note
 <span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>get_expected_anxiety <span class="ot">&lt;-</span> <span class="cf">function</span>(momentary_anxiety, previous_expected_anxiety, <span class="at">alpha=</span><span class="fl">0.5</span>) {</span>
 <span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>  momentary_anxiety<span class="sc">*</span>alpha <span class="sc">+</span> previous_expected_anxiety<span class="sc">*</span>(<span class="dv">1</span><span class="sc">-</span>alpha)</span>
-<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="smallest">
 <p><code>roxygen2</code> comments start with <code>#'</code> and are placed directly above the function definition.</p>
@@ -796,6 +814,7 @@ Note
 <li>The <strong>return value</strong> is documented with <code>@return Description</code></li>
 </ul>
 </div>
+<!-- TODO: The exponential decay function was not introduced yet! -->
 </section>
 <section id="exercise-document-our-exponential-decay-function" class="level2">
 <h2 class="anchored" data-anchor-id="exercise-document-our-exponential-decay-function"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Exercise: Document our exponential decay function</h2>
@@ -807,10 +826,10 @@ Note
 <li>return value.</li>
 </ul>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>get_p_help <span class="ot">&lt;-</span> <span class="cf">function</span>(NOPB, y_0, y_final, BSE_strength) {</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>get_p_help <span class="ot">&lt;-</span> <span class="cf">function</span>(NOPB, y_0, y_final, BSE_strength) {</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  p_help <span class="ot">&lt;-</span> y_final <span class="sc">+</span> (y_0 <span class="sc">-</span> y_final) <span class="sc">*</span> <span class="fu">exp</span>(<span class="sc">-</span>BSE_strength <span class="sc">*</span> NOPB)</span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(p_help)</span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="apply-everything-to-reduced-model" class="level2">
@@ -833,6 +852,7 @@ Note
 <li>Derived from theory</li>
 <li>Loosely inspired by theory</li>
 <li>Not based on focal theory, but rather on common sense or other theories</li>
+<li>Not at all</li>
 </ol></li>
 <li>Add a short comment to what extent this functional relationship has been backed by empirical evidence.</li>
 </ol></li>
@@ -862,7 +882,7 @@ Note
 <p>We can tune our free parameters to fit the model as good as possible to empirical data. This is called <strong>model fitting</strong>.</p>
 <p>See the <a href="https://shinyapps.org/showapp.php?app=https://shiny.psy.lmu.de/felix/lmfit&amp;by=Felix%20Schönbrodt&amp;title=Find-a-fit!&amp;shorttitle=Find-a-fit!">Find-a-fit app</a> for an example of a simple linear regression with two parameters (intercept and slope) that are fitted by an optimization algorithm:</p>
 </div><div class="column" style="width:40%;">
-<p><img src="img/Find-a-fit.png" class="ds" style="height:40.0%"></p>
+<p><img src="img/Find-a-fit.png" class="ds" height="300"></p>
 </div>
 </div>
 </section>
@@ -878,12 +898,12 @@ Note
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add all factors as arguments:</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add all factors as arguments:</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">F1 =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>), </span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">F2 =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>),</span>
 <span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">F3 =</span> <span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>)</span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
@@ -916,13 +936,13 @@ Note
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>n_per_condition <span class="ot">&lt;-</span> <span class="dv">3</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>n_per_condition <span class="ot">&lt;-</span> <span class="dv">3</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">pID     =</span> <span class="dv">1</span><span class="sc">:</span>n_per_condition, </span>
 <span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">valence =</span> <span class="fu">c</span>(<span class="st">"pos"</span>, <span class="st">"neg"</span>), </span>
 <span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">speed   =</span> <span class="fu">c</span>(<span class="st">"slow"</span>, <span class="st">"fast"</span>)</span>
-<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
@@ -956,29 +976,29 @@ Note
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="fu">nrow</span>(df)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="fu">nrow</span>(df)</span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>age <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n, <span class="at">mean=</span><span class="dv">26</span>, <span class="at">sd=</span><span class="dv">4</span>) <span class="sc">|&gt;</span> <span class="fu">round</span>()</span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Extraversion</span></span>
 <span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="co"># z-scores: standard normal distribution</span></span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>extra <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n) <span class="sc">|&gt;</span> <span class="fu">round</span>(<span class="dv">1</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>extra <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n) <span class="sc">|&gt;</span> <span class="fu">round</span>(<span class="dv">1</span>) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra
-1    1     pos  slow  26  -0.4
-2    2     pos  slow  26   1.2
-3    3     pos  slow  28   1.1
-4    1     neg  slow  21   0.6
-5    2     neg  slow  21   0.5
-6    3     neg  slow  28  -0.3
-7    1     pos  fast  25   1.2
-8    2     pos  fast  24  -1.0
-9    3     pos  fast  22   0.5
-10   1     neg  fast  27   0.6
-11   2     neg  fast  25  -0.8
-12   3     neg  fast  27   0.9</code></pre>
+1    1     pos  slow  24  -2.4
+2    2     pos  slow  36   0.0
+3    3     pos  slow  25   0.2
+4    1     neg  slow  22   1.2
+5    2     neg  slow  23   0.1
+6    3     neg  slow  22  -1.8
+7    1     pos  fast  25  -1.8
+8    2     pos  fast  25  -0.2
+9    3     pos  fast  35  -1.0
+10   1     neg  fast  21   0.6
+11   2     neg  fast  23  -0.6
+12   3     neg  fast  25  -2.3</code></pre>
 </div>
 </div>
 </div>
@@ -993,29 +1013,29 @@ Note
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># psi() is the model function that takes </span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># psi() is the model function that takes </span></span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co"># all input parameters and returns the </span></span>
 <span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co"># simulated output</span></span>
 <span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y <span class="ot">&lt;-</span> <span class="fu">psi</span>(df<span class="sc">$</span>valence, df<span class="sc">$</span>speed, </span>
-<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>            df<span class="sc">$</span>age, df<span class="sc">$</span>extra)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>            df<span class="sc">$</span>age, df<span class="sc">$</span>extra)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y
-1    1     pos  slow  26  -0.4 12.0
-2    2     pos  slow  26   1.2  7.9
-3    3     pos  slow  28   1.1  9.3
-4    1     neg  slow  21   0.6  6.4
-5    2     neg  slow  21   0.5  8.8
-6    3     neg  slow  28  -0.3 11.3
-7    1     pos  fast  25   1.2 10.2
-8    2     pos  fast  24  -1.0 12.0
-9    3     pos  fast  22   0.5  8.1
-10   1     neg  fast  27   0.6  8.6
-11   2     neg  fast  25  -0.8  8.4
-12   3     neg  fast  27   0.9 10.0</code></pre>
+1    1     pos  slow  24  -2.4  9.5
+2    2     pos  slow  36   0.0  6.6
+3    3     pos  slow  25   0.2  6.8
+4    1     neg  slow  22   1.2 13.1
+5    2     neg  slow  23   0.1  5.8
+6    3     neg  slow  22  -1.8 12.5
+7    1     pos  fast  25  -1.8  6.8
+8    2     pos  fast  25  -0.2  8.1
+9    3     pos  fast  35  -1.0  9.2
+10   1     neg  fast  21   0.6 11.2
+11   2     neg  fast  23  -0.6  9.9
+12   3     neg  fast  25  -2.3 11.2</code></pre>
 </div>
 </div>
 </div>
@@ -1099,7 +1119,7 @@ Note
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># deterministic model output</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># deterministic model output</span></span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y <span class="ot">&lt;-</span> <span class="fu">psi</span>(df<span class="sc">$</span>valence, df<span class="sc">$</span>speed, </span>
 <span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>            df<span class="sc">$</span>age, df<span class="sc">$</span>extra)</span>
 <span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -1107,24 +1127,24 @@ Note
 <span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="co"># The SD of the normal distribution</span></span>
 <span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a><span class="co"># determines the amount of error</span></span>
 <span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y_obs <span class="ot">&lt;-</span> df<span class="sc">$</span>y <span class="sc">+</span> <span class="fu">rnorm</span>(n, <span class="at">mean=</span><span class="dv">0</span>, <span class="at">sd=</span><span class="dv">2</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>            <span class="fu">round</span>(<span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>            <span class="fu">round</span>(<span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y y_obs
-1    1     pos  slow  26  -0.4 12.0  14.0
-2    2     pos  slow  26   1.2  7.9   8.2
-3    3     pos  slow  28   1.1  9.3  10.1
-4    1     neg  slow  21   0.6  6.4   2.6
-5    2     neg  slow  21   0.5  8.8   9.3
-6    3     neg  slow  28  -0.3 11.3  11.3
-7    1     pos  fast  25   1.2 10.2   6.6
-8    2     pos  fast  24  -1.0 12.0  13.4
-9    3     pos  fast  22   0.5  8.1   9.3
-10   1     neg  fast  27   0.6  8.6   7.6
-11   2     neg  fast  25  -0.8  8.4   8.8
-12   3     neg  fast  27   0.9 10.0   9.0</code></pre>
+1    1     pos  slow  24  -2.4  9.5   8.0
+2    2     pos  slow  36   0.0  6.6   7.1
+3    3     pos  slow  25   0.2  6.8   4.7
+4    1     neg  slow  22   1.2 13.1  11.2
+5    2     neg  slow  23   0.1  5.8   4.2
+6    3     neg  slow  22  -1.8 12.5  13.0
+7    1     pos  fast  25  -1.8  6.8   4.5
+8    2     pos  fast  25  -0.2  8.1  10.5
+9    3     pos  fast  35  -1.0  9.2   8.8
+10   1     neg  fast  21   0.6 11.2   7.5
+11   2     neg  fast  23  -0.6  9.9  10.1
+12   3     neg  fast  25  -2.3 11.2  10.3</code></pre>
 </div>
 </div>
 </div>
@@ -1177,7 +1197,7 @@ Note
 <section id="tool-3-the-beta-distribution-2" class="level2">
 <h2 class="anchored" data-anchor-id="tool-3-the-beta-distribution-2">Tool 3: The beta distribution</h2>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Prompt (Choose Wolfram Alpha as ChatGPT plugin):</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Wolfram Alpha answer:</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">Prompt (Choose Wolfram Alpha as ChatGPT plugin):</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href="">Wolfram Alpha answer:</a></li></ul>
 <div class="tab-content">
 <div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <blockquote class="blockquote">
@@ -1203,11 +1223,11 @@ Note
 <h3 class="anchored" data-anchor-id="approximating-a-normal-distribution-with-a-beta-distibution">Approximating a normal distribution with a beta distibution</h3>
 <p>You can generate random values in <code>R</code> with the <code>rbeta</code> function. Here’s a comparison of a normal distribution and a matched beta distribution that respects the boundaries <span class="math inline">\([0; 1]\)</span>:</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>x.random <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">10000</span>, <span class="at">mean=</span><span class="fl">0.2</span>, <span class="at">sd=</span><span class="fl">0.1</span>)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>x.random <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">10000</span>, <span class="at">mean=</span><span class="fl">0.2</span>, <span class="at">sd=</span><span class="fl">0.1</span>)</span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.random, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"Normal distribution (M=0.2, SD=0.1)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span>
 <span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>x.beta <span class="ot">&lt;-</span> <span class="fu">rbeta</span>(<span class="dv">10000</span>, <span class="at">shape1=</span><span class="dv">3</span>, <span class="at">shape2=</span><span class="dv">12</span>)</span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.beta, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"beta distribution (a=3, b=12)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.beta, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"beta distribution (a=3, b=12)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 </section>
@@ -1431,13 +1451,14 @@ If we assume that our model is the **true data generating model**, i.e.:
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

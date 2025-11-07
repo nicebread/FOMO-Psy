@@ -8,7 +8,7 @@ description: We finalize our Bystander VAST displays and start with the first ma
 
 | Topic                                          | Duration | Notes                                                      |
 | ---------------------------------------------- | -------- | ---------------------------------------------------------- |
-| Finalize VAST displays in group                | 20       |                                                            |
+| Finalize VAST displays in groups               | 20       |                                                            |
 | Present and discuss solutions                  | 60       |                                                            |
 | First formalization: **Mathematical Models 1** | 120      | [Slides](../lectures/MathModel/MathModel.qmd), Steps 1 & 2 |
 | Homework 1: Create new version of VAST         |          |                                                            |
@@ -36,6 +36,7 @@ The additional theoretical explanation can be found in Fischer et al., p. 520-52
 > [...]
 > In other words, if bystanders experience increased danger to themselves in case of intervention, they look for other bystanders to help them to intervene (e,g,, to overpower a fierce perpetrator), which should finally reduce diffusion of responsibility and thus also attenuate the magnitude of the bystander effect (because bystanders acknowledge that they can only resolve the dangerous situation by cooperation in a group).
 
-**Deliverable**: Create a *new* draw.io VAST display with the extended and reduced theory. Push the file to the homework repository in the folder `Bystander_effect`.
+**Deliverable**: 
 
-
+- Create a *new* draw.io VAST display with the extended and reduced theory. Push the file to the homework repository in the folder `Dangerousness_effect`, in your group's subfolder.
+- Create a copy of the Google doc with the Construct Source Table.

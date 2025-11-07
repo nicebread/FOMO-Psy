@@ -1,3 +1,28 @@
+## How many VAST displays are created for practicing? Reduce?
+
+Currently, we have 3 VAST displays to be created in the homeworks:
+
+1. From S2 --> S3: Individuals create a VAST display for the concept "diffusion of resposibility" (based on Latane & Darley, 1968)
+2. From S3 --> S4: Groups create a VAST display for the bystander effect and parts of the theory
+3. From S4 --> S5: Groups create a VAST display for a reduced and extended bystander model ("dangerousness effect")
+
+Maybe skip step 2 and directly got from step 1 to step 3?
+
+
+
+## Add LLM support
+
+von Caspar Schumacher:
+
+> bin gerade zufällig auf diesen neuen Preprint von Rui & Wulff (die vom „LLM to solve Jingle-Jangle“-Paper) gestoßen: https://arxiv.org/abs/2511.00206
+> Unter 2.2 (S. 6) beschreiben sie ziemlich genau die Problematik, die wir uns auch im Seminar anschauen. Voll cool zu sehen, wie das Thema gerade an Traktion gewinnt.
+Erste Versuche zur Formalisierung mit LLMs allein gibt es übrigens auch schon: https://arxiv.org/abs/2502.00879
+
+(a) Use LLMs to aid in VAST development.
+(b) Use LLMs to translate a VAST display into a formal model
+(c) Skip step (a) and directly go from "a bunch of PDFs" to "formal model"? But for *understanding* a theory (and to make it explanatory), I think we need step a.
+
+
 ## Structural changes (next time)
 
 - S2: Skip the "intro2" lecture, and rather let the groups start working on their VAST displays and familiarize themselves with draw.io. Show them how to install the custom shapes for VAST displays.

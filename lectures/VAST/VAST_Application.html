@@ -315,6 +315,7 @@ Tip
 <li>Interpret the verbal statements, make them more precise, visualize as a VAST display</li>
 <li>Ignore empirical evidence (even if a hypothesized effect has already been empirically rejected, keep it in the model)</li>
 <li>Do not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.</li>
+<li>This approach focuses on <em>showing the gaps</em> (without fixing them)</li>
 </ul></li>
 <li><ol start="2" type="A">
 <li><strong>Start with robust phenomena (TCM approach)</strong>, invent an explanatory theory and formal model</li>
@@ -339,6 +340,7 @@ Tip
 <li>Select only components of the theory that are theoretically central to explain your explanatory target.</li>
 </ul></li>
 <li>The result will be a <em>reduced</em> and <em>refined</em> theory, that is inspired by the original theory but not identical to it.</li>
+<li>This approach is more about <em>filling the gaps</em> (instead of just showing them).</li>
 </ul>
 </section>
 </section>
@@ -711,44 +713,6 @@ E.g., Forsyth et al. ([2002](https://journals.sagepub.com/doi/10.1177/0146167202
 </section>
 
 </main> <!-- /main -->
-
-<script>
-  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-  // slide changes (different for each slide format).
-  (function () {
-    // dispatch for htmlwidgets
-    function fireSlideEnter() {
-      const event = window.document.createEvent("Event");
-      event.initEvent("slideenter", true, true);
-      window.document.dispatchEvent(event);
-    }
-
-    function fireSlideChanged(previousSlide, currentSlide) {
-      fireSlideEnter();
-
-      // dispatch for shiny
-      if (window.jQuery) {
-        if (previousSlide) {
-          window.jQuery(previousSlide).trigger("hidden");
-        }
-        if (currentSlide) {
-          window.jQuery(currentSlide).trigger("shown");
-        }
-      }
-    }
-
-    // hookup for slidy
-    if (window.w3c_slidy) {
-      window.w3c_slidy.add_observer(function (slide_num) {
-        // slide_num starts at position 1
-        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-      });
-    }
-
-  })();
-</script>
-
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

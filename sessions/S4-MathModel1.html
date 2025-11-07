@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -141,7 +170,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">1</span> Overview</a></li>
-  <li><a href="#homework-in-groups" id="toc-homework-in-groups" class="nav-link" data-scroll-target="#homework-in-groups"><span class="header-section-number">2</span> Homework (in groups)</a></li>
+  <li><a href="#present-and-discuss-solutions" id="toc-present-and-discuss-solutions" class="nav-link" data-scroll-target="#present-and-discuss-solutions"><span class="header-section-number">2</span> Present and discuss solutions</a></li>
+  <li><a href="#homework-in-groups" id="toc-homework-in-groups" class="nav-link" data-scroll-target="#homework-in-groups"><span class="header-section-number">3</span> Homework (in groups)</a></li>
   </ul>
 </nav>
     </div>
@@ -185,13 +215,13 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Finalize VAST displays in groups</td>
-<td>20</td>
+<td>15</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Present and discuss solutions</td>
-<td>60</td>
-<td></td>
+<td>80</td>
+<td>~20 min per group</td>
 </tr>
 <tr class="odd">
 <td>First formalization: <strong>Mathematical Models 1</strong></td>
@@ -199,15 +229,28 @@ ul.task-list li input[type="checkbox"] {
 <td><a href="../lectures/MathModel/MathModel.html">Slides</a>, Steps 1 &amp; 2</td>
 </tr>
 <tr class="even">
-<td>Homework 1: Create new version of VAST</td>
+<td>Homework: Create modified VAST: The Dangerous Bystander Effect</td>
 <td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="homework-in-groups" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="homework-in-groups"><span class="header-section-number">2</span> Homework (in groups)</h2>
+<section id="present-and-discuss-solutions" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="present-and-discuss-solutions"><span class="header-section-number">2</span> Present and discuss solutions</h2>
+<p>Guiding questions:</p>
+<p>Insights from the group discussion process:</p>
+<ul>
+<li>Did you start with similar mental models about the VAST display?</li>
+<li>Did the VAST tool help to clarify your understanding and facilitate group discussions?</li>
+</ul>
+<p>Comparing the 4 solutions:</p>
+<ul>
+<li>What are similarities? What are differences?</li>
+</ul>
+</section>
+<section id="homework-in-groups" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="homework-in-groups"><span class="header-section-number">3</span> Homework (in groups)</h2>
 <ul>
 <li>We <em>extend</em> the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the <strong>explanatory target</strong> is (a) the “classical” bystander effect and (b) the reduction of the bystander effect in dangerous situations (i.e., the dangerousness of situation is a moderator of the bystander main effect).</li>
 <li>At the same time we <em>reduce</em> the VAST display by cutting all elements that are not relevant for this specific explanation.
@@ -215,18 +258,26 @@ ul.task-list li input[type="checkbox"] {
 <li>We cut the “Five-step process model”</li>
 <li>From the three potential processes we only keep <em>diffusion of responsibility</em> (and ignore <em>pluralistic ignorance</em> and <em>evaluation apprehension</em>).</li>
 </ul></li>
+<li>Ensure that no <span class="hl">c</span>ausal, <span class="hl">p</span>rediction, or <span class="hl">t</span>ransformation arrows point at or originate from HOCs - they must start and end at actual variables.</li>
+<li>In the last homework, we tried to create a faithful representation of the narrative theory, potentially <em>showing the gaps</em>. This time, we aim at a more <em>coherent</em> and <em>parsimonious</em> representation of the theory. This time you should rather use the narrative only as a starting point, restructure, and <em>fill the gaps</em>.</li>
 </ul>
 <p>In other words, we try to build a <strong>minimal model</strong> that explains our explanatory target.</p>
-<p>The additional theoretical explanation can be found in Fischer et al., p.&nbsp;520-521. These are the relevant paragraphs:</p>
+<p>The additional theoretical explanation can be found in Fischer et al., p.&nbsp;520-521. These are the relevant paragraphs (no need to read the paper):</p>
 <blockquote class="blockquote">
 <p>“[…] the most noteworthy tendency in recent research is that the bystander effect often does not occur when the emergency is a dangerous one or when the bystanders are highly competent. The classic bystander research regarded present bystanders as”something negative,” which reduces the probability of prosocial intervention. On the basis of the review of the more recent literature, we suspect that this perspective is not always correct. Bystanders can act as a positive source of physical support in case a focal person is in the process of deciding whether to intervene in a critical situation (especially when they are perceived as competent bystanders). The present meta-analysis allows us to systematically examine the possibility of <strong>a non-inhibiting (non-negative) bystander effect</strong>. In the following, we further explore this theoretical idea. <strong>We explain why we expect that dangerous emergencies are associated with a reduced magnitude of the bystander effect.</strong>”</p>
 <p>If one is to intervene in a dangerous emergency, one may have to fear negative physical consequences. A perpetrator may not only attack the victim but also the intervener. In that case, additional bystanders may provide support in defeating a potential perpetrator. […] To conclude, we expect that high-danger emergencies increase the focal bystander’s fear that he or she will be attacked or injured in case of intervention. However, if other bystanders are present, they are recognized as a source of physical support, which mitigates against the traditional bystander effect. Note that we do not expect a complete disappearance of the bystander effect in dangerous emergencies. Instead, we expect that it substantially declines because of the fact that many dangerous emergency situations can only be resolved by a group.</p>
 <p>Thus, we expect that it is mainly increased danger to the focal bystander that reduces the bystander effect, but not increased danger to the victim (which can be completely distinct from danger of intervention). […] In other words, if bystanders experience increased danger to themselves in case of intervention, they look for other bystanders to help them to intervene (e,g,, to overpower a fierce perpetrator), which should finally reduce diffusion of responsibility and thus also attenuate the magnitude of the bystander effect (because bystanders acknowledge that they can only resolve the dangerous situation by cooperation in a group).</p>
 </blockquote>
+<p>All groups should use the following base structure:</p>
+<ol type="a">
+<li>The display of the phenomenon/effect itself which only contains manifest variables and a <span class="math inline">\(\Psi\)</span>-black box (see figure below; you can download the <a href="../bystander_effect/Bystander-template.drawio">template</a>).</li>
+<li>The theoretical explanation for the effect, containing the psychological mechanisms (within the <span class="math inline">\(\Psi\)</span>-box) with all relevant constructs and relationships.</li>
+</ol>
+<p><img src="img/S4_Bystander-Psi_template.png" class="img-fluid"></p>
 <p><strong>Deliverable</strong>:</p>
 <ul>
-<li>Create a <em>new</em> draw.io VAST display with the extended and reduced theory. Push the file to the homework repository in the folder <code>Dangerousness_effect</code>, in your group’s subfolder.</li>
-<li>Create a copy of the Google doc with the Construct Source Table.</li>
+<li>Create a <em>new</em> draw.io VAST display based on the <a href="../bystander_effect/Bystander-template.drawio">template</a> with the extended and reduced theory. Push the file to the <a href="https://github.com/nicebread/FOMO-homework-2025">Homework Repository</a> in the folder <code>Dangerousness_effect</code>, in your group’s subfolder.</li>
+<li>Create a copy of the Google doc with the <em>Construct Source Table</em> and the <em>Variables Table</em>. Reduce/expand both tables to the new <em>dangerousness model</em>.</li>
 </ul>
 
 

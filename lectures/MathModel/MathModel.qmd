@@ -70,14 +70,16 @@ You can either refer to an actual measurement procedure or simply define a varia
   - Can we find an empirical or semantic calibration?
     - Just noticable difference
     - 100 = "largest realistically imaginable quantity of that variable"
-  - Psychological ("internal") variables could range from $-\inf$ to $+\inf$, and then are transformed to bounded manifest responses when they leave the $\Psi$-box (cf. item response theory)
-
+  
+::: {.notes}
+Psychological ("internal") variables could range from $-\infty$ to $+\infty$, and then are transformed to bounded manifest responses when they leave the $\Psi$-box (cf. item response theory)
+:::
 
 
 ## {{< fa people-group size=2x >}} Group work (15 min.): Specify variables
 
 ::: {.smaller}
-In the Google doc, below your *Construct Source Table*, create a new *Variables Table* with the following columns:
+In the Google doc (below your *Construct Source Table*) fill in 2-3 exemplary variables from your bystander model in the *Variables Table*:
 
 *Example:*
 
@@ -172,11 +174,21 @@ For example, sometimes a theory specifies the general functional form of a relat
 - What is the semantic meaning of the free parameters?
 
 
-<!-- TODO: Draw a handdrawn sketch of multiple curves. Three free parameters:
-1. Intercept: What is the base probability to help when nobody else is present? (Humans will differ in that probability)
-2. Slope: How fast does the probability decrease with each additional bystander? (Ths is the strength of the bystander effect)
-3. Lower asymptote: What is the minimum probability to help, even if there are many bystanders? (Humans will differ in that probability)
- -->
+## A 3-parameter exponential decay function {transition="fade"}
+
+![](img/3P-decay_a.png)
+
+## A 3-parameter exponential decay function {transition="fade"}
+
+![](img/3P-decay_b.png)
+
+## A 3-parameter exponential decay function {transition="fade"}
+
+![](img/3P-decay_c.png)
+
+## A 3-parameter exponential decay function {transition="fade"}
+
+![](img/3P-decay_d.png)
 
 
 
@@ -187,9 +199,7 @@ Provide plots for multiple instances of this function family.
 
  -->
 
-# Some mathematical tools
-
-## Tool 1: The logistic function family
+## Tool: The logistic function family
 
 As a linear function is unbounded, it can easily happen that the computed $y$ exceeds the possible range of values.
 
@@ -218,7 +228,7 @@ axis(2, at = c(0, 0.5, 1), labels = c("0", "0.5", "1"))
 
 
 
-## Tool 1: The logistic function family
+## Tool: The logistic function family
 
 ::: {.smaller}
 With the 4PL* model from IRT, you can adjust the functional form to your needs, by:
@@ -228,6 +238,8 @@ With the 4PL* model from IRT, you can adjust the functional form to your needs, 
 - Move the lower asymptote up or down (parameter $min$)
 - Move the upper limit up or down (parameter $max$)
 :::
+
+$y = \text{min} + \frac{\text{max}-\text{min}}{1 + e^{a(d-x)}}$
 
 ```{r}
 #| echo: true
@@ -241,9 +253,11 @@ logistic <- function(x, d = 0, a = 1, min = 0, max = 1) {
 :::
 
 
-## Tool 1: The logistic function family
+## Tool: The logistic function family
 
-*(basic logistic function as dotted grey line)*
+::: {.smaller}
+$y = \text{min} + \frac{\text{max}-\text{min}}{1 + e^{a(d-x)}}$  *(basic logistic function as dotted grey line)* 
+:::
 
 ::: {.panel-tabset}
 #### Shift on x-axis
@@ -275,7 +289,7 @@ lines(x_values, logistic(x_values), type = "l", lty="dotted", lwd=1.5, col = "da
 
 
 
-## Tool 1: The logistic function family
+## Tool: The logistic function family
 
 The `d`, `a`, `min`, and `max` parameters can be used to "squeeze" the S-shaped curve into the range of your variables. For example, if your $x$ variable is defined on the range $[0; 1]$, the following function parameters lead to a reasonable shift:
 
@@ -451,11 +465,39 @@ get_p_help <- function(NOPB, y_0, y_final, BSE_strength) {
 ```
 
 
+## roxygen2 documentation: Solution
 
-## {{< fa people-group size=1x >}} Apply everything to reduced model
+::: {.callout-tip title="Solution"}
+```r
+#' Compute the probability to help in an emergency situation
+#' 
+#' Calculate the probability of a bystander to help in a critical situation 
+#' as a function of the number of passive bystanders. 
+#' 
+#' @param NOPB Number of passive bystanders. Ranges from 0 to infinity (discrete).
+#' @param y_0 Probability to help when no other bystanders are present (function intercept). 
+#'            Ranges from 0 to 1 (continuous).
+#' @param y_final Probability to help when number of other bystanders goes to infinity. 
+#'                Ranges from 0 to 1 (continuous).
+#' @param BSE_strength Strength of the bystander effect (function slope). 
+#'                     Ranges from -inf to +inf (continuous); the classical 
+#'                     bystander effect (i.e., decreasing probability with more bystanders) 
+#'                     occurs for positive values.
+#' 
+#' @return Probability to help for the given parameters. Ranges from 0 to 1 (continuous).
+
+get_p_help <- function(NOPB, y_0, y_final, BSE_strength) {
+  p_help <- y_final + (y_0 - y_final) * exp(-BSE_strength * NOPB)
+  return(p_help)
+}
+```
+:::
+
+
+## {{< fa people-group size=1x >}} Apply everything to your reduced model
 
 ::: {.smallest}
-1. **Define** all variables of your model in the Variables Table (short name, range, scale level, semantic anchors). Variables
+1. **Define** all variables of your model in the Variables Table (short name, range, scale level, semantic anchors).
 2. **Categorize**: Which variables are exogenous, which are endogenous?
    1. Exogenous variables are *not* influenced by other variables in the model.
    2. Endogenous variables are influenced by other variables in the model.
@@ -471,6 +513,20 @@ get_p_help <- function(NOPB, y_0, y_final, BSE_strength) {
    4. Add a short comment to what extent this functional relationship has been backed by empirical evidence.
 4. Implement the functions in `R` with proper `roxygen2` documentation.
 :::
+
+
+## Step 3: Implement the functions in R
+### Plots single relationships
+
+Done as live demo: Plot the atomic functions in the reasonable rango of parameters to explore and understand their behavior.
+
+Guiding questions:
+
+- Is the resulting functional form plausible across all parameter combinations?
+- Could it be simplified? (There's often a tendency to make the functions overly complex).
+  - E.g., by fixing some parameters.
+- Occams razor: Prefer simpler functions over more complex ones, if they explain the phenomenon equally well.
+
 
 ## Step 3: Implement the functions in R
 ### Put everything together
@@ -499,6 +555,10 @@ See the [Find-a-fit app](https://shinyapps.org/showapp.php?app=https://shiny.psy
 ![](img/Find-a-fit.png){height=300 .ds}
 :::
 :::: 
+
+## Step 4 (Excursus): Fitting the functions to empirical data
+
+(Live demo how our exponential fit function could be fitted to empirical data)
 
 
 # Step 5: Simulate a full data set
@@ -732,7 +792,7 @@ The size of the error variance (in combination with upstream sources of interind
 
 
 
-## Tool 3: The beta distribution
+## Tool: The beta distribution
 
 A handy distribution for the $[0; 1]$ range is the [beta distribution](https://en.wikipedia.org/wiki/Beta_distribution). With its two parameters $\alpha$ (also called $a$ or `shape1`) and $\beta$ (also called $b$ or `shape2`), it can take many different forms:
 
@@ -755,7 +815,7 @@ axis(side = 1, at = c(0, 0.5, 1), labels = c("0", "0.5", "1"))
 ```
 
 
-## Tool 3: The beta distribution
+## Tool: The beta distribution
 
 **How to choose $\alpha$ and $\beta$? Asking ChatGPT/Wolfram Alpha for assistance**
 
@@ -764,7 +824,7 @@ Assume that you intuitively started with a normal distribution with $M=0.2$ and 
 How can you achieve a beta distribution that approximates the properties of this normal distribution? You can work out the math yourself (e.g., by looking at the formula for the mean and the variance of the beta distribution) - or you can ask ChatGPT. After all, we only use this function as a tool to get some plausible values.
 
 
-## Tool 3: The beta distribution
+## Tool: The beta distribution
 
 ::: {.panel-tabset}
 ### Prompt (Choose Wolfram Alpha as ChatGPT plugin):
@@ -784,7 +844,7 @@ How can you achieve a beta distribution that approximates the properties of this
 
 
 
-## Tool 3: The beta distribution
+## Tool: The beta distribution
 ### Approximating a normal distribution with a beta distibution
 
 You can generate random values in `R` with the `rbeta` function. Here's a comparison of a normal distribution and a matched beta distribution that respects the boundaries $[0; 1]$:
@@ -801,7 +861,7 @@ hist(x.beta, xlab = "", ylab="", main="beta distribution (a=3, b=12)", xlim=c(-0
 ```
 
 
-## Tool 3: The beta distribution
+## Tool: The beta distribution
 ### Approximating a normal distribution with a beta distibution
 
 ```{r}

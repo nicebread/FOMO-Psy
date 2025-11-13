@@ -1,13 +1,25 @@
+## TODO S08 or S09
+
+So far, we worked all in the same repo, in subfolders.
+Now that you create your own repository for your theory, we want to follow some best practices for repository structure.
+
+--> show FAIR theory
+--> show CFF and semver
+
+
 ## How many VAST displays are created for practicing? Reduce?
 
 Currently, we have 3 VAST displays to be created in the homeworks:
 
 1. From S2 --> S3: Individuals create a VAST display for the concept "diffusion of resposibility" (based on Latane & Darley, 1968)
+   1. Learning goal: Get acquainted to the VAST system. Next time: Make the underlying verbal statements a bit easier/less complex.
 2. From S3 --> S4: Groups create a VAST display for the bystander effect and parts of the theory
-3. From S4 --> S5: Groups create a VAST display for a reduced and extended bystander model ("dangerousness effect")
+   1. Learning goal: Realize the difficulties in formalizing a narrative. Discuss the model in a group. In particular the 5-step model is difficult to model (and probably leads to many different solutions).
+   2. Next time: Make clear what the goal is: Formalize what the authors say - including their vagueness and inconsistency! Not "fill the gaps" but rather "show the gaps". (We will fil the gaps in the next formalization step exercise)
+3. From S4 --> S5: Groups create a VAST display for a reduced and extended bystander model ("dangerousness effect").
+   1. Learning goal: Now we aim for a precise model. We fill the gaps (and thereby deviate from the original sources). Do not have c, p, or t relationships that originate from a HOC or lead to a HOC.
 
-Maybe skip step 2 and directly got from step 1 to step 3?
-
+--> I think the repeated exercise with different foci makes sense. Maybe make the learning goals clearer.
 
 
 ## Add LLM support

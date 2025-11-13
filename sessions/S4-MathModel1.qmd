@@ -6,16 +6,28 @@ description: We finalize our Bystander VAST displays and start with the first ma
 
 ## Overview
 
-| Topic                                          | Duration | Notes                                                      |
-| ---------------------------------------------- | -------- | ---------------------------------------------------------- |
-| Finalize VAST displays in groups               | 20       |                                                            |
-| Present and discuss solutions                  | 60       |                                                            |
-| First formalization: **Mathematical Models 1** | 120      | [Slides](../lectures/MathModel/MathModel.qmd), Steps 1 & 2 |
-| Homework 1: Create new version of VAST         |          |                                                            |
+| Topic                                                          | Duration | Notes                                                                            |
+| -------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------- |
+| Finalize VAST displays in groups                               | 15       |                                                                                  |
+| Present and discuss solutions                                  | 80       | ~20 min per group                                                                |
+| First formalization: **Mathematical Models 1**                 | 120      | [Slides](../lectures/MathModel/MathModel.qmd), 1-13 (up to "Mathematical Tools") |
+| Homework: Create modified VAST: The Dangerous Bystander Effect |          |                                                                                  |
 
 : {.striped}
 
 
+## Present and discuss solutions
+
+Guiding questions:
+
+Insights from the group discussion process:
+
+- Did you start with similar mental models about the VAST display?
+- Did the VAST tool help to clarify your understanding and facilitate group discussions?
+
+Comparing the 4 solutions:
+
+- What are similarities? What are differences?
 
 ## Homework (in groups)
 
@@ -23,10 +35,12 @@ description: We finalize our Bystander VAST displays and start with the first ma
 - At the same time we *reduce* the VAST display by cutting all elements that are not relevant for this specific explanation.
   - We cut the "Five-step process model"
   - From the three potential processes we only keep *diffusion of responsibility* (and ignore *pluralistic ignorance* and *evaluation apprehension*).
+- Ensure that no [c]{.hl}ausal, [p]{.hl}rediction, or [t]{.hl}ransformation arrows point at or originate from HOCs - they must start and end at actual variables.
+- In the last homework, we tried to create a faithful representation of the narrative theory, potentially *showing the gaps*. This time, we aim at a more *coherent* and *parsimonious* representation of the theory. This time you should rather use the narrative only as a starting point, restructure, and *fill the gaps*.
 
 In other words, we try to build a **minimal model** that explains our explanatory target.
 
-The additional theoretical explanation can be found in Fischer et al., p. 520-521. These are the relevant paragraphs:
+The additional theoretical explanation can be found in Fischer et al., p. 520-521. These are the relevant paragraphs (no need to read the paper):
 
 > "[...] the most noteworthy tendency in recent research is that the bystander effect often does not occur when the emergency is a dangerous one or when the bystanders are highly competent. The classic bystander research regarded present bystanders as "something negative," which reduces the probability of prosocial intervention. On the basis of the review of the more recent literature, we suspect that this perspective is not always correct. Bystanders can act as a positive source of physical support in case a focal person is in the process of deciding whether to intervene in a critical situation (especially when they are perceived as competent bystanders). The present meta-analysis allows us to systematically examine the possibility of **a non-inhibiting (non-negative) bystander effect**. In the following, we further explore this theoretical idea. **We explain why we expect that dangerous emergencies are associated with a reduced magnitude of the bystander effect.**"
 >
@@ -36,7 +50,17 @@ The additional theoretical explanation can be found in Fischer et al., p. 520-52
 > [...]
 > In other words, if bystanders experience increased danger to themselves in case of intervention, they look for other bystanders to help them to intervene (e,g,, to overpower a fierce perpetrator), which should finally reduce diffusion of responsibility and thus also attenuate the magnitude of the bystander effect (because bystanders acknowledge that they can only resolve the dangerous situation by cooperation in a group).
 
+
+All groups should use the following base structure: 
+
+a) The display of the phenomenon/effect itself which only contains manifest variables and a $\Psi$-black box (see figure below; you can download the [template](../bystander_effect/Bystander-template.drawio)). 
+b) The theoretical explanation for the effect, containing the psychological mechanisms (within the $\Psi$-box) with all relevant constructs and relationships.
+
+![](img/S4_Bystander-Psi_template.png)
+
+
+
 **Deliverable**: 
 
-- Create a *new* draw.io VAST display with the extended and reduced theory. Push the file to the homework repository in the folder `Dangerousness_effect`, in your group's subfolder.
-- Create a copy of the Google doc with the Construct Source Table.
+- Create a *new* draw.io VAST display based on the [template](../bystander_effect/Bystander-template.drawio) with the extended and reduced theory. Push the file to the [Homework Repository]({{< var homework_repo >}}) in the folder `Dangerousness_effect`, in your group's subfolder.
+- Create a copy of the Google doc with the *Construct Source Table* and the *Variables Table*.  Reduce/expand both tables to the new *dangerousness model*.

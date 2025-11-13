@@ -1355,21 +1355,28 @@
     "href": "sessions/S4-MathModel1.html",
     "title": "Session 04 - The first mathematical model",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in groups\n20\n\n\n\nPresent and discuss solutions\n60\n\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, Steps 1 & 2\n\n\nHomework 1: Create new version of VAST"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in groups\n15\n\n\n\nPresent and discuss solutions\n80\n~20 min per group\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, Steps 1 & 2\n\n\nHomework: Create modified VAST: The Dangerous Bystander Effect"
   },
   {
     "objectID": "sessions/S4-MathModel1.html#overview",
     "href": "sessions/S4-MathModel1.html#overview",
     "title": "Session 04 - The first mathematical model",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in groups\n20\n\n\n\nPresent and discuss solutions\n60\n\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, Steps 1 & 2\n\n\nHomework 1: Create new version of VAST"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in groups\n15\n\n\n\nPresent and discuss solutions\n80\n~20 min per group\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, Steps 1 & 2\n\n\nHomework: Create modified VAST: The Dangerous Bystander Effect"
+  },
+  {
+    "objectID": "sessions/S4-MathModel1.html#present-and-discuss-solutions",
+    "href": "sessions/S4-MathModel1.html#present-and-discuss-solutions",
+    "title": "Session 04 - The first mathematical model",
+    "section": "2 Present and discuss solutions",
+    "text": "2 Present and discuss solutions\nGuiding questions:\nInsights from the group discussion process:\n\nDid you start with similar mental models about the VAST display?\nDid the VAST tool help to clarify your understanding and facilitate group discussions?\n\nComparing the 4 solutions:\n\nWhat are similarities? What are differences?"
   },
   {
     "objectID": "sessions/S4-MathModel1.html#homework-in-groups",
     "href": "sessions/S4-MathModel1.html#homework-in-groups",
     "title": "Session 04 - The first mathematical model",
-    "section": "2 Homework (in groups)",
-    "text": "2 Homework (in groups)\n\nWe extend the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the explanatory target is (a) the “classical” bystander effect and (b) the reduction of the bystander effect in dangerous situations (i.e., the dangerousness of situation is a moderator of the bystander main effect).\nAt the same time we reduce the VAST display by cutting all elements that are not relevant for this specific explanation.\n\nWe cut the “Five-step process model”\nFrom the three potential processes we only keep diffusion of responsibility (and ignore pluralistic ignorance and evaluation apprehension).\n\n\nIn other words, we try to build a minimal model that explains our explanatory target.\nThe additional theoretical explanation can be found in Fischer et al., p. 520-521. These are the relevant paragraphs:\n\n“[…] the most noteworthy tendency in recent research is that the bystander effect often does not occur when the emergency is a dangerous one or when the bystanders are highly competent. The classic bystander research regarded present bystanders as”something negative,” which reduces the probability of prosocial intervention. On the basis of the review of the more recent literature, we suspect that this perspective is not always correct. Bystanders can act as a positive source of physical support in case a focal person is in the process of deciding whether to intervene in a critical situation (especially when they are perceived as competent bystanders). The present meta-analysis allows us to systematically examine the possibility of a non-inhibiting (non-negative) bystander effect. In the following, we further explore this theoretical idea. We explain why we expect that dangerous emergencies are associated with a reduced magnitude of the bystander effect.”\nIf one is to intervene in a dangerous emergency, one may have to fear negative physical consequences. A perpetrator may not only attack the victim but also the intervener. In that case, additional bystanders may provide support in defeating a potential perpetrator. […] To conclude, we expect that high-danger emergencies increase the focal bystander’s fear that he or she will be attacked or injured in case of intervention. However, if other bystanders are present, they are recognized as a source of physical support, which mitigates against the traditional bystander effect. Note that we do not expect a complete disappearance of the bystander effect in dangerous emergencies. Instead, we expect that it substantially declines because of the fact that many dangerous emergency situations can only be resolved by a group.\nThus, we expect that it is mainly increased danger to the focal bystander that reduces the bystander effect, but not increased danger to the victim (which can be completely distinct from danger of intervention). […] In other words, if bystanders experience increased danger to themselves in case of intervention, they look for other bystanders to help them to intervene (e,g,, to overpower a fierce perpetrator), which should finally reduce diffusion of responsibility and thus also attenuate the magnitude of the bystander effect (because bystanders acknowledge that they can only resolve the dangerous situation by cooperation in a group).\n\nDeliverable:\n\nCreate a new draw.io VAST display with the extended and reduced theory. Push the file to the homework repository in the folder Dangerousness_effect, in your group’s subfolder.\nCreate a copy of the Google doc with the Construct Source Table."
+    "section": "3 Homework (in groups)",
+    "text": "3 Homework (in groups)\n\nWe extend the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the explanatory target is (a) the “classical” bystander effect and (b) the reduction of the bystander effect in dangerous situations (i.e., the dangerousness of situation is a moderator of the bystander main effect).\nAt the same time we reduce the VAST display by cutting all elements that are not relevant for this specific explanation.\n\nWe cut the “Five-step process model”\nFrom the three potential processes we only keep diffusion of responsibility (and ignore pluralistic ignorance and evaluation apprehension).\n\nEnsure that no causal, prediction, or transformation arrows point at or originate from HOCs - they must start and end at actual variables.\nIn the last homework, we tried to create a faithful representation of the narrative theory, potentially showing the gaps. This time, we aim at a more coherent and parsimonious representation of the theory. This time you should rather use the narrative only as a starting point, restructure, and fill the gaps.\n\nIn other words, we try to build a minimal model that explains our explanatory target.\nThe additional theoretical explanation can be found in Fischer et al., p. 520-521. These are the relevant paragraphs (no need to read the paper):\n\n“[…] the most noteworthy tendency in recent research is that the bystander effect often does not occur when the emergency is a dangerous one or when the bystanders are highly competent. The classic bystander research regarded present bystanders as”something negative,” which reduces the probability of prosocial intervention. On the basis of the review of the more recent literature, we suspect that this perspective is not always correct. Bystanders can act as a positive source of physical support in case a focal person is in the process of deciding whether to intervene in a critical situation (especially when they are perceived as competent bystanders). The present meta-analysis allows us to systematically examine the possibility of a non-inhibiting (non-negative) bystander effect. In the following, we further explore this theoretical idea. We explain why we expect that dangerous emergencies are associated with a reduced magnitude of the bystander effect.”\nIf one is to intervene in a dangerous emergency, one may have to fear negative physical consequences. A perpetrator may not only attack the victim but also the intervener. In that case, additional bystanders may provide support in defeating a potential perpetrator. […] To conclude, we expect that high-danger emergencies increase the focal bystander’s fear that he or she will be attacked or injured in case of intervention. However, if other bystanders are present, they are recognized as a source of physical support, which mitigates against the traditional bystander effect. Note that we do not expect a complete disappearance of the bystander effect in dangerous emergencies. Instead, we expect that it substantially declines because of the fact that many dangerous emergency situations can only be resolved by a group.\nThus, we expect that it is mainly increased danger to the focal bystander that reduces the bystander effect, but not increased danger to the victim (which can be completely distinct from danger of intervention). […] In other words, if bystanders experience increased danger to themselves in case of intervention, they look for other bystanders to help them to intervene (e,g,, to overpower a fierce perpetrator), which should finally reduce diffusion of responsibility and thus also attenuate the magnitude of the bystander effect (because bystanders acknowledge that they can only resolve the dangerous situation by cooperation in a group).\n\nAll groups should use the following base structure:\n\nThe display of the phenomenon/effect itself which only contains manifest variables and a \\(\\Psi\\)-black box (see figure below; you can download the template).\nThe theoretical explanation for the effect, containing the psychological mechanisms (within the \\(\\Psi\\)-box) with all relevant constructs and relationships.\n\n\nDeliverable:\n\nCreate a new draw.io VAST display based on the template with the extended and reduced theory. Push the file to the Homework Repository in the folder Dangerousness_effect, in your group’s subfolder.\nCreate a copy of the Google doc with the Construct Source Table and the Variables Table. Reduce/expand both tables to the new dangerousness model."
   },
   {
     "objectID": "sessions/S12-Work.html",
@@ -1558,14 +1565,14 @@
     "href": "sessions/S3-VAST_application.html#workshop-in-course-as-a-group-formalize-the-bystander-effect-theory",
     "title": "Session 03 - Introduction Theories / Practice VAST",
     "section": "4 Workshop (in course, as a group): Formalize the bystander effect theory",
-    "text": "4 Workshop (in course, as a group): Formalize the bystander effect theory\n\nEach group makes a copy of the template file “Bystander Modell: Construct Source Table Template” that you find on Google Drive. Add your group name/letter to the file name!\nGo through the steps 3-5 in the slides on “Applying VAST to an existing theory”\n\nStep 1 (“Choose your starting point”) is already decided: We use the “A-B Mixture Model”\nStep 2 (“Limit your scope”) is already decided (see the quotes in the template file).\n\nStep 3: Collect robust empirical phenomena: Skim the meta-analysis by Fischer et al. (2011, see homework repository) and make a judgement about the robustness of the bystander effect across the UTOS dimensions. Only do this briefly, you don’t need to be exhaustive here.\nStep 4 (“Collect definitions of constructs”): Fill in the Construct Source Table\nStep 5 (“Distill a working definition for each construct, add relationships”): Based on the table, create a VAST display in draw.io. This should contain:\n\nDefinitions for the relevant constructs (maybe as separat naming relationships)\nIn particular a definition of “diffusion of responsibility” (which we already tried in the last homework - now find a consensus definition as a group)\nA formalization of the theory (i.e., the generative mechanisms that are supposed to explain the phenomenon).\n\nThe goal is an easily understandable display: Prioritize understandability over completeness and over a maximally truthful mapping of the original statements.\n\nUse as few concepts as possible (but as many as necessary).\nWhy aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that.\n\nSave the .drawio file on the homework repository in the subfolder Bystander_effect. Each group should create a subfolder within that folder, with your team name as folder name.\n\n(Note: You won’t finish all steps in class. You will finalize the tasks as homework.)"
+    "text": "4 Workshop (in course, as a group): Formalize the bystander effect theory\n\nEach group makes a copy of the template file “Bystander Modell: Construct Source Table Template” that you find on Google Drive. Add your group name/letter to the file name!\nGo through the steps 4-5 in the slides on “Applying VAST to an existing theory”\n\nStep 1 (“Choose your starting point”) is already decided: We use the “A-B Mixture Model”\nStep 2 (“Limit your scope”) is already decided (see the quotes in the template file on Google Drive).\nStep 3 (“Collect robust empirical phenomena”) - we skip this for the moment. We will later evaluate the robustness of the bystander effect across the UTOS dimensions.\n\nStep 4 (“Collect definitions of constructs”): Fill in the Construct Source Table\nStep 5 (“Distill a working definition for each construct, add relationships”): Based on the table, create a VAST display in draw.io. This should contain:\n\nDefinitions for the relevant constructs (maybe as separat naming relationships)\nIn particular a definition of “diffusion of responsibility” (which we already tried in the last homework - now find a consensus definition as a group)\nA formalization of the theory (i.e., the generative mechanisms that are supposed to explain the phenomenon).\n\nThe goal is an easily understandable display: Prioritize understandability over completeness and over a maximally truthful mapping of the original statements.\n\nUse as few concepts as possible (but as many as necessary).\nWhy aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that.\n\nSave the .drawio file on the homework repository in the subfolder Bystander_effect. Each group should create a subfolder within that folder, with your team name as folder name.\n\n(Note: You won’t finish all steps in class. You will finalize the tasks as homework.)"
   },
   {
     "objectID": "sessions/S3-VAST_application.html#homework-as-a-group-finalize-bystander-vast",
     "href": "sessions/S3-VAST_application.html#homework-as-a-group-finalize-bystander-vast",
     "title": "Session 03 - Introduction Theories / Practice VAST",
     "section": "5 Homework (as a group): Finalize Bystander VAST",
-    "text": "5 Homework (as a group): Finalize Bystander VAST\nDeliverables:\n\nComplete and clean up your Construct Source Table on Google Drive.\nUpload/commit your draw.io VAST display in the Homework Repository, subfolder Bystander_effect, with your team name as file name."
+    "text": "5 Homework (as a group): Finalize Bystander VAST\nDeliverables:\n\nComplete and clean up your Construct Source Table on Google Drive (not yet the Variables Table).\nUpload/commit your draw.io VAST display in the Homework Repository, subfolder Bystander_effect, with your team name as file name."
   },
   {
     "objectID": "sessions/S2-VAST_intro.html",
@@ -1964,14 +1971,14 @@
     "href": "lectures/MathModel/MathModel.html#define-variables-1",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Define variables",
-    "text": "Define variables\n\nSome guiding questions and heuristics\n\nType of variable: continuous, dichotomous, ordinal, categorical? \nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”\n\nPsychological (“internal”) variables could range from \\(-\\inf\\) to \\(+\\inf\\), and then are transformed to bounded manifest responses when they leave the \\(\\Psi\\)-box (cf. item response theory)"
+    "text": "Define variables\n\nSome guiding questions and heuristics\n\nType of variable: continuous, dichotomous, ordinal, categorical? \nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”\n\n\n\n\nPsychological (“internal”) variables could range from \\(-\\infty\\) to \\(+\\infty\\), and then are transformed to bounded manifest responses when they leave the \\(\\Psi\\)-box (cf. item response theory)"
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#group-work-15-min.-specify-variables",
     "href": "lectures/MathModel/MathModel.html#group-work-15-min.-specify-variables",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": " Group work (15 min.): Specify variables",
-    "text": "Group work (15 min.): Specify variables\n\nIn the Google doc, below your Construct Source Table, create a new Variables Table with the following columns:\nExample:\n\n\n\n\n\n\n\n\n\n\n\nConstruct in VAST display\nShortname\nType\nRange/values\nAnchors\n\n\n\n\nAffective tone of instruction\naff_tone\nContinuous\n[-1; 1]\n-1 = maximally negative0 = neutral+1 = maximally positive\n\n\nAnxiety\nanxiety\nContinuous\n[0; 1]\n0 = no anxiety1 = maximal anxiety\n\n\nKohlberg’s Stages of Moral Development\nmoral_stage\nOrdinal\n{1; 2; 3}\n1=Pre-conventional2=Conventional3=Post-Conventional\n\n\n…\n\n…\n…\n…\n\n\n\n\n\n\nNote: This resembles a codebook; but for theoretical variables, not only for measured variables. As a heuristic, list all concepts that are not higher-order concepts (because these usually have no single numerical representation)."
+    "text": "Group work (15 min.): Specify variables\n\nIn the Google doc (below your Construct Source Table) fill in 2-3 exemplary variables from your bystander model in the Variables Table:\nExample:\n\n\n\n\n\n\n\n\n\n\n\nConstruct in VAST display\nShortname\nType\nRange/values\nAnchors\n\n\n\n\nAffective tone of instruction\naff_tone\nContinuous\n[-1; 1]\n-1 = maximally negative0 = neutral+1 = maximally positive\n\n\nAnxiety\nanxiety\nContinuous\n[0; 1]\n0 = no anxiety1 = maximal anxiety\n\n\nKohlberg’s Stages of Moral Development\nmoral_stage\nOrdinal\n{1; 2; 3}\n1=Pre-conventional2=Conventional3=Post-Conventional\n\n\n…\n\n…\n…\n…\n\n\n\n\n\n\nNote: This resembles a codebook; but for theoretical variables, not only for measured variables. As a heuristic, list all concepts that are not higher-order concepts (because these usually have no single numerical representation)."
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#group-work-10-min.",
@@ -2118,14 +2125,14 @@
     "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-3",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n\n5b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:\n\n\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\n\n\n\n   pID valence speed age extra\n1    1     pos  slow  24  -2.4\n2    2     pos  slow  36   0.0\n3    3     pos  slow  25   0.2\n4    1     neg  slow  22   1.2\n5    2     neg  slow  23   0.1\n6    3     neg  slow  22  -1.8\n7    1     pos  fast  25  -1.8\n8    2     pos  fast  25  -0.2\n9    3     pos  fast  35  -1.0\n10   1     neg  fast  21   0.6\n11   2     neg  fast  23  -0.6\n12   3     neg  fast  25  -2.3"
+    "text": "Step 5: Simulate a full data set\n\n5b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:\n\n\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\n\n\n\n   pID valence speed age extra\n1    1     pos  slow  29  -0.6\n2    2     pos  slow  28   1.2\n3    3     pos  slow  30   1.7\n4    1     neg  slow  22  -1.5\n5    2     neg  slow  27  -0.7\n6    3     neg  slow  27  -1.3\n7    1     pos  fast  19   0.5\n8    2     pos  fast  30  -0.2\n9    3     pos  fast  26  -0.2\n10   1     neg  fast  23  -0.1\n11   2     neg  fast  27   0.8\n12   3     neg  fast  23   0.7"
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-4",
     "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-4",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n\n5c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\):\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  24  -2.4  9.5\n2    2     pos  slow  36   0.0  6.6\n3    3     pos  slow  25   0.2  6.8\n4    1     neg  slow  22   1.2 13.1\n5    2     neg  slow  23   0.1  5.8\n6    3     neg  slow  22  -1.8 12.5\n7    1     pos  fast  25  -1.8  6.8\n8    2     pos  fast  25  -0.2  8.1\n9    3     pos  fast  35  -1.0  9.2\n10   1     neg  fast  21   0.6 11.2\n11   2     neg  fast  23  -0.6  9.9\n12   3     neg  fast  25  -2.3 11.2\n\n\n\n\nMake sure that the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
+    "text": "Step 5: Simulate a full data set\n\n5c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\):\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  29  -0.6 10.8\n2    2     pos  slow  28   1.2  9.9\n3    3     pos  slow  30   1.7  8.5\n4    1     neg  slow  22  -1.5  9.3\n5    2     neg  slow  27  -0.7 11.3\n6    3     neg  slow  27  -1.3  9.6\n7    1     pos  fast  19   0.5  7.7\n8    2     pos  fast  30  -0.2  9.2\n9    3     pos  fast  26  -0.2  8.4\n10   1     neg  fast  23  -0.1 10.7\n11   2     neg  fast  27   0.8 12.1\n12   3     neg  fast  23   0.7 10.0\n\n\n\n\nMake sure that the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-5",
@@ -2146,7 +2153,7 @@
     "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-7",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n\n5c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  24  -2.4  9.5   8.0\n2    2     pos  slow  36   0.0  6.6   7.1\n3    3     pos  slow  25   0.2  6.8   4.7\n4    1     neg  slow  22   1.2 13.1  11.2\n5    2     neg  slow  23   0.1  5.8   4.2\n6    3     neg  slow  22  -1.8 12.5  13.0\n7    1     pos  fast  25  -1.8  6.8   4.5\n8    2     pos  fast  25  -0.2  8.1  10.5\n9    3     pos  fast  35  -1.0  9.2   8.8\n10   1     neg  fast  21   0.6 11.2   7.5\n11   2     neg  fast  23  -0.6  9.9  10.1\n12   3     neg  fast  25  -2.3 11.2  10.3\n\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
+    "text": "Step 5: Simulate a full data set\n\n5c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  29  -0.6 10.8  11.8\n2    2     pos  slow  28   1.2  9.9  11.2\n3    3     pos  slow  30   1.7  8.5  11.0\n4    1     neg  slow  22  -1.5  9.3   9.5\n5    2     neg  slow  27  -0.7 11.3  12.3\n6    3     neg  slow  27  -1.3  9.6   7.6\n7    1     pos  fast  19   0.5  7.7   4.8\n8    2     pos  fast  30  -0.2  9.2  10.3\n9    3     pos  fast  26  -0.2  8.4   8.2\n10   1     neg  fast  23  -0.1 10.7   7.8\n11   2     neg  fast  27   0.8 12.1  11.1\n12   3     neg  fast  23   0.7 10.0  10.3\n\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#group-work-20-min.-create-a-design-matrix",
@@ -2244,14 +2251,14 @@
     "href": "lectures/MathModel/MathModel.slide.html#define-variables-1",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Define variables",
-    "text": "Define variables\nSome guiding questions and heuristics\n\nType of variable: continuous, dichotomous, ordinal, categorical? \nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”\n\nPsychological (“internal”) variables could range from \\(-\\inf\\) to \\(+\\inf\\), and then are transformed to bounded manifest responses when they leave the \\(\\Psi\\)-box (cf. item response theory)"
+    "text": "Define variables\nSome guiding questions and heuristics\n\nType of variable: continuous, dichotomous, ordinal, categorical? \nIs the variable naturally bounded? On both sides or only one?\nHow can the numbers be interpreted?\n\nNatural/objective scale (e.g. physical distance)\nAs standardized z-scores?\nNormalized to a value between 0 and 1? Or rather -1 to 1?\nCan we find an empirical or semantic calibration?\n\nJust noticable difference\n100 = “largest realistically imaginable quantity of that variable”\n\n\n\n\nPsychological (“internal”) variables could range from \\(-\\infty\\) to \\(+\\infty\\), and then are transformed to bounded manifest responses when they leave the \\(\\Psi\\)-box (cf. item response theory)"
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#group-work-15-min.-specify-variables",
     "href": "lectures/MathModel/MathModel.slide.html#group-work-15-min.-specify-variables",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": " Group work (15 min.): Specify variables",
-    "text": "Group work (15 min.): Specify variables\n\nIn the Google doc, below your Construct Source Table, create a new Variables Table with the following columns:\nExample:\n\n\n\n\n\n\n\n\n\n\n\nConstruct in VAST display\nShortname\nType\nRange/values\nAnchors\n\n\n\n\nAffective tone of instruction\naff_tone\nContinuous\n[-1; 1]\n-1 = maximally negative0 = neutral+1 = maximally positive\n\n\nAnxiety\nanxiety\nContinuous\n[0; 1]\n0 = no anxiety1 = maximal anxiety\n\n\nKohlberg’s Stages of Moral Development\nmoral_stage\nOrdinal\n{1; 2; 3}\n1=Pre-conventional2=Conventional3=Post-Conventional\n\n\n…\n\n…\n…\n…\n\n\n\n\n\n\nNote: This resembles a codebook; but for theoretical variables, not only for measured variables. As a heuristic, list all concepts that are not higher-order concepts (because these usually have no single numerical representation)."
+    "text": "Group work (15 min.): Specify variables\n\nIn the Google doc (below your Construct Source Table) fill in 2-3 exemplary variables from your bystander model in the Variables Table:\nExample:\n\n\n\n\n\n\n\n\n\n\n\nConstruct in VAST display\nShortname\nType\nRange/values\nAnchors\n\n\n\n\nAffective tone of instruction\naff_tone\nContinuous\n[-1; 1]\n-1 = maximally negative0 = neutral+1 = maximally positive\n\n\nAnxiety\nanxiety\nContinuous\n[0; 1]\n0 = no anxiety1 = maximal anxiety\n\n\nKohlberg’s Stages of Moral Development\nmoral_stage\nOrdinal\n{1; 2; 3}\n1=Pre-conventional2=Conventional3=Post-Conventional\n\n\n…\n\n…\n…\n…\n\n\n\n\n\n\nNote: This resembles a codebook; but for theoretical variables, not only for measured variables. As a heuristic, list all concepts that are not higher-order concepts (because these usually have no single numerical representation)."
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#group-work-10-min.",
@@ -2300,14 +2307,14 @@
     "href": "lectures/MathModel/MathModel.slide.html#tool-1-the-logistic-function-family-1",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Tool 1: The logistic function family",
-    "text": "Tool 1: The logistic function family\n\nWith the 4PL* model from IRT, you can adjust the functional form to your needs, by:\n\nshifting the inflection point from left to right (aka. “item difficulty”, parameter \\(d\\))\nchange the steepness of the S-shape (aka. “discrimination parameter”, parameter \\(a\\))\nMove the lower asymptote up or down (parameter \\(min\\))\nMove the upper limit up or down (parameter \\(max\\))\n\n\n\nlogistic &lt;- function(x, d = 0, a = 1, min = 0, max = 1) {\n min + (max - min)/(1 + exp(a * (d - x)))\n}\n\n\n*4PL = 4-parameter logistic model"
+    "text": "Tool 1: The logistic function family\n\nWith the 4PL* model from IRT, you can adjust the functional form to your needs, by:\n\nshifting the inflection point from left to right (aka. “item difficulty”, parameter \\(d\\))\nchange the steepness of the S-shape (aka. “discrimination parameter”, parameter \\(a\\))\nMove the lower asymptote up or down (parameter \\(min\\))\nMove the upper limit up or down (parameter \\(max\\))\n\n\n\\(y = \\text{min} + \\frac{\\text{max}-\\text{min}}{1 + e^{a(d-x)}}\\)\n\nlogistic &lt;- function(x, d = 0, a = 1, min = 0, max = 1) {\n min + (max - min)/(1 + exp(a * (d - x)))\n}\n\n\n*4PL = 4-parameter logistic model"
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#tool-1-the-logistic-function-family-2",
     "href": "lectures/MathModel/MathModel.slide.html#tool-1-the-logistic-function-family-2",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Tool 1: The logistic function family",
-    "text": "Tool 1: The logistic function family\n(basic logistic function as dotted grey line)\n\nShift on x-axisSteepnessLower asymptoteUpper asymptote"
+    "text": "Tool 1: The logistic function family\n\n\\(y = \\text{min} + \\frac{\\text{max}-\\text{min}}{1 + e^{a(d-x)}}\\) (basic logistic function as dotted grey line)\n\n\nShift on x-axisSteepnessLower asymptoteUpper asymptote"
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#tool-1-the-logistic-function-family-3",
@@ -2363,14 +2370,14 @@
     "href": "lectures/MathModel/MathModel.slide.html#apply-everything-to-reduced-model",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": " Apply everything to reduced model",
-    "text": "Apply everything to reduced model\n\n\nDefine all variables of your model in the Variables Table (short name, range, scale level, semantic anchors). Variables\nCategorize: Which variables are exogenous, which are endogenous?\n\nExogenous variables are not influenced by other variables in the model.\nEndogenous variables are influenced by other variables in the model.\n\nEvery endogenous variable is a function of all of their input parameters.\n\nCreate sensible functional relationships for every endogenous variable.\nCreate a 3rd table (below the Construct Source Table and the Variables Table), with all functional relationships.\nAdd a short comment to what extent this functional relationship has been derived from theory:\n\nDictated by theory (add IDs from the Construct Source Table as reference)\nDerived from theory\nLoosely inspired by theory\nNot based on focal theory, but rather on common sense or other theories\nNot at all\n\nAdd a short comment to what extent this functional relationship has been backed by empirical evidence.\n\nImplement the functions in R with proper roxygen2 documentation."
+    "text": "Apply everything to reduced model\n\n\nDefine all variables of your model in the Variables Table (short name, range, scale level, semantic anchors).\nCategorize: Which variables are exogenous, which are endogenous?\n\nExogenous variables are not influenced by other variables in the model.\nEndogenous variables are influenced by other variables in the model.\n\nEvery endogenous variable is a function of all of their input parameters.\n\nCreate sensible functional relationships for every endogenous variable.\nCreate a 3rd table (below the Construct Source Table and the Variables Table), with all functional relationships.\nAdd a short comment to what extent this functional relationship has been derived from theory:\n\nDictated by theory (add IDs from the Construct Source Table as reference)\nDerived from theory\nLoosely inspired by theory\nNot based on focal theory, but rather on common sense or other theories\nNot at all\n\nAdd a short comment to what extent this functional relationship has been backed by empirical evidence.\n\nImplement the functions in R with proper roxygen2 documentation."
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-1",
     "href": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-1",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 3: Implement the functions in R",
-    "text": "Step 3: Implement the functions in R\nPut everything together\nConnect all functions to one “super-function”, which takes all exogenous variables as input and computes the focal output variable(s).\nTest the super-function:\n\nEnter some reasonable combinations of parameters\nDraw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis."
+    "text": "Step 3: Implement the functions in R\nPlots single relationships\nDone as live demo: Plot the atomic functions in the reasonable rango of parameters to explore and understand their behavior.\nGuiding questions:\n\nIs the resulting functional form plausible across all parameter combinations?\nCould it be simplified? (There’s often a tendency to make the functions overly complex).\n\nE.g., by fixing some parameters.\n\nOccams razor: Prefer simpler functions over more complex ones, if they explain the phenomenon equally well."
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#step-4-excursus-fitting-the-functions-to-empirical-data-1",
@@ -2398,14 +2405,14 @@
     "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-3",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n5b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:\n\n\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\n\n\n\n   pID valence speed age extra\n1    1     pos  slow  24  -2.4\n2    2     pos  slow  36   0.0\n3    3     pos  slow  25   0.2\n4    1     neg  slow  22   1.2\n5    2     neg  slow  23   0.1\n6    3     neg  slow  22  -1.8\n7    1     pos  fast  25  -1.8\n8    2     pos  fast  25  -0.2\n9    3     pos  fast  35  -1.0\n10   1     neg  fast  21   0.6\n11   2     neg  fast  23  -0.6\n12   3     neg  fast  25  -2.3"
+    "text": "Step 5: Simulate a full data set\n5b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:\n\n\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\n\n\n\n   pID valence speed age extra\n1    1     pos  slow  28  -0.6\n2    2     pos  slow  30   2.0\n3    3     pos  slow  29   1.6\n4    1     neg  slow  28  -0.1\n5    2     neg  slow  24   1.2\n6    3     neg  slow  25   0.2\n7    1     pos  fast  19   1.7\n8    2     pos  fast  20   0.5\n9    3     pos  fast  16  -0.6\n10   1     neg  fast  22  -0.1\n11   2     neg  fast  26   0.2\n12   3     neg  fast  29   0.2"
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-4",
     "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-4",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n5c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\):\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  24  -2.4  9.5\n2    2     pos  slow  36   0.0  6.6\n3    3     pos  slow  25   0.2  6.8\n4    1     neg  slow  22   1.2 13.1\n5    2     neg  slow  23   0.1  5.8\n6    3     neg  slow  22  -1.8 12.5\n7    1     pos  fast  25  -1.8  6.8\n8    2     pos  fast  25  -0.2  8.1\n9    3     pos  fast  35  -1.0  9.2\n10   1     neg  fast  21   0.6 11.2\n11   2     neg  fast  23  -0.6  9.9\n12   3     neg  fast  25  -2.3 11.2\n\n\n\nMake sure that the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
+    "text": "Step 5: Simulate a full data set\n5c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\):\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  28  -0.6  9.4\n2    2     pos  slow  30   2.0  9.1\n3    3     pos  slow  29   1.6 10.2\n4    1     neg  slow  28  -0.1  6.6\n5    2     neg  slow  24   1.2  9.4\n6    3     neg  slow  25   0.2  6.5\n7    1     pos  fast  19   1.7 12.4\n8    2     pos  fast  20   0.5  9.4\n9    3     pos  fast  16  -0.6  7.9\n10   1     neg  fast  22  -0.1 10.3\n11   2     neg  fast  26   0.2 13.1\n12   3     neg  fast  29   0.2 13.9\n\n\n\nMake sure that the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-5",
@@ -2426,7 +2433,7 @@
     "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-7",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n5c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  24  -2.4  9.5   8.0\n2    2     pos  slow  36   0.0  6.6   7.1\n3    3     pos  slow  25   0.2  6.8   4.7\n4    1     neg  slow  22   1.2 13.1  11.2\n5    2     neg  slow  23   0.1  5.8   4.2\n6    3     neg  slow  22  -1.8 12.5  13.0\n7    1     pos  fast  25  -1.8  6.8   4.5\n8    2     pos  fast  25  -0.2  8.1  10.5\n9    3     pos  fast  35  -1.0  9.2   8.8\n10   1     neg  fast  21   0.6 11.2   7.5\n11   2     neg  fast  23  -0.6  9.9  10.1\n12   3     neg  fast  25  -2.3 11.2  10.3\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
+    "text": "Step 5: Simulate a full data set\n5c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  28  -0.6  9.4   9.3\n2    2     pos  slow  30   2.0  9.1   8.2\n3    3     pos  slow  29   1.6 10.2  10.6\n4    1     neg  slow  28  -0.1  6.6   7.2\n5    2     neg  slow  24   1.2  9.4   8.4\n6    3     neg  slow  25   0.2  6.5   8.7\n7    1     pos  fast  19   1.7 12.4  13.1\n8    2     pos  fast  20   0.5  9.4   8.7\n9    3     pos  fast  16  -0.6  7.9   8.2\n10   1     neg  fast  22  -0.1 10.3  12.4\n11   2     neg  fast  26   0.2 13.1  14.3\n12   3     neg  fast  29   0.2 13.9  11.7\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#group-work-20-min.-create-a-design-matrix",
@@ -2531,14 +2538,14 @@
     "href": "lectures/VAST/VAST_Application.html#step-1-choose-your-starting-point",
     "title": "Applying VAST to an existing theory",
     "section": "Step 1: Choose your starting point",
-    "text": "Step 1: Choose your starting point\nFormalization approaches can differ in their starting point (which often are not clear-cut distinct):\n\n\nStart with an existing verbal theory, formalize it as it is.\n\n\nInterpret the verbal statements, make them more precise, visualize as a VAST display\nIgnore empirical evidence (even if a hypothesized effect has already been empirically rejected, keep it in the model)\nDo not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.\n\n\nStart with robust phenomena (TCM approach), invent an explanatory theory and formal model\n\n\nIgnore existing verbal theories (which might be hard once you know them)\nThis will (potentially) lead to an alternative theory/model to the existing theory"
+    "text": "Step 1: Choose your starting point\nFormalization approaches can differ in their starting point (which often are not clear-cut distinct):\n\n\nStart with an existing verbal theory, formalize it as it is.\n\n\nInterpret the verbal statements, make them more precise, visualize as a VAST display\nIgnore empirical evidence (even if a hypothesized effect has already been empirically rejected, keep it in the model)\nDo not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.\nThis approach focuses on showing the gaps (without fixing them)\n\n\nStart with robust phenomena (TCM approach), invent an explanatory theory and formal model\n\n\nIgnore existing verbal theories (which might be hard once you know them)\nThis will (potentially) lead to an alternative theory/model to the existing theory"
   },
   {
     "objectID": "lectures/VAST/VAST_Application.html#step-1-choose-your-starting-point-1",
     "href": "lectures/VAST/VAST_Application.html#step-1-choose-your-starting-point-1",
     "title": "Applying VAST to an existing theory",
     "section": "Step 1: Choose your starting point",
-    "text": "Step 1: Choose your starting point\n\nA-B Mixture Model (for formalization attempts)\n\nStarting point is an existing narrative theory\nWe soon will detect inconsistencies. For successfully modelling the theory, we have to resolve them, e.g. by:\n\nDeciding on one specific construct definition\nSynthesizing multiple definitions\nOnly use robust phenomena as explanatory targets\nSelect only components of the theory that are theoretically central to explain your explanatory target.\n\nThe result will be a reduced and refined theory, that is inspired by the original theory but not identical to it."
+    "text": "Step 1: Choose your starting point\n\nA-B Mixture Model (for formalization attempts)\n\nStarting point is an existing narrative theory\nWe soon will detect inconsistencies. For successfully modelling the theory, we have to resolve them, e.g. by:\n\nDeciding on one specific construct definition\nSynthesizing multiple definitions\nOnly use robust phenomena as explanatory targets\nSelect only components of the theory that are theoretically central to explain your explanatory target.\n\nThe result will be a reduced and refined theory, that is inspired by the original theory but not identical to it.\nThis approach is more about filling the gaps (instead of just showing them)."
   },
   {
     "objectID": "lectures/VAST/VAST_Application.html#step-2-limit-your-scope",
@@ -2664,14 +2671,14 @@
     "href": "lectures/VAST/VAST_Application.slide.html#step-1-choose-your-starting-point",
     "title": "Applying VAST to an existing theory",
     "section": "Step 1: Choose your starting point",
-    "text": "Step 1: Choose your starting point\nFormalization approaches can differ in their starting point (which often are not clear-cut distinct):\n\n\nStart with an existing verbal theory, formalize it as it is.\n\n\nInterpret the verbal statements, make them more precise, visualize as a VAST display\nIgnore empirical evidence (even if a hypothesized effect has already been empirically rejected, keep it in the model)\nDo not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.\n\n\nStart with robust phenomena (TCM approach), invent an explanatory theory and formal model\n\n\nIgnore existing verbal theories (which might be hard once you know them)\nThis will (potentially) lead to an alternative theory/model to the existing theory"
+    "text": "Step 1: Choose your starting point\nFormalization approaches can differ in their starting point (which often are not clear-cut distinct):\n\n\nStart with an existing verbal theory, formalize it as it is.\n\n\nInterpret the verbal statements, make them more precise, visualize as a VAST display\nIgnore empirical evidence (even if a hypothesized effect has already been empirically rejected, keep it in the model)\nDo not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.\nThis approach focuses on showing the gaps (without fixing them)\n\n\nStart with robust phenomena (TCM approach), invent an explanatory theory and formal model\n\n\nIgnore existing verbal theories (which might be hard once you know them)\nThis will (potentially) lead to an alternative theory/model to the existing theory"
   },
   {
     "objectID": "lectures/VAST/VAST_Application.slide.html#step-1-choose-your-starting-point-1",
     "href": "lectures/VAST/VAST_Application.slide.html#step-1-choose-your-starting-point-1",
     "title": "Applying VAST to an existing theory",
     "section": "Step 1: Choose your starting point",
-    "text": "Step 1: Choose your starting point\nA-B Mixture Model (for formalization attempts)\n\nStarting point is an existing narrative theory\nWe soon will detect inconsistencies. For successfully modelling the theory, we have to resolve them, e.g. by:\n\nDeciding on one specific construct definition\nSynthesizing multiple definitions\nOnly use robust phenomena as explanatory targets\nSelect only components of the theory that are theoretically central to explain your explanatory target.\n\nThe result will be a reduced and refined theory, that is inspired by the original theory but not identical to it."
+    "text": "Step 1: Choose your starting point\nA-B Mixture Model (for formalization attempts)\n\nStarting point is an existing narrative theory\nWe soon will detect inconsistencies. For successfully modelling the theory, we have to resolve them, e.g. by:\n\nDeciding on one specific construct definition\nSynthesizing multiple definitions\nOnly use robust phenomena as explanatory targets\nSelect only components of the theory that are theoretically central to explain your explanatory target.\n\nThe result will be a reduced and refined theory, that is inspired by the original theory but not identical to it.\nThis approach is more about filling the gaps (instead of just showing them)."
   },
   {
     "objectID": "lectures/VAST/VAST_Application.slide.html#step-2-limit-your-scope",
@@ -2784,5 +2791,124 @@
     "title": "Applying VAST to an existing theory",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#a-3-parameter-exponential-decay-function",
+    "href": "lectures/MathModel/MathModel.slide.html#a-3-parameter-exponential-decay-function",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "A 3-parameter exponential decay function",
+    "text": "A 3-parameter exponential decay function"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#a-3-parameter-exponential-decay-function-1",
+    "href": "lectures/MathModel/MathModel.slide.html#a-3-parameter-exponential-decay-function-1",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "A 3-parameter exponential decay function",
+    "text": "A 3-parameter exponential decay function"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#a-3-parameter-exponential-decay-function-2",
+    "href": "lectures/MathModel/MathModel.slide.html#a-3-parameter-exponential-decay-function-2",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "A 3-parameter exponential decay function",
+    "text": "A 3-parameter exponential decay function"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#a-3-parameter-exponential-decay-function-3",
+    "href": "lectures/MathModel/MathModel.slide.html#a-3-parameter-exponential-decay-function-3",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "A 3-parameter exponential decay function",
+    "text": "A 3-parameter exponential decay function"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#roxygen2-documentation-solution",
+    "href": "lectures/MathModel/MathModel.slide.html#roxygen2-documentation-solution",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "roxygen2 documentation: Solution",
+    "text": "roxygen2 documentation: Solution\n\n\n\n\n\n\n\nSolution\n\n\n#' Compute the probability to help in an emergency situation\n#' \n#' Calculate the probability of a bystander to help in a critical situation \n#' as a function of the number of passive bystanders. \n#' \n#' @param NOPB Number of passive bystanders. Ranges from 0 to infinity (discrete).\n#' @param y_0 Probability to help when no other bystanders are present (function intercept). \n#'            Ranges from 0 to 1 (continuous).\n#' @param y_final Probability to help when number of other bystanders goes to infinity. \n#'                Ranges from 0 to 1 (continuous).\n#' @param BSE_strength Strength of the bystander effect (function slope). \n#'                     Ranges from -inf to +inf (continuous); the classical \n#'                     bystander effect (i.e., decreasing probability with more bystanders) \n#'                     occurs for positive values.\n#' \n#' @return Probability to help for the given parameters. Ranges from 0 to 1 (continuous).\n\nget_p_help &lt;- function(NOPB, y_0, y_final, BSE_strength) {\n  p_help &lt;- y_final + (y_0 - y_final) * exp(-BSE_strength * NOPB)\n  return(p_help)\n}"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#apply-everything-to-your-reduced-model",
+    "href": "lectures/MathModel/MathModel.slide.html#apply-everything-to-your-reduced-model",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": " Apply everything to your reduced model",
+    "text": "Apply everything to your reduced model\n\n\nDefine all variables of your model in the Variables Table (short name, range, scale level, semantic anchors).\nCategorize: Which variables are exogenous, which are endogenous?\n\nExogenous variables are not influenced by other variables in the model.\nEndogenous variables are influenced by other variables in the model.\n\nEvery endogenous variable is a function of all of their input parameters.\n\nCreate sensible functional relationships for every endogenous variable.\nCreate a 3rd table (below the Construct Source Table and the Variables Table), with all functional relationships.\nAdd a short comment to what extent this functional relationship has been derived from theory:\n\nDictated by theory (add IDs from the Construct Source Table as reference)\nDerived from theory\nLoosely inspired by theory\nNot based on focal theory, but rather on common sense or other theories\nNot at all\n\nAdd a short comment to what extent this functional relationship has been backed by empirical evidence.\n\nImplement the functions in R with proper roxygen2 documentation."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-the-logistic-function-family",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-the-logistic-function-family",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Tool: The logistic function family",
+    "text": "Tool: The logistic function family\nAs a linear function is unbounded, it can easily happen that the computed \\(y\\) exceeds the possible range of values.\nIf \\(y\\) has defined boundaries (e.g., \\([0; 1]\\)), a logistic function can bound the values between a lower and an upper limit (in the basic logistic function, between 0 and 1):\n\\(y = \\frac{1}{1 + e^{-x}}\\)"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-the-logistic-function-family-1",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-the-logistic-function-family-1",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Tool: The logistic function family",
+    "text": "Tool: The logistic function family\n\nWith the 4PL* model from IRT, you can adjust the functional form to your needs, by:\n\nshifting the inflection point from left to right (aka. “item difficulty”, parameter \\(d\\))\nchange the steepness of the S-shape (aka. “discrimination parameter”, parameter \\(a\\))\nMove the lower asymptote up or down (parameter \\(min\\))\nMove the upper limit up or down (parameter \\(max\\))\n\n\n\\(y = \\text{min} + \\frac{\\text{max}-\\text{min}}{1 + e^{a(d-x)}}\\)\n\nlogistic &lt;- function(x, d = 0, a = 1, min = 0, max = 1) {\n min + (max - min)/(1 + exp(a * (d - x)))\n}\n\n\n*4PL = 4-parameter logistic model"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-the-logistic-function-family-2",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-the-logistic-function-family-2",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Tool: The logistic function family",
+    "text": "Tool: The logistic function family\n\n\\(y = \\text{min} + \\frac{\\text{max}-\\text{min}}{1 + e^{a(d-x)}}\\) (basic logistic function as dotted grey line)\n\n\nShift on x-axisSteepnessLower asymptoteUpper asymptote"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-the-logistic-function-family-3",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-the-logistic-function-family-3",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Tool: The logistic function family",
+    "text": "Tool: The logistic function family\nThe d, a, min, and max parameters can be used to “squeeze” the S-shaped curve into the range of your variables. For example, if your \\(x\\) variable is defined on the range \\([0; 1]\\), the following function parameters lead to a reasonable shift:"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-2",
+    "href": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-2",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Step 3: Implement the functions in R",
+    "text": "Step 3: Implement the functions in R\nPut everything together\nConnect all functions to one “super-function”, which takes all exogenous variables as input and computes the focal output variable(s).\nTest the super-function:\n\nEnter some reasonable combinations of parameters\nDraw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-4-excursus-fitting-the-functions-to-empirical-data-2",
+    "href": "lectures/MathModel/MathModel.slide.html#step-4-excursus-fitting-the-functions-to-empirical-data-2",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Step 4 (Excursus): Fitting the functions to empirical data",
+    "text": "Step 4 (Excursus): Fitting the functions to empirical data\n(Live demo how our exponential fit function could be fitted to empirical data)"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-the-beta-distribution",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-the-beta-distribution",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Tool: The beta distribution",
+    "text": "Tool: The beta distribution\nA handy distribution for the \\([0; 1]\\) range is the beta distribution. With its two parameters \\(\\alpha\\) (also called \\(a\\) or shape1) and \\(\\beta\\) (also called \\(b\\) or shape2), it can take many different forms:"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-the-beta-distribution-1",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-the-beta-distribution-1",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Tool: The beta distribution",
+    "text": "Tool: The beta distribution\nHow to choose \\(\\alpha\\) and \\(\\beta\\)? Asking ChatGPT/Wolfram Alpha for assistance\nAssume that you intuitively started with a normal distribution with \\(M=0.2\\) and \\(SD=0.1\\) (rnorm(mean=0.2, sd=0.1)) to simulate your values. But this function can generate values &lt; 0 and &gt; 1.\nHow can you achieve a beta distribution that approximates the properties of this normal distribution? You can work out the math yourself (e.g., by looking at the formula for the mean and the variance of the beta distribution) - or you can ask ChatGPT. After all, we only use this function as a tool to get some plausible values."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-the-beta-distribution-2",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-the-beta-distribution-2",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Tool: The beta distribution",
+    "text": "Tool: The beta distribution\n\nPrompt (Choose Wolfram Alpha as ChatGPT plugin):Wolfram Alpha answer:\n\n\n\n“We have a normal distribution with mean=0.2 and SD=0.1. But the results should be bounded on a scale from 0 to 1. Create a beta-distribution that mimics the properties of the described normal distribution.”\n\n\n\n\n\n“To mimic the properties of a specified normal distribution (with a mean and standard deviation) using a beta distribution within a bounded interval (in this case, 0 to 1), we need to find the parameters of the beta distribution (alpha \\(\\alpha\\) and beta \\(\\beta\\)) that match the mean and variance of the normal distribution as closely as possible.\n[snip]\nThe parameters for the beta distribution that mimic the properties of the described normal distribution (with mean = 0.2 and standard deviation = 0.1, bounded between 0 and 1) are \\(\\alpha = 3\\) and \\(\\beta = 12\\).\nThis beta distribution should closely match the shape and spread of the specified normal distribution within the bounds of 0 to 1.”"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-the-beta-distribution-3",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-the-beta-distribution-3",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Tool: The beta distribution",
+    "text": "Tool: The beta distribution\nApproximating a normal distribution with a beta distibution\nYou can generate random values in R with the rbeta function. Here’s a comparison of a normal distribution and a matched beta distribution that respects the boundaries \\([0; 1]\\):\n\nx.random &lt;- rnorm(10000, mean=0.2, sd=0.1)\nhist(x.random, xlab = \"\", ylab=\"\", main=\"Normal distribution (M=0.2, SD=0.1)\", xlim=c(-0.3, 1.1))\n\nx.beta &lt;- rbeta(10000, shape1=3, shape2=12)\nhist(x.beta, xlab = \"\", ylab=\"\", main=\"beta distribution (a=3, b=12)\", xlim=c(-0.3, 1.1))"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#tool-the-beta-distribution-4",
+    "href": "lectures/MathModel/MathModel.slide.html#tool-the-beta-distribution-4",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Tool: The beta distribution",
+    "text": "Tool: The beta distribution\nApproximating a normal distribution with a beta distibution"
   }
 ]

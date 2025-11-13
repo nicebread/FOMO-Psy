@@ -37,10 +37,10 @@ description: Intro to theory 2; Apply VAST to Bystander effect
 ## Workshop (in course, as a group): Formalize the bystander effect theory
 
 - Each group makes a copy of the template file "Bystander Modell: Construct Source Table Template" that you find on Google Drive. Add your group name/letter to the file name!
-- Go through the steps 3-5 in the slides on ["Applying VAST to an existing theory"](../lectures/VAST/VAST_Application.qmd)
+- Go through the steps 4-5 in the slides on ["Applying VAST to an existing theory"](../lectures/VAST/VAST_Application.qmd)
   - Step 1 ("Choose your starting point") is already decided: We use the "[A-B Mixture Model](../lectures/VAST/VAST_Application.qmd#a-b-mixture-model-for-formalization-attempts)"
-  - Step 2 ("Limit your scope") is already decided (see the quotes in the template file).
-- Step 3: Collect robust empirical phenomena: Skim the meta-analysis by Fischer et al. (2011, see [homework repository]({{< var homework_repo >}})) and make a judgement about the robustness of the bystander effect across the UTOS dimensions. Only do this briefly, you don't need to be exhaustive here.
+  - Step 2 ("Limit your scope") is already decided (see the quotes in the template file on Google Drive).
+  - Step 3 ("Collect robust empirical phenomena") - we skip this for the moment. We will later evaluate the robustness of the bystander effect across the UTOS dimensions. <!-- NOTE: As it turns out, the assumed 1/x relationship cannot be ound at all ... But as we want to play around with this theoretical model, we ignore the empirical evidence for the moment. -->
 - Step 4 ("Collect definitions of constructs"): Fill in the Construct Source Table 
 - Step 5 ("Distill a working definition for each construct, add relationships"): Based on the table, create a VAST display in draw.io. This should contain:
   - Definitions for the relevant constructs (maybe as separat naming relationships)
@@ -58,5 +58,5 @@ description: Intro to theory 2; Apply VAST to Bystander effect
 
 **Deliverables**: 
 
-- Complete and clean up your Construct Source Table on Google Drive.
+- Complete and clean up your *Construct Source Table* on Google Drive (*not* yet the *Variables Table*).
 - Upload/commit your draw.io VAST display in the [Homework Repository]({{< var homework_repo >}}), subfolder `Bystander_effect`, with your team name as file name.

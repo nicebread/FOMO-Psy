@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: doc  
+  resources:
+    - bystander_effect/Bystander-template.drawio
 
 website:
   title: "FOMO-Psy: Formal Modeling of Psychological Theories"

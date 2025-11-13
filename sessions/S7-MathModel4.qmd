@@ -9,7 +9,6 @@ description: Empirical calibration + simulated experiments
 | Topic                                                                      | Duration | Notes                                                    |
 | -------------------------------------------------------------------------- | -------- | -------------------------------------------------------- |
 | Homework wrapup: TCM                                                       | 30       |                                                          |
-| **Lecture**: Intro 2: What is (not) a theory? (catch up from last session) | 90       | [Slides](../lectures/Intro2/Intro2.qmd)                  |
 | Formalization: **Mathematical Models 3**                                   | 60       | [Slides](../lectures/MathModel/MathModel.qmd), Steps 4-5 |
 : {.striped}
 

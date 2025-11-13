@@ -39,6 +39,7 @@ Formalization approaches can differ in their *starting point* (which often are n
   - Interpret the verbal statements, make them more precise, visualize as a VAST display
   - Ignore empirical evidence (even if a hypothesized effect has already been empirically rejected, keep it in the model)
   - Do not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.
+  - This approach focuses on *showing the gaps* (without fixing them)
 - (B) **Start with robust phenomena (TCM approach)**, invent an explanatory theory and formal model
   - Ignore existing verbal theories (which might be hard once you know them)
   - This will (potentially) lead to an alternative theory/model to the existing theory
@@ -53,6 +54,7 @@ Formalization approaches can differ in their *starting point* (which often are n
   - Only use robust phenomena as explanatory targets
   - Select only components of the theory that are theoretically central to explain your explanatory target.
 - The result will be a *reduced* and *refined* theory, that is inspired by the original theory but not identical to it.
+- This approach is more about *filling the gaps* (instead of just showing them).
 
 
 

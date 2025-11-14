@@ -1390,7 +1390,14 @@
     "href": "sessions/S6-MathModel3.html",
     "title": "Session 06 - Mathematical Modeling Part 3",
     "section": "",
-    "text": "1 Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nShow consensus VAST model + my implementation\n60\n\n\n\nIn groups: Develop extension\n60"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nShow consensus VAST model + my implementation\n60\n\n\n\nIn groups: Develop extension\n60"
+  },
+  {
+    "objectID": "sessions/S6-MathModel3.html#overview",
+    "href": "sessions/S6-MathModel3.html#overview",
+    "title": "Session 06 - Mathematical Modeling Part 3",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nShow consensus VAST model + my implementation\n60\n\n\n\nIn groups: Develop extension\n60"
   },
   {
     "objectID": "common/lastslide.html",
@@ -1523,14 +1530,21 @@
     "href": "sessions/S5-MathModel2.html",
     "title": "Session 05 - Mathematical Modeling Part 2",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize models in groups; push to repo; present\n50\n\n\n\nFormalization: Mathematical Models 2 (including group work to write functions)\n60\nSlides, Steps 2-3\n\n\nFGroup work “Apply everything to reduced model”\n60\n\n\n\n[Homework]: Learn ggplot2\n-"
+    "text": "Please give anonymous feedback here: https://partici.fi/77082422"
+  },
+  {
+    "objectID": "sessions/S5-MathModel2.html#intermediate-feedback",
+    "href": "sessions/S5-MathModel2.html#intermediate-feedback",
+    "title": "Session 05 - Mathematical Modeling Part 2",
+    "section": "",
+    "text": "Please give anonymous feedback here: https://partici.fi/77082422"
   },
   {
     "objectID": "sessions/S5-MathModel2.html#overview",
     "href": "sessions/S5-MathModel2.html#overview",
     "title": "Session 05 - Mathematical Modeling Part 2",
-    "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize models in groups; push to repo; present\n50\n\n\n\nFormalization: Mathematical Models 2 (including group work to write functions)\n60\nSlides, Steps 2-3\n\n\nFGroup work “Apply everything to reduced model”\n60\n\n\n\n[Homework]: Learn ggplot2\n-"
+    "section": "Overview",
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize models in groups; push to repo; present\n50\n\n\n\nFormalization: Mathematical Models 2\n60\nSlides, Steps 2-3\n\n\nGroup work “Apply everything to reduced model”\n60\n\n\n\n[Homework]: Learn ggplot2\n-"
   },
   {
     "objectID": "sessions/S11-CFF_semver.html",

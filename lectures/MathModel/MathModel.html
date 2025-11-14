@@ -912,7 +912,7 @@ Note
 </ol></li>
 <li>Add a short comment to what extent this functional relationship has been backed by empirical evidence.</li>
 </ol></li>
-<li>Implement the functions in <code>R</code> with proper <code>roxygen2</code> documentation.</li>
+<li>Implement the functions in <code>R</code> with proper <code>roxygen2</code> documentation in your group’s subfolder.</li>
 </ol>
 </div>
 </section>
@@ -1064,17 +1064,17 @@ Note
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra
 1    1     pos  slow  28  -0.6
-2    2     pos  slow  30   2.0
-3    3     pos  slow  29   1.6
-4    1     neg  slow  28  -0.1
-5    2     neg  slow  24   1.2
-6    3     neg  slow  25   0.2
-7    1     pos  fast  19   1.7
-8    2     pos  fast  20   0.5
-9    3     pos  fast  16  -0.6
-10   1     neg  fast  22  -0.1
-11   2     neg  fast  26   0.2
-12   3     neg  fast  29   0.2</code></pre>
+2    2     pos  slow  27  -0.1
+3    3     pos  slow  19  -0.5
+4    1     neg  slow  19   0.3
+5    2     neg  slow  26   1.1
+6    3     neg  slow  20  -1.4
+7    1     pos  fast  24   0.6
+8    2     pos  fast  32   0.0
+9    3     pos  fast  33   1.0
+10   1     neg  fast  31  -0.4
+11   2     neg  fast  23   0.7
+12   3     neg  fast  29   1.7</code></pre>
 </div>
 </div>
 </div>
@@ -1100,18 +1100,18 @@ Note
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y
-1    1     pos  slow  28  -0.6  9.4
-2    2     pos  slow  30   2.0  9.1
-3    3     pos  slow  29   1.6 10.2
-4    1     neg  slow  28  -0.1  6.6
-5    2     neg  slow  24   1.2  9.4
-6    3     neg  slow  25   0.2  6.5
-7    1     pos  fast  19   1.7 12.4
-8    2     pos  fast  20   0.5  9.4
-9    3     pos  fast  16  -0.6  7.9
-10   1     neg  fast  22  -0.1 10.3
-11   2     neg  fast  26   0.2 13.1
-12   3     neg  fast  29   0.2 13.9</code></pre>
+1    1     pos  slow  28  -0.6 11.2
+2    2     pos  slow  27  -0.1  8.5
+3    3     pos  slow  19  -0.5 11.0
+4    1     neg  slow  19   0.3 14.7
+5    2     neg  slow  26   1.1 10.8
+6    3     neg  slow  20  -1.4  9.5
+7    1     pos  fast  24   0.6 11.3
+8    2     pos  fast  32   0.0  9.0
+9    3     pos  fast  33   1.0 11.6
+10   1     neg  fast  31  -0.4  7.3
+11   2     neg  fast  23   0.7  9.5
+12   3     neg  fast  29   1.7  9.4</code></pre>
 </div>
 </div>
 </div>
@@ -1209,18 +1209,18 @@ Note
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y y_obs
-1    1     pos  slow  28  -0.6  9.4   9.3
-2    2     pos  slow  30   2.0  9.1   8.2
-3    3     pos  slow  29   1.6 10.2  10.6
-4    1     neg  slow  28  -0.1  6.6   7.2
-5    2     neg  slow  24   1.2  9.4   8.4
-6    3     neg  slow  25   0.2  6.5   8.7
-7    1     pos  fast  19   1.7 12.4  13.1
-8    2     pos  fast  20   0.5  9.4   8.7
-9    3     pos  fast  16  -0.6  7.9   8.2
-10   1     neg  fast  22  -0.1 10.3  12.4
-11   2     neg  fast  26   0.2 13.1  14.3
-12   3     neg  fast  29   0.2 13.9  11.7</code></pre>
+1    1     pos  slow  28  -0.6 11.2   9.1
+2    2     pos  slow  27  -0.1  8.5   5.9
+3    3     pos  slow  19  -0.5 11.0   8.8
+4    1     neg  slow  19   0.3 14.7  17.3
+5    2     neg  slow  26   1.1 10.8  13.0
+6    3     neg  slow  20  -1.4  9.5   7.7
+7    1     pos  fast  24   0.6 11.3  12.8
+8    2     pos  fast  32   0.0  9.0  10.0
+9    3     pos  fast  33   1.0 11.6  10.3
+10   1     neg  fast  31  -0.4  7.3   8.8
+11   2     neg  fast  23   0.7  9.5   8.2
+12   3     neg  fast  29   1.7  9.4   7.3</code></pre>
 </div>
 </div>
 </div>
@@ -1311,7 +1311,7 @@ Note
 <h2 class="anchored" data-anchor-id="tool-the-beta-distribution-4">Tool: The beta distribution</h2>
 <section id="approximating-a-normal-distribution-with-a-beta-distibution-1" class="level3">
 <h3 class="anchored" data-anchor-id="approximating-a-normal-distribution-with-a-beta-distibution-1">Approximating a normal distribution with a beta distibution</h3>
-<div class="cell quarto-layout-panel" data-layout-align="center" data-layout-nrow="2" data-layout-ncol="1">
+<div class="cell quarto-layout-panel" data-layout-ncol="1" data-layout-nrow="2" data-layout-align="center">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">

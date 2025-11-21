@@ -1323,67 +1323,102 @@
     "text": "Important: I do not expect that you already finished every step!\n\nWe will meet as usual at 8:30. The groups will then have 1 hour to finalize their work and presentations to reach an (interim) result.\nFrom 9:30 to approximately 12:00, the groups will present their current progress.\n\nDon’t be alarmed: Some guests who are interested in the formalizations will be attending.\nPlease don’t stress too much about the presentation: The goal is not to sell a perfect product. Instead, it should be more like a “workshop insight” — just show what you have done, where you currently stand, and what issues still need to be solved, along with your next steps.\nPresentation structure:\n\nPresent the phenomenon and (verbal) theory on one slide\nShow and guide us through the VAST\nIf available: Present initial formulas and simulations\nIdentify open questions\n\nThe actual presentation should take a maximum of 10 minutes so that we have about 10 minutes for discussion and joint reflection.\n\nAfterward, I will provide the final information on the term paper, and we will discuss the evaluation.\n\nThis time, we will need a bit longer—expect to finish around 12:30 (or possibly a bit later). We will, of course, include breaks."
   },
   {
-    "objectID": "sessions/S10-Simulation.html",
-    "href": "sessions/S10-Simulation.html",
-    "title": "Session 10 - How to simulate virtual experiments",
+    "objectID": "sessions/S8-Candidate_theories.html",
+    "href": "sessions/S8-Candidate_theories.html",
+    "title": "Session 08 - Presentation of candidate theories",
     "section": "",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHow to simulate data from model: Mathematical Models Step 5\n120\nSlides, Step 5\n\n\nStart working on the new formalizations\n45\nSee also Overview Formalization Steps"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nPhD students present their theoretical frameworks\n60 for each theory"
   },
   {
-    "objectID": "sessions/S9-Formalization_Candidates.html",
-    "href": "sessions/S9-Formalization_Candidates.html",
-    "title": "Session 09 - Propose and discuss your own formalization candidate theories",
+    "objectID": "sessions/S8-Candidate_theories.html#overview",
+    "href": "sessions/S8-Candidate_theories.html#overview",
+    "title": "Session 08 - Presentation of candidate theories",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nDiscuss the candidate theories, form groups\n150\n\n\n\nBest (technical) practices in theory development: CFF + semver + FAIR theory\n60\nSlides\n\n\nPrepare a new repository in each group\n\n\n\n\n\n\n\nEach group should set up their technical infrastructure - from now on, you start working in your own repository.\n\nCreate a fresh public Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nInvite the lecturer (user name: nicebread) as a collaborator:  Settings →  Collaborators → “Add people”\nPrepare the folder structure, CFF file, etc."
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nPhD students present their theoretical frameworks\n60 for each theory"
   },
   {
-    "objectID": "sessions/S9-Formalization_Candidates.html#prepare-your-own-repository",
-    "href": "sessions/S9-Formalization_Candidates.html#prepare-your-own-repository",
-    "title": "Session 09 - Propose and discuss your own formalization candidate theories",
+    "objectID": "sessions/S3-VAST_application.html",
+    "href": "sessions/S3-VAST_application.html",
+    "title": "Session 03 - Introduction Theories / Practice VAST",
     "section": "",
-    "text": "Each group should set up their technical infrastructure - from now on, you start working in your own repository.\n\nCreate a fresh public Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nInvite the lecturer (user name: nicebread) as a collaborator:  Settings →  Collaborators → “Add people”\nPrepare the folder structure, CFF file, etc."
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate subfolder Bystander_effect in the homework repository\nCreate a Google Drive folder and add the Construct Source Table template.\nAdd link to Google Drive template in the README of the homework repository\nAdd the group compositions to the README of the homework repository"
   },
   {
-    "objectID": "sessions/sessions_overview.html",
-    "href": "sessions/sessions_overview.html",
-    "title": "Overview of sessions",
+    "objectID": "sessions/S3-VAST_application.html#overview",
+    "href": "sessions/S3-VAST_application.html#overview",
+    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "section": "1 Overview",
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLecture: What is (not) a theory? (Part 2)\n30\nSlides, 18-end\n\n\nHomework wrap-up: VAST displays for “diffusion of responsibility”\n45\n\n\n\nLecture: “Applying VAST to an existing theory”\n60\nSlides\n\n\nGroup formation\n10\n\n\n\nWorkshop: Start formalizing the bystander effect theory\n45\nSee Google Drive\n\n\n[Homework]: Finalize Bystander VAST in group\n-"
+  },
+  {
+    "objectID": "sessions/S3-VAST_application.html#homework-wrap-up-vast-displays-for-diffusion-of-responsibility",
+    "href": "sessions/S3-VAST_application.html#homework-wrap-up-vast-displays-for-diffusion-of-responsibility",
+    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "section": "2 Homework wrap-up: VAST displays for “diffusion of responsibility”",
+    "text": "2 Homework wrap-up: VAST displays for “diffusion of responsibility”\n\n3-4 people present their VAST displays that they created as homework."
+  },
+  {
+    "objectID": "sessions/S3-VAST_application.html#group-formation",
+    "href": "sessions/S3-VAST_application.html#group-formation",
+    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "section": "3 Group formation",
+    "text": "3 Group formation\n\nCreate a maximum of 4 groups. These will work together for the bystander formalization.\n\n(Note: When their own theories are formalized later in the course, students can form new groups).\n\nEach group chooses a group name starting with the letters A, B, C, or D."
+  },
+  {
+    "objectID": "sessions/S3-VAST_application.html#workshop-in-course-as-a-group-formalize-the-bystander-effect-theory",
+    "href": "sessions/S3-VAST_application.html#workshop-in-course-as-a-group-formalize-the-bystander-effect-theory",
+    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "section": "4 Workshop (in course, as a group): Formalize the bystander effect theory",
+    "text": "4 Workshop (in course, as a group): Formalize the bystander effect theory\n\nEach group makes a copy of the template file “Bystander Modell: Construct Source Table Template” that you find on Google Drive. Add your group name/letter to the file name!\nGo through the steps 4-5 in the slides on “Applying VAST to an existing theory”\n\nStep 1 (“Choose your starting point”) is already decided: We use the “A-B Mixture Model”\nStep 2 (“Limit your scope”) is already decided (see the quotes in the template file on Google Drive).\nStep 3 (“Collect robust empirical phenomena”) - we skip this for the moment. We will later evaluate the robustness of the bystander effect across the UTOS dimensions. \n\nStep 4 (“Collect definitions of constructs”): Fill in the Construct Source Table\nStep 5 (“Distill a working definition for each construct, add relationships”): Based on the table, create a VAST display in draw.io. This should contain:\n\nDefinitions for the relevant constructs (maybe as separat naming relationships)\nIn particular a definition of “diffusion of responsibility” (which we already tried in the last homework - now find a consensus definition as a group)\nA formalization of the theory (i.e., the generative mechanisms that are supposed to explain the phenomenon).\n\nThe goal is an easily understandable display: Prioritize understandability over completeness and over a maximally truthful mapping of the original statements.\n\nUse as few concepts as possible (but as many as necessary).\nWhy aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that.\n\nSave the .drawio file on the homework repository in the subfolder Bystander_effect. Each group should create a subfolder within that folder, with your team name as folder name.\n\n(Note: You won’t finish all steps in class. You will finalize the tasks as homework.)"
+  },
+  {
+    "objectID": "sessions/S3-VAST_application.html#homework-as-a-group-finalize-bystander-vast",
+    "href": "sessions/S3-VAST_application.html#homework-as-a-group-finalize-bystander-vast",
+    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "section": "5 Homework (as a group): Finalize Bystander VAST",
+    "text": "5 Homework (as a group): Finalize Bystander VAST\nDeliverables:\n\nComplete and clean up your Construct Source Table on Google Drive (not yet the Variables Table).\nUpload/commit your draw.io VAST display in the Homework Repository, subfolder Bystander_effect, with your team name as file name."
+  },
+  {
+    "objectID": "sessions/S11-CFF_semver.html",
+    "href": "sessions/S11-CFF_semver.html",
+    "title": "Session 11 - Theory metadata",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nDiscussing the theory crisis; showcasing Git\n\n\n\n\n\n\nSession 02 - Introduction to the Visual Argument Structure Tool\n\n\nIntro to theory 2 / VAST-Displays\n\n\n\n\n\n\nSession 03 - Introduction Theories / Practice VAST\n\n\nIntro to theory 2; Apply VAST to Bystander effect\n\n\n\n\n\n\nSession 04 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\n\n\nSession 05 - Mathematical Modeling Part 2\n\n\nCreate atomic functions for our Dangerous Bystander Effect Model\n\n\n\n\n\n\nSession 06 - Mathematical Modeling Part 3\n\n\nFinalize and plot atomic functions; build super-function “PSI”\n\n\n\n\n\n\nSession 07 - Mathematical Modeling Part 4\n\n\nEmpirical calibration + simulated experiments\n\n\n\n\n\n\nSession 08 - Presentation of candidate theories\n\n\nWe have a presentation and initial discussion of candidate theories for the next formalization exercise.\n\n\n\n\n\n\nSession 09 - Propose and discuss your own formalization candidate theories\n\n\nWe decide which theories will be formalized in the second part of the course.\n\n\n\n\n\n\nSession 10 - How to simulate virtual experiments\n\n\nWe practice how to generate data for simulated experiments\n\n\n\n\n\n\nSession 11 - Theory metadata\n\n\nWe learn how to use CFF files and semantic versioning for documenting digital theory objects\n\n\n\n\n\n\nSession 12 - Work on formalization\n\n\nThe groups work on their formalizations\n\n\n\n\n\n\nSession 13 - Final presentations\n\n\nThe groups present their work\n\n\n\n\n\n\nNo matching items"
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nCFF and semver\n45\nSlides\n\n\nContinue working in teams on the new formalizations\n90\n\n\n\nTeams report on progress\n45\n\n\n\n\n\n\nTasks for today\n\nCreate your CITATION.cff file, assign your first version number (presumably: 0.1.0). Push it to the repository.\nAim to finish steps 1-5 of the Formalization Steps\n\nFor Step 4 (“Collect robust phenomena”), write a short paragraph that summarizes your evaluation of the robustness of the phenomenon. (This will be needed for the final report).\n\nStart working on Step 6 (“Create your VAST display”)\n\n\n\nHomework due next week, 24.1.2025 (in groups): Work on your group project\nFinalize (at least) steps 1-7 of the Formalization Steps, so that you can start working on programming in the next session.\nDeliverable:\n\nIncrease the version (e.g., to 0.2.0) in the CITATION.cff file.\nPush your current version to the repository.\nCreate a tag, give it the version name (e.g., v0.2.0) and write a short description for the release.\n\nDo these steps regardless whether the theory object currently is in a “functional state” or still in a messy development version."
   },
   {
-    "objectID": "sessions/S4-MathModel1.html",
-    "href": "sessions/S4-MathModel1.html",
-    "title": "Session 04 - The first mathematical model",
+    "objectID": "sessions/S5-MathModel2.html",
+    "href": "sessions/S5-MathModel2.html",
+    "title": "Session 05 - Mathematical Modeling Part 2",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in groups\n15\n\n\n\nPresent and discuss solutions\n80\n~20 min per group\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, 1-13 (up to “Mathematical Tools”)\n\n\nHomework: Create modified VAST: The Dangerous Bystander Effect"
+    "text": "Please give anonymous feedback here: https://partici.fi/77082422"
   },
   {
-    "objectID": "sessions/S4-MathModel1.html#overview",
-    "href": "sessions/S4-MathModel1.html#overview",
-    "title": "Session 04 - The first mathematical model",
+    "objectID": "sessions/S5-MathModel2.html#intermediate-feedback",
+    "href": "sessions/S5-MathModel2.html#intermediate-feedback",
+    "title": "Session 05 - Mathematical Modeling Part 2",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in groups\n15\n\n\n\nPresent and discuss solutions\n80\n~20 min per group\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, 1-13 (up to “Mathematical Tools”)\n\n\nHomework: Create modified VAST: The Dangerous Bystander Effect"
+    "text": "Please give anonymous feedback here: https://partici.fi/77082422"
   },
   {
-    "objectID": "sessions/S4-MathModel1.html#present-and-discuss-solutions",
-    "href": "sessions/S4-MathModel1.html#present-and-discuss-solutions",
-    "title": "Session 04 - The first mathematical model",
-    "section": "2 Present and discuss solutions",
-    "text": "2 Present and discuss solutions\nGuiding questions:\nInsights from the group discussion process:\n\nDid you start with similar mental models about the VAST display?\nDid the VAST tool help to clarify your understanding and facilitate group discussions?\n\nComparing the 4 solutions:\n\nWhat are similarities? What are differences?"
+    "objectID": "sessions/S5-MathModel2.html#overview",
+    "href": "sessions/S5-MathModel2.html#overview",
+    "title": "Session 05 - Mathematical Modeling Part 2",
+    "section": "Overview",
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize models in groups; push to repo; present\n50\n\n\n\nFormalization: Mathematical Models 2\n60\nSlides, Steps 2-3\n\n\nGroup work “Apply everything to reduced model”\n60\n\n\n\n[Homework]: Learn ggplot2\n-"
   },
   {
-    "objectID": "sessions/S4-MathModel1.html#homework-in-groups",
-    "href": "sessions/S4-MathModel1.html#homework-in-groups",
-    "title": "Session 04 - The first mathematical model",
-    "section": "3 Homework (in groups)",
-    "text": "3 Homework (in groups)\n\nWe extend the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the explanatory target is (a) the “classical” bystander effect and (b) the reduction of the bystander effect in dangerous situations (i.e., the dangerousness of situation is a moderator of the bystander main effect).\nAt the same time we reduce the VAST display by cutting all elements that are not relevant for this specific explanation.\n\nWe cut the “Five-step process model”\nFrom the three potential processes we only keep diffusion of responsibility (and ignore pluralistic ignorance and evaluation apprehension).\n\nEnsure that no causal, prediction, or transformation arrows point at or originate from HOCs - they must start and end at actual variables.\nIn the last homework, we tried to create a faithful representation of the narrative theory, potentially showing the gaps. This time, we aim at a more coherent and parsimonious representation of the theory. This time you should rather use the narrative only as a starting point, restructure, and fill the gaps.\n\nIn other words, we try to build a minimal model that explains our explanatory target.\nThe additional theoretical explanation can be found in Fischer et al., p. 520-521. These are the relevant paragraphs (no need to read the paper):\n\n“[…] the most noteworthy tendency in recent research is that the bystander effect often does not occur when the emergency is a dangerous one or when the bystanders are highly competent. The classic bystander research regarded present bystanders as”something negative,” which reduces the probability of prosocial intervention. On the basis of the review of the more recent literature, we suspect that this perspective is not always correct. Bystanders can act as a positive source of physical support in case a focal person is in the process of deciding whether to intervene in a critical situation (especially when they are perceived as competent bystanders). The present meta-analysis allows us to systematically examine the possibility of a non-inhibiting (non-negative) bystander effect. In the following, we further explore this theoretical idea. We explain why we expect that dangerous emergencies are associated with a reduced magnitude of the bystander effect.”\nIf one is to intervene in a dangerous emergency, one may have to fear negative physical consequences. A perpetrator may not only attack the victim but also the intervener. In that case, additional bystanders may provide support in defeating a potential perpetrator. […] To conclude, we expect that high-danger emergencies increase the focal bystander’s fear that he or she will be attacked or injured in case of intervention. However, if other bystanders are present, they are recognized as a source of physical support, which mitigates against the traditional bystander effect. Note that we do not expect a complete disappearance of the bystander effect in dangerous emergencies. Instead, we expect that it substantially declines because of the fact that many dangerous emergency situations can only be resolved by a group.\nThus, we expect that it is mainly increased danger to the focal bystander that reduces the bystander effect, but not increased danger to the victim (which can be completely distinct from danger of intervention). […] In other words, if bystanders experience increased danger to themselves in case of intervention, they look for other bystanders to help them to intervene (e,g,, to overpower a fierce perpetrator), which should finally reduce diffusion of responsibility and thus also attenuate the magnitude of the bystander effect (because bystanders acknowledge that they can only resolve the dangerous situation by cooperation in a group).\n\nAll groups should use the following base structure:\n\nThe display of the phenomenon/effect itself which only contains manifest variables and a \\(\\Psi\\)-black box (see figure below; you can download the template).\nThe theoretical explanation for the effect, containing the psychological mechanisms (within the \\(\\Psi\\)-box) with all relevant constructs and relationships.\n\n\nDeliverable:\n\nCreate a new draw.io VAST display based on the template with the extended and reduced theory. Push the file to the Homework Repository in the folder Dangerousness_effect, in your group’s subfolder.\nCreate a copy of the Google doc with the Construct Source Table and the Variables Table. Reduce/expand both tables to the new dangerousness model."
-  },
-  {
-    "objectID": "sessions/S12-Work.html",
-    "href": "sessions/S12-Work.html",
-    "title": "Session 12 - Work on formalization",
+    "objectID": "sessions/S7-MathModel4.html",
+    "href": "sessions/S7-MathModel4.html",
+    "title": "Session 07 - Mathematical Modeling Part 4",
     "section": "",
-    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nGroups work on their formalization\n180\n\n\n\n\n\n\nTasks for today\nWork on steps on the remaining steps (8-11) of the Formalization Steps. You probably won’t finish all steps, but the more you achieve, the less you have to do for the final report.\nRemember to restrict yourself: Aim for few phenomena (ideally, only one) and simple theories and models. It gets complicated all by itself!\nDeliverable:\n\nIncrease the version (e.g., to 0.3.0) in the CITATION.cff file.\nPush your current version to the repository.\nCreate a tag, give it the version name (e.g., v0.3.0) and write a short description for the release.\n\nDo these steps regardless whether the theory object currently is in a “functional state” or still in a messy development version."
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nHomework wrapup: Productive Explanations\n20\n\n\n\nFormalization: Mathematical Models\n60\nSlides, Steps 5\n\n\nLive coding:"
+  },
+  {
+    "objectID": "sessions/S7-MathModel4.html#overview",
+    "href": "sessions/S7-MathModel4.html#overview",
+    "title": "Session 07 - Mathematical Modeling Part 4",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nHomework wrapup: Productive Explanations\n20\n\n\n\nFormalization: Mathematical Models\n60\nSlides, Steps 5\n\n\nLive coding:"
   },
   {
     "objectID": "sessions/S6-MathModel3.html",
@@ -1397,7 +1432,7 @@
     "href": "sessions/S6-MathModel3.html#overview",
     "title": "Session 06 - Mathematical Modeling Part 3",
     "section": "1 Overview",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nGroup work: Finalize tables & R implementation of atomic functions\n60\n\n\n\nFormalization: Mathematical Models 4-5\n30\nSlides, Steps 4-5\n\n\nLive coding: Plotting with ggplot2\n10\n\n\n\nGroup work: Create plot for individual functions\n40"
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nGroup work: Finalize tables & R implementation of atomic functions\n60\n\n\n\nFormalization: Mathematical Models 4\n30\nSlides, Step 4\n\n\nLive coding: Plotting with ggplot2\n10\n\n\n\nGroup work: Create plot for individual functions\n40"
   },
   {
     "objectID": "sessions/S6-MathModel3.html#live-coding",
@@ -1411,7 +1446,7 @@
     "href": "sessions/S6-MathModel3.html#homework-individually",
     "title": "Session 06 - Mathematical Modeling Part 3",
     "section": "3 Homework (individually)",
-    "text": "3 Homework (individually)\nRead: Van Dongen et al. (2024). Productive explanation: A framework for evaluating explanations in psychological science. Psychological Review. https://doi.org/10.1037/rev0000479 (available in the /literature folder):\n\nQuestion 1: What is the role an original authors should play when predictions are derived from a theory? \nQuestion 2: Are phenomena, according to Bogen and Woodward, directly observable?\n\n\n\nQuestion 3: What are two intermediate processes that are necessary for providing a productive explanation? \nQuestion 4: According to the authors, what are the three steps of productive explanation? \nQuestion 5: What does the paper identify as a limitation of verbal psychological theories compared to formal models in other scientific disciplines? \nQuestion 6: What criteria are suggested for evaluating the quality of explanations in the productive explanation framework? \nQuestion 7: Does Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?\n\n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/03-Productive_explanations and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper."
+    "text": "3 Homework (individually)\nRead: Van Dongen et al. (2024). Productive explanation: A framework for evaluating explanations in psychological science. Psychological Review. https://doi.org/10.1037/rev0000479 (available in the /literature folder):\n\nQuestion 1: What is the role an original author should play when predictions are derived from a theory? \nQuestion 2: Are phenomena, according to Bogen and Woodward, directly observable?\n\n\n\nQuestion 3: What are two intermediate processes that are necessary for providing a productive explanation? \nQuestion 4: According to the authors, what are the three steps of productive explanation? \nQuestion 5: What does the paper identify as a limitation of verbal psychological theories compared to formal models in other scientific disciplines? \nQuestion 6: What criteria are suggested for evaluating the quality of explanations in the productive explanation framework? \nQuestion 7: Does Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?\n\n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/03-Productive_explanations and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper."
   },
   {
     "objectID": "common/lastslide.html",
@@ -1526,95 +1561,67 @@
     "text": "Homework 2 (individually)\nDownload Chapter 1 of Paul Smaldino’s Book “Modeling Social Behavior: Mathematical and Agent-Based Models of Social Dynamics and Cultural Evolution”. Read the chapter and answer the following guiding questions:\n\nA typical criticism of formal models is: “You baked your results into the model, so the conclusions are trivial”. What could you answer to such a statement?\n\n\n\nWhat is done in a “decomposition”?\n\n\n\nWhat question should guide the decomposition?\n\n\n\nWhat is, according to Smaldino, the key difference between exact and inexact sciences?\n\n\n\nName the two types of models that typically are employed in social sciences.\n\n\nDeliverable: Submit answers to the guiding questions as a plain text or markdown file to the course’s Homework Repository:\n\nNavigate to /homework/01-Smaldino-chapter (After you cloned the repository in Homework 1, you should have that folder somewhere on your local machine.)\nAdd your answers as .txt or .md file with your first name as filename (e.g., “Heinz-Ruediger.md”)\ncommit and push\n(To verify your submission: Go to the website of the repository, and check whether your file is in the folder homework/01-Smaldino-chapter.)\n\nYou can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\nUsing git for the first time can be challenging. But it’s a skill that will pay off in the long run. If you get stuck, and made honest attempts to solve the problems yourself, don’t get desperate: Just send me your homework via email, and we will sort it out together in the next session."
   },
   {
-    "objectID": "sessions/S8-MathModel5.html",
-    "href": "sessions/S8-MathModel5.html",
-    "title": "Session 08 - Presentation of candidate theories",
+    "objectID": "sessions/S12-Work.html",
+    "href": "sessions/S12-Work.html",
+    "title": "Session 12 - Work on formalization",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nPhD students present their theoretical frameworks\n60 for each theory"
+    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nGroups work on their formalization\n180\n\n\n\n\n\n\nTasks for today\nWork on steps on the remaining steps (8-11) of the Formalization Steps. You probably won’t finish all steps, but the more you achieve, the less you have to do for the final report.\nRemember to restrict yourself: Aim for few phenomena (ideally, only one) and simple theories and models. It gets complicated all by itself!\nDeliverable:\n\nIncrease the version (e.g., to 0.3.0) in the CITATION.cff file.\nPush your current version to the repository.\nCreate a tag, give it the version name (e.g., v0.3.0) and write a short description for the release.\n\nDo these steps regardless whether the theory object currently is in a “functional state” or still in a messy development version."
   },
   {
-    "objectID": "sessions/S8-MathModel5.html#overview",
-    "href": "sessions/S8-MathModel5.html#overview",
-    "title": "Session 08 - Presentation of candidate theories",
+    "objectID": "sessions/S4-MathModel1.html",
+    "href": "sessions/S4-MathModel1.html",
+    "title": "Session 04 - The first mathematical model",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nPhD students present their theoretical frameworks\n60 for each theory"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in groups\n15\n\n\n\nPresent and discuss solutions\n80\n~20 min per group\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, 1-13 (up to “Mathematical Tools”)\n\n\nHomework: Create modified VAST: The Dangerous Bystander Effect"
   },
   {
-    "objectID": "sessions/S7-MathModel4.html",
-    "href": "sessions/S7-MathModel4.html",
-    "title": "Session 07 - Mathematical Modeling Part 4",
+    "objectID": "sessions/S4-MathModel1.html#overview",
+    "href": "sessions/S4-MathModel1.html#overview",
+    "title": "Session 04 - The first mathematical model",
     "section": "",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrapup: Productive Explanations\n30\n\n\n\nFormalization: Mathematical Models 3\n60\nSlides, Steps 4-5\n\n\nLive coding:"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in groups\n15\n\n\n\nPresent and discuss solutions\n80\n~20 min per group\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, 1-13 (up to “Mathematical Tools”)\n\n\nHomework: Create modified VAST: The Dangerous Bystander Effect"
   },
   {
-    "objectID": "sessions/S5-MathModel2.html",
-    "href": "sessions/S5-MathModel2.html",
-    "title": "Session 05 - Mathematical Modeling Part 2",
+    "objectID": "sessions/S4-MathModel1.html#present-and-discuss-solutions",
+    "href": "sessions/S4-MathModel1.html#present-and-discuss-solutions",
+    "title": "Session 04 - The first mathematical model",
+    "section": "2 Present and discuss solutions",
+    "text": "2 Present and discuss solutions\nGuiding questions:\nInsights from the group discussion process:\n\nDid you start with similar mental models about the VAST display?\nDid the VAST tool help to clarify your understanding and facilitate group discussions?\n\nComparing the 4 solutions:\n\nWhat are similarities? What are differences?"
+  },
+  {
+    "objectID": "sessions/S4-MathModel1.html#homework-in-groups",
+    "href": "sessions/S4-MathModel1.html#homework-in-groups",
+    "title": "Session 04 - The first mathematical model",
+    "section": "3 Homework (in groups)",
+    "text": "3 Homework (in groups)\n\nWe extend the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the explanatory target is (a) the “classical” bystander effect and (b) the reduction of the bystander effect in dangerous situations (i.e., the dangerousness of situation is a moderator of the bystander main effect).\nAt the same time we reduce the VAST display by cutting all elements that are not relevant for this specific explanation.\n\nWe cut the “Five-step process model”\nFrom the three potential processes we only keep diffusion of responsibility (and ignore pluralistic ignorance and evaluation apprehension).\n\nEnsure that no causal, prediction, or transformation arrows point at or originate from HOCs - they must start and end at actual variables.\nIn the last homework, we tried to create a faithful representation of the narrative theory, potentially showing the gaps. This time, we aim at a more coherent and parsimonious representation of the theory. This time you should rather use the narrative only as a starting point, restructure, and fill the gaps.\n\nIn other words, we try to build a minimal model that explains our explanatory target.\nThe additional theoretical explanation can be found in Fischer et al., p. 520-521. These are the relevant paragraphs (no need to read the paper):\n\n“[…] the most noteworthy tendency in recent research is that the bystander effect often does not occur when the emergency is a dangerous one or when the bystanders are highly competent. The classic bystander research regarded present bystanders as”something negative,” which reduces the probability of prosocial intervention. On the basis of the review of the more recent literature, we suspect that this perspective is not always correct. Bystanders can act as a positive source of physical support in case a focal person is in the process of deciding whether to intervene in a critical situation (especially when they are perceived as competent bystanders). The present meta-analysis allows us to systematically examine the possibility of a non-inhibiting (non-negative) bystander effect. In the following, we further explore this theoretical idea. We explain why we expect that dangerous emergencies are associated with a reduced magnitude of the bystander effect.”\nIf one is to intervene in a dangerous emergency, one may have to fear negative physical consequences. A perpetrator may not only attack the victim but also the intervener. In that case, additional bystanders may provide support in defeating a potential perpetrator. […] To conclude, we expect that high-danger emergencies increase the focal bystander’s fear that he or she will be attacked or injured in case of intervention. However, if other bystanders are present, they are recognized as a source of physical support, which mitigates against the traditional bystander effect. Note that we do not expect a complete disappearance of the bystander effect in dangerous emergencies. Instead, we expect that it substantially declines because of the fact that many dangerous emergency situations can only be resolved by a group.\nThus, we expect that it is mainly increased danger to the focal bystander that reduces the bystander effect, but not increased danger to the victim (which can be completely distinct from danger of intervention). […] In other words, if bystanders experience increased danger to themselves in case of intervention, they look for other bystanders to help them to intervene (e,g,, to overpower a fierce perpetrator), which should finally reduce diffusion of responsibility and thus also attenuate the magnitude of the bystander effect (because bystanders acknowledge that they can only resolve the dangerous situation by cooperation in a group).\n\nAll groups should use the following base structure:\n\nThe display of the phenomenon/effect itself which only contains manifest variables and a \\(\\Psi\\)-black box (see figure below; you can download the template).\nThe theoretical explanation for the effect, containing the psychological mechanisms (within the \\(\\Psi\\)-box) with all relevant constructs and relationships.\n\n\nDeliverable:\n\nCreate a new draw.io VAST display based on the template with the extended and reduced theory. Push the file to the Homework Repository in the folder Dangerousness_effect, in your group’s subfolder.\nCreate a copy of the Google doc with the Construct Source Table and the Variables Table. Reduce/expand both tables to the new dangerousness model."
+  },
+  {
+    "objectID": "sessions/sessions_overview.html",
+    "href": "sessions/sessions_overview.html",
+    "title": "Overview of sessions",
     "section": "",
-    "text": "Please give anonymous feedback here: https://partici.fi/77082422"
+    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nDiscussing the theory crisis; showcasing Git\n\n\n\n\n\n\nSession 02 - Introduction to the Visual Argument Structure Tool\n\n\nIntro to theory 2 / VAST-Displays\n\n\n\n\n\n\nSession 03 - Introduction Theories / Practice VAST\n\n\nIntro to theory 2; Apply VAST to Bystander effect\n\n\n\n\n\n\nSession 04 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\n\n\nSession 05 - Mathematical Modeling Part 2\n\n\nCreate atomic functions for our Dangerous Bystander Effect Model\n\n\n\n\n\n\nSession 06 - Mathematical Modeling Part 3\n\n\nFinalize and plot atomic functions\n\n\n\n\n\n\nSession 07 - Mathematical Modeling Part 4\n\n\nSuper-function “Psi” + simulated experiments\n\n\n\n\n\n\nSession 08 - Presentation of candidate theories\n\n\nWe have a presentation and initial discussion of candidate theories for the next formalization exercise.\n\n\n\n\n\n\nSession 09 - Propose and discuss your own formalization candidate theories\n\n\nWe decide which theories will be formalized in the second part of the course.\n\n\n\n\n\n\nSession 10 - How to simulate virtual experiments\n\n\nWe practice how to generate data for simulated experiments\n\n\n\n\n\n\nSession 11 - Theory metadata\n\n\nWe learn how to use CFF files and semantic versioning for documenting digital theory objects\n\n\n\n\n\n\nSession 12 - Work on formalization\n\n\nThe groups work on their formalizations\n\n\n\n\n\n\nSession 13 - Final presentations\n\n\nThe groups present their work\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "sessions/S5-MathModel2.html#intermediate-feedback",
-    "href": "sessions/S5-MathModel2.html#intermediate-feedback",
-    "title": "Session 05 - Mathematical Modeling Part 2",
+    "objectID": "sessions/S9-Formalization_Candidates.html",
+    "href": "sessions/S9-Formalization_Candidates.html",
+    "title": "Session 09 - Propose and discuss your own formalization candidate theories",
     "section": "",
-    "text": "Please give anonymous feedback here: https://partici.fi/77082422"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nDiscuss the candidate theories, form groups\n150\n\n\n\nBest (technical) practices in theory development: CFF + semver + FAIR theory\n60\nSlides\n\n\nPrepare a new repository in each group\n\n\n\n\n\n\n\nEach group should set up their technical infrastructure - from now on, you start working in your own repository.\n\nCreate a fresh public Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nInvite the lecturer (user name: nicebread) as a collaborator:  Settings →  Collaborators → “Add people”\nPrepare the folder structure, CFF file, etc."
   },
   {
-    "objectID": "sessions/S5-MathModel2.html#overview",
-    "href": "sessions/S5-MathModel2.html#overview",
-    "title": "Session 05 - Mathematical Modeling Part 2",
-    "section": "Overview",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize models in groups; push to repo; present\n50\n\n\n\nFormalization: Mathematical Models 2\n60\nSlides, Steps 2-3\n\n\nGroup work “Apply everything to reduced model”\n60\n\n\n\n[Homework]: Learn ggplot2\n-"
-  },
-  {
-    "objectID": "sessions/S11-CFF_semver.html",
-    "href": "sessions/S11-CFF_semver.html",
-    "title": "Session 11 - Theory metadata",
+    "objectID": "sessions/S9-Formalization_Candidates.html#prepare-your-own-repository",
+    "href": "sessions/S9-Formalization_Candidates.html#prepare-your-own-repository",
+    "title": "Session 09 - Propose and discuss your own formalization candidate theories",
     "section": "",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nCFF and semver\n45\nSlides\n\n\nContinue working in teams on the new formalizations\n90\n\n\n\nTeams report on progress\n45\n\n\n\n\n\n\nTasks for today\n\nCreate your CITATION.cff file, assign your first version number (presumably: 0.1.0). Push it to the repository.\nAim to finish steps 1-5 of the Formalization Steps\n\nFor Step 4 (“Collect robust phenomena”), write a short paragraph that summarizes your evaluation of the robustness of the phenomenon. (This will be needed for the final report).\n\nStart working on Step 6 (“Create your VAST display”)\n\n\n\nHomework due next week, 24.1.2025 (in groups): Work on your group project\nFinalize (at least) steps 1-7 of the Formalization Steps, so that you can start working on programming in the next session.\nDeliverable:\n\nIncrease the version (e.g., to 0.2.0) in the CITATION.cff file.\nPush your current version to the repository.\nCreate a tag, give it the version name (e.g., v0.2.0) and write a short description for the release.\n\nDo these steps regardless whether the theory object currently is in a “functional state” or still in a messy development version."
+    "text": "Each group should set up their technical infrastructure - from now on, you start working in your own repository.\n\nCreate a fresh public Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nInvite the lecturer (user name: nicebread) as a collaborator:  Settings →  Collaborators → “Add people”\nPrepare the folder structure, CFF file, etc."
   },
   {
-    "objectID": "sessions/S3-VAST_application.html",
-    "href": "sessions/S3-VAST_application.html",
-    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "objectID": "sessions/S10-Simulation.html",
+    "href": "sessions/S10-Simulation.html",
+    "title": "Session 10 - How to simulate virtual experiments",
     "section": "",
-    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate subfolder Bystander_effect in the homework repository\nCreate a Google Drive folder and add the Construct Source Table template.\nAdd link to Google Drive template in the README of the homework repository\nAdd the group compositions to the README of the homework repository"
-  },
-  {
-    "objectID": "sessions/S3-VAST_application.html#overview",
-    "href": "sessions/S3-VAST_application.html#overview",
-    "title": "Session 03 - Introduction Theories / Practice VAST",
-    "section": "1 Overview",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLecture: What is (not) a theory? (Part 2)\n30\nSlides, 18-end\n\n\nHomework wrap-up: VAST displays for “diffusion of responsibility”\n45\n\n\n\nLecture: “Applying VAST to an existing theory”\n60\nSlides\n\n\nGroup formation\n10\n\n\n\nWorkshop: Start formalizing the bystander effect theory\n45\nSee Google Drive\n\n\n[Homework]: Finalize Bystander VAST in group\n-"
-  },
-  {
-    "objectID": "sessions/S3-VAST_application.html#homework-wrap-up-vast-displays-for-diffusion-of-responsibility",
-    "href": "sessions/S3-VAST_application.html#homework-wrap-up-vast-displays-for-diffusion-of-responsibility",
-    "title": "Session 03 - Introduction Theories / Practice VAST",
-    "section": "2 Homework wrap-up: VAST displays for “diffusion of responsibility”",
-    "text": "2 Homework wrap-up: VAST displays for “diffusion of responsibility”\n\n3-4 people present their VAST displays that they created as homework."
-  },
-  {
-    "objectID": "sessions/S3-VAST_application.html#group-formation",
-    "href": "sessions/S3-VAST_application.html#group-formation",
-    "title": "Session 03 - Introduction Theories / Practice VAST",
-    "section": "3 Group formation",
-    "text": "3 Group formation\n\nCreate a maximum of 4 groups. These will work together for the bystander formalization.\n\n(Note: When their own theories are formalized later in the course, students can form new groups).\n\nEach group chooses a group name starting with the letters A, B, C, or D."
-  },
-  {
-    "objectID": "sessions/S3-VAST_application.html#workshop-in-course-as-a-group-formalize-the-bystander-effect-theory",
-    "href": "sessions/S3-VAST_application.html#workshop-in-course-as-a-group-formalize-the-bystander-effect-theory",
-    "title": "Session 03 - Introduction Theories / Practice VAST",
-    "section": "4 Workshop (in course, as a group): Formalize the bystander effect theory",
-    "text": "4 Workshop (in course, as a group): Formalize the bystander effect theory\n\nEach group makes a copy of the template file “Bystander Modell: Construct Source Table Template” that you find on Google Drive. Add your group name/letter to the file name!\nGo through the steps 4-5 in the slides on “Applying VAST to an existing theory”\n\nStep 1 (“Choose your starting point”) is already decided: We use the “A-B Mixture Model”\nStep 2 (“Limit your scope”) is already decided (see the quotes in the template file on Google Drive).\nStep 3 (“Collect robust empirical phenomena”) - we skip this for the moment. We will later evaluate the robustness of the bystander effect across the UTOS dimensions. \n\nStep 4 (“Collect definitions of constructs”): Fill in the Construct Source Table\nStep 5 (“Distill a working definition for each construct, add relationships”): Based on the table, create a VAST display in draw.io. This should contain:\n\nDefinitions for the relevant constructs (maybe as separat naming relationships)\nIn particular a definition of “diffusion of responsibility” (which we already tried in the last homework - now find a consensus definition as a group)\nA formalization of the theory (i.e., the generative mechanisms that are supposed to explain the phenomenon).\n\nThe goal is an easily understandable display: Prioritize understandability over completeness and over a maximally truthful mapping of the original statements.\n\nUse as few concepts as possible (but as many as necessary).\nWhy aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that.\n\nSave the .drawio file on the homework repository in the subfolder Bystander_effect. Each group should create a subfolder within that folder, with your team name as folder name.\n\n(Note: You won’t finish all steps in class. You will finalize the tasks as homework.)"
-  },
-  {
-    "objectID": "sessions/S3-VAST_application.html#homework-as-a-group-finalize-bystander-vast",
-    "href": "sessions/S3-VAST_application.html#homework-as-a-group-finalize-bystander-vast",
-    "title": "Session 03 - Introduction Theories / Practice VAST",
-    "section": "5 Homework (as a group): Finalize Bystander VAST",
-    "text": "5 Homework (as a group): Finalize Bystander VAST\nDeliverables:\n\nComplete and clean up your Construct Source Table on Google Drive (not yet the Variables Table).\nUpload/commit your draw.io VAST display in the Homework Repository, subfolder Bystander_effect, with your team name as file name."
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHow to simulate data from model: Mathematical Models Step 5\n120\nSlides, Step 5\n\n\nStart working on the new formalizations\n45\nSee also Overview Formalization Steps"
   },
   {
     "objectID": "sessions/S2-VAST_intro.html",

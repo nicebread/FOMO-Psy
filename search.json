@@ -1334,21 +1334,21 @@
     "href": "sessions/S9-Formalization_Candidates.html",
     "title": "Session 09 - Propose and discuss your own formalization candidate theories",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nDiscuss the candidate theories, form groups\n150\n\n\n\nPrepare a new repository in each group\n\n\n\n\n\n\n\nEach group should set up their technical infrastructure - from now on, you start working in your own repository.\n\nCreate a fresh Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nInvite the lecturer (user name: nicebread) as a collaborator:  Settings →  Collaborators → “Add people”"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nDiscuss the candidate theories, form groups\n150\n\n\n\nBest (technical) practices in theory development: CFF + semver + FAIR theory\n60\nSlides\n\n\nPrepare a new repository in each group\n\n\n\n\n\n\n\nEach group should set up their technical infrastructure - from now on, you start working in your own repository.\n\nCreate a fresh public Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nInvite the lecturer (user name: nicebread) as a collaborator:  Settings →  Collaborators → “Add people”\nPrepare the folder structure, CFF file, etc."
   },
   {
     "objectID": "sessions/S9-Formalization_Candidates.html#prepare-your-own-repository",
     "href": "sessions/S9-Formalization_Candidates.html#prepare-your-own-repository",
     "title": "Session 09 - Propose and discuss your own formalization candidate theories",
     "section": "",
-    "text": "Each group should set up their technical infrastructure - from now on, you start working in your own repository.\n\nCreate a fresh Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nInvite the lecturer (user name: nicebread) as a collaborator:  Settings →  Collaborators → “Add people”"
+    "text": "Each group should set up their technical infrastructure - from now on, you start working in your own repository.\n\nCreate a fresh public Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nInvite the lecturer (user name: nicebread) as a collaborator:  Settings →  Collaborators → “Add people”\nPrepare the folder structure, CFF file, etc."
   },
   {
     "objectID": "sessions/sessions_overview.html",
     "href": "sessions/sessions_overview.html",
     "title": "Overview of sessions",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nDiscussing the theory crisis; showcasing Git\n\n\n\n\n\n\nSession 02 - Introduction to the Visual Argument Structure Tool\n\n\nIntro to theory 2 / VAST-Displays\n\n\n\n\n\n\nSession 03 - Introduction Theories / Practice VAST\n\n\nIntro to theory 2; Apply VAST to Bystander effect\n\n\n\n\n\n\nSession 04 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\n\n\nSession 05 - Mathematical Modeling Part 2\n\n\nCreate all functions for our Dangerous Bystander Effect Model\n\n\n\n\n\n\nSession 06 - Mathematical Modeling Part 3\n\n\nConsensus model\n\n\n\n\n\n\nSession 07 - Mathematical Modeling Part 4\n\n\nEmpirical calibration + simulated experiments\n\n\n\n\n\n\nSession 08 - Presentation of candidate theories\n\n\nWe have a presentation and initial discussion of candidate theories for the next formalization exercise.\n\n\n\n\n\n\nSession 09 - Propose and discuss your own formalization candidate theories\n\n\nWe decide which theories will be formalized in the second part of the course.\n\n\n\n\n\n\nSession 10 - How to simulate virtual experiments\n\n\nWe practice how to generate data for simulated experiments\n\n\n\n\n\n\nSession 11 - Theory metadata\n\n\nWe learn how to use CFF files and semantic versioning for documenting digital theory objects\n\n\n\n\n\n\nSession 12 - Work on formalization\n\n\nThe groups work on their formalizations\n\n\n\n\n\n\nSession 13 - Final presentations\n\n\nThe groups present their work\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nDiscussing the theory crisis; showcasing Git\n\n\n\n\n\n\nSession 02 - Introduction to the Visual Argument Structure Tool\n\n\nIntro to theory 2 / VAST-Displays\n\n\n\n\n\n\nSession 03 - Introduction Theories / Practice VAST\n\n\nIntro to theory 2; Apply VAST to Bystander effect\n\n\n\n\n\n\nSession 04 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\n\n\nSession 05 - Mathematical Modeling Part 2\n\n\nCreate atomic functions for our Dangerous Bystander Effect Model\n\n\n\n\n\n\nSession 06 - Mathematical Modeling Part 3\n\n\nFinalize and plot atomic functions; build super-function “PSI”\n\n\n\n\n\n\nSession 07 - Mathematical Modeling Part 4\n\n\nEmpirical calibration + simulated experiments\n\n\n\n\n\n\nSession 08 - Presentation of candidate theories\n\n\nWe have a presentation and initial discussion of candidate theories for the next formalization exercise.\n\n\n\n\n\n\nSession 09 - Propose and discuss your own formalization candidate theories\n\n\nWe decide which theories will be formalized in the second part of the course.\n\n\n\n\n\n\nSession 10 - How to simulate virtual experiments\n\n\nWe practice how to generate data for simulated experiments\n\n\n\n\n\n\nSession 11 - Theory metadata\n\n\nWe learn how to use CFF files and semantic versioning for documenting digital theory objects\n\n\n\n\n\n\nSession 12 - Work on formalization\n\n\nThe groups work on their formalizations\n\n\n\n\n\n\nSession 13 - Final presentations\n\n\nThe groups present their work\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/S4-MathModel1.html",
@@ -1390,14 +1390,21 @@
     "href": "sessions/S6-MathModel3.html",
     "title": "Session 06 - Mathematical Modeling Part 3",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nShow consensus VAST model + my implementation\n60\n\n\n\nIn groups: Develop extension\n60"
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate subfolder literature in the homework repository and add van Dongen paper PDF\nCreate subfolder homework/03-Productive_explanations in the homework repository"
   },
   {
     "objectID": "sessions/S6-MathModel3.html#overview",
     "href": "sessions/S6-MathModel3.html#overview",
     "title": "Session 06 - Mathematical Modeling Part 3",
-    "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nShow consensus VAST model + my implementation\n60\n\n\n\nIn groups: Develop extension\n60"
+    "section": "1 Overview",
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nGroup work: Finalize tables & R implementation of atomic functions\n60\n\n\n\nFormalization: Mathematical Models 4-5\n30\nSlides, Steps 4-5\n\n\nLive coding: Plotting with ggplot2\n10\n\n\n\nGroup work: Create plot for individual functions\n40"
+  },
+  {
+    "objectID": "sessions/S6-MathModel3.html#homework-individually",
+    "href": "sessions/S6-MathModel3.html#homework-individually",
+    "title": "Session 06 - Mathematical Modeling Part 3",
+    "section": "2 Homework (individually)",
+    "text": "2 Homework (individually)\nRead: Van Dongen et al. (2024). Productive explanation: A framework for evaluating explanations in psychological science. Psychological Review. https://doi.org/10.1037/rev0000479 (available in the /literature folder):\n\nQuestion 1: What is the role an original authors should play when predictions are derived from a theory? \nQuestion 2: Are phenomena, according to Bogen and Woodward, directly observable?\n\n\n\nQuestion 3: What are two intermediate processes that are necessary for providing a productive explanation? \nQuestion 4: According to the authors, what are the three steps of productive explanation? \nQuestion 5: What does the paper identify as a limitation of verbal psychological theories compared to formal models in other scientific disciplines? \nQuestion 6: What criteria are suggested for evaluating the quality of explanations in the productive explanation framework? \nQuestion 7: Does Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?\n\n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/03-Productive_explanations and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper."
   },
   {
     "objectID": "common/lastslide.html",
@@ -1467,7 +1474,7 @@
     "href": "orga_material/call_for_submissions.html",
     "title": "Call for theory submissions",
     "section": "",
-    "text": "This is the email I sent to the colleagues in my department:\n\nSubject: We formalize your theory!\n\nBody:\nDear colleagues,\nthis semester, we want to explore something new. In my upcoming Empra (for 5th semester students), the participants get acquainted with formal modeling of psychological theories. The goal is to develop a mathematical or agent-based model of a verbal theory. In this project, …\n\nthe central phenomena are listed (What is to be explained?)\nthe verbal theory is explicated, and\na theory formalization is attempted (in a way that data can be simulated from the model).\n\nWe wanted to ask you - the colleagues in the department - if you want to submit a theory for this exercise.\nHere are some FAQs:\n\nWhat theory would be a good fit?\n\nA theory that is sufficiently precise and has a defined and not too large scope\nIts core premises are formulated in a clear and concise form on a few pages.\nThere doesn’t exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).\n\n\n\nWhat theory would not be a good fit?\n\nYou need to read three books to understand the theory.\nThe “all-encompassing theory of human nature”\nYou need a lot of expert input and judgement to fill in the gaps of the underspecified theory.\nYou need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.\n\n\n\nBut don’t the students lack domain knowledge?\nIn an ideal world, theories are so well specified that they can be formalized without further expert opinions. But as this is unrealistic in psychology, we need your input (see next question).\n\n\nWhat is my necessary commitment?\n\nProvide the written material for the theory.\nTwo or three meetings (each lasting ~2h) during the Empra’s teaching hours (XXX):\n\nMeeting 1 where you give a short overview of the theory. It should contain the following aspects:\n\nWhat is the central phenomenon that is aimed to be explained?\nHow does a typical study look like that produces the phenomenon?\n\nAn introduction to the theory that aims to explain the phenomenon.\n\nWhat is the central literature? (To get an impression of how the narrative theory is presented.)\n\nMeeting 2 where students present intermediate results and can ask questions for clarification.\n(optional) Meeting 3, where students present their results to you.\nIf you enjoy and benefit from the scientific discussion, of course more meetings are possible and welcome.\n\n\n\n\nWhat happens with the results?\nThe created models will be published with a CC-BY license. That means, you can reuse everything with a proper citation. If the models are really helpful (and more than just a vague inspiration for further work), we can think about a follow-up collaboration and write-up (where collaboration and co-authorship is offered to the student creators of the model).\n\n\nThe procedure would be as follows:\n\nWe collect candidate theories for formalization until 30.10.2023.\nWe screen all submissions and select one or two theories (depending on their complexity).\nIf your theory is selected, we will meet:\n\nFor the introductory meeting (xx.xx.2023, ~2h)\nFor the intermediate meeting (xx.xx.2024, ~2h)\nFor the results presentation (xx.xx.2024, ~2h)\n\n\nIf you want to participate, please send an email to xxx by xx.xx.2023, containing a short description of the theory (max. 200 words) and a link to a central paper describing the theory. It can be “your” theory, or an existing theory that you work with.\nA final caveat: We are aware that this collaboration requires a non-negligible time investment from you. At the same time, this is highly experimental and we cannot promise any success or even progress. But in any case we expect good scientific discussions and are convinced that the exercise is fruitful for all parties.\nIf you have any questions, drop me an email.\n\nHere are some (anonymized) reactions I got:\n\n“EPIC!”\n“A very good idea. Just trying it would fulfil my heart’s desire”\n\nAt the end, 3 theories got submitted. We discussed them and selected 1 of them, mostly based on feasibility and personal interest. (Formalizing more than 1 theory would have been impossible in the time frame of the course)."
+    "text": "This is the email I sent to the colleagues in my department:\n\nSubject: We formalize your theory!\n\nBody:\nDear colleagues,\nthis semester, we want to explore something new. In my upcoming Empra (for 5th semester students), the participants get acquainted with formal modeling of psychological theories. The goal is to develop a mathematical or agent-based model of a verbal theory. In this project, …\n\nthe central phenomena are listed (What is to be explained?)\nthe verbal theory is explicated, and\na theory formalization is attempted (in a way that data can be simulated from the model).\n\nWe wanted to ask you - the colleagues in the department - if you want to submit a theory for this exercise.\nHere are some FAQs:\n\nWhat theory would be a good fit?\n\nA theory that is sufficiently precise and has a defined and not too large scope.\nIt explains a central phenomenon, and this phenomenon is robust (i.e., replicable and generalizable across several dimensions).\nIts core premises are formulated in a clear and concise form on a few pages.\nThere doesn’t exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).\n\n\n\nWhat theory would not be a good fit?\n\nYou need to read three books to understand the theory.\nThe “all-encompassing theory of human nature”\nYou need a lot of expert input and judgement to fill in the gaps of the underspecified theory.\nYou need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.\n\n\n\nBut don’t the students lack domain knowledge?\nIn an ideal world, theories are so well specified that they can be formalized without further expert opinions. But as this is unrealistic in psychology, we need your input (see next question).\n\n\nWhat is my necessary commitment?\n\nProvide the written material for the theory.\nTwo or three meetings (each lasting ~2h) during the Empra’s teaching hours:\n\nMeeting 1 where you give a short overview of the theory. It should contain the following aspects:\n\nWhat is the central phenomenon that is aimed to be explained?\nHow does a typical study look like that produces the phenomenon?\n\nAn introduction to the theory that aims to explain the phenomenon.\n\nWhat is the central literature? (To get an impression of how the narrative theory is presented.)\n\nMeeting 2 where students present intermediate results and can ask questions for clarification.\n(optional) Meeting 3, where students present their results to you.\nIf you enjoy and benefit from the scientific discussion, of course more meetings are possible and welcome.\n\n\n\n\nWhat happens with the results?\nThe created models will be published with a CC-BY license. That means, you can reuse everything with a proper citation. If the models are really helpful (and more than just a vague inspiration for further work), we can think about a follow-up collaboration and write-up (where collaboration and co-authorship is offered to the student creators of the model).\n\n\nThe procedure would be as follows:\n\nWe collect candidate theories for formalization until 30.10.2023.\nWe screen all submissions and select one or two theories (depending on their complexity).\nIf your theory is selected, we will meet:\n\nFor the introductory meeting (xx.xx.2023, ~2h)\nFor the intermediate meeting (xx.xx.2024, ~2h)\nFor the results presentation (xx.xx.2024, ~2h)\n\n\nIf you want to participate, please send an email to xxx by xx.xx.2023, containing a short description of the theory (max. 200 words) and a link to a central paper describing the theory. It can be “your” theory, or an existing theory that you work with.\nA final caveat: We are aware that this collaboration requires a non-negligible time investment from you. At the same time, this is highly experimental and we cannot promise any success or even progress. But in any case we expect good scientific discussions and are convinced that the exercise is fruitful for all parties.\nIf you have any questions, drop me an email.\n\nHere are some (anonymized) reactions I got:\n\n“EPIC!”\n“A very good idea. Just trying it would fulfil my heart’s desire”\n\nAt the end, 3 theories got submitted. We discussed them and selected 1 of them, mostly based on feasibility and personal interest. (Formalizing more than 1 theory would have been impossible in the time frame of the course)."
   },
   {
     "objectID": "orga_material/orga_material.html",
@@ -1516,14 +1523,21 @@
     "href": "sessions/S8-MathModel5.html",
     "title": "Session 08 - Presentation of candidate theories",
     "section": "",
-    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrapup: Productive Explanations\n45\nApply the three quality criteria to our bystander formalization\n\n\nPhD students present their theoretical frameworks\n60 for each theory\n\n\n\n\n\n\nPrototypical formalization styles:\nNarrative Theory Reconstruction (NTR):\n\nStarting point: The existing verbal theory.\nMain tasks: Read and understand the narrative theory, then formalize it. Check whether a simulation can produce the target phenomenon.\nOf only minor importance: Whether the phenomenon is actually robust.\n\nTheory Construction Methodology (TCM):\n\nStarting point: A robust phenomenon.\nMain tasks:\n\nUnderstand the phenomenon (its robustness, evidence, moderating conditions, operationalizations; search for meta-analyses).\nInvent a new theory that can explain the phenomenon, or use an established theory from another domain and make necessary adjustments (could be within psychology, but also from completely different disciplines).\nCheck whether a formal model of your theory produces the phenomenon.\n\nOf only minor importance: Any existing theory that aims to explain the phenomenon. You might compare your own formal model to existing theories later.\n\n\n\n\n\nFormalization Style / Theory\nPhD A\nPhD B\nAny other C\n…\n\n\n\n\nNTR\n\n\n\n\n\n\nTCM\n\n\n\n\n\n\n\n\n\n\nHomework (individually)\nThink about which theory you want to work on: Either one of the two suggested theories, or propose another one. Next week we will form groups.\nThink about:\n\nScope: Which aspect of the theory do you want to focus on?\nTarget phenomenon\nWhich formalization style?"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nPhD students present their theoretical frameworks\n60 for each theory"
+  },
+  {
+    "objectID": "sessions/S8-MathModel5.html#overview",
+    "href": "sessions/S8-MathModel5.html#overview",
+    "title": "Session 08 - Presentation of candidate theories",
+    "section": "",
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nPhD students present their theoretical frameworks\n60 for each theory"
   },
   {
     "objectID": "sessions/S7-MathModel4.html",
     "href": "sessions/S7-MathModel4.html",
     "title": "Session 07 - Mathematical Modeling Part 4",
     "section": "",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrapup: TCM\n30\n\n\n\nFormalization: Mathematical Models 3\n60\nSlides, Steps 4-5\n\n\n\n\n\n2 Homework (individually)\nRead: Van Dongen et al. (2024). Productive explanation: A framework for evaluating explanations in psychological science. Psychological Review. https://doi.org/10.1037/rev0000479 (available in the /literature folder):\n\nQuestion 1: What is the role an original authors should play when predictions are derived from a theory? \nQuestion 2: Are phenomena, according to Bogen and Woodward, directly observable?\n\n\n\nQuestion 3: What are two intermediate processes that are necessary for providing a productive explanation? \nQuestion 4: According to the authors, what are the three steps of productive explanation? \nQuestion 5: What does the paper identify as a limitation of verbal psychological theories compared to formal models in other scientific disciplines? \nQuestion 6: What criteria are suggested for evaluating the quality of explanations in the productive explanation framework? \nQuestion 7: Does Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?\n\n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/04-Productive_explanations and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper."
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrapup: Productive Explanations\n30\n\n\n\nFormalization: Mathematical Models 3\n60\nSlides, Steps 4-5\n\n\nLive coding:"
   },
   {
     "objectID": "sessions/S5-MathModel2.html",
@@ -2121,6 +2135,13 @@
     "text": "Creating and Using Your Own Function\n\nDefine the Function:\n\n\nget_y &lt;- function(x) {\n  y &lt;- x^2\n  return(y)\n}\n\n\nCall the Function:\n\n\ny &lt;- get_y(x=2)\nprint(y)  # Output: 4\n\nTips:\n\n\nUse meaningful and short names for functions and parameters.\nKeep functions focused on a single task.\nDocument your functions with comments (ideally with the roxygen2 documentation standard)\nAtomic functions: Each R function implements exactly one functional relationship of your model."
   },
   {
+    "objectID": "lectures/MathModel/MathModel.html#vectorization",
+    "href": "lectures/MathModel/MathModel.html#vectorization",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Vectorization",
+    "text": "Vectorization\nFor our simulations, we need to ensure that our functions can handle vector inputs^*^. (Typically, all functions in R work are vectorized). This simply means, that arithmetic and logical operations are applied element-wise to all elements of a vector:\n\n# define a vector\nx &lt;- 1:5\nx\n\n[1] 1 2 3 4 5\n\n\n\nx * 2\n\n[1]  2  4  6  8 10\n\n\n\nx + 10\n\n[1] 11 12 13 14 15\n\n\n\nx^2\n\n[1]  1  4  9 16 25\n\n\n\nx &gt; 3\n\n[1] FALSE FALSE FALSE  TRUE  TRUE\n\n\n\n^*^ Parameters of the functions typically are passed as a single value, not a vector."
+  },
+  {
     "objectID": "lectures/MathModel/MathModel.html#example-with-roxygen2-documentation",
     "href": "lectures/MathModel/MathModel.html#example-with-roxygen2-documentation",
     "title": "Mathematical Modeling of Psychological Theories",
@@ -2142,88 +2163,130 @@
     "text": "roxygen2 documentation: Solution\n\n\n\n\n\n\nTipSolution\n\n\n\n#' Compute the probability to help in an emergency situation\n#' \n#' Calculate the probability of a bystander to help in a critical situation \n#' as a function of the number of passive bystanders. \n#' \n#' @param NOPB Number of passive bystanders. Ranges from 0 to infinity (discrete).\n#' @param y_0 Probability to help when no other bystanders are present (function intercept). \n#'            Ranges from 0 to 1 (continuous).\n#' @param y_final Probability to help when number of other bystanders goes to infinity. \n#'                Ranges from 0 to 1 (continuous).\n#' @param BSE_strength Strength of the bystander effect (function slope). \n#'                     Ranges from -inf to +inf (continuous); the classical \n#'                     bystander effect (i.e., decreasing probability with more bystanders) \n#'                     occurs for positive values.\n#' \n#' @return Probability to help for the given parameters. Ranges from 0 to 1 (continuous).\n\nget_p_help &lt;- function(NOPB, y_0, y_final, BSE_strength) {\n  p_help &lt;- y_final + (y_0 - y_final) * exp(-BSE_strength * NOPB)\n  return(p_help)\n}"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#apply-everything-to-your-reduced-model",
-    "href": "lectures/MathModel/MathModel.html#apply-everything-to-your-reduced-model",
+    "objectID": "lectures/MathModel/MathModel.html#step-3-apply-everything-to-your-reduced-model",
+    "href": "lectures/MathModel/MathModel.html#step-3-apply-everything-to-your-reduced-model",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": " Apply everything to your reduced model",
-    "text": "Apply everything to your reduced model\n\n\nDefine all variables of your model in the Variables Table (short name, range, scale level, semantic anchors).\nCategorize: Which variables are exogenous, which are endogenous?\n\nExogenous variables are not influenced by other variables in the model.\nEndogenous variables are influenced by other variables in the model.\n\nEvery endogenous variable is a function of all of their input parameters.\n\nCreate sensible functional relationships for every endogenous variable.\nCreate a 3rd table (below the Construct Source Table and the Variables Table), with all functional relationships.\nAdd a short comment to what extent this functional relationship has been derived from theory:\n\nDictated by theory (add IDs from the Construct Source Table as reference)\nDerived from theory\nLoosely inspired by theory\nNot based on focal theory, but rather on common sense or other theories\nNot at all\n\nAdd a short comment to what extent this functional relationship has been backed by empirical evidence.\n\nImplement the functions in R with proper roxygen2 documentation in your group’s subfolder."
+    "section": " Step 3: Apply everything to your reduced model",
+    "text": "Step 3: Apply everything to your reduced model\n\n\nDefine all variables of your model in the Variables Table (short name, range, scale level, semantic anchors).\nCategorize: Which variables are exogenous, which are endogenous?\n\nExogenous variables are not influenced by other variables in the model.\nEndogenous variables are influenced by other variables in the model\n\nEvery endogenous variable is a function of all of their input parameters.\n\nCreate sensible functional relationships for every endogenous variable.\nCreate a 3rd table (below the Construct Source Table and the Variables Table), with all functional relationships.\nAdd a short comment to what extent this functional relationship has been derived from theory (see response scale in Google doc)\n\nAdd a short comment to what extent this functional relationship has been backed by empirical evidence.\n\nImplement the functions in R with proper roxygen2 documentation in your group’s subfolder.\n\n\n\nSuggested response scale for “To what extent derived from theory?”:\n\nDictated by theory (add IDs from the Construct Source Table as reference)\nDerived from theory\nLoosely inspired by theory\nNot based on focal theory, but rather on common sense or other theories\nNot at all"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#step-3-implement-the-functions-in-r-1",
-    "href": "lectures/MathModel/MathModel.html#step-3-implement-the-functions-in-r-1",
+    "objectID": "lectures/MathModel/MathModel.html#step-4-plot-relationships-1",
+    "href": "lectures/MathModel/MathModel.html#step-4-plot-relationships-1",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 3: Implement the functions in R",
-    "text": "Step 3: Implement the functions in R\n\nPlots single relationships\nDone as live demo: Plot the atomic functions in the reasonable rango of parameters to explore and understand their behavior.\nGuiding questions:\n\nIs the resulting functional form plausible across all parameter combinations?\nCould it be simplified? (There’s often a tendency to make the functions overly complex).\n\nE.g., by fixing some parameters.\n\nOccams razor: Prefer simpler functions over more complex ones, if they explain the phenomenon equally well."
+    "section": "Step 4: Plot relationships",
+    "text": "Step 4: Plot relationships\n\n4a: Create a data frame with combinations of input variables and parameters\nPlot main input variable on the x-axis, output variable on the y-axis.\nModerating input variables and parameters can be represented by faceting (small multiples), color coding, or shapes.\n\ncontinuous (typically on the x-axis): use seq(from, to, by), can be fine-grained\ncategorical (colors, shapes, facets): use c(level1, level2, level3), typically only a few levels\n\nnaturally categorical\ncontinuous ➙ “pick-a-point” with few relevant levels"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#step-3-implement-the-functions-in-r-2",
-    "href": "lectures/MathModel/MathModel.html#step-3-implement-the-functions-in-r-2",
+    "objectID": "lectures/MathModel/MathModel.html#step-4-plot-relationships-2",
+    "href": "lectures/MathModel/MathModel.html#step-4-plot-relationships-2",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 3: Implement the functions in R",
-    "text": "Step 3: Implement the functions in R\n\nPut everything together\nConnect all functions to one “super-function”, which takes all exogenous variables as input and computes the focal output variable(s).\nTest the super-function:\n\nEnter some reasonable combinations of parameters\nDraw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis."
+    "section": "Step 4: Plot relationships",
+    "text": "Step 4: Plot relationships\n\n4a: Create a data frame with combinations of input variables and parameters\nUse the expand.grid() function to create all possible combination of a set of variables (the first varies fastest, the last varies slowest):\n\n# Add all factors as arguments:\ndf &lt;- expand.grid(\n  F1 = c(\"A\", \"B\"), \n  F2 = c(1, 2, 3),\n  F3 = c(TRUE, FALSE)\n)\nprint(df)\n\n   F1 F2    F3\n1   A  1  TRUE\n2   B  1  TRUE\n3   A  2  TRUE\n4   B  2  TRUE\n5   A  3  TRUE\n6   B  3  TRUE\n7   A  1 FALSE\n8   B  1 FALSE\n9   A  2 FALSE\n10  B  2 FALSE\n11  A  3 FALSE\n12  B  3 FALSE"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#step-4-excursus-fitting-the-functions-to-empirical-data-1",
-    "href": "lectures/MathModel/MathModel.html#step-4-excursus-fitting-the-functions-to-empirical-data-1",
+    "objectID": "lectures/MathModel/MathModel.html#step-4-plot-relationships-3",
+    "href": "lectures/MathModel/MathModel.html#step-4-plot-relationships-3",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 4 (Excursus): Fitting the functions to empirical data",
-    "text": "Step 4 (Excursus): Fitting the functions to empirical data\n\n\nWe can tune our free parameters to fit the model as good as possible to empirical data. This is called model fitting.\nSee the Find-a-fit app for an example of a simple linear regression with two parameters (intercept and slope) that are fitted by an optimization algorithm:"
+    "section": "Step 4: Plot relationships",
+    "text": "Step 4: Plot relationships\n\n4a: Create a data frame with combinations of input variables and parameters\nDo this for all relevant input variables and parameters of your function.\n\n#' Compute the probability to help in an emergency situation\nget_p_help &lt;- function(NOPB, y_0, y_final, BSE_strength) {\n  p_help &lt;- y_final + (y_0 - y_final) * exp(-BSE_strength * NOPB)\n  return(p_help)\n}\n\n\ndf &lt;- expand.grid(\n  NOPB         = seq(0, 10, by=1),\n  y_0          = c(0.7, 0.8, 0.9),\n  y_final      = c(0, 0.1, 0.2),\n  BSE_strength = c(0.3, 0.5)\n)\nprint(head(df, 13))\n\n   NOPB y_0 y_final BSE_strength\n1     0 0.7       0          0.3\n2     1 0.7       0          0.3\n3     2 0.7       0          0.3\n4     3 0.7       0          0.3\n5     4 0.7       0          0.3\n6     5 0.7       0          0.3\n7     6 0.7       0          0.3\n8     7 0.7       0          0.3\n9     8 0.7       0          0.3\n10    9 0.7       0          0.3\n11   10 0.7       0          0.3\n12    0 0.8       0          0.3\n13    1 0.8       0          0.3"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#step-4-excursus-fitting-the-functions-to-empirical-data-2",
-    "href": "lectures/MathModel/MathModel.html#step-4-excursus-fitting-the-functions-to-empirical-data-2",
+    "objectID": "lectures/MathModel/MathModel.html#step-4-plot-relationships-4",
+    "href": "lectures/MathModel/MathModel.html#step-4-plot-relationships-4",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 4 (Excursus): Fitting the functions to empirical data",
-    "text": "Step 4 (Excursus): Fitting the functions to empirical data\n(Live demo how our exponential fit function could be fitted to empirical data)"
+    "section": "Step 4: Plot relationships",
+    "text": "Step 4: Plot relationships\n\n4b: Compute output variable\n\ndf &lt;- expand.grid(\n  NOPB         = seq(0, 10, by=1),\n  y_0          = c(0.7, 0.8, 0.9),\n  y_final      = c(0, 0.1, 0.2),\n  BSE_strength = c(0.3, 0.5)\n)\n\n# compute the output variable\n# (vectorized function application)\ndf$p_help &lt;- get_p_help(\n  NOPB = df$NOPB, \n  y_0 = df$y_0,\n  y_final = df$y_final, \n  BSE_strength = df$BSE_strength\n)\n\nprint(head(df, 20))\n\n   NOPB y_0 y_final BSE_strength     p_help\n1     0 0.7       0          0.3 0.70000000\n2     1 0.7       0          0.3 0.51857275\n3     2 0.7       0          0.3 0.38416815\n4     3 0.7       0          0.3 0.28459876\n5     4 0.7       0          0.3 0.21083595\n6     5 0.7       0          0.3 0.15619111\n7     6 0.7       0          0.3 0.11570922\n8     7 0.7       0          0.3 0.08571950\n9     8 0.7       0          0.3 0.06350257\n10    9 0.7       0          0.3 0.04704386\n11   10 0.7       0          0.3 0.03485095\n12    0 0.8       0          0.3 0.80000000\n13    1 0.8       0          0.3 0.59265458\n14    2 0.8       0          0.3 0.43904931\n15    3 0.8       0          0.3 0.32525573\n16    4 0.8       0          0.3 0.24095537\n17    5 0.8       0          0.3 0.17850413\n18    6 0.8       0          0.3 0.13223911\n19    7 0.8       0          0.3 0.09796514\n20    8 0.8       0          0.3 0.07257436"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-1",
-    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-1",
+    "objectID": "lectures/MathModel/MathModel.html#step-4-plot-relationships-5",
+    "href": "lectures/MathModel/MathModel.html#step-4-plot-relationships-5",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n\n5a: Create a design matrix for experimental factors\nCreate a design matrix for all possible combinations of experimental factors (i.e., those variables that you control/manipulate at specific levels).\nThe expand.grid() function in R comes as a handy tool for fully crossed factors (the first factor varies fastest, the last factor varies slowest):\n\n\n\n# Add all factors as arguments:\ndf &lt;- expand.grid(\n  F1 = c(\"A\", \"B\"), \n  F2 = c(1, 2, 3),\n  F3 = c(TRUE, FALSE)\n)\n\n\n\n\n   F1 F2    F3\n1   A  1  TRUE\n2   B  1  TRUE\n3   A  2  TRUE\n4   B  2  TRUE\n5   A  3  TRUE\n6   B  3  TRUE\n7   A  1 FALSE\n8   B  1 FALSE\n9   A  2 FALSE\n10  B  2 FALSE\n11  A  3 FALSE\n12  B  3 FALSE"
+    "section": "Step 4: Plot relationships",
+    "text": "Step 4: Plot relationships\n\n4c: Plotting with ggplot2\n\nlibrary(ggplot2)\nggplot() +\n  geom_line(data=df, aes(x=NOPB, y=p_help, linetype=factor(BSE_strength), color=factor(y_0))) +\n  facet_grid(~ y_final) +\n  labs(\n    x = \"Number of passive bystanders (NOPB)\",\n    y = \"Probability to help\",\n    color = \"y_0 (help when no bystanders)\",\n    linetype = \"BSE strength\"\n  ) + theme_minimal()"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-2",
-    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-2",
+    "objectID": "lectures/MathModel/MathModel.html#step-4-plot-relationships-6",
+    "href": "lectures/MathModel/MathModel.html#step-4-plot-relationships-6",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n\n5a: Create a design matrix for experimental factors\n\nTo create a virtual sample, add one additional variable with a participant ID (this also determines the size of your sample):\n\n\n\nn_per_condition &lt;- 3\n\ndf &lt;- expand.grid(\n  pID     = 1:n_per_condition, \n  valence = c(\"pos\", \"neg\"), \n  speed   = c(\"slow\", \"fast\")\n)\n\n\n\n\n   pID valence speed\n1    1     pos  slow\n2    2     pos  slow\n3    3     pos  slow\n4    1     neg  slow\n5    2     neg  slow\n6    3     neg  slow\n7    1     pos  fast\n8    2     pos  fast\n9    3     pos  fast\n10   1     neg  fast\n11   2     neg  fast\n12   3     neg  fast\n\n\n\n\nWe have 12 participants overall: 3 participants in the pos/slow condition, 3 in the neg/slow condition, and so forth. Note that, although the participant ID repeats within each condition, these could be different (independent) participants if we assume a between-person design."
+    "section": "Step 4: Plot relationships",
+    "text": "Step 4: Plot relationships\n\n4a: Plotting with ggplot2: Live demo\nDone as live demo, with ggplot2: Plot the atomic functions in the reasonable range of parameters to explore and understand their behavior.\nGuiding questions:\n\nWhat is a good design for the plot?\nIs the resulting functional form plausible across all parameter combinations?\nCould it be simplified, e.g. by fixing some parameters? (There’s often a tendency to make the functions overly complex).\nOccams razor: Prefer simpler functions over more complex ones, if they explain the phenomenon equally well."
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-3",
-    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-3",
+    "objectID": "lectures/MathModel/MathModel.html#think---pair---share-10-10-20-min.",
+    "href": "lectures/MathModel/MathModel.html#think---pair---share-10-10-20-min.",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n\n5b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:\n\n\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\n\n\n\n   pID valence speed age extra\n1    1     pos  slow  28  -0.6\n2    2     pos  slow  27  -0.1\n3    3     pos  slow  19  -0.5\n4    1     neg  slow  19   0.3\n5    2     neg  slow  26   1.1\n6    3     neg  slow  20  -1.4\n7    1     pos  fast  24   0.6\n8    2     pos  fast  32   0.0\n9    3     pos  fast  33   1.0\n10   1     neg  fast  31  -0.4\n11   2     neg  fast  23   0.7\n12   3     neg  fast  29   1.7"
+    "section": " Think - Pair - Share (10 + 10 + 20 min.)",
+    "text": "Think - Pair - Share (10 + 10 + 20 min.)\n\nThink (10 min): Everybody creates (individually!) data and a plot for one of the group’s functions.\nPair (10 min): Troubleshoot and discuss your plot in the group.\nShare (20 min): Share some of your plots in the full group; reflect on problems and insights."
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-4",
-    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-4",
+    "objectID": "lectures/MathModel/MathModel.html#step-5-put-everything-together",
+    "href": "lectures/MathModel/MathModel.html#step-5-put-everything-together",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n\n5c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\):\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  28  -0.6 11.2\n2    2     pos  slow  27  -0.1  8.5\n3    3     pos  slow  19  -0.5 11.0\n4    1     neg  slow  19   0.3 14.7\n5    2     neg  slow  26   1.1 10.8\n6    3     neg  slow  20  -1.4  9.5\n7    1     pos  fast  24   0.6 11.3\n8    2     pos  fast  32   0.0  9.0\n9    3     pos  fast  33   1.0 11.6\n10   1     neg  fast  31  -0.4  7.3\n11   2     neg  fast  23   0.7  9.5\n12   3     neg  fast  29   1.7  9.4\n\n\n\n\nMake sure that the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
+    "section": "Step 5: Put everything together",
+    "text": "Step 5: Put everything together\n\nConnect all functions to one “super-function” (which we will call the \\(\\Psi\\) function), which takes all exogenous variables as input and computes the focal output variable(s): \n\n\n\n# Pseudo-code:\nget_x &lt;- function(a, b) {a*2 + b}\nget_y &lt;- function(x) {x^2}\nget_o &lt;- function(y) {sqrt(y) + 3}\n\npsi &lt;- function(a, b) {\n  x &lt;- get_x(a, b)\n  y &lt;- get_y(x)\n  o &lt;- get_o(y)\n  return(o)\n}\n\n\n\n\n\nPlot the \\(\\Psi\\)-function: Does it produce the phenomenon you intended to model?"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-5",
-    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-5",
+    "objectID": "lectures/MathModel/MathModel.html#excursus-fitting-the-functions-to-empirical-data-1",
+    "href": "lectures/MathModel/MathModel.html#excursus-fitting-the-functions-to-empirical-data-1",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n\nSources of interindividual differences\nNot every person is identical, so in reality there probably are interindividual differences at several places:\n\nin the sensors (i.e., manipulations and perceptions do not work the same for everyone)\nin the actors (i.e., people differ how internal impulses are translated into overt behavior)\ninterindividual difference variables in the model\nDifferent parameter values in the functional relationships. For example, the individual treatment effect (ITE) could vary between participants.\n\nWe can model these interindividual differences - or we assume that some of them are constant for all participants."
+    "section": "(Excursus): Fitting the functions to empirical data",
+    "text": "(Excursus): Fitting the functions to empirical data\n\n\nWe can tune our free parameters to fit the model as good as possible to empirical data. This is called model fitting.\nSee the Find-a-fit app for an example of a simple linear regression with two parameters (intercept and slope) that are fitted by an optimization algorithm:"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-6",
-    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-6",
+    "objectID": "lectures/MathModel/MathModel.html#excursus-fitting-the-functions-to-empirical-data-2",
+    "href": "lectures/MathModel/MathModel.html#excursus-fitting-the-functions-to-empirical-data-2",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n\n5c: Unexplained variance / random noise\n\nFurthermore, our models are always simplifications of reality. We can never model all relevant variables; and measurement error adds further noise. Consequently there is some unexplained variability (aka. random noise) in the system.\nAll additional sources of variation could be modeled as a single random error term pointing to the final outcome variable. This summarizes all additional sources of variation that are not explicitly modeled:\n\n\n\n\n\n\n\n\n\nG\n\n\n\nX\n\nX\n\n\n\nY\n\nY\n\n\n\nX-&gt;Y\n\n\nc  \n\n\n\n\nstart-&gt;Y"
+    "section": "(Excursus): Fitting the functions to empirical data",
+    "text": "(Excursus): Fitting the functions to empirical data\n(Live demo how our exponential fit function could be fitted to empirical data)"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-7",
-    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-7",
+    "objectID": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-1",
+    "href": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-1",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n\n5c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  28  -0.6 11.2   9.1\n2    2     pos  slow  27  -0.1  8.5   5.9\n3    3     pos  slow  19  -0.5 11.0   8.8\n4    1     neg  slow  19   0.3 14.7  17.3\n5    2     neg  slow  26   1.1 10.8  13.0\n6    3     neg  slow  20  -1.4  9.5   7.7\n7    1     pos  fast  24   0.6 11.3  12.8\n8    2     pos  fast  32   0.0  9.0  10.0\n9    3     pos  fast  33   1.0 11.6  10.3\n10   1     neg  fast  31  -0.4  7.3   8.8\n11   2     neg  fast  23   0.7  9.5   8.2\n12   3     neg  fast  29   1.7  9.4   7.3\n\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\n\n6a: Create a design matrix for experimental factors\nCreate a design matrix for all possible combinations of experimental factors (i.e., those variables that you control/manipulate at specific levels).\nThe expand.grid() function in R comes as a handy tool for fully crossed factors (the first factor varies fastest, the last factor varies slowest):\n\n\n\n# Add all factors as arguments:\ndf &lt;- expand.grid(\n  F1 = c(\"A\", \"B\"), \n  F2 = c(1, 2, 3),\n  F3 = c(TRUE, FALSE)\n)\n\n\n\n\n   F1 F2    F3\n1   A  1  TRUE\n2   B  1  TRUE\n3   A  2  TRUE\n4   B  2  TRUE\n5   A  3  TRUE\n6   B  3  TRUE\n7   A  1 FALSE\n8   B  1 FALSE\n9   A  2 FALSE\n10  B  2 FALSE\n11  A  3 FALSE\n12  B  3 FALSE"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-2",
+    "href": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-2",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\n\n6a: Create a design matrix for experimental factors\n\nTo create a virtual sample, add one additional variable with a participant ID (this also determines the size of your sample):\n\n\n\nn_per_condition &lt;- 3\n\ndf &lt;- expand.grid(\n  pID     = 1:n_per_condition, \n  valence = c(\"pos\", \"neg\"), \n  speed   = c(\"slow\", \"fast\")\n)\n\n\n\n\n   pID valence speed\n1    1     pos  slow\n2    2     pos  slow\n3    3     pos  slow\n4    1     neg  slow\n5    2     neg  slow\n6    3     neg  slow\n7    1     pos  fast\n8    2     pos  fast\n9    3     pos  fast\n10   1     neg  fast\n11   2     neg  fast\n12   3     neg  fast\n\n\n\n\nWe have 12 participants overall: 3 participants in the pos/slow condition, 3 in the neg/slow condition, and so forth. Note that, although the participant ID repeats within each condition, these could be different (independent) participants if we assume a between-person design."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-3",
+    "href": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-3",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\n\n6b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:\n\n\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\n\n\n\n   pID valence speed age extra\n1    1     pos  slow  25   0.5\n2    2     pos  slow  25  -0.1\n3    3     pos  slow  29  -0.5\n4    1     neg  slow  29  -1.8\n5    2     neg  slow  24   0.3\n6    3     neg  slow  23  -0.1\n7    1     pos  fast  23   0.6\n8    2     pos  fast  22   0.4\n9    3     pos  fast  28   0.4\n10   1     neg  fast  18   2.2\n11   2     neg  fast  24  -1.0\n12   3     neg  fast  26   1.7"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-4",
+    "href": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-4",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\n\n6c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\):\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  25   0.5  7.7\n2    2     pos  slow  25  -0.1 13.1\n3    3     pos  slow  29  -0.5  8.6\n4    1     neg  slow  29  -1.8 12.4\n5    2     neg  slow  24   0.3  8.9\n6    3     neg  slow  23  -0.1  7.3\n7    1     pos  fast  23   0.6 12.2\n8    2     pos  fast  22   0.4 10.5\n9    3     pos  fast  28   0.4 12.6\n10   1     neg  fast  18   2.2  9.5\n11   2     neg  fast  24  -1.0  7.3\n12   3     neg  fast  26   1.7 10.0\n\n\n\n\nMake sure that the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-5",
+    "href": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-5",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\n\nSources of interindividual differences\nNot every person is identical, so in reality there probably are interindividual differences at several places:\n\nin the sensors (i.e., manipulations and perceptions do not work the same for everyone)\nin the actors (i.e., people differ how internal impulses are translated into overt behavior)\ninterindividual difference variables in the model\nDifferent parameter values in the functional relationships. For example, the individual treatment effect (ITE) could vary between participants.\n\nWe can model these interindividual differences - or we assume that some of them are constant for all participants."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-6",
+    "href": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-6",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\n\n6c: Unexplained variance / random noise\n\nFurthermore, our models are always simplifications of reality. We can never model all relevant variables; and measurement error adds further noise. Consequently there is some unexplained variability (aka. random noise) in the system.\nAll additional sources of variation could be modeled as a single random error term pointing to the final outcome variable. This summarizes all additional sources of variation that are not explicitly modeled:\n\n\n\n\n\n\n\n\n\nG\n\n\n\nX\n\nX\n\n\n\nY\n\nY\n\n\n\nX-&gt;Y\n\n\nc  \n\n\n\n\nstart-&gt;Y"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-7",
+    "href": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-7",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\n\n6c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  25   0.5  7.7  13.4\n2    2     pos  slow  25  -0.1 13.1  12.7\n3    3     pos  slow  29  -0.5  8.6   5.2\n4    1     neg  slow  29  -1.8 12.4  11.1\n5    2     neg  slow  24   0.3  8.9  12.4\n6    3     neg  slow  23  -0.1  7.3   4.1\n7    1     pos  fast  23   0.6 12.2  12.5\n8    2     pos  fast  22   0.4 10.5  11.5\n9    3     pos  fast  28   0.4 12.6  14.5\n10   1     neg  fast  18   2.2  9.5   9.5\n11   2     neg  fast  24  -1.0  7.3   6.8\n12   3     neg  fast  26   1.7 10.0   9.7\n\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#group-work-20-min.-create-a-design-matrix",
@@ -2282,11 +2345,11 @@
     "text": "Group work (45 min.):Full simulation\nBased on your design matrix from the previous exercise:\n\nCompute the output variable of your model for each participant. Optionally: Add additional noise to the output variable.\nVisualize the simulated data (e.g., with ggplot2).\nPush everything to the repository.\n\n\n* Reminder: Exogenous variables are those variables in your model that have no arrows pointing towards them."
   },
   {
-    "objectID": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-8",
-    "href": "lectures/MathModel/MathModel.html#step-5-simulate-a-full-data-set-8",
+    "objectID": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-8",
+    "href": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-8",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\nSimulate this design, analog to Fischer et al. (2006): “A 2 (bystander: yes vs. no) x 2 (danger: low vs high) factorial design was employed.”\n\n\nDoes the simulated model produce the phenomenon? How large is the effect size?\nWhat happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?"
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\nSimulate this design, analog to Fischer et al. (2006): “A 2 (bystander: yes vs. no) x 2 (danger: low vs high) factorial design was employed.”\n\n\nDoes the simulated model produce the phenomenon? How large is the effect size?\nWhat happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?"
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#evaluation-of-the-model-1",
@@ -2450,6 +2513,13 @@
     "text": "Creating and Using Your Own Function\n\nDefine the Function:\n\n\nget_y &lt;- function(x) {\n  y &lt;- x^2\n  return(y)\n}\n\n\nCall the Function:\n\n\ny &lt;- get_y(x=2)\nprint(y)  # Output: 4\n\nTips:\n\n\nUse meaningful and short names for functions and parameters.\nKeep functions focused on a single task.\nDocument your functions with comments (ideally with the roxygen2 documentation standard)\nAtomic functions: Each R function implements exactly one functional relationship of your model."
   },
   {
+    "objectID": "lectures/MathModel/MathModel.slide.html#vectorization",
+    "href": "lectures/MathModel/MathModel.slide.html#vectorization",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Vectorization",
+    "text": "Vectorization\nFor our simulations, we need to ensure that our functions can handle vector inputs^*^. (Typically, all functions in R work are vectorized). This simply means, that arithmetic and logical operations are applied element-wise to all elements of a vector:\n\n\n# define a vector\nx &lt;- 1:5\nx\n\n\n[1] 1 2 3 4 5\n\n\n\n\nx * 2\n\n\n[1]  2  4  6  8 10\n\n\n\n\nx + 10\n\n\n[1] 11 12 13 14 15\n\n\n\n\nx^2\n\n\n[1]  1  4  9 16 25\n\n\n\n\nx &gt; 3\n\n\n[1] FALSE FALSE FALSE  TRUE  TRUE\n\n\n\n^*^ Parameters of the functions typically are passed as a single value, not a vector."
+  },
+  {
     "objectID": "lectures/MathModel/MathModel.slide.html#example-with-roxygen2-documentation",
     "href": "lectures/MathModel/MathModel.slide.html#example-with-roxygen2-documentation",
     "title": "Mathematical Modeling of Psychological Theories",
@@ -2471,88 +2541,137 @@
     "text": "roxygen2 documentation: Solution\n\n\n\n\n\n\n\nSolution\n\n\n#' Compute the probability to help in an emergency situation\n#' \n#' Calculate the probability of a bystander to help in a critical situation \n#' as a function of the number of passive bystanders. \n#' \n#' @param NOPB Number of passive bystanders. Ranges from 0 to infinity (discrete).\n#' @param y_0 Probability to help when no other bystanders are present (function intercept). \n#'            Ranges from 0 to 1 (continuous).\n#' @param y_final Probability to help when number of other bystanders goes to infinity. \n#'                Ranges from 0 to 1 (continuous).\n#' @param BSE_strength Strength of the bystander effect (function slope). \n#'                     Ranges from -inf to +inf (continuous); the classical \n#'                     bystander effect (i.e., decreasing probability with more bystanders) \n#'                     occurs for positive values.\n#' \n#' @return Probability to help for the given parameters. Ranges from 0 to 1 (continuous).\n\nget_p_help &lt;- function(NOPB, y_0, y_final, BSE_strength) {\n  p_help &lt;- y_final + (y_0 - y_final) * exp(-BSE_strength * NOPB)\n  return(p_help)\n}"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#apply-everything-to-your-reduced-model",
-    "href": "lectures/MathModel/MathModel.slide.html#apply-everything-to-your-reduced-model",
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-3-apply-everything-to-your-reduced-model",
+    "href": "lectures/MathModel/MathModel.slide.html#step-3-apply-everything-to-your-reduced-model",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": " Apply everything to your reduced model",
-    "text": "Apply everything to your reduced model\n\n\nDefine all variables of your model in the Variables Table (short name, range, scale level, semantic anchors).\nCategorize: Which variables are exogenous, which are endogenous?\n\nExogenous variables are not influenced by other variables in the model.\nEndogenous variables are influenced by other variables in the model.\n\nEvery endogenous variable is a function of all of their input parameters.\n\nCreate sensible functional relationships for every endogenous variable.\nCreate a 3rd table (below the Construct Source Table and the Variables Table), with all functional relationships.\nAdd a short comment to what extent this functional relationship has been derived from theory:\n\nDictated by theory (add IDs from the Construct Source Table as reference)\nDerived from theory\nLoosely inspired by theory\nNot based on focal theory, but rather on common sense or other theories\nNot at all\n\nAdd a short comment to what extent this functional relationship has been backed by empirical evidence.\n\nImplement the functions in R with proper roxygen2 documentation in your group’s subfolder."
+    "section": " Step 3: Apply everything to your reduced model",
+    "text": "Step 3: Apply everything to your reduced model\n\n\nDefine all variables of your model in the Variables Table (short name, range, scale level, semantic anchors).\nCategorize: Which variables are exogenous, which are endogenous?\n\nExogenous variables are not influenced by other variables in the model.\nEndogenous variables are influenced by other variables in the model\n\nEvery endogenous variable is a function of all of their input parameters.\n\nCreate sensible functional relationships for every endogenous variable.\nCreate a 3rd table (below the Construct Source Table and the Variables Table), with all functional relationships.\nAdd a short comment to what extent this functional relationship has been derived from theory (see response scale in Google doc)\n\nAdd a short comment to what extent this functional relationship has been backed by empirical evidence.\n\nImplement the functions in R with proper roxygen2 documentation in your group’s subfolder.\n\n\n\nSuggested response scale for “To what extent derived from theory?”:\n\nDictated by theory (add IDs from the Construct Source Table as reference)\nDerived from theory\nLoosely inspired by theory\nNot based on focal theory, but rather on common sense or other theories\nNot at all"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-1",
-    "href": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-1",
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-4-plot-relationships-1",
+    "href": "lectures/MathModel/MathModel.slide.html#step-4-plot-relationships-1",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 3: Implement the functions in R",
-    "text": "Step 3: Implement the functions in R\nPlots single relationships\nDone as live demo: Plot the atomic functions in the reasonable rango of parameters to explore and understand their behavior.\nGuiding questions:\n\nIs the resulting functional form plausible across all parameter combinations?\nCould it be simplified? (There’s often a tendency to make the functions overly complex).\n\nE.g., by fixing some parameters.\n\nOccams razor: Prefer simpler functions over more complex ones, if they explain the phenomenon equally well."
+    "section": "Step 4: Plot relationships",
+    "text": "Step 4: Plot relationships\n4a: Create a data frame with combinations of input variables and parameters\nPlot main input variable on the x-axis, output variable on the y-axis.\nModerating input variables and parameters can be represented by faceting (small multiples), color coding, or shapes.\n\ncontinuous (typically on the x-axis): use seq(from, to, by), can be fine-grained\ncategorical (colors, shapes, facets): use c(level1, level2, level3), typically only a few levels\n\nnaturally categorical\ncontinuous ➙ “pick-a-point” with few relevant levels"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-2",
-    "href": "lectures/MathModel/MathModel.slide.html#step-3-implement-the-functions-in-r-2",
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-4-plot-relationships-2",
+    "href": "lectures/MathModel/MathModel.slide.html#step-4-plot-relationships-2",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 3: Implement the functions in R",
-    "text": "Step 3: Implement the functions in R\nPut everything together\nConnect all functions to one “super-function”, which takes all exogenous variables as input and computes the focal output variable(s).\nTest the super-function:\n\nEnter some reasonable combinations of parameters\nDraw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis."
+    "section": "Step 4: Plot relationships",
+    "text": "Step 4: Plot relationships\n4a: Create a data frame with combinations of input variables and parameters\nUse the expand.grid() function to create all possible combination of a set of variables (the first varies fastest, the last varies slowest):\n\n\n# Add all factors as arguments:\ndf &lt;- expand.grid(\n  F1 = c(\"A\", \"B\"), \n  F2 = c(1, 2, 3),\n  F3 = c(TRUE, FALSE)\n)\nprint(df)\n\n\n   F1 F2    F3\n1   A  1  TRUE\n2   B  1  TRUE\n3   A  2  TRUE\n4   B  2  TRUE\n5   A  3  TRUE\n6   B  3  TRUE\n7   A  1 FALSE\n8   B  1 FALSE\n9   A  2 FALSE\n10  B  2 FALSE\n11  A  3 FALSE\n12  B  3 FALSE"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-4-excursus-fitting-the-functions-to-empirical-data-1",
-    "href": "lectures/MathModel/MathModel.slide.html#step-4-excursus-fitting-the-functions-to-empirical-data-1",
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-4-plot-relationships-3",
+    "href": "lectures/MathModel/MathModel.slide.html#step-4-plot-relationships-3",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 4 (Excursus): Fitting the functions to empirical data",
-    "text": "Step 4 (Excursus): Fitting the functions to empirical data\n\n\nWe can tune our free parameters to fit the model as good as possible to empirical data. This is called model fitting.\nSee the Find-a-fit app for an example of a simple linear regression with two parameters (intercept and slope) that are fitted by an optimization algorithm:"
+    "section": "Step 4: Plot relationships",
+    "text": "Step 4: Plot relationships\n4a: Create a data frame with combinations of input variables and parameters\nDo this for all relevant input variables and parameters of your function.\n\n#' Compute the probability to help in an emergency situation\nget_p_help &lt;- function(NOPB, y_0, y_final, BSE_strength) {\n  p_help &lt;- y_final + (y_0 - y_final) * exp(-BSE_strength * NOPB)\n  return(p_help)\n}\n\n\n\ndf &lt;- expand.grid(\n  NOPB         = seq(0, 10, by=1),\n  y_0          = c(0.7, 0.8, 0.9),\n  y_final      = c(0, 0.1, 0.2),\n  BSE_strength = c(0.3, 0.5)\n)\nprint(head(df, 13))\n\n\n   NOPB y_0 y_final BSE_strength\n1     0 0.7       0          0.3\n2     1 0.7       0          0.3\n3     2 0.7       0          0.3\n4     3 0.7       0          0.3\n5     4 0.7       0          0.3\n6     5 0.7       0          0.3\n7     6 0.7       0          0.3\n8     7 0.7       0          0.3\n9     8 0.7       0          0.3\n10    9 0.7       0          0.3\n11   10 0.7       0          0.3\n12    0 0.8       0          0.3\n13    1 0.8       0          0.3"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-4-excursus-fitting-the-functions-to-empirical-data-2",
-    "href": "lectures/MathModel/MathModel.slide.html#step-4-excursus-fitting-the-functions-to-empirical-data-2",
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-4-plot-relationships-4",
+    "href": "lectures/MathModel/MathModel.slide.html#step-4-plot-relationships-4",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 4 (Excursus): Fitting the functions to empirical data",
-    "text": "Step 4 (Excursus): Fitting the functions to empirical data\n(Live demo how our exponential fit function could be fitted to empirical data)"
+    "section": "Step 4: Plot relationships",
+    "text": "Step 4: Plot relationships\n4b: Compute output variable\n\n\ndf &lt;- expand.grid(\n  NOPB         = seq(0, 10, by=1),\n  y_0          = c(0.7, 0.8, 0.9),\n  y_final      = c(0, 0.1, 0.2),\n  BSE_strength = c(0.3, 0.5)\n)\n\n# compute the output variable\n# (vectorized function application)\ndf$p_help &lt;- get_p_help(\n  NOPB = df$NOPB, \n  y_0 = df$y_0,\n  y_final = df$y_final, \n  BSE_strength = df$BSE_strength\n)\n\nprint(head(df, 20))\n\n\n   NOPB y_0 y_final BSE_strength     p_help\n1     0 0.7       0          0.3 0.70000000\n2     1 0.7       0          0.3 0.51857275\n3     2 0.7       0          0.3 0.38416815\n4     3 0.7       0          0.3 0.28459876\n5     4 0.7       0          0.3 0.21083595\n6     5 0.7       0          0.3 0.15619111\n7     6 0.7       0          0.3 0.11570922\n8     7 0.7       0          0.3 0.08571950\n9     8 0.7       0          0.3 0.06350257\n10    9 0.7       0          0.3 0.04704386\n11   10 0.7       0          0.3 0.03485095\n12    0 0.8       0          0.3 0.80000000\n13    1 0.8       0          0.3 0.59265458\n14    2 0.8       0          0.3 0.43904931\n15    3 0.8       0          0.3 0.32525573\n16    4 0.8       0          0.3 0.24095537\n17    5 0.8       0          0.3 0.17850413\n18    6 0.8       0          0.3 0.13223911\n19    7 0.8       0          0.3 0.09796514\n20    8 0.8       0          0.3 0.07257436"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-1",
-    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-1",
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-4-plot-relationships-5",
+    "href": "lectures/MathModel/MathModel.slide.html#step-4-plot-relationships-5",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n5a: Create a design matrix for experimental factors\nCreate a design matrix for all possible combinations of experimental factors (i.e., those variables that you control/manipulate at specific levels).\nThe expand.grid() function in R comes as a handy tool for fully crossed factors (the first factor varies fastest, the last factor varies slowest):\n\n\n\n# Add all factors as arguments:\ndf &lt;- expand.grid(\n  F1 = c(\"A\", \"B\"), \n  F2 = c(1, 2, 3),\n  F3 = c(TRUE, FALSE)\n)\n\n\n\n\n   F1 F2    F3\n1   A  1  TRUE\n2   B  1  TRUE\n3   A  2  TRUE\n4   B  2  TRUE\n5   A  3  TRUE\n6   B  3  TRUE\n7   A  1 FALSE\n8   B  1 FALSE\n9   A  2 FALSE\n10  B  2 FALSE\n11  A  3 FALSE\n12  B  3 FALSE"
+    "section": "Step 4: Plot relationships",
+    "text": "Step 4: Plot relationships\n4c: Plotting with ggplot2\n\nlibrary(ggplot2)\nggplot() +\n  geom_line(data=df, aes(x=NOPB, y=p_help, linetype=factor(BSE_strength), color=factor(y_0))) +\n  facet_grid(~ y_final) +\n  labs(\n    x = \"Number of passive bystanders (NOPB)\",\n    y = \"Probability to help\",\n    color = \"y_0 (help when no bystanders)\",\n    linetype = \"BSE strength\"\n  ) + theme_minimal()"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-2",
-    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-2",
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-4-plot-relationships-5-output",
+    "href": "lectures/MathModel/MathModel.slide.html#step-4-plot-relationships-5-output",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n5a: Create a design matrix for experimental factors\n\nTo create a virtual sample, add one additional variable with a participant ID (this also determines the size of your sample):\n\n\n\nn_per_condition &lt;- 3\n\ndf &lt;- expand.grid(\n  pID     = 1:n_per_condition, \n  valence = c(\"pos\", \"neg\"), \n  speed   = c(\"slow\", \"fast\")\n)\n\n\n\n\n   pID valence speed\n1    1     pos  slow\n2    2     pos  slow\n3    3     pos  slow\n4    1     neg  slow\n5    2     neg  slow\n6    3     neg  slow\n7    1     pos  fast\n8    2     pos  fast\n9    3     pos  fast\n10   1     neg  fast\n11   2     neg  fast\n12   3     neg  fast\n\n\n\nWe have 12 participants overall: 3 participants in the pos/slow condition, 3 in the neg/slow condition, and so forth. Note that, although the participant ID repeats within each condition, these could be different (independent) participants if we assume a between-person design."
+    "section": "Step 4: Plot relationships",
+    "text": "Step 4: Plot relationships"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-3",
-    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-3",
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-4-plot-relationships-6",
+    "href": "lectures/MathModel/MathModel.slide.html#step-4-plot-relationships-6",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n5b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:\n\n\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\n\n\n\n   pID valence speed age extra\n1    1     pos  slow  28  -0.6\n2    2     pos  slow  27  -0.1\n3    3     pos  slow  19  -0.5\n4    1     neg  slow  19   0.3\n5    2     neg  slow  26   1.1\n6    3     neg  slow  20  -1.4\n7    1     pos  fast  24   0.6\n8    2     pos  fast  32   0.0\n9    3     pos  fast  33   1.0\n10   1     neg  fast  31  -0.4\n11   2     neg  fast  23   0.7\n12   3     neg  fast  29   1.7"
+    "section": "Step 4: Plot relationships",
+    "text": "Step 4: Plot relationships\n4a: Plotting with ggplot2: Live demo\nDone as live demo, with ggplot2: Plot the atomic functions in the reasonable range of parameters to explore and understand their behavior.\nGuiding questions:\n\nWhat is a good design for the plot?\nIs the resulting functional form plausible across all parameter combinations?\nCould it be simplified, e.g. by fixing some parameters? (There’s often a tendency to make the functions overly complex).\nOccams razor: Prefer simpler functions over more complex ones, if they explain the phenomenon equally well."
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-4",
-    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-4",
+    "objectID": "lectures/MathModel/MathModel.slide.html#think---pair---share-10-10-20-min.",
+    "href": "lectures/MathModel/MathModel.slide.html#think---pair---share-10-10-20-min.",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n5c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\):\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  28  -0.6 11.2\n2    2     pos  slow  27  -0.1  8.5\n3    3     pos  slow  19  -0.5 11.0\n4    1     neg  slow  19   0.3 14.7\n5    2     neg  slow  26   1.1 10.8\n6    3     neg  slow  20  -1.4  9.5\n7    1     pos  fast  24   0.6 11.3\n8    2     pos  fast  32   0.0  9.0\n9    3     pos  fast  33   1.0 11.6\n10   1     neg  fast  31  -0.4  7.3\n11   2     neg  fast  23   0.7  9.5\n12   3     neg  fast  29   1.7  9.4\n\n\n\nMake sure that the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
+    "section": " Think - Pair - Share (10 + 10 + 20 min.)",
+    "text": "Think - Pair - Share (10 + 10 + 20 min.)\n\nThink (10 min): Everybody creates (individually!) data and a plot for one of the group’s functions.\nPair (10 min): Troubleshoot and discuss your plot in the group.\nShare (20 min): Share some of your plots in the full group; reflect on problems and insights."
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-5",
-    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-5",
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-put-everything-together",
+    "href": "lectures/MathModel/MathModel.slide.html#step-5-put-everything-together",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\nSources of interindividual differences\nNot every person is identical, so in reality there probably are interindividual differences at several places:\n\nin the sensors (i.e., manipulations and perceptions do not work the same for everyone)\nin the actors (i.e., people differ how internal impulses are translated into overt behavior)\ninterindividual difference variables in the model\nDifferent parameter values in the functional relationships. For example, the individual treatment effect (ITE) could vary between participants.\n\nWe can model these interindividual differences - or we assume that some of them are constant for all participants."
+    "section": "Step 5: Put everything together",
+    "text": "Step 5: Put everything together\n\nConnect all functions to one “super-function” (which we will call the \\(\\Psi\\) function), which takes all exogenous variables as input and computes the focal output variable(s): \n\n\n\n# Pseudo-code:\nget_x &lt;- function(a, b) {a*2 + b}\nget_y &lt;- function(x) {x^2}\nget_o &lt;- function(y) {sqrt(y) + 3}\n\npsi &lt;- function(a, b) {\n  x &lt;- get_x(a, b)\n  y &lt;- get_y(x)\n  o &lt;- get_o(y)\n  return(o)\n}\n\n\n\n\nPlot the \\(\\Psi\\)-function: Does it produce the phenomenon you intended to model?"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-6",
-    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-6",
+    "objectID": "lectures/MathModel/MathModel.slide.html#excursus-fitting-the-functions-to-empirical-data-1",
+    "href": "lectures/MathModel/MathModel.slide.html#excursus-fitting-the-functions-to-empirical-data-1",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n5c: Unexplained variance / random noise\n\nFurthermore, our models are always simplifications of reality. We can never model all relevant variables; and measurement error adds further noise. Consequently there is some unexplained variability (aka. random noise) in the system.\nAll additional sources of variation could be modeled as a single random error term pointing to the final outcome variable. This summarizes all additional sources of variation that are not explicitly modeled:\n\n\n\n\n\n\n\n\n\nG\n\n\n\nX\n\nX\n\n\n\nY\n\nY\n\n\n\nX-&gt;Y\n\n\nc  \n\n\n\n\nstart-&gt;Y"
+    "section": "(Excursus): Fitting the functions to empirical data",
+    "text": "(Excursus): Fitting the functions to empirical data\n\n\nWe can tune our free parameters to fit the model as good as possible to empirical data. This is called model fitting.\nSee the Find-a-fit app for an example of a simple linear regression with two parameters (intercept and slope) that are fitted by an optimization algorithm:"
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-7",
-    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-7",
+    "objectID": "lectures/MathModel/MathModel.slide.html#excursus-fitting-the-functions-to-empirical-data-2",
+    "href": "lectures/MathModel/MathModel.slide.html#excursus-fitting-the-functions-to-empirical-data-2",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\n5c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  28  -0.6 11.2   9.1\n2    2     pos  slow  27  -0.1  8.5   5.9\n3    3     pos  slow  19  -0.5 11.0   8.8\n4    1     neg  slow  19   0.3 14.7  17.3\n5    2     neg  slow  26   1.1 10.8  13.0\n6    3     neg  slow  20  -1.4  9.5   7.7\n7    1     pos  fast  24   0.6 11.3  12.8\n8    2     pos  fast  32   0.0  9.0  10.0\n9    3     pos  fast  33   1.0 11.6  10.3\n10   1     neg  fast  31  -0.4  7.3   8.8\n11   2     neg  fast  23   0.7  9.5   8.2\n12   3     neg  fast  29   1.7  9.4   7.3\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
+    "section": "(Excursus): Fitting the functions to empirical data",
+    "text": "(Excursus): Fitting the functions to empirical data\n(Live demo how our exponential fit function could be fitted to empirical data)"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-1",
+    "href": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-1",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\n6a: Create a design matrix for experimental factors\nCreate a design matrix for all possible combinations of experimental factors (i.e., those variables that you control/manipulate at specific levels).\nThe expand.grid() function in R comes as a handy tool for fully crossed factors (the first factor varies fastest, the last factor varies slowest):\n\n\n\n# Add all factors as arguments:\ndf &lt;- expand.grid(\n  F1 = c(\"A\", \"B\"), \n  F2 = c(1, 2, 3),\n  F3 = c(TRUE, FALSE)\n)\n\n\n\n\n   F1 F2    F3\n1   A  1  TRUE\n2   B  1  TRUE\n3   A  2  TRUE\n4   B  2  TRUE\n5   A  3  TRUE\n6   B  3  TRUE\n7   A  1 FALSE\n8   B  1 FALSE\n9   A  2 FALSE\n10  B  2 FALSE\n11  A  3 FALSE\n12  B  3 FALSE"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-2",
+    "href": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-2",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\n6a: Create a design matrix for experimental factors\n\nTo create a virtual sample, add one additional variable with a participant ID (this also determines the size of your sample):\n\n\n\nn_per_condition &lt;- 3\n\ndf &lt;- expand.grid(\n  pID     = 1:n_per_condition, \n  valence = c(\"pos\", \"neg\"), \n  speed   = c(\"slow\", \"fast\")\n)\n\n\n\n\n   pID valence speed\n1    1     pos  slow\n2    2     pos  slow\n3    3     pos  slow\n4    1     neg  slow\n5    2     neg  slow\n6    3     neg  slow\n7    1     pos  fast\n8    2     pos  fast\n9    3     pos  fast\n10   1     neg  fast\n11   2     neg  fast\n12   3     neg  fast\n\n\n\nWe have 12 participants overall: 3 participants in the pos/slow condition, 3 in the neg/slow condition, and so forth. Note that, although the participant ID repeats within each condition, these could be different (independent) participants if we assume a between-person design."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-3",
+    "href": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-3",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\n6b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:\n\n\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\n\n\n\n   pID valence speed age extra\n1    1     pos  slow  25   0.5\n2    2     pos  slow  25  -0.1\n3    3     pos  slow  29  -0.5\n4    1     neg  slow  29  -1.8\n5    2     neg  slow  24   0.3\n6    3     neg  slow  23  -0.1\n7    1     pos  fast  23   0.6\n8    2     pos  fast  22   0.4\n9    3     pos  fast  28   0.4\n10   1     neg  fast  18   2.2\n11   2     neg  fast  24  -1.0\n12   3     neg  fast  26   1.7"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-4",
+    "href": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-4",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\n6c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\):\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  25   0.5  7.7\n2    2     pos  slow  25  -0.1 13.1\n3    3     pos  slow  29  -0.5  8.6\n4    1     neg  slow  29  -1.8 12.4\n5    2     neg  slow  24   0.3  8.9\n6    3     neg  slow  23  -0.1  7.3\n7    1     pos  fast  23   0.6 12.2\n8    2     pos  fast  22   0.4 10.5\n9    3     pos  fast  28   0.4 12.6\n10   1     neg  fast  18   2.2  9.5\n11   2     neg  fast  24  -1.0  7.3\n12   3     neg  fast  26   1.7 10.0\n\n\n\nMake sure that the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-5",
+    "href": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-5",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\nSources of interindividual differences\nNot every person is identical, so in reality there probably are interindividual differences at several places:\n\nin the sensors (i.e., manipulations and perceptions do not work the same for everyone)\nin the actors (i.e., people differ how internal impulses are translated into overt behavior)\ninterindividual difference variables in the model\nDifferent parameter values in the functional relationships. For example, the individual treatment effect (ITE) could vary between participants.\n\nWe can model these interindividual differences - or we assume that some of them are constant for all participants."
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-6",
+    "href": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-6",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\n6c: Unexplained variance / random noise\n\nFurthermore, our models are always simplifications of reality. We can never model all relevant variables; and measurement error adds further noise. Consequently there is some unexplained variability (aka. random noise) in the system.\nAll additional sources of variation could be modeled as a single random error term pointing to the final outcome variable. This summarizes all additional sources of variation that are not explicitly modeled:\n\n\n\n\n\n\n\n\n\nG\n\n\n\nX\n\nX\n\n\n\nY\n\nY\n\n\n\nX-&gt;Y\n\n\nc  \n\n\n\n\nstart-&gt;Y"
+  },
+  {
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-7",
+    "href": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-7",
+    "title": "Mathematical Modeling of Psychological Theories",
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\n6c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  25   0.5  7.7  13.4\n2    2     pos  slow  25  -0.1 13.1  12.7\n3    3     pos  slow  29  -0.5  8.6   5.2\n4    1     neg  slow  29  -1.8 12.4  11.1\n5    2     neg  slow  24   0.3  8.9  12.4\n6    3     neg  slow  23  -0.1  7.3   4.1\n7    1     pos  fast  23   0.6 12.2  12.5\n8    2     pos  fast  22   0.4 10.5  11.5\n9    3     pos  fast  28   0.4 12.6  14.5\n10   1     neg  fast  18   2.2  9.5   9.5\n11   2     neg  fast  24  -1.0  7.3   6.8\n12   3     neg  fast  26   1.7 10.0   9.7\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#group-work-20-min.-create-a-design-matrix",
@@ -2611,11 +2730,11 @@
     "text": "Group work (45 min.):Full simulation\nBased on your design matrix from the previous exercise:\n\nCompute the output variable of your model for each participant. Optionally: Add additional noise to the output variable.\nVisualize the simulated data (e.g., with ggplot2).\nPush everything to the repository.\n\n\n* Reminder: Exogenous variables are those variables in your model that have no arrows pointing towards them."
   },
   {
-    "objectID": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-8",
-    "href": "lectures/MathModel/MathModel.slide.html#step-5-simulate-a-full-data-set-8",
+    "objectID": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-8",
+    "href": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-8",
     "title": "Mathematical Modeling of Psychological Theories",
-    "section": "Step 5: Simulate a full data set",
-    "text": "Step 5: Simulate a full data set\nSimulate this design, analog to Fischer et al. (2006): “A 2 (bystander: yes vs. no) x 2 (danger: low vs high) factorial design was employed.”\n\n\nDoes the simulated model produce the phenomenon? How large is the effect size?\nWhat happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?"
+    "section": "Step 6: Simulate a full data set",
+    "text": "Step 6: Simulate a full data set\nSimulate this design, analog to Fischer et al. (2006): “A 2 (bystander: yes vs. no) x 2 (danger: low vs high) factorial design was employed.”\n\n\nDoes the simulated model produce the phenomenon? How large is the effect size?\nWhat happens if you change some of the functional parameters? Is the phenomenon still there? Is there a point in parameter space where the phenomenon breaks down?"
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#evaluation-of-the-model-1",
@@ -2657,7 +2776,7 @@
     "href": "lectures/VAST/VAST_Application.html#step-1-choose-your-starting-point",
     "title": "Applying VAST to an existing theory",
     "section": "Step 1: Choose your starting point",
-    "text": "Step 1: Choose your starting point\nFormalization approaches can differ in their starting point (which often are not clear-cut distinct):\n\n\nStart with an existing verbal theory, formalize it as it is.\n\n\nInterpret the verbal statements, make them more precise, visualize as a VAST display\nIgnore empirical evidence (even if a hypothesized effect has already been empirically rejected, keep it in the model)\nDo not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.\nThis approach focuses on showing the gaps (without fixing them)\n\n\nStart with robust phenomena (TCM approach), invent an explanatory theory and formal model\n\n\nIgnore existing verbal theories (which might be hard once you know them)\nThis will (potentially) lead to an alternative theory/model to the existing theory"
+    "text": "Step 1: Choose your starting point\n\n\nA: Narrative Theory Reconstruction (NTR)\n\nStarting point: The existing verbal theory.\nMain tasks: Read and understand the narrative theory, then formalize it. Check whether a simulation can produce the target phenomenon.\nOf only minor importance:\n\nWhether the phenomenon is actually robust.\nDo not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.\n\nThis approach focuses on showing the gaps (without fixing them)\n\nB: Theory Construction Methodology (TCM)\n\nStarting point: A robust phenomenon.\nMain tasks:\n\nUnderstand the phenomenon (its robustness, evidence, moderating conditions, operationalizations; search for meta-analyses).\nInvent a new theory that can explain the phenomenon, or use an established theory from another domain and make necessary adjustments (could be within psychology, but also from completely different disciplines).\nCheck whether a formal model of your theory produces the phenomenon.\n\nOf only minor importance: Any existing theory that aims to explain the phenomenon. You might compare your own formal model to existing theories later."
   },
   {
     "objectID": "lectures/VAST/VAST_Application.html#step-1-choose-your-starting-point-1",
@@ -2790,7 +2909,7 @@
     "href": "lectures/VAST/VAST_Application.slide.html#step-1-choose-your-starting-point",
     "title": "Applying VAST to an existing theory",
     "section": "Step 1: Choose your starting point",
-    "text": "Step 1: Choose your starting point\nFormalization approaches can differ in their starting point (which often are not clear-cut distinct):\n\n\nStart with an existing verbal theory, formalize it as it is.\n\n\nInterpret the verbal statements, make them more precise, visualize as a VAST display\nIgnore empirical evidence (even if a hypothesized effect has already been empirically rejected, keep it in the model)\nDo not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.\nThis approach focuses on showing the gaps (without fixing them)\n\n\nStart with robust phenomena (TCM approach), invent an explanatory theory and formal model\n\n\nIgnore existing verbal theories (which might be hard once you know them)\nThis will (potentially) lead to an alternative theory/model to the existing theory"
+    "text": "Step 1: Choose your starting point\n\n\nA: Narrative Theory Reconstruction (NTR)\n\nStarting point: The existing verbal theory.\nMain tasks: Read and understand the narrative theory, then formalize it. Check whether a simulation can produce the target phenomenon.\nOf only minor importance:\n\nWhether the phenomenon is actually robust.\nDo not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.\n\nThis approach focuses on showing the gaps (without fixing them)\n\nB: Theory Construction Methodology (TCM)\n\nStarting point: A robust phenomenon.\nMain tasks:\n\nUnderstand the phenomenon (its robustness, evidence, moderating conditions, operationalizations; search for meta-analyses).\nInvent a new theory that can explain the phenomenon, or use an established theory from another domain and make necessary adjustments (could be within psychology, but also from completely different disciplines).\nCheck whether a formal model of your theory produces the phenomenon.\n\nOf only minor importance: Any existing theory that aims to explain the phenomenon. You might compare your own formal model to existing theories later."
   },
   {
     "objectID": "lectures/VAST/VAST_Application.slide.html#step-1-choose-your-starting-point-1",

@@ -6440,25 +6440,32 @@ Felix Schönbrodt <a href="https://orcid.org/0000-0002-8282-3910" class="quarto-
 </section>
 <section id="step-1-choose-your-starting-point" class="slide level2">
 <h2>Step 1: Choose your starting point</h2>
-<p>Formalization approaches can differ in their <em>starting point</em> (which often are not clear-cut distinct):</p>
+<div class="smallest">
 <ul>
-<li><ol type="A">
-<li><strong>Start with an existing verbal theory</strong>, formalize it as it is.</li>
-</ol>
+<li>A: <strong>Narrative Theory Reconstruction (NTR)</strong>
 <ul>
-<li>Interpret the verbal statements, make them more precise, visualize as a VAST display</li>
-<li>Ignore empirical evidence (even if a hypothesized effect has already been empirically rejected, keep it in the model)</li>
+<li><em>Starting point</em>: The existing verbal theory.</li>
+<li><em>Main tasks</em>: Read and understand the narrative theory, then formalize it. Check whether a simulation can produce the target phenomenon.</li>
+<li><em>Of only minor importance</em>:
+<ul>
+<li>Whether the phenomenon is actually robust.</li>
 <li>Do not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.</li>
+</ul></li>
 <li>This approach focuses on <em>showing the gaps</em> (without fixing them)</li>
 </ul></li>
-<li><ol start="2" type="A">
-<li><strong>Start with robust phenomena (TCM approach)</strong>, invent an explanatory theory and formal model</li>
-</ol>
+<li>B: <strong>Theory Construction Methodology (TCM)</strong>
 <ul>
-<li>Ignore existing verbal theories (which might be hard once you know them)</li>
-<li>This will (potentially) lead to an alternative theory/model to the existing theory</li>
+<li><em>Starting point</em>: A robust phenomenon.</li>
+<li><em>Main tasks</em>:
+<ul>
+<li>Understand the phenomenon (its robustness, evidence, moderating conditions, operationalizations; search for meta-analyses).</li>
+<li>Invent a new theory that can explain the phenomenon, or use an established theory from another domain and make necessary adjustments (could be within psychology, but also from completely different disciplines).</li>
+<li>Check whether a formal model of your theory produces the phenomenon.</li>
+</ul></li>
+<li><em>Of only minor importance</em>: Any existing theory that aims to explain the phenomenon. You might compare your own formal model to existing theories later.</li>
 </ul></li>
 </ul>
+</div>
 </section>
 <section id="step-1-choose-your-starting-point-1" class="slide level2">
 <h2>Step 1: Choose your starting point</h2>
@@ -8072,6 +8079,44 @@ window.QuartoSupport = function () {
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")

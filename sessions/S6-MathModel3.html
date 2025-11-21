@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Consensus model">
+<meta name="description" content="Finalize and plot atomic functions; build super-function “PSI”">
 
 <title>Session 06 - Mathematical Modeling Part 3 – FOMO-Psy: Formal Modeling of Psychological Theories</title>
 <style>
@@ -141,6 +141,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">1</span> Overview</a></li>
+  <li><a href="#homework-individually" id="toc-homework-individually" class="nav-link" data-scroll-target="#homework-individually"><span class="header-section-number">2</span> Homework (individually)</a></li>
   </ul>
 </nav>
     </div>
@@ -154,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Consensus model
+    Finalize and plot atomic functions; build super-function “PSI”
   </div>
 </div>
 
@@ -171,14 +172,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="callout callout-style-default callout-note callout-titled" title="Instructor notes">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Instructor notes
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Create subfolder <code>literature</code> in the <a href="https://github.com/nicebread/FOMO-homework-2025">homework repository</a> and add van Dongen paper PDF</li>
+<li>Create subfolder <code>homework/03-Productive_explanations</code> in the <a href="https://github.com/nicebread/FOMO-homework-2025">homework repository</a></li>
+</ul>
+</div>
+</div>
+</div>
 <section id="overview" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="overview"><span class="header-section-number">1</span> Overview</h2>
 <table class="table-striped caption-top table">
-<colgroup>
-<col style="width: 60%">
-<col style="width: 6%">
-<col style="width: 32%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Topic</th>
@@ -188,17 +203,47 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Show consensus VAST model + my implementation</td>
+<td>Group work: Finalize tables &amp; R implementation of atomic functions</td>
 <td>60</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>In groups: Develop extension</td>
-<td>60</td>
+<td>Formalization: <strong>Mathematical Models 4-5</strong></td>
+<td>30</td>
+<td><a href="../lectures/MathModel/MathModel.html">Slides</a>, Steps 4-5</td>
+</tr>
+<tr class="odd">
+<td>Live coding: Plotting with ggplot2</td>
+<td>10</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Group work: Create plot for individual functions</td>
+<td>40</td>
 <td></td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="homework-individually" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="homework-individually"><span class="header-section-number">2</span> Homework (individually)</h2>
+<p>Read: Van Dongen et al.&nbsp;(2024). Productive explanation: A framework for evaluating explanations in psychological science. <em>Psychological Review</em>. <a href="https://doi.org/10.1037/rev0000479">https://doi.org/10.1037/rev0000479</a> (available in the <code>/literature</code> folder):</p>
+<ul>
+<li><p><strong>Question 1:</strong> What is the role an original authors should play when predictions are derived from a theory? <!-- Answer: None. --></p></li>
+<li><p><strong>Question 2:</strong> Are phenomena, according to Bogen and Woodward, directly observable?</p></li>
+</ul>
+<!-- Answer: No. Although they are *established* by evidence from observations, they transcend any particular set of structured or unstructured data. -->
+<ul>
+<li><p><strong>Question 3:</strong> What are two intermediate processes that are necessary for providing a productive explanation? <!-- - **Answer:** "Productive explanation provides a clear connection between a verbal theory and a phenomenon through the use of two intermediaries (a) a formal model that is an explication of the theory and (b) a statistical pattern that represents the phenomenon." (Page 5) --></p></li>
+<li><p><strong>Question 4:</strong> According to the authors, what are the three steps of productive explanation? <!-- - **Answer:** "1. Represent the phenomenon as a statistical pattern, 2. Explicate the verbal theory as a formal model, 3. Evaluate whether the formal model produces the statistical pattern." (Page 5) --></p></li>
+<li><p><strong>Question 5:</strong> What does the paper identify as a limitation of verbal psychological theories compared to formal models in other scientific disciplines? <!-- - **Answer:** "However, the fact that the theory is purely verbal in character makes it hard to evaluate what exactly is implied by the theory. As a result, it is difficult to assess whether the theory indeed explains a certain phenomenon." (Page 2) --></p></li>
+<li><p><strong>Question 6:</strong> What criteria are suggested for evaluating the <em>quality</em> of explanations in the productive explanation framework? <!-- - **Answer:** "The first criterion, precision, refers to the strength of the theoretical anchor between verbal theory and formal model. The second criterion is robustness: it specifies to what extent the formal models consistent with the verbal theory produce the phenomenon. Finally, empirical relevance captures to what extent the theory is necessary for the explanation of the phenomenon." (Page 9) --></p></li>
+<li><p><strong>Question 7:</strong> Does Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?</p></li>
+</ul>
+<!-- Answer: 
+With the specifically chosen parameters: Yes. But it "depends on a quite delicate balance between parameters that characterize the interplay between task demand and willpower." 
+ -->
+<p><strong>Deliverable</strong>: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to <code>homework/03-Productive_explanations</code> and upload an <code>.md</code> file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper.</p>
 
 
 </section>

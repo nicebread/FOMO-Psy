@@ -254,53 +254,78 @@ window.Quarto = {
   <li><a href="#excursus-functions-in-r" id="toc-excursus-functions-in-r" class="nav-link" data-scroll-target="#excursus-functions-in-r">Excursus: Functions in R</a></li>
   <li><a href="#anatomy-of-an-r-function" id="toc-anatomy-of-an-r-function" class="nav-link" data-scroll-target="#anatomy-of-an-r-function">Anatomy of an R Function</a></li>
   <li><a href="#creating-and-using-your-own-function" id="toc-creating-and-using-your-own-function" class="nav-link" data-scroll-target="#creating-and-using-your-own-function">Creating and Using Your Own Function</a></li>
+  <li><a href="#vectorization" id="toc-vectorization" class="nav-link" data-scroll-target="#vectorization">Vectorization</a></li>
   <li><a href="#example-with-roxygen2-documentation" id="toc-example-with-roxygen2-documentation" class="nav-link" data-scroll-target="#example-with-roxygen2-documentation">Example with roxygen2 documentation</a></li>
   <li><a href="#exercise-document-our-exponential-decay-function" id="toc-exercise-document-our-exponential-decay-function" class="nav-link" data-scroll-target="#exercise-document-our-exponential-decay-function"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Exercise: Document our exponential decay function</a></li>
   <li><a href="#roxygen2-documentation-solution" id="toc-roxygen2-documentation-solution" class="nav-link" data-scroll-target="#roxygen2-documentation-solution">roxygen2 documentation: Solution</a></li>
-  <li><a href="#apply-everything-to-your-reduced-model" id="toc-apply-everything-to-your-reduced-model" class="nav-link" data-scroll-target="#apply-everything-to-your-reduced-model"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Apply everything to your reduced model</a></li>
-  <li><a href="#step-3-implement-the-functions-in-r-1" id="toc-step-3-implement-the-functions-in-r-1" class="nav-link" data-scroll-target="#step-3-implement-the-functions-in-r-1">Step 3: Implement the functions in R</a>
-  <ul class="collapse">
-  <li><a href="#plots-single-relationships" id="toc-plots-single-relationships" class="nav-link" data-scroll-target="#plots-single-relationships">Plots single relationships</a></li>
+  <li><a href="#step-3-apply-everything-to-your-reduced-model" id="toc-step-3-apply-everything-to-your-reduced-model" class="nav-link" data-scroll-target="#step-3-apply-everything-to-your-reduced-model"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Step 3: Apply everything to your reduced model</a></li>
   </ul></li>
-  <li><a href="#step-3-implement-the-functions-in-r-2" id="toc-step-3-implement-the-functions-in-r-2" class="nav-link" data-scroll-target="#step-3-implement-the-functions-in-r-2">Step 3: Implement the functions in R</a>
+  <li><a href="#step-4-plot-relationships" id="toc-step-4-plot-relationships" class="nav-link" data-scroll-target="#step-4-plot-relationships">Step 4: Plot relationships</a>
   <ul class="collapse">
-  <li><a href="#put-everything-together" id="toc-put-everything-together" class="nav-link" data-scroll-target="#put-everything-together">Put everything together</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#step-4-excursus-fitting-the-functions-to-empirical-data" id="toc-step-4-excursus-fitting-the-functions-to-empirical-data" class="nav-link" data-scroll-target="#step-4-excursus-fitting-the-functions-to-empirical-data">Step 4 (Excursus): Fitting the functions to empirical data</a>
+  <li><a href="#step-4-plot-relationships-1" id="toc-step-4-plot-relationships-1" class="nav-link" data-scroll-target="#step-4-plot-relationships-1">Step 4: Plot relationships</a>
   <ul class="collapse">
-  <li><a href="#step-4-excursus-fitting-the-functions-to-empirical-data-1" id="toc-step-4-excursus-fitting-the-functions-to-empirical-data-1" class="nav-link" data-scroll-target="#step-4-excursus-fitting-the-functions-to-empirical-data-1">Step 4 (Excursus): Fitting the functions to empirical data</a></li>
-  <li><a href="#step-4-excursus-fitting-the-functions-to-empirical-data-2" id="toc-step-4-excursus-fitting-the-functions-to-empirical-data-2" class="nav-link" data-scroll-target="#step-4-excursus-fitting-the-functions-to-empirical-data-2">Step 4 (Excursus): Fitting the functions to empirical data</a></li>
+  <li><a href="#a-create-a-data-frame-with-combinations-of-input-variables-and-parameters" id="toc-a-create-a-data-frame-with-combinations-of-input-variables-and-parameters" class="nav-link" data-scroll-target="#a-create-a-data-frame-with-combinations-of-input-variables-and-parameters">4a: Create a data frame with combinations of input variables and parameters</a></li>
   </ul></li>
-  <li><a href="#step-5-simulate-a-full-data-set" id="toc-step-5-simulate-a-full-data-set" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set">Step 5: Simulate a full data set</a>
+  <li><a href="#step-4-plot-relationships-2" id="toc-step-4-plot-relationships-2" class="nav-link" data-scroll-target="#step-4-plot-relationships-2">Step 4: Plot relationships</a>
   <ul class="collapse">
-  <li><a href="#step-5-simulate-a-full-data-set-1" id="toc-step-5-simulate-a-full-data-set-1" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-1">Step 5: Simulate a full data set</a>
-  <ul class="collapse">
-  <li><a href="#a-create-a-design-matrix-for-experimental-factors" id="toc-a-create-a-design-matrix-for-experimental-factors" class="nav-link" data-scroll-target="#a-create-a-design-matrix-for-experimental-factors">5a: Create a design matrix for experimental factors</a></li>
+  <li><a href="#a-create-a-data-frame-with-combinations-of-input-variables-and-parameters-1" id="toc-a-create-a-data-frame-with-combinations-of-input-variables-and-parameters-1" class="nav-link" data-scroll-target="#a-create-a-data-frame-with-combinations-of-input-variables-and-parameters-1">4a: Create a data frame with combinations of input variables and parameters</a></li>
   </ul></li>
-  <li><a href="#step-5-simulate-a-full-data-set-2" id="toc-step-5-simulate-a-full-data-set-2" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-2">Step 5: Simulate a full data set</a>
+  <li><a href="#step-4-plot-relationships-3" id="toc-step-4-plot-relationships-3" class="nav-link" data-scroll-target="#step-4-plot-relationships-3">Step 4: Plot relationships</a>
   <ul class="collapse">
-  <li><a href="#a-create-a-design-matrix-for-experimental-factors-1" id="toc-a-create-a-design-matrix-for-experimental-factors-1" class="nav-link" data-scroll-target="#a-create-a-design-matrix-for-experimental-factors-1">5a: Create a design matrix for experimental factors</a></li>
+  <li><a href="#a-create-a-data-frame-with-combinations-of-input-variables-and-parameters-2" id="toc-a-create-a-data-frame-with-combinations-of-input-variables-and-parameters-2" class="nav-link" data-scroll-target="#a-create-a-data-frame-with-combinations-of-input-variables-and-parameters-2">4a: Create a data frame with combinations of input variables and parameters</a></li>
   </ul></li>
-  <li><a href="#step-5-simulate-a-full-data-set-3" id="toc-step-5-simulate-a-full-data-set-3" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-3">Step 5: Simulate a full data set</a>
+  <li><a href="#step-4-plot-relationships-4" id="toc-step-4-plot-relationships-4" class="nav-link" data-scroll-target="#step-4-plot-relationships-4">Step 4: Plot relationships</a>
   <ul class="collapse">
-  <li><a href="#b-simulate-random-observed-variables" id="toc-b-simulate-random-observed-variables" class="nav-link" data-scroll-target="#b-simulate-random-observed-variables">5b: Simulate random observed variables</a></li>
+  <li><a href="#b-compute-output-variable" id="toc-b-compute-output-variable" class="nav-link" data-scroll-target="#b-compute-output-variable">4b: Compute output variable</a></li>
   </ul></li>
-  <li><a href="#step-5-simulate-a-full-data-set-4" id="toc-step-5-simulate-a-full-data-set-4" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-4">Step 5: Simulate a full data set</a>
+  <li><a href="#step-4-plot-relationships-5" id="toc-step-4-plot-relationships-5" class="nav-link" data-scroll-target="#step-4-plot-relationships-5">Step 4: Plot relationships</a>
   <ul class="collapse">
-  <li><a href="#c-compute-the-outcome-variable-i.e.-the-model-output" id="toc-c-compute-the-outcome-variable-i.e.-the-model-output" class="nav-link" data-scroll-target="#c-compute-the-outcome-variable-i.e.-the-model-output">5c: Compute the outcome variable (i.e., the model output)</a></li>
+  <li><a href="#c-plotting-with-ggplot2" id="toc-c-plotting-with-ggplot2" class="nav-link" data-scroll-target="#c-plotting-with-ggplot2">4c: Plotting with ggplot2</a></li>
   </ul></li>
-  <li><a href="#step-5-simulate-a-full-data-set-5" id="toc-step-5-simulate-a-full-data-set-5" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-5">Step 5: Simulate a full data set</a>
+  <li><a href="#step-4-plot-relationships-6" id="toc-step-4-plot-relationships-6" class="nav-link" data-scroll-target="#step-4-plot-relationships-6">Step 4: Plot relationships</a>
+  <ul class="collapse">
+  <li><a href="#a-plotting-with-ggplot2-live-demo" id="toc-a-plotting-with-ggplot2-live-demo" class="nav-link" data-scroll-target="#a-plotting-with-ggplot2-live-demo">4a: Plotting with ggplot2: Live demo</a></li>
+  </ul></li>
+  <li><a href="#think---pair---share-10-10-20-min." id="toc-think---pair---share-10-10-20-min." class="nav-link" data-scroll-target="#think---pair---share-10-10-20-min."><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Think - Pair - Share (10 + 10 + 20 min.)</a></li>
+  </ul></li>
+  <li><a href="#putting-everything-together-the-psi-function" id="toc-putting-everything-together-the-psi-function" class="nav-link" data-scroll-target="#putting-everything-together-the-psi-function">Putting everything together: The <span class="math inline">\(\Psi\)</span> function</a>
+  <ul class="collapse">
+  <li><a href="#step-5-put-everything-together" id="toc-step-5-put-everything-together" class="nav-link" data-scroll-target="#step-5-put-everything-together">Step 5: Put everything together</a></li>
+  </ul></li>
+  <li><a href="#excursus-fitting-the-functions-to-empirical-data" id="toc-excursus-fitting-the-functions-to-empirical-data" class="nav-link" data-scroll-target="#excursus-fitting-the-functions-to-empirical-data">(Excursus): Fitting the functions to empirical data</a>
+  <ul class="collapse">
+  <li><a href="#excursus-fitting-the-functions-to-empirical-data-1" id="toc-excursus-fitting-the-functions-to-empirical-data-1" class="nav-link" data-scroll-target="#excursus-fitting-the-functions-to-empirical-data-1">(Excursus): Fitting the functions to empirical data</a></li>
+  <li><a href="#excursus-fitting-the-functions-to-empirical-data-2" id="toc-excursus-fitting-the-functions-to-empirical-data-2" class="nav-link" data-scroll-target="#excursus-fitting-the-functions-to-empirical-data-2">(Excursus): Fitting the functions to empirical data</a></li>
+  </ul></li>
+  <li><a href="#step-6-simulate-a-full-data-set" id="toc-step-6-simulate-a-full-data-set" class="nav-link" data-scroll-target="#step-6-simulate-a-full-data-set">Step 6: Simulate a full data set</a>
+  <ul class="collapse">
+  <li><a href="#step-6-simulate-a-full-data-set-1" id="toc-step-6-simulate-a-full-data-set-1" class="nav-link" data-scroll-target="#step-6-simulate-a-full-data-set-1">Step 6: Simulate a full data set</a>
+  <ul class="collapse">
+  <li><a href="#a-create-a-design-matrix-for-experimental-factors" id="toc-a-create-a-design-matrix-for-experimental-factors" class="nav-link" data-scroll-target="#a-create-a-design-matrix-for-experimental-factors">6a: Create a design matrix for experimental factors</a></li>
+  </ul></li>
+  <li><a href="#step-6-simulate-a-full-data-set-2" id="toc-step-6-simulate-a-full-data-set-2" class="nav-link" data-scroll-target="#step-6-simulate-a-full-data-set-2">Step 6: Simulate a full data set</a>
+  <ul class="collapse">
+  <li><a href="#a-create-a-design-matrix-for-experimental-factors-1" id="toc-a-create-a-design-matrix-for-experimental-factors-1" class="nav-link" data-scroll-target="#a-create-a-design-matrix-for-experimental-factors-1">6a: Create a design matrix for experimental factors</a></li>
+  </ul></li>
+  <li><a href="#step-6-simulate-a-full-data-set-3" id="toc-step-6-simulate-a-full-data-set-3" class="nav-link" data-scroll-target="#step-6-simulate-a-full-data-set-3">Step 6: Simulate a full data set</a>
+  <ul class="collapse">
+  <li><a href="#b-simulate-random-observed-variables" id="toc-b-simulate-random-observed-variables" class="nav-link" data-scroll-target="#b-simulate-random-observed-variables">6b: Simulate random observed variables</a></li>
+  </ul></li>
+  <li><a href="#step-6-simulate-a-full-data-set-4" id="toc-step-6-simulate-a-full-data-set-4" class="nav-link" data-scroll-target="#step-6-simulate-a-full-data-set-4">Step 6: Simulate a full data set</a>
+  <ul class="collapse">
+  <li><a href="#c-compute-the-outcome-variable-i.e.-the-model-output" id="toc-c-compute-the-outcome-variable-i.e.-the-model-output" class="nav-link" data-scroll-target="#c-compute-the-outcome-variable-i.e.-the-model-output">6c: Compute the outcome variable (i.e., the model output)</a></li>
+  </ul></li>
+  <li><a href="#step-6-simulate-a-full-data-set-5" id="toc-step-6-simulate-a-full-data-set-5" class="nav-link" data-scroll-target="#step-6-simulate-a-full-data-set-5">Step 6: Simulate a full data set</a>
   <ul class="collapse">
   <li><a href="#sources-of-interindividual-differences" id="toc-sources-of-interindividual-differences" class="nav-link" data-scroll-target="#sources-of-interindividual-differences">Sources of interindividual differences</a></li>
   </ul></li>
-  <li><a href="#step-5-simulate-a-full-data-set-6" id="toc-step-5-simulate-a-full-data-set-6" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-6">Step 5: Simulate a full data set</a>
+  <li><a href="#step-6-simulate-a-full-data-set-6" id="toc-step-6-simulate-a-full-data-set-6" class="nav-link" data-scroll-target="#step-6-simulate-a-full-data-set-6">Step 6: Simulate a full data set</a>
   <ul class="collapse">
-  <li><a href="#c-unexplained-variance-random-noise" id="toc-c-unexplained-variance-random-noise" class="nav-link" data-scroll-target="#c-unexplained-variance-random-noise">5c: Unexplained variance / random noise</a></li>
+  <li><a href="#c-unexplained-variance-random-noise" id="toc-c-unexplained-variance-random-noise" class="nav-link" data-scroll-target="#c-unexplained-variance-random-noise">6c: Unexplained variance / random noise</a></li>
   </ul></li>
-  <li><a href="#step-5-simulate-a-full-data-set-7" id="toc-step-5-simulate-a-full-data-set-7" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-7">Step 5: Simulate a full data set</a>
+  <li><a href="#step-6-simulate-a-full-data-set-7" id="toc-step-6-simulate-a-full-data-set-7" class="nav-link" data-scroll-target="#step-6-simulate-a-full-data-set-7">Step 6: Simulate a full data set</a>
   <ul class="collapse">
-  <li><a href="#c-compute-the-outcome-variable-i.e.-the-model-output-1" id="toc-c-compute-the-outcome-variable-i.e.-the-model-output-1" class="nav-link" data-scroll-target="#c-compute-the-outcome-variable-i.e.-the-model-output-1">5c: Compute the outcome variable (i.e., the model output)</a></li>
+  <li><a href="#c-compute-the-outcome-variable-i.e.-the-model-output-1" id="toc-c-compute-the-outcome-variable-i.e.-the-model-output-1" class="nav-link" data-scroll-target="#c-compute-the-outcome-variable-i.e.-the-model-output-1">6c: Compute the outcome variable (i.e., the model output)</a></li>
   </ul></li>
   <li><a href="#group-work-20-min.-create-a-design-matrix" id="toc-group-work-20-min.-create-a-design-matrix" class="nav-link" data-scroll-target="#group-work-20-min.-create-a-design-matrix"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (20 min.):<br>Create a design matrix</a></li>
   <li><a href="#tool-the-beta-distribution" id="toc-tool-the-beta-distribution" class="nav-link" data-scroll-target="#tool-the-beta-distribution">Tool: The beta distribution</a></li>
@@ -316,7 +341,7 @@ window.Quarto = {
   </ul></li>
   <li><a href="#tool-the-distribution-zoo" id="toc-tool-the-distribution-zoo" class="nav-link" data-scroll-target="#tool-the-distribution-zoo">Tool: The Distribution Zoo</a></li>
   <li><a href="#group-work-45-min.-full-simulation" id="toc-group-work-45-min.-full-simulation" class="nav-link" data-scroll-target="#group-work-45-min.-full-simulation"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (45 min.):<br>Full simulation</a></li>
-  <li><a href="#step-5-simulate-a-full-data-set-8" id="toc-step-5-simulate-a-full-data-set-8" class="nav-link" data-scroll-target="#step-5-simulate-a-full-data-set-8">Step 5: Simulate a full data set</a></li>
+  <li><a href="#step-6-simulate-a-full-data-set-8" id="toc-step-6-simulate-a-full-data-set-8" class="nav-link" data-scroll-target="#step-6-simulate-a-full-data-set-8">Step 6: Simulate a full data set</a></li>
   </ul></li>
   <li><a href="#evaluation-of-the-model" id="toc-evaluation-of-the-model" class="nav-link" data-scroll-target="#evaluation-of-the-model">Evaluation of the model</a>
   <ul class="collapse">
@@ -807,23 +832,62 @@ Note
 </ul>
 </div>
 </section>
+<section id="vectorization" class="level2">
+<h2 class="anchored" data-anchor-id="vectorization">Vectorization</h2>
+<p>For our simulations, we need to ensure that our functions can handle vector inputs^*^. (Typically, all functions in R work are vectorized). This simply means, that arithmetic and logical operations are applied element-wise to all elements of a vector:</p>
+<div class="cell" data-layout-align="center" data-output-location="column-fragment">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># define a vector</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>x</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1 2 3 4 5</code></pre>
+</div>
+</div>
+<div class="cell" data-layout-align="center" data-output-location="column-fragment">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>x <span class="sc">*</span> <span class="dv">2</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1]  2  4  6  8 10</code></pre>
+</div>
+</div>
+<div class="cell" data-layout-align="center" data-output-location="column-fragment">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>x <span class="sc">+</span> <span class="dv">10</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 11 12 13 14 15</code></pre>
+</div>
+</div>
+<div class="cell" data-layout-align="center" data-output-location="column-fragment">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>x<span class="sc">^</span><span class="dv">2</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1]  1  4  9 16 25</code></pre>
+</div>
+</div>
+<div class="cell" data-layout-align="center" data-output-location="column-fragment">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>x <span class="sc">&gt;</span> <span class="dv">3</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE FALSE FALSE  TRUE  TRUE</code></pre>
+</div>
+</div>
+<div class="footer">
+<p>^*^ Parameters of the functions typically are passed as a single value, not a vector.</p>
+</div>
+</section>
 <section id="example-with-roxygen2-documentation" class="level2">
 <h2 class="anchored" data-anchor-id="example-with-roxygen2-documentation">Example with roxygen2 documentation</h2>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Compute the updated expected anxiety</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co">#' The expected anxiety at any given moment is a weighted average of </span></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co">#' the momentary anxiety and the previous expected anxiety.</span></span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param momentary_anxiety The momentary anxiety, on a scale from 0 to 1</span></span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1</span></span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) </span></span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="co">#'              and the previous expected anxiety (alpha=0).</span></span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="co">#' @return The updated expected anxiety, as a scalar on a scale from 0 to 1</span></span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>get_expected_anxiety <span class="ot">&lt;-</span> <span class="cf">function</span>(momentary_anxiety, previous_expected_anxiety, <span class="at">alpha=</span><span class="fl">0.5</span>) {</span>
-<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>  momentary_anxiety<span class="sc">*</span>alpha <span class="sc">+</span> previous_expected_anxiety<span class="sc">*</span>(<span class="dv">1</span><span class="sc">-</span>alpha)</span>
-<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Compute the updated expected anxiety</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="co">#' The expected anxiety at any given moment is a weighted average of </span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="co">#' the momentary anxiety and the previous expected anxiety.</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param momentary_anxiety The momentary anxiety, on a scale from 0 to 1</span></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1</span></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) </span></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a><span class="co">#'              and the previous expected anxiety (alpha=0).</span></span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a><span class="co">#' @return The updated expected anxiety, as a scalar on a scale from 0 to 1</span></span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>get_expected_anxiety <span class="ot">&lt;-</span> <span class="cf">function</span>(momentary_anxiety, previous_expected_anxiety, <span class="at">alpha=</span><span class="fl">0.5</span>) {</span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a>  momentary_anxiety<span class="sc">*</span>alpha <span class="sc">+</span> previous_expected_anxiety<span class="sc">*</span>(<span class="dv">1</span><span class="sc">-</span>alpha)</span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="smallest">
 <p><code>roxygen2</code> comments start with <code>#'</code> and are placed directly above the function definition.</p>
@@ -846,10 +910,10 @@ Note
 <li>return value.</li>
 </ul>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>get_p_help <span class="ot">&lt;-</span> <span class="cf">function</span>(NOPB, y_0, y_final, BSE_strength) {</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  p_help <span class="ot">&lt;-</span> y_final <span class="sc">+</span> (y_0 <span class="sc">-</span> y_final) <span class="sc">*</span> <span class="fu">exp</span>(<span class="sc">-</span>BSE_strength <span class="sc">*</span> NOPB)</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(p_help)</span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>get_p_help <span class="ot">&lt;-</span> <span class="cf">function</span>(NOPB, y_0, y_final, BSE_strength) {</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  p_help <span class="ot">&lt;-</span> y_final <span class="sc">+</span> (y_0 <span class="sc">-</span> y_final) <span class="sc">*</span> <span class="fu">exp</span>(<span class="sc">-</span>BSE_strength <span class="sc">*</span> NOPB)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(p_help)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="roxygen2-documentation-solution" class="level2">
@@ -864,91 +928,280 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Compute the probability to help in an emergency situation</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="co">#' </span></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co">#' Calculate the probability of a bystander to help in a critical situation </span></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co">#' as a function of the number of passive bystanders. </span></span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co">#' </span></span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param NOPB Number of passive bystanders. Ranges from 0 to infinity (discrete).</span></span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param y_0 Probability to help when no other bystanders are present (function intercept). </span></span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="co">#'            Ranges from 0 to 1 (continuous).</span></span>
-<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param y_final Probability to help when number of other bystanders goes to infinity. </span></span>
-<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="co">#'                Ranges from 0 to 1 (continuous).</span></span>
-<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param BSE_strength Strength of the bystander effect (function slope). </span></span>
-<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="co">#'                     Ranges from -inf to +inf (continuous); the classical </span></span>
-<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a><span class="co">#'                     bystander effect (i.e., decreasing probability with more bystanders) </span></span>
-<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a><span class="co">#'                     occurs for positive values.</span></span>
-<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a><span class="co">#' </span></span>
-<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a><span class="co">#' @return Probability to help for the given parameters. Ranges from 0 to 1 (continuous).</span></span>
-<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>get_p_help <span class="ot">&lt;-</span> <span class="cf">function</span>(NOPB, y_0, y_final, BSE_strength) {</span>
-<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>  p_help <span class="ot">&lt;-</span> y_final <span class="sc">+</span> (y_0 <span class="sc">-</span> y_final) <span class="sc">*</span> <span class="fu">exp</span>(<span class="sc">-</span>BSE_strength <span class="sc">*</span> NOPB)</span>
-<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(p_help)</span>
-<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Compute the probability to help in an emergency situation</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="co">#' </span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="co">#' Calculate the probability of a bystander to help in a critical situation </span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co">#' as a function of the number of passive bystanders. </span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="co">#' </span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param NOPB Number of passive bystanders. Ranges from 0 to infinity (discrete).</span></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param y_0 Probability to help when no other bystanders are present (function intercept). </span></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="co">#'            Ranges from 0 to 1 (continuous).</span></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param y_final Probability to help when number of other bystanders goes to infinity. </span></span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a><span class="co">#'                Ranges from 0 to 1 (continuous).</span></span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param BSE_strength Strength of the bystander effect (function slope). </span></span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a><span class="co">#'                     Ranges from -inf to +inf (continuous); the classical </span></span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a><span class="co">#'                     bystander effect (i.e., decreasing probability with more bystanders) </span></span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a><span class="co">#'                     occurs for positive values.</span></span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a><span class="co">#' </span></span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a><span class="co">#' @return Probability to help for the given parameters. Ranges from 0 to 1 (continuous).</span></span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a>get_p_help <span class="ot">&lt;-</span> <span class="cf">function</span>(NOPB, y_0, y_final, BSE_strength) {</span>
+<span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>  p_help <span class="ot">&lt;-</span> y_final <span class="sc">+</span> (y_0 <span class="sc">-</span> y_final) <span class="sc">*</span> <span class="fu">exp</span>(<span class="sc">-</span>BSE_strength <span class="sc">*</span> NOPB)</span>
+<span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(p_help)</span>
+<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </section>
-<section id="apply-everything-to-your-reduced-model" class="level2">
-<h2 class="anchored" data-anchor-id="apply-everything-to-your-reduced-model"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Apply everything to your reduced model</h2>
-<div class="smallest">
+<section id="step-3-apply-everything-to-your-reduced-model" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-apply-everything-to-your-reduced-model"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Step 3: Apply everything to your reduced model</h2>
+<div class="smaller">
 <ol type="1">
 <li><strong>Define</strong> all variables of your model in the Variables Table (short name, range, scale level, semantic anchors).</li>
 <li><strong>Categorize</strong>: Which variables are exogenous, which are endogenous?
 <ol type="1">
 <li>Exogenous variables are <em>not</em> influenced by other variables in the model.</li>
-<li>Endogenous variables are influenced by other variables in the model.</li>
+<li>Endogenous variables are influenced by other variables in the model</li>
 </ol></li>
 <li>Every endogenous variable is a <strong>function</strong> of all of their input parameters.
 <ol type="1">
 <li>Create sensible functional relationships for every endogenous variable.</li>
 <li>Create a 3rd table (below the Construct Source Table and the Variables Table), with all functional relationships.</li>
-<li>Add a short comment to what extent this functional relationship has been <strong>derived from theory</strong>:
+<li>Add a short comment to what extent this functional relationship has been <strong>derived from theory</strong> (see response scale in Google doc)<br>
+</li>
+<li>Add a short comment to what extent this functional relationship has been backed by empirical evidence.</li>
+</ol></li>
+<li>Implement the functions in <code>R</code> with proper <code>roxygen2</code> documentation in your group’s subfolder.</li>
+</ol>
+</div>
+<div class="notes">
+<p>Suggested response scale for “To what extent derived from theory?”:</p>
 <ol type="1">
 <li>Dictated by theory (add IDs from the Construct Source Table as reference)</li>
 <li>Derived from theory</li>
 <li>Loosely inspired by theory</li>
 <li>Not based on focal theory, but rather on common sense or other theories</li>
 <li>Not at all</li>
-</ol></li>
-<li>Add a short comment to what extent this functional relationship has been backed by empirical evidence.</li>
-</ol></li>
-<li>Implement the functions in <code>R</code> with proper <code>roxygen2</code> documentation in your group’s subfolder.</li>
 </ol>
 </div>
 </section>
-<section id="step-3-implement-the-functions-in-r-1" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-implement-the-functions-in-r-1">Step 3: Implement the functions in R</h2>
-<section id="plots-single-relationships" class="level3">
-<h3 class="anchored" data-anchor-id="plots-single-relationships">Plots single relationships</h3>
-<p>Done as live demo: Plot the atomic functions in the reasonable rango of parameters to explore and understand their behavior.</p>
+</section>
+<section id="step-4-plot-relationships" class="level1">
+<h1>Step 4: Plot relationships</h1>
+<section id="step-4-plot-relationships-1" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-plot-relationships-1">Step 4: Plot relationships</h2>
+<section id="a-create-a-data-frame-with-combinations-of-input-variables-and-parameters" class="level3">
+<h3 class="anchored" data-anchor-id="a-create-a-data-frame-with-combinations-of-input-variables-and-parameters">4a: Create a data frame with combinations of input variables and parameters</h3>
+<p>Plot main input variable on the x-axis, output variable on the y-axis.</p>
+<p>Moderating input variables and parameters can be represented by faceting (small multiples), color coding, or shapes.</p>
+<ul>
+<li>continuous (typically on the x-axis): use <code>seq(from, to, by)</code>, can be fine-grained</li>
+<li>categorical (colors, shapes, facets): use <code>c(level1, level2, level3)</code>, typically only a few levels
+<ul>
+<li>naturally categorical</li>
+<li>continuous ➙ “pick-a-point” with few relevant levels</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="step-4-plot-relationships-2" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-plot-relationships-2">Step 4: Plot relationships</h2>
+<section id="a-create-a-data-frame-with-combinations-of-input-variables-and-parameters-1" class="level3">
+<h3 class="anchored" data-anchor-id="a-create-a-data-frame-with-combinations-of-input-variables-and-parameters-1">4a: Create a data frame with combinations of input variables and parameters</h3>
+<p>Use the <code>expand.grid()</code> function to create all possible combination of a set of variables (the first varies fastest, the last varies slowest):</p>
+<div class="cell" data-layout-align="center" data-output-location="column-fragment">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add all factors as arguments:</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">F1 =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>), </span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">F2 =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>),</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">F3 =</span> <span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>)</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   F1 F2    F3
+1   A  1  TRUE
+2   B  1  TRUE
+3   A  2  TRUE
+4   B  2  TRUE
+5   A  3  TRUE
+6   B  3  TRUE
+7   A  1 FALSE
+8   B  1 FALSE
+9   A  2 FALSE
+10  B  2 FALSE
+11  A  3 FALSE
+12  B  3 FALSE</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="step-4-plot-relationships-3" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-plot-relationships-3">Step 4: Plot relationships</h2>
+<section id="a-create-a-data-frame-with-combinations-of-input-variables-and-parameters-2" class="level3">
+<h3 class="anchored" data-anchor-id="a-create-a-data-frame-with-combinations-of-input-variables-and-parameters-2">4a: Create a data frame with combinations of input variables and parameters</h3>
+<p>Do this for all relevant input variables and parameters of your function.</p>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Compute the probability to help in an emergency situation</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>get_p_help <span class="ot">&lt;-</span> <span class="cf">function</span>(NOPB, y_0, y_final, BSE_strength) {</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>  p_help <span class="ot">&lt;-</span> y_final <span class="sc">+</span> (y_0 <span class="sc">-</span> y_final) <span class="sc">*</span> <span class="fu">exp</span>(<span class="sc">-</span>BSE_strength <span class="sc">*</span> NOPB)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(p_help)</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell" data-layout-align="center" data-output-location="column-fragment">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">NOPB         =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">10</span>, <span class="at">by=</span><span class="dv">1</span>),</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_0          =</span> <span class="fu">c</span>(<span class="fl">0.7</span>, <span class="fl">0.8</span>, <span class="fl">0.9</span>),</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_final      =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.1</span>, <span class="fl">0.2</span>),</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">BSE_strength =</span> <span class="fu">c</span>(<span class="fl">0.3</span>, <span class="fl">0.5</span>)</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">head</span>(df, <span class="dv">13</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   NOPB y_0 y_final BSE_strength
+1     0 0.7       0          0.3
+2     1 0.7       0          0.3
+3     2 0.7       0          0.3
+4     3 0.7       0          0.3
+5     4 0.7       0          0.3
+6     5 0.7       0          0.3
+7     6 0.7       0          0.3
+8     7 0.7       0          0.3
+9     8 0.7       0          0.3
+10    9 0.7       0          0.3
+11   10 0.7       0          0.3
+12    0 0.8       0          0.3
+13    1 0.8       0          0.3</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="step-4-plot-relationships-4" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-plot-relationships-4">Step 4: Plot relationships</h2>
+<section id="b-compute-output-variable" class="level3">
+<h3 class="anchored" data-anchor-id="b-compute-output-variable">4b: Compute output variable</h3>
+<div class="cell" data-layout-align="center" data-output-location="column-fragment">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">NOPB         =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">10</span>, <span class="at">by=</span><span class="dv">1</span>),</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_0          =</span> <span class="fu">c</span>(<span class="fl">0.7</span>, <span class="fl">0.8</span>, <span class="fl">0.9</span>),</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_final      =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.1</span>, <span class="fl">0.2</span>),</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">BSE_strength =</span> <span class="fu">c</span>(<span class="fl">0.3</span>, <span class="fl">0.5</span>)</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a><span class="co"># compute the output variable</span></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a><span class="co"># (vectorized function application)</span></span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>p_help <span class="ot">&lt;-</span> <span class="fu">get_p_help</span>(</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">NOPB =</span> df<span class="sc">$</span>NOPB, </span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_0 =</span> df<span class="sc">$</span>y_0,</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_final =</span> df<span class="sc">$</span>y_final, </span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">BSE_strength =</span> df<span class="sc">$</span>BSE_strength</span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">head</span>(df, <span class="dv">20</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   NOPB y_0 y_final BSE_strength     p_help
+1     0 0.7       0          0.3 0.70000000
+2     1 0.7       0          0.3 0.51857275
+3     2 0.7       0          0.3 0.38416815
+4     3 0.7       0          0.3 0.28459876
+5     4 0.7       0          0.3 0.21083595
+6     5 0.7       0          0.3 0.15619111
+7     6 0.7       0          0.3 0.11570922
+8     7 0.7       0          0.3 0.08571950
+9     8 0.7       0          0.3 0.06350257
+10    9 0.7       0          0.3 0.04704386
+11   10 0.7       0          0.3 0.03485095
+12    0 0.8       0          0.3 0.80000000
+13    1 0.8       0          0.3 0.59265458
+14    2 0.8       0          0.3 0.43904931
+15    3 0.8       0          0.3 0.32525573
+16    4 0.8       0          0.3 0.24095537
+17    5 0.8       0          0.3 0.17850413
+18    6 0.8       0          0.3 0.13223911
+19    7 0.8       0          0.3 0.09796514
+20    8 0.8       0          0.3 0.07257436</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="step-4-plot-relationships-5" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-plot-relationships-5">Step 4: Plot relationships</h2>
+<section id="c-plotting-with-ggplot2" class="level3">
+<h3 class="anchored" data-anchor-id="c-plotting-with-ggplot2">4c: Plotting with ggplot2</h3>
+<div class="cell" data-layout-align="center" data-output-location="slide">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">data=</span>df, <span class="fu">aes</span>(<span class="at">x=</span>NOPB, <span class="at">y=</span>p_help, <span class="at">linetype=</span><span class="fu">factor</span>(BSE_strength), <span class="at">color=</span><span class="fu">factor</span>(y_0))) <span class="sc">+</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_grid</span>(<span class="sc">~</span> y_final) <span class="sc">+</span></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Number of passive bystanders (NOPB)"</span>,</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Probability to help"</span>,</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"y_0 (help when no bystanders)"</span>,</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">linetype =</span> <span class="st">"BSE strength"</span></span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span> <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-24-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="step-4-plot-relationships-6" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-plot-relationships-6">Step 4: Plot relationships</h2>
+<section id="a-plotting-with-ggplot2-live-demo" class="level3">
+<h3 class="anchored" data-anchor-id="a-plotting-with-ggplot2-live-demo">4a: Plotting with ggplot2: Live demo</h3>
+<p>Done as live demo, with <code>ggplot2</code>: Plot the atomic functions in the reasonable range of parameters to explore and understand their behavior.</p>
 <p>Guiding questions:</p>
 <ul>
+<li>What is a good design for the plot?</li>
 <li>Is the resulting functional form plausible across all parameter combinations?</li>
-<li>Could it be simplified? (There’s often a tendency to make the functions overly complex).
-<ul>
-<li>E.g., by fixing some parameters.</li>
-</ul></li>
+<li>Could it be simplified, e.g.&nbsp;by fixing some parameters? (There’s often a tendency to make the functions overly complex).</li>
 <li>Occams razor: Prefer simpler functions over more complex ones, if they explain the phenomenon equally well.</li>
 </ul>
 </section>
 </section>
-<section id="step-3-implement-the-functions-in-r-2" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-implement-the-functions-in-r-2">Step 3: Implement the functions in R</h2>
-<section id="put-everything-together" class="level3">
-<h3 class="anchored" data-anchor-id="put-everything-together">Put everything together</h3>
-<p>Connect all functions to one “super-function”, which takes all exogenous variables as input and computes the focal output variable(s).</p>
-<p>Test the super-function:</p>
-<ul>
-<li>Enter some reasonable combinations of parameters</li>
-<li>Draw plots where you vary one parameter on the x-axis and see the behavior of the output variable on the y-axis.</li>
-</ul>
+<section id="think---pair---share-10-10-20-min." class="level2">
+<h2 class="anchored" data-anchor-id="think---pair---share-10-10-20-min."><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Think - Pair - Share (10 + 10 + 20 min.)</h2>
+<ol type="1">
+<li>Think (10 min): Everybody creates (individually!) data and a plot for <em>one</em> of the group’s functions.</li>
+<li>Pair (10 min): Troubleshoot and discuss your plot in the group.</li>
+<li>Share (20 min): Share some of your plots in the full group; reflect on problems and insights.</li>
+</ol>
 </section>
 </section>
+<section id="putting-everything-together-the-psi-function" class="level1">
+<h1>Putting everything together: The <span class="math inline">\(\Psi\)</span> function</h1>
+<section id="step-5-put-everything-together" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-put-everything-together">Step 5: Put everything together</h2>
+<div class="smaller">
+<p>Connect all functions to one “super-function” (which we will call the <span class="hl"><span class="math inline">\(\Psi\)</span> function</span>), which takes all exogenous variables as input and computes the focal output variable(s): <br></p>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Pseudo-code:</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>get_x <span class="ot">&lt;-</span> <span class="cf">function</span>(a, b) {a<span class="sc">*</span><span class="dv">2</span> <span class="sc">+</span> b}</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>get_y <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {x<span class="sc">^</span><span class="dv">2</span>}</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>get_o <span class="ot">&lt;-</span> <span class="cf">function</span>(y) {<span class="fu">sqrt</span>(y) <span class="sc">+</span> <span class="dv">3</span>}</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>psi <span class="ot">&lt;-</span> <span class="cf">function</span>(a, b) {</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>  x <span class="ot">&lt;-</span> <span class="fu">get_x</span>(a, b)</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>  y <span class="ot">&lt;-</span> <span class="fu">get_y</span>(x)</span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>  o <span class="ot">&lt;-</span> <span class="fu">get_o</span>(y)</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(o)</span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div><div class="column" style="width:50%;">
+<p><img src="img/pseudo_psi.png" height="250"></p>
+</div>
+</div>
+<div class="smaller">
+<p>Plot the <span class="math inline">\(\Psi\)</span>-function: Does it produce the phenomenon you intended to model?</p>
+</div>
 </section>
-<section id="step-4-excursus-fitting-the-functions-to-empirical-data" class="level1">
-<h1>Step 4 (Excursus): Fitting the functions to empirical data</h1>
-<section id="step-4-excursus-fitting-the-functions-to-empirical-data-1" class="level2">
-<h2 class="anchored" data-anchor-id="step-4-excursus-fitting-the-functions-to-empirical-data-1">Step 4 (Excursus): Fitting the functions to empirical data</h2>
+</section>
+<section id="excursus-fitting-the-functions-to-empirical-data" class="level1">
+<h1>(Excursus): Fitting the functions to empirical data</h1>
+<section id="excursus-fitting-the-functions-to-empirical-data-1" class="level2">
+<h2 class="anchored" data-anchor-id="excursus-fitting-the-functions-to-empirical-data-1">(Excursus): Fitting the functions to empirical data</h2>
 <div class="columns">
 <div class="column r-fit-text" style="width:60%;">
 <p>We can tune our free parameters to fit the model as good as possible to empirical data. This is called <strong>model fitting</strong>.</p>
@@ -958,28 +1211,28 @@ Note
 </div>
 </div>
 </section>
-<section id="step-4-excursus-fitting-the-functions-to-empirical-data-2" class="level2">
-<h2 class="anchored" data-anchor-id="step-4-excursus-fitting-the-functions-to-empirical-data-2">Step 4 (Excursus): Fitting the functions to empirical data</h2>
+<section id="excursus-fitting-the-functions-to-empirical-data-2" class="level2">
+<h2 class="anchored" data-anchor-id="excursus-fitting-the-functions-to-empirical-data-2">(Excursus): Fitting the functions to empirical data</h2>
 <p>(Live demo how our exponential fit function could be fitted to empirical data)</p>
 </section>
 </section>
-<section id="step-5-simulate-a-full-data-set" class="level1">
-<h1>Step 5: Simulate a full data set</h1>
-<section id="step-5-simulate-a-full-data-set-1" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-1">Step 5: Simulate a full data set</h2>
+<section id="step-6-simulate-a-full-data-set" class="level1">
+<h1>Step 6: Simulate a full data set</h1>
+<section id="step-6-simulate-a-full-data-set-1" class="level2">
+<h2 class="anchored" data-anchor-id="step-6-simulate-a-full-data-set-1">Step 6: Simulate a full data set</h2>
 <section id="a-create-a-design-matrix-for-experimental-factors" class="level3">
-<h3 class="anchored" data-anchor-id="a-create-a-design-matrix-for-experimental-factors">5a: Create a design matrix for experimental factors</h3>
+<h3 class="anchored" data-anchor-id="a-create-a-design-matrix-for-experimental-factors">6a: Create a design matrix for experimental factors</h3>
 <p>Create a design matrix for all possible combinations of experimental factors (i.e., those variables that you control/manipulate at specific levels).</p>
 <p>The <code>expand.grid()</code> function in <code>R</code> comes as a handy tool for fully crossed factors (the first factor varies fastest, the last factor varies slowest):</p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add all factors as arguments:</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">F1 =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>), </span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">F2 =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>),</span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">F3 =</span> <span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>)</span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add all factors as arguments:</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">F1 =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>), </span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">F2 =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>),</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">F3 =</span> <span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>)</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
@@ -1003,22 +1256,22 @@ Note
 </div>
 </section>
 </section>
-<section id="step-5-simulate-a-full-data-set-2" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-2">Step 5: Simulate a full data set</h2>
+<section id="step-6-simulate-a-full-data-set-2" class="level2">
+<h2 class="anchored" data-anchor-id="step-6-simulate-a-full-data-set-2">Step 6: Simulate a full data set</h2>
 <section id="a-create-a-design-matrix-for-experimental-factors-1" class="level3">
-<h3 class="anchored" data-anchor-id="a-create-a-design-matrix-for-experimental-factors-1">5a: Create a design matrix for experimental factors</h3>
+<h3 class="anchored" data-anchor-id="a-create-a-design-matrix-for-experimental-factors-1">6a: Create a design matrix for experimental factors</h3>
 <div class="smaller">
 <p>To create a virtual sample, add one additional variable with a participant ID (this also determines the size of your sample):</p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>n_per_condition <span class="ot">&lt;-</span> <span class="dv">3</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">pID     =</span> <span class="dv">1</span><span class="sc">:</span>n_per_condition, </span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">valence =</span> <span class="fu">c</span>(<span class="st">"pos"</span>, <span class="st">"neg"</span>), </span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">speed   =</span> <span class="fu">c</span>(<span class="st">"slow"</span>, <span class="st">"fast"</span>)</span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>n_per_condition <span class="ot">&lt;-</span> <span class="dv">3</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">pID     =</span> <span class="dv">1</span><span class="sc">:</span>n_per_condition, </span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">valence =</span> <span class="fu">c</span>(<span class="st">"pos"</span>, <span class="st">"neg"</span>), </span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">speed   =</span> <span class="fu">c</span>(<span class="st">"slow"</span>, <span class="st">"fast"</span>)</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
@@ -1044,74 +1297,74 @@ Note
 </div>
 </section>
 </section>
-<section id="step-5-simulate-a-full-data-set-3" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-3">Step 5: Simulate a full data set</h2>
+<section id="step-6-simulate-a-full-data-set-3" class="level2">
+<h2 class="anchored" data-anchor-id="step-6-simulate-a-full-data-set-3">Step 6: Simulate a full data set</h2>
 <section id="b-simulate-random-observed-variables" class="level3">
-<h3 class="anchored" data-anchor-id="b-simulate-random-observed-variables">5b: Simulate random observed variables</h3>
+<h3 class="anchored" data-anchor-id="b-simulate-random-observed-variables">6b: Simulate random observed variables</h3>
 <p>Add observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:</p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="fu">nrow</span>(df)</span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>age <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n, <span class="at">mean=</span><span class="dv">26</span>, <span class="at">sd=</span><span class="dv">4</span>) <span class="sc">|&gt;</span> <span class="fu">round</span>()</span>
-<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Extraversion</span></span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="co"># z-scores: standard normal distribution</span></span>
-<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>extra <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n) <span class="sc">|&gt;</span> <span class="fu">round</span>(<span class="dv">1</span>) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="fu">nrow</span>(df)</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>age <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n, <span class="at">mean=</span><span class="dv">26</span>, <span class="at">sd=</span><span class="dv">4</span>) <span class="sc">|&gt;</span> <span class="fu">round</span>()</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Extraversion</span></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="co"># z-scores: standard normal distribution</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>extra <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n) <span class="sc">|&gt;</span> <span class="fu">round</span>(<span class="dv">1</span>) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra
-1    1     pos  slow  28  -0.6
-2    2     pos  slow  27  -0.1
-3    3     pos  slow  19  -0.5
-4    1     neg  slow  19   0.3
-5    2     neg  slow  26   1.1
-6    3     neg  slow  20  -1.4
-7    1     pos  fast  24   0.6
-8    2     pos  fast  32   0.0
-9    3     pos  fast  33   1.0
-10   1     neg  fast  31  -0.4
-11   2     neg  fast  23   0.7
-12   3     neg  fast  29   1.7</code></pre>
+1    1     pos  slow  25   0.5
+2    2     pos  slow  25  -0.1
+3    3     pos  slow  29  -0.5
+4    1     neg  slow  29  -1.8
+5    2     neg  slow  24   0.3
+6    3     neg  slow  23  -0.1
+7    1     pos  fast  23   0.6
+8    2     pos  fast  22   0.4
+9    3     pos  fast  28   0.4
+10   1     neg  fast  18   2.2
+11   2     neg  fast  24  -1.0
+12   3     neg  fast  26   1.7</code></pre>
 </div>
 </div>
 </div>
 </div>
 </section>
 </section>
-<section id="step-5-simulate-a-full-data-set-4" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-4">Step 5: Simulate a full data set</h2>
+<section id="step-6-simulate-a-full-data-set-4" class="level2">
+<h2 class="anchored" data-anchor-id="step-6-simulate-a-full-data-set-4">Step 6: Simulate a full data set</h2>
 <section id="c-compute-the-outcome-variable-i.e.-the-model-output" class="level3">
-<h3 class="anchored" data-anchor-id="c-compute-the-outcome-variable-i.e.-the-model-output">5c: Compute the outcome variable (i.e., the model output)</h3>
+<h3 class="anchored" data-anchor-id="c-compute-the-outcome-variable-i.e.-the-model-output">6c: Compute the outcome variable (i.e., the model output)</h3>
 <p>Once all input variables have been simulated, submit them to your model function and compute the outcome variable <span class="math inline">\(y\)</span>:</p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># psi() is the model function that takes </span></span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="co"># all input parameters and returns the </span></span>
-<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="co"># simulated output</span></span>
-<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y <span class="ot">&lt;-</span> <span class="fu">psi</span>(df<span class="sc">$</span>valence, df<span class="sc">$</span>speed, </span>
-<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>            df<span class="sc">$</span>age, df<span class="sc">$</span>extra)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># psi() is the model function that takes </span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="co"># all input parameters and returns the </span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="co"># simulated output</span></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y <span class="ot">&lt;-</span> <span class="fu">psi</span>(df<span class="sc">$</span>valence, df<span class="sc">$</span>speed, </span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>            df<span class="sc">$</span>age, df<span class="sc">$</span>extra)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y
-1    1     pos  slow  28  -0.6 11.2
-2    2     pos  slow  27  -0.1  8.5
-3    3     pos  slow  19  -0.5 11.0
-4    1     neg  slow  19   0.3 14.7
-5    2     neg  slow  26   1.1 10.8
-6    3     neg  slow  20  -1.4  9.5
-7    1     pos  fast  24   0.6 11.3
-8    2     pos  fast  32   0.0  9.0
-9    3     pos  fast  33   1.0 11.6
-10   1     neg  fast  31  -0.4  7.3
-11   2     neg  fast  23   0.7  9.5
-12   3     neg  fast  29   1.7  9.4</code></pre>
+1    1     pos  slow  25   0.5  7.7
+2    2     pos  slow  25  -0.1 13.1
+3    3     pos  slow  29  -0.5  8.6
+4    1     neg  slow  29  -1.8 12.4
+5    2     neg  slow  24   0.3  8.9
+6    3     neg  slow  23  -0.1  7.3
+7    1     pos  fast  23   0.6 12.2
+8    2     pos  fast  22   0.4 10.5
+9    3     pos  fast  28   0.4 12.6
+10   1     neg  fast  18   2.2  9.5
+11   2     neg  fast  24  -1.0  7.3
+12   3     neg  fast  26   1.7 10.0</code></pre>
 </div>
 </div>
 </div>
@@ -1119,8 +1372,8 @@ Note
 <p>Make sure that the <code>psi()</code> function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function).</p>
 </section>
 </section>
-<section id="step-5-simulate-a-full-data-set-5" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-5">Step 5: Simulate a full data set</h2>
+<section id="step-6-simulate-a-full-data-set-5" class="level2">
+<h2 class="anchored" data-anchor-id="step-6-simulate-a-full-data-set-5">Step 6: Simulate a full data set</h2>
 <section id="sources-of-interindividual-differences" class="level3">
 <h3 class="anchored" data-anchor-id="sources-of-interindividual-differences">Sources of interindividual differences</h3>
 <p>Not every person is identical, so in reality there probably are interindividual differences at several places:</p>
@@ -1133,10 +1386,10 @@ Note
 <p>We <strong>can</strong> model these interindividual differences - or we assume that some of them are constant for all participants.</p>
 </section>
 </section>
-<section id="step-5-simulate-a-full-data-set-6" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-6">Step 5: Simulate a full data set</h2>
+<section id="step-6-simulate-a-full-data-set-6" class="level2">
+<h2 class="anchored" data-anchor-id="step-6-simulate-a-full-data-set-6">Step 6: Simulate a full data set</h2>
 <section id="c-unexplained-variance-random-noise" class="level3">
-<h3 class="anchored" data-anchor-id="c-unexplained-variance-random-noise">5c: Unexplained variance / random noise</h3>
+<h3 class="anchored" data-anchor-id="c-unexplained-variance-random-noise">6c: Unexplained variance / random noise</h3>
 <div class="smaller">
 <p>Furthermore, our models are always simplifications of reality. We can never model all relevant variables; and measurement error adds further noise. Consequently there is some <strong>unexplained variability</strong> (aka. random noise) in the system.</p>
 <p>All additional sources of variation could be modeled as a single random error term pointing to the final outcome variable. This summarizes all additional sources of variation that are not explicitly modeled:</p>
@@ -1187,40 +1440,40 @@ Note
 </div>
 </section>
 </section>
-<section id="step-5-simulate-a-full-data-set-7" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-7">Step 5: Simulate a full data set</h2>
+<section id="step-6-simulate-a-full-data-set-7" class="level2">
+<h2 class="anchored" data-anchor-id="step-6-simulate-a-full-data-set-7">Step 6: Simulate a full data set</h2>
 <section id="c-compute-the-outcome-variable-i.e.-the-model-output-1" class="level3">
-<h3 class="anchored" data-anchor-id="c-compute-the-outcome-variable-i.e.-the-model-output-1">5c: Compute the outcome variable (i.e., the model output)</h3>
+<h3 class="anchored" data-anchor-id="c-compute-the-outcome-variable-i.e.-the-model-output-1">6c: Compute the outcome variable (i.e., the model output)</h3>
 <p>Add additional (summative) error variance to output variable:</p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># deterministic model output</span></span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y <span class="ot">&lt;-</span> <span class="fu">psi</span>(df<span class="sc">$</span>valence, df<span class="sc">$</span>speed, </span>
-<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>            df<span class="sc">$</span>age, df<span class="sc">$</span>extra)</span>
-<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Add additional noise to observed variable.</span></span>
-<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="co"># The SD of the normal distribution</span></span>
-<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a><span class="co"># determines the amount of error</span></span>
-<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y_obs <span class="ot">&lt;-</span> df<span class="sc">$</span>y <span class="sc">+</span> <span class="fu">rnorm</span>(n, <span class="at">mean=</span><span class="dv">0</span>, <span class="at">sd=</span><span class="dv">2</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>            <span class="fu">round</span>(<span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># deterministic model output</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y <span class="ot">&lt;-</span> <span class="fu">psi</span>(df<span class="sc">$</span>valence, df<span class="sc">$</span>speed, </span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>            df<span class="sc">$</span>age, df<span class="sc">$</span>extra)</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Add additional noise to observed variable.</span></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a><span class="co"># The SD of the normal distribution</span></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a><span class="co"># determines the amount of error</span></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y_obs <span class="ot">&lt;-</span> df<span class="sc">$</span>y <span class="sc">+</span> <span class="fu">rnorm</span>(n, <span class="at">mean=</span><span class="dv">0</span>, <span class="at">sd=</span><span class="dv">2</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>            <span class="fu">round</span>(<span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y y_obs
-1    1     pos  slow  28  -0.6 11.2   9.1
-2    2     pos  slow  27  -0.1  8.5   5.9
-3    3     pos  slow  19  -0.5 11.0   8.8
-4    1     neg  slow  19   0.3 14.7  17.3
-5    2     neg  slow  26   1.1 10.8  13.0
-6    3     neg  slow  20  -1.4  9.5   7.7
-7    1     pos  fast  24   0.6 11.3  12.8
-8    2     pos  fast  32   0.0  9.0  10.0
-9    3     pos  fast  33   1.0 11.6  10.3
-10   1     neg  fast  31  -0.4  7.3   8.8
-11   2     neg  fast  23   0.7  9.5   8.2
-12   3     neg  fast  29   1.7  9.4   7.3</code></pre>
+1    1     pos  slow  25   0.5  7.7  13.4
+2    2     pos  slow  25  -0.1 13.1  12.7
+3    3     pos  slow  29  -0.5  8.6   5.2
+4    1     neg  slow  29  -1.8 12.4  11.1
+5    2     neg  slow  24   0.3  8.9  12.4
+6    3     neg  slow  23  -0.1  7.3   4.1
+7    1     pos  fast  23   0.6 12.2  12.5
+8    2     pos  fast  22   0.4 10.5  11.5
+9    3     pos  fast  28   0.4 12.6  14.5
+10   1     neg  fast  18   2.2  9.5   9.5
+11   2     neg  fast  24  -1.0  7.3   6.8
+12   3     neg  fast  26   1.7 10.0   9.7</code></pre>
 </div>
 </div>
 </div>
@@ -1258,7 +1511,7 @@ Note
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-26-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-36-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1299,11 +1552,11 @@ Note
 <h3 class="anchored" data-anchor-id="approximating-a-normal-distribution-with-a-beta-distibution">Approximating a normal distribution with a beta distibution</h3>
 <p>You can generate random values in <code>R</code> with the <code>rbeta</code> function. Here’s a comparison of a normal distribution and a matched beta distribution that respects the boundaries <span class="math inline">\([0; 1]\)</span>:</p>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>x.random <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">10000</span>, <span class="at">mean=</span><span class="fl">0.2</span>, <span class="at">sd=</span><span class="fl">0.1</span>)</span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.random, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"Normal distribution (M=0.2, SD=0.1)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>x.beta <span class="ot">&lt;-</span> <span class="fu">rbeta</span>(<span class="dv">10000</span>, <span class="at">shape1=</span><span class="dv">3</span>, <span class="at">shape2=</span><span class="dv">12</span>)</span>
-<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.beta, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"beta distribution (a=3, b=12)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>x.random <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">10000</span>, <span class="at">mean=</span><span class="fl">0.2</span>, <span class="at">sd=</span><span class="fl">0.1</span>)</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.random, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"Normal distribution (M=0.2, SD=0.1)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>x.beta <span class="ot">&lt;-</span> <span class="fu">rbeta</span>(<span class="dv">10000</span>, <span class="at">shape1=</span><span class="dv">3</span>, <span class="at">shape2=</span><span class="dv">12</span>)</span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.beta, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"beta distribution (a=3, b=12)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 </section>
@@ -1316,7 +1569,7 @@ Note
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-28-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-38-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1325,7 +1578,7 @@ Note
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-28-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-38-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1356,8 +1609,8 @@ Note
 <p>* Reminder: Exogenous variables are those variables in your model that have no arrows pointing towards them.</p>
 </div>
 </section>
-<section id="step-5-simulate-a-full-data-set-8" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-simulate-a-full-data-set-8">Step 5: Simulate a full data set</h2>
+<section id="step-6-simulate-a-full-data-set-8" class="level2">
+<h2 class="anchored" data-anchor-id="step-6-simulate-a-full-data-set-8">Step 6: Simulate a full data set</h2>
 <p>Simulate this design, analog to Fischer et al.&nbsp;(2006): “A 2 (bystander: yes vs.&nbsp;no) x 2 (danger: low vs high) factorial design was employed.”</p>
 <p><img src="img/study_to_simulate.png" height="250"></p>
 <ul>
@@ -1407,12 +1660,12 @@ Note
 <!-- SPEICHER
 
 
-## Step 5: Simulate a full data set
+## Step 6: Simulate a full data set
 
 - If your model is deterministic, the same input parameters will always produce exactly the same output.
 - In real data sets, however, we see a huge variability in the output variables. **Where does the variability come from?**
   
-## Step 5: Simulate a full data set
+## Step 6: Simulate a full data set
 
 ::: {.smaller}
 

@@ -139,6 +139,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../common/webex.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -258,6 +259,23 @@ window.Quarto = {
   <li><a href="#example-with-roxygen2-documentation" id="toc-example-with-roxygen2-documentation" class="nav-link" data-scroll-target="#example-with-roxygen2-documentation">Example with roxygen2 documentation</a></li>
   <li><a href="#exercise-document-our-exponential-decay-function" id="toc-exercise-document-our-exponential-decay-function" class="nav-link" data-scroll-target="#exercise-document-our-exponential-decay-function"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Exercise: Document our exponential decay function</a></li>
   <li><a href="#roxygen2-documentation-solution" id="toc-roxygen2-documentation-solution" class="nav-link" data-scroll-target="#roxygen2-documentation-solution">roxygen2 documentation: Solution</a></li>
+  <li><a href="#mapping-continuous-variables-to-dichotomous-outcomes" id="toc-mapping-continuous-variables-to-dichotomous-outcomes" class="nav-link" data-scroll-target="#mapping-continuous-variables-to-dichotomous-outcomes">Mapping continuous variables to dichotomous outcomes</a></li>
+  <li><a href="#mapping-continuous-variables-to-dichotomous-outcomes-1" id="toc-mapping-continuous-variables-to-dichotomous-outcomes-1" class="nav-link" data-scroll-target="#mapping-continuous-variables-to-dichotomous-outcomes-1">Mapping continuous variables to dichotomous outcomes</a>
+  <ul class="collapse">
+  <li><a href="#option-1-hard-deterministic-thresholds" id="toc-option-1-hard-deterministic-thresholds" class="nav-link" data-scroll-target="#option-1-hard-deterministic-thresholds">Option 1: Hard (deterministic) thresholds</a></li>
+  </ul></li>
+  <li><a href="#mapping-continuous-variables-to-dichotomous-outcomes-2" id="toc-mapping-continuous-variables-to-dichotomous-outcomes-2" class="nav-link" data-scroll-target="#mapping-continuous-variables-to-dichotomous-outcomes-2">Mapping continuous variables to dichotomous outcomes</a>
+  <ul class="collapse">
+  <li><a href="#option-1-hard-deterministic-thresholds-1" id="toc-option-1-hard-deterministic-thresholds-1" class="nav-link" data-scroll-target="#option-1-hard-deterministic-thresholds-1">Option 1: Hard (deterministic) thresholds</a></li>
+  </ul></li>
+  <li><a href="#mapping-continuous-variables-to-dichotomous-outcomes-3" id="toc-mapping-continuous-variables-to-dichotomous-outcomes-3" class="nav-link" data-scroll-target="#mapping-continuous-variables-to-dichotomous-outcomes-3">Mapping continuous variables to dichotomous outcomes</a>
+  <ul class="collapse">
+  <li><a href="#option-2a-as-a-probabilistic-outcome" id="toc-option-2a-as-a-probabilistic-outcome" class="nav-link" data-scroll-target="#option-2a-as-a-probabilistic-outcome">Option 2a: As a probabilistic outcome</a></li>
+  </ul></li>
+  <li><a href="#mapping-continuous-variables-to-dichotomous-outcomes-4" id="toc-mapping-continuous-variables-to-dichotomous-outcomes-4" class="nav-link" data-scroll-target="#mapping-continuous-variables-to-dichotomous-outcomes-4">Mapping continuous variables to dichotomous outcomes</a>
+  <ul class="collapse">
+  <li><a href="#option-2b-as-a-probabilistic-outcome-two-steps" id="toc-option-2b-as-a-probabilistic-outcome-two-steps" class="nav-link" data-scroll-target="#option-2b-as-a-probabilistic-outcome-two-steps">Option 2b: As a probabilistic outcome (Two steps)</a></li>
+  </ul></li>
   <li><a href="#step-3-apply-everything-to-your-reduced-model" id="toc-step-3-apply-everything-to-your-reduced-model" class="nav-link" data-scroll-target="#step-3-apply-everything-to-your-reduced-model"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Step 3: Apply everything to your reduced model</a></li>
   </ul></li>
   <li><a href="#step-4-plot-relationships" id="toc-step-4-plot-relationships" class="nav-link" data-scroll-target="#step-4-plot-relationships">Step 4: Plot relationships</a>
@@ -290,7 +308,7 @@ window.Quarto = {
   </ul></li>
   <li><a href="#putting-everything-together-the-psi-function" id="toc-putting-everything-together-the-psi-function" class="nav-link" data-scroll-target="#putting-everything-together-the-psi-function">Putting everything together: The <span class="math inline">\(\Psi\)</span> function</a>
   <ul class="collapse">
-  <li><a href="#step-5-put-everything-together" id="toc-step-5-put-everything-together" class="nav-link" data-scroll-target="#step-5-put-everything-together">Step 5: Put everything together</a></li>
+  <li><a href="#step-5-put-everything-together" id="toc-step-5-put-everything-together" class="nav-link" data-scroll-target="#step-5-put-everything-together"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Step 5: Put everything together</a></li>
   </ul></li>
   <li><a href="#excursus-fitting-the-functions-to-empirical-data" id="toc-excursus-fitting-the-functions-to-empirical-data" class="nav-link" data-scroll-target="#excursus-fitting-the-functions-to-empirical-data">(Excursus): Fitting the functions to empirical data</a>
   <ul class="collapse">
@@ -305,12 +323,23 @@ window.Quarto = {
   </ul></li>
   <li><a href="#step-6-simulate-a-full-data-set-2" id="toc-step-6-simulate-a-full-data-set-2" class="nav-link" data-scroll-target="#step-6-simulate-a-full-data-set-2">Step 6: Simulate a full data set</a>
   <ul class="collapse">
-  <li><a href="#a-create-a-design-matrix-for-experimental-factors-1" id="toc-a-create-a-design-matrix-for-experimental-factors-1" class="nav-link" data-scroll-target="#a-create-a-design-matrix-for-experimental-factors-1">6a: Create a design matrix for experimental factors</a></li>
+  <li><a href="#a-add-participants-as-factor" id="toc-a-add-participants-as-factor" class="nav-link" data-scroll-target="#a-add-participants-as-factor">6a: Add participants as “factor”</a></li>
   </ul></li>
+  <li><a href="#group-work-15-min.-create-a-design-matrix" id="toc-group-work-15-min.-create-a-design-matrix" class="nav-link" data-scroll-target="#group-work-15-min.-create-a-design-matrix"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (15 min.):<br>Create a design matrix</a></li>
   <li><a href="#step-6-simulate-a-full-data-set-3" id="toc-step-6-simulate-a-full-data-set-3" class="nav-link" data-scroll-target="#step-6-simulate-a-full-data-set-3">Step 6: Simulate a full data set</a>
   <ul class="collapse">
   <li><a href="#b-simulate-random-observed-variables" id="toc-b-simulate-random-observed-variables" class="nav-link" data-scroll-target="#b-simulate-random-observed-variables">6b: Simulate random observed variables</a></li>
   </ul></li>
+  <li><a href="#draw-random-values-between-0-and-1" id="toc-draw-random-values-between-0-and-1" class="nav-link" data-scroll-target="#draw-random-values-between-0-and-1">Draw random values between 0 and 1</a></li>
+  <li><a href="#tool-the-beta-distribution" id="toc-tool-the-beta-distribution" class="nav-link" data-scroll-target="#tool-the-beta-distribution">Tool: The beta distribution</a></li>
+  <li><a href="#tool-the-beta-distribution-1" id="toc-tool-the-beta-distribution-1" class="nav-link" data-scroll-target="#tool-the-beta-distribution-1">Tool: The beta distribution</a></li>
+  <li><a href="#tool-the-beta-distribution-2" id="toc-tool-the-beta-distribution-2" class="nav-link" data-scroll-target="#tool-the-beta-distribution-2">Tool: The beta distribution</a></li>
+  <li><a href="#tool-the-beta-distribution-3" id="toc-tool-the-beta-distribution-3" class="nav-link" data-scroll-target="#tool-the-beta-distribution-3">Tool: The beta distribution</a>
+  <ul class="collapse">
+  <li><a href="#beta-distribution-respects-the-01-boundaries" id="toc-beta-distribution-respects-the-01-boundaries" class="nav-link" data-scroll-target="#beta-distribution-respects-the-01-boundaries">beta distribution respects the [0;1] boundaries</a></li>
+  </ul></li>
+  <li><a href="#tool-the-distribution-zoo" id="toc-tool-the-distribution-zoo" class="nav-link" data-scroll-target="#tool-the-distribution-zoo">Tool: The Distribution Zoo</a></li>
+  <li><a href="#group-work-15-min.-add-observed-variables" id="toc-group-work-15-min.-add-observed-variables" class="nav-link" data-scroll-target="#group-work-15-min.-add-observed-variables"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (15 min.):<br>Add observed variables</a></li>
   <li><a href="#step-6-simulate-a-full-data-set-4" id="toc-step-6-simulate-a-full-data-set-4" class="nav-link" data-scroll-target="#step-6-simulate-a-full-data-set-4">Step 6: Simulate a full data set</a>
   <ul class="collapse">
   <li><a href="#c-compute-the-outcome-variable-i.e.-the-model-output" id="toc-c-compute-the-outcome-variable-i.e.-the-model-output" class="nav-link" data-scroll-target="#c-compute-the-outcome-variable-i.e.-the-model-output">6c: Compute the outcome variable (i.e., the model output)</a></li>
@@ -327,20 +356,7 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#c-compute-the-outcome-variable-i.e.-the-model-output-1" id="toc-c-compute-the-outcome-variable-i.e.-the-model-output-1" class="nav-link" data-scroll-target="#c-compute-the-outcome-variable-i.e.-the-model-output-1">6c: Compute the outcome variable (i.e., the model output)</a></li>
   </ul></li>
-  <li><a href="#group-work-20-min.-create-a-design-matrix" id="toc-group-work-20-min.-create-a-design-matrix" class="nav-link" data-scroll-target="#group-work-20-min.-create-a-design-matrix"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (20 min.):<br>Create a design matrix</a></li>
-  <li><a href="#tool-the-beta-distribution" id="toc-tool-the-beta-distribution" class="nav-link" data-scroll-target="#tool-the-beta-distribution">Tool: The beta distribution</a></li>
-  <li><a href="#tool-the-beta-distribution-1" id="toc-tool-the-beta-distribution-1" class="nav-link" data-scroll-target="#tool-the-beta-distribution-1">Tool: The beta distribution</a></li>
-  <li><a href="#tool-the-beta-distribution-2" id="toc-tool-the-beta-distribution-2" class="nav-link" data-scroll-target="#tool-the-beta-distribution-2">Tool: The beta distribution</a></li>
-  <li><a href="#tool-the-beta-distribution-3" id="toc-tool-the-beta-distribution-3" class="nav-link" data-scroll-target="#tool-the-beta-distribution-3">Tool: The beta distribution</a>
-  <ul class="collapse">
-  <li><a href="#approximating-a-normal-distribution-with-a-beta-distibution" id="toc-approximating-a-normal-distribution-with-a-beta-distibution" class="nav-link" data-scroll-target="#approximating-a-normal-distribution-with-a-beta-distibution">Approximating a normal distribution with a beta distibution</a></li>
-  </ul></li>
-  <li><a href="#tool-the-beta-distribution-4" id="toc-tool-the-beta-distribution-4" class="nav-link" data-scroll-target="#tool-the-beta-distribution-4">Tool: The beta distribution</a>
-  <ul class="collapse">
-  <li><a href="#approximating-a-normal-distribution-with-a-beta-distibution-1" id="toc-approximating-a-normal-distribution-with-a-beta-distibution-1" class="nav-link" data-scroll-target="#approximating-a-normal-distribution-with-a-beta-distibution-1">Approximating a normal distribution with a beta distibution</a></li>
-  </ul></li>
-  <li><a href="#tool-the-distribution-zoo" id="toc-tool-the-distribution-zoo" class="nav-link" data-scroll-target="#tool-the-distribution-zoo">Tool: The Distribution Zoo</a></li>
-  <li><a href="#group-work-45-min.-full-simulation" id="toc-group-work-45-min.-full-simulation" class="nav-link" data-scroll-target="#group-work-45-min.-full-simulation"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (45 min.):<br>Full simulation</a></li>
+  <li><a href="#group-work-45-min.-compute-the-outcome-variable" id="toc-group-work-45-min.-compute-the-outcome-variable" class="nav-link" data-scroll-target="#group-work-45-min.-compute-the-outcome-variable"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (45 min.):<br>Compute the outcome variable</a></li>
   <li><a href="#step-6-simulate-a-full-data-set-8" id="toc-step-6-simulate-a-full-data-set-8" class="nav-link" data-scroll-target="#step-6-simulate-a-full-data-set-8">Step 6: Simulate a full data set</a></li>
   </ul></li>
   <li><a href="#evaluation-of-the-model" id="toc-evaluation-of-the-model" class="nav-link" data-scroll-target="#evaluation-of-the-model">Evaluation of the model</a>
@@ -952,6 +968,93 @@ Note
 </div>
 </div>
 </section>
+<section id="mapping-continuous-variables-to-dichotomous-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="mapping-continuous-variables-to-dichotomous-outcomes">Mapping continuous variables to dichotomous outcomes</h2>
+<p>Many psychological theories ultimately predict dichotomous outcomes (e.g., help vs.&nbsp;no help). In this case, often <em>continuous</em> latent variables are transformed into <em>dichotomous</em> manifest outcomes:</p>
+<p><img src="img/cont_to_dichotomous.png" class="img-fluid"></p>
+</section>
+<section id="mapping-continuous-variables-to-dichotomous-outcomes-1" class="level2">
+<h2 class="anchored" data-anchor-id="mapping-continuous-variables-to-dichotomous-outcomes-1">Mapping continuous variables to dichotomous outcomes</h2>
+<section id="option-1-hard-deterministic-thresholds" class="level3">
+<h3 class="anchored" data-anchor-id="option-1-hard-deterministic-thresholds">Option 1: Hard (deterministic) thresholds</h3>
+<p>Behavior occurs if <em>feltResp</em> exceeds some threshold <span class="math inline">\(\theta\)</span>:</p>
+<p><span class="math display">\[
+\begin{equation}
+\text{helping} =
+    \begin{cases}
+        1 &amp; \text{if } \text{feltResp} \ge \theta\\
+        0 &amp; \text{if } \text{feltResp} \lt \theta
+    \end{cases}
+\end{equation}
+\]</span></p>
+<p>Any value &gt; threshold <span class="math inline">\(\theta\)</span> is mapped to outcome 1, all other values to outcome 0. Any input value will deterministically lead to the respective output value.</p>
+</section>
+</section>
+<section id="mapping-continuous-variables-to-dichotomous-outcomes-2" class="level2">
+<h2 class="anchored" data-anchor-id="mapping-continuous-variables-to-dichotomous-outcomes-2">Mapping continuous variables to dichotomous outcomes</h2>
+<section id="option-1-hard-deterministic-thresholds-1" class="level3">
+<h3 class="anchored" data-anchor-id="option-1-hard-deterministic-thresholds-1">Option 1: Hard (deterministic) thresholds</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param feltResp A continuous latent variable</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param theta The threshold value</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co">#' @return A dichotomous outcome (0/1)</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>get_helping <span class="ot">&lt;-</span> <span class="cf">function</span>(feltResp, theta) {</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a> <span class="cf">if</span> (feltResp <span class="sc">&gt;=</span> theta) {</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>  helping <span class="ot">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a> } <span class="cf">else</span> {</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>  helping <span class="ot">&lt;-</span> <span class="dv">0</span></span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a> }</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a><span class="fu">return</span>(helping)</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>More compact:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>get_helping <span class="ot">&lt;-</span> <span class="cf">function</span>(feltResp, theta) {</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ifelse</span>(feltResp <span class="sc">&gt;=</span> theta, <span class="dv">1</span>, <span class="dv">0</span>)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+<section id="mapping-continuous-variables-to-dichotomous-outcomes-3" class="level2">
+<h2 class="anchored" data-anchor-id="mapping-continuous-variables-to-dichotomous-outcomes-3">Mapping continuous variables to dichotomous outcomes</h2>
+<section id="option-2a-as-a-probabilistic-outcome" class="level3">
+<h3 class="anchored" data-anchor-id="option-2a-as-a-probabilistic-outcome">Option 2a: As a probabilistic outcome</h3>
+<p>Latent input variables in the [0; 1] range can be treated as a probability that is fed into a Bernoulli trial*:</p>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate a dichotomous outcome based on a probability</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param feltResp A probability value between 0 and 1</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>get_helping <span class="ot">&lt;-</span> <span class="cf">function</span>(feltResp) {</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>  helping <span class="ot">&lt;-</span> <span class="fu">rbinom</span>(<span class="at">n=</span><span class="dv">1</span>, <span class="at">size=</span><span class="dv">1</span>, <span class="at">prob=</span>feltResp)</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(helping)</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Here, each run of the function will produce a different output, even for the same input value. Make your simulation reproducible by setting a seed with <code>set.seed()</code>.</p>
+<div class="footer">
+<p>* Bernoulli trial: A random experiment with exactly two possible outcomes (e.g., success/failure, help/no help) where the probability of success is constant.</p>
+</div>
+</section>
+</section>
+<section id="mapping-continuous-variables-to-dichotomous-outcomes-4" class="level2">
+<h2 class="anchored" data-anchor-id="mapping-continuous-variables-to-dichotomous-outcomes-4">Mapping continuous variables to dichotomous outcomes</h2>
+<section id="option-2b-as-a-probabilistic-outcome-two-steps" class="level3">
+<h3 class="anchored" data-anchor-id="option-2b-as-a-probabilistic-outcome-two-steps">Option 2b: As a probabilistic outcome (Two steps)</h3>
+<ol type="1">
+<li>Transform latent input variables that can range from <span class="math inline">\(-\infty\)</span> to <span class="math inline">\(+\infty\)</span> to the [0; 1] range (e.g., with a logistic function)</li>
+<li>Treat the output as a probability:</li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param trait A latent trait on a *z* scale (ranging from -Inf to +Inf)</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>get_helping <span class="ot">&lt;-</span> <span class="cf">function</span>(trait) {</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># first convert trait to probability with a logistic transformation</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Use the 4PL logistic function to shift the midpoint etc.</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>  prob <span class="ot">&lt;-</span> <span class="dv">1</span> <span class="sc">/</span> (<span class="dv">1</span> <span class="sc">+</span> <span class="fu">exp</span>(<span class="sc">-</span>trait))  </span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Transform probability to a random dichotomous outcome</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>  helping <span class="ot">&lt;-</span> <span class="fu">rbinom</span>(<span class="at">n=</span><span class="dv">1</span>, <span class="at">size=</span><span class="dv">1</span>, <span class="at">prob=</span>prob)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(helping)</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="footer">
+<p>This is similar to the item response theory (IRT) approach to model dichotomous item responses based on a latent trait.</p>
+</div>
+</section>
+</section>
 <section id="step-3-apply-everything-to-your-reduced-model" class="level2">
 <h2 class="anchored" data-anchor-id="step-3-apply-everything-to-your-reduced-model"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Step 3: Apply everything to your reduced model</h2>
 <div class="smaller">
@@ -1009,13 +1112,13 @@ Note
 <h3 class="anchored" data-anchor-id="a-create-a-data-frame-with-combinations-of-input-variables-and-parameters-1">4a: Create a data frame with combinations of input variables and parameters</h3>
 <p>Use the <code>expand.grid()</code> function to create all possible combination of a set of variables (the first varies fastest, the last varies slowest):</p>
 <div class="cell" data-layout-align="center" data-output-location="column-fragment">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add all factors as arguments:</span></span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">F1 =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>), </span>
-<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">F2 =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>),</span>
-<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">F3 =</span> <span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>)</span>
-<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add all factors as arguments:</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">F1 =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>), </span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">F2 =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>),</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">F3 =</span> <span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   F1 F2    F3
 1   A  1  TRUE
@@ -1040,20 +1143,20 @@ Note
 <h3 class="anchored" data-anchor-id="a-create-a-data-frame-with-combinations-of-input-variables-and-parameters-2">4a: Create a data frame with combinations of input variables and parameters</h3>
 <p>Do this for all relevant input variables and parameters of your function.</p>
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Compute the probability to help in an emergency situation</span></span>
-<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>get_p_help <span class="ot">&lt;-</span> <span class="cf">function</span>(NOPB, y_0, y_final, BSE_strength) {</span>
-<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>  p_help <span class="ot">&lt;-</span> y_final <span class="sc">+</span> (y_0 <span class="sc">-</span> y_final) <span class="sc">*</span> <span class="fu">exp</span>(<span class="sc">-</span>BSE_strength <span class="sc">*</span> NOPB)</span>
-<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(p_help)</span>
-<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Compute the probability to help in an emergency situation</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>get_p_help <span class="ot">&lt;-</span> <span class="cf">function</span>(NOPB, y_0, y_final, BSE_strength) {</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>  p_help <span class="ot">&lt;-</span> y_final <span class="sc">+</span> (y_0 <span class="sc">-</span> y_final) <span class="sc">*</span> <span class="fu">exp</span>(<span class="sc">-</span>BSE_strength <span class="sc">*</span> NOPB)</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(p_help)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell" data-layout-align="center" data-output-location="column-fragment">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
-<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">NOPB         =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">10</span>, <span class="at">by=</span><span class="dv">1</span>),</span>
-<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_0          =</span> <span class="fu">c</span>(<span class="fl">0.7</span>, <span class="fl">0.8</span>, <span class="fl">0.9</span>),</span>
-<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_final      =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.1</span>, <span class="fl">0.2</span>),</span>
-<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">BSE_strength =</span> <span class="fu">c</span>(<span class="fl">0.3</span>, <span class="fl">0.5</span>)</span>
-<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">head</span>(df, <span class="dv">13</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">NOPB         =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">10</span>, <span class="at">by=</span><span class="dv">1</span>),</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_0          =</span> <span class="fu">c</span>(<span class="fl">0.7</span>, <span class="fl">0.8</span>, <span class="fl">0.9</span>),</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_final      =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.1</span>, <span class="fl">0.2</span>),</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">BSE_strength =</span> <span class="fu">c</span>(<span class="fl">0.3</span>, <span class="fl">0.5</span>)</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">head</span>(df, <span class="dv">13</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   NOPB y_0 y_final BSE_strength
 1     0 0.7       0          0.3
@@ -1078,23 +1181,23 @@ Note
 <section id="b-compute-output-variable" class="level3">
 <h3 class="anchored" data-anchor-id="b-compute-output-variable">4b: Compute output variable</h3>
 <div class="cell" data-layout-align="center" data-output-location="column-fragment">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
-<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">NOPB         =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">10</span>, <span class="at">by=</span><span class="dv">1</span>),</span>
-<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_0          =</span> <span class="fu">c</span>(<span class="fl">0.7</span>, <span class="fl">0.8</span>, <span class="fl">0.9</span>),</span>
-<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_final      =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.1</span>, <span class="fl">0.2</span>),</span>
-<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">BSE_strength =</span> <span class="fu">c</span>(<span class="fl">0.3</span>, <span class="fl">0.5</span>)</span>
-<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a><span class="co"># compute the output variable</span></span>
-<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a><span class="co"># (vectorized function application)</span></span>
-<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>p_help <span class="ot">&lt;-</span> <span class="fu">get_p_help</span>(</span>
-<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">NOPB =</span> df<span class="sc">$</span>NOPB, </span>
-<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_0 =</span> df<span class="sc">$</span>y_0,</span>
-<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_final =</span> df<span class="sc">$</span>y_final, </span>
-<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">BSE_strength =</span> df<span class="sc">$</span>BSE_strength</span>
-<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">head</span>(df, <span class="dv">20</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">NOPB         =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">10</span>, <span class="at">by=</span><span class="dv">1</span>),</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_0          =</span> <span class="fu">c</span>(<span class="fl">0.7</span>, <span class="fl">0.8</span>, <span class="fl">0.9</span>),</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_final      =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.1</span>, <span class="fl">0.2</span>),</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">BSE_strength =</span> <span class="fu">c</span>(<span class="fl">0.3</span>, <span class="fl">0.5</span>)</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a><span class="co"># compute the output variable</span></span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a><span class="co"># (vectorized function application)</span></span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>p_help <span class="ot">&lt;-</span> <span class="fu">get_p_help</span>(</span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">NOPB =</span> df<span class="sc">$</span>NOPB, </span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_0 =</span> df<span class="sc">$</span>y_0,</span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">y_final =</span> df<span class="sc">$</span>y_final, </span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">BSE_strength =</span> df<span class="sc">$</span>BSE_strength</span>
+<span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb29-16"><a href="#cb29-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-17"><a href="#cb29-17" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">head</span>(df, <span class="dv">20</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   NOPB y_0 y_final BSE_strength     p_help
 1     0 0.7       0          0.3 0.70000000
@@ -1126,20 +1229,20 @@ Note
 <section id="c-plotting-with-ggplot2" class="level3">
 <h3 class="anchored" data-anchor-id="c-plotting-with-ggplot2">4c: Plotting with ggplot2</h3>
 <div class="cell" data-layout-align="center" data-output-location="slide">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>() <span class="sc">+</span></span>
-<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">data=</span>df, <span class="fu">aes</span>(<span class="at">x=</span>NOPB, <span class="at">y=</span>p_help, <span class="at">linetype=</span><span class="fu">factor</span>(BSE_strength), <span class="at">color=</span><span class="fu">factor</span>(y_0))) <span class="sc">+</span></span>
-<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_grid</span>(<span class="sc">~</span> y_final) <span class="sc">+</span></span>
-<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Number of passive bystanders (NOPB)"</span>,</span>
-<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Probability to help"</span>,</span>
-<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"y_0 (help when no bystanders)"</span>,</span>
-<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">linetype =</span> <span class="st">"BSE strength"</span></span>
-<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span> <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">data=</span>df, <span class="fu">aes</span>(<span class="at">x=</span>NOPB, <span class="at">y=</span>p_help, <span class="at">linetype=</span><span class="fu">factor</span>(BSE_strength), <span class="at">color=</span><span class="fu">factor</span>(y_0))) <span class="sc">+</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_grid</span>(<span class="sc">~</span> y_final) <span class="sc">+</span></span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Number of passive bystanders (NOPB)"</span>,</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Probability to help"</span>,</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"y_0 (help when no bystanders)"</span>,</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">linetype =</span> <span class="st">"BSE strength"</span></span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span> <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-24-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-26-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1172,23 +1275,23 @@ Note
 <section id="putting-everything-together-the-psi-function" class="level1">
 <h1>Putting everything together: The <span class="math inline">\(\Psi\)</span> function</h1>
 <section id="step-5-put-everything-together" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-put-everything-together">Step 5: Put everything together</h2>
+<h2 class="anchored" data-anchor-id="step-5-put-everything-together"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Step 5: Put everything together</h2>
 <div class="smaller">
-<p>Connect all functions to one “super-function” (which we will call the <span class="hl"><span class="math inline">\(\Psi\)</span> function</span>), which takes all exogenous variables as input and computes the focal output variable(s): <br></p>
+<p>Connect all functions to one “super-function” (which we will call the <span class="hl"><span class="math inline">\(\Psi\)</span> function</span>), which takes all exogenous variables as input and computes the focal output variable(s): <br><br></p>
 </div>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Pseudo-code:</span></span>
-<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>get_x <span class="ot">&lt;-</span> <span class="cf">function</span>(a, b) {a<span class="sc">*</span><span class="dv">2</span> <span class="sc">+</span> b}</span>
-<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>get_y <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {x<span class="sc">^</span><span class="dv">2</span>}</span>
-<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>get_o <span class="ot">&lt;-</span> <span class="cf">function</span>(y) {<span class="fu">sqrt</span>(y) <span class="sc">+</span> <span class="dv">3</span>}</span>
-<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>psi <span class="ot">&lt;-</span> <span class="cf">function</span>(a, b) {</span>
-<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>  x <span class="ot">&lt;-</span> <span class="fu">get_x</span>(a, b)</span>
-<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>  y <span class="ot">&lt;-</span> <span class="fu">get_y</span>(x)</span>
-<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>  o <span class="ot">&lt;-</span> <span class="fu">get_o</span>(y)</span>
-<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(o)</span>
-<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Pseudo-code:</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>get_x <span class="ot">&lt;-</span> <span class="cf">function</span>(a, b) {a<span class="sc">*</span><span class="dv">2</span> <span class="sc">+</span> b}</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>get_y <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {x<span class="sc">^</span><span class="dv">2</span>}</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>get_o <span class="ot">&lt;-</span> <span class="cf">function</span>(y) {<span class="fu">sqrt</span>(y) <span class="sc">+</span> <span class="dv">3</span>}</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>psi <span class="ot">&lt;-</span> <span class="cf">function</span>(a, b) {</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>  x <span class="ot">&lt;-</span> <span class="fu">get_x</span>(a, b)</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>  y <span class="ot">&lt;-</span> <span class="fu">get_y</span>(x)</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>  o <span class="ot">&lt;-</span> <span class="fu">get_o</span>(y)</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(o)</span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><div class="column" style="width:50%;">
 <p><img src="img/pseudo_psi.png" height="250"></p>
 </div>
@@ -1214,6 +1317,7 @@ Note
 <section id="excursus-fitting-the-functions-to-empirical-data-2" class="level2">
 <h2 class="anchored" data-anchor-id="excursus-fitting-the-functions-to-empirical-data-2">(Excursus): Fitting the functions to empirical data</h2>
 <p>(Live demo how our exponential fit function could be fitted to empirical data)</p>
+<!-- ################################################################################ -->
 </section>
 </section>
 <section id="step-6-simulate-a-full-data-set" class="level1">
@@ -1222,59 +1326,40 @@ Note
 <h2 class="anchored" data-anchor-id="step-6-simulate-a-full-data-set-1">Step 6: Simulate a full data set</h2>
 <section id="a-create-a-design-matrix-for-experimental-factors" class="level3">
 <h3 class="anchored" data-anchor-id="a-create-a-design-matrix-for-experimental-factors">6a: Create a design matrix for experimental factors</h3>
-<p>Create a design matrix for all possible combinations of experimental factors (i.e., those variables that you control/manipulate at specific levels).</p>
-<p>The <code>expand.grid()</code> function in <code>R</code> comes as a handy tool for fully crossed factors (the first factor varies fastest, the last factor varies slowest):</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add all factors as arguments:</span></span>
-<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
-<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">F1 =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>), </span>
-<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">F2 =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>),</span>
-<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">F3 =</span> <span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>)</span>
-<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="cell" data-layout-align="center">
+<p>To create a virtual experiment, we again use the <code>expand.grid</code> function to construct a <em>design matrix</em> of our experimental factors:</p>
+<div class="cell" data-layout-align="center" data-output-location="column-fragment">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">valence =</span> <span class="fu">c</span>(<span class="st">"pos"</span>, <span class="st">"neg"</span>), </span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">speed   =</span> <span class="fu">c</span>(<span class="st">"slow"</span>, <span class="st">"fast"</span>)</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>   F1 F2    F3
-1   A  1  TRUE
-2   B  1  TRUE
-3   A  2  TRUE
-4   B  2  TRUE
-5   A  3  TRUE
-6   B  3  TRUE
-7   A  1 FALSE
-8   B  1 FALSE
-9   A  2 FALSE
-10  B  2 FALSE
-11  A  3 FALSE
-12  B  3 FALSE</code></pre>
-</div>
-</div>
+<pre><code>  valence speed
+1     pos  slow
+2     neg  slow
+3     pos  fast
+4     neg  fast</code></pre>
 </div>
 </div>
 </section>
 </section>
 <section id="step-6-simulate-a-full-data-set-2" class="level2">
 <h2 class="anchored" data-anchor-id="step-6-simulate-a-full-data-set-2">Step 6: Simulate a full data set</h2>
-<section id="a-create-a-design-matrix-for-experimental-factors-1" class="level3">
-<h3 class="anchored" data-anchor-id="a-create-a-design-matrix-for-experimental-factors-1">6a: Create a design matrix for experimental factors</h3>
+<section id="a-add-participants-as-factor" class="level3">
+<h3 class="anchored" data-anchor-id="a-add-participants-as-factor">6a: Add participants as “factor”</h3>
 <div class="smaller">
-<p>To create a virtual sample, add one additional variable with a participant ID (this also determines the size of your sample):</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>n_per_condition <span class="ot">&lt;-</span> <span class="dv">3</span></span>
-<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
-<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">pID     =</span> <span class="dv">1</span><span class="sc">:</span>n_per_condition, </span>
-<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">valence =</span> <span class="fu">c</span>(<span class="st">"pos"</span>, <span class="st">"neg"</span>), </span>
-<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">speed   =</span> <span class="fu">c</span>(<span class="st">"slow"</span>, <span class="st">"fast"</span>)</span>
-<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="cell" data-layout-align="center">
+<p>Now add one additional variable with a participant ID (this also determines the size of your sample):</p>
+<div class="cell" data-layout-align="center" data-output-location="column-fragment">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>n_per_condition <span class="ot">&lt;-</span> <span class="dv">3</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">expand.grid</span>(</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">pID     =</span> <span class="dv">1</span><span class="sc">:</span>n_per_condition, </span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">valence =</span> <span class="fu">c</span>(<span class="st">"pos"</span>, <span class="st">"neg"</span>), </span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">speed   =</span> <span class="fu">c</span>(<span class="st">"slow"</span>, <span class="st">"fast"</span>)</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed
 1    1     pos  slow
@@ -1291,85 +1376,228 @@ Note
 12   3     neg  fast</code></pre>
 </div>
 </div>
-</div>
-</div>
+<div class="fragment">
 <p>We have 12 participants overall: 3 participants in the <code>pos/slow</code> condition, 3 in the <code>neg/slow</code> condition, and so forth. Note that, although the participant ID repeats within each condition, these could be different (independent) participants if we assume a between-person design.</p>
 </div>
+</div>
+<div class="footer">
+<p>This approach always creates <em>balanced designs</em> where all conditions have the same number of participants.</p>
+</div>
 </section>
+</section>
+<section id="group-work-15-min.-create-a-design-matrix" class="level2">
+<h2 class="anchored" data-anchor-id="group-work-15-min.-create-a-design-matrix"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (15 min.):<br>Create a design matrix</h2>
+<div class="smaller">
+<p>In your own <code>R</code> project, create a new file <code>simulation.R</code>.</p>
+<p><strong>In case you had multiple versions of the functions within your group: For today, each group uses only <em>one</em> consensus version. One person should do the coding, the others observe and comment in a “pair-programming” style.</strong></p>
+<p>Create a design matrix with <code>expand.grid()</code> and the following fully crossed experimental factors (<span class="math inline">\(n=30\)</span> participants per condition):</p>
+<ul>
+<li>Danger of intervention (<code>DoI</code>) with the levels 0.2 and 0.8</li>
+<li>Number of passive bystanders (<code>NOPB</code>) with the levels 0, 1, and 4</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The resulting data frame should have 180 rows (2 x 3 x 30).</p>
+</div>
+</div>
+</div>
 </section>
 <section id="step-6-simulate-a-full-data-set-3" class="level2">
 <h2 class="anchored" data-anchor-id="step-6-simulate-a-full-data-set-3">Step 6: Simulate a full data set</h2>
 <section id="b-simulate-random-observed-variables" class="level3">
 <h3 class="anchored" data-anchor-id="b-simulate-random-observed-variables">6b: Simulate random observed variables</h3>
-<p>Add observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants:</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="fu">nrow</span>(df)</span>
-<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>age <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n, <span class="at">mean=</span><span class="dv">26</span>, <span class="at">sd=</span><span class="dv">4</span>) <span class="sc">|&gt;</span> <span class="fu">round</span>()</span>
-<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Extraversion</span></span>
-<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="co"># z-scores: standard normal distribution</span></span>
-<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>extra <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n) <span class="sc">|&gt;</span> <span class="fu">round</span>(<span class="dv">1</span>) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="cell" data-layout-align="center">
+<p>Add observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants. You can draw them from a random distirbution, e.g.&nbsp;a normal distribution with <code>rnorm()</code>:</p>
+<div class="cell" data-layout-align="center" data-output-location="column-fragment">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="fu">nrow</span>(df)</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>age <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n, <span class="at">mean=</span><span class="dv">26</span>, <span class="at">sd=</span><span class="dv">4</span>) <span class="sc">|&gt;</span> <span class="fu">round</span>()</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Extraversion</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a><span class="co"># z-scores: standard normal distribution</span></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>extra <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n) <span class="sc">|&gt;</span> <span class="fu">round</span>(<span class="dv">1</span>) </span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra
-1    1     pos  slow  25   0.5
-2    2     pos  slow  25  -0.1
-3    3     pos  slow  29  -0.5
-4    1     neg  slow  29  -1.8
-5    2     neg  slow  24   0.3
-6    3     neg  slow  23  -0.1
-7    1     pos  fast  23   0.6
-8    2     pos  fast  22   0.4
-9    3     pos  fast  28   0.4
-10   1     neg  fast  18   2.2
-11   2     neg  fast  24  -1.0
-12   3     neg  fast  26   1.7</code></pre>
+1    1     pos  slow  28  -0.3
+2    2     pos  slow  24   0.2
+3    3     pos  slow  24   0.2
+4    1     neg  slow  29   0.8
+5    2     neg  slow  28   0.7
+6    3     neg  slow  32  -1.1
+7    1     pos  fast  26   1.3
+8    2     pos  fast  27  -0.4
+9    3     pos  fast  26   0.0
+10   1     neg  fast  19  -1.4
+11   2     neg  fast  19  -0.3
+12   3     neg  fast  24   0.7</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="draw-random-values-between-0-and-1" class="level2">
+<h2 class="anchored" data-anchor-id="draw-random-values-between-0-and-1">Draw random values between 0 and 1</h2>
+<p>Assume you virtual participants differ in their <em>base responsibility</em>, which you previously defined as a probability on the range <span class="math inline">\([0; 1]\)</span>.</p>
+<p>How can you generate random values that roughly look like a normal distribution, but are bounded to the defined range?</p>
+</section>
+<section id="tool-the-beta-distribution" class="level2">
+<h2 class="anchored" data-anchor-id="tool-the-beta-distribution">Tool: The beta distribution</h2>
+<p>A handy distribution for drawing random values in the <span class="math inline">\([0; 1]\)</span> range is the <a href="https://en.wikipedia.org/wiki/Beta_distribution">beta distribution</a>. With its two parameters <span class="math inline">\(\alpha\)</span> (also called <span class="math inline">\(a\)</span> or <code>shape1</code>) and <span class="math inline">\(\beta\)</span> (also called <span class="math inline">\(b\)</span> or <code>shape2</code>), it can take many different forms:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-30-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="tool-the-beta-distribution-1" class="level2">
+<h2 class="anchored" data-anchor-id="tool-the-beta-distribution-1">Tool: The beta distribution</h2>
+<p>How to choose <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span>? Asking ChatGPT for assistance:</p>
+<div class="callout callout-style-default callout-note callout-titled" title="ChatGPT prompt">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>ChatGPT prompt
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Calibrate a beta distribution so that the peak is around 0.8 and the sd is around 0.1. Show a plot of the resulting distribution.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answer
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Here’s the calibrated beta distribution: α ≈ 12.99, β ≈ 4.00. It has a mode ≈ 0.80 and standard deviation ≈ 0.10, as targeted.</p>
+</div>
+</div>
+</section>
+<section id="tool-the-beta-distribution-2" class="level2">
+<h2 class="anchored" data-anchor-id="tool-the-beta-distribution-2">Tool: The beta distribution</h2>
+<p>You can generate random values in <code>R</code> with the <code>rbeta</code> function. Here’s a comparison of a normal distribution and a matched beta distribution that respects the boundaries <span class="math inline">\([0; 1]\)</span>:</p>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>x.norm <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">10000</span>, <span class="at">mean=</span><span class="fl">0.8</span>, <span class="at">sd=</span><span class="fl">0.1</span>)</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.norm, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"Normal distribution (M=0.8, SD=0.1)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>x.beta <span class="ot">&lt;-</span> <span class="fu">rbeta</span>(<span class="dv">10000</span>, <span class="at">shape1=</span><span class="dv">13</span>, <span class="at">shape2=</span><span class="dv">4</span>)</span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.beta, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"beta distribution (a=13, b=4)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="tool-the-beta-distribution-3" class="level2">
+<h2 class="anchored" data-anchor-id="tool-the-beta-distribution-3">Tool: The beta distribution</h2>
+<section id="beta-distribution-respects-the-01-boundaries" class="level3">
+<h3 class="anchored" data-anchor-id="beta-distribution-respects-the-01-boundaries">beta distribution respects the [0;1] boundaries</h3>
+<div class="cell quarto-layout-panel" data-layout-nrow="2" data-layout-ncol="1" data-layout-align="center">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-32-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-32-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+</figure>
 </div>
 </div>
 </div>
 </div>
 </section>
+</section>
+<section id="tool-the-distribution-zoo" class="level2">
+<h2 class="anchored" data-anchor-id="tool-the-distribution-zoo">Tool: The Distribution Zoo</h2>
+<p>For simulations, it is good to know some basic distributions. Here are three interactive resources for choosing your distribution:</p>
+<ul>
+<li>The <a href="https://ben18785.shinyapps.io/distribution-zoo/">Distribution Zoo</a> by Ben Lambert and Fergus Cooper</li>
+<li>The <a href="https://distribution-explorer.github.io/index.html">Probability Distribution Explorer</a> by Justin Bois</li>
+<li><a href="https://richarddmorey.github.io/stat-distributions-js/">Interactive collection of distributions</a> by Richard Morey</li>
+</ul>
+</section>
+<section id="group-work-15-min.-add-observed-variables" class="level2">
+<h2 class="anchored" data-anchor-id="group-work-15-min.-add-observed-variables"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (15 min.):<br>Add observed variables</h2>
+<p>Add random variables for <strong>all exogenous* variables of your model</strong> that are not experimentally manipulated. For variables ranging from 0 to 1, use the beta distribution with appropriate parameters.</p>
+<ul>
+<li>This includes, e.g., the personal base resposibility, <code>baseResp</code> (if that is in your model).</li>
+<li>Furthermore, add neuroticism (<code>neuro</code>) and age (<code>age</code>). (Note: We don’t need them for our model, just for practice.)</li>
+<li>Think about justifiable settings for the simulated variables (e.g., type of distribution, range, mean, SD).</li>
+</ul>
+<p>When we visually plotted and explored our atomic functions before, we could try out different parameter settings. When we simulate a concrete virtual sample, we need to fix them to one specific value or assign random values to them for each participant. If you do the latter, add the parameters as additional random observed variables.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The resulting data frame should still have 180 rows and additional columns for obnserved variables, including <code>neuro</code>, <code>age</code>, and all observed variables in your model.</p>
+</div>
+</div>
+<div class="footer">
+<p>* Reminder: Exogenous variables are those variables in your model that have no arrows pointing towards them.</p>
+</div>
 </section>
 <section id="step-6-simulate-a-full-data-set-4" class="level2">
 <h2 class="anchored" data-anchor-id="step-6-simulate-a-full-data-set-4">Step 6: Simulate a full data set</h2>
 <section id="c-compute-the-outcome-variable-i.e.-the-model-output" class="level3">
 <h3 class="anchored" data-anchor-id="c-compute-the-outcome-variable-i.e.-the-model-output">6c: Compute the outcome variable (i.e., the model output)</h3>
-<p>Once all input variables have been simulated, submit them to your model function and compute the outcome variable <span class="math inline">\(y\)</span>:</p>
+<p>Once all input variables have been simulated, submit them to your model function and compute the outcome variable <span class="math inline">\(y\)</span>.</p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># psi() is the model function that takes </span></span>
-<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="co"># all input parameters and returns the </span></span>
-<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="co"># simulated output</span></span>
-<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y <span class="ot">&lt;-</span> <span class="fu">psi</span>(df<span class="sc">$</span>valence, df<span class="sc">$</span>speed, </span>
-<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>            df<span class="sc">$</span>age, df<span class="sc">$</span>extra)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># psi() is the model function that takes </span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a><span class="co"># all input parameters and returns the </span></span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a><span class="co"># simulated output</span></span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y <span class="ot">&lt;-</span> <span class="fu">psi</span>(df<span class="sc">$</span>valence, df<span class="sc">$</span>speed, </span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>            df<span class="sc">$</span>age, df<span class="sc">$</span>extra)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y
-1    1     pos  slow  25   0.5  7.7
-2    2     pos  slow  25  -0.1 13.1
-3    3     pos  slow  29  -0.5  8.6
-4    1     neg  slow  29  -1.8 12.4
-5    2     neg  slow  24   0.3  8.9
-6    3     neg  slow  23  -0.1  7.3
-7    1     pos  fast  23   0.6 12.2
-8    2     pos  fast  22   0.4 10.5
-9    3     pos  fast  28   0.4 12.6
-10   1     neg  fast  18   2.2  9.5
-11   2     neg  fast  24  -1.0  7.3
-12   3     neg  fast  26   1.7 10.0</code></pre>
+1    1     pos  slow  28  -0.3  8.2
+2    2     pos  slow  24   0.2 11.4
+3    3     pos  slow  24   0.2 10.3
+4    1     neg  slow  29   0.8  9.7
+5    2     neg  slow  28   0.7  8.8
+6    3     neg  slow  32  -1.1  6.6
+7    1     pos  fast  26   1.3 10.9
+8    2     pos  fast  27  -0.4  5.8
+9    3     pos  fast  26   0.0 11.3
+10   1     neg  fast  19  -1.4 11.7
+11   2     neg  fast  19  -0.3  8.8
+12   3     neg  fast  24   0.7  9.5</code></pre>
 </div>
 </div>
 </div>
 </div>
-<p>Make sure that the <code>psi()</code> function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function).</p>
+<p>This only works if the <code>psi()</code> function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function).</p>
 </section>
 </section>
 <section id="step-6-simulate-a-full-data-set-5" class="level2">
@@ -1378,9 +1606,9 @@ Note
 <h3 class="anchored" data-anchor-id="sources-of-interindividual-differences">Sources of interindividual differences</h3>
 <p>Not every person is identical, so in reality there probably are interindividual differences at several places:</p>
 <ul>
-<li>in the sensors (i.e., manipulations and perceptions do not work the same for everyone)</li>
-<li>in the actors (i.e., people differ how internal impulses are translated into overt behavior)</li>
-<li>interindividual difference variables in the model</li>
+<li>Sensors (i.e., manipulations and perceptions do not work the same for everyone)</li>
+<li>Actors (i.e., people differ how internal impulses are translated into overt behavior)</li>
+<li>Interindividual difference variables in the model</li>
 <li>Different parameter values in the functional relationships. For example, the individual treatment effect (ITE) could vary between participants.</li>
 </ul>
 <p>We <strong>can</strong> model these interindividual differences - or we assume that some of them are constant for all participants.</p>
@@ -1448,32 +1676,32 @@ Note
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># deterministic model output</span></span>
-<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y <span class="ot">&lt;-</span> <span class="fu">psi</span>(df<span class="sc">$</span>valence, df<span class="sc">$</span>speed, </span>
-<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>            df<span class="sc">$</span>age, df<span class="sc">$</span>extra)</span>
-<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Add additional noise to observed variable.</span></span>
-<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a><span class="co"># The SD of the normal distribution</span></span>
-<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a><span class="co"># determines the amount of error</span></span>
-<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y_obs <span class="ot">&lt;-</span> df<span class="sc">$</span>y <span class="sc">+</span> <span class="fu">rnorm</span>(n, <span class="at">mean=</span><span class="dv">0</span>, <span class="at">sd=</span><span class="dv">2</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>            <span class="fu">round</span>(<span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># deterministic model output</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y <span class="ot">&lt;-</span> <span class="fu">psi</span>(df<span class="sc">$</span>valence, df<span class="sc">$</span>speed, </span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>            df<span class="sc">$</span>age, df<span class="sc">$</span>extra)</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Add additional noise to observed variable.</span></span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a><span class="co"># The SD of the normal distribution</span></span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a><span class="co"># determines the amount of error</span></span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>y_obs <span class="ot">&lt;-</span> df<span class="sc">$</span>y <span class="sc">+</span> <span class="fu">rnorm</span>(n, <span class="at">mean=</span><span class="dv">0</span>, <span class="at">sd=</span><span class="dv">2</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a>            <span class="fu">round</span>(<span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y y_obs
-1    1     pos  slow  25   0.5  7.7  13.4
-2    2     pos  slow  25  -0.1 13.1  12.7
-3    3     pos  slow  29  -0.5  8.6   5.2
-4    1     neg  slow  29  -1.8 12.4  11.1
-5    2     neg  slow  24   0.3  8.9  12.4
-6    3     neg  slow  23  -0.1  7.3   4.1
-7    1     pos  fast  23   0.6 12.2  12.5
-8    2     pos  fast  22   0.4 10.5  11.5
-9    3     pos  fast  28   0.4 12.6  14.5
-10   1     neg  fast  18   2.2  9.5   9.5
-11   2     neg  fast  24  -1.0  7.3   6.8
-12   3     neg  fast  26   1.7 10.0   9.7</code></pre>
+1    1     pos  slow  28  -0.3  8.2   8.1
+2    2     pos  slow  24   0.2 11.4   7.5
+3    3     pos  slow  24   0.2 10.3   9.1
+4    1     neg  slow  29   0.8  9.7  11.0
+5    2     neg  slow  28   0.7  8.8   7.8
+6    3     neg  slow  32  -1.1  6.6   5.6
+7    1     pos  fast  26   1.3 10.9   9.3
+8    2     pos  fast  27  -0.4  5.8   0.8
+9    3     pos  fast  26   0.0 11.3  12.5
+10   1     neg  fast  19  -1.4 11.7  12.2
+11   2     neg  fast  19  -0.3  8.8   7.9
+12   3     neg  fast  24   0.7  9.5   9.0</code></pre>
 </div>
 </div>
 </div>
@@ -1481,133 +1709,14 @@ Note
 <p>The size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size.</p>
 </section>
 </section>
-<section id="group-work-20-min.-create-a-design-matrix" class="level2">
-<h2 class="anchored" data-anchor-id="group-work-20-min.-create-a-design-matrix"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (20 min.):<br>Create a design matrix</h2>
-<div class="smaller">
-<ol type="1">
-<li>In your own <code>R</code> project, create a design matrix with <code>expand.grid()</code> and the following fully crossed experimental factors (<span class="math inline">\(n=30\)</span> participants per condition):
+<section id="group-work-45-min.-compute-the-outcome-variable" class="level2">
+<h2 class="anchored" data-anchor-id="group-work-45-min.-compute-the-outcome-variable"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (45 min.):<br>Compute the outcome variable</h2>
 <ul>
-<li>Danger of intervention (<code>DoI</code>) with the levels 0.2 and 0.8</li>
-<li>Number of passive bystanders (<code>NOPB</code>) with the levels 0, 1, and 4</li>
-</ul></li>
-<li>Add random variables for all exogenous* variables of your model that are not experimentally manipulated.
-<ul>
-<li>This includes, e.g., the personal base resposibility, <code>baseResp</code>.</li>
-<li>Furthermore, add neuroticism (<code>neuro</code>) and age (<code>age</code>). (Note: We don’t need them for our model, just for practice.)</li>
-<li>Think about justifiable settings for the simulated variables (e.g., type of distribution, range, mean, SD).</li>
-</ul></li>
-<li>(Do <em>not</em> compute the output variable yet)</li>
-<li>Push everything to the repository.</li>
-</ol>
-</div>
-<div class="footer">
-<p>* Reminder: Exogenous variables are those variables in your model that have no arrows pointing towards them.</p>
-</div>
-</section>
-<section id="tool-the-beta-distribution" class="level2">
-<h2 class="anchored" data-anchor-id="tool-the-beta-distribution">Tool: The beta distribution</h2>
-<p>A handy distribution for the <span class="math inline">\([0; 1]\)</span> range is the <a href="https://en.wikipedia.org/wiki/Beta_distribution">beta distribution</a>. With its two parameters <span class="math inline">\(\alpha\)</span> (also called <span class="math inline">\(a\)</span> or <code>shape1</code>) and <span class="math inline">\(\beta\)</span> (also called <span class="math inline">\(b\)</span> or <code>shape2</code>), it can take many different forms:</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-36-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="tool-the-beta-distribution-1" class="level2">
-<h2 class="anchored" data-anchor-id="tool-the-beta-distribution-1">Tool: The beta distribution</h2>
-<p><strong>How to choose <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span>? Asking ChatGPT/Wolfram Alpha for assistance</strong></p>
-<p>Assume that you intuitively started with a normal distribution with <span class="math inline">\(M=0.2\)</span> and <span class="math inline">\(SD=0.1\)</span> (<code>rnorm(mean=0.2, sd=0.1)</code>) to simulate your values. But this function can generate values &lt; 0 and &gt; 1.</p>
-<p>How can you achieve a beta distribution that approximates the properties of this normal distribution? You can work out the math yourself (e.g., by looking at the formula for the mean and the variance of the beta distribution) - or you can ask ChatGPT. After all, we only use this function as a tool to get some plausible values.</p>
-</section>
-<section id="tool-the-beta-distribution-2" class="level2">
-<h2 class="anchored" data-anchor-id="tool-the-beta-distribution-2">Tool: The beta distribution</h2>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">Prompt (Choose Wolfram Alpha as ChatGPT plugin):</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href="">Wolfram Alpha answer:</a></li></ul>
-<div class="tab-content">
-<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
-<blockquote class="blockquote">
-<p>“We have a normal distribution with mean=0.2 and SD=0.1. But the results should be bounded on a scale from 0 to 1. Create a beta-distribution that mimics the properties of the described normal distribution.”</p>
-</blockquote>
-</div>
-<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
-<div class="smaller">
-<blockquote class="blockquote">
-<p>“To mimic the properties of a specified normal distribution (with a mean and standard deviation) using a beta distribution within a bounded interval (in this case, 0 to 1), we need to find the parameters of the beta distribution (alpha <span class="math inline">\(\alpha\)</span> and beta <span class="math inline">\(\beta\)</span>) that match the mean and variance of the normal distribution as closely as possible.</p>
-<p>[snip]</p>
-<p>The parameters for the beta distribution that mimic the properties of the described normal distribution (with mean = 0.2 and standard deviation = 0.1, bounded between 0 and 1) are <span class="math inline">\(\alpha = 3\)</span> and <span class="math inline">\(\beta = 12\)</span>.</p>
-<p>This beta distribution should closely match the shape and spread of the specified normal distribution within the bounds of 0 to 1.”</p>
-</blockquote>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="tool-the-beta-distribution-3" class="level2">
-<h2 class="anchored" data-anchor-id="tool-the-beta-distribution-3">Tool: The beta distribution</h2>
-<section id="approximating-a-normal-distribution-with-a-beta-distibution" class="level3">
-<h3 class="anchored" data-anchor-id="approximating-a-normal-distribution-with-a-beta-distibution">Approximating a normal distribution with a beta distibution</h3>
-<p>You can generate random values in <code>R</code> with the <code>rbeta</code> function. Here’s a comparison of a normal distribution and a matched beta distribution that respects the boundaries <span class="math inline">\([0; 1]\)</span>:</p>
-<div class="cell" data-layout-align="center">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>x.random <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">10000</span>, <span class="at">mean=</span><span class="fl">0.2</span>, <span class="at">sd=</span><span class="fl">0.1</span>)</span>
-<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.random, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"Normal distribution (M=0.2, SD=0.1)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span>
-<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>x.beta <span class="ot">&lt;-</span> <span class="fu">rbeta</span>(<span class="dv">10000</span>, <span class="at">shape1=</span><span class="dv">3</span>, <span class="at">shape2=</span><span class="dv">12</span>)</span>
-<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(x.beta, <span class="at">xlab =</span> <span class="st">""</span>, <span class="at">ylab=</span><span class="st">""</span>, <span class="at">main=</span><span class="st">"beta distribution (a=3, b=12)"</span>, <span class="at">xlim=</span><span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.3</span>, <span class="fl">1.1</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</section>
-</section>
-<section id="tool-the-beta-distribution-4" class="level2">
-<h2 class="anchored" data-anchor-id="tool-the-beta-distribution-4">Tool: The beta distribution</h2>
-<section id="approximating-a-normal-distribution-with-a-beta-distibution-1" class="level3">
-<h3 class="anchored" data-anchor-id="approximating-a-normal-distribution-with-a-beta-distibution-1">Approximating a normal distribution with a beta distibution</h3>
-<div class="cell quarto-layout-panel" data-layout-align="center" data-layout-ncol="1" data-layout-nrow="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-38-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-38-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section>
-</section>
-<section id="tool-the-distribution-zoo" class="level2">
-<h2 class="anchored" data-anchor-id="tool-the-distribution-zoo">Tool: The Distribution Zoo</h2>
-<p>If you start simulating data for your virtual participants, you draw random values from a distribution. For example, the virtual participants might differ in their anxiety, which you previously defined on the range <span class="math inline">\([0; 1]\)</span>.</p>
-<p>How can you generate random values that roughly look like a normal distribution, but are bounded to the defined range?</p>
-<p>For simulations, it is good to know some basic distributions. Here are three interactive resources for choosing your distribution:</p>
-<ul>
-<li>The <a href="https://ben18785.shinyapps.io/distribution-zoo/">Distribution Zoo</a> by Ben Lambert and Fergus Cooper</li>
-<li>The <a href="https://distribution-explorer.github.io/index.html">Probability Distribution Explorer</a> by Justin Bois</li>
-<li><a href="https://richarddmorey.github.io/stat-distributions-js/">Interactive collection of distributions</a> by Richard Morey</li>
-</ul>
-</section>
-<section id="group-work-45-min.-full-simulation" class="level2">
-<h2 class="anchored" data-anchor-id="group-work-45-min.-full-simulation"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (45 min.):<br>Full simulation</h2>
-<p>Based on your design matrix from the previous exercise:</p>
-<ol start="3" type="1">
 <li>Compute the output variable of your model for each participant. Optionally: Add additional noise to the output variable.</li>
 <li>Visualize the simulated data (e.g., with <code>ggplot2</code>).</li>
 <li>Push everything to the repository.</li>
-</ol>
-<div class="footer">
-<p>* Reminder: Exogenous variables are those variables in your model that have no arrows pointing towards them.</p>
-</div>
+</ul>
+<!-- TODO: Add slides for simulating and visualizing dichotomous variables -->
 </section>
 <section id="step-6-simulate-a-full-data-set-8" class="level2">
 <h2 class="anchored" data-anchor-id="step-6-simulate-a-full-data-set-8">Step 6: Simulate a full data set</h2>
@@ -1691,6 +1800,591 @@ If we assume that our model is the **true data generating model**, i.e.:
 </section>
 
 </main> <!-- /main -->
+<script>
+
+/* definition of content for the buttons */
+const webex_buttons = {check_hidden:          "<b>&check;</b>",
+                       check_hidden_alt:      "Check answer",
+                       check_shown:           "<b>&lsh;</b>",
+                       check_shown_alt:       "Hide check",
+                       check_of_total:        "/",
+                       solution:              "<b>&quest;</b>",
+                       solution_alt:          "Correct solution",
+                       question_next:         "<b>&#8634;</b>",
+                       question_next_alt:     "Next question",
+                       question_previous:     "",
+                       question_previous_alt: ""}
+
+
+/* update total correct if #webex-total_correct exists */
+update_total_correct = function() {
+  console.log("webex: update total_correct");
+
+  document.querySelectorAll(".webex-total_correct").forEach(total => {
+    p = total.closest(".webex-box");
+    var correct = p.getElementsByClassName("webex-correct").length;
+    var solvemes = p.getElementsByClassName("webex-solveme").length;
+    var radiogroups = p.getElementsByClassName("webex-radiogroup").length;
+    var selects = p.getElementsByClassName("webex-select").length;
+    /* no specific class on input node, thus searching via query selector */
+    var checkboxgroups = p.querySelectorAll("div[class=webex-checkboxgroup] input[type=checkbox]").length
+
+    /* show number of correct / total number of answers */
+    total.innerHTML = correct + "&nbsp;" + webex_buttons.check_of_total + "&nbsp;" + (solvemes + radiogroups + checkboxgroups + selects);
+  });
+}
+
+/* check answers */
+check_func = function() {
+  console.log("webex: check answer");
+
+  //var cl = elem.parentElement.classList;
+  var cl = this.closest(".webex-box").classList;
+  if (cl.contains("unchecked")) {
+    cl.remove("unchecked");
+    this.innerHTML = webex_buttons.check_shown; //"Hide check";
+    if (webex_buttons.check_shown_alt.length > 0) this.setAttribute("title", webex_buttons.check_shown_alt);
+  } else {
+    cl.add("unchecked");
+    this.innerHTML = webex_buttons.check_hidden; //"Check answer";
+    if (webex_buttons.check_hidden_alt.length > 0) this.setAttribute("title", webex_buttons.check_hidden_alt);
+  }
+}
+
+/* helper functions for checking the webex ID */
+const id_checker = {"fmt": new RegExp("[g-zG-Z]"),
+                    "load": function(e) { return e.getAttribute("id").match("(?<=(-)).*$")[0]; },
+                    "eval": new TextEncoder(),
+                    "dval": new TextDecoder()}
+
+/* Show/hide correct solution */
+solution_func = function() {
+  console.log("webex: show/hide solution");
+
+  var div = this.closest(".webex-question").querySelector(".webex-solution");
+  var cl = div.classList;
+
+  if (cl.contains("visible")) {
+    cl.remove("visible");
+  } else {
+    cl.add("visible");
+  }
+}
+
+/* function to check if the real answer is numeric */
+convert_to_numeric = function(x) {
+  if (typeof x == "string") {
+    /* do nothing */
+  } else if (x.length == 1) {
+    /* take first element */
+    x = x[0]
+  } else {
+    return NaN;
+  }
+
+  /* remove spaces for easier parsing */
+  x = x.replace(/\s/g, "");
+
+  /* Define patterns for different formats, note that spaces have been removed above */
+  const patterns = [
+    {regex: /^[+-]?\d+(\.\d{3})*,\d+$/, decimal: ",", thousand: "." },  // Format: "1.100.100.100,3"
+    {regex: /^[+-]?\d+(,\d{3})*\.\d+$/, decimal: ".", thousand: "," },  // Format: "1,100,100,100.3"
+    {regex: /^[+-]?\d+(\.|\.\d+)?$/, decimal: "." },                    // Format: "1100100100.5" or "1100100100."
+    {regex: /^[+-]?\d+(,|,\d+)$/, decimal: "," }                        // Format: "1100100100,5" or "1100100100,"
+  ];
+
+
+  /* testing all regular expressions, convert to float if possible */
+  for (const { regex, decimal, thousand } of patterns) {
+    if (regex.test(x)) {
+      let numeric = x;
+      if (thousand) numeric = numeric.replace(new RegExp(`\\${thousand}`, "g"), "");
+      numeric = numeric.replace(decimal, ".");
+      return parseFloat(numeric);
+    }
+  }
+
+  /* input of length 1 but none of the known formats, return NaN */
+  return NaN;
+}
+
+/* Checking webex ID, returns formalsol */
+check_id = function(e) {
+  /* loading webex ID */
+  var id = id_checker["load"](e);
+
+  /* extracting answer */
+  let answer = e.dataset.answer;
+
+  /* checking unique id, prepare and return array */
+  if (!id_checker["fmt"].test(id)) {
+    const a = id_checker["eval"].encode(atob(answer));
+    const b = id_checker["eval"].encode(id);
+    const res = a.map((byte, index) => byte^b[index % b.length]);
+    answer = id_checker["dval"].decode(res);
+    /* Replacing &amp; with ' before parsing */
+    answer = answer.replaceAll("&apos;", "'");
+  }
+
+  return JSON.parse(answer);
+}
+
+/* function for checking solveme answers */
+solveme_func = function(e) {
+  /* avoid that keyup and keychange twice execute this function within nms = 10
+   * ms, clearing inputTimer and add timeout */
+  console.log("webex: check solveme");
+
+  /* float, precision for checking numeric answers */
+  const eps = 0.00000000000001;
+
+  /* get last checked user answer */
+  const question = this.closest(".webex-question")
+
+  /* extracting classes */
+  var cl = this.classList;
+  var my_answer = this.value;
+
+  /* extracting classes */
+  var cl = this.classList;
+
+  /* empty answer? Job done */
+  if (my_answer == "") {
+    cl.remove("webex-correct");
+    cl.remove("webex-incorrect");
+    return false;
+  }
+
+  /* Find closest (parent) webex-question */
+  let formalsols = check_id(this)
+
+  /* by default we assume the users' answer is incorrect */
+  var user_answer_correct = false;
+
+  /* check if the correct answer is numeric, i.e. if 
+   * formalsols is of length 1 containing one single numeric
+   * value in a known format, else, NaN is returned */
+  const num_formalsol = convert_to_numeric(formalsols);
+  const num_my_answer = convert_to_numeric(my_answer);
+
+  /* if the correct answer is numeric (float), the user's answer
+   * must also be numeric. If not, it is wrong. Else we can
+   * compare floating point numbers */
+  if (!isNaN(num_formalsol) && !isNaN(num_my_answer)) {
+    /* check if the real answer and the user input are numerically the same;
+     * adding 'delta' to avoid precision issues */
+    var diff = Math.abs(num_formalsol - num_my_answer);
+    if (diff < parseFloat(this.dataset.tol) + eps) { user_answer_correct = true; }
+
+  /* if the question contains regex, a regular expression is used
+   * to evaluate the users answer. Allows for multiple regular expressions */
+  } else if (cl.contains("regex")) {
+    for (let i = 0; i < formalsols.length; i++) {
+        let regex = new RegExp(formalsols[i], cl.contains("ignorecase") ? "i" : "");
+        if (regex.test(my_answer)) { user_answer_correct = true; break; }
+    }
+
+  /* else we evaluate on 'string level', considering the creators preferences
+   * regarding set options */
+  } else {
+    /* modify/prepare answer */
+    if (cl.contains("ignorecase")) { my_answer = my_answer.toLowerCase(); }
+    if (cl.contains("nospaces"))   { my_answer = my_answer.replace(/ /g, ""); }
+
+    /* if the real answer includes user input - correct */
+    if (formalsols.includes(my_answer)) {
+      user_answer_correct = true;
+  
+      // added regex bit
+      if (cl.contains("regex")) {
+        answer_regex = RegExp(formalsols.join("|"))
+        if (answer_regex.test(my_answer)) {
+          cl.add("webex-correct");
+        }
+      }
+    }
+  }
+
+  if (user_answer_correct) {
+      cl.add("webex-correct");
+      cl.remove("webex-incorrect");
+  } else {
+      cl.add("webex-incorrect");
+      cl.remove("webex-correct");
+  }
+
+  update_total_correct();
+
+}
+
+/* function for checking select answers */
+select_func = function(e) {
+  console.log("webex: check select");
+
+  var options   = [];
+  Array.from(this.querySelectorAll("option")).forEach((option, index) => {
+    if (!option.hasAttribute("value") || !option.getAttribute("value") === "blank") {
+      options.push(option);
+    }
+  });
+
+  /* get selected option */
+  function get_selected(options) { return options.findIndex(option => option.selected); }
+  var option_index = get_selected(options)
+
+  /* loading webex ID */
+  var formalsol = check_id(this)
+
+  /* add class for current selection */
+  this.classList.remove("webex-incorrect");
+  this.classList.remove("webex-correct");
+  if (option_index >= 0) {
+    this.classList.add(formalsol[option_index] === 1 ? "webex-correct" : "webex-incorrect");
+  }
+
+  update_total_correct();
+}
+
+/* function for checking radiogroups answers */
+radiogroups_func = function(e) {
+  console.log("webex: check radiogroups");
+
+  /* get real answer (binary integer array) */
+  var id = e.target.getAttribute("name");
+  var group = document.querySelector(".webex-radiogroup[id='webex-" + id + "']");
+  var formalsol = check_id(group)
+
+  /* check which radiobuttion is selected (user answer) */
+  function get_checked(radios) {
+    return radios.findIndex(radios => radios.checked);
+  }
+  var radios = Array.from(group.querySelectorAll("input[type='radio']"))
+  var radio_index = get_checked(radios);
+
+  /* remove existing classes */
+  radios.forEach(radio => {
+    let cl = radio.closest("label").classList
+    cl.remove("webex-incorrect");
+    cl.remove("webex-correct");
+  });
+
+  /* add class for current selection */
+  let cl = radios[radio_index].closest("label").classList
+  if (formalsol[radio_index] === 1) {
+      cl.add("webex-correct");
+  } else {
+      cl.add("webex-incorrect");
+  }
+
+  update_total_correct();
+}
+
+
+/* function for checking checkboxgroups answers */
+checkboxgroups_func = function(e) {
+  console.log("webex: check checkboxgroups");
+
+  /* get real answer (binary integer array) */
+  var group = document.querySelector(".webex-checkboxgroup[id='" + this.id + "']");
+  var formalsol = check_id(group);
+
+  /* check which checkbox is checked (user answer) */
+  function get_checked(group) {
+      const checkboxes = Array.from(group.querySelectorAll("input[type='checkbox']"));
+      return checkboxes.reduce((indices, checkbox, index) => {
+          if (checkbox.checked) indices.push(index);
+          return indices;
+      }, []);
+  }
+  var checks = Array.from(group.querySelectorAll("input[type='checkbox']"));
+  var check_index = get_checked(group);
+
+  checks.forEach((e, index) => {
+    var label = e.parentNode;
+    var ans = formalsol[index];
+    if ((e.checked && ans === 1) || (!e.checked && ans === 0)) {
+        label.setAttribute("class", "webex-correct")
+    } else {
+        label.setAttribute("class", "webex-incorrect")
+    }
+  });
+
+  update_total_correct();
+}
+
+/* shuffling array (thanks to stack overflow)
+ * If argument x is an integer we create an integer sequence
+ * from 0, 1, ..., (x - 1) and return a shuffled version. If
+ * the input is an array, we simply shuffle it */
+shuffle_array = function(x) {
+   if (Number.isInteger(x) && !isNaN(x)) {
+     x = Array.from({length: x}, (v, i) => i);
+   }
+   let shuffled = x.map(value => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort).map(({ value }) => value)
+   return shuffled;
+}
+
+/* ---------------------------------------------------------
+ * ---------------------------------------------------------
+ * --------------------------------------------------------- */
+window.onload = function() {
+  //console.log("webex: onload");
+
+  /* setting up buttons and actions to show/hide answers */
+  document.querySelectorAll(".webex-check").forEach(section => {
+    section.classList.add("unchecked");
+
+    /* ul to take up the list items with buttons */
+    let button_ul = document.createElement("ul");
+    button_ul.setAttribute("class", "webex-button-list");
+    section.appendChild(button_ul);
+
+    /* button to _check_ if answers given are correct */
+    let li_check = document.createElement("li");
+    button_ul.appendChild(li_check); /* add list item to ul */
+    let btn_check = document.createElement("button");
+    btn_check.innerHTML = webex_buttons.check_hidden;  // "Check answer";
+    btn_check.setAttribute("class", "webex-button webex-button-check");
+    if (webex_buttons.check_hidden_alt.length > 0) btn_check.setAttribute("title", webex_buttons.check_hidden_alt);
+    btn_check.onclick = check_func;
+    li_check.appendChild(btn_check);
+
+    /* span to show current number of points (when _check_ active) */
+    let spn = document.createElement("span");
+    spn.classList.add("webex-total_correct");
+    li_check.appendChild(spn);
+
+    /* button to show the _solution_ if there is one */
+    var has_solution = section.parentNode.querySelectorAll(".webex-solution").length > 0;
+    if (has_solution) {
+      let li_solution = document.createElement("li");
+      button_ul.appendChild(li_solution); /* add list item to ul */
+      let btn_solution = document.createElement("button");
+      btn_solution.innerHTML = webex_buttons.solution; // "Correct answer";
+      btn_solution.setAttribute("class", "webex-button webex-button-solution");
+      if (webex_buttons.solution_alt.length > 0) btn_solution.setAttribute("title", webex_buttons.solution_alt);
+      btn_solution.onclick = solution_func;
+      li_solution.appendChild(btn_solution);
+    }
+
+  });
+
+  /* set up webex-solveme inputs */
+  document.querySelectorAll(".webex-solveme").forEach(solveme => {
+    solveme.setAttribute("autocomplete","off");
+    solveme.setAttribute("autocorrect", "off");
+    solveme.setAttribute("autocapitalize", "off");
+    solveme.setAttribute("spellcheck", "false");
+    solveme.value = "";
+
+    /* adjust answer for 'no spaces' (ignore spaces) */
+    if (solveme.classList.contains("nospaces")) {
+      solveme.dataset.answer = solveme.dataset.answer.replace(/ /g, "");
+    }
+
+    /* attach checking function, triggered on key up, change, and when
+     * elemnt is out of focus. Only evaluated once by tracking changes
+     * via variable solveme_last_user_answer */
+    solveme.addEventListener("keyup",  solveme_func);
+    solveme.addEventListener("change", solveme_func);
+    solveme.addEventListener("blur",   solveme_func);
+
+    /* adding span to show correct/incorrect icon */
+    solveme.insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
+  });
+
+  /* set up radiogroups (single choice questions with display = "buttons") */
+  document.querySelectorAll(".webex-radiogroup").forEach(radiogroup => {
+    radiogroup.onchange = radiogroups_func;
+  });
+
+  /* set up checkboxgroups (multiple choice questions with display = "buttons") */
+  document.querySelectorAll(".webex-checkboxgroup").forEach(checkboxgroup => {
+    checkboxgroup.onchange = checkboxgroups_func;
+  });
+
+  /* set up selects (dropdown menus) */
+  document.querySelectorAll(".webex-select").forEach(select => {
+    select.onchange = select_func;
+    /* append webex-icon for correct/incorrect icons */
+    var elem = document.createElement("span")
+    elem.classList.add("webex-icon")
+    select.parentNode.appendChild(elem)
+  });
+
+  /* change to next/previous question if multiple are available */
+  function handleQuestionClick(group, questions, step) {
+    return async function() {
+      /* get question order as integer vector */
+      let questionOrder = group.dataset.questionOrder.split(",").map(str => parseInt(str));
+
+      /* current question/position */
+      let currentPosition = parseInt(group.dataset.currentPosition);
+
+      /* Hide the current question */
+      questions.forEach(question => { question.classList.remove("active"); });
+
+      /* Move to the next question index */
+      currentPosition = (currentPosition + step) % questionOrder.length;
+      if (currentPosition < 0) currentPosition = currentPosition + questionOrder.length
+
+      /* Display the new question */
+      questions[questionOrder[currentPosition]].classList.add("active");
+
+      // Update the currentPosition data attribute on the group div
+      group.dataset.currentPosition = currentPosition;
+    };
+  }
+
+  document.querySelectorAll(".webex-group").forEach(group => {
+    const questions = Array.from(group.querySelectorAll(".webex-question"));
+
+    /* Create vector with question order. If the webex-group does
+     * not have class '.noshuffle' we will randomly shuffle the order */
+    let questionOrder = Array.from({length: questions.length}, (v, i) => i);
+    if (!group.classList.contains("noshuffle")) {
+      questionOrder = shuffle_array(questionOrder);
+    }
+
+    /* take start position (if set) or start at 0 */
+    const currentPosition = parseInt(group.getAttribute("data-start-position")) || 0;
+
+    /* show the default question for each group */
+    questions[questionOrder[currentPosition]].classList.add("active");
+
+    /* store random order of questions as well as current position */
+    group.dataset.questionOrder   = questionOrder;
+    group.dataset.currentPosition = currentPosition;
+
+    /* find all webex-questions, search for .webex-button-list and
+     * populate the list with necessary <li><button>...</button></li> elements */
+    questions.forEach(question => {
+        let button_ul = question.querySelector("ul.webex-button-list");
+
+        let li_next = document.createElement("li");
+        let nextButton = document.createElement("button");
+        nextButton.setAttribute("class", "webex-button webex-button-next");
+        if (webex_buttons.question_next_alt.length > 0) nextButton.setAttribute("title", webex_buttons.question_next_alt);
+        nextButton.innerHTML = webex_buttons.question_next; // "Next question";
+        nextButton.addEventListener("click", handleQuestionClick(group, questions, 1));
+        li_next.appendChild(nextButton);
+
+        let li_previous = document.createElement("li");
+        let previousButton = document.createElement("button");
+        previousButton.setAttribute("class", "webex-button webex-button-previous");
+        if (webex_buttons.question_previous_alt.length > 0) previousButton.setAttribute("title", webex_buttons.question_previous_alt);
+        previousButton.innerHTML = webex_buttons.question_previous; // "Previous question";
+        previousButton.addEventListener("click", handleQuestionClick(group, questions, -1));
+        li_previous.appendChild(previousButton);
+
+        if (webex_buttons.question_previous.length > 0) button_ul.appendChild(li_previous);
+        if (webex_buttons.question_next.length > 0) button_ul.appendChild(li_next);
+    });
+  });
+
+  /* Development options */
+  document.querySelectorAll(".webex-question.check").forEach(question => {
+      question.querySelector(".webex-button-check").click()
+  });
+  document.querySelectorAll(".webex-question.solution").forEach(question => {
+      let btn = question.querySelector(".webex-button-solution");
+      if (btn !== null) { btn.click(); }
+  });
+
+  /* Pre-filling <input> fields */
+  document.querySelectorAll(".webex-question.prefill").forEach(question => {
+      question.querySelectorAll("input.webex-solveme").forEach(solveme => {
+          let x = JSON.parse(solveme.dataset.answer);
+          solveme.value = x[0];
+          /* Trigger the on change event */
+          solveme.dispatchEvent(new Event("change"));
+      });
+
+      /* Pre-filling radiogroups, that is for schoice questions */
+      question.querySelectorAll(".webex-radiogroup").forEach(radiogroup => {
+          let x = JSON.parse(radiogroup.dataset.answer);
+          let idx = x.indexOf(1);
+          let radios = radiogroup.querySelectorAll('input[type="radio"]');
+          radios[idx].checked = true;
+          /* Trigger the on change event */
+          radios[idx].dispatchEvent(new Event("change", { bubbles: true }));
+      });
+
+      /* Pre-filling checkboxgroups, that is for schoice questions w/ dropdown menus */
+      question.querySelectorAll(".webex-select").forEach(dropdown => {
+          let x = JSON.parse(dropdown.dataset.answer);
+          let idx = x.indexOf(1) + 1; /* +1 to skip the first blank option */
+          let options = dropdown.querySelectorAll("option");
+          options[idx].selected = true;
+          /* Trigger the on change event */
+          options[idx].dispatchEvent(new Event("change", { bubbles: true }));
+      });
+
+      /* Pre-filling checkboxgroups, that is for mchoice questions */
+      question.querySelectorAll(".webex-checkboxgroup").forEach(radiogroup => {
+          let x = JSON.parse(radiogroup.dataset.answer);
+          let checkboxes = radiogroup.querySelectorAll('input[type="checkbox"]');
+          for (let i = 0; i < checkboxes.length; i++) {
+              checkboxes[i].checked = x[i];
+          }
+          /* Trigger the on change event */
+          checkboxes[0].dispatchEvent(new Event("change", { bubbles: true }));
+      });
+  });
+
+  /* Show set tolerance (devel option) */
+  function calc_width(x, txt, offset = 20) {
+      /* We do the following:
+       * Create a new span, insert the value we need in the .tolerance
+       * input node, and calculate its offsetWidth. Then remove it
+       * again; this is just used to calculate the required width. */
+      var cwtmp = document.createElement("span");
+      x.appendChild(cwtmp);
+      cwtmp.innerHTML = txt || "";
+      var w = parseInt(cwtmp.getBoundingClientRect().width) + offset;
+      cwtmp.remove();
+      return w;
+  }
+
+  /* If tolerance should be shown (devel option) we calculate:
+   * - the width required to properly display the solution
+   * - the width required to properly display the tolerance
+   * - add a new element to display the tolerance
+   * - reduce the width of the solution input box. */
+  document.querySelectorAll(".webex-question.tolerance").forEach(question => {
+      question.querySelectorAll("input[data-tol]").forEach(elem => {
+          var w = null;
+
+          /* Add new element showing the tolerance */
+          let tol = document.createElement("input");
+          tol.type = "text"; // <inpyt type="text">
+          tol.disabled = true; // Disable input element
+          tol.classList.add("tolerance"); // Appending class
+          tol.value = "± " + elem.getAttribute("data-tol");
+
+          /* Add new node */
+          elem.parentNode.insertBefore(tol, elem)
+
+          var body     = document.querySelector("body");
+          //tol.value = "± " + "0.0000007";
+          //tol.value = "± " + "0.07";
+          w    = calc_width(body, tol.value);
+          wold = parseInt(elem.getBoundingClientRect().width);
+          wmin = calc_width(body, elem.value);
+
+          /* Calculate required width of the 'tolerance' node, and the
+           * reduction of the original 'input' node */
+          let wnew = Math.max(wmin, wold - w);
+          tol.style.width  = w + "px";
+          elem.style.width = wnew + "px";
+      });
+  });
+
+  update_total_correct();
+}
+
+</script>
 
 <script>
   // htmlwidgets need to know to resize themselves when slides are shown/hidden.

@@ -172,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Invite the lecturer as a collaborator: <i class="fa-solid fa-gear" aria-label="gear"></i> Settings → <i class="fa-solid fa-user-group" aria-label="user-group"></i> Collaborators → “Add people”<br>
 </li>
 </ol></li>
-<li>Choose your <a href="sessions/S8-MathModel5.qmd#prototypical-formalization-styles">starting point</a>:
+<li>Choose your <a href="sessions/S8-Candidate_theories#prototypical-formalization-styles">starting point</a>:
 <ol type="1">
 <li>Existing theory –&gt; Narrative Theory Reconstruction (NTR)</li>
 <li>Robust phenomenon –&gt; Theory Construction Methodology (TCM)</li>
@@ -199,18 +199,17 @@ ul.task-list li input[type="checkbox"] {
 <li>List all concepts of your VAST display that are not higher-order concepts (because higher-order concepts typically are not reducible to a single metric)</li>
 <li>Define the scale level, the possible range of values, and semantic anchors</li>
 </ol></li>
-</ol>
-<!-- TODO: Hier fehlt in der MathModel.qmd noch ein slide zur *Relationship Table* -->
-<ol start="8" type="1">
 <li>Formalize model: Create your <em>Relationship Table</em> (see slides on <a href="./lectures/MathModel/MathModel.html#group-work-10-min.">Mathematical Modeling</a>)
 <ol type="1">
 <li>Develop a mathematical function for each endogenous variable in the VAST display.</li>
 <li>What functional form does the theory imply? What are free parameters that can “bend” the function? Which parameters can be fixed?</li>
 </ol></li>
-<li>Program the functions in <code>R</code></li>
+<li>Program the functions in <code>R</code>
+<ol type="1">
 <li>Build atomic functions based on the Relationship Table</li>
 <li>Document the functions with roxygen2 (see slides on <a href="./lectures/MathModel/MathModel.html#example-with-roxygen2-documentation">Mathematical Modeling</a>))</li>
 <li>Combine atomic functions into one “super function” that takes all exogenous variables of the model as input and computes the focal output variable (typically, an observable behavior). Make sure that it can take vectors as input.</li>
+</ol></li>
 <li>Evaluate the model behavior
 <ol type="1">
 <li>Try different parameter settings. Under which conditions does the model produce the phenomenon?</li>

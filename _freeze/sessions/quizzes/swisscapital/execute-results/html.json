@@ -1,0 +1,15 @@
+{
+  "hash": "1d7f10453a0d2e4f65fd8416c5673670",
+  "result": {
+    "engine": "knitr",
+    "markdown": "Question\n========\nWhat is the seat of the federal authorities in Switzerland (i.e., the de facto capital)?\n\nAnswerlist\n----------\n* Basel\n* Bern\n* Geneva\n* Lausanne\n* Zurich\n* St. Gallen\n* Vaduz\n\n\nSolution\n========\nThere is no de jure capital but the de facto capital and seat of the federal authorities is Bern.\n\nAnswerlist\n----------\n* False\n* True\n* False\n* False\n* False\n* False\n* False\n\n\nMeta-information\n================\nexname: Swiss Capital\nextype: schoice\nexsolution: 0100000\nexshuffle: 5\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

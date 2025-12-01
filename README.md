@@ -46,6 +46,7 @@ Reference the variables in any .qmd file by using `{{< var var_name >}}`, e.g. `
 
 On the overview page, the lectures are ordered by the hidden `order` parameter in the YAML frontmatter of each lecture .qmd file.
 
+
 ## Link to Zenodo (to get a doi)
 
 1. Go to Zenodo --> My Account --> Github
@@ -60,3 +61,34 @@ On the overview page, the lectures are ordered by the hidden `order` parameter i
 
 1. Add it to the "fairtheory" community (in the project view (not edit view) -> right sidebar -> "Communities" --> "Submit to community" --> search for "FAIR Theory Community" and select it)
 
+
+## Quizzes
+
+Quiz questions are stored as R/exams `.Rmd` files.
+From this source, two output formats can be generated:
+
+1. Export as Particify .csv file, which can be imported into Particify for live quizzes during the lecture (participants scan a QR code and do it on their smartphones).
+2. Directly include in a qmd website via the [exams2forms](https://www.r-exams.org/tutorials/exams2forms/) package.
+
+in this repository, the `.Rmd` files for the quiz questions reside in a `/quizzes` subfolder under each presentation (i.e., the quizzes are nested in the folder they belong to). Only "uncategorized" quiz questions are in the general `./quizzes` folder.
+
+## How to setup R/exams webquizzes
+
+- copy https://www.r-exams.org/assets/posts/2024-11-07-exams2forms//webex.css and https://www.r-exams.org/assets/posts/2024-11-07-exams2forms//webex.js to the project folder (in this case, to the `/common` folder)
+- link them in `_quarto.yml`:
+
+```yaml
+format:
+  html:
+    css: common/webex.css
+    include-after-body: common/webex.js
+```
+
+- include in R chunks, e.g.:
+
+````
+```{r, echo = FALSE, message = FALSE, results = "asis"}
+library(exams2forms)
+exams2forms("quizzes/swisscapital.Rmd", title = 'test quiz', solution=FALSE)
+```
+````

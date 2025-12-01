@@ -1,0 +1,15 @@
+{
+  "hash": "6527eacd5eaa99c47b4343f083097c29",
+  "result": {
+    "engine": "knitr",
+    "markdown": "Question\n========\n\nI have already used `git push` and `git pull` to retrieve files from and send them to the online repository.\n\n\nAnswerlist\n----------\n* Yes, off the top of my head.\n* Yes, with a little bit of internet search / consulting the course material / help files.\n* Only with a lot of ChatGPT.\n* I'm completely clueless - what are you talking about??\n\n\nSolution\n========\nThis is a feedback question, there is **no correct answer**.\nAll options are acceptable; the “solution” below is only a\ntechnical requirement for R/exams and is ignored in grading.\n\nMeta-information\n================\nexname: skill_git_1\nextype: schoice\nexsolution: 1000\nexpoints: 0\nexshuffle: FALSE\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

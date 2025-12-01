@@ -27,7 +27,8 @@ this semester, we want to explore something new. In my upcoming Empra (for 5th s
 Here are some FAQs:
 
 ### What theory would be a good fit?
-- A theory that is sufficiently precise and has a defined and not too large scope
+- A theory that is sufficiently precise and has a defined and not too large scope.
+- It explains a central phenomenon, and this phenomenon is robust (i.e., replicable and generalizable across several dimensions).
 - Its core premises are formulated in a clear and concise form on a few pages.
 - There doesn't exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).
 
@@ -42,7 +43,7 @@ In an ideal world, theories are so well specified that they can be formalized wi
 
 ### What is my necessary commitment?
 - Provide the written material for the theory.
-- Two or three meetings (each lasting ~2h) during the Empra's teaching hours (XXX):
+- Two or three meetings (each lasting ~2h) during the Empra's teaching hours:
   - *Meeting 1* where you give a short overview of the theory. It should contain the following aspects:
     - What is the central phenomenon that is aimed to be explained?
     - How does a typical study look like that produces the phenomenon?  

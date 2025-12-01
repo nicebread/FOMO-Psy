@@ -1,3 +1,14 @@
+## MathModel, Step 5:
+
+Show that the psi() function can return multiple variables in a list.
+
+
+## Add PhD comics
+
+Git: https://phdcomics.com/comics/archive.php?comicid=1531
+
+
+
 ## TODO S08 or S09
 
 So far, we worked all in the same repo, in subfolders.

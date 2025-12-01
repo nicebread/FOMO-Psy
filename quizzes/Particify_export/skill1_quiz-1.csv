@@ -1,0 +1,8 @@
+format,body,additionalText,options,correctOptions,multiple,abstentionsAllowed
+CHOICE,"
+I have already used `git push` and `git pull` to retrieve files from and send them to the online repository.
+
+",,"Yes, off the top of my head.
+Yes, with a little bit of internet search / consulting the course material / help files.
+Only with a lot of ChatGPT.
+I'm completely clueless - what are you talking about??","",FALSE,TRUE

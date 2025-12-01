@@ -1,22 +1,23 @@
 ---
 title: Session 05 - Mathematical Modeling Part 2
-description: Create all functions for our Dangerous Bystander Effect Model
+description: Create atomic functions for our Dangerous Bystander Effect Model
 ---
 
-<!-- 25/26 run:
-1. Modelle präsentieren
-2. Abholen: Wir haben mit ChatGPT eine Funktion erstellen lassen -> neue Folie zeigen: Was ist der semantische Gehalt der drei Parameter?
 
--->
+## Intermediate Feedback
+
+Please give anonymous feedback here: [https://partici.fi/77082422](https://partici.fi/77082422)
+
+![](img/particify/Zwischenevaluation.png){height=200px}
 
 ## Overview
 
-| Topic                                                                              | Duration | Notes                                                    |
-| ---------------------------------------------------------------------------------- | -------- | -------------------------------------------------------- |
-| Finalize models in groups; push to repo; present                                   | 50       |                                                          |
-| Formalization: **Mathematical Models 2** (including group work to write functions) | 60       | [Slides](../lectures/MathModel/MathModel.qmd), Steps 2-3 |
-| FGroup work "Apply everything to reduced model"                                    | 60       |                                                          |
-| **[Homework]**: Learn `ggplot2`                                                    | -        |                                                          |
+| Topic                                            | Duration | Notes                                                    |
+| ------------------------------------------------ | -------- | -------------------------------------------------------- |
+| Finalize models in groups; push to repo; present | 50       |                                                          |
+| Formalization: **Mathematical Models 2**         | 60       | [Slides](../lectures/MathModel/MathModel.qmd), Steps 2-3 |
+| Group work "Apply everything to reduced model"   | 60       |                                                          |
+| **[Homework]**: Learn `ggplot2`                  | -        |                                                          |
 
 : {.striped}
 
@@ -42,7 +43,7 @@ If you are not familiar with `ggplot2`, please do a tutorial as homework. Here a
   - Finally, do Chapter 16 ["Faceting"](https://ggplot2-book.org/facet)
 - [Data visualization with R and ggplot2](https://www.geeksforgeeks.org/data-visualization-with-r-and-ggplot2/) is a quite condensed tutorial on ggplot2 that explains the different layers of a plot with code examples, but not much explaining text.
 
-When you are unsure, I recommend the first resource.
+**👉🏼 When you are unsure, I recommend the first resource.**
 
 # Homework Bonus
 

@@ -33,16 +33,24 @@ The full list of formalization steps is presented on [this website](../../Formal
 
 ## Step 1: Choose your starting point
 
-Formalization approaches can differ in their *starting point* (which often are not clear-cut distinct):
-
-- (A) **Start with an existing verbal theory**, formalize it as it is.
-  - Interpret the verbal statements, make them more precise, visualize as a VAST display
-  - Ignore empirical evidence (even if a hypothesized effect has already been empirically rejected, keep it in the model)
-  - Do not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.
+::: {.smallest}
+- A: **Narrative Theory Reconstruction (NTR)**
+  - *Starting point*: The existing verbal theory.
+  - *Main tasks*: Read and understand the narrative theory, then formalize it. Check whether a simulation can produce the target phenomenon.
+  - *Of only minor importance*: 
+    - Whether the phenomenon is actually robust.
+    - Do not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.
   - This approach focuses on *showing the gaps* (without fixing them)
-- (B) **Start with robust phenomena (TCM approach)**, invent an explanatory theory and formal model
-  - Ignore existing verbal theories (which might be hard once you know them)
-  - This will (potentially) lead to an alternative theory/model to the existing theory
+- B: **Theory Construction Methodology (TCM)**
+  - *Starting point*: A robust phenomenon.
+  - *Main tasks*: 
+    - Understand the phenomenon (its robustness, evidence, moderating conditions, operationalizations; search for meta-analyses). 
+    - Invent a new theory that can explain the phenomenon, or use an established theory from another domain and make necessary adjustments (could be within psychology, but also from completely different disciplines).
+    - Check whether a formal model of your theory produces the phenomenon. 
+  - *Of only minor importance*: Any existing theory that aims to explain the phenomenon. You might compare your own formal model to existing theories later.
+:::
+
+
 
 ## Step 1: Choose your starting point
 ### A-B Mixture Model (for formalization attempts)

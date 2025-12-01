@@ -1,15 +1,21 @@
 ---
-title: Session 09 - Propose and discuss your own formalization candidate theories
+title: Session 09 - Best practices in theory formalization; create a new VAST
 number-sections: false
-description: We decide which theories will be formalized in the second part of the course.
+description: Groups start working on their own formalization projects, setting up the technical infrastructure and preparing a new repository with best practices.
 ---
 
-# Overview
+::: {.callout-note collapse="true" title="Instructor notes"}
+- Create the folder `homework/04-Quality_checklist` in the homework repo.
+:::
 
-| Topic                                       | Duration | Notes |
-| ------------------------------------------- | -------- | ----- |
-| Discuss the candidate theories, form groups | 150      |       |
-| Prepare a new repository in each group      |          |       |
+## Overview
+
+| Topic                                                                             | Duration | Notes                                                 |
+| --------------------------------------------------------------------------------- | -------- | ----------------------------------------------------- |
+| Best (technical) practices in theory development: CFF + semver + folder structure | 60       | [Slides](../lectures/it-tools/it-tools.qmd)           |
+| Prepare a new repository in each group                                            | 20       | [Formalization Steps](/Formalization_steps.qmd) 1 & 2 |
+| Workshop: create a VAST                                                           | 120      | [Formalization Steps](/Formalization_steps.qmd) 3 - 6 |
+|                                                                                   |          |                                                       |
 : {.striped}
 
 
@@ -17,7 +23,33 @@ description: We decide which theories will be formalized in the second part of t
 
 Each group should set up their technical infrastructure - from now on, you start working in your own repository.
 
-1. Create a fresh Github repository *and* a folder on Google Drive (or a comparable collaborative document) for the tables.
+1. Create a fresh public Github repository *and* a folder on Google Drive (or a comparable collaborative document) for the tables.
 2. Link the latter in the README of the repository.
 3. Invite the lecturer (user name: `nicebread`) as a collaborator: {{<fa gear>}} Settings → {{<fa user-group>}} Collaborators → "Add people"
+4. Prepare the folder structure, CFF file, etc.
 
+
+## Homework 1
+
+- Finalize [Formalization Steps](/Formalization_steps.qmd) 3 - 6 and push everything in your repo.
+- Assign a new semantic version number.
+
+## Homework 2
+
+- Read: Lange, J., Freyer, N., Musfeld, P., Schönbrodt, F., & Leising, D. (2025). A checklist for incentivizing and facilitating good theory building. *Zeitschrift Für Psychologie*, 2151-2604/a000604. https://doi.org/10.1027/2151-2604/a000604
+- Also read the [checklist itself](https://osf.io/preprints/psyarxiv/e7tdc_v2)
+
+Answer the following guiding questions:
+ 
+1. Name the three immutable guiding principles of the checklist
+<!-- First, all the basic elements of a theory should be defined and described as precisely as possible. 
+Second, any steps toward formalization should be rewarded.
+Third, the theory should allow researchers to derive and conduct informative evaluations of a theory via simulations and/or empirical studies -->
+
+2. According to the introduction section of the checklist: What are the differences between a "theory" and a "formal model"?
+<!-- In our terminology, a theory is always expressed in verbal form (i.e., in the natural language). Theories may be translated into formal models, that is, their elements may be expressed in the form of logical propositions, mathematical equations, or algorithms such as agent-based models -->
+
+3. Name the two ways of evaluating a theory.
+<!-- Theories may be evaluated via simulations and/or via empirical studies -->
+
+**Deliverable**: Submit answers to the guiding questions as a plain text or markdown file to the course's [Homework Repository]({{< var homework_repo >}}), subfolder `04-Quality_checklist`.

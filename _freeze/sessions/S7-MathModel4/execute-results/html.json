@@ -1,0 +1,15 @@
+{
+  "hash": "61ac8790bda54fc0b87b6daf9ce51626",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Session 07 - Mathematical Modeling Part 4\nnumber-sections: true\ndescription: Super-function \"Psi\" + simulated experiments\n---\n\n## Overview\n\n| Topic                                                             | Duration | Notes                                                    |\n| ----------------------------------------------------------------- | -------- | -------------------------------------------------------- |\n| Homework wrapup: Productive Explanations                          | 20       |                                                          |\n| Formalization: **Mathematical Models** Simulations                | 60       | [Slides](../lectures/MathModel/MathModel.qmd), Steps 5+6 |\n| Group work: Create super-function + plot for individual functions | 40       |                                                          |\n: {.striped}\n\n\n::: {.webex-question }\n::: {.webex-check .webex-box}\n\n\nWhat is the seat of the federal authorities in Switzerland (i.e., the de facto capital)?\n\n\n<div class='webex-radiogroup' id='webex-da19e125d8e1f825d451619e6c40754f' data-answer='P1EdCEkBHgVICDg='><label><input type='radio' autocomplete='off' name='da19e125d8e1f825d451619e6c40754f'></input><span>St. Gallen</span></label><label><input type='radio' autocomplete='off' name='da19e125d8e1f825d451619e6c40754f'></input><span>Bern</span></label><label><input type='radio' autocomplete='off' name='da19e125d8e1f825d451619e6c40754f'></input><span>Geneva</span></label><label><input type='radio' autocomplete='off' name='da19e125d8e1f825d451619e6c40754f'></input><span>Zurich</span></label><label><input type='radio' autocomplete='off' name='da19e125d8e1f825d451619e6c40754f'></input><span>Vaduz</span></label></div>\n\n\n:::\n\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

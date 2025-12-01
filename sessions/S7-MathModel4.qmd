@@ -1,48 +1,43 @@
 ---
 title: Session 07 - Mathematical Modeling Part 4
-number-sections: true
-description: Empirical calibration + simulated experiments
+number-sections: false
+description: Super-function "Psi" + simulated experiments
 ---
 
-# Overview
+## Overview
 
-| Topic                                                                      | Duration | Notes                                                    |
-| -------------------------------------------------------------------------- | -------- | -------------------------------------------------------- |
-| Homework wrapup: TCM                                                       | 30       |                                                          |
-| Formalization: **Mathematical Models 3**                                   | 60       | [Slides](../lectures/MathModel/MathModel.qmd), Steps 4-5 |
+| Topic                                                               | Duration | Notes                                                    |
+| ------------------------------------------------------------------- | -------- | -------------------------------------------------------- |
+| Homework wrapup: Productive Explanations                            | 20       |                                                          |
+| Formalization: **Mathematical Models** Simulations                  | 60       | [Slides](../lectures/MathModel/MathModel.qmd), Steps 5+6 |
+| Group work: Create super-function + plot for individual functions   | 40       |                                                          |
+| Homework: Think about candidate theories for your own formalization |          |                                                          |
 : {.striped}
 
+## Homework (individual / groups)
 
+Next week, we will form (up to) four new groups that work on their own theory formalization.
+Please think about candidate theories that you would like to formalize. You can also team up with other students to propose a theory together.
 
-# Homework (individually)
+**What theory would be a good fit?** (inclusion criteria)
 
-Read: Van Dongen et al. (2024). Productive explanation: A framework for evaluating explanations in psychological science. *Psychological Review*. [https://doi.org/10.1037/rev0000479](https://doi.org/10.1037/rev0000479) (available in the `/literature` folder):
+- A theory that is sufficiently precise and has a defined and not too large scope.
+- It explains a central phenomenon, and this phenomenon is robust (i.e., replicable and generalizable across several dimensions).
+- Its core premises are formulated in a clear and concise form on a few pages.
+- There doesn't exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).
 
-- **Question 1:** What is the role an original authors should play when predictions are derived from a theory?
-<!-- Answer: None. -->
+**What theory would not be a good fit?** (exclusion criteria)
 
-- **Question 2:** Are phenomena, according to Bogen and Woodward, directly observable?
+- You need to read three books to understand the theory.
+- The "all-encompassing theory of human nature"
+- You need a lot of expert input and judgement to fill in the gaps of the underspecified theory.
+- You need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.
 
-<!-- Answer: No. Although they are *established* by evidence from observations, they transcend any particular set of structured or unstructured data. -->
+**Deliverable**:
 
+A presentation (~15 min.) that includes the following points:
 
-- **Question 3:** What are two intermediate processes that are necessary for providing a productive explanation?
-  <!-- - **Answer:** "Productive explanation provides a clear connection between a verbal theory and a phenomenon through the use of two intermediaries (a) a formal model that is an explication of the theory and (b) a statistical pattern that represents the phenomenon." (Page 5) -->
-
-- **Question 4:** According to the authors, what are the three steps of productive explanation?
-  <!-- - **Answer:** "1. Represent the phenomenon as a statistical pattern, 2. Explicate the verbal theory as a formal model, 3. Evaluate whether the formal model produces the statistical pattern." (Page 5) -->
-
-- **Question 5:** What does the paper identify as a limitation of verbal psychological theories compared to formal models in other scientific disciplines?
-  <!-- - **Answer:** "However, the fact that the theory is purely verbal in character makes it hard to evaluate what exactly is implied by the theory. As a result, it is difficult to assess whether the theory indeed explains a certain phenomenon." (Page 2) -->
-
-- **Question 6:** What criteria are suggested for evaluating the *quality* of explanations in the productive explanation framework?
-  <!-- - **Answer:** "The first criterion, precision, refers to the strength of the theoretical anchor between verbal theory and formal model. The second criterion is robustness: it specifies to what extent the formal models consistent with the verbal theory produce the phenomenon. Finally, empirical relevance captures to what extent the theory is necessary for the explanation of the phenomenon." (Page 9) -->
-
-- **Question 7:** Does Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?
-
-<!-- Answer: 
-With the specifically chosen parameters: Yes. But it "depends on a quite delicate balance between parameters that characterize the interplay between task demand and willpower." 
- -->
-
-
-**Deliverable**: Submit answers to the guiding questions as a plain text/markdown file to the course's Github repo (go to `homework/04-Productive_explanations` and upload an `.md` file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. 
+- What is the central phenomenon to be explained?
+- What does a typical study that produces the phenomenon look like?
+- A (very brief) introduction to the theory that explains the phenomenon.
+- What is the central literature? (To give an impression of the form in which the narrative theory is presented).

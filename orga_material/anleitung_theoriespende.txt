@@ -1,0 +1,52 @@
+Liebe (Post)Doktorandys,
+
+in der zweiten Hälfte des Empras werden die Studierenden in 4 Gruppen eine weitere Theorie formalisieren (und alle Schritte, die wir gemeinsam am Bystander Effect durchgemacht haben, noch mal anwenden).
+
+Ich hatte ja schon erwähnt, dass ihr gerne jeweils eine Theorie, mit der ihr arbeitet, dafür vorschlagen könnt.
+Die Studierenden dürfen selber auch Theorien vorschlagen; aus dem Pool werden dann 4 Theorien zur Bearbeitung gewählt.
+
+Falls ihr eine Theorie in den Pool geben wollt: Am 5.12. sollen alle Theoriekandidaten vorgestellt werden.
+Die Vorstellung sollte maximal 15-20 min. dauern und folgende Punkte beinhalten:
+
+- Was ist das zentrale Phänomen, das erklärt werden soll?
+- Wie sieht eine typische Studie aus, die das Phänomen produziert?
+- Eine (sehr kurze) Einführung in die Theorie, die das Phänomen erklären soll.
+- Was ist die zentrale Literatur? (Damit man einen Eindruck bekommt, in welcher Form die narrative Theorie vorliegt).
+
+Unten ist noch eine spezifischere Anleitung für die Theoriespende.
+
+Gebt mir bitte spätestens am 28.11. Bescheid, ob ihr eine Thheorie vorschlagen wollt.
+
+Viele Grüße,
+Felix
+
+
+### What theory would be a good fit?
+- A theory that is sufficiently precise and has a defined and not too large scope.
+- It explains a central phenomenon, and this phenomenon is robust (i.e., replicable and generalizable across several dimensions).
+- Its core premises are formulated in a clear and concise form on a few pages.
+- There doesn't exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).
+
+### What theory would not be a good fit?
+- You need to read three books to understand the theory.
+- The “all-encompassing theory of human nature”
+- You need a lot of expert input and judgement to fill in the gaps of the underspecified theory.
+- You need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.
+
+### But don't the students lack domain knowledge?
+In an ideal world, theories are so well specified that they can be formalized without further expert opinions. But as this is unrealistic in psychology, we need your input (see next question).
+
+### What is my necessary commitment?
+- Provide the written material for the theory.
+- Two or three meetings (each lasting ~2h) during the Empra's teaching hours:
+  - *Meeting 1* where you give a short overview of the theory. It should contain the following aspects:
+    - What is the central phenomenon that is aimed to be explained?
+    - How does a typical study look like that produces the phenomenon?  
+    - An introduction to the theory that aims to explain the phenomenon.  
+    - What is the central literature? (To get an impression of how the narrative theory is presented.)
+  - *Meeting 2* where students present intermediate results and can ask questions for clarification.
+  - (optional) *Meeting 3*, where students present their results to you.
+  - If you enjoy and benefit from the scientific discussion, of course more meetings are possible and welcome.
+
+### What happens with the results?
+The created models will be published with a CC-BY license. That means, you can reuse everything with a proper citation. If the models are really helpful (and more than just a vague inspiration for further work), we can think about a follow-up collaboration and write-up (where collaboration and co-authorship is offered to the student creators of the model).

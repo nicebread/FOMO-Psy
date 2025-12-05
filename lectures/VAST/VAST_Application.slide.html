@@ -6611,14 +6611,14 @@ Felix Schönbrodt <a href="https://orcid.org/0000-0002-8282-3910" class="quarto-
 </section>
 <section id="step-4-collect-definitions-of-constructs" class="slide level2">
 <h2>Step 4: Collect definitions of constructs</h2>
-<h3 id="construct-source-table">Construct Source Table</h3>
+<h3 id="construct-table">Construct Table</h3>
 <div class="smallest">
 <ul>
 <li>Collect quotes of definitions of constructs and their relationships from the literature.</li>
 <li>Make them atomic (i.e., split up long quotes into their basic components).</li>
 <li>Assign a unique ID to each statement.</li>
 </ul>
-<p>This table will be called the <em><span class="hl">Construct Source Table</span></em>, as it collects the original sources for the definitions of the constructs.</p>
+<p>This table will be called the <em><span class="hl">Construct Table</span></em>, as it collects the original sources for the definitions of the constructs.</p>
 <div class="table-grid">
 <table class="caption-top" style="width:100%;">
 <colgroup>
@@ -6688,9 +6688,9 @@ Felix Schönbrodt <a href="https://orcid.org/0000-0002-8282-3910" class="quarto-
 <div class="smaller">
 <ul>
 <li>Draw a VAST display with a naming (<code>n</code>) relationship for each construct.</li>
-<li>Use the ID from the <em>Construct Source Table</em> as subscript for each relationship. This way your claims in the VAST display can be easily backlinked to the original sources in the literature.
+<li>Use the ID from the <em>Construct Table</em> as subscript for each relationship. This way your claims in the VAST display can be easily backlinked to the original sources in the literature.
 <ul>
-<li>The small “A” subscript indicates that all relationships in this display are derived from the quote with ID “A” in the <em>Construct Source Table</em>.</li>
+<li>The small “A” subscript indicates that all relationships in this display are derived from the quote with ID “A” in the <em>Construct Table</em>.</li>
 </ul></li>
 </ul>
 </div>
@@ -8079,6 +8079,44 @@ window.QuartoSupport = function () {
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")

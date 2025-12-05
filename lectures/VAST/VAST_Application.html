@@ -9,7 +9,7 @@
 <meta name="author" content="Felix Schönbrodt">
 <meta name="dcterms.date" content="2025-10-31">
 
-<title>Applying VAST to an existing theory – FOMO-Psy: Formal Modeling of Psychological Theories</title>
+<title>Applying VAST to an existing theory – FOMO-Psy: Formal Modelingof Psychological Theories</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,7 +117,7 @@ window.Quarto = {
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">FOMO-Psy: Formal Modeling of Psychological Theories</span>
+    <span class="navbar-title">FOMO-Psy: Formal Modeling<br>of Psychological Theories</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -127,10 +127,6 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../sessions/sessions_overview.html"> 
 <span class="menu-text">Sessions</span></a>
   </li>  
@@ -139,12 +135,16 @@ window.Quarto = {
 <span class="menu-text">Lectures</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../orga_material/orga_material.html"> 
-<span class="menu-text">Organizational Material</span></a>
+    <a class="nav-link" href="../../formalization_steps.html"> 
+<span class="menu-text">Formalization<br>Steps</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../Formalization_steps.html"> 
-<span class="menu-text">Overview: Formalization Steps</span></a>
+    <a class="nav-link" href="../../bystander_demo.html"> 
+<span class="menu-text">Demo: Bystander<br>Effect Model</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../orga_material/orga_material.html"> 
+<span class="menu-text">Organizational<br>Material</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
@@ -300,7 +300,7 @@ Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The full list of formalization steps is presented on <a href="../../Formalization_steps.html">this website</a>. This slide set covers steps 2 to 6 of the broader scheme.</p>
+<p>The full list of formalization steps is presented on <a href="../../formalization_steps.html">this website</a>. This slide set covers steps 2 to 6 of the broader scheme.</p>
 </div>
 </div>
 </section>
@@ -1306,44 +1306,6 @@ window.onload = function() {
 }
 
 </script>
-
-<script>
-  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-  // slide changes (different for each slide format).
-  (function () {
-    // dispatch for htmlwidgets
-    function fireSlideEnter() {
-      const event = window.document.createEvent("Event");
-      event.initEvent("slideenter", true, true);
-      window.document.dispatchEvent(event);
-    }
-
-    function fireSlideChanged(previousSlide, currentSlide) {
-      fireSlideEnter();
-
-      // dispatch for shiny
-      if (window.jQuery) {
-        if (previousSlide) {
-          window.jQuery(previousSlide).trigger("hidden");
-        }
-        if (currentSlide) {
-          window.jQuery(currentSlide).trigger("shown");
-        }
-      }
-    }
-
-    // hookup for slidy
-    if (window.w3c_slidy) {
-      window.w3c_slidy.add_observer(function (slide_num) {
-        // slide_num starts at position 1
-        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-      });
-    }
-
-  })();
-</script>
-
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

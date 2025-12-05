@@ -9,7 +9,7 @@
 <meta name="author" content="Felix Schönbrodt">
 <meta name="dcterms.date" content="2025-11-03">
 
-<title>Mathematical Modeling of Psychological Theories – FOMO-Psy: Formal Modeling of Psychological Theories</title>
+<title>Mathematical Modeling of Psychological Theories – FOMO-Psy: Formal Modelingof Psychological Theories</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -152,7 +152,7 @@ window.Quarto = {
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">FOMO-Psy: Formal Modeling of Psychological Theories</span>
+    <span class="navbar-title">FOMO-Psy: Formal Modeling<br>of Psychological Theories</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -162,10 +162,6 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../sessions/sessions_overview.html"> 
 <span class="menu-text">Sessions</span></a>
   </li>  
@@ -174,12 +170,16 @@ window.Quarto = {
 <span class="menu-text">Lectures</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../orga_material/orga_material.html"> 
-<span class="menu-text">Organizational Material</span></a>
+    <a class="nav-link" href="../../formalization_steps.html"> 
+<span class="menu-text">Formalization<br>Steps</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../Formalization_steps.html"> 
-<span class="menu-text">Overview: Formalization Steps</span></a>
+    <a class="nav-link" href="../../bystander_demo.html"> 
+<span class="menu-text">Demo: Bystander<br>Effect Model</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../orga_material/orga_material.html"> 
+<span class="menu-text">Organizational<br>Material</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
@@ -339,6 +339,7 @@ window.Quarto = {
   <li><a href="#beta-distribution-respects-the-01-boundaries" id="toc-beta-distribution-respects-the-01-boundaries" class="nav-link" data-scroll-target="#beta-distribution-respects-the-01-boundaries">beta distribution respects the [0;1] boundaries</a></li>
   </ul></li>
   <li><a href="#tool-the-distribution-zoo" id="toc-tool-the-distribution-zoo" class="nav-link" data-scroll-target="#tool-the-distribution-zoo">Tool: The Distribution Zoo</a></li>
+  <li><a href="#a-note-on-interindividually-varying-function-parameters" id="toc-a-note-on-interindividually-varying-function-parameters" class="nav-link" data-scroll-target="#a-note-on-interindividually-varying-function-parameters">A note on interindividually varying function parameters</a></li>
   <li><a href="#group-work-15-min.-add-observed-variables" id="toc-group-work-15-min.-add-observed-variables" class="nav-link" data-scroll-target="#group-work-15-min.-add-observed-variables"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (15 min.):<br>Add observed variables</a></li>
   <li><a href="#step-6-simulate-a-full-data-set-4" id="toc-step-6-simulate-a-full-data-set-4" class="nav-link" data-scroll-target="#step-6-simulate-a-full-data-set-4">Step 6: Simulate a full data set</a>
   <ul class="collapse">
@@ -356,7 +357,14 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#c-compute-the-outcome-variable-i.e.-the-model-output-1" id="toc-c-compute-the-outcome-variable-i.e.-the-model-output-1" class="nav-link" data-scroll-target="#c-compute-the-outcome-variable-i.e.-the-model-output-1">6c: Compute the outcome variable (i.e., the model output)</a></li>
   </ul></li>
-  <li><a href="#group-work-45-min.-putting-all-together-for-a-full-simulation" id="toc-group-work-45-min.-putting-all-together-for-a-full-simulation" class="nav-link" data-scroll-target="#group-work-45-min.-putting-all-together-for-a-full-simulation"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (45 min.):<br>Putting all together for a full simulation</a></li>
+  <li><a href="#group-work-20-min.-putting-all-together-for-a-full-simulation" id="toc-group-work-20-min.-putting-all-together-for-a-full-simulation" class="nav-link" data-scroll-target="#group-work-20-min.-putting-all-together-for-a-full-simulation"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (20 min.):<br>Putting all together for a full simulation</a>
+  <ul class="collapse">
+  <li><a href="#visualization" id="toc-visualization" class="nav-link" data-scroll-target="#visualization">Visualization</a></li>
+  </ul></li>
+  <li><a href="#group-work-20-min.-putting-all-together-for-a-full-simulation-1" id="toc-group-work-20-min.-putting-all-together-for-a-full-simulation-1" class="nav-link" data-scroll-target="#group-work-20-min.-putting-all-together-for-a-full-simulation-1"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (20 min.):<br>Putting all together for a full simulation</a>
+  <ul class="collapse">
+  <li><a href="#statistical-analysis" id="toc-statistical-analysis" class="nav-link" data-scroll-target="#statistical-analysis">Statistical analysis</a></li>
+  </ul></li>
   <li><a href="#step-6-simulate-a-full-data-set-8" id="toc-step-6-simulate-a-full-data-set-8" class="nav-link" data-scroll-target="#step-6-simulate-a-full-data-set-8">Step 6: Simulate a full data set</a></li>
   </ul></li>
   <li><a href="#step-7-evaluation-of-the-model" id="toc-step-7-evaluation-of-the-model" class="nav-link" data-scroll-target="#step-7-evaluation-of-the-model">Step 7: Evaluation of the model</a>
@@ -1289,8 +1297,14 @@ Note
 <span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>  x <span class="ot">&lt;-</span> <span class="fu">get_x</span>(a, b)</span>
 <span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>  y <span class="ot">&lt;-</span> <span class="fu">get_y</span>(x)</span>
 <span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>  o <span class="ot">&lt;-</span> <span class="fu">get_o</span>(y)</span>
-<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(o)</span>
-<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>  <span class="co"># return all relevant outputs as a list</span></span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>  <span class="co"># (e.g, the final output o, but also intermediate output y)</span></span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(<span class="fu">list</span>(</span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> y,</span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">o =</span> o</span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a>  ))</span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div><div class="column" style="width:50%;">
 <p><img src="img/pseudo_psi.png" height="250"></p>
 </div>
@@ -1413,7 +1427,7 @@ Note
 <h2 class="anchored" data-anchor-id="step-6-simulate-a-full-data-set-3">Step 6: Simulate a full data set</h2>
 <section id="b-simulate-random-observed-variables" class="level3">
 <h3 class="anchored" data-anchor-id="b-simulate-random-observed-variables">6b: Simulate random observed variables</h3>
-<p>Add observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants. You can draw them from a random distirbution, e.g.&nbsp;a normal distribution with <code>rnorm()</code>:</p>
+<p>Add observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants. You can draw them from a random distribution, e.g.&nbsp;a normal distribution with <code>rnorm()</code>:</p>
 <div class="cell" data-layout-align="center" data-output-location="column-fragment">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>n <span class="ot">&lt;-</span> <span class="fu">nrow</span>(df)</span>
 <span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>age <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n, <span class="at">mean=</span><span class="dv">26</span>, <span class="at">sd=</span><span class="dv">4</span>) <span class="sc">|&gt;</span> <span class="fu">round</span>()</span>
@@ -1425,18 +1439,18 @@ Note
 <span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra
-1    1     pos  slow  22   0.3
-2    2     pos  slow  22  -0.3
-3    3     pos  slow  23   0.3
-4    1     neg  slow  24   0.2
-5    2     neg  slow  34   0.2
-6    3     neg  slow  30  -1.7
-7    1     pos  fast  28   0.5
-8    2     pos  fast  32  -1.8
-9    3     pos  fast  27   0.6
-10   1     neg  fast  21  -1.0
-11   2     neg  fast  25  -1.7
-12   3     neg  fast  28   0.9</code></pre>
+1    1     pos  slow  26   0.2
+2    2     pos  slow  22  -0.6
+3    3     pos  slow  23  -0.1
+4    1     neg  slow  31  -2.0
+5    2     neg  slow  28  -1.2
+6    3     neg  slow  25  -1.1
+7    1     pos  fast  27   0.7
+8    2     pos  fast  25   0.8
+9    3     pos  fast  24   0.3
+10   1     neg  fast  31   1.1
+11   2     neg  fast  22  -0.4
+12   3     neg  fast  23  -0.4</code></pre>
 </div>
 </div>
 </section>
@@ -1504,7 +1518,7 @@ Note
 <h2 class="anchored" data-anchor-id="tool-the-beta-distribution-3">Tool: The beta distribution</h2>
 <section id="beta-distribution-respects-the-01-boundaries" class="level3">
 <h3 class="anchored" data-anchor-id="beta-distribution-respects-the-01-boundaries">beta distribution respects the [0;1] boundaries</h3>
-<div class="cell quarto-layout-panel" data-layout-nrow="2" data-layout-align="center" data-layout-ncol="1">
+<div class="cell quarto-layout-panel" data-layout-ncol="1" data-layout-nrow="2" data-layout-align="center">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
@@ -1535,15 +1549,20 @@ Note
 <li><a href="https://richarddmorey.github.io/stat-distributions-js/">Interactive collection of distributions</a> by Richard Morey</li>
 </ul>
 </section>
+<section id="a-note-on-interindividually-varying-function-parameters" class="level2">
+<h2 class="anchored" data-anchor-id="a-note-on-interindividually-varying-function-parameters">A note on interindividually varying function parameters</h2>
+<p>When we visually plotted and explored our atomic functions before, we tried out different parameter settings. When we simulate a concrete virtual sample, we need to fix them to one specific value or assign random values to them for each participant (e.g., if the treatment effect is different for each person).</p>
+<p>If you do the latter, add the parameters as additional random observed variables to your data frame.</p>
+</section>
 <section id="group-work-15-min.-add-observed-variables" class="level2">
 <h2 class="anchored" data-anchor-id="group-work-15-min.-add-observed-variables"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (15 min.):<br>Add observed variables</h2>
+<div class="smaller">
 <p>Add random variables for <strong>all exogenous* variables of your model</strong> that are not experimentally manipulated. For variables ranging from 0 to 1, use the beta distribution with appropriate parameters.</p>
 <ul>
 <li>This includes, e.g., the personal base resposibility, <code>baseResp</code> (if that is in your model).</li>
 <li>Furthermore, add neuroticism (<code>neuro</code>), age (<code>age</code>), and gender (<code>gender</code>). (Note: We don’t need them for our model, just for practice.)</li>
 <li>Think about justifiable settings for the simulated variables (e.g., type of distribution, range, mean, SD).</li>
 </ul>
-<p>When we visually plotted and explored our atomic functions before, we could try out different parameter settings. When we simulate a concrete virtual sample, we need to fix them to one specific value or assign random values to them for each participant. If you do the latter, add the parameters as additional random observed variables.</p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Hint">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1555,6 +1574,7 @@ Note
 </div>
 <div class="callout-body-container callout-body">
 <p>The resulting data frame should still have 180 rows and additional columns for obnserved variables, including <code>neuro</code>, <code>age</code>, <code>gender</code> and all observed variables in your model.</p>
+</div>
 </div>
 </div>
 <div class="footer">
@@ -1580,18 +1600,18 @@ Note
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y
-1    1     pos  slow  22   0.3 10.7
-2    2     pos  slow  22  -0.3  8.7
-3    3     pos  slow  23   0.3 10.6
-4    1     neg  slow  24   0.2  7.2
-5    2     neg  slow  34   0.2 10.8
-6    3     neg  slow  30  -1.7 11.6
-7    1     pos  fast  28   0.5 11.1
-8    2     pos  fast  32  -1.8  9.5
-9    3     pos  fast  27   0.6  7.7
-10   1     neg  fast  21  -1.0 11.5
-11   2     neg  fast  25  -1.7  8.4
-12   3     neg  fast  28   0.9 10.7</code></pre>
+1    1     pos  slow  26   0.2 13.6
+2    2     pos  slow  22  -0.6  8.5
+3    3     pos  slow  23  -0.1  9.5
+4    1     neg  slow  31  -2.0  7.7
+5    2     neg  slow  28  -1.2 10.8
+6    3     neg  slow  25  -1.1  8.0
+7    1     pos  fast  27   0.7  8.1
+8    2     pos  fast  25   0.8 10.6
+9    3     pos  fast  24   0.3  9.6
+10   1     neg  fast  31   1.1  7.0
+11   2     neg  fast  22  -0.4  6.6
+12   3     neg  fast  23  -0.4 11.5</code></pre>
 </div>
 </div>
 </div>
@@ -1610,7 +1630,7 @@ Note
 <li>Interindividual difference variables in the model</li>
 <li>Different parameter values in the functional relationships. For example, the individual treatment effect (ITE) could vary between participants.</li>
 </ul>
-<p>We <strong>can</strong> model these interindividual differences - or we assume that some of them are constant for all participants.</p>
+<p>We <strong>can</strong> simulate these interindividual differences - or we assume that some of them are constant for all participants.</p>
 </section>
 </section>
 <section id="step-6-simulate-a-full-data-set-6" class="level2">
@@ -1689,18 +1709,18 @@ Note
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y y_obs
-1    1     pos  slow  22   0.3 10.7  11.1
-2    2     pos  slow  22  -0.3  8.7   8.3
-3    3     pos  slow  23   0.3 10.6   8.3
-4    1     neg  slow  24   0.2  7.2   9.4
-5    2     neg  slow  34   0.2 10.8  13.7
-6    3     neg  slow  30  -1.7 11.6  14.6
-7    1     pos  fast  28   0.5 11.1  10.7
-8    2     pos  fast  32  -1.8  9.5  13.4
-9    3     pos  fast  27   0.6  7.7   6.9
-10   1     neg  fast  21  -1.0 11.5  13.3
-11   2     neg  fast  25  -1.7  8.4   8.2
-12   3     neg  fast  28   0.9 10.7  12.2</code></pre>
+1    1     pos  slow  26   0.2 13.6  11.1
+2    2     pos  slow  22  -0.6  8.5   5.4
+3    3     pos  slow  23  -0.1  9.5  14.0
+4    1     neg  slow  31  -2.0  7.7   9.8
+5    2     neg  slow  28  -1.2 10.8  10.5
+6    3     neg  slow  25  -1.1  8.0  10.1
+7    1     pos  fast  27   0.7  8.1  11.1
+8    2     pos  fast  25   0.8 10.6  12.0
+9    3     pos  fast  24   0.3  9.6   5.4
+10   1     neg  fast  31   1.1  7.0   7.9
+11   2     neg  fast  22  -0.4  6.6  11.5
+12   3     neg  fast  23  -0.4 11.5  10.9</code></pre>
 </div>
 </div>
 </div>
@@ -1708,13 +1728,43 @@ Note
 <p>The size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size.</p>
 </section>
 </section>
-<section id="group-work-45-min.-putting-all-together-for-a-full-simulation" class="level2">
-<h2 class="anchored" data-anchor-id="group-work-45-min.-putting-all-together-for-a-full-simulation"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (45 min.):<br>Putting all together for a full simulation</h2>
+<section id="group-work-20-min.-putting-all-together-for-a-full-simulation" class="level2">
+<h2 class="anchored" data-anchor-id="group-work-20-min.-putting-all-together-for-a-full-simulation"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (20 min.):<br>Putting all together for a full simulation</h2>
+<section id="visualization" class="level3">
+<h3 class="anchored" data-anchor-id="visualization">Visualization</h3>
 <ul>
 <li>Compute the output variable of your model for each participant. Optionally: Add additional noise to the output variable.</li>
-<li>Visualize the simulated data with <code>ggplot2</code>. Create a plot that clearly shows the statistical pattern of the phenomenon you intended to model.</li>
+<li>Create virtual samples of a typical size</li>
+<li>Visualize the simulated data with <code>ggplot2</code>. Create a plot that clearly shows the statistical pattern of the phenomenon you intended to model - like a plot that could be shown in a publication.</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled" title="Hint">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For testing, set the number of participants to 10,000 to get a clear signal without noise. Then you can clearly see whether your model produces the expected pattern.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="group-work-20-min.-putting-all-together-for-a-full-simulation-1" class="level2">
+<h2 class="anchored" data-anchor-id="group-work-20-min.-putting-all-together-for-a-full-simulation-1"><i class="fa-solid fa-people-group fa-2x" aria-label="people-group"></i> Group work (20 min.):<br>Putting all together for a full simulation</h2>
+<section id="statistical-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="statistical-analysis">Statistical analysis</h3>
+<ul>
+<li>Do the statistical analysis that you would do in a real study to test for the effect.</li>
+<li>In the bystander case, this could be a logistic regression predicting helping behavior from NOPB and DoI.</li>
 <li>Push everything to the repository.</li>
 </ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb44"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co"># adjust to your own variable names</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>t1 <span class="ot">&lt;-</span> <span class="fu">glm</span>(helpingBeh <span class="sc">~</span> NOPB <span class="sc">*</span> DoI, <span class="at">data =</span> df, <span class="at">family =</span> binomial)</span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(t1)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
 </section>
 <section id="step-6-simulate-a-full-data-set-8" class="level2">
 <h2 class="anchored" data-anchor-id="step-6-simulate-a-full-data-set-8">Step 6: Simulate a full data set</h2>

@@ -1,4 +1,4 @@
-/* css styles */
+/* css styles for the presentation slides */
 
 .hl {
     background-color: var(--col, #ffff00);
@@ -13,4 +13,10 @@
 
 .smallest {
   font-size: 60%;
+}
+
+/* for the Website */
+
+.navbar .navbar-brand-container {
+  padding-right: 35px;
 }

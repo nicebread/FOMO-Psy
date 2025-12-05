@@ -10,7 +10,7 @@
 <meta name="author" content="Aaron Peikert">
 <meta name="dcterms.date" content="2025-10-17">
 
-<title>Tools for Digital Theory Objects – FOMO-Psy: Formal Modeling of Psychological Theories</title>
+<title>Tools for Digital Theory Objects – FOMO-Psy: Formal Modelingof Psychological Theories</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">FOMO-Psy: Formal Modeling of Psychological Theories</span>
+    <span class="navbar-title">FOMO-Psy: Formal Modeling<br>of Psychological Theories</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -97,10 +97,6 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../sessions/sessions_overview.html"> 
 <span class="menu-text">Sessions</span></a>
   </li>  
@@ -109,12 +105,16 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Lectures</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../orga_material/orga_material.html"> 
-<span class="menu-text">Organizational Material</span></a>
+    <a class="nav-link" href="../../formalization_steps.html"> 
+<span class="menu-text">Formalization<br>Steps</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../Formalization_steps.html"> 
-<span class="menu-text">Overview: Formalization Steps</span></a>
+    <a class="nav-link" href="../../bystander_demo.html"> 
+<span class="menu-text">Demo: Bystander<br>Effect Model</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../orga_material/orga_material.html"> 
+<span class="menu-text">Organizational<br>Material</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
@@ -181,6 +181,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#what-is-a-release-on-github" id="toc-what-is-a-release-on-github" class="nav-link" data-scroll-target="#what-is-a-release-on-github">What is a “release” on Github?</a></li>
   <li><a href="#git-best-practice-1" id="toc-git-best-practice-1" class="nav-link" data-scroll-target="#git-best-practice-1">Git best practice</a></li>
   <li><a href="#how-to-create-a-release" id="toc-how-to-create-a-release" class="nav-link" data-scroll-target="#how-to-create-a-release">How to create a release?</a></li>
+  </ul></li>
+  <li><a href="#fair-theories" id="toc-fair-theories" class="nav-link" data-scroll-target="#fair-theories">FAIR theories</a>
+  <ul class="collapse">
+  <li><a href="#fair-theories-1" id="toc-fair-theories-1" class="nav-link" data-scroll-target="#fair-theories-1">FAIR theories</a></li>
   </ul></li>
   <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a>
   <ul class="collapse">
@@ -297,29 +301,30 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="citation-file-format-schema-version-1.2.0">Citation File Format schema version 1.2.0</h2>
 <p>Tell other users how your theory should be cited, what the current version is, and more meta-data. This can be stored in a file called <code>CITATION.cff</code> in the top level folder of your repository:</p>
 <pre><code>cff-version: 1.2.0
-title: 'AST: Action selection theory'
+title: 'Bystander Effect: A formal model'
 message: &gt;-
-  If you refer to this theory, please cite it using the
-  metadata from this file. This theory has not been peer reviewed yet.
-type: report
+  If you refer to this model, please cite it using the
+  metadata from this file. This theory has not been peer
+  reviewed yet.
+type: software
 authors:
   - given-names: Felix
     family-names: Schönbrodt
     email: felix.schoenbrodt@psy.lmu.de
     orcid: 'https://orcid.org/0000-0002-8282-3910'
     affiliation: Ludwig-Maximilians-Universität München
-repository-code: 'https://github.com/nicebread/AST'
+repository-code: 'https://github.com/nicebread/FOMO-Psy'
 abstract: &gt;-
-  A theoretical model that explains how a donkey solves the
-  approach-approach conflict of hunger and thirst when the
-  two sources are separated.
+  A formal model that explains why the probability of
+  helping behavior decreases with an increasing number
+  of passive bystanders.
 keywords:
-  - approach-approach conflict
-  - action selection
-  - motivation
+  - fairtheory
+  - formal theory
+  - bystander effect
 license: CC-BY-4.0
-version: 0.2.5
-date-released: '2023-10-30'</code></pre>
+version: 0.2.0
+date-released: '2025-12-03'</code></pre>
 </section>
 <section id="citation-file-format-schema-version-1.2.0-1" class="level2">
 <h2 class="anchored" data-anchor-id="citation-file-format-schema-version-1.2.0-1">Citation File Format schema version 1.2.0</h2>
@@ -375,18 +380,25 @@ type: software </code></pre>
 <section id="recommended-folder-structure-for-our-formalization-projects" class="level2">
 <h2 class="anchored" data-anchor-id="recommended-folder-structure-for-our-formalization-projects">Recommended folder structure for our formalization projects</h2>
 <pre><code>.
-├── README.md (this should link to any associated Google docs, if applicable)
+├── .git (hidden git folder)
 ├── CITATION.cff
+├── README.md (this should link to any associated Google docs, if applicable)
 ├── VAST_display.drawio
+├── My_Model.Rproj (keep the .Rproj file in the top level directory)
 ├── simulation/
-│   ├── README.md
+│   ├── README.md (specific for the simulations)
 │   ├── raw_data/ (a subfolder with empirical raw data, if applicable)
 │   │   └── dat.csv
-│   ├── functions.R (or any other name)
+│   ├── plots/
+│   │   └── phenomenon1.png
+│   ├── 01-functions.R (or any other name)
+│   ├── 02-simulations.R
+│   ├── 03-analysis.R
 │   └── ...
 └── manuscript/
     ├── manuscript.qmd  
     └── ...</code></pre>
+<p>The <code>git</code> repository should contain the entire folder structure of your theory project.</p>
 </section>
 </section>
 <section id="semantic-versioning" class="level1" data-background-color="#40666e">
@@ -403,7 +415,7 @@ type: software </code></pre>
 <p>The numbers are plain integers! For example, after 9 comes 10:</p>
 <p><code>0.9.0 → 0.10.0 → 0.11.0 → 1.0.0 → 1.1.0</code></p>
 <div class="footer">
-<p>See <a href="https://semver.org">https://semver.org</a> and Van Lissa et al.&nbsp;(2025, October 4). To be FAIR: Theory Specification Needs an Update. <a href="https://doi.org/10.31234/osf.io/t53np_v3">https://doi.org/10.31234/osf.io/t53np_v3</a></p>
+<p>See <a href="https://semver.org">https://semver.org</a> and Van Lissa et al.&nbsp;(2025). To be FAIR: Theory Specification Needs an Update. <em>Perspectives on Psychological Science</em>. <a href="https://doi.org/10.1177/17456916251401850">https://doi.org/10.1177/17456916251401850</a>. <a href="https://doi.org/10.31234/osf.io/t53np_v3">Open Access PDF</a></p>
 </div>
 </section>
 <section id="some-rules-conventions" class="level2">
@@ -504,6 +516,17 @@ Evidence that would have confirmed or falsified the previous version does differ
 <li>This is a hen/egg problem: The doi will not be in the release itself, as it is assigned only <em>after</em> the release.</li>
 </ul></li>
 </ul>
+</section>
+</section>
+<section id="fair-theories" class="level1" data-background-color="#40666e">
+<h1 data-background-color="#40666e">FAIR theories</h1>
+<section id="fair-theories-1" class="level2">
+<h2 class="anchored" data-anchor-id="fair-theories-1">FAIR theories</h2>
+<p>FAIR = - Findable - Accessible - Interoperable - Reusable</p>
+<p>Originally defined for data (Wilkinson et al., 2016), this concept has been applied to theories (Van Lissa et al., 2025).</p>
+<div class="footer">
+<p>Van Lissa et al.&nbsp;(2025). To be FAIR: Theory Specification Needs an Update. <em>Perspectives on Psychological Science</em>. <a href="https://doi.org/10.1177/17456916251401850">https://doi.org/10.1177/17456916251401850</a>. <a href="https://doi.org/10.31234/osf.io/t53np_v3">Open Access PDF</a></p>
+</div>
 <!-- Footer insert below -->
 </section>
 </section>
@@ -1125,44 +1148,6 @@ window.onload = function() {
 }
 
 </script>
-
-<script>
-  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-  // slide changes (different for each slide format).
-  (function () {
-    // dispatch for htmlwidgets
-    function fireSlideEnter() {
-      const event = window.document.createEvent("Event");
-      event.initEvent("slideenter", true, true);
-      window.document.dispatchEvent(event);
-    }
-
-    function fireSlideChanged(previousSlide, currentSlide) {
-      fireSlideEnter();
-
-      // dispatch for shiny
-      if (window.jQuery) {
-        if (previousSlide) {
-          window.jQuery(previousSlide).trigger("hidden");
-        }
-        if (currentSlide) {
-          window.jQuery(currentSlide).trigger("shown");
-        }
-      }
-    }
-
-    // hookup for slidy
-    if (window.w3c_slidy) {
-      window.w3c_slidy.add_observer(function (slide_num) {
-        // slide_num starts at position 1
-        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-      });
-    }
-
-  })();
-</script>
-
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -1831,7 +1831,7 @@
     "href": "sessions/S9-A_new_VAST.html#prepare-your-own-repository",
     "title": "Session 09 - Best practices in theory formalization; create a new VAST",
     "section": "Prepare your own repository",
-    "text": "Prepare your own repository\nEach group should set up their technical infrastructure - from now on, you start working in your own repository.\n\nCreate a fresh public Github repository and a Google doc (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository, make it publicly readable for anybody.\nInvite the lecturer (user name: nicebread) as a collaborator on Github:  Settings →  Collaborators → “Add people”\nPrepare the folder structure\n\nCreate your CITATION.cff file, assign your first version number (presumably: 0.1.0)."
+    "text": "Prepare your own repository\nEach group should set up their technical infrastructure - from now on, you start working in your own repository.\n\nCreate a fresh public repository on the Github website.\nInvite the lecturer (user name: nicebread) as a collaborator on Github:  Settings →  Collaborators → “Add people”.\nClone the repository to your local computers.\nCreate a Google doc (or a comparable collaborative document) for the tables, make it publicly readable for anybody\nLink the Google doc in the README of the repository. Link the repository in the Google doc.\nPrepare the folder structure\n\nCreate your CITATION.cff file with the cffinit tool, assign your first version number (presumably: 0.1.0)."
   },
   {
     "objectID": "sessions/S9-A_new_VAST.html#homework-1",

@@ -1782,7 +1782,7 @@
     "href": "formalization_steps.html",
     "title": "Formalization Steps",
     "section": "",
-    "text": "This can be used as a checklist for your course report. The details for each step are explained in the linked slides.\n\nSet up technical infrastructure.\n\nCreate a fresh Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nAdd your CITATION.cff (see instructions)\nInvite the lecturer as a collaborator:  Settings →  Collaborators → “Add people”\n\n\nChoose your starting point:\n\nExisting theory –&gt; Narrative Theory Reconstruction (NTR)\nRobust phenomenon –&gt; Theory Construction Methodology (TCM)\n\nDefine the scope\n\nDefine scope of original literature that is used as basis for the formalization.\nLimit the number of phenomena that your model is supposed to explain.\nLimit the number of constructs and their relationships.\n\nCollect robust phenomena\n\nEvaluate the generalizability separately for each UTOS dimension\nEvaluate the strength of evidence (Quality of studies? Number of studies? Large samples?)\n\nCreate your Construct Table\nCreate your VAST display (see slides on VAST and VAST application)\n\nDistill a working definition for each construct\nAdd relationships between constructs\n\nFormalize model: Create your Variable Table (see slides on Mathematical Modeling)\n\nList all concepts of your VAST display that are not higher-order concepts (because higher-order concepts typically are not reducible to a single metric)\nDefine the scale level, the possible range of values, and semantic anchors\n\nFormalize model: Create your Relationship Table (see slides on Mathematical Modeling)\n\nDevelop a mathematical function for each endogenous variable in the VAST display.\nWhat functional form does the theory imply? What are free parameters that can “bend” the function? Which parameters can be fixed?\n\nProgram the functions in R\n\nBuild atomic functions based on the Relationship Table\nDocument the functions with roxygen2 (see slides on Mathematical Modeling)\nCombine atomic functions into one “super function” that takes all exogenous variables of the model as input and computes the focal output variable (typically, an observable behavior). Make sure that it can take vectors as input.\n\nEvaluate the model behavior\n\nTry different parameter settings. Under which conditions does the model produce the phenomenon?\nPlot the model behavior: Choose a focal predictor for the x-axis, focal outcome on y-axis, additional parameters as colors, shapes, or multiple plots.\n\nSimulate the model: Would a real study (with noise) be able to detect the phenomenon?\n\nSimulate data\nDo the statistical analysis on your simulated data: Is the focal effect significant?\nWhat is the necessary sample size to reliably detect the phenomenon (i.e., with a high statistical power)?"
+    "text": "This can be used as a checklist for your course report. The details for each step are explained in the linked slides.\n\nSet up technical infrastructure.\n\nCreate a fresh Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nAdd your CITATION.cff (see instructions)\nInvite the lecturer as a collaborator:  Settings →  Collaborators → “Add people”\n\n\nChoose your starting point:\n\nExisting theory –&gt; Narrative Theory Reconstruction (NTR)\nRobust phenomenon –&gt; Theory Construction Methodology (TCM)\n\nDefine the scope\n\nDefine scope of original literature that is used as basis for the formalization.\nLimit the number of phenomena that your model is supposed to explain.\nLimit the number of constructs and their relationships.\n\nCollect robust phenomena\n\nEvaluate the generalizability separately for each UTOS dimension\nEvaluate the strength of evidence (Quality of studies? Number of studies? Large samples?)\n\nCreate your Construct Table\nCreate your VAST display (see slides on VAST and VAST application)\n\nDistill a working definition for each construct\nAdd relationships between constructs\n\nFormalize model: Create your Variable Table (see slides on Mathematical Modeling)\n\nList all concepts of your VAST display that are not higher-order concepts (because higher-order concepts typically are not reducible to a single metric)\nDefine the scale level, the possible range of values, and semantic anchors\n\nFormalize model: Create your Relationship Table (see slides on Mathematical Modeling)\n\nDevelop a mathematical function for each endogenous variable in the VAST display.\nWhat functional form does the theory imply? What are free parameters that can “bend” the function? Which parameters can be fixed?\n\nProgram the functions in R\n\nBuild atomic functions based on the Relationship Table\nDocument the functions with roxygen2 (see slides on Mathematical Modeling)\nCombine atomic functions into one “super function” that takes all exogenous variables of the model as input and computes the focal output variable (typically, an observable behavior). Make sure that it can take vectors as input.\n\nEvaluate the model behavior\n\nTry different parameter settings. Under which conditions does the model produce the phenomenon?\nPlot the model behavior: Choose a focal predictor for the x-axis, focal outcome on y-axis, additional parameters as colors, shapes, or multiple plots.\n\nSimulate the model: Would a real study (with noise) be able to detect the phenomenon?\n\nSimulate data\nDo the statistical analysis on your simulated data: Is the focal effect significant?\nWhat is the necessary sample size to reliably detect the phenomenon (i.e., with a high statistical power)?\n\nFor the final report:\n\nCopy the tables from the Google doc into the /doc subfolder of your repository, so that it is really self-contained (i.e., all relevant files are bundled in the project folder).\nExport a PNG of the final VAST display to the /doc subfolder of your repository\n(If not done yet: Assign a version number)\nCreate a release on Github; the tag name should contain the final version number (e.g., v0.8.3).\nIn your manuscript, explicitly report the version number your report is referring to."
   },
   {
     "objectID": "orga_material/course_announcement.html",
@@ -1824,7 +1824,7 @@
     "href": "sessions/S9-A_new_VAST.html#overview",
     "title": "Session 09 - Best practices in theory formalization; create a new VAST",
     "section": "Overview",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nBest (technical) practices in theory development: CFF + semver + folder structure\n60\nSlides\n\n\nPrepare a new repository in each group\n20\nFormalization Steps 1 & 2\n\n\nGroup work: Create a VAST\n120\nFormalization Steps 3 - 6"
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nBest (technical) practices in theory development: CFF + semver + folder structure\n60\nLecture IT-Tools Slides\n\n\nPrepare a new repository in each group\n25\nFormalization Steps 1 & 2\n\n\nGroup work: Create your VAST\n120\nFormalization Steps 3 - 6"
   },
   {
     "objectID": "sessions/S9-A_new_VAST.html#prepare-your-own-repository",
@@ -1838,14 +1838,14 @@
     "href": "sessions/S9-A_new_VAST.html#homework-1",
     "title": "Session 09 - Best practices in theory formalization; create a new VAST",
     "section": "Homework 1",
-    "text": "Homework 1\n\nFinalize Formalization Steps 3 - 6 and push everything in your repo.\nAssign a new semantic version number."
+    "text": "Homework 1\n\nFinalize Formalization Steps 3 - 6\nAssign a new semantic version number.\nPush everything in your repo"
   },
   {
     "objectID": "sessions/S9-A_new_VAST.html#homework-2",
     "href": "sessions/S9-A_new_VAST.html#homework-2",
     "title": "Session 09 - Best practices in theory formalization; create a new VAST",
     "section": "Homework 2",
-    "text": "Homework 2\n\nRead: Lange, J., Freyer, N., Musfeld, P., Schönbrodt, F., & Leising, D. (2025). A checklist for incentivizing and facilitating good theory building. Zeitschrift Für Psychologie, 2151-2604/a000604. https://doi.org/10.1027/2151-2604/a000604\nAlso read the checklist itself\n\nAnswer the following guiding questions:\n\nName the three immutable guiding principles of the checklist \nAccording to the introduction section of the checklist: What are the differences between a “theory” and a “formal model”? \nName the two ways of evaluating a theory. \n\nDeliverable: Submit answers to the guiding questions as a plain text or markdown file to the course’s Homework Repository, subfolder 04-Quality_checklist."
+    "text": "Homework 2\nFor next week, prepare an(informal) presentation of your VAST:\n\nShow and guide through your VAST display\nExplain your scope (importantly: What is not included?)\nExplain your robust phenomenon - What is the explanatory target of your theory?\nOpen questions / Challenges you encountered"
   },
   {
     "objectID": "sessions/S6-MathModel3.html",
@@ -1944,6 +1944,13 @@
     "title": "Session 11 - FAIR theories",
     "section": "Homework due next week (in groups): Work on your group project",
     "text": "Homework due next week (in groups): Work on your group project\nFinalize (at least) steps 1-7 of the Formalization Steps, so that you can start working on programming in the next session.\nDeliverable:\n\nIncrease the version (e.g., to 0.2.0) in the CITATION.cff file.\nPush your current version to the repository.\nCreate a tag, give it the version name (e.g., v0.2.0) and write a short description for the release.\n\nDo these steps regardless whether the theory object currently is in a “functional state” or still in a messy development version."
+  },
+  {
+    "objectID": "sessions/S11-FAIR_theory.html#homework-2",
+    "href": "sessions/S11-FAIR_theory.html#homework-2",
+    "title": "Session 11 - FAIR theories",
+    "section": "Homework 2",
+    "text": "Homework 2\n\nRead: Lange, J., Freyer, N., Musfeld, P., Schönbrodt, F., & Leising, D. (2025). A checklist for incentivizing and facilitating good theory building. Zeitschrift Für Psychologie, 2151-2604/a000604. https://doi.org/10.1027/2151-2604/a000604\nAlso read the checklist itself\n\nAnswer the following guiding questions:\n\nName the three immutable guiding principles of the checklist \nAccording to the introduction section of the checklist: What are the differences between a “theory” and a “formal model”? \nName the two ways of evaluating a theory. \n\nDeliverable: Submit answers to the guiding questions as a plain text or markdown file to the course’s Homework Repository, subfolder 04-Quality_checklist."
   },
   {
     "objectID": "sessions/S10-Simulation.html",
@@ -2720,7 +2727,7 @@
     "href": "lectures/it-tools/it-tools.html#recommended-folder-structure-for-our-formalization-projects",
     "title": "Tools for Digital Theory Objects",
     "section": "Recommended folder structure for our formalization projects",
-    "text": "Recommended folder structure for our formalization projects\n.\n├── .git (hidden git folder)\n├── CHANGELOG.md (record changes between versions here)\n├── CITATION.cff\n├── My_Model.Rproj (keep the .Rproj file in the top level directory)\n├── README.md (this should link to any associated Google docs, if applicable)\n├── VAST_display.drawio\n├── simulation/\n│   ├── README.md (specific for the simulations)\n│   ├── raw_data/ (a subfolder with empirical raw data, if applicable)\n│   │   └── dat.csv\n│   ├── plots/\n│   │   └── phenomenon1.png\n│   ├── 01-functions.R (or any other name)\n│   ├── 02-simulations.R\n│   ├── 03-analysis.R\n│   └── ...\n└── manuscript/\n    ├── manuscript.qmd  \n    └── ...\nThe git repository should contain the entire folder structure of your theory project."
+    "text": "Recommended folder structure for our formalization projects\n.\n├── .git (hidden git folder)\n├── CHANGELOG.md (record changes between versions here)\n├── CITATION.cff\n├── My_Model.Rproj (keep the .Rproj file in the top level directory)\n├── README.md (this should link to any associated Google docs, if applicable)\n├── doc/ (all documentation)\n│   ├── VAST_display.drawio\n│   ├── tables.pdf (copies of yur construct table etc.)\n│   └── ...\n├── simulation/\n│   ├── README.md (specific for the simulations)\n│   ├── raw_data/ (a subfolder with empirical raw data, if applicable)\n│   │   └── dat.csv\n│   ├── plots/\n│   │   └── phenomenon1.png\n│   ├── 01-functions.R (or any other name)\n│   ├── 02-simulations.R\n│   ├── 03-analysis.R\n│   └── ...\n└── manuscript/\n    ├── manuscript.qmd  \n    └── ...\nThe git repository should contain the entire folder structure of your theory project."
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#semantic-versioning-semver",
@@ -2762,7 +2769,7 @@
     "href": "lectures/it-tools/it-tools.html#git-best-practice-for-recording-the-version-number",
     "title": "Tools for Digital Theory Objects",
     "section": "Git best practice for recording the version number",
-    "text": "Git best practice for recording the version number\n\nThe version number is recorded in two places:\n\nIn the CITATION.cff file\nIn the names of all tags or releases\n\nIs every commit a new version? No, that would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a dev developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the CITATION.cff file\nRecord the substantive changes in your CHANGELOG.md\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also “How to create a release?”)"
+    "text": "Git best practice for recording the version number\n\nThe version number is recorded in two places:\n\nIn the CITATION.cff file\nIn the names of all tags or releases\n\nIs every commit a new version? No, that would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a dev developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the CITATION.cff file\nRecord the substantive changes in your CHANGELOG.md\nMerge the dev branch back into the main branch (explained later)\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also “How to create a release?”)"
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#git-best-practice",
@@ -2770,6 +2777,13 @@
     "title": "Tools for Digital Theory Objects",
     "section": "Git best practice",
     "text": "Git best practice\n\n\n\n\n\n(of course more complicated setups with multiple branches, e.g. feature branches, are possible)."
+  },
+  {
+    "objectID": "lectures/it-tools/it-tools.html#merging-branches",
+    "href": "lectures/it-tools/it-tools.html#merging-branches",
+    "title": "Tools for Digital Theory Objects",
+    "section": "Merging branches",
+    "text": "Merging branches\n\n… in the terminal\nMerge a dev branch back into main:\n\nSwitch to the main branch:\n\ngit checkout main\n\nMerge the dev branch into main; provide a short message:\n\ngit merge dev -m \"Merge dev into main\"\n(i.e., being in main you pull the changes from dev, not the other way round)\n\n🙏 Pray that no merge conflicts occur. (Hint: If nothing changed on main since you created the dev branch, there will be no conflicts.)"
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#how-to-create-a-release",
@@ -2860,7 +2874,7 @@
     "href": "lectures/it-tools/it-tools.slide.html#recommended-folder-structure-for-our-formalization-projects",
     "title": "Tools for Digital Theory Objects",
     "section": "Recommended folder structure for our formalization projects",
-    "text": "Recommended folder structure for our formalization projects\n.\n├── .git (hidden git folder)\n├── CHANGELOG.md (record changes between versions here)\n├── CITATION.cff\n├── My_Model.Rproj (keep the .Rproj file in the top level directory)\n├── README.md (this should link to any associated Google docs, if applicable)\n├── VAST_display.drawio\n├── simulation/\n│   ├── README.md (specific for the simulations)\n│   ├── raw_data/ (a subfolder with empirical raw data, if applicable)\n│   │   └── dat.csv\n│   ├── plots/\n│   │   └── phenomenon1.png\n│   ├── 01-functions.R (or any other name)\n│   ├── 02-simulations.R\n│   ├── 03-analysis.R\n│   └── ...\n└── manuscript/\n    ├── manuscript.qmd  \n    └── ...\nThe git repository should contain the entire folder structure of your theory project."
+    "text": "Recommended folder structure for our formalization projects\n.\n├── .git (hidden git folder)\n├── CHANGELOG.md (record changes between versions here)\n├── CITATION.cff\n├── My_Model.Rproj (keep the .Rproj file in the top level directory)\n├── README.md (this should link to any associated Google docs, if applicable)\n├── doc/ (all documentation)\n│   ├── VAST_display.drawio\n│   ├── tables.pdf (copies of yur construct table etc.)\n│   └── ...\n├── simulation/\n│   ├── README.md (specific for the simulations)\n│   ├── raw_data/ (a subfolder with empirical raw data, if applicable)\n│   │   └── dat.csv\n│   ├── plots/\n│   │   └── phenomenon1.png\n│   ├── 01-functions.R (or any other name)\n│   ├── 02-simulations.R\n│   ├── 03-analysis.R\n│   └── ...\n└── manuscript/\n    ├── manuscript.qmd  \n    └── ...\nThe git repository should contain the entire folder structure of your theory project."
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#semantic-versioning-semver",
@@ -2902,7 +2916,7 @@
     "href": "lectures/it-tools/it-tools.slide.html#git-best-practice-for-recording-the-version-number",
     "title": "Tools for Digital Theory Objects",
     "section": "Git best practice for recording the version number",
-    "text": "Git best practice for recording the version number\n\nThe version number is recorded in two places:\n\nIn the CITATION.cff file\nIn the names of all tags or releases\n\nIs every commit a new version? No, that would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a dev developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the CITATION.cff file\nRecord the substantive changes in your CHANGELOG.md\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also “How to create a release?”)"
+    "text": "Git best practice for recording the version number\n\nThe version number is recorded in two places:\n\nIn the CITATION.cff file\nIn the names of all tags or releases\n\nIs every commit a new version? No, that would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a dev developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the CITATION.cff file\nRecord the substantive changes in your CHANGELOG.md\nMerge the dev branch back into the main branch (explained later)\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also “How to create a release?”)"
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#git-best-practice",
@@ -2910,6 +2924,13 @@
     "title": "Tools for Digital Theory Objects",
     "section": "Git best practice",
     "text": "Git best practice\n\n(of course more complicated setups with multiple branches, e.g. feature branches, are possible)."
+  },
+  {
+    "objectID": "lectures/it-tools/it-tools.slide.html#merging-branches",
+    "href": "lectures/it-tools/it-tools.slide.html#merging-branches",
+    "title": "Tools for Digital Theory Objects",
+    "section": "Merging branches",
+    "text": "Merging branches\n… in the terminal\nMerge a dev branch back into main:\n\nSwitch to the main branch:\n\ngit checkout main\n\nMerge the dev branch into main; provide a short message:\n\ngit merge dev -m \"Merge dev into main\"\n(i.e., being in main you pull the changes from dev, not the other way round)\n\n🙏 Pray that no merge conflicts occur. (Hint: If nothing changed on main since you created the dev branch, there will be no conflicts.)"
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#how-to-create-a-release",

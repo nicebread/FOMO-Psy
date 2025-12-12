@@ -1,13 +1,5 @@
 [
   {
-    "listing": "/orga_material/orga_material.html",
-    "items": [
-      "/orga_material/course_announcement.html",
-      "/orga_material/call_for_submissions.html",
-      "/orga_material/instructions_before_course.html"
-    ]
-  },
-  {
     "listing": "/sessions/sessions_overview.html",
     "items": [
       "/sessions/quizzes/swisscapital.html",
@@ -19,11 +11,19 @@
       "/sessions/S6-MathModel3.html",
       "/sessions/S7-MathModel4.html",
       "/sessions/S8-Candidate_theories.html",
-      "/sessions/S9-Formalization_Candidates.html",
+      "/sessions/S9-A_new_VAST.html",
       "/sessions/S10-Simulation.html",
       "/sessions/S11-FAIR_theory.html",
       "/sessions/S12-Work.html",
       "/sessions/S13-Final.html"
+    ]
+  },
+  {
+    "listing": "/orga_material/orga_material.html",
+    "items": [
+      "/orga_material/course_announcement.html",
+      "/orga_material/call_for_submissions.html",
+      "/orga_material/instructions_before_course.html"
     ]
   }
 ]

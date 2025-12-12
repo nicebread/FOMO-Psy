@@ -6609,6 +6609,17 @@ Felix Schönbrodt <a href="https://orcid.org/0000-0002-8282-3910" class="quarto-
 <p><span class="hl">In sum, we can conclude that evidence for social loafing found in this meta-analytic review is strong and the phenomenon generalizes over all of the UTOS dimensions. Social Loafing can be consider to be a robust phenomenon.</span>”</p>
 </div>
 </section>
+<section id="interlude-elements-of-a-theory" class="slide level2">
+<h2>Interlude: Elements of a theory</h2>
+<p>The <em>elements</em> of a theory are:</p>
+<ul>
+<li><em>concepts</em> (i.e., categories or dimensions that are applicable to certain objects)</li>
+<li><em>relationships</em> (typically causal) among these concepts</li>
+</ul>
+<div class="footer">
+<p>Freyer, N., Lange, J., Leising, D., Musfeld, P., &amp; Schönbrodt, F. D. (2025, July 22). Indicators for the Assessment of Theoretical Rigor. <a href="https://doi.org/10.31234/osf.io/e7tdc_v2">https://doi.org/10.31234/osf.io/e7tdc_v2</a></p>
+</div>
+</section>
 <section id="step-4-collect-definitions-of-constructs" class="slide level2">
 <h2>Step 4: Collect definitions of constructs</h2>
 <h3 id="construct-table">Construct Table</h3>
@@ -6619,67 +6630,112 @@ Felix Schönbrodt <a href="https://orcid.org/0000-0002-8282-3910" class="quarto-
 <li>Assign a unique ID to each statement.</li>
 </ul>
 <p>This table will be called the <em><span class="hl">Construct Table</span></em>, as it collects the original sources for the definitions of the constructs.</p>
-<div class="table-grid">
-<table class="caption-top" style="width:100%;">
-<colgroup>
-<col style="width: 1%">
-<col style="width: 1%">
-<col style="width: 6%">
-<col style="width: 62%">
-<col style="width: 11%">
-<col style="width: 10%">
-<col style="width: 2%">
-<col style="width: 4%">
-</colgroup>
+<table>
 <thead>
-<tr class="header">
-<th>ID</th>
-<th>Type</th>
-<th>Short name</th>
-<th>Quote</th>
-<th>Reference</th>
-<th>rel. type (n, p, i, r, …)</th>
-<th>Comment</th>
-<th>Incl. (Y/N)</th>
+<tr>
+<th>
+Reference
+</th>
+<th>
+Quote
+</th>
+<th>
+Extracted element
+</th>
+<th>
+Element type
+</th>
+<th>
+Rel. type
+</th>
+<th>
+Short name / associated concept
+</th>
+<th>
+ID
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>A</td>
-<td>P</td>
-<td>bystander effect</td>
-<td>“The bystander effect refers to the phenomenon that an individual’s likelihood of helping decreases when passive bystanders are present in a critical situation.”</td>
-<td>Fischer et al. (2011), p. 517</td>
-<td>n, p</td>
-<td></td>
-<td>Y</td>
+<tr>
+<td rowspan="4">
+Fischer et al. (2011), p. 517
+</td>
+<td rowspan="4">
+“The bystander effect refers to the phenomenon that an individual’s likelihood of helping decreases when passive bystanders are present in a critical situation.”
+</td>
+<td>
+likelihood of helping
+</td>
+<td>
+C
+</td>
+<td>
+n
+</td>
+<td>
+p(help)
+</td>
+<td>
+A1
+</td>
 </tr>
-<tr class="even">
-<td>B</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<tr>
+<td>
+number of passive bystanders
+</td>
+<td>
+C
+</td>
+<td>
+n
+</td>
+<td>
+NOPB
+</td>
+<td>
+A2
+</td>
 </tr>
-<tr class="odd">
-<td>…</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<tr>
+<td>
+critical situation
+</td>
+<td>
+C
+</td>
+<td>
+n
+</td>
+<td>
+critSit
+</td>
+<td>
+A3
+</td>
+</tr>
+<tr>
+<td>
+p(help) <i>decreases</i> when NOPB &gt; 0, given critSit
+</td>
+<td>
+HOC
+</td>
+<td>
+p
+</td>
+<td>
+bystander effect
+</td>
+<td>
+A4
+</td>
 </tr>
 </tbody>
 </table>
-</div>
 <ul>
-<li><em>Type</em> is one (or multiple) of: <span class="hl">P</span>henomenon, <span class="hl">C</span>oncept, <span class="hl">HOC</span>: Higher-order Concept.</li>
-<li><em>Included (Y/N)</em>: Is this definition included in the VAST display?</li>
+<li><em>Element Type</em> is one of: <span class="hl">C</span>oncept, <span class="hl">R</span>elationship, <span class="hl">HOC</span>: Higher-order Concept.</li>
+<li><em>Relationship Type</em>: One of the VAST relationship types (n, p, i, r, c, …)</li>
 </ul>
 </div>
 </section>

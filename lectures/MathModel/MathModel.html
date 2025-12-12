@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Felix Schönbrodt">
-<meta name="dcterms.date" content="2025-11-03">
+<meta name="dcterms.date" content="2025-12-12">
 
 <title>Mathematical Modeling of Psychological Theories – FOMO-Psy: Formal Modelingof Psychological Theories</title>
 <style>
@@ -410,7 +410,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 3, 2025</p>
+      <p class="date">December 12, 2025</p>
     </div>
   </div>
   
@@ -494,7 +494,7 @@ window.Quarto = {
 <colgroup>
 <col style="width: 27%">
 <col style="width: 8%">
-<col style="width: 8%">
+<col style="width: 7%">
 <col style="width: 8%">
 <col style="width: 47%">
 </colgroup>
@@ -1439,18 +1439,18 @@ Note
 <span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra
-1    1     pos  slow  25  -0.2
-2    2     pos  slow  26   0.0
-3    3     pos  slow  23  -1.9
-4    1     neg  slow  23  -1.7
-5    2     neg  slow  33  -0.4
-6    3     neg  slow  34  -0.8
-7    1     pos  fast  25   2.0
-8    2     pos  fast  28   1.2
-9    3     pos  fast  20   0.6
-10   1     neg  fast  25  -0.2
-11   2     neg  fast  30   1.5
-12   3     neg  fast  27   0.0</code></pre>
+1    1     pos  slow  33   1.5
+2    2     pos  slow  26  -1.6
+3    3     pos  slow  27   0.2
+4    1     neg  slow  22  -0.7
+5    2     neg  slow  16  -0.2
+6    3     neg  slow  23  -1.9
+7    1     pos  fast  25  -1.9
+8    2     pos  fast  29   1.7
+9    3     pos  fast  29   1.4
+10   1     neg  fast  28  -1.0
+11   2     neg  fast  25   0.9
+12   3     neg  fast  27  -0.9</code></pre>
 </div>
 </div>
 </section>
@@ -1518,7 +1518,7 @@ Note
 <h2 class="anchored" data-anchor-id="tool-the-beta-distribution-3">Tool: The beta distribution</h2>
 <section id="beta-distribution-respects-the-01-boundaries" class="level3">
 <h3 class="anchored" data-anchor-id="beta-distribution-respects-the-01-boundaries">beta distribution respects the [0;1] boundaries</h3>
-<div class="cell quarto-layout-panel" data-layout-align="center" data-layout-nrow="2" data-layout-ncol="1">
+<div class="cell quarto-layout-panel" data-layout-nrow="2" data-layout-ncol="1" data-layout-align="center">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
@@ -1600,18 +1600,18 @@ Note
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y
-1    1     pos  slow  25  -0.2 12.7
-2    2     pos  slow  26   0.0  8.2
-3    3     pos  slow  23  -1.9 11.6
-4    1     neg  slow  23  -1.7  7.7
-5    2     neg  slow  33  -0.4  8.0
-6    3     neg  slow  34  -0.8  8.8
-7    1     pos  fast  25   2.0 10.8
-8    2     pos  fast  28   1.2 12.3
-9    3     pos  fast  20   0.6 10.2
-10   1     neg  fast  25  -0.2 11.3
-11   2     neg  fast  30   1.5 13.2
-12   3     neg  fast  27   0.0 11.3</code></pre>
+1    1     pos  slow  33   1.5 10.7
+2    2     pos  slow  26  -1.6 14.2
+3    3     pos  slow  27   0.2  8.6
+4    1     neg  slow  22  -0.7  9.8
+5    2     neg  slow  16  -0.2 10.5
+6    3     neg  slow  23  -1.9  7.7
+7    1     pos  fast  25  -1.9  9.3
+8    2     pos  fast  29   1.7 10.4
+9    3     pos  fast  29   1.4  7.9
+10   1     neg  fast  28  -1.0 11.1
+11   2     neg  fast  25   0.9  9.5
+12   3     neg  fast  27  -0.9  4.8</code></pre>
 </div>
 </div>
 </div>
@@ -1709,18 +1709,18 @@ Note
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y y_obs
-1    1     pos  slow  25  -0.2 12.7  10.9
-2    2     pos  slow  26   0.0  8.2   8.2
-3    3     pos  slow  23  -1.9 11.6  10.9
-4    1     neg  slow  23  -1.7  7.7   9.1
-5    2     neg  slow  33  -0.4  8.0   8.8
-6    3     neg  slow  34  -0.8  8.8   7.2
-7    1     pos  fast  25   2.0 10.8  12.3
-8    2     pos  fast  28   1.2 12.3  12.5
-9    3     pos  fast  20   0.6 10.2  10.9
-10   1     neg  fast  25  -0.2 11.3  10.8
-11   2     neg  fast  30   1.5 13.2  14.0
-12   3     neg  fast  27   0.0 11.3  14.1</code></pre>
+1    1     pos  slow  33   1.5 10.7  10.0
+2    2     pos  slow  26  -1.6 14.2  12.5
+3    3     pos  slow  27   0.2  8.6   6.3
+4    1     neg  slow  22  -0.7  9.8  12.6
+5    2     neg  slow  16  -0.2 10.5  10.9
+6    3     neg  slow  23  -1.9  7.7   6.8
+7    1     pos  fast  25  -1.9  9.3  12.3
+8    2     pos  fast  29   1.7 10.4  11.7
+9    3     pos  fast  29   1.4  7.9  10.2
+10   1     neg  fast  28  -1.0 11.1   8.9
+11   2     neg  fast  25   0.9  9.5   9.1
+12   3     neg  fast  27  -0.9  4.8   1.8</code></pre>
 </div>
 </div>
 </div>

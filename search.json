@@ -91,11 +91,18 @@
     "text": "Step 3: Collect robust empirical phenomena\nExample: Social Loafing (adapted from Emilia Wittig)\n\n“A meta-analysis of 78 studies underlines that social loafing is a robust phenomenon that generalizes across tasks and populations (Karau & Williams, 1993).\nRegarding different units, social loating was found among groups of organizational employees, college students as well as high school students. Furthermore, the phenomenon appears within different genders as well as various cultures.\nThe studies mentioned in the meta-analysis used a variety of different tasks as treatment, such as physical exercises (e.g., rope pulling), cognitive tasks (e.g., brainstorming), evaluative efforts (e.g., rating items) and perceptual tasks (e.g., monitoring a screen for signals). These tasks also differed in complexity.\nRegarding the outcomes, social loafing was generally assessed by comparing individual’s coactive efforts with the individual’s collective efforts. The specific units of measurement varied across tasks, with some studies focusing on quantity of individual contributions and others taking the quality into account.\nLastly, concerning different settings of studies, the meta analysis included laboratory studies as well as field studies.\nIn sum, we can conclude that evidence for social loafing found in this meta-analytic review is strong and the phenomenon generalizes over all of the UTOS dimensions. Social Loafing can be consider to be a robust phenomenon.”"
   },
   {
+    "objectID": "lectures/VAST/VAST_Application.slide.html#interlude-elements-of-a-theory",
+    "href": "lectures/VAST/VAST_Application.slide.html#interlude-elements-of-a-theory",
+    "title": "Applying VAST to an existing theory",
+    "section": "Interlude: Elements of a theory",
+    "text": "Interlude: Elements of a theory\nThe elements of a theory are:\n\nconcepts (i.e., categories or dimensions that are applicable to certain objects)\nrelationships (typically causal) among these concepts\n\n\nFreyer, N., Lange, J., Leising, D., Musfeld, P., & Schönbrodt, F. D. (2025, July 22). Indicators for the Assessment of Theoretical Rigor. https://doi.org/10.31234/osf.io/e7tdc_v2"
+  },
+  {
     "objectID": "lectures/VAST/VAST_Application.slide.html#step-4-collect-definitions-of-constructs",
     "href": "lectures/VAST/VAST_Application.slide.html#step-4-collect-definitions-of-constructs",
     "title": "Applying VAST to an existing theory",
     "section": "Step 4: Collect definitions of constructs",
-    "text": "Step 4: Collect definitions of constructs\nConstruct Table\n\n\nCollect quotes of definitions of constructs and their relationships from the literature.\nMake them atomic (i.e., split up long quotes into their basic components).\nAssign a unique ID to each statement.\n\nThis table will be called the Construct Table, as it collects the original sources for the definitions of the constructs.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nID\nType\nShort name\nQuote\nReference\nrel. type (n, p, i, r, …)\nComment\nIncl. (Y/N)\n\n\n\n\nA\nP\nbystander effect\n“The bystander effect refers to the phenomenon that an individual’s likelihood of helping decreases when passive bystanders are present in a critical situation.”\nFischer et al. (2011), p. 517\nn, p\n\nY\n\n\nB\n\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n\n\n\n\nType is one (or multiple) of: Phenomenon, Concept, HOC: Higher-order Concept.\nIncluded (Y/N): Is this definition included in the VAST display?"
+    "text": "Step 4: Collect definitions of constructs\nConstruct Table\n\n\nCollect quotes of definitions of constructs and their relationships from the literature.\nMake them atomic (i.e., split up long quotes into their basic components).\nAssign a unique ID to each statement.\n\nThis table will be called the Construct Table, as it collects the original sources for the definitions of the constructs.\n\n\n\n\nReference\n\n\nQuote\n\n\nExtracted element\n\n\nElement type\n\n\nRel. type\n\n\nShort name / associated concept\n\n\nID\n\n\n\n\n\n\nFischer et al. (2011), p. 517\n\n\n“The bystander effect refers to the phenomenon that an individual’s likelihood of helping decreases when passive bystanders are present in a critical situation.”\n\n\nlikelihood of helping\n\n\nC\n\n\nn\n\n\np(help)\n\n\nA1\n\n\n\n\nnumber of passive bystanders\n\n\nC\n\n\nn\n\n\nNOPB\n\n\nA2\n\n\n\n\ncritical situation\n\n\nC\n\n\nn\n\n\ncritSit\n\n\nA3\n\n\n\n\np(help) decreases when NOPB &gt; 0, given critSit\n\n\nHOC\n\n\np\n\n\nbystander effect\n\n\nA4\n\n\n\n\n\nElement Type is one of: Concept, Relationship, HOC: Higher-order Concept.\nRelationship Type: One of the VAST relationship types (n, p, i, r, c, …)"
   },
   {
     "objectID": "lectures/VAST/VAST_Application.slide.html#step-5-distill-a-working-definition-for-each-construct-add-relationships",
@@ -231,11 +238,18 @@
     "text": "Step 3: Collect robust empirical phenomena\n\nExample: Social Loafing (adapted from Emilia Wittig)\n\n“A meta-analysis of 78 studies underlines that social loafing is a robust phenomenon that generalizes across tasks and populations (Karau & Williams, 1993).\nRegarding different units, social loating was found among groups of organizational employees, college students as well as high school students. Furthermore, the phenomenon appears within different genders as well as various cultures.\nThe studies mentioned in the meta-analysis used a variety of different tasks as treatment, such as physical exercises (e.g., rope pulling), cognitive tasks (e.g., brainstorming), evaluative efforts (e.g., rating items) and perceptual tasks (e.g., monitoring a screen for signals). These tasks also differed in complexity.\nRegarding the outcomes, social loafing was generally assessed by comparing individual’s coactive efforts with the individual’s collective efforts. The specific units of measurement varied across tasks, with some studies focusing on quantity of individual contributions and others taking the quality into account.\nLastly, concerning different settings of studies, the meta analysis included laboratory studies as well as field studies.\nIn sum, we can conclude that evidence for social loafing found in this meta-analytic review is strong and the phenomenon generalizes over all of the UTOS dimensions. Social Loafing can be consider to be a robust phenomenon.”"
   },
   {
+    "objectID": "lectures/VAST/VAST_Application.html#interlude-elements-of-a-theory",
+    "href": "lectures/VAST/VAST_Application.html#interlude-elements-of-a-theory",
+    "title": "Applying VAST to an existing theory",
+    "section": "Interlude: Elements of a theory",
+    "text": "Interlude: Elements of a theory\nThe elements of a theory are:\n\nconcepts (i.e., categories or dimensions that are applicable to certain objects)\nrelationships (typically causal) among these concepts\n\n\nFreyer, N., Lange, J., Leising, D., Musfeld, P., & Schönbrodt, F. D. (2025, July 22). Indicators for the Assessment of Theoretical Rigor. https://doi.org/10.31234/osf.io/e7tdc_v2"
+  },
+  {
     "objectID": "lectures/VAST/VAST_Application.html#step-4-collect-definitions-of-constructs",
     "href": "lectures/VAST/VAST_Application.html#step-4-collect-definitions-of-constructs",
     "title": "Applying VAST to an existing theory",
     "section": "Step 4: Collect definitions of constructs",
-    "text": "Step 4: Collect definitions of constructs\n\nConstruct Table\n\n\nCollect quotes of definitions of constructs and their relationships from the literature.\nMake them atomic (i.e., split up long quotes into their basic components).\nAssign a unique ID to each statement.\n\nThis table will be called the Construct Table, as it collects the original sources for the definitions of the constructs.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nID\nType\nShort name\nQuote\nReference\nrel. type (n, p, i, r, …)\nComment\nIncl. (Y/N)\n\n\n\n\nA\nP\nbystander effect\n“The bystander effect refers to the phenomenon that an individual’s likelihood of helping decreases when passive bystanders are present in a critical situation.”\nFischer et al. (2011), p. 517\nn, p\n\nY\n\n\nB\n\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n\n\n\n\nType is one (or multiple) of: Phenomenon, Concept, HOC: Higher-order Concept.\nIncluded (Y/N): Is this definition included in the VAST display?"
+    "text": "Step 4: Collect definitions of constructs\n\nConstruct Table\n\n\nCollect quotes of definitions of constructs and their relationships from the literature.\nMake them atomic (i.e., split up long quotes into their basic components).\nAssign a unique ID to each statement.\n\nThis table will be called the Construct Table, as it collects the original sources for the definitions of the constructs.\n\n\n\n\nReference\n\n\nQuote\n\n\nExtracted element\n\n\nElement type\n\n\nRel. type\n\n\nShort name / associated concept\n\n\nID\n\n\n\n\n\n\nFischer et al. (2011), p. 517\n\n\n“The bystander effect refers to the phenomenon that an individual’s likelihood of helping decreases when passive bystanders are present in a critical situation.”\n\n\nlikelihood of helping\n\n\nC\n\n\nn\n\n\np(help)\n\n\nA1\n\n\n\n\nnumber of passive bystanders\n\n\nC\n\n\nn\n\n\nNOPB\n\n\nA2\n\n\n\n\ncritical situation\n\n\nC\n\n\nn\n\n\ncritSit\n\n\nA3\n\n\n\n\np(help) decreases when NOPB &gt; 0, given critSit\n\n\nHOC\n\n\np\n\n\nbystander effect\n\n\nA4\n\n\n\n\n\nElement Type is one of: Concept, Relationship, HOC: Higher-order Concept.\nRelationship Type: One of the VAST relationship types (n, p, i, r, c, …)"
   },
   {
     "objectID": "lectures/VAST/VAST_Application.html#step-5-distill-a-working-definition-for-each-construct-add-relationships",
@@ -613,7 +627,7 @@
     "href": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-3",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 6: Simulate a full data set",
-    "text": "Step 6: Simulate a full data set\n6b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants. You can draw them from a random distribution, e.g. a normal distribution with rnorm():\n\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\nprint(df)\n\n\n   pID valence speed age extra\n1    1     pos  slow  25  -0.2\n2    2     pos  slow  26   0.0\n3    3     pos  slow  23  -1.9\n4    1     neg  slow  23  -1.7\n5    2     neg  slow  33  -0.4\n6    3     neg  slow  34  -0.8\n7    1     pos  fast  25   2.0\n8    2     pos  fast  28   1.2\n9    3     pos  fast  20   0.6\n10   1     neg  fast  25  -0.2\n11   2     neg  fast  30   1.5\n12   3     neg  fast  27   0.0"
+    "text": "Step 6: Simulate a full data set\n6b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants. You can draw them from a random distribution, e.g. a normal distribution with rnorm():\n\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\nprint(df)\n\n\n   pID valence speed age extra\n1    1     pos  slow  33   1.5\n2    2     pos  slow  26  -1.6\n3    3     pos  slow  27   0.2\n4    1     neg  slow  22  -0.7\n5    2     neg  slow  16  -0.2\n6    3     neg  slow  23  -1.9\n7    1     pos  fast  25  -1.9\n8    2     pos  fast  29   1.7\n9    3     pos  fast  29   1.4\n10   1     neg  fast  28  -1.0\n11   2     neg  fast  25   0.9\n12   3     neg  fast  27  -0.9"
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#draw-random-values-between-0-and-1",
@@ -676,7 +690,7 @@
     "href": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-4",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 6: Simulate a full data set",
-    "text": "Step 6: Simulate a full data set\n6c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\).\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  25  -0.2 12.7\n2    2     pos  slow  26   0.0  8.2\n3    3     pos  slow  23  -1.9 11.6\n4    1     neg  slow  23  -1.7  7.7\n5    2     neg  slow  33  -0.4  8.0\n6    3     neg  slow  34  -0.8  8.8\n7    1     pos  fast  25   2.0 10.8\n8    2     pos  fast  28   1.2 12.3\n9    3     pos  fast  20   0.6 10.2\n10   1     neg  fast  25  -0.2 11.3\n11   2     neg  fast  30   1.5 13.2\n12   3     neg  fast  27   0.0 11.3\n\n\n\nThis only works if the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
+    "text": "Step 6: Simulate a full data set\n6c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\).\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  33   1.5 10.7\n2    2     pos  slow  26  -1.6 14.2\n3    3     pos  slow  27   0.2  8.6\n4    1     neg  slow  22  -0.7  9.8\n5    2     neg  slow  16  -0.2 10.5\n6    3     neg  slow  23  -1.9  7.7\n7    1     pos  fast  25  -1.9  9.3\n8    2     pos  fast  29   1.7 10.4\n9    3     pos  fast  29   1.4  7.9\n10   1     neg  fast  28  -1.0 11.1\n11   2     neg  fast  25   0.9  9.5\n12   3     neg  fast  27  -0.9  4.8\n\n\n\nThis only works if the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-5",
@@ -697,7 +711,7 @@
     "href": "lectures/MathModel/MathModel.slide.html#step-6-simulate-a-full-data-set-7",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 6: Simulate a full data set",
-    "text": "Step 6: Simulate a full data set\n6c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  25  -0.2 12.7  10.9\n2    2     pos  slow  26   0.0  8.2   8.2\n3    3     pos  slow  23  -1.9 11.6  10.9\n4    1     neg  slow  23  -1.7  7.7   9.1\n5    2     neg  slow  33  -0.4  8.0   8.8\n6    3     neg  slow  34  -0.8  8.8   7.2\n7    1     pos  fast  25   2.0 10.8  12.3\n8    2     pos  fast  28   1.2 12.3  12.5\n9    3     pos  fast  20   0.6 10.2  10.9\n10   1     neg  fast  25  -0.2 11.3  10.8\n11   2     neg  fast  30   1.5 13.2  14.0\n12   3     neg  fast  27   0.0 11.3  14.1\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
+    "text": "Step 6: Simulate a full data set\n6c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  33   1.5 10.7  10.0\n2    2     pos  slow  26  -1.6 14.2  12.5\n3    3     pos  slow  27   0.2  8.6   6.3\n4    1     neg  slow  22  -0.7  9.8  12.6\n5    2     neg  slow  16  -0.2 10.5  10.9\n6    3     neg  slow  23  -1.9  7.7   6.8\n7    1     pos  fast  25  -1.9  9.3  12.3\n8    2     pos  fast  29   1.7 10.4  11.7\n9    3     pos  fast  29   1.4  7.9  10.2\n10   1     neg  fast  28  -1.0 11.1   8.9\n11   2     neg  fast  25   0.9  9.5   9.1\n12   3     neg  fast  27  -0.9  4.8   1.8\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
   },
   {
     "objectID": "lectures/MathModel/MathModel.slide.html#group-work-20-min.-putting-all-together-for-a-full-simulation",
@@ -1054,7 +1068,7 @@
     "href": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-3",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 6: Simulate a full data set",
-    "text": "Step 6: Simulate a full data set\n\n6b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants. You can draw them from a random distribution, e.g. a normal distribution with rnorm():\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\nprint(df)\n\n   pID valence speed age extra\n1    1     pos  slow  25  -0.2\n2    2     pos  slow  26   0.0\n3    3     pos  slow  23  -1.9\n4    1     neg  slow  23  -1.7\n5    2     neg  slow  33  -0.4\n6    3     neg  slow  34  -0.8\n7    1     pos  fast  25   2.0\n8    2     pos  fast  28   1.2\n9    3     pos  fast  20   0.6\n10   1     neg  fast  25  -0.2\n11   2     neg  fast  30   1.5\n12   3     neg  fast  27   0.0"
+    "text": "Step 6: Simulate a full data set\n\n6b: Simulate random observed variables\nAdd observed interindividual differences or situational variables. These are not experimentally fixed at specific levels, but vary randomly between participants. You can draw them from a random distribution, e.g. a normal distribution with rnorm():\n\nn &lt;- nrow(df)\ndf$age &lt;- rnorm(n, mean=26, sd=4) |&gt; round()\n\n# Extraversion\n# z-scores: standard normal distribution\ndf$extra &lt;- rnorm(n) |&gt; round(1) \n\nprint(df)\n\n   pID valence speed age extra\n1    1     pos  slow  33   1.5\n2    2     pos  slow  26  -1.6\n3    3     pos  slow  27   0.2\n4    1     neg  slow  22  -0.7\n5    2     neg  slow  16  -0.2\n6    3     neg  slow  23  -1.9\n7    1     pos  fast  25  -1.9\n8    2     pos  fast  29   1.7\n9    3     pos  fast  29   1.4\n10   1     neg  fast  28  -1.0\n11   2     neg  fast  25   0.9\n12   3     neg  fast  27  -0.9"
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#draw-random-values-between-0-and-1",
@@ -1117,7 +1131,7 @@
     "href": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-4",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 6: Simulate a full data set",
-    "text": "Step 6: Simulate a full data set\n\n6c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\).\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  25  -0.2 12.7\n2    2     pos  slow  26   0.0  8.2\n3    3     pos  slow  23  -1.9 11.6\n4    1     neg  slow  23  -1.7  7.7\n5    2     neg  slow  33  -0.4  8.0\n6    3     neg  slow  34  -0.8  8.8\n7    1     pos  fast  25   2.0 10.8\n8    2     pos  fast  28   1.2 12.3\n9    3     pos  fast  20   0.6 10.2\n10   1     neg  fast  25  -0.2 11.3\n11   2     neg  fast  30   1.5 13.2\n12   3     neg  fast  27   0.0 11.3\n\n\n\n\nThis only works if the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
+    "text": "Step 6: Simulate a full data set\n\n6c: Compute the outcome variable (i.e., the model output)\nOnce all input variables have been simulated, submit them to your model function and compute the outcome variable \\(y\\).\n\n\n\n# psi() is the model function that takes \n# all input parameters and returns the \n# simulated output\n\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n\n\n\n   pID valence speed age extra    y\n1    1     pos  slow  33   1.5 10.7\n2    2     pos  slow  26  -1.6 14.2\n3    3     pos  slow  27   0.2  8.6\n4    1     neg  slow  22  -0.7  9.8\n5    2     neg  slow  16  -0.2 10.5\n6    3     neg  slow  23  -1.9  7.7\n7    1     pos  fast  25  -1.9  9.3\n8    2     pos  fast  29   1.7 10.4\n9    3     pos  fast  29   1.4  7.9\n10   1     neg  fast  28  -1.0 11.1\n11   2     neg  fast  25   0.9  9.5\n12   3     neg  fast  27  -0.9  4.8\n\n\n\n\nThis only works if the psi() function can handle vectors as input (i.e., you can submit the entire data frame of input variables to the function)."
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-5",
@@ -1138,7 +1152,7 @@
     "href": "lectures/MathModel/MathModel.html#step-6-simulate-a-full-data-set-7",
     "title": "Mathematical Modeling of Psychological Theories",
     "section": "Step 6: Simulate a full data set",
-    "text": "Step 6: Simulate a full data set\n\n6c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  25  -0.2 12.7  10.9\n2    2     pos  slow  26   0.0  8.2   8.2\n3    3     pos  slow  23  -1.9 11.6  10.9\n4    1     neg  slow  23  -1.7  7.7   9.1\n5    2     neg  slow  33  -0.4  8.0   8.8\n6    3     neg  slow  34  -0.8  8.8   7.2\n7    1     pos  fast  25   2.0 10.8  12.3\n8    2     pos  fast  28   1.2 12.3  12.5\n9    3     pos  fast  20   0.6 10.2  10.9\n10   1     neg  fast  25  -0.2 11.3  10.8\n11   2     neg  fast  30   1.5 13.2  14.0\n12   3     neg  fast  27   0.0 11.3  14.1\n\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
+    "text": "Step 6: Simulate a full data set\n\n6c: Compute the outcome variable (i.e., the model output)\nAdd additional (summative) error variance to output variable:\n\n\n\n# deterministic model output\ndf$y &lt;- psi(df$valence, df$speed, \n            df$age, df$extra)\n\n# Add additional noise to observed variable.\n# The SD of the normal distribution\n# determines the amount of error\ndf$y_obs &lt;- df$y + rnorm(n, mean=0, sd=2) |&gt; \n            round(1)\n\n\n\n\n   pID valence speed age extra    y y_obs\n1    1     pos  slow  33   1.5 10.7  10.0\n2    2     pos  slow  26  -1.6 14.2  12.5\n3    3     pos  slow  27   0.2  8.6   6.3\n4    1     neg  slow  22  -0.7  9.8  12.6\n5    2     neg  slow  16  -0.2 10.5  10.9\n6    3     neg  slow  23  -1.9  7.7   6.8\n7    1     pos  fast  25  -1.9  9.3  12.3\n8    2     pos  fast  29   1.7 10.4  11.7\n9    3     pos  fast  29   1.4  7.9  10.2\n10   1     neg  fast  28  -1.0 11.1   8.9\n11   2     neg  fast  25   0.9  9.5   9.1\n12   3     neg  fast  27  -0.9  4.8   1.8\n\n\n\n\nThe size of the error variance (in combination with upstream sources of interindividual variance) determines the effect size that can be observed in a simulated study. The more error variance, the lower the effect size."
   },
   {
     "objectID": "lectures/MathModel/MathModel.html#group-work-20-min.-putting-all-together-for-a-full-simulation",
@@ -1551,7 +1565,7 @@
     "href": "sessions/S8-Candidate_theories.html#overview",
     "title": "Session 08 - Presentation of candidate theories",
     "section": "Overview",
-    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nOverview: The second half of the course\n10\n\n\n\nStudents propose theories for Part 2\n15 for each theory\n\n\n\nWorld Café/Group Formation\n60\n\n\n\nHomework: Read paper for new theory & start Construct Table"
+    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nOverview: The second half of the course\n10\n\n\n\nStudents propose theories for Part 2\n15 for each theory\n\n\n\nWorld Café/Group Formation\n90\n\n\n\nHomework: Read paper for new theory & start Construct Table"
   },
   {
     "objectID": "sessions/S8-Candidate_theories.html#welcome-to-part-2",
@@ -1565,7 +1579,7 @@
     "href": "sessions/S8-Candidate_theories.html#world-café",
     "title": "Session 08 - Presentation of candidate theories",
     "section": "World Café",
-    "text": "World Café\nRandomize travel order:\n\nPrepare the isles with flip-chart paper and pens, write theory names on each flip chart paper.\nEach student makes up a random order of the letters A, B, C, and D (or more, depending on how many theories we have).\nAssign letters to theories, write them on the flip chart paper.\nAll proposers of theories then swap (if necessary) two of their letters so that their own theory is last. (Because they are going to summarize the discussion at the end.)\n\nThe Café:\nGroups stay 5 min at each isle and discuss the theory, add comments/questions to the board. Every group should write something on the board. Then they move to the next isle, reading the previous comments and adding their own. After 4 rounds, the original proposers of each theory (who should be at their own theory isle) summarize the main discussion points.\nThe choice:\nStudents form 4 groups for Part 2 based on their preferences. It is possible that multiple groups work on different aspects of the same theory."
+    "text": "World Café\nRandomize travel order:\n\nPrepare the isles with flip-chart paper and pens, write theory names on each flip chart paper.\nEach student makes up a random order of the letters A, B, C, and D (or more, depending on how many theories we have).\nAssign letters to theories, write them on the flip chart paper.\nAll proposers of theories then swap (if necessary) two of their letters so that their own theory is last. (Because they are going to summarize the discussion at the end.)\n\nThe Café:\nGroups stay 5 min at each isle and discuss the theory, add comments/questions to the board. Every group should write something on the board. Then they move to the next isle, reading the previous comments and adding their own. After 4 rounds, the original proposers of each theory (who should be at their own theory isle) summarize the main discussion points.\nThe choice:\nStudents form 4 groups for Part 2 based on their preferences. It is possible that multiple groups work on different aspects of the same theory.\nMaybe students need some room to discuss their choice with their friends, etc. Let them chat for 5-10 min. so that they can achieve a good decision."
   },
   {
     "objectID": "sessions/S8-Candidate_theories.html#prototypical-formalization-styles",
@@ -1631,109 +1645,74 @@
     "text": "5 Homework (as a group): Finalize Bystander VAST\nDeliverables:\n\nComplete and clean up your Construct Table on Google Drive (not yet the Variables Table).\nUpload/commit your draw.io VAST display in the Homework Repository, subfolder Bystander_effect, with your team name as file name."
   },
   {
-    "objectID": "sessions/S9-Formalization_Candidates.html",
-    "href": "sessions/S9-Formalization_Candidates.html",
-    "title": "Session 09 - Best practices in theory formalization; create a new VAST",
+    "objectID": "sessions/sessions_overview.html",
+    "href": "sessions/sessions_overview.html",
+    "title": "Overview of sessions",
     "section": "",
-    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate the folder homework/04-Quality_checklist in the homework repo."
+    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nQuestion\n\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nDiscussing the theory crisis; showcasing Git\n\n\n\n\n\n\nSession 02 - Introduction to the Visual Argument Structure Tool\n\n\nIntro to theory 2 / VAST-Displays\n\n\n\n\n\n\nSession 03 - Introduction Theories / Practice VAST\n\n\nIntro to theory 2; Apply VAST to Bystander effect\n\n\n\n\n\n\nSession 04 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\n\n\nSession 05 - Mathematical Modeling Part 2\n\n\nCreate atomic functions for our Dangerous Bystander Effect Model\n\n\n\n\n\n\nSession 06 - Mathematical Modeling Part 3\n\n\nFinalize and plot atomic functions\n\n\n\n\n\n\nSession 07 - Mathematical Modeling Part 4\n\n\nSuper-function “Psi” + simulated experiments\n\n\n\n\n\n\nSession 08 - Presentation of candidate theories\n\n\nWe have a presentation and initial discussion of candidate theories for the next formalization exercise. New groups form.\n\n\n\n\n\n\nSession 09 - Best practices in theory formalization; create a new VAST\n\n\nGroups start working on their own formalization projects, setting up the technical infrastructure and preparing a new repository with best practices.\n\n\n\n\n\n\nSession 10 - How to simulate virtual experiments\n\n\nWe practice how to generate data for simulated experiments\n\n\n\n\n\n\nSession 11 - FAIR theories\n\n\nWe learn how to document our digital theory objects and how to make them FAIR\n\n\n\n\n\n\nSession 12 - Work on formalization\n\n\nThe groups work on their formalizations\n\n\n\n\n\n\nSession 13 - Final presentations\n\n\nThe groups present their work\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "sessions/S9-Formalization_Candidates.html#overview",
-    "href": "sessions/S9-Formalization_Candidates.html#overview",
-    "title": "Session 09 - Best practices in theory formalization; create a new VAST",
-    "section": "Overview",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nBest (technical) practices in theory development: CFF + semver + folder structure\n60\nSlides\n\n\nPrepare a new repository in each group\n20\nFormalization Steps 1 & 2\n\n\nWorkshop: create a VAST\n120\nFormalization Steps 3 - 6"
-  },
-  {
-    "objectID": "sessions/S9-Formalization_Candidates.html#prepare-your-own-repository",
-    "href": "sessions/S9-Formalization_Candidates.html#prepare-your-own-repository",
-    "title": "Session 09 - Best practices in theory formalization; create a new VAST",
-    "section": "Prepare your own repository",
-    "text": "Prepare your own repository\nEach group should set up their technical infrastructure - from now on, you start working in your own repository.\n\nCreate a fresh public Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nInvite the lecturer (user name: nicebread) as a collaborator:  Settings →  Collaborators → “Add people”\nPrepare the folder structure\n\nCreate your CITATION.cff file, assign your first version number (presumably: 0.1.0)."
-  },
-  {
-    "objectID": "sessions/S9-Formalization_Candidates.html#homework-1",
-    "href": "sessions/S9-Formalization_Candidates.html#homework-1",
-    "title": "Session 09 - Best practices in theory formalization; create a new VAST",
-    "section": "Homework 1",
-    "text": "Homework 1\n\nFinalize Formalization Steps 3 - 6 and push everything in your repo.\nAssign a new semantic version number."
-  },
-  {
-    "objectID": "sessions/S9-Formalization_Candidates.html#homework-2",
-    "href": "sessions/S9-Formalization_Candidates.html#homework-2",
-    "title": "Session 09 - Best practices in theory formalization; create a new VAST",
-    "section": "Homework 2",
-    "text": "Homework 2\n\nRead: Lange, J., Freyer, N., Musfeld, P., Schönbrodt, F., & Leising, D. (2025). A checklist for incentivizing and facilitating good theory building. Zeitschrift Für Psychologie, 2151-2604/a000604. https://doi.org/10.1027/2151-2604/a000604\nAlso read the checklist itself\n\nAnswer the following guiding questions:\n\nName the three immutable guiding principles of the checklist \nAccording to the introduction section of the checklist: What are the differences between a “theory” and a “formal model”? \nName the two ways of evaluating a theory. \n\nDeliverable: Submit answers to the guiding questions as a plain text or markdown file to the course’s Homework Repository, subfolder 04-Quality_checklist."
-  },
-  {
-    "objectID": "sessions/S5-MathModel2.html",
-    "href": "sessions/S5-MathModel2.html",
-    "title": "Session 05 - Mathematical Modeling Part 2",
+    "objectID": "sessions/S4-MathModel1.html",
+    "href": "sessions/S4-MathModel1.html",
+    "title": "Session 04 - The first mathematical model",
     "section": "",
-    "text": "Please give anonymous feedback here: https://partici.fi/77082422"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in groups\n15\n\n\n\nPresent and discuss solutions\n80\n~20 min per group\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, 1-13 (up to “Mathematical Tools”)\n\n\nHomework: Create modified VAST: The Dangerous Bystander Effect"
   },
   {
-    "objectID": "sessions/S5-MathModel2.html#intermediate-feedback",
-    "href": "sessions/S5-MathModel2.html#intermediate-feedback",
-    "title": "Session 05 - Mathematical Modeling Part 2",
+    "objectID": "sessions/S4-MathModel1.html#overview",
+    "href": "sessions/S4-MathModel1.html#overview",
+    "title": "Session 04 - The first mathematical model",
     "section": "",
-    "text": "Please give anonymous feedback here: https://partici.fi/77082422"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in groups\n15\n\n\n\nPresent and discuss solutions\n80\n~20 min per group\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, 1-13 (up to “Mathematical Tools”)\n\n\nHomework: Create modified VAST: The Dangerous Bystander Effect"
   },
   {
-    "objectID": "sessions/S5-MathModel2.html#overview",
-    "href": "sessions/S5-MathModel2.html#overview",
-    "title": "Session 05 - Mathematical Modeling Part 2",
-    "section": "Overview",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize models in groups; push to repo; present\n50\n\n\n\nFormalization: Mathematical Models 2\n60\nSlides, Steps 2-3\n\n\nGroup work “Apply everything to reduced model”\n60\n\n\n\n[Homework]: Learn ggplot2\n-"
+    "objectID": "sessions/S4-MathModel1.html#present-and-discuss-solutions",
+    "href": "sessions/S4-MathModel1.html#present-and-discuss-solutions",
+    "title": "Session 04 - The first mathematical model",
+    "section": "2 Present and discuss solutions",
+    "text": "2 Present and discuss solutions\nGuiding questions:\nInsights from the group discussion process:\n\nDid you start with similar mental models about the VAST display?\nDid the VAST tool help to clarify your understanding and facilitate group discussions?\n\nComparing the 4 solutions:\n\nWhat are similarities? What are differences?"
   },
   {
-    "objectID": "sessions/S7-MathModel4.html",
-    "href": "sessions/S7-MathModel4.html",
-    "title": "Session 07 - Mathematical Modeling Part 4",
+    "objectID": "sessions/S4-MathModel1.html#homework-in-groups",
+    "href": "sessions/S4-MathModel1.html#homework-in-groups",
+    "title": "Session 04 - The first mathematical model",
+    "section": "3 Homework (in groups)",
+    "text": "3 Homework (in groups)\n\nWe extend the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the explanatory target is (a) the “classical” bystander effect and (b) the reduction of the bystander effect in dangerous situations (i.e., the dangerousness of situation is a moderator of the bystander main effect).\nAt the same time we reduce the VAST display by cutting all elements that are not relevant for this specific explanation.\n\nWe cut the “Five-step process model”\nFrom the three potential processes we only keep diffusion of responsibility (and ignore pluralistic ignorance and evaluation apprehension).\n\nEnsure that no causal, prediction, or transformation arrows point at or originate from HOCs - they must start and end at actual variables.\nIn the last homework, we tried to create a faithful representation of the narrative theory, potentially showing the gaps. This time, we aim at a more coherent and parsimonious representation of the theory. This time you should rather use the narrative only as a starting point, restructure, and fill the gaps.\n\nIn other words, we try to build a minimal model that explains our explanatory target.\nThe additional theoretical explanation can be found in Fischer et al., p. 520-521. These are the relevant paragraphs (no need to read the paper):\n\n“[…] the most noteworthy tendency in recent research is that the bystander effect often does not occur when the emergency is a dangerous one or when the bystanders are highly competent. The classic bystander research regarded present bystanders as”something negative,” which reduces the probability of prosocial intervention. On the basis of the review of the more recent literature, we suspect that this perspective is not always correct. Bystanders can act as a positive source of physical support in case a focal person is in the process of deciding whether to intervene in a critical situation (especially when they are perceived as competent bystanders). The present meta-analysis allows us to systematically examine the possibility of a non-inhibiting (non-negative) bystander effect. In the following, we further explore this theoretical idea. We explain why we expect that dangerous emergencies are associated with a reduced magnitude of the bystander effect.”\nIf one is to intervene in a dangerous emergency, one may have to fear negative physical consequences. A perpetrator may not only attack the victim but also the intervener. In that case, additional bystanders may provide support in defeating a potential perpetrator. […] To conclude, we expect that high-danger emergencies increase the focal bystander’s fear that he or she will be attacked or injured in case of intervention. However, if other bystanders are present, they are recognized as a source of physical support, which mitigates against the traditional bystander effect. Note that we do not expect a complete disappearance of the bystander effect in dangerous emergencies. Instead, we expect that it substantially declines because of the fact that many dangerous emergency situations can only be resolved by a group.\nThus, we expect that it is mainly increased danger to the focal bystander that reduces the bystander effect, but not increased danger to the victim (which can be completely distinct from danger of intervention). […] In other words, if bystanders experience increased danger to themselves in case of intervention, they look for other bystanders to help them to intervene (e,g,, to overpower a fierce perpetrator), which should finally reduce diffusion of responsibility and thus also attenuate the magnitude of the bystander effect (because bystanders acknowledge that they can only resolve the dangerous situation by cooperation in a group).\n\nAll groups should use the following base structure:\n\nThe display of the phenomenon/effect itself which only contains manifest variables and a \\(\\Psi\\)-black box (see figure below; you can download the template).\nThe theoretical explanation for the effect, containing the psychological mechanisms (within the \\(\\Psi\\)-box) with all relevant constructs and relationships.\n\n\nDeliverable:\n\nCreate a new draw.io VAST display based on the template with the extended and reduced theory. Push the file to the Homework Repository in the folder Dangerousness_effect, in your group’s subfolder.\nCreate a copy of the Google doc with the Construct Table and the Variables Table. Reduce/expand both tables to the new dangerousness model."
+  },
+  {
+    "objectID": "sessions/S12-Work.html",
+    "href": "sessions/S12-Work.html",
+    "title": "Session 12 - Work on formalization",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nHomework wrapup: Productive Explanations\n20\n\n\n\nFormalization: Mathematical Models Simulations\n60\nSlides, Steps 5+6\n\n\nGroup work: Create super-function + plot for individual functions\n40\n\n\n\nHomework: Think about candidate theories for your own formalization"
+    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nGroups work on their formalization\n180\n\n\n\n\n\n\nTasks for today\nWork on steps on the remaining steps (8-11) of the Formalization Steps. You probably won’t finish all steps, but the more you achieve, the less you have to do for the final report.\nRemember to restrict yourself: Aim for few phenomena (ideally, only one) and simple theories and models. It gets complicated all by itself!\nDeliverable:\n\nIncrease the version (e.g., to 0.3.0) in the CITATION.cff file.\nPush your current version to the repository.\nCreate a tag, give it the version name (e.g., v0.3.0) and write a short description for the release.\n\nDo these steps regardless whether the theory object currently is in a “functional state” or still in a messy development version."
   },
   {
-    "objectID": "sessions/S7-MathModel4.html#overview",
-    "href": "sessions/S7-MathModel4.html#overview",
-    "title": "Session 07 - Mathematical Modeling Part 4",
+    "objectID": "sessions/S1-Introduction.html",
+    "href": "sessions/S1-Introduction.html",
+    "title": "Session 01 - Introduction",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nHomework wrapup: Productive Explanations\n20\n\n\n\nFormalization: Mathematical Models Simulations\n60\nSlides, Steps 5+6\n\n\nGroup work: Create super-function + plot for individual functions\n40\n\n\n\nHomework: Think about candidate theories for your own formalization"
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nBring empty name tags and board markers.\nDuring the Git intro, create the course’s private homework repo. Create the folder homework/01-Smaldino-chapter.\nCreate an R-project file (without that, git does not work in R-Studio). Otherwise, many students will create that project fiel themselves, leading to many merge conflicts.\nAt the end, collect the name tags (and bring them along next time)\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nInstructor introduction\n\n\nIntroduction of students in the plenum\n10\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nLecture: Introduction: Theory crisis\n100\nSlides\n\n\nGit Intro\n20\nSlides 1-6\n\n\nExplain homework\n10"
   },
   {
-    "objectID": "sessions/S7-MathModel4.html#homework-individual-groups",
-    "href": "sessions/S7-MathModel4.html#homework-individual-groups",
-    "title": "Session 07 - Mathematical Modeling Part 4",
-    "section": "Homework (individual / groups)",
-    "text": "Homework (individual / groups)\nNext week, we will form (up to) four new groups that work on their own theory formalization. Please think about candidate theories that you would like to formalize. You can also team up with other students to propose a theory together.\nWhat theory would be a good fit? (inclusion criteria)\n\nA theory that is sufficiently precise and has a defined and not too large scope.\nIt explains a central phenomenon, and this phenomenon is robust (i.e., replicable and generalizable across several dimensions).\nIts core premises are formulated in a clear and concise form on a few pages.\nThere doesn’t exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).\n\nWhat theory would not be a good fit? (exclusion criteria)\n\nYou need to read three books to understand the theory.\nThe “all-encompassing theory of human nature”\nYou need a lot of expert input and judgement to fill in the gaps of the underspecified theory.\nYou need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.\n\nDeliverable:\nA presentation (~15 min.) that includes the following points:\n\nWhat is the central phenomenon to be explained?\nWhat does a typical study that produces the phenomenon look like?\nA (very brief) introduction to the theory that explains the phenomenon.\nWhat is the central literature? (To give an impression of the form in which the narrative theory is presented)."
-  },
-  {
-    "objectID": "sessions/S6-MathModel3.html",
-    "href": "sessions/S6-MathModel3.html",
-    "title": "Session 06 - Mathematical Modeling Part 3",
+    "objectID": "sessions/S1-Introduction.html#overview",
+    "href": "sessions/S1-Introduction.html#overview",
+    "title": "Session 01 - Introduction",
     "section": "",
-    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate subfolder literature in the homework repository and add van Dongen paper PDF\nCreate subfolder homework/03-Productive_explanations in the homework repository"
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nBring empty name tags and board markers.\nDuring the Git intro, create the course’s private homework repo. Create the folder homework/01-Smaldino-chapter.\nCreate an R-project file (without that, git does not work in R-Studio). Otherwise, many students will create that project fiel themselves, leading to many merge conflicts.\nAt the end, collect the name tags (and bring them along next time)\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nInstructor introduction\n\n\nIntroduction of students in the plenum\n10\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nLecture: Introduction: Theory crisis\n100\nSlides\n\n\nGit Intro\n20\nSlides 1-6\n\n\nExplain homework\n10"
   },
   {
-    "objectID": "sessions/S6-MathModel3.html#overview",
-    "href": "sessions/S6-MathModel3.html#overview",
-    "title": "Session 06 - Mathematical Modeling Part 3",
-    "section": "1 Overview",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nGroup work: Finalize tables & R implementation of atomic functions\n60\n\n\n\nFormalization: Mathematical Models 4\n30\nSlides, Step 4\n\n\nLive coding: Plotting with ggplot2\n10\n\n\n\nGroup work: Create plot for individual functions\n40"
+    "objectID": "sessions/S1-Introduction.html#homework-1-individually",
+    "href": "sessions/S1-Introduction.html#homework-1-individually",
+    "title": "Session 01 - Introduction",
+    "section": "Homework 1 (individually)",
+    "text": "Homework 1 (individually)\nLearning Goals: Learn how to pull, commit, and push to Github. Be able to resolve a merge conflict.\nHomework steps:\n\nCreate a Github account. (Skip if you have one already).\nSend your Github user name to me via email. I will give you access to the course’s private Homework Repository: https://github.com/nicebread/FOMO-homework-2025. (Note: You won’t be able to access, clone, or even see the repository until the lecturer has granted you access).\n\nIf you are proficient in git and Github, you can skip step 3:\n\nDo the tutorial “Introduction to version Control with git and GitHub within RStudio”, and the follow-up tutorial “Collaborative coding with GitHub and RStudio”. Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.\n\nNote: In chapter “Secure the connection …” it says “You will then be asked to provide a passphrase. Protecting your keys with a password is optional but highly recommended”. I recommend not to set a passphrase (just leave it empty), unless you deal with very sensitive data. You will get crazy if you need to enter your passphrase at every SSH operation.\n\nOnce you have been granted access to the Homework Repository, clone the repository to your local machine. (This cannot be done on an iPad or smartphone; you need a computer for that.). Important: Do not fork the repository (as you did in the tutorial), but clone it (i.e., we are all working within the same repository, not on individual forked copies of it).\n\nDeliverable:\nPush your answer from Homework 2 (see below) to the folder homework/01-Smaldino-chapter of the remote repository (i.e., first save your file locally in the respective folder, then commit and push)."
   },
   {
-    "objectID": "sessions/S6-MathModel3.html#live-coding",
-    "href": "sessions/S6-MathModel3.html#live-coding",
-    "title": "Session 06 - Mathematical Modeling Part 3",
-    "section": "2 Live Coding",
-    "text": "2 Live Coding\nHere is a self-contained script that shows all steps:\n\n2.1 One possible VAST model\n \nWe focus on feltResp as outcome variable.\n\n\n2.2 The code\n\n#---------------------------------------------------------------------\n# This is one function in my VAST\n# - It has three input variables: baseResp, NOPB, pDoI\n# - It has two parameters in the function, which however have been\n#   fixed to the values 0.8 and 0.2.\n#---------------------------------------------------------------------\n\n#' Compute felt responsibility\n#'\n#' The base responsibility of \"helping when alone\" is divided by the\n#' number of passive bystanders. The strength of the bystander effect\n#' is modulated by the factor alpha, which is itself a function of\n#' the perceived danger of intervention. It is an attenuation/boost \n#' factor for the decline/steepness of the 1/x curve. alpha ranges \n#' from 0 to Inf, where 0=no bystander effect (BSE), 1=classical BSE \n#' and values &gt; 1 stronger-than-classical BSEs.\n#'\n#' @param baseResp The probability to help when one is alone.\n#' @param NOPB The number of passive bystanders\n#' @param pDoI The perceived danger of intervention (ranging from 0..1)\n#' @return The felt responsibility\n#'\nget_feltResp &lt;- function(baseResp, NOPB, pDoI) {\n  alpha &lt;- (0.8 - pDoI*0.8)+0.2\n  feltResp &lt;- baseResp / (alpha*NOPB + 1)\n  return(feltResp)\n}\n\n#---------------------------------------------------------------------\n# Prepare data for plotting\n#---------------------------------------------------------------------\n\n# define the levels that should be plotted\nplot_data &lt;- expand.grid(\n  baseResp = c(0.7, 0.8, 0.9),\n  NOPB = 0:20,\n  pDoI = c(0, 0.5, 1)\n)\n\n# nicer labels for facet\nplot_data$baseResp_label &lt;- paste(\"Base resp.:\", plot_data$baseResp)\n\n# compute outcome variable\nplot_data$feltResp &lt;- get_feltResp(\n  baseResp = plot_data$baseResp,\n  NOPB = plot_data$NOPB,\n  pDoI = plot_data$pDoI\n)\n\n#---------------------------------------------------------------------\n# Construct the ggplot\n#---------------------------------------------------------------------\n\nlibrary(ggplot2)\n\np1 &lt;- ggplot(plot_data, aes(x=NOPB, y=feltResp, color=factor(pDoI))) +\n  geom_line() +\n  facet_grid(~ baseResp_label) +\n  labs(\n    x=\"Number of passive bystanders\",\n    y=\"Felt Responsibility\",\n    color=\"Dangerousness \\nof Intervention\" # \\n makes a line break\n  ) +\n  scale_y_continuous(limits=c(0, 1)) +\n  theme_bw()\n\nprint(p1)"
-  },
-  {
-    "objectID": "sessions/S6-MathModel3.html#homework-individually",
-    "href": "sessions/S6-MathModel3.html#homework-individually",
-    "title": "Session 06 - Mathematical Modeling Part 3",
-    "section": "3 Homework (individually)",
-    "text": "3 Homework (individually)\nRead: Van Dongen et al. (2024). Productive explanation: A framework for evaluating explanations in psychological science. Psychological Review. https://doi.org/10.1037/rev0000479 (available in the /literature folder):\n\nQuestion 1: What is the role an original author should play when predictions are derived from a theory? \nQuestion 2: Are phenomena, according to Bogen and Woodward, directly observable?\n\n\n\nQuestion 3: What are two intermediate processes that are necessary for providing a productive explanation? \nQuestion 4: According to the authors, what are the three steps of productive explanation? \nQuestion 5: What does the paper identify as a limitation of verbal psychological theories compared to formal models in other scientific disciplines? \nQuestion 6: What criteria are suggested for evaluating the quality of explanations in the productive explanation framework? \nQuestion 7: Does Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?\n\n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/03-Productive_explanations and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper."
+    "objectID": "sessions/S1-Introduction.html#homework-2-individually",
+    "href": "sessions/S1-Introduction.html#homework-2-individually",
+    "title": "Session 01 - Introduction",
+    "section": "Homework 2 (individually)",
+    "text": "Homework 2 (individually)\nDownload Chapter 1 of Paul Smaldino’s Book “Modeling Social Behavior: Mathematical and Agent-Based Models of Social Dynamics and Cultural Evolution”. Read the chapter and answer the following guiding questions:\n\nA typical criticism of formal models is: “You baked your results into the model, so the conclusions are trivial”. What could you answer to such a statement?\n\n\n\nWhat is done in a “decomposition”?\n\n\n\nWhat question should guide the decomposition?\n\n\n\nWhat is, according to Smaldino, the key difference between exact and inexact sciences?\n\n\n\nName the two types of models that typically are employed in social sciences.\n\n\nDeliverable: Submit answers to the guiding questions as a plain text or markdown file to the course’s Homework Repository:\n\nNavigate to /homework/01-Smaldino-chapter (After you cloned the repository in Homework 1, you should have that folder somewhere on your local machine.)\nAdd your answers as .txt or .md file with your first name as filename (e.g., “Heinz-Ruediger.md”)\ncommit and push\n(To verify your submission: Go to the website of the repository, and check whether your file is in the folder homework/01-Smaldino-chapter.)\n\nYou can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\nUsing git for the first time can be challenging. But it’s a skill that will pay off in the long run. If you get stuck, and made honest attempts to solve the problems yourself, don’t get desperate: Just send me your homework via email, and we will sort it out together in the next session."
   },
   {
     "objectID": "common/lastslide.html",
@@ -1834,74 +1813,109 @@
     "text": "This is material for the course “P19 Empirisch-psychologisches Praktikum” at the Ludwig-Maximilians-Universität München. The course was given in the winter terms 2023/24, 2024/25, and 2025/26 by Felix Schönbrodt. The material contains contributions from Daniel Leising and Aaron Peikert, and is partially inspired by a course from Noah van Dongen.\n\n\n\nCitationBibTeX citation:@online{schönbrodt2025,\n  author = {Schönbrodt, Felix and Leising, Daniel and Peikert, Aaron},\n  title = {Formalizing Narrative Theories in Psychology {{[}Course}\n    Material{]}},\n  date = {2025-01-30},\n  url = {https://nicebread.github.io/FOMO-Psy/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSchönbrodt, F., Leising, D., & Peikert, A. (2025, January 30).\nFormalizing narrative theories in psychology [Course material].\nhttps://nicebread.github.io/FOMO-Psy/"
   },
   {
-    "objectID": "sessions/S1-Introduction.html",
-    "href": "sessions/S1-Introduction.html",
-    "title": "Session 01 - Introduction",
+    "objectID": "sessions/S9-A_new_VAST.html",
+    "href": "sessions/S9-A_new_VAST.html",
+    "title": "Session 09 - Best practices in theory formalization; create a new VAST",
     "section": "",
-    "text": "NoteInstructor notes\n\n\n\n\n\n\nBring empty name tags and board markers.\nDuring the Git intro, create the course’s private homework repo. Create the folder homework/01-Smaldino-chapter.\nCreate an R-project file (without that, git does not work in R-Studio). Otherwise, many students will create that project fiel themselves, leading to many merge conflicts.\nAt the end, collect the name tags (and bring them along next time)\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nInstructor introduction\n\n\nIntroduction of students in the plenum\n10\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nLecture: Introduction: Theory crisis\n100\nSlides\n\n\nGit Intro\n20\nSlides 1-6\n\n\nExplain homework\n10"
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate the folder homework/04-Quality_checklist in the homework repo."
   },
   {
-    "objectID": "sessions/S1-Introduction.html#overview",
-    "href": "sessions/S1-Introduction.html#overview",
-    "title": "Session 01 - Introduction",
+    "objectID": "sessions/S9-A_new_VAST.html#overview",
+    "href": "sessions/S9-A_new_VAST.html#overview",
+    "title": "Session 09 - Best practices in theory formalization; create a new VAST",
+    "section": "Overview",
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nBest (technical) practices in theory development: CFF + semver + folder structure\n60\nSlides\n\n\nPrepare a new repository in each group\n20\nFormalization Steps 1 & 2\n\n\nGroup work: Create a VAST\n120\nFormalization Steps 3 - 6"
+  },
+  {
+    "objectID": "sessions/S9-A_new_VAST.html#prepare-your-own-repository",
+    "href": "sessions/S9-A_new_VAST.html#prepare-your-own-repository",
+    "title": "Session 09 - Best practices in theory formalization; create a new VAST",
+    "section": "Prepare your own repository",
+    "text": "Prepare your own repository\nEach group should set up their technical infrastructure - from now on, you start working in your own repository.\n\nCreate a fresh public Github repository and a Google doc (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository, make it publicly readable for anybody.\nInvite the lecturer (user name: nicebread) as a collaborator on Github:  Settings →  Collaborators → “Add people”\nPrepare the folder structure\n\nCreate your CITATION.cff file, assign your first version number (presumably: 0.1.0)."
+  },
+  {
+    "objectID": "sessions/S9-A_new_VAST.html#homework-1",
+    "href": "sessions/S9-A_new_VAST.html#homework-1",
+    "title": "Session 09 - Best practices in theory formalization; create a new VAST",
+    "section": "Homework 1",
+    "text": "Homework 1\n\nFinalize Formalization Steps 3 - 6 and push everything in your repo.\nAssign a new semantic version number."
+  },
+  {
+    "objectID": "sessions/S9-A_new_VAST.html#homework-2",
+    "href": "sessions/S9-A_new_VAST.html#homework-2",
+    "title": "Session 09 - Best practices in theory formalization; create a new VAST",
+    "section": "Homework 2",
+    "text": "Homework 2\n\nRead: Lange, J., Freyer, N., Musfeld, P., Schönbrodt, F., & Leising, D. (2025). A checklist for incentivizing and facilitating good theory building. Zeitschrift Für Psychologie, 2151-2604/a000604. https://doi.org/10.1027/2151-2604/a000604\nAlso read the checklist itself\n\nAnswer the following guiding questions:\n\nName the three immutable guiding principles of the checklist \nAccording to the introduction section of the checklist: What are the differences between a “theory” and a “formal model”? \nName the two ways of evaluating a theory. \n\nDeliverable: Submit answers to the guiding questions as a plain text or markdown file to the course’s Homework Repository, subfolder 04-Quality_checklist."
+  },
+  {
+    "objectID": "sessions/S6-MathModel3.html",
+    "href": "sessions/S6-MathModel3.html",
+    "title": "Session 06 - Mathematical Modeling Part 3",
     "section": "",
-    "text": "NoteInstructor notes\n\n\n\n\n\n\nBring empty name tags and board markers.\nDuring the Git intro, create the course’s private homework repo. Create the folder homework/01-Smaldino-chapter.\nCreate an R-project file (without that, git does not work in R-Studio). Otherwise, many students will create that project fiel themselves, leading to many merge conflicts.\nAt the end, collect the name tags (and bring them along next time)\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nIntroduction\n5\nInstructor introduction\n\n\nIntroduction of students in the plenum\n10\nGuiding questions: Name, home town, why chose this Empra. Write your name tag.\n\n\nFormalia\n20\nSlides\n\n\nLecture: Introduction: Theory crisis\n100\nSlides\n\n\nGit Intro\n20\nSlides 1-6\n\n\nExplain homework\n10"
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate subfolder literature in the homework repository and add van Dongen paper PDF\nCreate subfolder homework/03-Productive_explanations in the homework repository"
   },
   {
-    "objectID": "sessions/S1-Introduction.html#homework-1-individually",
-    "href": "sessions/S1-Introduction.html#homework-1-individually",
-    "title": "Session 01 - Introduction",
-    "section": "Homework 1 (individually)",
-    "text": "Homework 1 (individually)\nLearning Goals: Learn how to pull, commit, and push to Github. Be able to resolve a merge conflict.\nHomework steps:\n\nCreate a Github account. (Skip if you have one already).\nSend your Github user name to me via email. I will give you access to the course’s private Homework Repository: https://github.com/nicebread/FOMO-homework-2025. (Note: You won’t be able to access, clone, or even see the repository until the lecturer has granted you access).\n\nIf you are proficient in git and Github, you can skip step 3:\n\nDo the tutorial “Introduction to version Control with git and GitHub within RStudio”, and the follow-up tutorial “Collaborative coding with GitHub and RStudio”. Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.\n\nNote: In chapter “Secure the connection …” it says “You will then be asked to provide a passphrase. Protecting your keys with a password is optional but highly recommended”. I recommend not to set a passphrase (just leave it empty), unless you deal with very sensitive data. You will get crazy if you need to enter your passphrase at every SSH operation.\n\nOnce you have been granted access to the Homework Repository, clone the repository to your local machine. (This cannot be done on an iPad or smartphone; you need a computer for that.). Important: Do not fork the repository (as you did in the tutorial), but clone it (i.e., we are all working within the same repository, not on individual forked copies of it).\n\nDeliverable:\nPush your answer from Homework 2 (see below) to the folder homework/01-Smaldino-chapter of the remote repository (i.e., first save your file locally in the respective folder, then commit and push)."
+    "objectID": "sessions/S6-MathModel3.html#overview",
+    "href": "sessions/S6-MathModel3.html#overview",
+    "title": "Session 06 - Mathematical Modeling Part 3",
+    "section": "1 Overview",
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nGroup work: Finalize tables & R implementation of atomic functions\n60\n\n\n\nFormalization: Mathematical Models 4\n30\nSlides, Step 4\n\n\nLive coding: Plotting with ggplot2\n10\n\n\n\nGroup work: Create plot for individual functions\n40"
   },
   {
-    "objectID": "sessions/S1-Introduction.html#homework-2-individually",
-    "href": "sessions/S1-Introduction.html#homework-2-individually",
-    "title": "Session 01 - Introduction",
-    "section": "Homework 2 (individually)",
-    "text": "Homework 2 (individually)\nDownload Chapter 1 of Paul Smaldino’s Book “Modeling Social Behavior: Mathematical and Agent-Based Models of Social Dynamics and Cultural Evolution”. Read the chapter and answer the following guiding questions:\n\nA typical criticism of formal models is: “You baked your results into the model, so the conclusions are trivial”. What could you answer to such a statement?\n\n\n\nWhat is done in a “decomposition”?\n\n\n\nWhat question should guide the decomposition?\n\n\n\nWhat is, according to Smaldino, the key difference between exact and inexact sciences?\n\n\n\nName the two types of models that typically are employed in social sciences.\n\n\nDeliverable: Submit answers to the guiding questions as a plain text or markdown file to the course’s Homework Repository:\n\nNavigate to /homework/01-Smaldino-chapter (After you cloned the repository in Homework 1, you should have that folder somewhere on your local machine.)\nAdd your answers as .txt or .md file with your first name as filename (e.g., “Heinz-Ruediger.md”)\ncommit and push\n(To verify your submission: Go to the website of the repository, and check whether your file is in the folder homework/01-Smaldino-chapter.)\n\nYou can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don’t do the homework at all (after all, the goal of this exercise is that you learn something, not that you make your lecturer happy).\nUsing git for the first time can be challenging. But it’s a skill that will pay off in the long run. If you get stuck, and made honest attempts to solve the problems yourself, don’t get desperate: Just send me your homework via email, and we will sort it out together in the next session."
+    "objectID": "sessions/S6-MathModel3.html#live-coding",
+    "href": "sessions/S6-MathModel3.html#live-coding",
+    "title": "Session 06 - Mathematical Modeling Part 3",
+    "section": "2 Live Coding",
+    "text": "2 Live Coding\nHere is a self-contained script that shows all steps:\n\n2.1 One possible VAST model\n \nWe focus on feltResp as outcome variable.\n\n\n2.2 The code\n\n#---------------------------------------------------------------------\n# This is one function in my VAST\n# - It has three input variables: baseResp, NOPB, pDoI\n# - It has two parameters in the function, which however have been\n#   fixed to the values 0.8 and 0.2.\n#---------------------------------------------------------------------\n\n#' Compute felt responsibility\n#'\n#' The base responsibility of \"helping when alone\" is divided by the\n#' number of passive bystanders. The strength of the bystander effect\n#' is modulated by the factor alpha, which is itself a function of\n#' the perceived danger of intervention. It is an attenuation/boost \n#' factor for the decline/steepness of the 1/x curve. alpha ranges \n#' from 0 to Inf, where 0=no bystander effect (BSE), 1=classical BSE \n#' and values &gt; 1 stronger-than-classical BSEs.\n#'\n#' @param baseResp The probability to help when one is alone.\n#' @param NOPB The number of passive bystanders\n#' @param pDoI The perceived danger of intervention (ranging from 0..1)\n#' @return The felt responsibility\n#'\nget_feltResp &lt;- function(baseResp, NOPB, pDoI) {\n  alpha &lt;- (0.8 - pDoI*0.8)+0.2\n  feltResp &lt;- baseResp / (alpha*NOPB + 1)\n  return(feltResp)\n}\n\n#---------------------------------------------------------------------\n# Prepare data for plotting\n#---------------------------------------------------------------------\n\n# define the levels that should be plotted\nplot_data &lt;- expand.grid(\n  baseResp = c(0.7, 0.8, 0.9),\n  NOPB = 0:20,\n  pDoI = c(0, 0.5, 1)\n)\n\n# nicer labels for facet\nplot_data$baseResp_label &lt;- paste(\"Base resp.:\", plot_data$baseResp)\n\n# compute outcome variable\nplot_data$feltResp &lt;- get_feltResp(\n  baseResp = plot_data$baseResp,\n  NOPB = plot_data$NOPB,\n  pDoI = plot_data$pDoI\n)\n\n#---------------------------------------------------------------------\n# Construct the ggplot\n#---------------------------------------------------------------------\n\nlibrary(ggplot2)\n\np1 &lt;- ggplot(plot_data, aes(x=NOPB, y=feltResp, color=factor(pDoI))) +\n  geom_line() +\n  facet_grid(~ baseResp_label) +\n  labs(\n    x=\"Number of passive bystanders\",\n    y=\"Felt Responsibility\",\n    color=\"Dangerousness \\nof Intervention\" # \\n makes a line break\n  ) +\n  scale_y_continuous(limits=c(0, 1)) +\n  theme_bw()\n\nprint(p1)"
   },
   {
-    "objectID": "sessions/S12-Work.html",
-    "href": "sessions/S12-Work.html",
-    "title": "Session 12 - Work on formalization",
+    "objectID": "sessions/S6-MathModel3.html#homework-individually",
+    "href": "sessions/S6-MathModel3.html#homework-individually",
+    "title": "Session 06 - Mathematical Modeling Part 3",
+    "section": "3 Homework (individually)",
+    "text": "3 Homework (individually)\nRead: Van Dongen et al. (2024). Productive explanation: A framework for evaluating explanations in psychological science. Psychological Review. https://doi.org/10.1037/rev0000479 (available in the /literature folder):\n\nQuestion 1: What is the role an original author should play when predictions are derived from a theory? \nQuestion 2: Are phenomena, according to Bogen and Woodward, directly observable?\n\n\n\nQuestion 3: What are two intermediate processes that are necessary for providing a productive explanation? \nQuestion 4: According to the authors, what are the three steps of productive explanation? \nQuestion 5: What does the paper identify as a limitation of verbal psychological theories compared to formal models in other scientific disciplines? \nQuestion 6: What criteria are suggested for evaluating the quality of explanations in the productive explanation framework? \nQuestion 7: Does Model 3 of the Regulatory Resource Theory explain the ego-depletion effect?\n\n\nDeliverable: Submit answers to the guiding questions as a plain text/markdown file to the course’s Github repo (go to homework/03-Productive_explanations and upload an .md file with your name as filename). You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper."
+  },
+  {
+    "objectID": "sessions/S7-MathModel4.html",
+    "href": "sessions/S7-MathModel4.html",
+    "title": "Session 07 - Mathematical Modeling Part 4",
     "section": "",
-    "text": "Overview\n\n\n\n\n\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nGroups work on their formalization\n180\n\n\n\n\n\n\nTasks for today\nWork on steps on the remaining steps (8-11) of the Formalization Steps. You probably won’t finish all steps, but the more you achieve, the less you have to do for the final report.\nRemember to restrict yourself: Aim for few phenomena (ideally, only one) and simple theories and models. It gets complicated all by itself!\nDeliverable:\n\nIncrease the version (e.g., to 0.3.0) in the CITATION.cff file.\nPush your current version to the repository.\nCreate a tag, give it the version name (e.g., v0.3.0) and write a short description for the release.\n\nDo these steps regardless whether the theory object currently is in a “functional state” or still in a messy development version."
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nHomework wrapup: Productive Explanations\n20\n\n\n\nFormalization: Mathematical Models Simulations\n60\nSlides, Steps 5+6\n\n\nGroup work: Create super-function + plot for individual functions\n40\n\n\n\nHomework: Think about candidate theories for your own formalization"
   },
   {
-    "objectID": "sessions/S4-MathModel1.html",
-    "href": "sessions/S4-MathModel1.html",
-    "title": "Session 04 - The first mathematical model",
+    "objectID": "sessions/S7-MathModel4.html#overview",
+    "href": "sessions/S7-MathModel4.html#overview",
+    "title": "Session 07 - Mathematical Modeling Part 4",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in groups\n15\n\n\n\nPresent and discuss solutions\n80\n~20 min per group\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, 1-13 (up to “Mathematical Tools”)\n\n\nHomework: Create modified VAST: The Dangerous Bystander Effect"
+    "text": "Topic\nDuration\nNotes\n\n\n\n\nHomework wrapup: Productive Explanations\n20\n\n\n\nFormalization: Mathematical Models Simulations\n60\nSlides, Steps 5+6\n\n\nGroup work: Create super-function + plot for individual functions\n40\n\n\n\nHomework: Think about candidate theories for your own formalization"
   },
   {
-    "objectID": "sessions/S4-MathModel1.html#overview",
-    "href": "sessions/S4-MathModel1.html#overview",
-    "title": "Session 04 - The first mathematical model",
+    "objectID": "sessions/S7-MathModel4.html#homework-individual-groups",
+    "href": "sessions/S7-MathModel4.html#homework-individual-groups",
+    "title": "Session 07 - Mathematical Modeling Part 4",
+    "section": "Homework (individual / groups)",
+    "text": "Homework (individual / groups)\nNext week, we will form (up to) four new groups that work on their own theory formalization. Please think about candidate theories that you would like to formalize. You can also team up with other students to propose a theory together.\nWhat theory would be a good fit? (inclusion criteria)\n\nA theory that is sufficiently precise and has a defined and not too large scope.\nIt explains a central phenomenon, and this phenomenon is robust (i.e., replicable and generalizable across several dimensions).\nIts core premises are formulated in a clear and concise form on a few pages.\nThere doesn’t exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).\n\nWhat theory would not be a good fit? (exclusion criteria)\n\nYou need to read three books to understand the theory.\nThe “all-encompassing theory of human nature”\nYou need a lot of expert input and judgement to fill in the gaps of the underspecified theory.\nYou need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.\n\nDeliverable: A presentation (~15 min.)\nPrepare 5-7 slides (7 is the hard maximum):\n\n1 slide: Describe the central phenomenon\n1-2 slides: Show …\n\na typical experiment that demonstrates the phenomenon\nthe typical statistical design and analysis (e.g. “a 2x2 ANOVA”)\n(optionally) one central results plot that shows the statistical pattern\n\n1-2 slides: Describe the explaining theory/framework\n\nWhat are the key constructs/variables\nWhat are the assumed relationships\n\n1 slide: Pros and cons, from the perspective of formalization\n\nWhat aspects facilitate a formalization?\nWhat aspects are difficult to formalize?\n\n1 slide, for reference: What is the central paper that needs to be read?"
+  },
+  {
+    "objectID": "sessions/S5-MathModel2.html",
+    "href": "sessions/S5-MathModel2.html",
+    "title": "Session 05 - Mathematical Modeling Part 2",
     "section": "",
-    "text": "Topic\nDuration\nNotes\n\n\n\n\nFinalize VAST displays in groups\n15\n\n\n\nPresent and discuss solutions\n80\n~20 min per group\n\n\nFirst formalization: Mathematical Models 1\n120\nSlides, 1-13 (up to “Mathematical Tools”)\n\n\nHomework: Create modified VAST: The Dangerous Bystander Effect"
+    "text": "Please give anonymous feedback here: https://partici.fi/77082422"
   },
   {
-    "objectID": "sessions/S4-MathModel1.html#present-and-discuss-solutions",
-    "href": "sessions/S4-MathModel1.html#present-and-discuss-solutions",
-    "title": "Session 04 - The first mathematical model",
-    "section": "2 Present and discuss solutions",
-    "text": "2 Present and discuss solutions\nGuiding questions:\nInsights from the group discussion process:\n\nDid you start with similar mental models about the VAST display?\nDid the VAST tool help to clarify your understanding and facilitate group discussions?\n\nComparing the 4 solutions:\n\nWhat are similarities? What are differences?"
-  },
-  {
-    "objectID": "sessions/S4-MathModel1.html#homework-in-groups",
-    "href": "sessions/S4-MathModel1.html#homework-in-groups",
-    "title": "Session 04 - The first mathematical model",
-    "section": "3 Homework (in groups)",
-    "text": "3 Homework (in groups)\n\nWe extend the VAST displays with an additional theoretical explanation by Fischer et al., concerning the phenomenon that dangerous situations reduce the bystander effect. Hence, the explanatory target is (a) the “classical” bystander effect and (b) the reduction of the bystander effect in dangerous situations (i.e., the dangerousness of situation is a moderator of the bystander main effect).\nAt the same time we reduce the VAST display by cutting all elements that are not relevant for this specific explanation.\n\nWe cut the “Five-step process model”\nFrom the three potential processes we only keep diffusion of responsibility (and ignore pluralistic ignorance and evaluation apprehension).\n\nEnsure that no causal, prediction, or transformation arrows point at or originate from HOCs - they must start and end at actual variables.\nIn the last homework, we tried to create a faithful representation of the narrative theory, potentially showing the gaps. This time, we aim at a more coherent and parsimonious representation of the theory. This time you should rather use the narrative only as a starting point, restructure, and fill the gaps.\n\nIn other words, we try to build a minimal model that explains our explanatory target.\nThe additional theoretical explanation can be found in Fischer et al., p. 520-521. These are the relevant paragraphs (no need to read the paper):\n\n“[…] the most noteworthy tendency in recent research is that the bystander effect often does not occur when the emergency is a dangerous one or when the bystanders are highly competent. The classic bystander research regarded present bystanders as”something negative,” which reduces the probability of prosocial intervention. On the basis of the review of the more recent literature, we suspect that this perspective is not always correct. Bystanders can act as a positive source of physical support in case a focal person is in the process of deciding whether to intervene in a critical situation (especially when they are perceived as competent bystanders). The present meta-analysis allows us to systematically examine the possibility of a non-inhibiting (non-negative) bystander effect. In the following, we further explore this theoretical idea. We explain why we expect that dangerous emergencies are associated with a reduced magnitude of the bystander effect.”\nIf one is to intervene in a dangerous emergency, one may have to fear negative physical consequences. A perpetrator may not only attack the victim but also the intervener. In that case, additional bystanders may provide support in defeating a potential perpetrator. […] To conclude, we expect that high-danger emergencies increase the focal bystander’s fear that he or she will be attacked or injured in case of intervention. However, if other bystanders are present, they are recognized as a source of physical support, which mitigates against the traditional bystander effect. Note that we do not expect a complete disappearance of the bystander effect in dangerous emergencies. Instead, we expect that it substantially declines because of the fact that many dangerous emergency situations can only be resolved by a group.\nThus, we expect that it is mainly increased danger to the focal bystander that reduces the bystander effect, but not increased danger to the victim (which can be completely distinct from danger of intervention). […] In other words, if bystanders experience increased danger to themselves in case of intervention, they look for other bystanders to help them to intervene (e,g,, to overpower a fierce perpetrator), which should finally reduce diffusion of responsibility and thus also attenuate the magnitude of the bystander effect (because bystanders acknowledge that they can only resolve the dangerous situation by cooperation in a group).\n\nAll groups should use the following base structure:\n\nThe display of the phenomenon/effect itself which only contains manifest variables and a \\(\\Psi\\)-black box (see figure below; you can download the template).\nThe theoretical explanation for the effect, containing the psychological mechanisms (within the \\(\\Psi\\)-box) with all relevant constructs and relationships.\n\n\nDeliverable:\n\nCreate a new draw.io VAST display based on the template with the extended and reduced theory. Push the file to the Homework Repository in the folder Dangerousness_effect, in your group’s subfolder.\nCreate a copy of the Google doc with the Construct Table and the Variables Table. Reduce/expand both tables to the new dangerousness model."
-  },
-  {
-    "objectID": "sessions/sessions_overview.html",
-    "href": "sessions/sessions_overview.html",
-    "title": "Overview of sessions",
+    "objectID": "sessions/S5-MathModel2.html#intermediate-feedback",
+    "href": "sessions/S5-MathModel2.html#intermediate-feedback",
+    "title": "Session 05 - Mathematical Modeling Part 2",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nQuestion\n\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nDiscussing the theory crisis; showcasing Git\n\n\n\n\n\n\nSession 02 - Introduction to the Visual Argument Structure Tool\n\n\nIntro to theory 2 / VAST-Displays\n\n\n\n\n\n\nSession 03 - Introduction Theories / Practice VAST\n\n\nIntro to theory 2; Apply VAST to Bystander effect\n\n\n\n\n\n\nSession 04 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\n\n\nSession 05 - Mathematical Modeling Part 2\n\n\nCreate atomic functions for our Dangerous Bystander Effect Model\n\n\n\n\n\n\nSession 06 - Mathematical Modeling Part 3\n\n\nFinalize and plot atomic functions\n\n\n\n\n\n\nSession 07 - Mathematical Modeling Part 4\n\n\nSuper-function “Psi” + simulated experiments\n\n\n\n\n\n\nSession 08 - Presentation of candidate theories\n\n\nWe have a presentation and initial discussion of candidate theories for the next formalization exercise. New groups form.\n\n\n\n\n\n\nSession 09 - Best practices in theory formalization; create a new VAST\n\n\nGroups start working on their own formalization projects, setting up the technical infrastructure and preparing a new repository with best practices.\n\n\n\n\n\n\nSession 10 - How to simulate virtual experiments\n\n\nWe practice how to generate data for simulated experiments\n\n\n\n\n\n\nSession 11 - FAIR theories\n\n\nWe learn how to document our digital theory objects and how to make them FAIR\n\n\n\n\n\n\nSession 12 - Work on formalization\n\n\nThe groups work on their formalizations\n\n\n\n\n\n\nSession 13 - Final presentations\n\n\nThe groups present their work\n\n\n\n\n\n\nNo matching items"
+    "text": "Please give anonymous feedback here: https://partici.fi/77082422"
+  },
+  {
+    "objectID": "sessions/S5-MathModel2.html#overview",
+    "href": "sessions/S5-MathModel2.html#overview",
+    "title": "Session 05 - Mathematical Modeling Part 2",
+    "section": "Overview",
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nFinalize models in groups; push to repo; present\n50\n\n\n\nFormalization: Mathematical Models 2\n60\nSlides, Steps 2-3\n\n\nGroup work “Apply everything to reduced model”\n60\n\n\n\n[Homework]: Learn ggplot2\n-"
   },
   {
     "objectID": "sessions/S11-FAIR_theory.html",
@@ -2671,7 +2685,7 @@
     "href": "lectures/it-tools/it-tools.html#citation-file-format-schema-version-1.2.0",
     "title": "Tools for Digital Theory Objects",
     "section": "Citation File Format schema version 1.2.0",
-    "text": "Citation File Format schema version 1.2.0\nTell other users how your theory should be cited, what the current version is, and more meta-data. This can be stored in a file called CITATION.cff in the top level folder of your repository:\ncff-version: 1.2.0\ntitle: 'Bystander Effect: A formal model'\nmessage: &gt;-\n  If you refer to this model, please cite it using the\n  metadata from this file. This theory has not been peer\n  reviewed yet.\ntype: software\nauthors:\n  - given-names: Felix\n    family-names: Schönbrodt\n    email: felix.schoenbrodt@psy.lmu.de\n    orcid: 'https://orcid.org/0000-0002-8282-3910'\n    affiliation: Ludwig-Maximilians-Universität München\nrepository-code: 'https://github.com/nicebread/FOMO-Psy'\nabstract: &gt;-\n  A formal model that explains why the probability of\n  helping behavior decreases with an increasing number\n  of passive bystanders.\nkeywords:\n  - fairtheory\n  - formal theory\n  - bystander effect\nlicense: CC-BY-4.0\nversion: 0.2.0\ndate-released: '2025-12-03'"
+    "text": "Citation File Format schema version 1.2.0\nTell other users how your theory should be cited, what the current version is, and more meta-data. This can be stored in a file called CITATION.cff in the top level folder of your repository (scroll down!):\ncff-version: 1.2.0\ntitle: 'Bystander Effect: A formal model'\nmessage: &gt;-\n  If you refer to this model, please cite it using the\n  metadata from this file. This theory has not been peer\n  reviewed yet.\ntype: software\nauthors:\n  - given-names: Felix\n    family-names: Schönbrodt\n    email: felix.schoenbrodt@psy.lmu.de\n    orcid: 'https://orcid.org/0000-0002-8282-3910'\n    affiliation: Ludwig-Maximilians-Universität München\nrepository-code: 'https://github.com/nicebread/FOMO-Psy'\nabstract: &gt;-\n  A formal model that explains why the probability of\n  helping behavior decreases with an increasing number\n  of passive bystanders.\nkeywords:\n  - fairtheory\n  - formal theory\n  - bystander effect\nlicense: CC-BY-4.0\nversion: 0.2.0\ndate-released: '2025-12-03'"
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#citation-file-format-schema-version-1.2.0-1",
@@ -2706,7 +2720,7 @@
     "href": "lectures/it-tools/it-tools.html#recommended-folder-structure-for-our-formalization-projects",
     "title": "Tools for Digital Theory Objects",
     "section": "Recommended folder structure for our formalization projects",
-    "text": "Recommended folder structure for our formalization projects\n.\n├── .git (hidden git folder)\n├── CITATION.cff\n├── README.md (this should link to any associated Google docs, if applicable)\n├── VAST_display.drawio\n├── My_Model.Rproj (keep the .Rproj file in the top level directory)\n├── simulation/\n│   ├── README.md (specific for the simulations)\n│   ├── raw_data/ (a subfolder with empirical raw data, if applicable)\n│   │   └── dat.csv\n│   ├── plots/\n│   │   └── phenomenon1.png\n│   ├── 01-functions.R (or any other name)\n│   ├── 02-simulations.R\n│   ├── 03-analysis.R\n│   └── ...\n└── manuscript/\n    ├── manuscript.qmd  \n    └── ...\nThe git repository should contain the entire folder structure of your theory project."
+    "text": "Recommended folder structure for our formalization projects\n.\n├── .git (hidden git folder)\n├── CHANGELOG.md (record changes between versions here)\n├── CITATION.cff\n├── My_Model.Rproj (keep the .Rproj file in the top level directory)\n├── README.md (this should link to any associated Google docs, if applicable)\n├── VAST_display.drawio\n├── simulation/\n│   ├── README.md (specific for the simulations)\n│   ├── raw_data/ (a subfolder with empirical raw data, if applicable)\n│   │   └── dat.csv\n│   ├── plots/\n│   │   └── phenomenon1.png\n│   ├── 01-functions.R (or any other name)\n│   ├── 02-simulations.R\n│   ├── 03-analysis.R\n│   └── ...\n└── manuscript/\n    ├── manuscript.qmd  \n    └── ...\nThe git repository should contain the entire folder structure of your theory project."
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#semantic-versioning-semver",
@@ -2734,14 +2748,7 @@
     "href": "lectures/it-tools/it-tools.html#patch-minor-major-changes",
     "title": "Tools for Digital Theory Objects",
     "section": "Patch, Minor, Major changes",
-    "text": "Patch, Minor, Major changes\nSo what changes warrant what kind of version increments? For theories it makes sense to think in terms of predictions.\n\n\npatch\n\nThe predictions your theory makes do not change, instead you have clarified things, defined terminology, fixed typos, added references etc.\n\nminor\n\nThe predictions your theory makes have expanded but previous predictions are substantively compatible, i.e. the theory makes the same prediction as older versions for the same settings. All things that would have confirmed or falsified the older version, still apply to the new version. For example, you have included more settings your theory covers; added more previously unrecognized variables; became more certain about some predictions (i.e. range predictions became narrower); added more operationalizations for constructs.\n\nmajor\n\nEvidence that would have confirmed or falsified the previous version does differently affect this version. You changed core tenets of the definition of constructs or their operationalization, changed the functional relationship between two variables, changed the type of a relation (causation to correlation) or the timescale of a process, etc."
-  },
-  {
-    "objectID": "lectures/it-tools/it-tools.html#git-best-practice",
-    "href": "lectures/it-tools/it-tools.html#git-best-practice",
-    "title": "Tools for Digital Theory Objects",
-    "section": "Git best practice",
-    "text": "Git best practice\n\nThe version number is recorded in two places:\n\nIn the CITATION.cff file\nIn the names of all tags or releases\n\nIs every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a dev developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the CITATION.cff file\nRecord the substantive changes in your CHANGELOG.md\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also “How to create a release?”)"
+    "text": "Patch, Minor, Major changes\n\nWhat changes of the theory warrant what kind of version increments? For theories it makes sense to think in terms of predictions.\n\nPATCH version when you make backward compatible bug fixes, cosmetic changes, fix spelling errors, or add clarifications\nMINOR version when you expand the set of empirical statements in a backward compatible manner (i.e., the previous version is subsumed within the new version)\n\nE.g., you have included more settings your theory covers; added more previously unrecognized variables; became more certain about some predictions (i.e. range predictions became narrower); added more operationalizations for constructs.\n\nMAJOR version when you commit backwards incompatible changes, i.e., the theory now contains empirical statements that are at odds with a previous version of the theory\n\nE.g., you changed core tenets of the definition of constructs or their operationalization, changed the functional relationship between two variables, etc.\n\n\nNote: The boundaries will not always be clear cut. Think of it not as a precise measurement, but as a useful heuristic to communicate the degree of change in your theory."
   },
   {
     "objectID": "lectures/it-tools/it-tools.html#what-is-a-release-on-github",
@@ -2751,8 +2758,15 @@
     "text": "What is a “release” on Github?\nCreate a tag or a release whenever a major or minor version is released:\n\nWith tags and releases, you can “pin” and label important commits in your history.\nUsers can quickly go to a specific “frozen” version of your repository.\nThese releases can be expected to be stable/functional versions of your software or theory (but see also semantic versioning: Everything with a 0.x.x version probably is not properly tested yet).\nIn our context, there is no real difference between tags and releases, you can use either."
   },
   {
-    "objectID": "lectures/it-tools/it-tools.html#git-best-practice-1",
-    "href": "lectures/it-tools/it-tools.html#git-best-practice-1",
+    "objectID": "lectures/it-tools/it-tools.html#git-best-practice-for-recording-the-version-number",
+    "href": "lectures/it-tools/it-tools.html#git-best-practice-for-recording-the-version-number",
+    "title": "Tools for Digital Theory Objects",
+    "section": "Git best practice for recording the version number",
+    "text": "Git best practice for recording the version number\n\nThe version number is recorded in two places:\n\nIn the CITATION.cff file\nIn the names of all tags or releases\n\nIs every commit a new version? No, that would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a dev developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the CITATION.cff file\nRecord the substantive changes in your CHANGELOG.md\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also “How to create a release?”)"
+  },
+  {
+    "objectID": "lectures/it-tools/it-tools.html#git-best-practice",
+    "href": "lectures/it-tools/it-tools.html#git-best-practice",
     "title": "Tools for Digital Theory Objects",
     "section": "Git best practice",
     "text": "Git best practice\n\n\n\n\n\n(of course more complicated setups with multiple branches, e.g. feature branches, are possible)."
@@ -2811,7 +2825,7 @@
     "href": "lectures/it-tools/it-tools.slide.html#citation-file-format-schema-version-1.2.0",
     "title": "Tools for Digital Theory Objects",
     "section": "Citation File Format schema version 1.2.0",
-    "text": "Citation File Format schema version 1.2.0\nTell other users how your theory should be cited, what the current version is, and more meta-data. This can be stored in a file called CITATION.cff in the top level folder of your repository:\ncff-version: 1.2.0\ntitle: 'Bystander Effect: A formal model'\nmessage: &gt;-\n  If you refer to this model, please cite it using the\n  metadata from this file. This theory has not been peer\n  reviewed yet.\ntype: software\nauthors:\n  - given-names: Felix\n    family-names: Schönbrodt\n    email: felix.schoenbrodt@psy.lmu.de\n    orcid: 'https://orcid.org/0000-0002-8282-3910'\n    affiliation: Ludwig-Maximilians-Universität München\nrepository-code: 'https://github.com/nicebread/FOMO-Psy'\nabstract: &gt;-\n  A formal model that explains why the probability of\n  helping behavior decreases with an increasing number\n  of passive bystanders.\nkeywords:\n  - fairtheory\n  - formal theory\n  - bystander effect\nlicense: CC-BY-4.0\nversion: 0.2.0\ndate-released: '2025-12-03'"
+    "text": "Citation File Format schema version 1.2.0\nTell other users how your theory should be cited, what the current version is, and more meta-data. This can be stored in a file called CITATION.cff in the top level folder of your repository (scroll down!):\ncff-version: 1.2.0\ntitle: 'Bystander Effect: A formal model'\nmessage: &gt;-\n  If you refer to this model, please cite it using the\n  metadata from this file. This theory has not been peer\n  reviewed yet.\ntype: software\nauthors:\n  - given-names: Felix\n    family-names: Schönbrodt\n    email: felix.schoenbrodt@psy.lmu.de\n    orcid: 'https://orcid.org/0000-0002-8282-3910'\n    affiliation: Ludwig-Maximilians-Universität München\nrepository-code: 'https://github.com/nicebread/FOMO-Psy'\nabstract: &gt;-\n  A formal model that explains why the probability of\n  helping behavior decreases with an increasing number\n  of passive bystanders.\nkeywords:\n  - fairtheory\n  - formal theory\n  - bystander effect\nlicense: CC-BY-4.0\nversion: 0.2.0\ndate-released: '2025-12-03'"
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#citation-file-format-schema-version-1.2.0-1",
@@ -2846,7 +2860,7 @@
     "href": "lectures/it-tools/it-tools.slide.html#recommended-folder-structure-for-our-formalization-projects",
     "title": "Tools for Digital Theory Objects",
     "section": "Recommended folder structure for our formalization projects",
-    "text": "Recommended folder structure for our formalization projects\n.\n├── .git (hidden git folder)\n├── CITATION.cff\n├── README.md (this should link to any associated Google docs, if applicable)\n├── VAST_display.drawio\n├── My_Model.Rproj (keep the .Rproj file in the top level directory)\n├── simulation/\n│   ├── README.md (specific for the simulations)\n│   ├── raw_data/ (a subfolder with empirical raw data, if applicable)\n│   │   └── dat.csv\n│   ├── plots/\n│   │   └── phenomenon1.png\n│   ├── 01-functions.R (or any other name)\n│   ├── 02-simulations.R\n│   ├── 03-analysis.R\n│   └── ...\n└── manuscript/\n    ├── manuscript.qmd  \n    └── ...\nThe git repository should contain the entire folder structure of your theory project."
+    "text": "Recommended folder structure for our formalization projects\n.\n├── .git (hidden git folder)\n├── CHANGELOG.md (record changes between versions here)\n├── CITATION.cff\n├── My_Model.Rproj (keep the .Rproj file in the top level directory)\n├── README.md (this should link to any associated Google docs, if applicable)\n├── VAST_display.drawio\n├── simulation/\n│   ├── README.md (specific for the simulations)\n│   ├── raw_data/ (a subfolder with empirical raw data, if applicable)\n│   │   └── dat.csv\n│   ├── plots/\n│   │   └── phenomenon1.png\n│   ├── 01-functions.R (or any other name)\n│   ├── 02-simulations.R\n│   ├── 03-analysis.R\n│   └── ...\n└── manuscript/\n    ├── manuscript.qmd  \n    └── ...\nThe git repository should contain the entire folder structure of your theory project."
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#semantic-versioning-semver",
@@ -2874,14 +2888,7 @@
     "href": "lectures/it-tools/it-tools.slide.html#patch-minor-major-changes",
     "title": "Tools for Digital Theory Objects",
     "section": "Patch, Minor, Major changes",
-    "text": "Patch, Minor, Major changes\nSo what changes warrant what kind of version increments? For theories it makes sense to think in terms of predictions.\n\n\npatch\n\nThe predictions your theory makes do not change, instead you have clarified things, defined terminology, fixed typos, added references etc.\n\nminor\n\nThe predictions your theory makes have expanded but previous predictions are substantively compatible, i.e. the theory makes the same prediction as older versions for the same settings. All things that would have confirmed or falsified the older version, still apply to the new version. For example, you have included more settings your theory covers; added more previously unrecognized variables; became more certain about some predictions (i.e. range predictions became narrower); added more operationalizations for constructs.\n\nmajor\n\nEvidence that would have confirmed or falsified the previous version does differently affect this version. You changed core tenets of the definition of constructs or their operationalization, changed the functional relationship between two variables, changed the type of a relation (causation to correlation) or the timescale of a process, etc."
-  },
-  {
-    "objectID": "lectures/it-tools/it-tools.slide.html#git-best-practice",
-    "href": "lectures/it-tools/it-tools.slide.html#git-best-practice",
-    "title": "Tools for Digital Theory Objects",
-    "section": "Git best practice",
-    "text": "Git best practice\n\nThe version number is recorded in two places:\n\nIn the CITATION.cff file\nIn the names of all tags or releases\n\nIs every commit a new version? That would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a dev developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the CITATION.cff file\nRecord the substantive changes in your CHANGELOG.md\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also “How to create a release?”)"
+    "text": "Patch, Minor, Major changes\n\nWhat changes of the theory warrant what kind of version increments? For theories it makes sense to think in terms of predictions.\n\nPATCH version when you make backward compatible bug fixes, cosmetic changes, fix spelling errors, or add clarifications\nMINOR version when you expand the set of empirical statements in a backward compatible manner (i.e., the previous version is subsumed within the new version)\n\nE.g., you have included more settings your theory covers; added more previously unrecognized variables; became more certain about some predictions (i.e. range predictions became narrower); added more operationalizations for constructs.\n\nMAJOR version when you commit backwards incompatible changes, i.e., the theory now contains empirical statements that are at odds with a previous version of the theory\n\nE.g., you changed core tenets of the definition of constructs or their operationalization, changed the functional relationship between two variables, etc.\n\n\nNote: The boundaries will not always be clear cut. Think of it not as a precise measurement, but as a useful heuristic to communicate the degree of change in your theory."
   },
   {
     "objectID": "lectures/it-tools/it-tools.slide.html#what-is-a-release-on-github",
@@ -2891,8 +2898,15 @@
     "text": "What is a “release” on Github?\nCreate a tag or a release whenever a major or minor version is released:\n\nWith tags and releases, you can “pin” and label important commits in your history.\nUsers can quickly go to a specific “frozen” version of your repository.\nThese releases can be expected to be stable/functional versions of your software or theory (but see also semantic versioning: Everything with a 0.x.x version probably is not properly tested yet).\nIn our context, there is no real difference between tags and releases, you can use either."
   },
   {
-    "objectID": "lectures/it-tools/it-tools.slide.html#git-best-practice-1",
-    "href": "lectures/it-tools/it-tools.slide.html#git-best-practice-1",
+    "objectID": "lectures/it-tools/it-tools.slide.html#git-best-practice-for-recording-the-version-number",
+    "href": "lectures/it-tools/it-tools.slide.html#git-best-practice-for-recording-the-version-number",
+    "title": "Tools for Digital Theory Objects",
+    "section": "Git best practice for recording the version number",
+    "text": "Git best practice for recording the version number\n\nThe version number is recorded in two places:\n\nIn the CITATION.cff file\nIn the names of all tags or releases\n\nIs every commit a new version? No, that would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:\n\nMaintain a dev developer branch for ongoing development. It is not necessary to update the version number in each development step.\nWhenever a stable stage has been reached:\n\nIncrease the version number in the CITATION.cff file\nRecord the substantive changes in your CHANGELOG.md\nPush the development branch to the main branch\nCreate a tag or release on the main branch and write the version number into the label of the tag (see also “How to create a release?”)"
+  },
+  {
+    "objectID": "lectures/it-tools/it-tools.slide.html#git-best-practice",
+    "href": "lectures/it-tools/it-tools.slide.html#git-best-practice",
     "title": "Tools for Digital Theory Objects",
     "section": "Git best practice",
     "text": "Git best practice\n\n(of course more complicated setups with multiple branches, e.g. feature branches, are possible)."

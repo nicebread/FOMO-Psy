@@ -6,11 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Felix Schönbrodt">
-<meta name="author" content="Aaron Peikert">
-<meta name="dcterms.date" content="2025-10-17">
+<meta name="description" content="Groups start working on their own formalization projects, setting up the technical infrastructure and preparing a new repository with best practices.">
 
-<title>Tools for Digital Theory Objects – FOMO-Psy: Formal Modelingof Psychological Theories</title>
+<title>Session 09 - Best practices in theory formalization; create a new VAST – FOMO-Psy: Formal Modelingof Psychological Theories</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,24 +24,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f93c2b1f3f0577f377aefa4848a86a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f93c2b1f3f0577f377aefa4848a86a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,8 +73,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
-<link rel="stylesheet" href="../../common/webex.css">
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../common/webex.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -84,9 +84,9 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">FOMO-Psy: Formal Modeling<br>of Psychological Theories</span>
     </a>
   </div>
@@ -97,27 +97,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../sessions/sessions_overview.html"> 
+    <a class="nav-link" href="../sessions/sessions_overview.html"> 
 <span class="menu-text">Sessions</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../lectures/lecture_overview.html"> 
+    <a class="nav-link" href="../lectures/lecture_overview.html"> 
 <span class="menu-text">Lectures</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../formalization_steps.html"> 
+    <a class="nav-link" href="../formalization_steps.html"> 
 <span class="menu-text">Formalization<br>Steps</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../bystander_demo.html"> 
+    <a class="nav-link" href="../bystander_demo.html"> 
 <span class="menu-text">Demo: Bystander<br>Effect Model</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../orga_material/orga_material.html"> 
+    <a class="nav-link" href="../orga_material/orga_material.html"> 
 <span class="menu-text">Organizational<br>Material</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -143,97 +143,31 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#git-showcase" id="toc-git-showcase" class="nav-link active" data-scroll-target="#git-showcase">Git Showcase</a>
-  <ul class="collapse">
-  <li><a href="#git-overview" id="toc-git-overview" class="nav-link" data-scroll-target="#git-overview">Git overview</a></li>
-  <li><a href="#git-overview-1" id="toc-git-overview-1" class="nav-link" data-scroll-target="#git-overview-1">Git overview</a></li>
-  <li><a href="#git-hands-on" id="toc-git-hands-on" class="nav-link" data-scroll-target="#git-hands-on">Git hands-on</a></li>
-  <li><a href="#never-forget" id="toc-never-forget" class="nav-link" data-scroll-target="#never-forget">Never forget …</a></li>
-  </ul></li>
-  <li><a href="#cff-citation-files" id="toc-cff-citation-files" class="nav-link" data-scroll-target="#cff-citation-files">CFF citation files</a>
-  <ul class="collapse">
-  <li><a href="#citation-file-format-schema-version-1.2.0" id="toc-citation-file-format-schema-version-1.2.0" class="nav-link" data-scroll-target="#citation-file-format-schema-version-1.2.0">Citation File Format schema version 1.2.0</a></li>
-  <li><a href="#citation-file-format-schema-version-1.2.0-1" id="toc-citation-file-format-schema-version-1.2.0-1" class="nav-link" data-scroll-target="#citation-file-format-schema-version-1.2.0-1">Citation File Format schema version 1.2.0</a>
-  <ul class="collapse">
-  <li><a href="#how-to-create" id="toc-how-to-create" class="nav-link" data-scroll-target="#how-to-create">How to create</a></li>
-  </ul></li>
-  <li><a href="#citation-file-format-schema-version-1.2.0-2" id="toc-citation-file-format-schema-version-1.2.0-2" class="nav-link" data-scroll-target="#citation-file-format-schema-version-1.2.0-2">Citation File Format schema version 1.2.0</a>
-  <ul class="collapse">
-  <li><a href="#how-to-create-1" id="toc-how-to-create-1" class="nav-link" data-scroll-target="#how-to-create-1">How to create</a></li>
-  </ul></li>
-  <li><a href="#effect-of-a-citation.cff-file" id="toc-effect-of-a-citation.cff-file" class="nav-link" data-scroll-target="#effect-of-a-citation.cff-file">Effect of a CITATION.cff file</a></li>
-  <li><a href="#citation-file-format-schema-version-1.2.0-3" id="toc-citation-file-format-schema-version-1.2.0-3" class="nav-link" data-scroll-target="#citation-file-format-schema-version-1.2.0-3">Citation File Format schema version 1.2.0</a>
-  <ul class="collapse">
-  <li><a href="#peer-review-status" id="toc-peer-review-status" class="nav-link" data-scroll-target="#peer-review-status">Peer review status</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#folder-structure" id="toc-folder-structure" class="nav-link" data-scroll-target="#folder-structure">Folder Structure</a>
-  <ul class="collapse">
-  <li><a href="#recommended-folder-structure-for-our-formalization-projects" id="toc-recommended-folder-structure-for-our-formalization-projects" class="nav-link" data-scroll-target="#recommended-folder-structure-for-our-formalization-projects">Recommended folder structure for our formalization projects</a></li>
-  </ul></li>
-  <li><a href="#semantic-versioning" id="toc-semantic-versioning" class="nav-link" data-scroll-target="#semantic-versioning">Semantic Versioning</a>
-  <ul class="collapse">
-  <li><a href="#semantic-versioning-semver" id="toc-semantic-versioning-semver" class="nav-link" data-scroll-target="#semantic-versioning-semver">Semantic Versioning (semver)</a></li>
-  <li><a href="#some-rules-conventions" id="toc-some-rules-conventions" class="nav-link" data-scroll-target="#some-rules-conventions">Some rules &amp; conventions:</a></li>
-  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example">Example</a></li>
-  <li><a href="#patch-minor-major-changes" id="toc-patch-minor-major-changes" class="nav-link" data-scroll-target="#patch-minor-major-changes">Patch, Minor, Major changes</a></li>
-  <li><a href="#what-is-a-release-on-github" id="toc-what-is-a-release-on-github" class="nav-link" data-scroll-target="#what-is-a-release-on-github">What is a “release” on Github?</a></li>
-  <li><a href="#git-best-practice-for-recording-the-version-number" id="toc-git-best-practice-for-recording-the-version-number" class="nav-link" data-scroll-target="#git-best-practice-for-recording-the-version-number">Git best practice for recording the version number</a></li>
-  <li><a href="#git-best-practice" id="toc-git-best-practice" class="nav-link" data-scroll-target="#git-best-practice">Git best practice</a></li>
-  <li><a href="#how-to-create-a-release" id="toc-how-to-create-a-release" class="nav-link" data-scroll-target="#how-to-create-a-release">How to create a release?</a></li>
-  </ul></li>
-  <li><a href="#fair-theories" id="toc-fair-theories" class="nav-link" data-scroll-target="#fair-theories">FAIR theories</a>
-  <ul class="collapse">
-  <li><a href="#fair-theories-1" id="toc-fair-theories-1" class="nav-link" data-scroll-target="#fair-theories-1">FAIR theories</a></li>
-  </ul></li>
-  <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">End</a>
-  <ul class="collapse">
-  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
-  </ul></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#prepare-your-own-repository" id="toc-prepare-your-own-repository" class="nav-link" data-scroll-target="#prepare-your-own-repository">Prepare your own repository</a></li>
+  <li><a href="#homework-1" id="toc-homework-1" class="nav-link" data-scroll-target="#homework-1">Homework 1</a></li>
+  <li><a href="#homework-2" id="toc-homework-2" class="nav-link" data-scroll-target="#homework-2">Homework 2</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="it-tools.slide.html"><i class="bi bi-file-slides"></i>RevealJS (nicetheme)</a></li></ul></div></nav>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Tools for Digital Theory Objects</h1>
-<p class="subtitle lead">Making Theories FAIR by Version control, CFF citation files &amp; Semantic Versioning</p>
+<h1 class="title">Session 09 - Best practices in theory formalization; create a new VAST</h1>
+</div>
+
+<div>
+  <div class="description">
+    Groups start working on their own formalization projects, setting up the technical infrastructure and preparing a new repository with best practices.
+  </div>
 </div>
 
 
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Authors</div>
-  <div class="quarto-title-meta-heading">Affiliations</div>
-  
-    <div class="quarto-title-meta-contents">
-    <p class="author">Felix Schönbrodt <a href="mailto:felix.schoenbrodt@psy.lmu.de" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-8282-3910" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            Ludwig-Maximilians-Universität München
-          </p>
-      </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author">Aaron Peikert <a href="mailto:peikert@mpib-berlin.mpg.de" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0001-7813-818X" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            Max Planck Institute for Human Development
-          </p>
-      </div>
-  </div>
-
 <div class="quarto-title-meta">
 
-      
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">October 17, 2025</p>
-    </div>
-  </div>
+    
   
     
   </div>
@@ -243,322 +177,95 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="git-showcase" class="level1" data-background-color="#40666e">
-<h1 data-background-color="#40666e">Git Showcase</h1>
-<section id="git-overview" class="level2">
-<h2 class="anchored" data-anchor-id="git-overview">Git overview</h2>
-<p>Git is a tool from software development that solves two major challenges:</p>
-<ol type="1">
-<li>Tracking changes in source code (or any text files)
+<div class="callout callout-style-default callout-note callout-titled" title="Instructor notes">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Instructor notes
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <ul>
-<li>Keeps a complete version history and allows reverting to previous states.</li>
-<li>Enables reproducibility by “freezing” project states (releases, tags).</li>
-</ul></li>
-<li>How to work collaboratively on the same files.</li>
+<li>Create the folder <code>homework/04-Quality_checklist</code> in the homework repo.</li>
+</ul>
+</div>
+</div>
+</div>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<table class="table-striped caption-top table">
+<thead>
+<tr class="header">
+<th>Topic</th>
+<th>Duration</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Best (technical) practices in theory development: CFF + semver + folder structure</td>
+<td>60</td>
+<td><a href="../lectures/it-tools/it-tools.html">Slides</a></td>
+</tr>
+<tr class="even">
+<td>Prepare a new repository in each group</td>
+<td>20</td>
+<td><a href="../formalization_steps.html">Formalization Steps</a> 1 &amp; 2</td>
+</tr>
+<tr class="odd">
+<td>Group work: Create a VAST</td>
+<td>120</td>
+<td><a href="../formalization_steps.html">Formalization Steps</a> 3 - 6</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="prepare-your-own-repository" class="level2">
+<h2 class="anchored" data-anchor-id="prepare-your-own-repository">Prepare your own repository</h2>
+<p>Each group should set up their technical infrastructure - from now on, you start working in your own repository.</p>
+<ol type="1">
+<li>Create a fresh public Github repository <em>and</em> a Google doc (or a comparable collaborative document) for the tables.</li>
+<li>Link the latter in the README of the repository, make it publicly readable for anybody.</li>
+<li>Invite the lecturer (user name: <code>nicebread</code>) as a collaborator on Github: <i class="fa-solid fa-gear" aria-label="gear"></i> Settings → <i class="fa-solid fa-user-group" aria-label="user-group"></i> Collaborators → “Add people”</li>
+<li>Prepare the folder structure
+<ol type="1">
+<li>Create your <code>CITATION.cff</code> file, assign your first version number (presumably: <code>0.1.0</code>).</li>
+</ol></li>
 </ol>
 </section>
-<section id="git-overview-1" class="level2 stretch">
-<h2 class="stretch anchored" data-anchor-id="git-overview-1">Git overview</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/Git_workflow.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="filter: drop-shadow(6px 6px 8px #555555);"></p>
-</figure>
-</div>
+<section id="homework-1" class="level2">
+<h2 class="anchored" data-anchor-id="homework-1">Homework 1</h2>
+<ul>
+<li>Finalize <a href="../formalization_steps.html">Formalization Steps</a> 3 - 6 and push everything in your repo.</li>
+<li>Assign a new semantic version number.</li>
+</ul>
 </section>
-<section id="git-hands-on" class="level2">
-<h2 class="anchored" data-anchor-id="git-hands-on">Git hands-on</h2>
-<div class="smaller">
+<section id="homework-2" class="level2">
+<h2 class="anchored" data-anchor-id="homework-2">Homework 2</h2>
+<ul>
+<li>Read: Lange, J., Freyer, N., Musfeld, P., Schönbrodt, F., &amp; Leising, D. (2025). A checklist for incentivizing and facilitating good theory building. <em>Zeitschrift Für Psychologie</em>, 2151-2604/a000604. https://doi.org/10.1027/2151-2604/a000604</li>
+<li>Also read the <a href="https://osf.io/preprints/psyarxiv/e7tdc_v2">checklist itself</a></li>
+</ul>
+<p>Answer the following guiding questions:</p>
 <ol type="1">
-<li>Showcase how git works
-<ul>
-<li>Lecturer creates a private project on <a href="http://github.com/">Github</a> for this course. This will be the central project for submitting homework.</li>
-<li>Students create their Github accounts; add them as contributors to the course project.</li>
-<li>Show how to commit, push, pull changes.</li>
-<li>Show a merge conflict (make a change in the web frontend and locally) and how to resolve it.</li>
-</ul></li>
-<li>We start the <a href="https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/">OSC git tutorial</a> together to weed out technical hurdles. Aim to get until section “Secure the connection between your computer and GitHub”. The rest of tutorial is homework until next week.
-<ul>
-<li>Note: In chapter “Secure the connection …” it says “You will then be asked to provide a passphrase. Protecting your keys with a password is optional but highly recommended”. I recommend <em>not</em> to set a passphrase (just leave it empty), unless you deal with very sensitive data. You will get crazy if you need to enter your passphrase at every SSH operation.</li>
-</ul></li>
+<li><p>Name the three immutable guiding principles of the checklist <!-- First, all the basic elements of a theory should be defined and described as precisely as possible. 
+Second, any steps toward formalization should be rewarded.
+Third, the theory should allow researchers to derive and conduct informative evaluations of a theory via simulations and/or empirical studies --></p></li>
+<li><p>According to the introduction section of the checklist: What are the differences between a “theory” and a “formal model”? <!-- In our terminology, a theory is always expressed in verbal form (i.e., in the natural language). Theories may be translated into formal models, that is, their elements may be expressed in the form of logical propositions, mathematical equations, or algorithms such as agent-based models --></p></li>
+<li><p>Name the two ways of evaluating a theory. <!-- Theories may be evaluated via simulations and/or via empirical studies --></p></li>
 </ol>
-</div>
-</section>
-<section id="never-forget" class="level2">
-<h2 class="anchored" data-anchor-id="never-forget">Never forget …</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/Gt_in_case_of_fire.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="filter: drop-shadow(6px 6px 8px #555555);"></p>
-</figure>
-</div>
-<div class="footer">
-<p>Found on <a href="https://mstdn.games/@64bithero/111251230901866156">https://mstdn.games/<span class="citation" data-cites="64bithero/111251230901866156">@64bithero/111251230901866156</span></a></p>
-</div>
-</section>
-</section>
-<section id="cff-citation-files" class="level1" data-background-color="#40666e">
-<h1 data-background-color="#40666e">CFF citation files</h1>
-<section id="citation-file-format-schema-version-1.2.0" class="level2">
-<h2 class="anchored" data-anchor-id="citation-file-format-schema-version-1.2.0">Citation File Format schema version 1.2.0</h2>
-<p>Tell other users how your theory should be cited, what the current version is, and more meta-data. This can be stored in a file called <code>CITATION.cff</code> in the top level folder of your repository (scroll down!):</p>
-<pre><code>cff-version: 1.2.0
-title: 'Bystander Effect: A formal model'
-message: &gt;-
-  If you refer to this model, please cite it using the
-  metadata from this file. This theory has not been peer
-  reviewed yet.
-type: software
-authors:
-  - given-names: Felix
-    family-names: Schönbrodt
-    email: felix.schoenbrodt@psy.lmu.de
-    orcid: 'https://orcid.org/0000-0002-8282-3910'
-    affiliation: Ludwig-Maximilians-Universität München
-repository-code: 'https://github.com/nicebread/FOMO-Psy'
-abstract: &gt;-
-  A formal model that explains why the probability of
-  helping behavior decreases with an increasing number
-  of passive bystanders.
-keywords:
-  - fairtheory
-  - formal theory
-  - bystander effect
-license: CC-BY-4.0
-version: 0.2.0
-date-released: '2025-12-03'</code></pre>
-</section>
-<section id="citation-file-format-schema-version-1.2.0-1" class="level2">
-<h2 class="anchored" data-anchor-id="citation-file-format-schema-version-1.2.0-1">Citation File Format schema version 1.2.0</h2>
-<section id="how-to-create" class="level3">
-<h3 class="anchored" data-anchor-id="how-to-create">How to create</h3>
-<p>Create an initial version of your <code>CITATION.cff</code> file with the <a href="https://citation-file-format.github.io/cff-initializer-javascript/">cffinit tool</a></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/cffinit_tool.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="filter: drop-shadow(6px 6px 8px #555555);"></p>
-</figure>
-</div>
-</section>
-</section>
-<section id="citation-file-format-schema-version-1.2.0-2" class="level2">
-<h2 class="anchored" data-anchor-id="citation-file-format-schema-version-1.2.0-2">Citation File Format schema version 1.2.0</h2>
-<section id="how-to-create-1" class="level3">
-<h3 class="anchored" data-anchor-id="how-to-create-1">How to create</h3>
-<p>The tool currently only knows “software” and “data set” as types. Create it with type <code>software</code> and update the message field:</p>
-<pre><code>message: &gt;-
-  If you refer to this theory, please cite it using the metadata from this file.
-type: software </code></pre>
-<p>Save the <code>CITATION.cff</code> file in the top level folder of your repository.</p>
-</section>
-</section>
-<section id="effect-of-a-citation.cff-file" class="level2">
-<h2 class="anchored" data-anchor-id="effect-of-a-citation.cff-file">Effect of a CITATION.cff file</h2>
-<p>Both Github and Zenodo (and probably more repositories) parse an existing <code>CITATION.cff</code> and display the citation information:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/CFF_example.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="filter: drop-shadow(6px 6px 8px #555555);"></p>
-</figure>
-</div>
-</section>
-<section id="citation-file-format-schema-version-1.2.0-3" class="level2">
-<h2 class="anchored" data-anchor-id="citation-file-format-schema-version-1.2.0-3">Citation File Format schema version 1.2.0</h2>
-<section id="peer-review-status" class="level3">
-<h3 class="anchored" data-anchor-id="peer-review-status">Peer review status</h3>
-<ul>
-<li>For users of your theory, it is helpful if the peer review status is made explicit.</li>
-<li>This can be done in the <code>message</code> field, e.g.:
-<ul>
-<li>“This theory has not been peer-reviewed yet.”</li>
-<li>If the current version is, say, <code>2.1.0</code>: “The last peer-reviewed version was <code>1.0.4</code>”</li>
-<li>“An open peer review of version <code>1.0.2</code> is published at doi …”</li>
-</ul></li>
-<li>In <a href="https://github.com/citation-file-format/citation-file-format/issues/455#issuecomment-1729232196">future versions of the cff schema</a>, one could also use the <code>isReviewedBy</code> annotation of an identifier.</li>
-</ul>
-</section>
-</section>
-</section>
-<section id="folder-structure" class="level1" data-background-color="#40666e">
-<h1 data-background-color="#40666e">Folder Structure</h1>
-<section id="recommended-folder-structure-for-our-formalization-projects" class="level2">
-<h2 class="anchored" data-anchor-id="recommended-folder-structure-for-our-formalization-projects">Recommended folder structure for our formalization projects</h2>
-<pre><code>.
-├── .git (hidden git folder)
-├── CHANGELOG.md (record changes between versions here)
-├── CITATION.cff
-├── My_Model.Rproj (keep the .Rproj file in the top level directory)
-├── README.md (this should link to any associated Google docs, if applicable)
-├── VAST_display.drawio
-├── simulation/
-│   ├── README.md (specific for the simulations)
-│   ├── raw_data/ (a subfolder with empirical raw data, if applicable)
-│   │   └── dat.csv
-│   ├── plots/
-│   │   └── phenomenon1.png
-│   ├── 01-functions.R (or any other name)
-│   ├── 02-simulations.R
-│   ├── 03-analysis.R
-│   └── ...
-└── manuscript/
-    ├── manuscript.qmd  
-    └── ...</code></pre>
-<p>The <code>git</code> repository should contain the entire folder structure of your theory project.</p>
-</section>
-</section>
-<section id="semantic-versioning" class="level1" data-background-color="#40666e">
-<h1 data-background-color="#40666e">Semantic Versioning</h1>
-<section id="semantic-versioning-semver" class="level2">
-<h2 class="anchored" data-anchor-id="semantic-versioning-semver">Semantic Versioning (semver)</h2>
-<p>Version numbers have three numbers: MAJOR.MINOR.PATCH.</p>
-<p>Increment the:</p>
-<ul>
-<li>MAJOR version when you make changes that break backward compability</li>
-<li>MINOR version when you add functionality in a backward compatible manner</li>
-<li>PATCH version when you make backward compatible bug fixes</li>
-</ul>
-<p>The numbers are plain integers! For example, after 9 comes 10:</p>
-<p><code>0.9.0 → 0.10.0 → 0.11.0 → 1.0.0 → 1.1.0</code></p>
-<div class="footer">
-<p>See <a href="https://semver.org">https://semver.org</a> and Van Lissa et al.&nbsp;(2025). To be FAIR: Theory Specification Needs an Update. <em>Perspectives on Psychological Science</em>. <a href="https://doi.org/10.1177/17456916251401850">https://doi.org/10.1177/17456916251401850</a>. <a href="https://doi.org/10.31234/osf.io/t53np_v3">Open Access PDF</a></p>
-</div>
-</section>
-<section id="some-rules-conventions" class="level2">
-<h2 class="anchored" data-anchor-id="some-rules-conventions">Some rules &amp; conventions:</h2>
-<ul>
-<li>The first development version starts with <code>0.1.0</code></li>
-<li>The first stable public release is <code>1.0.0</code></li>
-<li>Once a versioned package has been released, the contents of that version <em>must not</em> be modified. Any modifications <em>must</em> be released as a new version.</li>
-<li>Major version X (X.y.z) <em>must</em> be incremented if any backward incompatible changes are introduced. Patch and minor versions <em>must</em> be reset to 0 when the major version is incremented.</li>
-</ul>
-</section>
-<section id="example" class="level2">
-<h2 class="anchored" data-anchor-id="example">Example</h2>
-<div class="incremental">
-<ul class="incremental">
-<li>First commit to repository: <code>0.1.0</code></li>
-<li>Oh, I found and corrected a typo: <code>0.1.1</code></li>
-<li>Implemented a minor new feature (that does not break the functionality of the existing features): <code>0.2.0</code>
-<ul class="incremental">
-<li>Always reset the <em>patch</em> number to zero when increasing the <em>minor</em> or <em>major</em> number</li>
-</ul></li>
-<li>By and by, more features get implemented: <code>0.3.0 → 0.4.0 → ... → 0.12.6</code></li>
-<li>Now we are ready to tag our first public release! <code>0.12.6 → 1.0.0</code></li>
-<li>…</li>
-<li>After years of work and minor version updates (e.g., <code>1.4.0</code>), we made a huge change that makes the product incompatible to version 1: <code>2.0.0</code></li>
-</ul>
-</div>
-</section>
-<section id="patch-minor-major-changes" class="level2">
-<h2 class="anchored" data-anchor-id="patch-minor-major-changes">Patch, Minor, Major changes</h2>
-<div class="smaller">
-<p>What changes of the theory warrant what kind of version increments? For theories it makes sense to think in terms of predictions.</p>
-<ul>
-<li>PATCH version when you make backward compatible bug fixes, cosmetic changes, fix spelling errors, or add clarifications</li>
-<li>MINOR version when you expand the set of empirical statements in a backward compatible manner (i.e., the previous version is subsumed within the new version)
-<ul>
-<li>E.g., you have included more settings your theory covers; added more previously unrecognized variables; became more certain about some predictions (i.e.&nbsp;range predictions became narrower); added more operationalizations for constructs.</li>
-</ul></li>
-<li>MAJOR version when you commit backwards incompatible changes, i.e., the theory now contains empirical statements that are at odds with a previous version of the theory
-<ul>
-<li>E.g., you changed core tenets of the definition of constructs or their operationalization, changed the functional relationship between two variables, etc.</li>
-</ul></li>
-</ul>
-<p>Note: The boundaries will not always be clear cut. Think of it not as a precise measurement, but as a useful heuristic to communicate the degree of change in your theory.</p>
-</div>
-</section>
-<section id="what-is-a-release-on-github" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-a-release-on-github">What is a “release” on Github?</h2>
-<p>Create a <em>tag</em> or a <em>release</em> whenever a major or minor version is released:</p>
-<ul>
-<li>With tags and releases, you can “pin” and label important commits in your history.</li>
-<li>Users can quickly go to a specific “frozen” version of your repository.</li>
-<li>These releases can be expected to be stable/functional versions of your software or theory (but see also semantic versioning: Everything with a <code>0.x.x</code> version probably is not properly tested yet).</li>
-<li>In our context, there is no real difference between <em>tags</em> and <em>releases</em>, you can use either.</li>
-</ul>
-</section>
-<section id="git-best-practice-for-recording-the-version-number" class="level2">
-<h2 class="anchored" data-anchor-id="git-best-practice-for-recording-the-version-number">Git best practice for recording the version number</h2>
-<div class="smaller">
-<p>The version number is recorded in two places:</p>
-<ol type="1">
-<li>In the <code>CITATION.cff</code> file</li>
-<li>In the names of all <em>tags</em> or <em>releases</em></li>
-</ol>
-<p>Is every commit a new version? No, that would be very tedious, especially if you are currently developing the theory and have frequent commits. We recommend:</p>
-<ul>
-<li>Maintain a <code>dev</code> developer branch for ongoing development. It is not necessary to update the version number in each development step.</li>
-<li>Whenever a stable stage has been reached:
-<ul>
-<li>Increase the version number in the <code>CITATION.cff</code> file</li>
-<li>Record the substantive changes in your <code>CHANGELOG.md</code></li>
-<li>Push the development branch to the <code>main</code> branch</li>
-<li>Create a <em>tag</em> or <em>release</em> on the main branch and write the version number into the label of the tag (see also <a href="#how-to-create-a-release">“How to create a release?”</a>)</li>
-</ul></li>
-</ul>
-</div>
-</section>
-<section id="git-best-practice" class="level2">
-<h2 class="anchored" data-anchor-id="git-best-practice">Git best practice</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/git-workflow.webp" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<p>(of course <a href="https://github.com/ruhulmus/Git-Flow-Architecture">more complicated setups</a> with multiple branches, e.g.&nbsp;feature branches, are possible).</p>
-</section>
-<section id="how-to-create-a-release" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-create-a-release">How to create a release?</h2>
-<ul>
-<li>Use <a href="https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository">GitHub’s inbuild release mechanism</a></li>
-<li>Remember to set the tag to the correct version number</li>
-<li>Copy the content of your <code>CHANGELOG.md</code> into the release notes.</li>
-<li>Optional: <a href="https://docs.github.com/de/repositories/archiving-a-github-repository/referencing-and-citing-content">create a DOI</a> for your release, and archive it with <a href="https://docs.github.com/de/repositories/archiving-a-github-repository/referencing-and-citing-content">Zenodo</a></li>
-<li>Optional: update your <code>CITATION.cff</code> file to include the new DOI
-<ul>
-<li>This is a hen/egg problem: The doi will not be in the release itself, as it is assigned only <em>after</em> the release.</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="fair-theories" class="level1" data-background-color="#40666e">
-<h1 data-background-color="#40666e">FAIR theories</h1>
-<section id="fair-theories-1" class="level2">
-<h2 class="anchored" data-anchor-id="fair-theories-1">FAIR theories</h2>
-<p>FAIR = - Findable - Accessible - Interoperable - Reusable</p>
-<p>Originally defined for data (Wilkinson et al., 2016), this concept has been applied to theories (Van Lissa et al., 2025).</p>
-<div class="footer">
-<p>Van Lissa et al.&nbsp;(2025). To be FAIR: Theory Specification Needs an Update. <em>Perspectives on Psychological Science</em>. <a href="https://doi.org/10.1177/17456916251401850">https://doi.org/10.1177/17456916251401850</a>. <a href="https://doi.org/10.31234/osf.io/t53np_v3">Open Access PDF</a></p>
-</div>
-<!-- Footer insert below -->
-</section>
-</section>
-<section id="end" class="level1">
-<h1>End</h1>
-<section id="contact" class="level2">
-<h2 class="anchored" data-anchor-id="contact">Contact</h2>
-<script src="https://kit.fontawesome.com/9fb269b0d2.js" crossorigin="anonymous"></script>
-<ul class="fa-ul" style="color:black; list-style:none;">
-<li>
-<i class="fa-brands fa-li fa-mastodon"></i> <a href="https://scicomm.xyz/@nicebread" target="_blank" style="color:black; border-bottom:none;"><span class="citation" data-cites="nicebread">@nicebread</span><span class="citation" data-cites="scicomm.xyz">@scicomm.xyz</span></a>
-</li>
-<li>
-<i class="fa-li fa fa-envelope-o"></i> <a style="unicode-bidi:bidi-override; direction: rtl; color:black" href="javascript:window.location.href = 'mailto:' + ['felix.schoenbrodt','psy.lmu.de'].join('@')">ed.uml.ysp@tdorbneohcs.xilef</a>
-</li>
-<li>
-<i class="fa-li fa-solid fa-globe"></i> <a href="https://www.nicebread.de" target="_blank" style="color:black; border-bottom:none;">https://www.nicebread.de</a>
-</li>
-<li>
-<i class="fa-li fa fa-github" aria-hidden="true"></i> <a href="https://github.com/nicebread" target="_blank" style="color:black; border-bottom:none;">https://github.com/nicebread</a>
-</li>
-</ul>
-<p><small style="text-align:left;"></small></p><small style="text-align:left;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" class="img-fluid figure-img"></a></p>
-<figcaption>CC-BY-SA 4.0</figcaption>
-</figure>
-</div>
-</small><p><small style="text-align:left;"></small></p>
+<p><strong>Deliverable</strong>: Submit answers to the guiding questions as a plain text or markdown file to the course’s <a href="https://github.com/nicebread/FOMO-homework-2025">Homework Repository</a>, subfolder <code>04-Quality_checklist</code>.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -1147,44 +854,6 @@ window.onload = function() {
 }
 
 </script>
-
-<script>
-  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-  // slide changes (different for each slide format).
-  (function () {
-    // dispatch for htmlwidgets
-    function fireSlideEnter() {
-      const event = window.document.createEvent("Event");
-      event.initEvent("slideenter", true, true);
-      window.document.dispatchEvent(event);
-    }
-
-    function fireSlideChanged(previousSlide, currentSlide) {
-      fireSlideEnter();
-
-      // dispatch for shiny
-      if (window.jQuery) {
-        if (previousSlide) {
-          window.jQuery(previousSlide).trigger("hidden");
-        }
-        if (currentSlide) {
-          window.jQuery(currentSlide).trigger("shown");
-        }
-      }
-    }
-
-    // hookup for slidy
-    if (window.w3c_slidy) {
-      window.w3c_slidy.add_observer(function (slide_num) {
-        // slide_num starts at position 1
-        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-      });
-    }
-
-  })();
-</script>
-
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

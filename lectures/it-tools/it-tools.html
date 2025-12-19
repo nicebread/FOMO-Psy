@@ -180,6 +180,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#git-showcase" id="toc-git-showcase" class="nav-link active" data-scroll-target="#git-showcase">Git Showcase</a>
   <ul class="collapse">
+  <li><a href="#final.doc" id="toc-final.doc" class="nav-link" data-scroll-target="#final.doc">Final.doc</a></li>
   <li><a href="#git-overview" id="toc-git-overview" class="nav-link" data-scroll-target="#git-overview">Git overview</a></li>
   <li><a href="#git-overview-1" id="toc-git-overview-1" class="nav-link" data-scroll-target="#git-overview-1">Git overview</a></li>
   <li><a href="#git-hands-on" id="toc-git-hands-on" class="nav-link" data-scroll-target="#git-hands-on">Git hands-on</a></li>
@@ -284,6 +285,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="git-showcase" class="level1" data-background-color="#40666e">
 <h1 data-background-color="#40666e">Git Showcase</h1>
+<section id="final.doc" class="level2">
+<h2 class="anchored" data-anchor-id="final.doc">Final.doc</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/Final.doc.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="filter: drop-shadow(6px 6px 8px #555555);"></p>
+</figure>
+</div>
+<div class="footer">
+<p>“Piled Higher and Deeper” by Jorge Cham <a href="https://phdcomics.com">www.phdcomics.com</a></p>
+</div>
+</section>
 <section id="git-overview" class="level2">
 <h2 class="anchored" data-anchor-id="git-overview">Git overview</h2>
 <p>Git is a tool from software development that solves two major challenges:</p>
@@ -1208,44 +1220,6 @@ window.onload = function() {
 }
 
 </script>
-
-<script>
-  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-  // slide changes (different for each slide format).
-  (function () {
-    // dispatch for htmlwidgets
-    function fireSlideEnter() {
-      const event = window.document.createEvent("Event");
-      event.initEvent("slideenter", true, true);
-      window.document.dispatchEvent(event);
-    }
-
-    function fireSlideChanged(previousSlide, currentSlide) {
-      fireSlideEnter();
-
-      // dispatch for shiny
-      if (window.jQuery) {
-        if (previousSlide) {
-          window.jQuery(previousSlide).trigger("hidden");
-        }
-        if (currentSlide) {
-          window.jQuery(currentSlide).trigger("shown");
-        }
-      }
-    }
-
-    // hookup for slidy
-    if (window.w3c_slidy) {
-      window.w3c_slidy.add_observer(function (slide_num) {
-        // slide_num starts at position 1
-        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-      });
-    }
-
-  })();
-</script>
-
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Groups start working on their own formalization projects, setting up the technical infrastructure and preparing a new repository with best practices.">
+<meta name="description" content="The groups finalize their VAST and present it to the class.">
 
-<title>Session 09 - Best practices in theory formalization; create a new VAST – FOMO-Psy: Formal Modelingof Psychological Theories</title>
+<title>Session 10 - Finalize &amp; present VAST – FOMO-Psy: Formal Modelingof Psychological Theories</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -42,8 +42,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-f93c2b1f3f0577f377aefa4848a86a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -144,9 +142,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#prepare-your-own-repository" id="toc-prepare-your-own-repository" class="nav-link" data-scroll-target="#prepare-your-own-repository">Prepare your own repository</a></li>
-  <li><a href="#homework-1" id="toc-homework-1" class="nav-link" data-scroll-target="#homework-1">Homework 1</a></li>
-  <li><a href="#homework-2" id="toc-homework-2" class="nav-link" data-scroll-target="#homework-2">Homework 2</a></li>
+  <li><a href="#merry-christmas" id="toc-merry-christmas" class="nav-link" data-scroll-target="#merry-christmas">Merry Christmas! 🎄</a></li>
   </ul>
 </nav>
     </div>
@@ -155,12 +151,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Session 09 - Best practices in theory formalization; create a new VAST</h1>
+<h1 class="title">Session 10 - Finalize &amp; present VAST</h1>
 </div>
 
 <div>
   <div class="description">
-    Groups start working on their own formalization projects, setting up the technical infrastructure and preparing a new repository with best practices.
+    The groups finalize their VAST and present it to the class.
   </div>
 </div>
 
@@ -177,26 +173,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-note callout-titled" title="Instructor notes">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Instructor notes
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ul>
-<li>Create the folder <code>homework/04-Quality_checklist</code> in the homework repo.</li>
-</ul>
-</div>
-</div>
-</div>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<section id="overview" class="level1">
+<h1>Overview</h1>
 <table class="table-striped caption-top table">
 <thead>
 <tr class="header">
@@ -207,21 +185,16 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Best (technical) practices in theory development: CFF + semver + folder structure</td>
-<td>60</td>
-<td><a href="../lectures/it-tools/it-tools.html">Slides</a></td>
+<td>Finalize the VAST</td>
+<td>90</td>
+<td></td>
 </tr>
 <tr class="even">
-<td>Prepare a new repository in each group</td>
-<td>20</td>
-<td><a href="../formalization_steps.html">Formalization Steps</a> 1 &amp; 2</td>
+<td>Group presentations</td>
+<td>4x 20 min</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>Workshop: create a VAST</td>
-<td>120</td>
-<td><a href="../formalization_steps.html">Formalization Steps</a> 3 - 6</td>
-</tr>
-<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -229,41 +202,8 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="prepare-your-own-repository" class="level2">
-<h2 class="anchored" data-anchor-id="prepare-your-own-repository">Prepare your own repository</h2>
-<p>Each group should set up their technical infrastructure - from now on, you start working in your own repository.</p>
-<ol type="1">
-<li>Create a fresh public Github repository <em>and</em> a folder on Google Drive (or a comparable collaborative document) for the tables.</li>
-<li>Link the latter in the README of the repository.</li>
-<li>Invite the lecturer (user name: <code>nicebread</code>) as a collaborator: <i class="fa-solid fa-gear" aria-label="gear"></i> Settings → <i class="fa-solid fa-user-group" aria-label="user-group"></i> Collaborators → “Add people”</li>
-<li>Prepare the folder structure
-<ol type="1">
-<li>Create your <code>CITATION.cff</code> file, assign your first version number (presumably: <code>0.1.0</code>).</li>
-</ol></li>
-</ol>
-</section>
-<section id="homework-1" class="level2">
-<h2 class="anchored" data-anchor-id="homework-1">Homework 1</h2>
-<ul>
-<li>Finalize <a href="../formalization_steps.html">Formalization Steps</a> 3 - 6 and push everything in your repo.</li>
-<li>Assign a new semantic version number.</li>
-</ul>
-</section>
-<section id="homework-2" class="level2">
-<h2 class="anchored" data-anchor-id="homework-2">Homework 2</h2>
-<ul>
-<li>Read: Lange, J., Freyer, N., Musfeld, P., Schönbrodt, F., &amp; Leising, D. (2025). A checklist for incentivizing and facilitating good theory building. <em>Zeitschrift Für Psychologie</em>, 2151-2604/a000604. https://doi.org/10.1027/2151-2604/a000604</li>
-<li>Also read the <a href="https://osf.io/preprints/psyarxiv/e7tdc_v2">checklist itself</a></li>
-</ul>
-<p>Answer the following guiding questions:</p>
-<ol type="1">
-<li><p>Name the three immutable guiding principles of the checklist <!-- First, all the basic elements of a theory should be defined and described as precisely as possible. 
-Second, any steps toward formalization should be rewarded.
-Third, the theory should allow researchers to derive and conduct informative evaluations of a theory via simulations and/or empirical studies --></p></li>
-<li><p>According to the introduction section of the checklist: What are the differences between a “theory” and a “formal model”? <!-- In our terminology, a theory is always expressed in verbal form (i.e., in the natural language). Theories may be translated into formal models, that is, their elements may be expressed in the form of logical propositions, mathematical equations, or algorithms such as agent-based models --></p></li>
-<li><p>Name the two ways of evaluating a theory. <!-- Theories may be evaluated via simulations and/or via empirical studies --></p></li>
-</ol>
-<p><strong>Deliverable</strong>: Submit answers to the guiding questions as a plain text or markdown file to the course’s <a href="https://github.com/nicebread/FOMO-homework-2025">Homework Repository</a>, subfolder <code>04-Quality_checklist</code>.</p>
+<section id="merry-christmas" class="level1">
+<h1>Merry Christmas! 🎄</h1>
 
 
 </section>

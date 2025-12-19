@@ -20,3 +20,8 @@
 .navbar .navbar-brand-container {
   padding-right: 35px;
 }
+
+/* this is the alert rendering when slides are rendered as a website */
+.alert {
+  color: #9a2515 !important;
+}

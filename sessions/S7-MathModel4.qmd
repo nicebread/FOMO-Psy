@@ -33,11 +33,19 @@ Please think about candidate theories that you would like to formalize. You can 
 - You need a lot of expert input and judgement to fill in the gaps of the underspecified theory.
 - You need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.
 
-**Deliverable**:
+**Deliverable**: A presentation (~15 min.)
 
-A presentation (~15 min.) that includes the following points:
+Prepare 5-7 slides (7 is the hard maximum):
 
-- What is the central phenomenon to be explained?
-- What does a typical study that produces the phenomenon look like?
-- A (very brief) introduction to the theory that explains the phenomenon.
-- What is the central literature? (To give an impression of the form in which the narrative theory is presented).
+- 1 slide: Describe the central phenomenon
+- 1-2 slides: Show ...
+  - a typical experiment that demonstrates the phenomenon
+  - the typical statistical design and analysis (e.g. "a 2x2 ANOVA")
+  - (optionally) one central results plot that shows the statistical pattern
+- 1-2 slides: Describe the explaining theory/framework
+  - What are the key constructs/variables
+  - What are the assumed relationships
+- 1 slide: Pros and cons, from the perspective of formalization
+  - What aspects facilitate a formalization?
+  - What aspects are difficult to formalize?
+- 1 slide, for reference: What is the central paper that needs to be read?

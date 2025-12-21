@@ -63,4 +63,4 @@ b) The theoretical explanation for the effect, containing the psychological mech
 **Deliverable**: 
 
 - Create a *new* draw.io VAST display based on the [template](../bystander_effect/Bystander-template.drawio) with the extended and reduced theory. Push the file to the [Homework Repository]({{< var homework_repo >}}) in the folder `Dangerousness_effect`, in your group's subfolder.
-- Create a copy of the Google doc with the *Construct Source Table* and the *Variables Table*.  Reduce/expand both tables to the new *dangerousness model*.
+- Create a copy of the Google doc with the *Construct Table* and the *Variables Table*.  Reduce/expand both tables to the new *dangerousness model*.

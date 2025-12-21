@@ -9,6 +9,10 @@ This course is held in the 5th semester of the BSc. Psychology at the Department
 
 See the [Sessions](sessions/sessions_overview.qmd) section for a description of each session. In these sessions, sometimes [lecture slides](lectures/lecture_overview.qmd) are linked.
 
+## Course content
+
+![](img/Course_flow_full.png)
+
 ## Course announcement
 
 In the empirical-psychological practical course ‘Formal Modelling in Psychology’, students immerse themselves in the world of quantitative representation of psychological theories. This is not about the quantitative evaluation of data with the help of statistical models, but about theories and data-generating models that are so precise that concrete data can be predicted.

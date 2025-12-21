@@ -5,27 +5,29 @@ project:
     - bystander_effect/Bystander-template.drawio
 
 website:
-  title: "FOMO-Psy: Formal Modeling of Psychological Theories"
+  title: "FOMO-Psy: Formal Modeling<br>of Psychological Theories"
   navbar:
     search: true
     left:
-      - href: index.qmd
-        text: Home
       - text: "Sessions"
         file: sessions/sessions_overview.qmd  
       - text: "Lectures"
         file: lectures/lecture_overview.qmd
       # - href: tools.qmd
-      #   text: Thinking Tools
+      #   text: Thinking Tools      
+      - text: "Formalization<br>Steps"
+        file: formalization_steps.qmd
+      - text: "Demo: Bystander<br>Effect Model"
+        file: bystander_demo.qmd
       - file: orga_material/orga_material.qmd
-        text: Organizational Material
-      - Formalization_steps.qmd
+        text: Organizational<br>Material
       - about.qmd
     right:
       - icon: github
         href: https://github.com/nicebread/FOMO-Psy
         aria-label: GitHub
 
+# webex is a plugin for webexercises ()
 format:
   html:
     theme: flatly

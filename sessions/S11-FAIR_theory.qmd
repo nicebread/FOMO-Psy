@@ -1,0 +1,58 @@
+---
+title: Session 11 - FAIR theories
+number-sections: false
+description: We learn how to document our digital theory objects and how to make them FAIR
+---
+
+<!-- TODO: Add FAIR theory content -->
+
+## Overview
+
+| Topic                                               | Duration | Notes                                       |
+| --------------------------------------------------- | -------- | ------------------------------------------- |
+| FAIR theories                                       | 45       | [Slides](../lectures/it-tools/it-tools.qmd) |
+| Continue working in teams on the new formalizations | 90       |                                             |
+| Teams report on progress                            | 45       |                                             |
+: {.striped}
+
+
+
+## Tasks for today
+
+1. Update your README according to [this guideline](https://cjvanlissa.github.io/theorytools/articles/readme.html). 
+2. Aim to finish steps 1-5 of the [Formalization Steps](../formalization_steps.qmd)
+   - For Step 4 ("Collect robust phenomena"), write a short paragraph that summarizes your evaluation of the robustness of the phenomenon. (This will be needed for the final report).
+3. Start working on Step 6 ("Create your VAST display")
+
+## Homework due *next week* (in groups): Work on your group project
+
+Finalize (at least) steps 1-7 of the [Formalization Steps](../formalization_steps.qmd), so that you can start working on programming in the next session.
+
+**Deliverable**: 
+
+- Increase the version (e.g., to `0.2.0`) in the `CITATION.cff` file.
+- Push your current version to the repository.
+- Create a tag, give it the version name (e.g., `v0.2.0`) and write a short description for the release.
+ 
+Do these steps regardless whether the theory object currently is in a "functional state" or still in a messy development version.
+
+
+## Homework 2
+
+- Read: Lange, J., Freyer, N., Musfeld, P., Schönbrodt, F., & Leising, D. (2025). A checklist for incentivizing and facilitating good theory building. *Zeitschrift Für Psychologie*, 2151-2604/a000604. [https://doi.org/10.1027/2151-2604/a000604](https://doi.org/10.1027/2151-2604/a000604)
+- Also read the [checklist itself](https://osf.io/preprints/psyarxiv/e7tdc_v2)
+
+Answer the following guiding questions:
+ 
+1. Name the three immutable guiding principles of the checklist
+<!-- First, all the basic elements of a theory should be defined and described as precisely as possible. 
+Second, any steps toward formalization should be rewarded.
+Third, the theory should allow researchers to derive and conduct informative evaluations of a theory via simulations and/or empirical studies -->
+
+2. According to the introduction section of the checklist: What are the differences between a "theory" and a "formal model"?
+<!-- In our terminology, a theory is always expressed in verbal form (i.e., in the natural language). Theories may be translated into formal models, that is, their elements may be expressed in the form of logical propositions, mathematical equations, or algorithms such as agent-based models -->
+
+3. Name the two ways of evaluating a theory.
+<!-- Theories may be evaluated via simulations and/or via empirical studies -->
+
+**Deliverable**: Submit answers to the guiding questions as a plain text or markdown file to the course's [Homework Repository]({{< var homework_repo >}}), subfolder `04-Quality_checklist`.

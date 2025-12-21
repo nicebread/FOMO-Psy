@@ -14,7 +14,7 @@ description: The groups work on their formalizations
 
 # Tasks for today
 
-Work on steps on the remaining steps (8-11) of the [Formalization Steps](../Formalization_steps.qmd).
+Work on steps on the remaining steps (8-11) of the [Formalization Steps](../formalization_steps.qmd).
 You probably won't finish all steps, but the more you achieve, the less you have to do for the final report.
 
 Remember to restrict yourself: Aim for *few* phenomena (ideally, only one) and *simple* theories and models. It gets complicated all by itself!

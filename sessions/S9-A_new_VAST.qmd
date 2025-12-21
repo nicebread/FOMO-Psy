@@ -1,0 +1,49 @@
+---
+title: Session 09 - Best practices in theory formalization; create a new VAST
+number-sections: false
+description: Groups start working on their own formalization projects, setting up the technical infrastructure and preparing a new repository with best practices.
+---
+
+::: {.callout-note collapse="true" title="Instructor notes"}
+- Create the folder `homework/04-Quality_checklist` in the homework repo.
+:::
+
+## Overview
+
+| Topic                                                                             | Duration | Notes                                                        |
+| --------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------ |
+| Best (technical) practices in theory development: CFF + semver + folder structure | 60       | Lecture IT-Tools [Slides](../lectures/it-tools/it-tools.qmd) |
+| Prepare a new repository in each group                                            | 25       | [Formalization Steps](/formalization_steps.qmd) 1 & 2        |
+| Group work: Create your VAST                                                      | 120      | [Formalization Steps](/formalization_steps.qmd) 3 - 6        |
+|                                                                                   |          |                                                              |
+: {.striped}
+
+
+## Prepare your own repository
+
+Each group should set up their technical infrastructure - from now on, you start working in your own repository.
+
+1. One team member (the "maintainer") creates a fresh public repository on the Github website.
+2. Invite the lecturer (user name: `nicebread`) and all team members as collaborators on Github: {{<fa gear>}} Settings → {{<fa user-group>}} Collaborators → "Add people".
+3. All team members clone the repository to their local computers.
+4. Create a Google doc (or a comparable collaborative document) for the tables, make it publicly readable for anybody.
+5. Link the Google doc in the README of the repository. Link the repository in the Google doc.
+6. Prepare the folder structure
+   1. Create your `CITATION.cff` file with the [cffinit tool](https://citation-file-format.github.io/cff-initializer-javascript/#/), assign your first version number (presumably: `0.1.0`).
+
+
+## Homework 1
+
+- Finalize [Formalization Steps](/formalization_steps.qmd) 3 - 6
+- Assign a new semantic version number.
+- Push everything in your repo
+- Follow coding best practices. See for example [Readable, Reliable, Reusable: A Guide to Clean R Code](https://jacciz.github.io/portfolio/projects/clean_code.html)
+
+## Homework 2
+
+For next week, prepare an(informal) presentation of your VAST:
+
+- Show and guide through your VAST display
+- Explain your scope (importantly: What is *not* included?)
+- Explain your robust phenomenon - What is the explanatory target of your theory?
+- Open questions / Challenges you encountered

@@ -1,21 +1,27 @@
+## Wahl der passenden Theorie
+
+Wenn man Individual- und Gruppenebene hat (z.B. Group Polarization, Social Loafing) wird es tendenziell komplizierter, weil beide Ebenen dargestellt werden sollten, und die Variablen/Outcomes müssen zwischen den Ebenen aggregiert/übersetzt werden.
+
+## Resources
+
+Advent(ure) in System Seeing: https://www.ruthmalan.com/Advent.html
+
+
+## Intro:
+
+Das U-Bahn Beispiel aus der Präsentation herauslösen und mit Occams Razor kombinieren (als separaten Vortrag).
+
+## Website
+
+Create a page that shows the model, the CST, the simulation results, the citation information all on one page.
+
+
 ## MathModel, Step 5:
 
 Show that the psi() function can return multiple variables in a list.
 
 
-## Add PhD comics
 
-Git: https://phdcomics.com/comics/archive.php?comicid=1531
-
-
-
-## TODO S08 or S09
-
-So far, we worked all in the same repo, in subfolders.
-Now that you create your own repository for your theory, we want to follow some best practices for repository structure.
-
---> show FAIR theory
---> show CFF and semver
 
 
 ## How many VAST displays are created for practicing? Reduce?
@@ -61,24 +67,13 @@ Erste Versuche zur Formalisierung mit LLMs allein gibt es übrigens auch schon: 
 
 ## Git tutorial
 
-EIn typisches Problem: Sie lernen im Tutorial erst mal eine Fork von dem Repositorium zu machen.
+EIn typisches Problem: Sie lernen im Tutorial erst mal eine *Fork* von dem Repositorium zu machen.
 Wenn sie dann anfangen im Homework-Repositorium zu arbeiten, machen manche davon erst mal eine Fork. Sie sollen aber alle im selben Repositorium arbeiten.
 
 In R-Studio erscheint der Git-Tab nur, wenn ein R-Project erstellt wurde.
 
 
-## THEORY versioning
-minor:
-- do we require (a) perfect identity of predictions, or (b) "substantively the same"?
-	- if (a), nearly every change would be a "major" change
-	- "substantively" is vague -> if the interpretation of all previous studies does not change, it is not a substantial change
-	- no qualitative changes (only minor quantitative) --> what is a qualitative change?
-- adding variables probably always changes the specific predictions (at least a little bit)
 
-Mittelwert vs. Range -> wenn es unter einer Änderung epsilon bleibt, ist es minor; epslion muss definiert werden.
-
-
-Every major change needs a new peer review.
 
 # van Dongen
 

@@ -1,0 +1,9 @@
+---
+title: "Demo: Bystander Effect Model"
+---
+
+TBD
+
+The repository in the *#fairtheory* format can be found at [https://github.com/nicebread/Bystander_model_demo](https://github.com/nicebread/Bystander_model_demo).
+
+![](img/Bystander_model_full.png)

@@ -1,26 +1,53 @@
 ---
 title: Session 08 - Presentation of candidate theories
 number-sections: false
-description: We have a presentation and initial discussion of candidate theories for the next formalization exercise.
+description: We have a presentation and initial discussion of candidate theories for the next formalization exercise. New groups form.
 ---
+
+::: {.callout-note collapse="true" title="Instructor notes"}
+- Bring 5-6 flip chart sheets and pens
+:::
 
 ## Overview
 
-| Topic                                                                | Duration           | Notes |
-| -------------------------------------------------------------------- | ------------------ | ----- |
-| Overview: The second half of the course                              | 10                 |       |
-| PhD students present their theoretical frameworks                    | 30 for each theory |       |
-| Group Formation: Up to 4 groups                                      | 10                 |       |
-| Homework: Read paper for new theory & fill in Construct Source Table |                    |       |
+| Topic                                                       | Duration           | Notes |
+| ----------------------------------------------------------- | ------------------ | ----- |
+| Overview: The second half of the course                     | 10                 |       |
+| Students propose theories for Part 2                        | 15 for each theory |       |
+| World Café/Group Formation                                  | 90                 |       |
+| Homework: Read paper for new theory & start Construct Table |                    |       |
 : {.striped}
 
 ## Welcome to Part 2!
 
-In the second half, you will repeat all [formalization steps](/Formalization_steps.qmd) that we practiced with the Bystander Effect, but this time you will work on your own formalization project. In parallel, we will learn a few more tools that improve the quality and FAIRness[^1] of your formalization.
+In the second part of the course, you will repeat all [formalization steps](/formalization_steps.qmd) that we practiced with the Bystander Effect, but this time you will work on your own formalization project. In parallel, we will learn a few more tools that improve the quality and FAIRness[^1] of your formalization.
 
 [^1]: FAIR = Findable, Accessible, Interoperable, Reusable
 
-![](img/Course_flow_full.png)
+![](img/Course_flow_full_marked.png)
+
+
+## World Café
+
+**Randomize travel order**: 
+
+1. Prepare the isles with flip-chart paper and pens, write theory names on each flip chart paper.
+2. Each student makes up a random order of the letters A, B, C, and D (or more, depending on how many theories we have).
+3. Assign letters to theories, write them on the flip chart paper.
+4. All proposers of theories then swap (if necessary) two of their letters so that their own theory is *last*. (Because they are going to summarize the discussion at the end.)
+
+**The Café**:
+
+Groups stay 5 min at each isle and discuss the theory, add comments/questions to the board. 
+Every group should write something on the board.
+Then they move to the next isle, reading the previous comments and adding their own. 
+After 4 rounds, the original proposers of each theory (who should be at their own theory isle) summarize the main discussion points.
+
+**The choice**:
+
+Students form 4 groups for Part 2 based on their preferences. It is possible that multiple groups work on different aspects of the same theory.
+
+Maybe students need some room to discuss their choice with their friends, etc. Let them chat for 5-10 min. so that they can achieve a good decision.
 
 
 ## Prototypical formalization styles:
@@ -59,4 +86,4 @@ Focus on a limited set of robust phenomena that the theory should explain.
 ## Homework
 
 1. Read the central literature for your theory
-2. Create a new Google doc (or other collaborative document) and start a common Construct Source Table
+2. Create a new Google doc (or other collaborative document) with an empty Construct Table. Optionally start populating the table while reading (will be continued in person in the next session).

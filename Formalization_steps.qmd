@@ -1,5 +1,5 @@
 ---
-title: "Overview: Formalization Steps"
+title: "Formalization Steps"
 ---
 
 *This can be used as a checklist for your course report. The details for each step are explained in the linked slides.*
@@ -19,7 +19,7 @@ title: "Overview: Formalization Steps"
 4. Collect [robust phenomena](lectures/VAST/VAST_Application.qmd#step-5-collect-robust-empirical-phenomena-1)
     1. Evaluate the *generalizability* separately for each UTOS dimension
     2. Evaluate the *strength of evidence* (Quality of studies? Number of studies? Large samples?)
-5. Create your [*Construct Source Table*](lectures/VAST/VAST_Application.qmd#construct-source-table)
+5. Create your [*Construct Table*](lectures/VAST/VAST_Application.qmd#construct-table)
 6. Create your VAST display (see slides on [VAST](lectures/VAST/VAST_Intro.qmd) and [VAST application](lectures/VAST/VAST_Application.qmd))
     1. Distill a working definition for each construct
     2. Add relationships between constructs
@@ -40,3 +40,9 @@ title: "Overview: Formalization Steps"
     1. Simulate data
     2. Do the statistical analysis on your simulated data: Is the focal effect significant?
     3. What is the necessary sample size to reliably detect the phenomenon (i.e., with a high statistical power)?
+12. For the final report:
+    1.  Copy the tables from the Google doc into the `/doc` subfolder of your repository, so that it is really self-contained (i.e., all relevant files are bundled in the project folder).
+    2.  Export a PNG of the final VAST display to the `/doc` subfolder of your repository
+    3.  (If not done yet: Assign a version number)
+    4.  Create a release on Github; the tag name should contain the final version number (e.g., `v0.8.3`).
+    5.  In your manuscript, explicitly report the version number your report is referring to and provide a link to the release.

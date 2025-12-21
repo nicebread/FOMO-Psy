@@ -1,0 +1,16 @@
+---
+title: Session 10 - Finalize & present VAST
+number-sections: false
+description: The groups finalize their VAST and present it to the class.
+---
+
+# Overview
+
+| Topic               | Duration  | Notes |
+| ------------------- | --------- | ----- |
+| Finalize the VAST   | 90        |       |
+| Group presentations | 4x 20 min |       |
+|                     |           |       |
+: {.striped}
+
+# Merry Christmas! 🎄

@@ -29,16 +29,18 @@ quarto update extension nicebread/quarto-FS
 
 - The default presentation slide size is 1050 x 700.
 - To publish online, run `quarto publish gh-pages` locally.
-- Right arrow (→): `&rarr;`
-- Double headed arrow (↔): `&harr;`
+- Note: The CSS for the reveal.js slides is different from the CSS of the websites:
+  - Reveal-js slides are styled with the `_extensions/nicebread/nicetheme` theme
+  - When the same slides are rendered as the continuous webpage (i.e., not as slides), they are styled with the general `styles.css` file in the top level folder. (This was relevant for the .alert class, which was initially displayed as white text on white background).
+- Right arrow (→): `&rarr;` Double headed arrow (↔): `&harr;`
 - Full processing:
 
 ```sh
 quarto render
 quarto publish gh-pages
 
-# With this option, it does not wait until the browser opens.
-quarto publish gh-pages --no-browser
+# With this option, it does not wait until the browser opens, and does not wait for your "Y" reply if you really want to publish:
+quarto publish gh-pages --no-browser --no-prompt
 ```
 
 To make this website/repository reusable for multiple runs of the course, I define some the course-specific content (e.g. specific links) as parameters in the `_variables.yml` file. This way, I can easily change the content for the next iteration of the course.

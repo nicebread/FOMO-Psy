@@ -5,7 +5,7 @@ author:
     orcid: 0000-0002-8282-3910
     email: felix.schoenbrodt@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München
-date: 2025-11-03
+date: 2025-12-12
 order: 50
 footer: "These slides are part of the course [Formal modeling in psychology](https://nicebread.github.io/FOMO-Psy/) at LMU Munich"
 format: 
@@ -79,17 +79,17 @@ Psychological ("internal") variables could range from $-\infty$ to $+\infty$, an
 ## {{< fa people-group size=2x >}} Group work (15 min.): Specify variables
 
 ::: {.smaller}
-In the Google doc (below your *Construct Source Table*) fill in 2-3 exemplary variables from your bystander model in the *Variables Table*:
+In the Google doc (below your *Construct Table*) fill in 2-3 exemplary variables from your bystander model in the *Variables Table*:
 
 *Example:*
 
 <div class="table-grid smaller">
-| Construct in VAST display              | Shortname   | Type | Range/values | Anchors                                                           |
-| -------------------------------------- | ----------- | ----------- | ------------ | ----------------------------------------------------------------- |
-| Affective tone of instruction          | aff_tone    | Continuous  | [-1; 1]      | -1 = maximally negative<br>0 = neutral<br>+1 = maximally positive |
-| Anxiety                                | anxiety     | Continuous  | [0; 1]       | 0 = no anxiety<br>1 = maximal anxiety                             |
-| Kohlberg's Stages of Moral Development | moral_stage | Ordinal     | {1; 2; 3}    | 1=Pre-conventional<br>2=Conventional<br>3=Post-Conventional       |
-| ...                                    |             | ...         | ...          | ...                                                               |
+| Construct in VAST display              | Shortname   | Type       | Range/values | Anchors                                                           |
+| -------------------------------------- | ----------- | ---------- | ------------ | ----------------------------------------------------------------- |
+| Affective tone of instruction          | aff_tone    | Continuous | [-1; 1]      | -1 = maximally negative<br>0 = neutral<br>+1 = maximally positive |
+| Anxiety                                | anxiety     | Continuous | [0; 1]       | 0 = no anxiety<br>1 = maximal anxiety                             |
+| Kohlberg's Stages of Moral Development | moral_stage | Ordinal    | {1; 2; 3}    | 1=Pre-conventional<br>2=Conventional<br>3=Post-Conventional       |
+| ...                                    |             | ...        | ...          | ...                                                               |
 </div>
 
 :::
@@ -647,7 +647,7 @@ This is similar to the item response theory (IRT) approach to model dichotomous 
    2. Endogenous variables are influenced by other variables in the model
 3. Every endogenous variable is a **function** of all of their input parameters. 
    1. Create sensible functional relationships for every endogenous variable.
-   2. Create a 3rd table (below the Construct Source Table and the Variables Table), with all functional relationships. 
+   2. Create a 3rd table (below the Construct Table and the Variables Table), with all functional relationships. 
    3. Add a short comment to what extent this functional relationship has been **derived from theory** (see response scale in Google doc)      
    4. Add a short comment to what extent this functional relationship has been backed by empirical evidence.
 4. Implement the functions in `R` with proper `roxygen2` documentation in your group's subfolder.
@@ -656,7 +656,7 @@ This is similar to the item response theory (IRT) approach to model dichotomous 
 ::: {.notes}
 Suggested response scale for "To what extent derived from theory?":
 
-1. Dictated by theory (add IDs from the Construct Source Table as reference)
+1. Dictated by theory (add IDs from the Construct Table as reference)
 2. Derived from theory
 3. Loosely inspired by theory
 4. Not based on focal theory, but rather on common sense or other theories

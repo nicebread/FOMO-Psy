@@ -1,0 +1,27 @@
+Question
+========
+
+I have already used `git push` and `git pull` (either in the console or a desktop app) to retrieve files from and send them to the online repository.
+
+
+Answerlist
+----------
+* Yes, off the top of my head.
+* Yes, with a little bit of internet search / consulting the course material / help files.
+* Only with a lot of ChatGPT.
+* I'm completely clueless - what are you talking about??
+
+
+Solution
+========
+This is a feedback question, there is **no correct answer**.
+All options are acceptable; the "solution" below is only a
+technical requirement for R/exams and is ignored while analyzing the results.
+
+Meta-information
+================
+exname: skill_git_1
+extype: schoice
+exsolution: 1000
+expoints: 0
+exshuffle: FALSE

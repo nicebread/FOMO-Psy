@@ -6,7 +6,7 @@ description: Intro to theory 2; Apply VAST to Bystander effect
 
 ::: {.callout-note collapse="true" title="Instructor notes"}
 - Create subfolder `Bystander_effect` in the [homework repository]({{< var homework_repo >}})
-- Create a Google Drive folder and add the Construct Source Table template.
+- Create a Google Drive folder and add the Construct Table template.
 - Add link to Google Drive template in the README of the [homework repository]({{< var homework_repo >}})
 - Add the group compositions to the README of the [homework repository]({{< var homework_repo >}})
 :::
@@ -36,12 +36,12 @@ description: Intro to theory 2; Apply VAST to Bystander effect
 
 ## Workshop (in course, as a group): Formalize the bystander effect theory
 
-- Each group makes a copy of the template file "Bystander Modell: Construct Source Table Template" that you find on Google Drive. Add your group name/letter to the file name!
+- Each group makes a copy of the template file "Bystander Modell: Construct Table Template" that you find on Google Drive. Add your group name/letter to the file name!
 - Go through the steps 4-5 in the slides on ["Applying VAST to an existing theory"](../lectures/VAST/VAST_Application.qmd)
   - Step 1 ("Choose your starting point") is already decided: We use the "[A-B Mixture Model](../lectures/VAST/VAST_Application.qmd#a-b-mixture-model-for-formalization-attempts)"
   - Step 2 ("Limit your scope") is already decided (see the quotes in the template file on Google Drive).
   - Step 3 ("Collect robust empirical phenomena") - we skip this for the moment. We will later evaluate the robustness of the bystander effect across the UTOS dimensions. <!-- NOTE: As it turns out, the assumed 1/x relationship cannot be ound at all ... But as we want to play around with this theoretical model, we ignore the empirical evidence for the moment. -->
-- Step 4 ("Collect definitions of constructs"): Fill in the Construct Source Table 
+- Step 4 ("Collect definitions of constructs"): Fill in the Construct Table 
 - Step 5 ("Distill a working definition for each construct, add relationships"): Based on the table, create a VAST display in draw.io. This should contain:
   - Definitions for the relevant constructs (maybe as separat naming relationships)
   - In particular a definition of "diffusion of responsibility" (which we already tried in the last homework - now find a consensus definition as a group)
@@ -58,5 +58,5 @@ description: Intro to theory 2; Apply VAST to Bystander effect
 
 **Deliverables**: 
 
-- Complete and clean up your *Construct Source Table* on Google Drive (*not* yet the *Variables Table*).
+- Complete and clean up your *Construct Table* on Google Drive (*not* yet the *Variables Table*).
 - Upload/commit your draw.io VAST display in the [Homework Repository]({{< var homework_repo >}}), subfolder `Bystander_effect`, with your team name as file name.

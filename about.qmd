@@ -21,5 +21,5 @@ author:
     affiliations: Max Planck Institute for Human Development
 ---
 
-This is material for the course "P19 Empirisch-psychologisches Praktikum" at the Ludwig-Maximilians-Universität München. The course was given in the winter terms 2023/24 and 2024/25 by [Felix Schönbrodt](https://www.nicebread.de).
+This is material for the course "P19 Empirisch-psychologisches Praktikum" at the Ludwig-Maximilians-Universität München. The course was given in the winter terms 2023/24, 2024/25, and 2025/26 by [Felix Schönbrodt](https://www.nicebread.de).
 The material contains contributions from [Daniel Leising](https://tu-dresden.de/mn/psychologie/iaosp/diagnostische/die-professur/inhaber-in) and [Aaron Peikert](https://www.mpib-berlin.mpg.de/person/103737), and is partially inspired by a [course](https://osf.io/abxut/) from [Noah van Dongen](http://noahvandongen.com).

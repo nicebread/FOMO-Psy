@@ -335,7 +335,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-3yYHjBOeH6demuwjsri" name="Seite-3">
-    <mxGraphModel dx="2293" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1511" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -345,15 +345,15 @@
         <mxCell id="q7kvnXsCM7nJtveq5aBc-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="140" y="470" width="360" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="q7kvnXsCM7nJtveq5aBc-3" value="NOPB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="q7kvnXsCM7nJtveq5aBc-3" value="NOPB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="220" y="350" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="q7kvnXsCM7nJtveq5aBc-4" value="helping" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="197.5" y="840" width="115" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="q7kvnXsCM7nJtveq5aBc-5" value="" style="endArrow=blockThin;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeWidth=2;endFill=1;strokeColor=#FF9933;" edge="1" parent="1" source="q7kvnXsCM7nJtveq5aBc-28" target="q7kvnXsCM7nJtveq5aBc-20">
+        <mxCell id="q7kvnXsCM7nJtveq5aBc-5" value="" style="endArrow=blockThin;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeWidth=2;endFill=1;strokeColor=#FF9933;" edge="1" parent="1" source="q7kvnXsCM7nJtveq5aBc-3" target="q7kvnXsCM7nJtveq5aBc-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="207.5" y="675" as="sourcePoint" />
+            <mxPoint x="255" y="550" as="sourcePoint" />
             <mxPoint x="367.5" y="675" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -450,25 +450,6 @@
         </mxCell>
         <mxCell id="q7kvnXsCM7nJtveq5aBc-27" value="&quot;observed helping behavior (yes/no)&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fontColor=default;strokeColor=default;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="610" y="840" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="q7kvnXsCM7nJtveq5aBc-28" value="&lt;i&gt;p&lt;/i&gt;NOPB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="220" y="500" width="70" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="q7kvnXsCM7nJtveq5aBc-29" value="&quot;perceived number of passive bystanders&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fontColor=default;strokeColor=default;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="610" y="534" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="q7kvnXsCM7nJtveq5aBc-30" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;n&lt;/font&gt;" style="endArrow=blockThin;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeWidth=2;endFill=1;" edge="1" parent="1" source="q7kvnXsCM7nJtveq5aBc-28" target="q7kvnXsCM7nJtveq5aBc-29">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="650" as="sourcePoint" />
-            <mxPoint x="450" y="650" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="q7kvnXsCM7nJtveq5aBc-31" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;c&lt;/font&gt;" style="endArrow=blockThin;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;strokeWidth=2;endFill=1;" edge="1" parent="1" source="q7kvnXsCM7nJtveq5aBc-3" target="q7kvnXsCM7nJtveq5aBc-28">
-          <mxGeometry x="0.1" y="-9" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="70" y="410" as="sourcePoint" />
-            <mxPoint x="70" y="604" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

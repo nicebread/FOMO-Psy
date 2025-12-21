@@ -27,7 +27,7 @@ revealjs-plugins:
 - Step 5: Distill a (consensus or working) definition for each construct, add relationships
 
 ::: {.callout-tip}
-The full list of formalization steps is presented on [this website](../../Formalization_steps.qmd). This slide set covers steps 2 to 6 of the broader scheme. 
+The full list of formalization steps is presented on [this website](../../formalization_steps.qmd). This slide set covers steps 2 to 6 of the broader scheme. 
 :::
 
 
@@ -191,28 +191,75 @@ Lastly, concerning different **settings** of studies, the meta analysis included
 :::
 
 
+## Interlude: Elements of a theory
+
+The *elements* of a theory are:
+
+- *concepts* (i.e., categories or dimensions that are applicable to certain objects)
+- *relationships* (typically causal) among these concepts
+
+::: footer
+Freyer, N., Lange, J., Leising, D., Musfeld, P., & Schönbrodt, F. D. (2025, July 22). Indicators for the Assessment of Theoretical Rigor. [https://doi.org/10.31234/osf.io/e7tdc_v2](https://doi.org/10.31234/osf.io/e7tdc_v2)
+:::
 
 ## Step 4: Collect definitions of constructs
-### Construct Source Table
+### Construct Table
 
 ::: {.smallest}
 - Collect quotes of definitions of constructs and their relationships from the literature. 
 - Make them atomic (i.e., split up long quotes into their basic components).
 - Assign a unique ID to each statement.
 
-This table will be called the *[Construct Source Table]{.hl}*, as it collects the original sources for the definitions of the constructs.
+This table will be called the *[Construct Table]{.hl}*, as it collects the original sources for the definitions of the constructs.
 
-<div class="table-grid">
-| ID  | Type | Short name       | Quote                                                                                                                                                             | Reference                     | rel. type (n, p, i, r, ...) | Comment | Incl. (Y/N) |
-| --- | ---- | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | --------------------------- | ------- | ----------- |
-| A   | P    | bystander effect | “The bystander effect refers to the phenomenon that an individual's likelihood of helping decreases when passive bystanders are present in a critical situation.” | Fischer et al. (2011), p. 517 | n, p                        |         | Y           |
-| B   |      |                  |                                                                                                                                                                   |                               |                             |         |             |
-| ... |      |                  |                                                                                                                                                                   |                               |                             |         |             |
+<table>
+  <thead>
+    <tr>
+      <th>Reference</th>
+      <th>Quote</th>
+      <th>Extracted element</th>
+      <th>Element type</th>
+      <th>Rel. type</th>
+      <th>Short name / associated concept</th>
+      <th>ID</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="4">Fischer et al. (2011), p. 517</td>
+      <td rowspan="4">“The bystander effect refers to the phenomenon that an individual's likelihood of helping decreases when passive bystanders are present in a critical situation.”</td>
+      <td>likelihood of helping</td>
+      <td>C</td>
+      <td>n</td>
+      <td>p(help)</td>
+      <td>A1</td>
+    </tr>
+    <tr>
+      <td>number of passive bystanders</td>
+      <td>C</td>
+      <td>n</td>
+      <td>NOPB</td>
+      <td>A2</td>
+    </tr>
+    <tr>
+      <td>critical situation</td>
+      <td>C</td>
+      <td>n</td>
+      <td>critSit</td>
+      <td>A3</td>
+    </tr>
+    <tr>
+      <td>p(help) <i>decreases</i> when NOPB &gt; 0, given critSit</td>
+      <td>HOC</td>
+      <td>p</td>
+      <td>bystander effect</td>
+      <td>A4</td>
+    </tr>
+  </tbody>
+</table>
 
-</div>
-
-- *Type* is one (or multiple) of: [P]{.hl}henomenon, [C]{.hl}oncept, [HOC]{.hl}: Higher-order Concept.
-- *Included (Y/N)*: Is this definition included in the VAST display?
+- *Element Type* is one of: [C]{.hl}oncept, [R]{.hl}elationship, [HOC]{.hl}: Higher-order Concept.
+- *Relationship Type*: One of the VAST relationship types (n, p, i, r, c, …)
 
 :::
 
@@ -221,8 +268,8 @@ This table will be called the *[Construct Source Table]{.hl}*, as it collects th
 
 ::: {.smaller}
 - Draw a VAST display with a naming (`n`) relationship for each construct.
-- Use the ID from the *Construct Source Table* as subscript for each relationship. This way your claims in the VAST display can be easily backlinked to the original sources in the literature.
-  - The small "A" subscript indicates that all relationships in this display are derived from the quote with ID "A" in the *Construct Source Table*.
+- Use the ID from the *Construct Table* as subscript for each relationship. This way your claims in the VAST display can be easily backlinked to the original sources in the literature.
+  - The small "A" subscript indicates that all relationships in this display are derived from the quote with ID "A" in the *Construct Table*.
 :::
 
 ![](img/BSE.png)

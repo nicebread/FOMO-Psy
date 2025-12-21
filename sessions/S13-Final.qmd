@@ -36,7 +36,7 @@ This time, we will need a bit longer—expect to finish around 12:30 (or possibl
 # Final report
 
 Your task is to formalize a psychological theory of your choice. 
-The goal is *not* (necessarily) to do a complete formalization, but to demonstrate that you understand the [methodological steps](../Formalization_steps.qmd) and that you are able to apply them to a new theory.
+The goal is *not* (necessarily) to do a complete formalization, but to demonstrate that you understand the [methodological steps](../formalization_steps.qmd) and that you are able to apply them to a new theory.
 
 
 
@@ -52,7 +52,7 @@ The goal is *not* (necessarily) to do a complete formalization, but to demonstra
 
 3. **Present Core Constructs of the Theory**  
    - Both in running text and in the VAST display (but try not to duplicate too much information between text and VAST display)
-   - The Construct Source Table goes into Appendix A
+   - The Construct Table goes into Appendix A
    - Justify in your text if you deviate from the original definitions.  
 
 4. **Identification of Relevant Phenomena**  

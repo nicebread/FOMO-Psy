@@ -8,7 +8,7 @@
 
 <meta name="description" content="The groups work on their formalizations">
 
-<title>Session 12 - TBD – FOMO-Psy: Formal Modelingof Psychological Theories</title>
+<title>Session 12 - How to approach the simulation – FOMO-Psy: Formal Modelingof Psychological Theories</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -218,7 +218,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Session 12 - TBD</h1>
+<h1 class="title">Session 12 - How to approach the simulation</h1>
 </div>
 
 <div>
@@ -308,7 +308,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="how-to-approach-a-simulation-conceptually-demonstrated-with-the-bystander-effect">How to approach a simulation conceptually: Demonstrated with the Bystander Effect</h2>
 <p><strong>1. What is the phenomenon we want to explain?</strong></p>
 <ul>
-<li>We mimic the study by Fischer et al.&nbsp;(<a href="https://onlinelibrary.wiley.com/doi/10.1002/ejsp.297">2006</a>), which had 86 participants in a 2 (bystander: yes vs.&nbsp;no) x 2 (danger: low vs.&nbsp;high) experimental design (we ignore the gender factor).</li>
+<li>We mimic the study by Fischer et al.&nbsp;(<a href="https://onlinelibrary.wiley.com/doi/10.1002/ejsp.297">2006</a>), which had 86 participants in a 2 (bystander: yes vs.&nbsp;no) x 2 (danger: low vs.&nbsp;high) experimental design (we ignore the gender factor). Hence, they had around 22 participants in each experimental condition.</li>
 <li>The <em>danger</em> condition was pretested on a scale from 0 (not at all dangerous) to 10 (extremely dangerous). The low danger condition had a danger value of <span class="math inline">\(M=6.27\)</span> for the bystander, the high danger condition <span class="math inline">\(M=8.53\)</span>.</li>
 <li>The <em>bystander</em> condition was manipulated with levels <span class="math inline">\(\text{NOPB}=0\)</span> (alone, no bystander) and <span class="math inline">\(\text{NOPB}=1\)</span> (one bystander)</li>
 <li>Dependent variable: We focus on the “helping response” (observed by experimenter: no=0 or yes=1)</li>
@@ -337,21 +337,43 @@ window.Quarto = {
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="dv">3</span> bystander   low danger             <span class="fl">0.401</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="dv">4</span> bystander   high danger            <span class="fl">0.457</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>While the specific numbers of course differ from the empirical study, both parts of the pattern could be replicated (main effect for alone &gt; bystander; and bystander/low danger is the lowest).</p>
-<p>Here’s on virtual sample with n=86:</p>
+<p>Here’s on virtual sample with n=22 (per group):</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>  NOPB_factor DoI_factor  helping_response</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> alone       low danger             <span class="fl">0.616</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span> alone       high danger            <span class="fl">0.570</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="dv">3</span> bystander   low danger             <span class="fl">0.395</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="dv">4</span> bystander   high danger            <span class="fl">0.384</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Here only the main effect could be found, but not the interaction.</p>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> alone       low danger             <span class="fl">0.636</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span> alone       high danger            <span class="fl">0.545</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="dv">3</span> bystander   low danger             <span class="fl">0.273</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="dv">4</span> bystander   high danger            <span class="fl">0.591</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Again, both aspects of the pattern can be found.</p>
 <p><strong>5. Run the statistical analysis on your simulated data</strong>: Is the expected pattern also statistically detectable (i.e., significant)?</p>
-<p>Fischer et al.&nbsp;ran a TBD</p>
+<p>Fischer et al.&nbsp;ran a log linear model (LOGIT) on the contingency table. We do a very similar analysis that has been taught in the Statistics 2 lecture: a logistic regression.</p>
+<p>Fischer et al.&nbsp;found: - a significant main effect for danger (<span class="math inline">\(p&lt;.04\)</span>): “Less intervention occurred in the condition with low potential danger (31.7%) than in the condition with high potential danger (41.9%).” - a significant interaction between danger and NOPB (<span class="math inline">\(p &lt; .05\)</span>)</p>
+<p><strong>Do we also find the expected 2-way interaction?</strong> This would be the focal test for the hypothesis that “increasing dangerousness diminishes the bystander effect”.</p>
+<ul>
+<li>The main effect for NOPB should be negative: more bystanders lead to less helping behavior (also for high levels of dangerousness)</li>
+<li>The interaction effect should be positive: With increasing DoI, the NOPD-effect should get less negative (i.e., more positive)</li>
+</ul>
+<p>Here are the results for two simulated samples:</p>
+<p><code>glm(helpingBeh ~ NOPB * DoI, data = df, family = binomial)</code></p>
 <p>In n=10,000:</p>
-<p>In n=86:</p>
-<ol type="1">
-<li><p>When your script runs smoothly, repeatedly re-run the simulation with new seeds and see how much the results vary between runs.</p></li>
-<li><p>(optional) Do a statistical power analysis: Create a loop around your simulation script, and let it run 10,000 times. How many of the simulations would have detected the effect with a significant p-value? That is your statistical power.</p></li>
-</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>            Estimate Std. Error z value <span class="fu">Pr</span>(<span class="sc">&gt;</span><span class="er">|</span>z<span class="sc">|</span>)    </span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>(Intercept)  <span class="fl">0.42915</span>    <span class="fl">0.09819</span>   <span class="fl">4.371</span> <span class="fl">1.24e-05</span> <span class="sc">**</span><span class="er">*</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>NOPB        <span class="sc">-</span><span class="fl">1.51036</span>    <span class="fl">0.13840</span> <span class="sc">-</span><span class="fl">10.913</span>  <span class="sc">&lt;</span> <span class="fl">2e-16</span> <span class="sc">**</span><span class="er">*</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>DoI         <span class="sc">-</span><span class="fl">0.03031</span>    <span class="fl">0.13123</span>  <span class="sc">-</span><span class="fl">0.231</span>    <span class="fl">0.817</span>    </span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>NOPB<span class="sc">:</span>DoI     <span class="fl">1.11416</span>    <span class="fl">0.18476</span>   <span class="fl">6.030</span> <span class="fl">1.64e-09</span> <span class="sc">**</span><span class="er">*</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>–&gt; here, both the main effect and the interaction are significant, in the expected direction.</p>
+<p>In n=22:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>            Estimate Std. Error z value <span class="fu">Pr</span>(<span class="sc">&gt;</span><span class="er">|</span>z<span class="sc">|</span>)    </span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>(Intercept)    <span class="fl">1.640</span>      <span class="fl">2.106</span>   <span class="fl">0.779</span>   <span class="fl">0.4361</span>  </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>NOPB          <span class="sc">-</span><span class="fl">6.483</span>      <span class="fl">3.066</span>  <span class="sc">-</span><span class="fl">2.115</span>   <span class="fl">0.0345</span> <span class="sc">*</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>DoI           <span class="sc">-</span><span class="fl">1.715</span>      <span class="fl">2.801</span>  <span class="sc">-</span><span class="fl">0.612</span>   <span class="fl">0.5404</span>  </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>NOPB<span class="sc">:</span>DoI       <span class="fl">7.845</span>      <span class="fl">4.058</span>   <span class="fl">1.933</span>   <span class="fl">0.0532</span> .</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>–&gt; here, both effects are in the correct direction, but the interaction falls short of significance.</p>
+<p><strong>6. When your script runs smoothly, repeatedly re-run the simulation with new seeds</strong> and see how much the results vary between runs.</p>
+<p>(not shown here)</p>
+<p><strong>7. (optionally) Do a statistical power analysis</strong>: Create a loop around your simulation script, and let it run 10,000 times. How many of the simulations would have detected the effect with a significant p-value? That is your statistical power.</p>
+<p>With n=22 per group (as in Fischer et al.), only <strong>7.4%</strong> of all simulated samples showed a significant main effect of NOPB at <span class="math inline">\(p &lt; .05\)</span> - marginally above the chance level of 5%. Hence, the first simulated sample with n=22 (see above) was lucky to find a significant effect. Only <strong>5.5%</strong> showed a significant interaction.</p>
+<p>For achieving a power of 80% in the main effect, one would need around 700 participants in each group, any many more for a decent power for the interaction effect.</p>
+<p>Of course these power calculations fully depend on the assumed model parameters.</p>
 </section>
 <section id="deliverable" class="level2">
 <h2 class="anchored" data-anchor-id="deliverable">Deliverable:</h2>

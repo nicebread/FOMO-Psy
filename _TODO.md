@@ -1,13 +1,72 @@
+## Functional forms
+
+See talk by James Steele (PSE8):
+Levels of explanation: van Rooij & ???
+
+It is OK to postulate an (empirically confirmed) functional form (algorithmic explanation), without knowing what exact physical mechanism produces that form. (i.e., why do we see that form and not another). It still is a useful step; in psych we probably never come to a mechanistic level.
+
+Also watch out for non-linear relationships: Then the strength of an effect (if you pick two specific points for the manipulation) differs depending on the location on the metric independent variable). See Bless & ?: Nature Review: linearity
+
+## Evaluation / Feedback:
+
+Aaron Hinweis:
+
+- die Unplausibilität von linearen Annahmen sieht man sehr deutlich, wenn man über die Zeit simuliert: Dann sollten laut der Modelle irgendwelche Leute explodieren.
+
+
+
+Inhalte im Studium unterbringen?
+- Vorteil ist schon das Praktische.
+- 4. Semester Diagnostik 2; dann Übungsblätter, die aber nicht sehr anwendungsnah waren; diese ÜBs reduzieren und statt dessen Theorientwicklung.
+- VL in Stat 2 zu Replikationskrise war etwas zäh
+	- Dort könnte man VAST zeigen; Denkweise: Wie reduziere ich? Was sind die Ein- und Ausgänge
+	- Rahmenmodell: Theorie - Phänomen - Daten --> zeigen, dass Replikationskrise nur den einen Pfad betrifft.
+- Stat 1 und 2 Seminare: Zeitlich überschaubar für 9 ECTS - da wäre noch Luft, was reinzubringen (qualitative Methoden)
+	- Aber: Das *auch* noch im 1. Semester (mit der ganzen Statistik) - das überfordert.
+- Klausurrelevant machen - nicht zu viel, Statistik stresst die Leute eh schon. Aber ohne Klausurrelevanz macht man halt nichts.
+- Thematisch passt es eigentlich am besten zur Grundlagenvorlesung "Theoretische Grundlagen und ..."
+	- Methoden der Datenerhebung?
+- Nicht in der Tiefe für alle - abgespeckte Version. Vertiefung dann im 5. Semester für die Nerds
+- Bei den DAGs in Stat 2: VAST als Variante bringen.
+- Oder im Master bei den DAGs bringen?
+
+
+
+
+
+## Evaluation des Modelloutputs
+
+From Kohrt preprint:
+"In their work on redoing simulation models, Axtell et al. (1996) differentiate three categories of model equivalence: numerical identity (i.e., exactly the same numbers), distributional equivalence (same statistical properties) – for which Sego et al. (2024) developed the Empirical Characteristic Function Equality Convergence Test – and relational equivalence (same relationships between variables). Similar categories are described by Ivie and Thain (2019). However, a recent need has been formulated for another category in case the original work contains insufficient information (Zhang & Robinson, 2021)and one is left with little guidance on what makes a result “materially the same”. "
+
+## Sitzungsaufteilung:
+
+Wir hätten 1 Sitzung mehr für die eigene Theorie gebraucht.
+
 ## Wahl der passenden Theorie
 
 Wenn man Individual- und Gruppenebene hat (z.B. Group Polarization, Social Loafing) wird es tendenziell komplizierter, weil beide Ebenen dargestellt werden sollten, und die Variablen/Outcomes müssen zwischen den Ebenen aggregiert/übersetzt werden.
+
+Feedback Martje:
+Langfristig würde ich empfehlen die Richtlinien für die Theoriespende nochmal anzupassen, damit es in der Zeit besser machbar ist:
+
+Es sollte zusätzlich zum Theoriepaper mind. ein empirisches Paper mitgeschickt werden, das Vorschläge zur Operationalisierung enthält. 
+--> Das ist beim simulieren ganz wichtig!! Eine konkrete Studie, die nachgebaut werden kann.
+
+Vielleicht könnte man auch eine Vorgabe machen, was die maximale Anzahl von Variablen oder Beziehungen zwischen Variablen angeht, die in die Formel eingehen können, damit die Studierenden diese Reduktion nicht selber vornehmen müssen. 
+Ich hätte direkt mehr Literatur mitschicken können und auch eine reduziertere Variante der Theorie vorstellen können, war mir aber dessen nicht bewusst. 
+
 
 ## Resources
 
 Advent(ure) in System Seeing: https://www.ruthmalan.com/Advent.html
 
+## Create a collection of "standard models" / building blocks
 
-## Intro:
+- Expectation x Value models
+- Theory of planned behavior?
+
+## Intro Lecture:
 
 Das U-Bahn Beispiel aus der Präsentation herauslösen und mit Occams Razor kombinieren (als separaten Vortrag).
 
@@ -32,7 +91,7 @@ Currently, we have 3 VAST displays to be created in the homeworks:
    1. Learning goal: Get acquainted to the VAST system. Next time: Make the underlying verbal statements a bit easier/less complex.
 2. From S3 --> S4: Groups create a VAST display for the bystander effect and parts of the theory
    1. Learning goal: Realize the difficulties in formalizing a narrative. Discuss the model in a group. In particular the 5-step model is difficult to model (and probably leads to many different solutions).
-   2. Next time: Make clear what the goal is: Formalize what the authors say - including their vagueness and inconsistency! Not "fill the gaps" but rather "show the gaps". (We will fil the gaps in the next formalization step exercise)
+   2. Next time: Make clear what the goal is: Formalize what the authors say - including their vagueness and inconsistency! Not "fill the gaps" but rather "show the gaps". (We will fill  the gaps in the next formalization step exercise)
 3. From S4 --> S5: Groups create a VAST display for a reduced and extended bystander model ("dangerousness effect").
    1. Learning goal: Now we aim for a precise model. We fill the gaps (and thereby deviate from the original sources). Do not have c, p, or t relationships that originate from a HOC or lead to a HOC.
 

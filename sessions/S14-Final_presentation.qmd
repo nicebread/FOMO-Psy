@@ -1,0 +1,33 @@
+---
+title: Session 14 - Final presentations
+number-sections: false
+description: The groups present their work
+---
+
+# Overview
+
+| Topic                                            | Duration              | Notes |
+| ------------------------------------------------ | --------------------- | ----- |
+| Groups finalize models, plan their presentations | 60                    |       |
+| Group presentations                              | 25 min each (125 min) |       |
+: {.striped}
+
+
+## Presentation content
+
+Important: I do not expect that you already finished every step!
+
+- We will meet as usual at 8:30. The groups will then have 1 hour to finalize their work and presentations to reach an (interim) result.
+- From 9:30 to approximately 12:00, the groups will present their current progress.
+    - Don't be alarmed: Some guests who are interested in the formalizations will be attending.
+    - Please don't stress too much about the presentation: The goal is not to sell a perfect product. Instead, it should be more like a "workshop insight" — just show what you have done, where you currently stand, and what issues still need to be solved, along with your next steps.
+    - Presentation structure:
+      1. Present the phenomenon and (verbal) theory on one slide
+      2. Show and guide us through the VAST
+      3. If available: Present initial formulas and simulations
+      4. Identify open questions
+    - The actual presentation should take a maximum of 10 minutes so that we have about 10 minutes for discussion and joint reflection.
+- Afterward, I will provide the final information on the term paper, and we will discuss the evaluation.
+
+This time, we will need a bit longer — expect to finish around 12:30 (or possibly a bit later). We will, of course, include breaks.
+

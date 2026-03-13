@@ -154,6 +154,7 @@ Both Github and Zenodo (and probably more repositories) parse an existing `CITAT
 ├── README.md (this should link to any associated Google docs, if applicable)
 ├── doc/ (all documentation)
 │   ├── VAST_display.drawio
+│   ├── VAST_display.jpg (or png or PDF: So that users can open it directly)
 │   ├── tables.pdf (copies of your construct table etc.)
 │   └── ...
 ├── simulation/
@@ -162,7 +163,7 @@ Both Github and Zenodo (and probably more repositories) parse an existing `CITAT
 │   │   └── dat.csv
 │   ├── plots/
 │   │   └── phenomenon1.png
-│   ├── 01-functions.R (or any other name)
+│   ├── 01-functions.R
 │   ├── 02-simulations.R
 │   ├── 03-analysis.R
 │   └── ...

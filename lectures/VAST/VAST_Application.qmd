@@ -84,8 +84,9 @@ Most theories in psychology are too fuzzy and broad to be formalized in one roun
 
 Robustness of phenomena has two dimensions:
  
-1. **Generalizability** (cf. [UTOS framework](../lectures/Intro1/FOMO-Psy_1_Theory_crisis#the-relation-of-data-and-phenomena-2)): The effect has been shown for different [U]{.hl}nits, with different operationalizations of [T]{.hl}reatments and [O]{.hl}utcomes, and in multiple [S]{.hl}ettings.
+1. **Generalizability** (cf. [UTOS framework](../Intro1/FOMO-Psy_1_Theory_crisis#generalization)): The effect has been shown for different [U]{.hl}nits, with different operationalizations of [T]{.hl}reatments and [O]{.hl}utcomes, and in multiple [S]{.hl}ettings.
 2. Strong empirical **evidence** for each/many of the generalizations.
+
 
 
 ## Step 3: Collect robust empirical phenomena

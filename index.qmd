@@ -20,9 +20,9 @@ In the empirical-psychological practical course ‘Formal Modelling in Psycholog
 As a reaction to the replication crisis, there has been a call for better theories. One branch of that movement aims to translate verbal and conceptual theories into formal, mathematical models. These models serve multiple purposes: they provide precise definitions of concepts, enable rigorous testing of hypotheses, provide clearer predictions, and can provide a framework to unify seemingly disparate results. They also sharpen the focus on ‘gaps’ in the usually hopelessly underspecified theories in psychology.
 
 In this course, students will be introduced to basic principles of formal modelling and equipped with tools they need to derive models from existing verbal theories. 
-Accordingly, we will deal a lot with the implementation in programming languages. We will probably do a lot of programming in R, possibly also in NetLogo (for ABMs).
+Accordingly, we will deal a lot with the implementation in programming languages, mostly in R.
 
-We will try to collaboratively formalise verbal psychological theories so that they can be translated and implemented in a data-generating model that allows to regenerate the phenomenon of interest.
+We will try to collaboratively formalise verbal psychological theories so that they can be translated and implemented in a data-generating model that allows to regenerate the phenomenon of interest. We will not run an empirical study and will not collect data.
 
 We will discuss and apply aspects of quality assurance in theorizing (reproducibility, version control, sensitivity analyses, well-documented code).
 

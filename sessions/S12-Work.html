@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -73,7 +73,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-f93c2b1f3f0577f377aefa4848a86a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -146,8 +146,6 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">FOMO-Psy: Formal Modeling<br>of Psychological Theories</span>
     </a>
@@ -360,18 +358,18 @@ window.Quarto = {
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>NOPB        <span class="sc">-</span><span class="fl">1.51036</span>    <span class="fl">0.13840</span> <span class="sc">-</span><span class="fl">10.913</span>  <span class="sc">&lt;</span> <span class="fl">2e-16</span> <span class="sc">**</span><span class="er">*</span></span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>DoI         <span class="sc">-</span><span class="fl">0.03031</span>    <span class="fl">0.13123</span>  <span class="sc">-</span><span class="fl">0.231</span>    <span class="fl">0.817</span>    </span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>NOPB<span class="sc">:</span>DoI     <span class="fl">1.11416</span>    <span class="fl">0.18476</span>   <span class="fl">6.030</span> <span class="fl">1.64e-09</span> <span class="sc">**</span><span class="er">*</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>–&gt; here, both the main effect and the interaction are significant, in the expected direction.</p>
+<p>–&gt; here, both the main effect and the interaction are significant in the expected direction. Given the huge sample size, we can expect that the coefficients are very close to the true values.</p>
 <p>In n=22:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>            Estimate Std. Error z value <span class="fu">Pr</span>(<span class="sc">&gt;</span><span class="er">|</span>z<span class="sc">|</span>)    </span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>(Intercept)    <span class="fl">1.640</span>      <span class="fl">2.106</span>   <span class="fl">0.779</span>   <span class="fl">0.4361</span>  </span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>NOPB          <span class="sc">-</span><span class="fl">6.483</span>      <span class="fl">3.066</span>  <span class="sc">-</span><span class="fl">2.115</span>   <span class="fl">0.0345</span> <span class="sc">*</span></span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>DoI           <span class="sc">-</span><span class="fl">1.715</span>      <span class="fl">2.801</span>  <span class="sc">-</span><span class="fl">0.612</span>   <span class="fl">0.5404</span>  </span>
 <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>NOPB<span class="sc">:</span>DoI       <span class="fl">7.845</span>      <span class="fl">4.058</span>   <span class="fl">1.933</span>   <span class="fl">0.0532</span> .</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>–&gt; here, both effects are in the correct direction, but the interaction falls short of significance.</p>
+<p>–&gt; here, both effects are in the correct direction, but the interaction falls short of significance. Also note that the coefficients are massively overestimated (e.g., -6.5 vs.&nbsp;-1.5 in the upper simulation).</p>
 <p><strong>6. When your script runs smoothly, repeatedly re-run the simulation with new seeds</strong> and see how much the results vary between runs.</p>
 <p>(not shown here)</p>
 <p><strong>7. (optionally) Do a statistical power analysis</strong>: Create a loop around your simulation script, and let it run 10,000 times. How many of the simulations would have detected the effect with a significant p-value? That is your statistical power.</p>
-<p>With n=22 per group (as in Fischer et al.), only <strong>7.4%</strong> of all simulated samples showed a significant main effect of NOPB at <span class="math inline">\(p &lt; .05\)</span> - marginally above the chance level of 5%. Hence, the first simulated sample with n=22 (see above) was lucky to find a significant effect. Only <strong>5.5%</strong> showed a significant interaction.</p>
+<p>With n=22 per group (as in Fischer et al.), only <strong>7.4%</strong> of all simulated samples showed a significant main effect of NOPB at <span class="math inline">\(p &lt; .05\)</span> - marginally above the chance level of 5%. Hence, the first simulated sample with n=22 (see above) was very lucky to find a significant main effect. Only <strong>5.5%</strong> showed a significant interaction.</p>
 <p>For achieving a power of 80% in the main effect, one would need around 700 participants in each group, any many more for a decent power for the interaction effect.</p>
 <p>Of course these power calculations fully depend on the assumed model parameters.</p>
 </section>

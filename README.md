@@ -33,15 +33,9 @@ quarto update extension nicebread/quarto-FS
   - Reveal-js slides are styled with the `_extensions/nicebread/nicetheme` theme
   - When the same slides are rendered as the continuous webpage (i.e., not as slides), they are styled with the general `styles.css` file in the top level folder. (This was relevant for the .alert class, which was initially displayed as white text on white background).
 - Right arrow (→): `&rarr;` Double headed arrow (↔): `&harr;`
-- Full processing:
 
-```sh
-quarto render
-quarto publish gh-pages
+The repository contains a Github workflow that automatically renders the website when you push to main.
 
-# With this option, it does not wait until the browser opens, and does not wait for your "Y" reply if you really want to publish:
-quarto publish gh-pages --no-browser --no-prompt
-```
 
 To make this website/repository reusable for multiple runs of the course, I define some the course-specific content (e.g. specific links) as parameters in the `_variables.yml` file. This way, I can easily change the content for the next iteration of the course.
 Reference the variables in any .qmd file by using `{{< var var_name >}}`, e.g. `{{< var homework_repo >}}`.

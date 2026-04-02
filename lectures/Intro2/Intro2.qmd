@@ -314,7 +314,7 @@ A model is one possible implementation of a set of theoretical key assumptions. 
 ### "Die Aura des assoziativ Mitgedachten"
 
 ::: {.small}
-> In der sozialwissenschaftlichen Literatur finden sich oft Argumente, die gegen eine Formalisierung sprechen, wie z.B. die folgende Bemerkung: "Was bei der Formalisierung notwendig verloren geht, ist die Aura des assoziativ Mitgedachten, die verbale Aussagen stets umgibt, über ihren ausdrücklichen Gehalt hinaus mit Wirklichkeit sättigt und auch in Grenzfällen noch zutreffend erscheinen lässt" (Mayntz 1967: 28, vgl. auch Harbordt 1974:271). 
+> In der sozialwissenschaftlichen Literatur finden sich oft Argumente, die gegen eine Formalisierung sprechen, wie z.B. die folgende Bemerkung: "Was bei der Formalisierung notwendig verloren geht, ist die Aura des assoziativ Mitgedachten, die verbale Aussagen stets umgibt, über ihren ausdrücklichen Gehalt hinaus mit Wirklichkeit sättigt und auch in Grenzfällen noch zutreffend erscheinen lässt" (Mayntz 1967, p. 28, vgl. auch Harbordt 1974, p. 271). 
 >
 
 ::: {.fragment}

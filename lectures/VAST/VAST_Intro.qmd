@@ -546,7 +546,7 @@ holds the view on the right-hand side. Now the the display is not logically inco
 
 - Relationships between constructs can be ...
 	- on a theoretical level. Then it's typically a causal path (`c`)
-	- on empirical level: A relationship has been found! This is a prediction path (`p`)
+	- on empirical level: A relationship has been found! This is either a prediction path (`p`) for correlational research or a causal path (`c`) for experimental research
 	- Research cycle: One author's exploratory `p`-path is the next author's theoretical `c`-path
 - Consider what you want to formalize:
   - A certain author's theoretical point of view at a certain point in time?

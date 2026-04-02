@@ -490,6 +490,24 @@ von Uexküll, J. (1909). Umwelt und Innenwelt der Tiere. Berlin: J. Springer, p.
 :::
 
 
+## "Der Wirklichkeit Gewalt antun"
+### Popper's version
+
+:::: {.columns}
+::: {.column width='70%'}
+Karl Popper once described science “**as the art of systematic over-simplification — the art of discerning what we may with advantage omit**”.
+:::
+
+::: {.column width='30%'}
+![Sir Karl Popper, 1902 - 1994](img/Karl_Popper.jpg)
+:::
+::::
+
+::: footer
+Popper, 1988, p. 44
+:::
+
+
 ## "Der Wirklichkeit Gewalt antun" {transition="slide-in fade-out"}
 ![](img/network.png)
 

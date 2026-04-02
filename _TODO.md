@@ -1,7 +1,50 @@
+## UTOS: Create a quiz for learning the distinction between evidence for, against and inconclusive
+
+Make several examples for each UTOS dimension, which vary:
+- evidence for, against, inconclusive
+- the judgement: The phenomenon is robust, not robust, robustness unknown
+
+Any "evidence against" or "not robustness" judgement requires null results (and ideally Bayes factors against H1). As null results rarely are published, our judgement typically is either "robust" or "unknown".
+
+
+
+## Toolbox an typischen Modellierungsbausteinen
+
+Am Ende der VAST-Einführung?
+
+- Entering the psyche: From manifest/objective features to subjective representations
+  - Identity function
+  - Identity + noise
+  - Biases (i.e., systematic deviations from the identity function beyond the unsystematic noise)
+  - Think about the capabilities of our sensors. E.g. we can quite well differentiate the distance to another person within 10m. But between 500 and 800m - how precise could you distinguish that?
+- Exiting the psyche
+  - How are internal drives, motivations, attitudes (which are typically modelled as continuous variables) translated into behavior?
+  - Also ticking a questionnaire box is an overt behavior! There is a whole branch of psychometrics ("Item Response Theory") that models the relationship between latent traits and observed responses.
+  - Dichotomous behavior: Convert internal drive into a probability, then do a random Bernoulli draw
+  - Continous behavior (e.g., strength of a response): Linear transformation from internal to external variable
+- Expectation x Value models
+
+
+## Wolkenbild mit Theorie --> Modell --> ...
+
+Das eine lässt immer mehrere Varianten zu.
+Man kann es aber auch so sagen: Das übergeordnete setzt constraints - es sind zwar mehrere, aber halt auch nicht *alle* denkbaren Modellvarianten möglich.
+
+## Formalization Slides Intro (in der Nähe von Popper)
+
+> Researchers in social psychology, for example, report a lack of knowledge as their main challenge for implementing theory specification (Glöckner, Gollwitzer, et al., 2024).
+
+
 ## Functional forms
 
 See talk by James Steele (PSE8):
 Levels of explanation: van Rooij & ???
+
+Schau dir mal die "Levels of Analysis" von Marr (1982) an:
+- https://wiki.qri.org/wiki/Marr%27s_Levels_of_Analysis
+- https://nancysbraintalks.mit.edu/video_page/12-how-can-we-study-human-mind-and-brain-marrs-levels-analysis/
+- https://journals.sagepub.com/doi/epub/10.1177/1745691620970604
+
 
 It is OK to postulate an (empirically confirmed) functional form (algorithmic explanation), without knowing what exact physical mechanism produces that form. (i.e., why do we see that form and not another). It still is a useful step; in psych we probably never come to a mechanistic level.
 
@@ -43,19 +86,29 @@ From Kohrt preprint:
 
 Wir hätten 1 Sitzung mehr für die eigene Theorie gebraucht.
 
-## Wahl der passenden Theorie
+## How to choose a good formalization target theory
 
-Wenn man Individual- und Gruppenebene hat (z.B. Group Polarization, Social Loafing) wird es tendenziell komplizierter, weil beide Ebenen dargestellt werden sollten, und die Variablen/Outcomes müssen zwischen den Ebenen aggregiert/übersetzt werden.
-
-Feedback Martje:
-Langfristig würde ich empfehlen die Richtlinien für die Theoriespende nochmal anzupassen, damit es in der Zeit besser machbar ist:
-
-Es sollte zusätzlich zum Theoriepaper mind. ein empirisches Paper mitgeschickt werden, das Vorschläge zur Operationalisierung enthält. 
+- Be careful with theories involving groups: Wenn man Individual- und Gruppenebene hat (z.B. Group Polarization, Social Loafing) wird es tendenziell komplizierter, weil beide Ebenen dargestellt werden sollten, und die Variablen/Outcomes müssen zwischen den Ebenen aggregiert/übersetzt werden.
+- Es sollte zusätzlich zum Theoriepaper mind. ein empirisches Paper mitgeschickt werden, das Vorschläge zur Operationalisierung enthält. 
 --> Das ist beim simulieren ganz wichtig!! Eine konkrete Studie, die nachgebaut werden kann.
+   - Don't use a study template that requires complex statistical analyses that you have not learned yet.
+- Vielleicht könnte man auch eine Vorgabe machen, was die maximale Anzahl von Variablen oder Beziehungen zwischen Variablen angeht, die in die Formel eingehen können, damit die Studierenden diese Reduktion nicht selber vornehmen müssen. 
+  - Rough guidelines:
+    - not more than 6-8 constructs overall
+    - not more than 4 non-trivial* functional relationships (* a trivial relationship would be, e.g., the identity function: Humans perceive an external variable perfectly as it is, $x_{perceived} = 1*x_{external}$; or just adding some noise, such as: $x_{perceived} = 1*x_{external} + e; e \sim \mathcal{N}(\mu=0,\,\sigma=0.1)$)
 
-Vielleicht könnte man auch eine Vorgabe machen, was die maximale Anzahl von Variablen oder Beziehungen zwischen Variablen angeht, die in die Formel eingehen können, damit die Studierenden diese Reduktion nicht selber vornehmen müssen. 
-Ich hätte direkt mehr Literatur mitschicken können und auch eine reduziertere Variante der Theorie vorstellen können, war mir aber dessen nicht bewusst. 
 
+
+## Example for a proto-theory / "borrowed" theory
+
+Die TCM-Idee der "Theorieübernahme" aus anderen Wissenschaften ist aktuell rausgeflogen.
+Aber man könnte das physikalische Bild der Diffusion als Beispiel nehmen:
+
+Analogy: Diffusion of molecules in gases.
+Possible implications:
+(a) Responsibility is a fixed quantity
+(b) Diffusion means that it flows to all corners of the room until the pressure is equally distributed. Adding more persons to the group is like opening up new adjactent rooms, where the gases diffuse into.
+(c) If the room suddenly gets larger, the gas does not suddenly jump to a uniform distribution - it slowly diffuses to equalize the pressure/concentration of molecules. Is that the same in groups? If you start alone, and then more people are added to the group?
 
 ## Resources
 

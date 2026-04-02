@@ -5,7 +5,7 @@ subtitle: "Winter term 2025/26, LMU Munich"
 
 *Note: While most content is in English, some administrative parts are in German.*
 
-This course is held in the 5th semester of the BSc. Psychology at the Department Psychology, Ludwig-Maximilians-Universität München.
+This course is held in the 5th semester of the BSc. Psychology at the [Department Psychology, Ludwig-Maximilians-Universität München](https://lmu.de/psy).
 
 See the [Sessions](sessions/sessions_overview.qmd) section for a description of each session. In these sessions, sometimes [lecture slides](lectures/lecture_overview.qmd) are linked.
 

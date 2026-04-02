@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,6 +10,9 @@
 
 <title>Session 13 - How to write the report – FOMO-Psy: Formal Modelingof Psychological Theories</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -33,15 +36,14 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f93c2b1f3f0577f377aefa4848a86a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-baf333abd407eb98d8b56c64a19f8930.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="../common/webex.css">
@@ -101,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Lectures</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../formalization_steps.html"> 
+    <a class="nav-link" href="../formalization_steps.qmd"> 
 <span class="menu-text">Formalization<br>Steps</span></a>
   </li>  
   <li class="nav-item">
@@ -203,29 +234,19 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <section id="final-report" class="level2">
 <h2 class="anchored" data-anchor-id="final-report">Final report</h2>
-<p>Your task is to formalize a psychological theory of your choice. The goal is <em>not</em> (necessarily) to do a complete formalization, but to demonstrate that you understand the <a href="../formalization_steps.html">methodological steps</a> and that you are able to apply them to a new theory.</p>
+<p>Your task is to formalize a psychological theory of your choice. The goal is <em>not</em> (necessarily) to do a complete formalization, but to demonstrate that you understand the <a href="../formalization_steps.qmd">methodological steps</a> and that you are able to apply them to a new theory.</p>
 <section id="possible-outline-of-the-final-report" class="level3">
 <h3 class="anchored" data-anchor-id="possible-outline-of-the-final-report">Possible Outline of the Final Report</h3>
 <p><em>In general: Other meaningful ways of presentation are possible.</em></p>
-<ol type="1">
-<li><strong>Define the Objective</strong>
+<ol start="0" type="1">
+<li><p><strong>Abstract</strong></p></li>
+<li><p><strong>Define the Objective</strong></p>
 <ul>
 <li>The aim of the following work is to formalize an existing psychological theory.</li>
 </ul></li>
-<li><strong>Brief Verbal Introduction to the Selected Theory</strong>
+<li><p><strong>Identification of Relevant Phenomena</strong>: What is the explanatory target?</p>
 <ul>
-<li>A justification for your choice is possible but not necessary.</li>
-</ul></li>
-<li><strong>Present Core Constructs of the Theory</strong>
-<ul>
-<li>Both in running text and in the VAST display (but try not to duplicate too much information between text and VAST display)</li>
-<li>The Construct Table goes into Appendix A</li>
-<li>Justify in your text if you deviate from the original definitions.</li>
-</ul></li>
-<li><strong>Identification of Relevant Phenomena</strong>
-<ul>
-<li>Present a phenomenon to be explained (possibly multiple, but one is enough).<br>
-</li>
+<li>Present a phenomenon to be explained (possibly multiple, but one is enough). Give a very short description of a prototypical experiment that produces the phenomenon (ideally, the study that you later use as the template for your simulation).</li>
 <li>Search for a meta-analysis of your focal phenomenon</li>
 <li>Only if no meta-analysis is available, or it is not helpful: Search for 1-2 exemplary primary studies. You do <em>not</em> have to conduct a full-blown meta-analysis.</li>
 <li>Based on this (limited, not exhaustive) literature: Assess the robustness of the phenomena by referring to the two dimensions of robustness:
@@ -236,24 +257,34 @@ ul.task-list li input[type="checkbox"] {
 <li>At the end of the section, give a clear answer “The phenomenon can (not) be considered robust because, …”.</li>
 <li>Note: If your starting point is more the phenomenon (and less the narrative theory), it might make sense to switch the order of sections 3 and 4)</li>
 </ul></li>
-<li><strong>Formulation of the (Proto-)Theory</strong>
+<li><p><strong>Brief Verbal Introduction to the Selected Theory</strong></p>
+<ul>
+<li>Should be narrative - i.e., a reader should understand it without referring to the VAST display or the Construct Table yet. The goal of this section is to give an understandable, plain-language overview for readers new to the topic.</li>
+</ul></li>
+<li><p><strong>Present Core Constructs of the Theory</strong></p>
+<ul>
+<li>Now you get precise!</li>
+<li>Both in running text and in the VAST display (but try not to duplicate too much information between text and VAST display)</li>
+<li>The Construct Table goes into Appendix A. But the main constructs and arguments should be presented in the main text, so that they are understandable to readers without refering to the details in the Appendix.</li>
+<li>Justify in your text if you deviate from the original definitions.</li>
+</ul></li>
+<li><p><strong>Formulation of the (Proto-)Theory</strong></p>
 <ul>
 <li><strong>VAST:</strong> Show relationships between constructs and phenomena.<br>
 </li>
-<li><strong>Text:</strong> Justification of relationships (with references to the IDs in Appendix A).</li>
+<li><strong>Text:</strong> Justification of relationships (with references to the IDs in Appendix A): Do not only describe the existence of a relationship, but make it plausible (narrative): Why should a reader “buy” that this relationship makes sense?</li>
 <li>How does the theory explain the emergence of the phenomena?</li>
 </ul></li>
-<li><strong>Development of a Formal Model</strong>
+<li><p><strong>Development of a Formal Model</strong></p>
 <ul>
 <li>Explain if/how the formalized model deviates from the “larger” theoretical model (e.g., narrowing to specific parts of the theory; extensions that were necessary; additional assumptions).<br>
 </li>
 <li><strong>Variable Table:</strong> Define variables (value range, scale level, anchors).</li>
-<li><strong>Relationships Table (can also be presented in running text):</strong> Define functional relationships (again, with references to the IDs in Appendix A).<br>
-</li>
-<li>Include small plots of each relationship. Provide a “plain text summary” of the key message of the plot (“What can we see here?”)</li>
+<li><strong>Relationships Table:</strong> Define functional relationships (again, with references to the IDs in Appendix A). This table is so important that it should be presented in the main text.</li>
+<li>Include small plots of each relationship (except trivial relationships). Provide a “plain text summary” of the key message of the plot (“What can we see here?”)</li>
 <li>Include a plot that shows the behavior of the combined system (typically, the behavior of the psi-function). This takes all measured or manipulated variables as input and shows the system’s output (combining all intermediate computational steps)</li>
 </ul></li>
-<li><strong>Evaluation of the Formal Model</strong>
+<li><p><strong>Evaluation of the Formal Model</strong></p>
 <ul>
 <li>Simulate a virtual sample:
 <ul>
@@ -271,7 +302,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li>No further sensitivity analyses are required within the scope of the final report.</li>
 </ul></li>
-<li><strong>Discussion: Meta-Reflection</strong>
+<li><p><strong>Discussion: Meta-Reflection</strong></p>
 <ul>
 <li>From your personal perspective: How did the individual formalization steps work with this theory?
 <ul>
@@ -344,13 +375,15 @@ ul.task-list li input[type="checkbox"] {
 <p>Die Eigenleistung besteht in folgenden Aspekten:</p>
 <ul>
 <li>Die Beschreibung des Modells wird individuell geschrieben (aber wird vermutlich sehr ähnlich sein)</li>
-<li>Das Basismodell wird durch mindestens eine Komponente individuell und selbständig erweitert, z.B.:
+<li>Das Basismodell wird durch mindestens eine Komponente individuell und selbständig erweitert. Dazu gibt es viele Möglichkeiten, z.B.:
 <ul>
 <li>ein weiterer Mediator oder Moderator im VAST (und entsprechend in den Simulationen)</li>
 <li>eine neue experimentelle Simulationsbedingung (d.h., es werden andere Settings für die Modellparameter systematisch untersucht, und ob/wann das Phänomen noch vom Modell produziert wird)</li>
 <li>Ein anderes Phänomen wird untersucht, welches aber auch durch das Modell abgedeckt ist/sein könnte. Das neue Phänomen wird durch eine neue Literaturrecherche (die sich z.B. auf eine andere Metaanalyse bezieht) bzgl. seiner Robustheit evaluiert.</li>
+<li>Verteilung von Variablen oder funktionale Zusammemhänge, die im Basismodell einfach aufgrund von Plausibilität angenommen wurden, werden basierend auf empirischer Evidenz kalibriert (also z.B. anhand von in Artikeln berichteten <span class="math inline">\(M\)</span> und <span class="math inline">\(SD\)</span>, oder sogar durch eigene Reanalysen von offenen Daten)</li>
 </ul></li>
 <li>Gleich das erweiterte Modell präsentieren (nicht separat erst das Basismodell und dann auch noch das erweiterte Modell)</li>
+<li>Die Eigenleistung im Modell sollte deutlich im Bericht markiert werden (z.B. durch einen eigenen Abschnitt, oder sprachlich klar kennzeichnen, was über das Gruppen-Basismodell hinaus geht)</li>
 <li>Jeder sollte ein eigenes Github-Repositorium einreichen/verlinken. D.h., man macht eine Kopie/Fork von dem gemeinsamen Basismodell, und arbeitet dann darin weiter.</li>
 </ul>
 

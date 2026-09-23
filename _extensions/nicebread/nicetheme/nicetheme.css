@@ -15,9 +15,13 @@
   color: #9a2515 !important;
 }
 
-/* drop-shadow for images */
-.ds {
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+/* visually separate screenshots from the page background */
+.screenshot {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+  padding: 4px;
 }
 
 
@@ -25,3 +29,4 @@
   --mermaid-node-fg-color: #ff0000;
   --mermaid-label-fg-color: #ff0000;
 } */
+

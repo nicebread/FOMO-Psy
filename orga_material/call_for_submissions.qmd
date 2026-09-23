@@ -32,7 +32,7 @@ Here are some FAQs:
 - Its core premises are formulated in a clear and concise form on a few pages.
 - There doesn't exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).
 
-### What theory would not be a good fit?
+### What theory would <span style="color:darkred;">not</span> be a good fit?
 - You need to read three books to understand the theory.
 - The “all-encompassing theory of human nature”
 - You need a lot of expert input and judgement to fill in the gaps of the underspecified theory.

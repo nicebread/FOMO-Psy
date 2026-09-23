@@ -1,6 +1,9 @@
 ---
 title: "Overview of sessions"
 listing:
+  contents:
+    - "*.qmd"
+    - "!*/**/*.qmd"
   sort: "title"
   type: "table"
   table-striped: true

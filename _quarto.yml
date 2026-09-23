@@ -3,6 +3,10 @@ project:
   output-dir: doc  
   resources:
     - bystander_effect/Bystander-template.drawio
+  render:
+    - "*.{qmd,R}"
+    - "!FEEDBACK.md"
+    - "!**/quizzes/**"
 
 website:
   title: "FOMO-Psy: Formal Modeling<br>of Psychological Theories"

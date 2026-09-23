@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -14,10 +14,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,10 +44,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-baf333abd407eb98d8b56c64a19f8930.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-7100700a5d4657facf49b32369185e6d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -179,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Wenn das letzte Programmieren in R schon etwas länger her ist, frischen Sie gerne vorab Ihre Kenntnisse auf. Das Empra wird <em>keine</em> Auffrischung in R beinhalten. Hier sind einige Ressourcen:</p>
 <ol type="1">
 <li>Die neuen R-Tutorials aus Statistik 1: <a href="https://www.oer.psy.lmu.de/R_Tutorial/Teil1.html">Teil 1 - Grundlagen</a> und <a href="https://www.oer.psy.lmu.de/R_Tutorial/Teil2.html">Teil 2 - Workflows bei der Arbeit mit Datensätzen</a></li>
-<li><a href="https://moodle.lmu.de/course/view.php?id=12232">Moodle Kurs “R Tutorials”</a>. Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR</li>
+<li><a href="https://moodle.lmu.de/course/view.php?id=12232">Moodle Kurs “R Tutorials”</a>: Am Lehrstuhl Sozialpsychologie wurden R-Tutorials (Skript englisch, begleitende Videos deutsch) erstellt. Die Tutorials helfen, einen Anfang in R zu finden und zeigen die Durchführung ein paar üblicher Schritte der Datenaufbereitung und -auswertung. Passwort für den Moodle-Kurs: allyouneedisR</li>
 <li>YouTube-Video: <a href="https://www.youtube.com/playlist?list=PLmNgrNF3pZqg2GPmcIAWDa1A2-cAfbX37">“Want to learn R (#rstats) in 4 hours with NO programming experience?”</a></li>
 <li>https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf (12 page PDF document)</li>
 <li>https://github.com/jobreu/r-intro-gesis-2021 (5 day course: slides &amp; exercises)</li>

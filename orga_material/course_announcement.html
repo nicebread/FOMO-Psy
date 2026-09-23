@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -14,10 +14,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,10 +44,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-baf333abd407eb98d8b56c64a19f8930.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-7100700a5d4657facf49b32369185e6d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -171,14 +174,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Im Empirisch-psychologischen Praktikum “Formale Modellierung in der Psychologie” tauchen die Studierenden in die Welt der quantitativen Darstellung psychologischer Theorien ein. Dabei geht es nicht um die quantitative Auswertung von Daten mit Hilfe statistischer Modelle, sondern um Theorien und datengenerierende Modelle, die so präzise sind, dass man konkrete Daten vorhersagen kann.</p>
-<p>Als eine Reaktion auf die Replikationskrise wurde der Ruf nach besseren Theorien laut, mit dem Ziel, verbale und konzeptionelle Theorien in formale, mathematische Modelle zu übersetzen. Diese Modelle dienen mehreren Zwecken: Sie ermöglichen eine rigorose Prüfung von Hypothesen, bieten klarere Vorhersagen und bilden einen Rahmen, um scheinbar disparate Ergebnisse zu vereinheitlichen. Außerdem schärfen sie den Blick auf “Leerstellen” in den meist hoffnungslos unterspezifizierten Theorien in der Psychologie.</p>
-<p>In diesem Kurs werden die Studierenden in die grundlegenden Prinzipien der formalen Modellierung eingeführt und mit den Werkzeugen ausgestattet, die sie benötigen, um aus vorhandenen verbalen Theorien Modelle abzuleiten. Entsprechend werden wir uns viel mit der Implementierung in Programmiersprachen befassen (v.a. in R). Es wird <em>keine</em> empirische Studie durchgeführt und keine Daten erhoben; wo es sich anbietet, nutzen wir wir bereits existierende offene Forschungsdaten.</p>
-<p>Wir werden versuchen, kollaborativ verbale psychologische Theorien soweit zu formalisieren, dass man sie in ein datengenerierendes Modell übersetzen und implementieren kann, um die generierten Daten dann zur Prüfung mit echten Daten zu vergleichen.</p>
-<p>Wir werden Aspekte der Qualitätssicherung bei diesem Forschungsaspekt diskutieren und anwenden (Reproduzierbarkeit, Versionskontrolle, Sensitivitätsanalysen, gut dokumentierter Code / unit testing).</p>
+<p><strong>Empirisch-psychologisches Praktikum: “Theorieentwicklung / Formale Modelle in der Psychologie”</strong></p>
+<p>Als eine Reaktion auf die Replikationskrise wurde der Ruf nach besseren Theorien laut, mit dem Ziel, verbale und konzeptionelle Theorien in formale, mathematische Modelle zu übersetzen. Im Empirisch-psychologischen Praktikum “Formale Modelle in der Psychologie” tauchen die Studierenden genau in diese Welt der exakten Definitionen und der quantitativen Darstellung von psychologischen Theorien ein. Dabei geht es nicht um die quantitative Auswertung von Daten mit Hilfe statistischer Modelle, sondern um Theorien und datengenerierende Modelle, die so präzise sind, dass man konkrete Daten vorhersagen kann. Diese Modelle dienen mehreren Zwecken: Sie ermöglichen eine rigorose Prüfung von Hypothesen, bieten klarere Vorhersagen und bilden einen Rahmen, um scheinbar disparate Ergebnisse zu vereinheitlichen. Außerdem schärfen sie den Blick auf “Leerstellen” in den meist hoffnungslos unterspezifizierten Theorien in der Psychologie.</p>
+<p>In diesem Kurs werden die Studierenden in die grundlegenden Prinzipien der formalen Modellierung eingeführt (z.B. mathematische oder agentenbasierte Modelle) und mit den Werkzeugen ausgestattet, die sie benötigen, um vorhandene verbale Theorien zu formalisieren und daraus komputationale Modelle abzuleiten. Entsprechend werden wir uns viel mit der Implementierung in R befassen. Im Gegensatz zu “klassischen” Empras werden hier keine empirischen Daten erhoben.</p>
+<p>Wir werden versuchen, kollaborativ verbale psychologische Theorien soweit zu formalisieren, dass man sie in ein datengenerierendes Modell übersetzen und implementieren kann, und dieses dann auch testen kann. Wir üben den Prozess gemeinsam am Beispiel des bekannten “Bystander Effects” aus der Sozialpsychologie. Im zweiten Teil wenden Sie die Methode dann in Gruppenarbeit auf eine Theorie Ihrer Wahl an.</p>
+<p>Wir werden Aspekte der Qualitätssicherung bei dieser eher ungewöhnlichen Forschungsrichtung diskutieren und anwenden (Reproduzierbarkeit, Versionskontrolle / versionierte Theorien, Sensitivitätsanalysen, Codedokumentation, unit/functional testing).</p>
 <p>Das Empra stellt etwas höhere Anforderungen an mathematisches und formales Denken, sowie ihre Programmierfähigkeit. Als Minimum werden die R-Kenntnisse vorausgesetzt, die im Rahmen der Seminare zu Statistik 1 und 2 gelehrt wurden, sowie die Bereitschaft, sich auch selbständig (anhand von bereitgestelltem Material) in Themen der Programmierung einzuarbeiten.</p>
+<p>Die benotete Prüfungsleistung ist ausschließlich der abgegebene Forschungsbericht. Das Abgabedatum wird ca. Mitte März sein.</p>
+<section id="literatur" class="level1">
+<h1>Literatur:</h1>
+<p>Borsboom, D., van der Maas, H. L. J., Dalege, J., Kievit, R. A., &amp; Haig, B. D. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science, 16(4), 756–766. https://doi.org/10.1177/1745691620969647</p>
+<p>Lange, J., Freyer, N., Musfeld, P., Schönbrodt, F., &amp; Leising, D. (2025). A Checklist for Incentivizing and Facilitating Good Theory Building. Zeitschrift Für Psychologie, 233(4), 279–283. https://doi.org/10.1027/2151-2604/a000604</p>
+<p>Leising, D., Grenke, O., &amp; Cramer, M. (2023). Visual Argument Structure Tool (VAST) Version 1.0. Meta-Psychology, 7. https://doi.org/10.15626/MP.2021.2911</p>
+<p>Van Dongen, N., Van Bork, R., Finnemann, A., Haslbeck, J. M. B., Van Der Maas, H. L. J., Robinaugh, D. J., De Ron, J., Sprenger, J., &amp; Borsboom, D. (2024). Productive explanation: A framework for evaluating explanations in psychological science. Psychological Review. https://doi.org/10.1037/rev0000479</p>
+<p>Van Lissa, C. J., Peikert, A., Ernst, M. S., Van Dongen, N. N. N., Schönbrodt, F. D., &amp; Brandmaier, A. M. (2026). To Be FAIR: Theory Specification Needs an Update. Perspectives on Psychological Science, 21(2), 173–191. https://doi.org/10.1177/17456916251401850</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script>

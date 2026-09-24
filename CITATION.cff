@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this course material, please cite it as follows."
+title: "FOMO-Psy: Formal Modeling of Psychological Theories"
+type: software
+abstract: >-
+  Course material for introducing formal modeling of psychological theories,
+  including lectures, exercises, and supporting resources.
+authors:
+  - family-names: Schönbrodt
+    given-names: Felix
+    orcid: "https://orcid.org/0000-0002-8282-3910"
+  - family-names: Leising
+    given-names: Daniel
+    orcid: "https://orcid.org/0000-0001-8503-5840"
+  - family-names: Peikert
+    given-names: Aaron
+    orcid: "https://orcid.org/0000-0001-7813-818X"
+repository-code: "https://github.com/nicebread/FOMO-Psy"
+url: "https://nicebread.github.io/FOMO-Psy/"
+doi: "10.5281/zenodo.15703575"
+license: CC-BY-4.0
+date-released: 2026-09-24
+version: 2025.0.0
+keywords:
+  - formal modeling
+  - psychology
+  - theory construction
+  - course material
+  - reproducibility

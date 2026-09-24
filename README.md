@@ -3,6 +3,7 @@
 # Course material for "Introduction to Formal modeling in Psychology" (FOMO-Psy)
 
 This is the source code of the Quarto website. See the rendered website at [https://nicebread.github.io/FOMO-Psy/](https://nicebread.github.io/FOMO-Psy/).
+The source code is also archived on [Zenodo](https://zenodo.org/records/15703575).
 
 *Note: While most content is in English, some administrative parts are in German.*
 

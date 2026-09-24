@@ -1,3 +1,18 @@
+## Julia Ideen
+
+- Marr (2010) levels of analysis 
+  - "Whether a construct belongs to
+the phenomenon or to the theory depends on the level of analysis (Marr, 2010) at which the
+explanation is formulated. From the perspective of depression trajectories, the algorithmic
+model provides a more detailed explanation than the computational model because it specifies
+the processes through which stable vulnerabilities influence depressive symptoms. At the
+same time, these processes may themselves constitute phenomena requiring explanation at a
+higher level of resolution."
+- Strength of evidence depends on methodological quality/risk of bias, sample size, existing replications, study design (e.g., causal claims should ideally come from experimental designs)
+- Simplify the robustness analysis with a "Generalizability Analysis Classification Scheme". Focus on the highest available level of evidence - we do not care about any low-quality studies.
+
+## Use definitions from Musfeld paper.
+
 ## UTOS: Create a quiz for learning the distinction between evidence for, against and inconclusive
 
 Make several examples for each UTOS dimension, which vary:
@@ -21,7 +36,7 @@ Am Ende der VAST-Einführung?
   - How are internal drives, motivations, attitudes (which are typically modelled as continuous variables) translated into behavior?
   - Also ticking a questionnaire box is an overt behavior! There is a whole branch of psychometrics ("Item Response Theory") that models the relationship between latent traits and observed responses.
   - Dichotomous behavior: Convert internal drive into a probability, then do a random Bernoulli draw
-  - Continous behavior (e.g., strength of a response): Linear transformation from internal to external variable
+  - Continous behavior (e.g., strength of a response): Logistic transformation from internal to external variable
 - Expectation x Value models
 
 

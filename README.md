@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/693075520.svg)](https://doi.org/10.5281/zenodo.15703574)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22931844.svg)](https://doi.org/10.5281/zenodo.15703574)
 
 # Course material for "Introduction to Formal modeling in Psychology" (FOMO-Psy)
 

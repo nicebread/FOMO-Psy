@@ -581,6 +581,81 @@ box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
 padding: 4px;
 }
 
+.ds {
+box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.reflection {
+display: inline-block;
+transform-origin: left center;
+transform: perspective(1200px) rotateY(12deg);
+filter: drop-shadow(-15px 15px 45px rgba(0, 0, 0, 0.95));
+-webkit-box-reflect: below 0px linear-gradient(transparent 55%, rgba(255, 255, 255, 0.5));
+margin-bottom: 120px;
+max-width: 85%;
+}
+
+
+.reveal .slides section:not(:first-of-type) .note {
+color: #AAA;
+}
+
+.reveal .slides section:not(:first-of-type) .smallnote {
+font-size: 0.55em; color: #AAA;
+}
+
+.reveal .callout-box {
+display: block;
+background-color: #f7f7f7;
+border: 3px solid #093;
+border-radius: 14px;
+padding: 0.5em 1.2em;
+text-align: center;
+font-size: 1.2em;
+font-weight: 700;
+line-height: 1.15;
+margin: 0.2em auto;
+width: fit-content;
+max-width: 80%;
+box-sizing: border-box;
+white-space: normal;
+overflow-wrap: anywhere;
+}
+
+.reveal .img-full {
+display: block;
+margin: auto;
+max-width: 100%;
+max-height: 58vh; 
+object-fit: contain;
+}
+
+.reveal .vcenter {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 60vh;
+text-align: center;
+}
+.reveal .vcenter > p,
+.reveal .vcenter > figure,
+.reveal .vcenter > .quarto-figure {
+margin-top: auto;
+margin-bottom: auto;
+}
+.reveal .vcenter img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 100%;
+max-height: 56vh;
+height: auto;
+object-fit: contain;
+}
+
+.reveal blockquote {
+font-size: 75%;
+}
 </style>
   <style type="text/css">.reveal
 div.sourceCode

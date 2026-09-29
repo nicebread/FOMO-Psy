@@ -25,8 +25,102 @@
 }
 
 
-/* :root {
-  --mermaid-node-fg-color: #ff0000;
-  --mermaid-label-fg-color: #ff0000;
-} */
 
+/* drop-shadow for images */
+.ds {
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.reflection {
+    display: inline-block;
+    transform-origin: left center;
+    transform: perspective(1200px) rotateY(12deg);
+    filter: drop-shadow(-15px 15px 45px rgba(0, 0, 0, 0.95));
+    -webkit-box-reflect: below 0px linear-gradient(transparent 55%, rgba(255, 255, 255, 0.5));
+    margin-bottom: 120px;
+    max-width: 85%;
+}
+
+
+
+/* ------------------------------------------------------------ */
+
+
+
+
+/* Grey text for notes  */
+.reveal .slides section:not(:first-of-type) .note {
+  color: #AAA;
+}
+
+/* Grey text for small notes */
+.reveal .slides section:not(:first-of-type) .smallnote {
+  font-size: 0.55em; 
+  color: #AAA;
+}
+
+/* Poster-like analogy box for emphasis slides */
+.reveal .callout-box {
+  display: block;
+  background-color: #f7f7f7;
+  border: 3px solid #093;
+  border-radius: 14px;
+  padding: 0.5em 1.2em;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0.2em auto;
+  width: fit-content;
+  max-width: 80%;
+  box-sizing: border-box;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+
+
+/* Single full-size centered image that stays within the slide content area */
+.reveal .img-full {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: 58vh;  /* 100vh minus approx. header (~12vh), subtitle (~6vh), footer (~5vh), padding */
+  object-fit: contain;
+}
+
+/* Vertically center content (especially images) inside a column
+Use as an inner wrapper inside a column: ::: {.vcenter}
+*/
+.reveal .vcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.reveal .vcenter > p,
+.reveal .vcenter > figure,
+.reveal .vcenter > .quarto-figure {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.reveal .vcenter img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 56vh;
+  height: auto;
+  object-fit: contain;
+}
+
+
+/* smaller blockquote text */
+.reveal blockquote {
+  font-size: 75%;
+}

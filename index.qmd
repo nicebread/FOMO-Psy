@@ -1,6 +1,6 @@
 ---
 title: "FOMO-Psy: Formal Modeling of Psychological Theories"
-subtitle: "Winter term 2025/26, LMU Munich"
+subtitle: "Winter term 2026/27, LMU Munich"
 ---
 
 *Note: While most content is in English, some administrative parts are in German.*
@@ -58,3 +58,5 @@ Thanks goes to:
 - Noah van Dongen and Denny Borsboom for great inspiration from the *ManyModelers Project* (performed on SIPS 2022)
 - Noah van Dongen for providing his material for an [TCM course](https://osf.io/abxut/)
 - Aaron Peikert, Maximilian Ernst and Caspar van Lissa for several discussions and inspirations about technical aspects of theory versioning and FAIR theories
+- Students from multiple courses who provided feedback and new ideas for improvements
+

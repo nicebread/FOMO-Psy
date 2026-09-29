@@ -6,7 +6,7 @@ author:
     orcid: 0000-0002-8282-3910
     email: felix.schoenbrodt@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München
-date: 2025-10-17
+date: 2026-09-29
 order: 0
 duration: 20
 footer: "These slides are part of the course [Formal modeling in psychology](https://nicebread.github.io/FOMO-Psy/) at LMU Munich"
@@ -23,7 +23,7 @@ revealjs-plugins:
 
 ::: {.incremental}
 - Learn skills and tools that aid theory development
-  - Technical: Git, semantic versioning, make a theory pbject citeable...
+  - Technical: Git, semantic versioning, make a theory object citeable...
   - Conceptual: 
     - Visual Argument Structure Tool (VAST)
     - Theory Construction Methodology (TCM)
@@ -33,6 +33,10 @@ revealjs-plugins:
   - High likelihood of "failure"!
 - "Hacker space" for theory building: We all are learners.
 :::
+
+##
+
+![](../../img/Course_flow_full.png){.img-full}
 
 ## Content
 
@@ -45,22 +49,23 @@ Three types of activities:
 All slides, homework instructions, etc. are on this website:
 [https://nicebread.github.io/FOMO-Psy/](https://nicebread.github.io/FOMO-Psy/)
 
-Note: Github (where the website is hosted) is using chaching. 
+::: {.callout-note}
+Note: GitHub (where the website is hosted) uses caching. 
 That means if I update the website, you will *only* see the updates if you 
 actively reload it with Ctrl+R (Win/Linux) or Cmd-R (Mac).
 
 All homework will be submitted to a private Git repo.
+:::
 
 ## Formalia & Expectations
 
-::: {.smaller}
 - 9 ECTS credit points
   - ≙ 3 lectures with exam
   - ≙ 12h expected time investment per week (in person course + homework)
 - Do your weekly homework
 - Participate actively in the course
 - Write your final report
-:::
+
 
 ## Hausarbeit
 ### Aufbau
@@ -69,14 +74,15 @@ All homework will be submitted to a private Git repo.
 Da wir keine klassisch empirische Arbeit schreiben, sondern eine Theorie formalisieren, sieht der Aufbau der Hausarbeit etwas anders aus; z.B. so:
 
 ::: {.smallest}
-1. Zielsetzung benennen: Eine bestehende psychologische Theorie zu formalisieren
-2. Kurze Vorstellung der gewählten Theorie
-3. Zentrale Konstrukte der Theorie (Text: Konstrukte auflisten; VAST: Konstrukte definieren)
-4. Identifizierung relevanter Phänomene
-5. Formulierung der (Proto-)Theorie und der Phänomene
-6. Aufstellen eines formalen Modells
-7. Evaluation des formalen Modells
-8. Diskussion: Meta-Reflexion
+0. Abstract
+1. Define the Objective  
+2. Identification of Relevant Phenomena
+3. Brief Verbal Introduction to the Selected Theory  
+4. Present Core Constructs of the Theory
+5. Formulation of the (Proto-)Theory  
+6. Development of a Formal Model  
+7. Evaluation of the Formal Model  
+8. Discussion: Meta-Reflection  
 :::
 
 Mehr Details im Laufe des Seminars. Wir arbeiten bereits im Seminar auf ihre konkrete Hausarbeit hin.
@@ -102,14 +108,14 @@ Mehr Details im Laufe des Seminars. Wir arbeiten bereits im Seminar auf ihre kon
 ### Abgabe 
 
 - Als PDF-Datei per Email an den Dozenten – Empfang wird bestätigt
-- Abgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)
+- Abgabetermin: Wird noch bekannt gegeben; ca. 3 Wochen vor Beginn des nächsten Semesters (d.h. Mitte März im WS bzw. Mitte Sept. im SS)
 - Zwei Versionen einreichen:
   - Vollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2024.pdf“
   - Anonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)
     - Diese Version wird benotet.
     - Dateiname z.B.:„98234034_Empra_2024.pdf“
-    - Sie können in `papaja` einfach eine anonyme Version erzeugen, indem Sie im YAML-Header  `mask: yes` angeben (siehe [Anleitung](https://frederikaust.com/papaja_man/r-markdown-components.html))
-    - Sie können in `apaquarto` einfach eine anonyme Version erzeugen, indem Sie im YAML-Header  `mask: true` angeben (siehe [Anleitung](https://wjschne.github.io/apaquarto/writing.html?q=anonym#masked-citations-for-anonymous-peer-review))
+    - Anonyme Version in `papaja`: im YAML-Header  `mask: yes` angeben (siehe [Anleitung](https://frederikaust.com/papaja_man/r-markdown-components.html))
+    - Anonyme Version in `apaquarto`: im YAML-Header  `mask: true` angeben (siehe [Anleitung](https://wjschne.github.io/apaquarto/writing.html?q=anonym#masked-citations-for-anonymous-peer-review))
 
 
 
@@ -134,75 +140,87 @@ Mehr Details im Laufe des Seminars. Wir arbeiten bereits im Seminar auf ihre kon
 ![](img/Bewertungsschema.png)
 
 
+## A note on AI
+### Train Your Brain, Don’t Outsource It
+
+::: {.incremental}
+- Experience since 2024: Declining skills and attention span.
+- Create space for **deep thinking**, intellectual struggle, and social exchange.
+- Treat your brain like a **muscle**: *upskilling, not deskilling*.
+  - You wouldn’t bring a forklift to the gym.
+- The goal is **not maximum efficiency** or simply “getting things done.”
+- The goal is **lasting, personal learning** — not replacing your own thinking with a shortcut.
+:::
+
+::: {.notes}
+Meine Erfahrungen: Sinkende Fähigkeiten in Statistikklausur und Sommerschule. Eigene Position: ambivalent - nutze es selber täglich. Bin froh, dass ich jahrzehntelang selber die Dinge durchdacht und gelernt habe - ich kann noch die Qualität beurteilen. Sind wir die letzte Generation?
+:::
+
+## A note on AI
+### What this course is for
+
+Our seminar is...
+
+- a **bootcamp for your thinking skills**
+- a **space for social exchange**
+- focused on the **process of learning**, not just the output
+
+> This only works if, at least during certain phases,  
+> **we make this an AI-free space.**   
+> If we use AI, we use it as a tutor or reviewer, not as a crutch or shortcut.
 
 
-## Hausarbeit
-### Nutzung von KI-Tools (ChatGPT etc.)
 
-- KI-Tools sind Realität und können in der wissenschaftlichen Arbeit unterstützend eingesetzt werden. Niels Van Quaquebeke hat eine schöne [Übersicht](https://docs.google.com/document/d/1mb4SWtqyi1iEGCn2uTnHkPHqW3UoQr8b0xv5_81a-4Y/edit).
-- Es muss jedoch klar sein, was die Eigenleistung des/der Studierenden ist, und dass die Verantwortung für den Inhalt der Arbeit beim Autor bzw. der Autorin liegt.
-- Am Ende der Hausarbeit müssen Sie entsprechend zwei Erklärungen anhängen:
-  (a) eine Eigenständigkeitserklärung (siehe nächste Folie)
-  (b) eine ergänzende Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess (siehe übernächste Folie).
-
-## Hausarbeit
-### Eigenständigkeitserklärung
-
-> Hiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig und ohne fremde Hilfe verfasst habe. Ich habe keine anderen als die angegebenen Quellen und Hilfsmittel benutzt und alle wörtlich oder sinngemäß übernommenen Stellen als solche kenntlich gemacht.
+## Eigenständigkeitserklärung (deutsch)
+ 
+> Hiermit versichere ich, dass ich die Arbeit selbständig verfasst habe. Die Stellen der Arbeit, die anderen Werken dem Wortlaut oder dem Sinn nach entnommen sind, habe ich in jedem einzelnen Fall unter Angabe der Quelle kenntlich gemacht. Dies gilt auch für die wörtliche Übernahme von fremdsprachlichen Textpassagen, die mittels KI-Tools übersetzt wurden. Hier habe ich die originalsprachliche Quelle sowie das KI-Tool zur Übersetzung genannt (z.B. “Autor, Jahr, Seitenzahl, Übersetzung dieser englischsprachigen Originalquelle mit deepL”). Zeichnungen, Kartenskizzen und bildliche Darstellungen, soweit vollständig aus einem vorhandenen Werk übernommen oder für die Zwecke dieser Arbeit adaptiert, habe ich mit Quellenangaben versehen. 
 > 
-> Ort, Datum, Unterschrift
-
-
-## Nutzung von KI-Tools: Selbsterklärung (deutsch)
-
-::: {style="font-size: 40%;"}
-> **Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess**
+> KI-generierte bildliche Darstellungen habe ich als solche kenntlich gemacht und das verwendete Tool genannt.
 > 
-> Bei der Erstellung dieser Arbeit habe ich folgende/s Tool/s verwendet: [NAME TOOL / DIENST]. 
-> Art der Nutzung [bitte ankreuzen]:
+> KI-generierten Text und Analyse-Code habe ich, soweit in der Arbeit verwendet, überprüft und eigenständig nach Bedarf bearbeitet.
 > 
-> - [ ]	Verbesserung der sprachlichen Qualität und Lesbarkeit
-> - [ ]	Schreibassistent z.B. zum Erstellen von Inhaltsverzeichnissen, Gliederungen, ersten Sätzen und Absätzen
-> - [ ]	Auffinden von relevanten Zitaten, die als solche gekennzeichnet sind
-> - [ ]	Auffinden von relevanten wissenschaftlichen Quellen, die als solche gekennzeichnet sind
-> - [ ]	Übersetzung von Zitaten oder Textabschnitten, die als solche gekennzeichnet sind (etwa: „Translated with DeepL“)
-> - [ ]	Zusammenfassung von Information
-> - [ ]	Texttranskription von Audio- oder Videodateien
-> - [ ]	Erstellen von Bild- oder Videomaterial
-> - [ ]	Erstellen bzw. verbessern von Programmiercode (bspw. R- oder Python-Code)
-> - [ ]	Recherche zu Begriffen
-> - [ ]	Erstellen von Begriffsdefinitionen
-> - [ ]	Sonstiges [bitte erläutern]: 
->
-> Nach der Nutzung dieses Tools bzw. Dienstes habe ich den Inhalt überprüft, nach Bedarf bearbeitet und ich übernehme die volle Verantwortung für den Inhalt dieser Arbeit. Ich bestätige, dass diese Arbeit keine längeren Passagen (z.B. Zusammenfassung/Abstract der Arbeit, ganze Absätze im Text) an rein KI-generiertem Text enthält.
+> Ich übernehme die volle Verantwortung für den Inhalt dieser Arbeit und versichere, dass ich die eingereichte Arbeit ohne Rückgriff auf eine generative KI angemessen erklären, verteidigen und rekonstruieren könnte.
+
+::: footer
+Leitlinien für die Nutzung von KI in Lehre und Prüfungen am Department Psychologie: <https://doi.org/10.5281/zenodo.20606211>
+:::
+
+## Eigenständigkeitserklärung (english)
+
+> I hereby declare that I have written this work independently. Any passages taken from other works, whether verbatim or in substance, have been clearly identified and appropriately referenced in every instance. This also applies to direct quotations from sources written in other languages that have been translated using AI tools. In such cases, I have cited both the original-language source and the AI tool used for translation (e.g., “Author, Year, Page Number, translation of the original German- language source using DeepL”). Any drawings, maps, figures, or visual representations that have been reproduced from existing works or adapted for the purposes of this submission have been appropriately referenced. 
+> 
+> AI-generated images have been clearly identified as such, and the tool used has been named. 
+> 
+> Any AI-generated text or analysis code used in this work has been critically reviewed and, where necessary, revised by me. 
+> 
+> I take full responsibility for the content of this work and confirm that I could reasonably explain, defend, and reconstruct it without relying on a generative AI tool.
+
+::: footer
+Leitlinien für die Nutzung von KI in Lehre und Prüfungen am Department Psychologie: <https://doi.org/10.5281/zenodo.20606211>
 :::
 
 
-## Statement on the use of generative AI and AI-assisted technologies in the writing process
+## No video recordings, no smart glasses
 
-::: {style="font-size: 40%;"}
-> **Statement on the use of generative AI and AI-assisted technologies in the writing process**
-> 
-> In writing this paper, I have used the following tool/s: [NAME TOOL / SERVICE].
-> I used it for the following purpose/s:
-> 
-> - [ ] improving linguistic quality and readability
-> - [ ] writing assistance e.g. for generating table of contents, outlines, first sentences and paragraphs
-> - [ ] finding relevant citations (correctly marked as such)
-> - [ ] finding relevant scientific sources (correctly marked as such)
-> - [ ] translation of citations or text passages (correctly marked as such, e.g. “translated with DeepL”)
-> - [ ] summarizing information
-> - [ ] transcribing assistance from audio or video
-> - [ ] generating or optimizing programming code (e.g. R- or Python-Code)
-> - [ ] researching terms
-> - [ ] generating term definitions
-> - [ ] other [please specify]: 
-
->
-> After using this tool or service, I reviewed and edited the content as needed and I take full responsibility for the content of this paper. I certify that this paper does not contain lengthy passages (e.g. summary/abstract, or full paragraphs) of purely AI-generated text.
+:::: {.columns}
+::: {.column width='60%'}
+::: {.vcenter}
+- No audio or video recordings without prior agreement.
+- Wearing smart glasses with a recording function (e.g. Ray-Ban Meta) is not permitted, regardless of whether the recording function is activated or not.
+- In the event of a breach, you must delete any existing recordings and leave the event.
+:::
 :::
 
+::: {.column width='40%'}
+::: {.vcenter}
+![](img/banray-sticker-blank.png)
+:::
+:::
+::::
 
+::: footer
+Under §5(1)(4) of the LMU’s house rules, video and audio recordings (including those made solely for private purposes) are only permitted with my authorisation as the event organiser. **I do not grant such authorisation.** As the event organiser, I am responsible for enforcing the house rules for this room in accordance with §2(2)(2) of the house rules.
+:::
 
 
 <!-- Footer insert below -->

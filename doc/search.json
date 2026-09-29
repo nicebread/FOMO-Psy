@@ -1180,28 +1180,28 @@
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#goals",
     "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Goals",
-    "text": "Goals\n\nLearn skills and tools that aid theory development\n\nTechnical: Git, semantic versioning, make a theory pbject citeable…\nConceptual:\n\nVisual Argument Structure Tool (VAST)\nTheory Construction Methodology (TCM)\nFAIR theories\n\n\nPractice theory formalization with multiple examples\nUnderstand the advantages and barriers of formal modeling\n\nHigh likelihood of “failure”!\n\n“Hacker space” for theory building: We all are learners."
+    "text": "Goals\n\nLearn skills and tools that aid theory development\n\nTechnical: Git, semantic versioning, make a theory object citeable…\nConceptual:\n\nVisual Argument Structure Tool (VAST)\nTheory Construction Methodology (TCM)\nFAIR theories\n\n\nPractice theory formalization with multiple examples\nUnderstand the advantages and barriers of formal modeling\n\nHigh likelihood of “failure”!\n\n“Hacker space” for theory building: We all are learners."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#content",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#content",
     "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Content",
-    "text": "Content\nThree types of activities:\n\nLectures: Gain knowledge\nSkills: Learn new tools\nWorkshop: Apply tools and knowledge to a research question\n\nAll slides, homework instructions, etc. are on this website: https://nicebread.github.io/FOMO-Psy/\nNote: Github (where the website is hosted) is using chaching. That means if I update the website, you will only see the updates if you actively reload it with Ctrl+R (Win/Linux) or Cmd-R (Mac).\nAll homework will be submitted to a private Git repo."
+    "text": "Content\nThree types of activities:\n\nLectures: Gain knowledge\nSkills: Learn new tools\nWorkshop: Apply tools and knowledge to a research question\n\nAll slides, homework instructions, etc. are on this website: https://nicebread.github.io/FOMO-Psy/\n\n\n\n\n\n\nNote\n\n\nNote: GitHub (where the website is hosted) uses caching. That means if I update the website, you will only see the updates if you actively reload it with Ctrl+R (Win/Linux) or Cmd-R (Mac).\nAll homework will be submitted to a private Git repo."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#formalia-expectations",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#formalia-expectations",
     "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Formalia & Expectations",
-    "text": "Formalia & Expectations\n\n\n9 ECTS credit points\n\n≙ 3 lectures with exam\n≙ 12h expected time investment per week (in person course + homework)\n\nDo your weekly homework\nParticipate actively in the course\nWrite your final report"
+    "text": "Formalia & Expectations\n\n9 ECTS credit points\n\n≙ 3 lectures with exam\n≙ 12h expected time investment per week (in person course + homework)\n\nDo your weekly homework\nParticipate actively in the course\nWrite your final report"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit",
     "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
-    "text": "Hausarbeit\nAufbau\n\nDa wir keine klassisch empirische Arbeit schreiben, sondern eine Theorie formalisieren, sieht der Aufbau der Hausarbeit etwas anders aus; z.B. so:\n\n\nZielsetzung benennen: Eine bestehende psychologische Theorie zu formalisieren\nKurze Vorstellung der gewählten Theorie\nZentrale Konstrukte der Theorie (Text: Konstrukte auflisten; VAST: Konstrukte definieren)\nIdentifizierung relevanter Phänomene\nFormulierung der (Proto-)Theorie und der Phänomene\nAufstellen eines formalen Modells\nEvaluation des formalen Modells\nDiskussion: Meta-Reflexion\n\n\nMehr Details im Laufe des Seminars. Wir arbeiten bereits im Seminar auf ihre konkrete Hausarbeit hin."
+    "text": "Hausarbeit\nAufbau\n\nDa wir keine klassisch empirische Arbeit schreiben, sondern eine Theorie formalisieren, sieht der Aufbau der Hausarbeit etwas anders aus; z.B. so:\n\n\nAbstract\nDefine the Objective\n\nIdentification of Relevant Phenomena\nBrief Verbal Introduction to the Selected Theory\n\nPresent Core Constructs of the Theory\nFormulation of the (Proto-)Theory\n\nDevelopment of a Formal Model\n\nEvaluation of the Formal Model\n\nDiscussion: Meta-Reflection\n\n\n\nMehr Details im Laufe des Seminars. Wir arbeiten bereits im Seminar auf ihre konkrete Hausarbeit hin."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-1",
@@ -1215,7 +1215,7 @@
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-2",
     "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
-    "text": "Hausarbeit\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; typischerweise 3 Wochen vor Beginn des nächsten Semesters (also Mitte März im WS bzw. Mitte September im SS)\nZwei Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2024.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2024.pdf“\nSie können in papaja einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: yes angeben (siehe Anleitung)\nSie können in apaquarto einfach eine anonyme Version erzeugen, indem Sie im YAML-Header mask: true angeben (siehe Anleitung)"
+    "text": "Hausarbeit\nAbgabe\n\nAls PDF-Datei per Email an den Dozenten – Empfang wird bestätigt\nAbgabetermin: Wird noch bekannt gegeben; ca. 3 Wochen vor Beginn des nächsten Semesters (d.h. Mitte März im WS bzw. Mitte Sept. im SS)\nZwei Versionen einreichen:\n\nVollständige Version (Dateiname: IhrNachname_Empra_Jahr.pdf) – z.B.: „Schmid_Empra_2024.pdf“\nAnonymisierte Version, bei welcher der Name auf dem Deckblatt gelöscht ist (Dateiname: Matrikelnummer_Empra_Jahr.pdf)\n\nDiese Version wird benotet.\nDateiname z.B.:„98234034_Empra_2024.pdf“\nAnonyme Version in papaja: im YAML-Header mask: yes angeben (siehe Anleitung)\nAnonyme Version in apaquarto: im YAML-Header mask: true angeben (siehe Anleitung)"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-3",
@@ -1236,21 +1236,21 @@
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-5",
     "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
-    "text": "Hausarbeit\nNutzung von KI-Tools (ChatGPT etc.)\n\nKI-Tools sind Realität und können in der wissenschaftlichen Arbeit unterstützend eingesetzt werden. Niels Van Quaquebeke hat eine schöne Übersicht.\nEs muss jedoch klar sein, was die Eigenleistung des/der Studierenden ist, und dass die Verantwortung für den Inhalt der Arbeit beim Autor bzw. der Autorin liegt.\nAm Ende der Hausarbeit müssen Sie entsprechend zwei Erklärungen anhängen:\n\neine Eigenständigkeitserklärung (siehe nächste Folie)\neine ergänzende Erklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess (siehe übernächste Folie)."
+    "text": "Hausarbeit\nEigenständigkeitserklärung (deutsch)\n\nHiermit versichere ich, dass ich die Arbeit selbständig verfasst habe. Die Stellen der Arbeit, die anderen Werken dem Wortlaut oder dem Sinn nach entnommen sind, habe ich in jedem einzelnen Fall unter Angabe der Quelle kenntlich gemacht. Dies gilt auch für die wörtliche Übernahme von fremdsprachlichen Textpassagen, die mittels KI-Tools übersetzt wurden. Hier habe ich die originalsprachliche Quelle sowie das KI-Tool zur Übersetzung genannt (z.B. “Autor, Jahr, Seitenzahl, Übersetzung dieser englischsprachigen Originalquelle mit deepL”). Zeichnungen, Kartenskizzen und bildliche Darstellungen, soweit vollständig aus einem vorhandenen Werk übernommen oder für die Zwecke dieser Arbeit adaptiert, habe ich mit Quellenangaben versehen.\nKI-generierte bildliche Darstellungen habe ich als solche kenntlich gemacht und das verwendete Tool genannt.\nKI-generierten Text und Analyse-Code habe ich, soweit in der Arbeit verwendet, überprüft und eigenständig nach Bedarf bearbeitet.\nIch übernehme die volle Verantwortung für den Inhalt dieser Arbeit und versichere, dass ich die eingereichte Arbeit ohne Rückgriff auf eine generative KI angemessen erklären, verteidigen und rekonstruieren könnte.\n\n\nLeitlinien für die Nutzung von KI in Lehre und Prüfungen am Department Psychologie: https://doi.org/10.5281/zenodo.20606211"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-6",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-6",
     "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Hausarbeit",
-    "text": "Hausarbeit\nEigenständigkeitserklärung\n\nHiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig und ohne fremde Hilfe verfasst habe. Ich habe keine anderen als die angegebenen Quellen und Hilfsmittel benutzt und alle wörtlich oder sinngemäß übernommenen Stellen als solche kenntlich gemacht.\nOrt, Datum, Unterschrift"
+    "text": "Hausarbeit\nEigenständigkeitserklärung (english)\n\nI hereby declare that I have written this work independently. Any passages taken from other works, whether verbatim or in substance, have been clearly identified and appropriately referenced in every instance. This also applies to direct quotations from sources written in other languages that have been translated using AI tools. In such cases, I have cited both the original-language source and the AI tool used for translation (e.g., “Author, Year, Page Number, translation of the original German- language source using DeepL”). Any drawings, maps, figures, or visual representations that have been reproduced from existing works or adapted for the purposes of this submission have been appropriately referenced. AI-generated images have been clearly identified as such, and the tool used has been named. Any AI-generated text or analysis code used in this work has been critically reviewed and, where necessary, revised by me. I take full responsibility for the content of this work and confirm that I could reasonably explain, defend, and reconstruct it without relying on a generative AI tool.\n\n\nLeitlinien für die Nutzung von KI in Lehre und Prüfungen am Department Psychologie: https://doi.org/10.5281/zenodo.20606211"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
     "href": "lectures/Empra-Orga/Empra-Orga.slide.html#nutzung-von-ki-tools-selbsterklärung-deutsch",
     "title": "Formal modeling in psychology: Organizational Stuff",
     "section": "Nutzung von KI-Tools: Selbsterklärung (deutsch)",
-    "text": "Nutzung von KI-Tools: Selbsterklärung (deutsch)\n\n\nErklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess\nBei der Erstellung dieser Arbeit habe ich folgende/s Tool/s verwendet: [NAME TOOL / DIENST]. Art der Nutzung [bitte ankreuzen]:\n\nVerbesserung der sprachlichen Qualität und Lesbarkeit\nSchreibassistent z.B. zum Erstellen von Inhaltsverzeichnissen, Gliederungen, ersten Sätzen und Absätzen\nAuffinden von relevanten Zitaten, die als solche gekennzeichnet sind\nAuffinden von relevanten wissenschaftlichen Quellen, die als solche gekennzeichnet sind\nÜbersetzung von Zitaten oder Textabschnitten, die als solche gekennzeichnet sind (etwa: „Translated with DeepL“)\nZusammenfassung von Information\nTexttranskription von Audio- oder Videodateien\nErstellen von Bild- oder Videomaterial\nErstellen bzw. verbessern von Programmiercode (bspw. R- oder Python-Code)\nRecherche zu Begriffen\nErstellen von Begriffsdefinitionen\nSonstiges [bitte erläutern]:\n\nNach der Nutzung dieses Tools bzw. Dienstes habe ich den Inhalt überprüft, nach Bedarf bearbeitet und ich übernehme die volle Verantwortung für den Inhalt dieser Arbeit. Ich bestätige, dass diese Arbeit keine längeren Passagen (z.B. Zusammenfassung/Abstract der Arbeit, ganze Absätze im Text) an rein KI-generiertem Text enthält."
+    "text": "Nutzung von KI-Tools: Selbsterklärung (deutsch)\n\n\nErklärung zur Nutzung von generativer KI und KI-gestützten Technologien im Schreibprozess\nBei der Erstellung dieser Arbeit habe ich folgende/s Tool/s verwendet: [NAME TOOL / DIENST]. Art der Nutzung [bitte ankreuzen]:\n\nVerbesserung der sprachlichen Qualität und Lesbarkeit\nSchreibassistent z.B. zum Erstellen von Inhaltsverzeichnissen, Gliederungen, ersten Sätzen und Absätzen\nAuffinden von relevanten Zitaten, die als solche gekennzeichnet sind\nAuffinden von relevanten wissenschaftlichen Quellen, die als solche gekennzeichnet sind\nÜbersetzung von Zitaten oder Textabschnitten, die als solche gekennzeichnet sind (etwa: „Translated with DeepL“)\nZusammenfassung von Information\nTexttranskription von Audio- oder Videodateien\nErstellen von Bild- oder Videomaterial\nErstellen bzw. verbessern von Programmiercode (bspw. R- oder Python-Code)\nRecherche zu Begriffen\nErstellen von Begriffsdefinitionen\nSonstiges [bitte erläutern]:\n\nNach der Nutzung dieses Tools bzw. Dienstes habe ich den Inhalt überprüft, nach Bedarf bearbeitet und ich übernehme die volle Verantwortung für den Inhalt dieser Arbeit. Ich bestätige, dass diese Arbeit keine längeren Passagen (z.B. Zusammenfassung/Abstract der Arbeit, ganze Absätze im Text) an rein KI-generiertem Text enthält.\n\n\n\nLeitlinien für die Nutzung von KI in Lehre und Prüfungen am Department Psychologie: https://doi.org/10.5281/zenodo.20606211"
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#statement-on-the-use-of-generative-ai-and-ai-assisted-technologies-in-the-writing-process",
@@ -3400,5 +3400,61 @@
     "title": "Applying VAST to an existing theory",
     "section": "Contact",
     "text": "Contact\n\n\n\n @nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#a-note-on-ai",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#a-note-on-ai",
+    "title": "Formal modeling in psychology: Organizational Stuff",
+    "section": "A note on AI",
+    "text": "A note on AI\nTrain Your Brain, Don’t Outsource It\n\nExperience since 2024: Declining skills and attention span.\nCreate space for deep thinking, intellectual struggle, and social exchange.\nTreat your brain like a muscle: upskilling, not deskilling.\n\nYou wouldn’t bring a forklift to the gym.\n\nThe goal is not maximum efficiency or simply “getting things done.”\nThe goal is lasting, personal learning — not replacing your own thinking with a shortcut.\n\n\nMeine Erfahrungen: Sinkende Fähigkeiten in Statistikklausur und Sommerschule. Eigene Position: ambivalent - nutze es selber täglich. Bin froh, dass ich jahrzehntelang selber die Dinge durchdacht und gelernt habe - ich kann noch die Qualität beurteilen. Sind wir die letzte Generation?"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#a-note-on-ai-1",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#a-note-on-ai-1",
+    "title": "Formal modeling in psychology: Organizational Stuff",
+    "section": "A note on AI",
+    "text": "A note on AI\nWhat this course is for\nOur seminar is…\n\na bootcamp for your thinking skills\na space for social exchange\nfocused on the process of learning, not just the output\n\n\nThis only works if, at least during certain phases,\nwe make this an AI-free space.\nIf we use AI, we use it as a tutor or reviewer, not as a crutch or shortcut."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#what-this-seminar-is-for",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#what-this-seminar-is-for",
+    "title": "Formal modeling in psychology: Organizational Stuff",
+    "section": "What This Seminar Is For",
+    "text": "What This Seminar Is For\nOur seminar is…\n\na bootcamp for your thinking skills\na space for social exchange\nfocused on the process of learning, not just the output\n\n\nThis only works if, at least during certain phases,\nwe make this an AI-free space. If we use AI, we use it as a tutor or reviewer, not as a crutch or shortcut."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#section",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#section",
+    "title": "Formal modeling in psychology: Organizational Stuff",
+    "section": "",
+    "text": "{.}"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-7",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#hausarbeit-7",
+    "title": "Formal modeling in psychology: Organizational Stuff",
+    "section": "Hausarbeit",
+    "text": "Hausarbeit\nEigenständigkeitserklärung (english)\n\nI hereby declare that I have written this work independently. Any passages taken from other works, whether verbatim or in substance, have been clearly identified and appropriately referenced in every instance. This also applies to direct quotations from sources written in other languages that have been translated using AI tools. In such cases, I have cited both the original-language source and the AI tool used for translation (e.g., “Author, Year, Page Number, translation of the original German- language source using DeepL”). Any drawings, maps, figures, or visual representations that have been reproduced from existing works or adapted for the purposes of this submission have been appropriately referenced. AI-generated images have been clearly identified as such, and the tool used has been named. Any AI-generated text or analysis code used in this work has been critically reviewed and, where necessary, revised by me. I take full responsibility for the content of this work and confirm that I could reasonably explain, defend, and reconstruct it without relying on a generative AI tool."
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#eigenständigkeitserklärung-deutsch",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#eigenständigkeitserklärung-deutsch",
+    "title": "Formal modeling in psychology: Organizational Stuff",
+    "section": "Eigenständigkeitserklärung (deutsch)",
+    "text": "Eigenständigkeitserklärung (deutsch)\n\nHiermit versichere ich, dass ich die Arbeit selbständig verfasst habe. Die Stellen der Arbeit, die anderen Werken dem Wortlaut oder dem Sinn nach entnommen sind, habe ich in jedem einzelnen Fall unter Angabe der Quelle kenntlich gemacht. Dies gilt auch für die wörtliche Übernahme von fremdsprachlichen Textpassagen, die mittels KI-Tools übersetzt wurden. Hier habe ich die originalsprachliche Quelle sowie das KI-Tool zur Übersetzung genannt (z.B. “Autor, Jahr, Seitenzahl, Übersetzung dieser englischsprachigen Originalquelle mit deepL”). Zeichnungen, Kartenskizzen und bildliche Darstellungen, soweit vollständig aus einem vorhandenen Werk übernommen oder für die Zwecke dieser Arbeit adaptiert, habe ich mit Quellenangaben versehen.\nKI-generierte bildliche Darstellungen habe ich als solche kenntlich gemacht und das verwendete Tool genannt.\nKI-generierten Text und Analyse-Code habe ich, soweit in der Arbeit verwendet, überprüft und eigenständig nach Bedarf bearbeitet.\nIch übernehme die volle Verantwortung für den Inhalt dieser Arbeit und versichere, dass ich die eingereichte Arbeit ohne Rückgriff auf eine generative KI angemessen erklären, verteidigen und rekonstruieren könnte.\n\n\nLeitlinien für die Nutzung von KI in Lehre und Prüfungen am Department Psychologie: https://doi.org/10.5281/zenodo.20606211"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#eigenständigkeitserklärung-english",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#eigenständigkeitserklärung-english",
+    "title": "Formal modeling in psychology: Organizational Stuff",
+    "section": "Eigenständigkeitserklärung (english)",
+    "text": "Eigenständigkeitserklärung (english)\n\nI hereby declare that I have written this work independently. Any passages taken from other works, whether verbatim or in substance, have been clearly identified and appropriately referenced in every instance. This also applies to direct quotations from sources written in other languages that have been translated using AI tools. In such cases, I have cited both the original-language source and the AI tool used for translation (e.g., “Author, Year, Page Number, translation of the original German- language source using DeepL”). Any drawings, maps, figures, or visual representations that have been reproduced from existing works or adapted for the purposes of this submission have been appropriately referenced.\nAI-generated images have been clearly identified as such, and the tool used has been named.\nAny AI-generated text or analysis code used in this work has been critically reviewed and, where necessary, revised by me.\nI take full responsibility for the content of this work and confirm that I could reasonably explain, defend, and reconstruct it without relying on a generative AI tool.\n\n\nLeitlinien für die Nutzung von KI in Lehre und Prüfungen am Department Psychologie: https://doi.org/10.5281/zenodo.20606211"
+  },
+  {
+    "objectID": "lectures/Empra-Orga/Empra-Orga.slide.html#no-video-recordings-no-smart-glasses",
+    "href": "lectures/Empra-Orga/Empra-Orga.slide.html#no-video-recordings-no-smart-glasses",
+    "title": "Formal modeling in psychology: Organizational Stuff",
+    "section": "No video recordings, no smart glasses",
+    "text": "No video recordings, no smart glasses\n\n\n\n\nNo audio or video recordings without prior agreement.\nWearing smart glasses with a recording function (e.g. Ray-Ban Meta) is not permitted, regardless of whether the recording function is activated or not.\nIn the event of a breach, you must delete any existing recordings and leave the event.\n\n\n\n\n\n\n\n\nUnder §5(1)(4) of the LMU’s house rules, video and audio recordings (including those made solely for private purposes) are only permitted with my authorisation as the event organiser. I do not grant such authorisation. As the event organiser, I am responsible for enforcing the house rules for this room in accordance with §2(2)(2) of the house rules."
   }
 ]

@@ -31,7 +31,6 @@ revealjs-plugins:
 - But where does the initial theory come from? "Flair"? Flash of inspiration in the shower?
 - Popper did not care much about the first stage of creating theories - just about the later testing of theories.
 
-
 **Conjecture**: We have a refined methodology¹ to *test* theories (e.g., experimental designs, statistical methods, preregistration, ...). [But we had (so far) no good methodology for constructing theories.]{.hl}
 
 ::: {style="font-size: 50%;"}
@@ -45,7 +44,7 @@ revealjs-plugins:
 ::::
 
 ::: {.notes}
-"Abduction" actually refers to the process of coming up with a theory.
+"Abduction" refers to the process of coming up with a theory.
 :::
 
 

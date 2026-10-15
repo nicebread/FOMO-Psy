@@ -25,3 +25,9 @@
 .alert {
   color: #9a2515 !important;
 }
+
+
+/* smaller blockquote text */
+.reveal blockquote {
+  font-size: 75%;
+}

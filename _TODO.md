@@ -1,3 +1,21 @@
+
+## Use definitions from Musfeld paper.
+
+## Intermediate Discussion: how can LLMs meaningfully support theory development?
+
+Erste Versuche zur Formalisierung mit LLMs allein gibt es übrigens auch schon: https://arxiv.org/abs/2502.00879
+
+Pro:
+
+- Use LLMs to detect jingle jangle fallacies (cf. Wulf & Mata paper)
+- Use LLMs as reviewers: Give them both the original narrative theory and your VAST / formalization and ask them to check for congruency
+- Help to arrive faster at formulas that implement the functional relationships that you envision.
+
+Con:
+
+- Use LLMs as a blackbox to transform "a bunch of PDFs" to a formal model. For *understanding* a theory (and to make it explanatory), *you* need to understand it.
+
+
 ## Julia Ideen
 
 - Marr (2010) levels of analysis 
@@ -11,7 +29,6 @@ higher level of resolution."
 - Strength of evidence depends on methodological quality/risk of bias, sample size, existing replications, study design (e.g., causal claims should ideally come from experimental designs)
 - Simplify the robustness analysis with a "Generalizability Analysis Classification Scheme". Focus on the highest available level of evidence - we do not care about any low-quality studies.
 
-## Use definitions from Musfeld paper.
 
 ## UTOS: Create a quiz for learning the distinction between evidence for, against and inconclusive
 
@@ -45,9 +62,6 @@ Am Ende der VAST-Einführung?
 Das eine lässt immer mehrere Varianten zu.
 Man kann es aber auch so sagen: Das übergeordnete setzt constraints - es sind zwar mehrere, aber halt auch nicht *alle* denkbaren Modellvarianten möglich.
 
-## Formalization Slides Intro (in der Nähe von Popper)
-
-> Researchers in social psychology, for example, report a lack of knowledge as their main challenge for implementing theory specification (Glöckner, Gollwitzer, et al., 2024).
 
 
 ## Functional forms
@@ -70,25 +84,6 @@ Also watch out for non-linear relationships: Then the strength of an effect (if 
 Aaron Hinweis:
 
 - die Unplausibilität von linearen Annahmen sieht man sehr deutlich, wenn man über die Zeit simuliert: Dann sollten laut der Modelle irgendwelche Leute explodieren.
-
-
-
-Inhalte im Studium unterbringen?
-- Vorteil ist schon das Praktische.
-- 4. Semester Diagnostik 2; dann Übungsblätter, die aber nicht sehr anwendungsnah waren; diese ÜBs reduzieren und statt dessen Theorientwicklung.
-- VL in Stat 2 zu Replikationskrise war etwas zäh
-	- Dort könnte man VAST zeigen; Denkweise: Wie reduziere ich? Was sind die Ein- und Ausgänge
-	- Rahmenmodell: Theorie - Phänomen - Daten --> zeigen, dass Replikationskrise nur den einen Pfad betrifft.
-- Stat 1 und 2 Seminare: Zeitlich überschaubar für 9 ECTS - da wäre noch Luft, was reinzubringen (qualitative Methoden)
-	- Aber: Das *auch* noch im 1. Semester (mit der ganzen Statistik) - das überfordert.
-- Klausurrelevant machen - nicht zu viel, Statistik stresst die Leute eh schon. Aber ohne Klausurrelevanz macht man halt nichts.
-- Thematisch passt es eigentlich am besten zur Grundlagenvorlesung "Theoretische Grundlagen und ..."
-	- Methoden der Datenerhebung?
-- Nicht in der Tiefe für alle - abgespeckte Version. Vertiefung dann im 5. Semester für die Nerds
-- Bei den DAGs in Stat 2: VAST als Variante bringen.
-- Oder im Master bei den DAGs bringen?
-
-
 
 
 
@@ -166,17 +161,7 @@ Currently, we have 3 VAST displays to be created in the homeworks:
 --> I think the repeated exercise with different foci makes sense. Maybe make the learning goals clearer.
 
 
-## Add LLM support
 
-von Caspar Schumacher:
-
-> bin gerade zufällig auf diesen neuen Preprint von Rui & Wulff (die vom „LLM to solve Jingle-Jangle“-Paper) gestoßen: https://arxiv.org/abs/2511.00206
-> Unter 2.2 (S. 6) beschreiben sie ziemlich genau die Problematik, die wir uns auch im Seminar anschauen. Voll cool zu sehen, wie das Thema gerade an Traktion gewinnt.
-Erste Versuche zur Formalisierung mit LLMs allein gibt es übrigens auch schon: https://arxiv.org/abs/2502.00879
-
-(a) Use LLMs to aid in VAST development.
-(b) Use LLMs to translate a VAST display into a formal model
-(c) Skip step (a) and directly go from "a bunch of PDFs" to "formal model"? But for *understanding* a theory (and to make it explanatory), I think we need step a.
 
 
 ## Structural changes (next time)
@@ -192,19 +177,11 @@ Erste Versuche zur Formalisierung mit LLMs allein gibt es übrigens auch schon: 
 - Read Oude Maatman, F. (2021, July 12). Psychology's Theory Crisis, and Why Formal Modelling Cannot Solve It. https://doi.org/10.31234/osf.io/puqvs
 
 
-## Git tutorial
-
-EIn typisches Problem: Sie lernen im Tutorial erst mal eine *Fork* von dem Repositorium zu machen.
-Wenn sie dann anfangen im Homework-Repositorium zu arbeiten, machen manche davon erst mal eine Fork. Sie sollen aber alle im selben Repositorium arbeiten.
-
-In R-Studio erscheint der Git-Tab nur, wenn ein R-Project erstellt wurde.
-
-
 
 
 # van Dongen
 
-Kann eine Theorie *zu* präzise sein? Dann würde man extrem viele arbiträre Festlegeungen treffen, die dann im Core der Theorie sind, aber eigentlich nur Overfitting oder arbiträr.
+Kann eine Theorie *zu* präzise sein? Dann würde man extrem viele arbiträre Festlegungen treffen, die dann im Core der Theorie sind, aber eigentlich nur Overfitting oder arbiträr.
 
 
 # Beispiele:
@@ -227,3 +204,23 @@ Eiko Fried: https://www.tandfonline.com/doi/full/10.1080/1047840X.2020.1854011
 # Formalization exercise:
 
 "Channels of Communication in Small Groups"  (in 1951) https://www.jstor.org/stable/2088276 If you have 5 person in a panel, uniform distribution of time would be 20% each. In reality, it's more 44%, 22%, 15%, 11%,  9%, i.e. what is called "discrete harmonic" (or Zipf distribution with power index of 1)
+
+
+
+
+
+## Inhalte des Empras bereits im Studium unterbringen?
+
+- Vorteil ist schon das Praktische.
+- 4. Semester Diagnostik 2; dann Übungsblätter, die aber nicht sehr anwendungsnah waren; diese ÜBs reduzieren und statt dessen Theorientwicklung.
+- VL in Stat 2 zu Replikationskrise war etwas zäh
+	- Dort könnte man VAST zeigen; Denkweise: Wie reduziere ich? Was sind die Ein- und Ausgänge
+	- Rahmenmodell: Theorie - Phänomen - Daten --> zeigen, dass Replikationskrise nur den einen Pfad betrifft.
+- Stat 1 und 2 Seminare: Zeitlich überschaubar für 9 ECTS - da wäre noch Luft, was reinzubringen (qualitative Methoden)
+	- Aber: Das *auch* noch im 1. Semester (mit der ganzen Statistik) - das überfordert.
+- Klausurrelevant machen - nicht zu viel, Statistik stresst die Leute eh schon. Aber ohne Klausurrelevanz macht man halt nichts.
+- Thematisch passt es eigentlich am besten zur Grundlagenvorlesung "Theoretische Grundlagen und ..."
+	- Methoden der Datenerhebung?
+- Nicht in der Tiefe für alle - abgespeckte Version. Vertiefung dann im 5. Semester für die Nerds
+- Bei den DAGs in Stat 2: VAST als Variante bringen.
+- Oder im Master bei den DAGs bringen?

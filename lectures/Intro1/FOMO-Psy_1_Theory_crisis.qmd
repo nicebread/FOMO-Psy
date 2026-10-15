@@ -149,7 +149,16 @@ Wulff, D. U., & Mata, R. ([2025](https://doi.org/10.1038/s41562-024-02089-y)). P
 
 Mapping 459 scales to 68 labels based on a parsimonious solution (compressing to 15%).
 
+:::: {.columns}
+::: {.column width='50%'}
 ![](img/Wulff_JingleJangle_2.png){fig-align="center"}
+:::
+
+::: {.column width='50%'}
+![](img/Wulff_JingleJangle_3.png){fig-align="center"}
+:::
+::::
+
 
 
 ::: footer
@@ -348,8 +357,9 @@ See Westfall et al. (2015). Replicating Studies in Which Samples of Participants
 
 . . . 
 
+::: {.callout-note}
 *My take*: It *is* a phenomenon (though a weak one), as it generalizes to new units (i.e., new participants) of the same operationalization. But the generalizability was much weaker than initially expected. It is a phenomenon of this specific stimulus set (*outcome operationalization*) and suggests certain types of research questions (e.g., "What is so specific to this stimulus set?").
-
+:::
 
 
 ## Replication crisis
@@ -394,7 +404,8 @@ flowchart LR
 ```
 :::
 
-Doubts about phenomena propagate to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete.
+- Doubts about phenomena propagate to theories: If there is no phenomenon to explain, any explanatory theory gets obsolete.
+- Doubts about phenomena propagate to data: If there is no generalizable pattern, we cannot predict new data.
 
 # From replication crisis to theory crisis {background-color="#40666e"}
 
@@ -420,12 +431,12 @@ flowchart LR
 ```
 :::
 
-::: {.smaller}
+
 > "We argue that a further cause of poor replicability is the often weak logical link between theories and their empirical tests. [...] A strong link between theories and hypotheses is best achieved by formalizing theories as computational models."
 >
 > "Many of these proposals [i.e., method reforms] are helpful ideas for raising the standards of good research practice, primarily ensuring more trustworthy inferences on the empirical level of scientific inference — the level connecting observations to empirical generalizations. Our concern is that shoring up the strength of inferences on the empirical level does not by itself address deficits on the theory level — the level connecting empirical generalizations to theories."
 > <div style="text-align: right; font-size: 70%">*Oberauer & Lewandowsky (2019)*</div>
-:::
+
 
 ::: footer
 Oberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psychology. *Psychonomic Bulletin & Review*, 26(5), 1596–1618. [https://doi.org/10.3758/s13423-019-01645-2](https://doi.org/10.3758/s13423-019-01645-2)
@@ -445,8 +456,9 @@ Oberauer, K., & Lewandowsky, S. (2019). Addressing the theory crisis in psycholo
 - These two lead to problems of **validity of psychological constructs** (i.e., do they actually related to the real world?)
 - **Obstacles to discovering causal relationships** between psychological variables
 - The probably **most complex research object** in the known universe is investigated with...
-  - ... ridiculously small samples and
-  - ... imprecise methods.
+  - ... ridiculously small samples,
+  - ... shaky research methods, and
+  - ... imprecise theories.
 :::
 
 ::: footer
@@ -459,10 +471,10 @@ See Eronen & Bringmann (2021); Slide adapted from [Karolin Salmen](https://www.p
 - Learn to use the Visual Argument Structure Tool (VAST)
   - Clear labels, that denote a precise latent construct.
   - A consensus about the meaning of words helps to communicate within and beyond the scientific community.
-  - Conceptual precision increases its ability to be criticized
+  - Conceptual precision increases its ability to be criticized.
 - Learn how to formalize verbal theories
   - Mathematical models
-  - Agent-based models (ABMs)
+  - (not covered in this course: Agent-based models)
 - Simulate the models: Are they able to produce the phenomena we observe in the data?
 - Practice with your own theory
 

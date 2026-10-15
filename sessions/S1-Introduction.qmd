@@ -14,14 +14,15 @@ description: Course formalia; Discussing the theory crisis; showcasing Git
 :::
 
 
-| Topic                                    | Duration | Notes                                                                          |
-| ---------------------------------------- | -------- | ------------------------------------------------------------------------------ |
-| Introduction                             | 5        | Instructor introduction                                                        |
-| Introduction of students in the plenum   | 10       | Guiding questions: Name, home town, why chose this Empra. Write your name tag. |
-| Formalia                                 | 20       | [Slides](../lectures/Empra-Orga/Empra-Orga.qmd)                                |
-| **Lecture**: Introduction: Theory crisis | 100      | [Slides](../lectures/Intro1/FOMO-Psy_1_Theory_crisis.qmd)                      |
-| Git Intro                                | 20       | [Slides 1-6](../lectures/it-tools/it-tools.qmd)                                |
-| Explain homework                         | 10       |                                                                                |
+| Topic                                    | Duration | Notes                                                                                           |
+| ---------------------------------------- | -------- | ----------------------------------------------------------------------------------------------- |
+| Introduction                             | 5        | Instructor introduction                                                                         |
+| Introduction of students in the plenum   | 15       | Guiding questions: Name, home town, why chose this Empra. Write your name tag.                  |
+| Formalia                                 | 30       | [Slides](../lectures/Empra-Orga/Empra-Orga.qmd)                                                 |
+| Open Science Knowledge Test              | 15       | [Take the test](https://sozialpsychologie-studien.de/oska/start.php?c=5f62f78f9e60806e0f48a045) |
+| **Lecture**: Introduction: Theory crisis | 100      | [Slides](../lectures/Intro1/FOMO-Psy_1_Theory_crisis.qmd)                                       |
+| Git Intro                                | 20       | [Slides 1-6](../lectures/it-tools/it-tools.qmd)                                                 |
+| Explain homework                         | 10       |                                                                                                 |
 
 : {.striped}
 
@@ -41,6 +42,10 @@ If you are proficient in `git` and Github, you can skip step 3:
 3. Do the tutorial ["Introduction to version Control with git and GitHub within RStudio"](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/), **and** the follow-up tutorial "[Collaborative coding with GitHub and RStudio](https://lmu-osc.github.io/Collaborative-RStudio-GitHub/)". Depending on your prior knowledge, completing both tutorials will take between 30 min. and 2.5h.
     - Note: In chapter "Secure the connection ..." it says "You will then be asked to provide a passphrase. Protecting your keys with a password is optional but highly recommended". I recommend *not* to set a passphrase (just leave it empty), unless you deal with very sensitive data. You will get crazy if you need to enter your passphrase at every SSH operation.
 4. Once you have been granted access to the [Homework Repository]({{< var homework_repo >}}), `clone` the repository to your local machine. (This cannot be done on an iPad or smartphone; you need a computer for that.). **Important**: Do *not* fork the repository (as you did in the tutorial), but *clone* it (i.e., we are all working within the same repository, not on individual forked copies of it).
+
+::: {.callout-note}
+If you encounter technical problems during the tutorial: Do not despair. Try your best; we will have plenty of time next session for troubleshooting and fixing your setup.
+:::
 
 **Deliverable**: 
 
@@ -78,7 +83,7 @@ The inexact sciences are those in which the mappings between measurements and th
 - `commit` and `push`
 - (To verify your submission: Go to the [website]({{< var homework_repo >}}) of the repository, and check whether your file is in the folder `homework/01-Smaldino-chapter`.)
 
-You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use ChatGPT, better don't do the homework at all (after all, the goal of this exercise is that you *learn* something, not that you make your lecturer happy).
+You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use AI, better don't do the homework at all (after all, the goal of this exercise is that you *learn* something, not that you make your lecturer happy).
 
-Using `git` for the first time can be challenging. But it's a skill that will pay off in the long run. If you get stuck, and made honest attempts to solve the problems yourself, don't get desperate: Just send me your homework via email, and we will sort it out together in the next session.
+Using `git` for the first time can be challenging. But it's a skill that will pay off in the long run. If you get stuck, and made honest attempts to solve the problems yourself, don't get desperate: Just send me your homework via email, and we will sort out any technical problems together in the next session.
 

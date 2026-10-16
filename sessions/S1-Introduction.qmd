@@ -8,9 +8,9 @@ description: Course formalia; Discussing the theory crisis; showcasing Git
 
 ::: {.callout-note collapse="true" title="Instructor notes"}
 - Bring empty name tags and board markers.
-- During the Git intro, create the course's private homework repo. Create the folder `homework/01-Smaldino-chapter`.
-- Create an R-project file (without that, `git` does not work in R-Studio). Otherwise, many students will create that project fiel themselves, leading to many merge conflicts.
-- At the end, collect the name tags (and bring them along next time)
+- During the Git intro, create the course's private homework repo `{{< var homework_repo >}}`. Create the folder `homework/01-Smaldino-chapter`.
+- in the root folder of the repo, create an R-project file (without that, `git` does not work in R-Studio). Otherwise, many students will create that project file themselves, leading to many merge conflicts.
+- At the end of the session, collect the name tags (and bring them along next time)
 :::
 
 
@@ -85,5 +85,6 @@ The inexact sciences are those in which the mappings between measurements and th
 
 You can answer in English or in German. Most questions can be easily answered in one sentence. Feel free to copy and paste the relevant sentences from the paper. If you are tempted to use AI, better don't do the homework at all (after all, the goal of this exercise is that you *learn* something, not that you make your lecturer happy).
 
+::: {.callout-note}
 Using `git` for the first time can be challenging. But it's a skill that will pay off in the long run. If you get stuck, and made honest attempts to solve the problems yourself, don't get desperate: Just send me your homework via email, and we will sort out any technical problems together in the next session.
-
+:::

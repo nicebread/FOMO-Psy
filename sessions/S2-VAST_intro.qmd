@@ -16,7 +16,7 @@ description: Intro to theory 2 / VAST-Displays
 | Topic                                                | Duration | Notes                                         |
 | ---------------------------------------------------- | -------- | --------------------------------------------- |
 | Create groups with mixed expertise                   | 5        |                                               |
-| Git Tutorial troubleshooting                         | 30       |                                               |
+| Git Tutorial troubleshooting                         | 20       |                                               |
 | Wrap up **[Homework 2]**: Smaldino (2013), Chapter 1 | 15       |                                               |
 | **Lecture**: Short introduction to VAST              | 60       | [Slides](../lectures/VAST/VAST_Intro.qmd)     |
 | **Lecture**: What is (not) a theory? (Part 1)        | 30       | [Slides](../lectures/Intro2/Intro2.qmd), 1-17 |

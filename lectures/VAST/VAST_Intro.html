@@ -468,7 +468,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
 </ul></li>
 <li>The <code>n</code> stands for a naming relationship</li>
-<li>A <strong>name</strong> is a word (or sentence, or paragraph) that is used to describe those objects to which a concept applies. Names (or “labels”) are set in quotation marks <code>""</code> in VAST displays.</li>
+<li>A <strong>name</strong> is a word (or sentence, or paragraph) that is used to describe those objects to which a concept applies. Names are set in quotation marks <code>""</code> in VAST displays.</li>
 </ul>
 </section>
 <section id="naming-concepts-1" class="level2">
@@ -538,7 +538,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>A concept may have any number of names. Here, all three names are synonyms regarding concept <code>I</code>.</p>
+<p>A concept may have any number of names. Here, all three names are synonyms regarding concept <code>I</code>. They can be used fully interchangeably.</p>
 </section>
 </section>
 <section id="naming-concepts-2" class="level2">
@@ -1329,7 +1329,7 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <div class="smaller">
-<p>This diagram expresses the idea that a correlation between the two sets of test scores would be a reason (<code>r</code>) to assume that both sets of test scores reflect causal influences of some common factor (called “intelligence”).</p>
+<p>This diagram expresses the idea that a correlation between the two sets of test scores (<code>p</code>) would be a reason (<code>r</code>) to assume that both sets of test scores reflect causal influences (<code>c</code>) of some common factor (called “intelligence”).</p>
 </div>
 </section>
 <section id="is-and-ought" class="level2">
@@ -1363,6 +1363,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <ul>
 <li>A <code>c 0</code> arrow expresses the idea that there is no other causal influence on “Intelligence” apart from the ones that were specified (CGE or GGD).</li>
+<li>What strikes you about this image?</li>
 </ul>
 <div class="fragment">
 <ul>
@@ -2070,44 +2071,6 @@ window.onload = function() {
 }
 
 </script>
-
-<script>
-  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-  // slide changes (different for each slide format).
-  (function () {
-    // dispatch for htmlwidgets
-    function fireSlideEnter() {
-      const event = window.document.createEvent("Event");
-      event.initEvent("slideenter", true, true);
-      window.document.dispatchEvent(event);
-    }
-
-    function fireSlideChanged(previousSlide, currentSlide) {
-      fireSlideEnter();
-
-      // dispatch for shiny
-      if (window.jQuery) {
-        if (previousSlide) {
-          window.jQuery(previousSlide).trigger("hidden");
-        }
-        if (currentSlide) {
-          window.jQuery(currentSlide).trigger("shown");
-        }
-      }
-    }
-
-    // hookup for slidy
-    if (window.w3c_slidy) {
-      window.w3c_slidy.add_observer(function (slide_num) {
-        // slide_num starts at position 1
-        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-      });
-    }
-
-  })();
-</script>
-
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

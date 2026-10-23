@@ -123,7 +123,7 @@
     "href": "sessions/S2-VAST_intro.html#overview",
     "title": "Session 02 - Introduction to the Visual Argument Structure Tool",
     "section": "Overview",
-    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nCreate groups with mixed expertise\n5\n\n\n\nGit Tutorial troubleshooting\n30\n\n\n\nWrap up [Homework 2]: Smaldino (2013), Chapter 1\n15\n\n\n\nLecture: Short introduction to VAST\n60\nSlides\n\n\nLecture: What is (not) a theory? (Part 1)\n30\nSlides, 1-17"
+    "text": "Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nCreate groups with mixed expertise\n5\n\n\n\nGit Tutorial troubleshooting\n20\n\n\n\nWrap up [Homework 2]: Smaldino (2013), Chapter 1\n15\n\n\n\nLecture: Short introduction to VAST\n60\nSlides\n\n\nLecture: What is (not) a theory? (Part 1)\n30\nSlides, 1-17"
   },
   {
     "objectID": "sessions/S2-VAST_intro.html#homework-1-individually-read-the-vast-paper",
@@ -907,7 +907,7 @@
     "href": "lectures/Intro2/Intro2.slide.html#definitions-1",
     "title": "What are (Not) Theories & Models?",
     "section": "Definitions (1)",
-    "text": "Definitions (1)\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (explanans)\n\n\n\nDissecting the dense definition:\n\nTheories are not about specific measurements or operationalizations: they are about (a) latent constructs, and (b) explains phenomena (generalizable patterns in data).\n“Statements”: Typically these are causal statements (if-then), but the definition is broad and includes also other statements (e.g., correlational).\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
+    "text": "Definitions (1)\n\n\n\n\n\n\nWhat is an (explanatory) theory? (Borsboom et al. (2021) definition)\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (explanans)\n\n\n\n\n\n\n\n\n\nMusfeld et al. (2026) definition\n\n\nA set of interrelated propositions about (aspects of) the world that aim to explain and predict certain phenomena.\n\n\n\nDissecting the dense definitions:\n\nTheories are not about specific measurements or operationalizations: they are about (a) latent constructs, and (b) explains phenomena (generalizable patterns in data).\n“Statements”: Typically these are causal statements (if-then), but the definition is broad and includes also other statements (e.g., correlational).\n\n\nBorsboom et al. (2021); Musfeld et al. (2026)."
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#what-is-a-model",
@@ -915,6 +915,76 @@
     "title": "What are (Not) Theories & Models?",
     "section": "What is a model?",
     "text": "What is a model?\n\nA {formal|mathematical|computational} model is a precise, mathematical or algorithmic representation of the theory’s principles and relationships. It serves as a bridge between abstract theoretical principles and the empirical world.\nAs theories are about constructs, there is a gap between theory and implemented models: We need more assumptions to implement a model in computer code and to make it empirically testable. These are typically assumptions about operationalization (how to measure constructs) and auxiliary assumptions (additional assumptions that are not part of the core theory, but are needed to implement it, such as specific functional forms).\nFilling the gaps between theory and implemented model is called model specification. There is no 1-to-1 mapping of a theory to a derived model: Multiple models can satisfy the axioms and constraints of a theory."
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-1",
+    "href": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-1",
+    "title": "What are (Not) Theories & Models?",
+    "section": "“Der Wirklichkeit Gewalt antun”",
+    "text": "“Der Wirklichkeit Gewalt antun”\n\n\n\n“Die Wahrheit liegt in der uns umgebenden Wirklichkeit unmittelbar vor uns. Diese können wir aber unverändert nicht gebrauchen. Eine lückenlose Beschreibung der Wirklichkeit wäre zugleich das wahrste und unnützste Ding von der Welt und gewiß keine Wissenschaft. Wir müssen der Wirklichkeit und damit der Wahrheit Gewalt antun, wenn wir sie wissenschaftlich verwerten wollen. Wir müssen die Unterscheidung von wesentlich und unwesentlich einführen, die es in der ganzen Natur nicht gibt. In ihr ist alles gleich wesentlich. Indem wir die uns wesentlich erscheinenden Zusammenhänge aufsuchen, ordnen wir zugleich den Stoff übersichtlich. Dann treiben wir Wissenschaft.”\n(von Uexküll, 1909, S. 58)\n\n\n\n\n\n\n\n\n\nvon Uexküll, J. (1909). Umwelt und Innenwelt der Tiere. Berlin: J. Springer, p. 58. Quote found in Smaldino (2023)"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-2",
+    "href": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-2",
+    "title": "What are (Not) Theories & Models?",
+    "section": "“Der Wirklichkeit Gewalt antun”",
+    "text": "“Der Wirklichkeit Gewalt antun”\nPopper’s version\n\n\nKarl Popper once described science “as the art of systematic over-simplification — the art of discerning what we may with advantage omit”.\n\n\n\n\nSir Karl Popper, 1902 - 1994\n\n\n\n\nPopper, 1988, p. 44"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-3",
+    "href": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-3",
+    "title": "What are (Not) Theories & Models?",
+    "section": "“Der Wirklichkeit Gewalt antun”",
+    "text": "“Der Wirklichkeit Gewalt antun”"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-4",
+    "href": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-4",
+    "title": "What are (Not) Theories & Models?",
+    "section": "“Der Wirklichkeit Gewalt antun”",
+    "text": "“Der Wirklichkeit Gewalt antun”"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-5",
+    "href": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-5",
+    "title": "What are (Not) Theories & Models?",
+    "section": "“Der Wirklichkeit Gewalt antun”",
+    "text": "“Der Wirklichkeit Gewalt antun”\n\n\n\n\n\nWe want to distill those concepts that are most useful to explain parts of the human psyche.\n(We will learn later what „explain“ means).\nThese concepts are tools that guide our attention towards certain features, which we might not have seen before.\nThey help us to organize our language and our reasoning about people."
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#the-map-and-the-territory",
+    "href": "lectures/Intro2/Intro2.slide.html#the-map-and-the-territory",
+    "title": "What are (Not) Theories & Models?",
+    "section": "The map and the territory",
+    "text": "The map and the territory\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s not confuse the map with the territory!\n\nparaphrased from Alfred Korzybski (1933) “Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics”\n\n\nKorzybski warned against confusing our mental models of the world with the world itself, a mistake he believed was at the root of much human suffering."
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#the-map-and-the-territory-1",
+    "href": "lectures/Intro2/Intro2.slide.html#the-map-and-the-territory-1",
+    "title": "What are (Not) Theories & Models?",
+    "section": "The map and the territory",
+    "text": "The map and the territory\n\n„A language is like a map; it is not the territory represented, but it may be a good map or a bad map. If the map shows a different structure from the territory represented […] then the map is worse than useless, as it misinforms and leads astray. One who made use of it could never be certain of reaching his destination.“ (Korzybski, 1933, p. 375)"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#models-vs-reality",
+    "href": "lectures/Intro2/Intro2.slide.html#models-vs-reality",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Models vs Reality",
+    "text": "Models vs Reality\n\n\nAll models are wrong, but some models are useful.\n\n\n\n\nGeorg Box (1919 - 2013)\n\n\n\n\nImage CC-BY-SA 3.0 by DavidMCEddy (Wikimedia Commons)"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#useful-for-a-specific-purpose-not-true",
+    "href": "lectures/Intro2/Intro2.slide.html#useful-for-a-specific-purpose-not-true",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Useful (for a specific purpose), not true",
+    "text": "Useful (for a specific purpose), not true\n\n\n“His design for a London underground railway was initially rejected as too revolutionary. Today, his idea has gained worldwide acceptance: Beck simplified the route (only horizontal, vertical and diagonal lines) and ignored exact distances.”\n\n\n\n\n\n\n\n→ By omission of details (and making the map less realistic) the map got more useful!\n\nInfographic and quote from Die ZEIT"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3278203e7d7d-group-work-10-min.",
+    "href": "lectures/Intro2/Intro2.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3278203e7d7d-group-work-10-min.",
+    "title": "What are (Not) Theories & Models?",
+    "section": " Group work (10 min.)",
+    "text": "Group work (10 min.)\nHow can we ensure that we do not create a purely self-referential system of symbols that does not refer to reality any more?\nOf course we can play the mathematician’s game (and might have a lot of fun meanwhile). But ultimately, if we want to understand and explain the human psyche, we need to make sure that our constructs are grounded in reality.\nHow can this grounding happen?"
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#explicating-a-verbal-theory-into-formal-models",
@@ -1082,7 +1152,7 @@
     "href": "lectures/Intro2/Intro2.html#definitions-1",
     "title": "What are (Not) Theories & Models?",
     "section": "Definitions (1)",
-    "text": "Definitions (1)\n\n\n\n\n\n\nTipWhat is an (explanatory) theory?\n\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (explanans)\n\n\nDissecting the dense definition:\n\nTheories are not about specific measurements or operationalizations: they are about (a) latent constructs, and (b) explains phenomena (generalizable patterns in data).\n“Statements”: Typically these are causal statements (if-then), but the definition is broad and includes also other statements (e.g., correlational).\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
+    "text": "Definitions (1)\n\n\n\n\n\n\nTipWhat is an (explanatory) theory? (Borsboom et al. (2021) definition)\n\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (explanans)\n\n\n\n\n\n\n\n\nTipMusfeld et al. (2026) definition\n\n\n\nA set of interrelated propositions about (aspects of) the world that aim to explain and predict certain phenomena.\n\n\nDissecting the dense definitions:\n\nTheories are not about specific measurements or operationalizations: they are about (a) latent constructs, and (b) explains phenomena (generalizable patterns in data).\n“Statements”: Typically these are causal statements (if-then), but the definition is broad and includes also other statements (e.g., correlational).\n\n\nBorsboom et al. (2021); Musfeld et al. (2026)."
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#what-is-a-model",
@@ -1090,6 +1160,76 @@
     "title": "What are (Not) Theories & Models?",
     "section": "What is a model?",
     "text": "What is a model?\n\nA {formal|mathematical|computational} model is a precise, mathematical or algorithmic representation of the theory’s principles and relationships. It serves as a bridge between abstract theoretical principles and the empirical world.\nAs theories are about constructs, there is a gap between theory and implemented models: We need more assumptions to implement a model in computer code and to make it empirically testable. These are typically assumptions about operationalization (how to measure constructs) and auxiliary assumptions (additional assumptions that are not part of the core theory, but are needed to implement it, such as specific functional forms).\nFilling the gaps between theory and implemented model is called model specification. There is no 1-to-1 mapping of a theory to a derived model: Multiple models can satisfy the axioms and constraints of a theory."
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.html#der-wirklichkeit-gewalt-antun-1",
+    "href": "lectures/Intro2/Intro2.html#der-wirklichkeit-gewalt-antun-1",
+    "title": "What are (Not) Theories & Models?",
+    "section": "“Der Wirklichkeit Gewalt antun”",
+    "text": "“Der Wirklichkeit Gewalt antun”\n\n\n\n“Die Wahrheit liegt in der uns umgebenden Wirklichkeit unmittelbar vor uns. Diese können wir aber unverändert nicht gebrauchen. Eine lückenlose Beschreibung der Wirklichkeit wäre zugleich das wahrste und unnützste Ding von der Welt und gewiß keine Wissenschaft. Wir müssen der Wirklichkeit und damit der Wahrheit Gewalt antun, wenn wir sie wissenschaftlich verwerten wollen. Wir müssen die Unterscheidung von wesentlich und unwesentlich einführen, die es in der ganzen Natur nicht gibt. In ihr ist alles gleich wesentlich. Indem wir die uns wesentlich erscheinenden Zusammenhänge aufsuchen, ordnen wir zugleich den Stoff übersichtlich. Dann treiben wir Wissenschaft.”\n(von Uexküll, 1909, S. 58)\n\n\n\n\n\n\n\n\n\n\nvon Uexküll, J. (1909). Umwelt und Innenwelt der Tiere. Berlin: J. Springer, p. 58. Quote found in Smaldino (2023)"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.html#der-wirklichkeit-gewalt-antun-2",
+    "href": "lectures/Intro2/Intro2.html#der-wirklichkeit-gewalt-antun-2",
+    "title": "What are (Not) Theories & Models?",
+    "section": "“Der Wirklichkeit Gewalt antun”",
+    "text": "“Der Wirklichkeit Gewalt antun”\n\nPopper’s version\n\n\nKarl Popper once described science “as the art of systematic over-simplification — the art of discerning what we may with advantage omit”.\n\n\n\n\nSir Karl Popper, 1902 - 1994\n\n\n\n\n\nPopper, 1988, p. 44"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.html#der-wirklichkeit-gewalt-antun-3",
+    "href": "lectures/Intro2/Intro2.html#der-wirklichkeit-gewalt-antun-3",
+    "title": "What are (Not) Theories & Models?",
+    "section": "“Der Wirklichkeit Gewalt antun”",
+    "text": "“Der Wirklichkeit Gewalt antun”"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.html#der-wirklichkeit-gewalt-antun-4",
+    "href": "lectures/Intro2/Intro2.html#der-wirklichkeit-gewalt-antun-4",
+    "title": "What are (Not) Theories & Models?",
+    "section": "“Der Wirklichkeit Gewalt antun”",
+    "text": "“Der Wirklichkeit Gewalt antun”"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.html#der-wirklichkeit-gewalt-antun-5",
+    "href": "lectures/Intro2/Intro2.html#der-wirklichkeit-gewalt-antun-5",
+    "title": "What are (Not) Theories & Models?",
+    "section": "“Der Wirklichkeit Gewalt antun”",
+    "text": "“Der Wirklichkeit Gewalt antun”\n\n\n\n\n\nWe want to distill those concepts that are most useful to explain parts of the human psyche.\n(We will learn later what „explain“ means).\nThese concepts are tools that guide our attention towards certain features, which we might not have seen before.\nThey help us to organize our language and our reasoning about people."
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.html#the-map-and-the-territory",
+    "href": "lectures/Intro2/Intro2.html#the-map-and-the-territory",
+    "title": "What are (Not) Theories & Models?",
+    "section": "The map and the territory",
+    "text": "The map and the territory\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s not confuse the map with the territory!\n\nparaphrased from Alfred Korzybski (1933) “Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics”\n\n\nKorzybski warned against confusing our mental models of the world with the world itself, a mistake he believed was at the root of much human suffering."
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.html#the-map-and-the-territory-1",
+    "href": "lectures/Intro2/Intro2.html#the-map-and-the-territory-1",
+    "title": "What are (Not) Theories & Models?",
+    "section": "The map and the territory",
+    "text": "The map and the territory\n\n„A language is like a map; it is not the territory represented, but it may be a good map or a bad map. If the map shows a different structure from the territory represented […] then the map is worse than useless, as it misinforms and leads astray. One who made use of it could never be certain of reaching his destination.“ (Korzybski, 1933, p. 375)"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.html#models-vs-reality",
+    "href": "lectures/Intro2/Intro2.html#models-vs-reality",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Models vs Reality",
+    "text": "Models vs Reality\n\n\nAll models are wrong, but some models are useful.\n\n\n\n\nGeorg Box (1919 - 2013)\n\n\n\n\n\nImage CC-BY-SA 3.0 by DavidMCEddy (Wikimedia Commons)"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.html#useful-for-a-specific-purpose-not-true",
+    "href": "lectures/Intro2/Intro2.html#useful-for-a-specific-purpose-not-true",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Useful (for a specific purpose), not true",
+    "text": "Useful (for a specific purpose), not true\n\n\n“His design for a London underground railway was initially rejected as too revolutionary. Today, his idea has gained worldwide acceptance: Beck simplified the route (only horizontal, vertical and diagonal lines) and ignored exact distances.”\n\n\n\n\n\n\n\n→ By omission of details (and making the map less realistic) the map got more useful!\n\nInfographic and quote from Die ZEIT"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3278203e7d7d-group-work-10-min.",
+    "href": "lectures/Intro2/Intro2.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3278203e7d7d-group-work-10-min.",
+    "title": "What are (Not) Theories & Models?",
+    "section": " Group work (10 min.)",
+    "text": "Group work (10 min.)\nHow can we ensure that we do not create a purely self-referential system of symbols that does not refer to reality any more?\nOf course we can play the mathematician’s game (and might have a lot of fun meanwhile). But ultimately, if we want to understand and explain the human psyche, we need to make sure that our constructs are grounded in reality.\nHow can this grounding happen?"
   },
   {
     "objectID": "lectures/Intro2/Intro2.html#explicating-a-verbal-theory-into-formal-models",
@@ -3003,76 +3143,6 @@
     "text": "Outlook: How we will try to make it better …\n\nLearn to use the Visual Argument Structure Tool (VAST)\n\nClear labels, that denote a precise latent construct.\nA consensus about the meaning of words helps to communicate within and beyond the scientific community.\nConceptual precision increases its ability to be criticized.\n\nLearn how to formalize verbal theories\n\nMathematical models\n(not covered in this course: Agent-based models)\n\nSimulate the models: Are they able to produce the phenomena we observe in the data?\nPractice with your own theory"
   },
   {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-1",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-1",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "“Der Wirklichkeit Gewalt antun”",
-    "text": "“Der Wirklichkeit Gewalt antun”\n\n\n\n“Die Wahrheit liegt in der uns umgebenden Wirklichkeit unmittelbar vor uns. Diese können wir aber unverändert nicht gebrauchen. Eine lückenlose Beschreibung der Wirklichkeit wäre zugleich das wahrste und unnützste Ding von der Welt und gewiß keine Wissenschaft. Wir müssen der Wirklichkeit und damit der Wahrheit Gewalt antun, wenn wir sie wissenschaftlich verwerten wollen. Wir müssen die Unterscheidung von wesentlich und unwesentlich einführen, die es in der ganzen Natur nicht gibt. In ihr ist alles gleich wesentlich. Indem wir die uns wesentlich erscheinenden Zusammenhänge aufsuchen, ordnen wir zugleich den Stoff übersichtlich. Dann treiben wir Wissenschaft.”\n(von Uexküll, 1909, S. 58)\n\n\n\n\n\n\n\n\n\n\nvon Uexküll, J. (1909). Umwelt und Innenwelt der Tiere. Berlin: J. Springer, p. 58. Quote found in Smaldino (2023)"
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-2",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-2",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "“Der Wirklichkeit Gewalt antun”",
-    "text": "“Der Wirklichkeit Gewalt antun”\n\nPopper’s version\n\n\nKarl Popper once described science “as the art of systematic over-simplification — the art of discerning what we may with advantage omit”.\n\n\n\n\nSir Karl Popper, 1902 - 1994\n\n\n\n\n\nPopper, 1988, p. 44"
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-3",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-3",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "“Der Wirklichkeit Gewalt antun”",
-    "text": "“Der Wirklichkeit Gewalt antun”"
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-4",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-4",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "“Der Wirklichkeit Gewalt antun”",
-    "text": "“Der Wirklichkeit Gewalt antun”"
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-5",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#der-wirklichkeit-gewalt-antun-5",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "“Der Wirklichkeit Gewalt antun”",
-    "text": "“Der Wirklichkeit Gewalt antun”\n\n\n\n\n\nWe want to distill those concepts that are most useful to explain parts of the human psyche.\n(We will learn later what „explain“ means).\nThese concepts are tools that guide our attention towards certain features, which we might not have seen before.\nThey help us to organize our language and our reasoning about people."
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-map-and-the-territory",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-map-and-the-territory",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "The map and the territory",
-    "text": "The map and the territory\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s not confuse the map with the territory!\n\nparaphrased from Alfred Korzybski (1933) “Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics”\n\n\nKorzybski warned against confusing our mental models of the world with the world itself, a mistake he believed was at the root of much human suffering."
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-map-and-the-territory-1",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#the-map-and-the-territory-1",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "The map and the territory",
-    "text": "The map and the territory\n\n„A language is like a map; it is not the territory represented, but it may be a good map or a bad map. If the map shows a different structure from the territory represented […] then the map is worse than useless, as it misinforms and leads astray. One who made use of it could never be certain of reaching his destination.“ (Korzybski, 1933, p. 375)"
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#models-vs-reality",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#models-vs-reality",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "Models vs Reality",
-    "text": "Models vs Reality\n\n\nAll models are wrong, but some models are useful.\n\n\n\n\nGeorg Box (1919 - 2013)\n\n\n\n\n\nImage CC-BY-SA 3.0 by DavidMCEddy (Wikimedia Commons)"
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#useful-for-a-specific-purpose-not-true",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#useful-for-a-specific-purpose-not-true",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "Useful (for a specific purpose), not true",
-    "text": "Useful (for a specific purpose), not true\n\n\n“His design for a London underground railway was initially rejected as too revolutionary. Today, his idea has gained worldwide acceptance: Beck simplified the route (only horizontal, vertical and diagonal lines) and ignored exact distances.”\n\n\n\n\n\n\n\n→ By omission of details (and making the map less realistic) the map got more useful!\n\nInfographic and quote from Die ZEIT"
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3278203e7d7d-group-work-10-min.-1",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3278203e7d7d-group-work-10-min.-1",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": " Group work (10 min.)",
-    "text": "Group work (10 min.)\nHow can we ensure that we do not create a purely self-referential system of symbols that does not refer to reality any more?\nOf course we can play the mathematician’s game (and might have a lot of fun meanwhile). But ultimately, if we want to understand and explain the human psyche, we need to make sure that our constructs are grounded in reality.\nHow can this grounding happen?"
-  },
-  {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#contact",
     "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.html#contact",
     "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
@@ -3239,76 +3309,6 @@
     "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
     "section": "Outlook: How we will try to make it better …",
     "text": "Outlook: How we will try to make it better …\n\nLearn to use the Visual Argument Structure Tool (VAST)\n\nClear labels, that denote a precise latent construct.\nA consensus about the meaning of words helps to communicate within and beyond the scientific community.\nConceptual precision increases its ability to be criticized.\n\nLearn how to formalize verbal theories\n\nMathematical models\n(not covered in this course: Agent-based models)\n\nSimulate the models: Are they able to produce the phenomena we observe in the data?\nPractice with your own theory"
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-1",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-1",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "“Der Wirklichkeit Gewalt antun”",
-    "text": "“Der Wirklichkeit Gewalt antun”\n\n\n\n“Die Wahrheit liegt in der uns umgebenden Wirklichkeit unmittelbar vor uns. Diese können wir aber unverändert nicht gebrauchen. Eine lückenlose Beschreibung der Wirklichkeit wäre zugleich das wahrste und unnützste Ding von der Welt und gewiß keine Wissenschaft. Wir müssen der Wirklichkeit und damit der Wahrheit Gewalt antun, wenn wir sie wissenschaftlich verwerten wollen. Wir müssen die Unterscheidung von wesentlich und unwesentlich einführen, die es in der ganzen Natur nicht gibt. In ihr ist alles gleich wesentlich. Indem wir die uns wesentlich erscheinenden Zusammenhänge aufsuchen, ordnen wir zugleich den Stoff übersichtlich. Dann treiben wir Wissenschaft.”\n(von Uexküll, 1909, S. 58)\n\n\n\n\n\n\n\n\n\nvon Uexküll, J. (1909). Umwelt und Innenwelt der Tiere. Berlin: J. Springer, p. 58. Quote found in Smaldino (2023)"
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-2",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-2",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "“Der Wirklichkeit Gewalt antun”",
-    "text": "“Der Wirklichkeit Gewalt antun”\nPopper’s version\n\n\nKarl Popper once described science “as the art of systematic over-simplification — the art of discerning what we may with advantage omit”.\n\n\n\n\nSir Karl Popper, 1902 - 1994\n\n\n\n\nPopper, 1988, p. 44"
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-3",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-3",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "“Der Wirklichkeit Gewalt antun”",
-    "text": "“Der Wirklichkeit Gewalt antun”"
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-4",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-4",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "“Der Wirklichkeit Gewalt antun”",
-    "text": "“Der Wirklichkeit Gewalt antun”"
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-5",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#der-wirklichkeit-gewalt-antun-5",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "“Der Wirklichkeit Gewalt antun”",
-    "text": "“Der Wirklichkeit Gewalt antun”\n\n\n\n\n\nWe want to distill those concepts that are most useful to explain parts of the human psyche.\n(We will learn later what „explain“ means).\nThese concepts are tools that guide our attention towards certain features, which we might not have seen before.\nThey help us to organize our language and our reasoning about people."
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-map-and-the-territory",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-map-and-the-territory",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "The map and the territory",
-    "text": "The map and the territory\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s not confuse the map with the territory!\n\nparaphrased from Alfred Korzybski (1933) “Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics”\n\n\nKorzybski warned against confusing our mental models of the world with the world itself, a mistake he believed was at the root of much human suffering."
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-map-and-the-territory-1",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#the-map-and-the-territory-1",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "The map and the territory",
-    "text": "The map and the territory\n\n„A language is like a map; it is not the territory represented, but it may be a good map or a bad map. If the map shows a different structure from the territory represented […] then the map is worse than useless, as it misinforms and leads astray. One who made use of it could never be certain of reaching his destination.“ (Korzybski, 1933, p. 375)"
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#models-vs-reality",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#models-vs-reality",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "Models vs Reality",
-    "text": "Models vs Reality\n\n\nAll models are wrong, but some models are useful.\n\n\n\n\nGeorg Box (1919 - 2013)\n\n\n\n\nImage CC-BY-SA 3.0 by DavidMCEddy (Wikimedia Commons)"
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#useful-for-a-specific-purpose-not-true",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#useful-for-a-specific-purpose-not-true",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": "Useful (for a specific purpose), not true",
-    "text": "Useful (for a specific purpose), not true\n\n\n“His design for a London underground railway was initially rejected as too revolutionary. Today, his idea has gained worldwide acceptance: Beck simplified the route (only horizontal, vertical and diagonal lines) and ignored exact distances.”\n\n\n\n\n\n\n\n→ By omission of details (and making the map less realistic) the map got more useful!\n\nInfographic and quote from Die ZEIT"
-  },
-  {
-    "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3278203e7d7d-group-work-10-min.-1",
-    "href": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3278203e7d7d-group-work-10-min.-1",
-    "title": "Theory crisis: Jingle jangle jungle & non-robust phenomena",
-    "section": " Group work (10 min.)",
-    "text": "Group work (10 min.)\nHow can we ensure that we do not create a purely self-referential system of symbols that does not refer to reality any more?\nOf course we can play the mathematician’s game (and might have a lot of fun meanwhile). But ultimately, if we want to understand and explain the human psyche, we need to make sure that our constructs are grounded in reality.\nHow can this grounding happen?"
   },
   {
     "objectID": "lectures/Intro1/FOMO-Psy_1_Theory_crisis.slide.html#contact",
@@ -4239,14 +4239,14 @@
     "href": "lectures/VAST/VAST_Intro.html#naming-concepts",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Naming concepts",
-    "text": "Naming concepts\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"For example, this entire\nsentence here may also\nbe used as a name\nin a VAST display\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n\nThe I in the box symbolizes a concept\n\nA concept is an idea about a condition that may or may not apply to certain objects (e.g., people)\nThe labels of concepts (i.e., I) are abstract and basically arbitrary\n\n\nThe n stands for a naming relationship\nA name is a word (or sentence, or paragraph) that is used to describe those objects to which a concept applies. Names (or “labels”) are set in quotation marks \"\" in VAST displays."
+    "text": "Naming concepts\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"For example, this entire\nsentence here may also\nbe used as a name\nin a VAST display\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n\nThe I in the box symbolizes a concept\n\nA concept is an idea about a condition that may or may not apply to certain objects (e.g., people)\nThe labels of concepts (i.e., I) are abstract and basically arbitrary\n\n\nThe n stands for a naming relationship\nA name is a word (or sentence, or paragraph) that is used to describe those objects to which a concept applies. Names are set in quotation marks \"\" in VAST displays."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#naming-concepts-1",
     "href": "lectures/VAST/VAST_Intro.html#naming-concepts-1",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Naming concepts",
-    "text": "Naming concepts\n\nSynonyms\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\nB_n\n\n\"Bright\"\n\n\n\nI-&gt;B_n\n\n\nn\n\n\n\nS_n\n\n\"Smart\"\n\n\n\nI-&gt;S_n\n\n\nn\n\n\n\n\n\n\n\n\n\nA concept may have any number of names. Here, all three names are synonyms regarding concept I."
+    "text": "Naming concepts\n\nSynonyms\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\nB_n\n\n\"Bright\"\n\n\n\nI-&gt;B_n\n\n\nn\n\n\n\nS_n\n\n\"Smart\"\n\n\n\nI-&gt;S_n\n\n\nn\n\n\n\n\n\n\n\n\n\nA concept may have any number of names. Here, all three names are synonyms regarding concept I. They can be used fully interchangeably."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#naming-concepts-2",
@@ -4323,7 +4323,7 @@
     "href": "lectures/VAST/VAST_Intro.html#higher-order-concepts-2",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Higher-order concepts 2",
-    "text": "Higher-order concepts 2\n\n\n\n\n\n\nHigher order concepts may be related to one another in exactly the same ways in which „simple“ concepts may be:\n\n\n\n\n\n\n\nThis diagram expresses the idea that a correlation between the two sets of test scores would be a reason (r) to assume that both sets of test scores reflect causal influences of some common factor (called “intelligence”)."
+    "text": "Higher-order concepts 2\n\n\n\n\n\n\nHigher order concepts may be related to one another in exactly the same ways in which „simple“ concepts may be:\n\n\n\n\n\n\n\nThis diagram expresses the idea that a correlation between the two sets of test scores (p) would be a reason (r) to assume that both sets of test scores reflect causal influences (c) of some common factor (called “intelligence”)."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#is-and-ought",
@@ -4344,7 +4344,7 @@
     "href": "lectures/VAST/VAST_Intro.html#no-other-causal-paths",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "No other causal paths?",
-    "text": "No other causal paths?\n\n\n\n\n\n\nA c 0 arrow expresses the idea that there is no other causal influence on “Intelligence” apart from the ones that were specified (CGE or GGD).\n\n\n\nMira’s display now contains two ideas that are mutually incompatible. This is not a problem: VAST is used for displaying ideas correctly – those ideas themselves may still be nonsensical or incoherent!"
+    "text": "No other causal paths?\n\n\n\n\n\n\nA c 0 arrow expresses the idea that there is no other causal influence on “Intelligence” apart from the ones that were specified (CGE or GGD).\nWhat strikes you about this image?\n\n\n\nMira’s display now contains two ideas that are mutually incompatible. This is not a problem: VAST is used for displaying ideas correctly – those ideas themselves may still be nonsensical or incoherent!"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.html#perspectives",
@@ -4428,14 +4428,14 @@
     "href": "lectures/VAST/VAST_Intro.slide.html#naming-concepts",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Naming concepts",
-    "text": "Naming concepts\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"For example, this entire\nsentence here may also\nbe used as a name\nin a VAST display\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\nThe I in the box symbolizes a concept\n\nA concept is an idea about a condition that may or may not apply to certain objects (e.g., people)\nThe labels of concepts (i.e., I) are abstract and basically arbitrary\n\n\nThe n stands for a naming relationship\nA name is a word (or sentence, or paragraph) that is used to describe those objects to which a concept applies. Names (or “labels”) are set in quotation marks \"\" in VAST displays."
+    "text": "Naming concepts\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"For example, this entire\nsentence here may also\nbe used as a name\nin a VAST display\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\n\n\n\n\n\n\n\n\nThe I in the box symbolizes a concept\n\nA concept is an idea about a condition that may or may not apply to certain objects (e.g., people)\nThe labels of concepts (i.e., I) are abstract and basically arbitrary\n\n\nThe n stands for a naming relationship\nA name is a word (or sentence, or paragraph) that is used to describe those objects to which a concept applies. Names are set in quotation marks \"\" in VAST displays."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#naming-concepts-1",
     "href": "lectures/VAST/VAST_Intro.slide.html#naming-concepts-1",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Naming concepts",
-    "text": "Naming concepts\nSynonyms\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\nB_n\n\n\"Bright\"\n\n\n\nI-&gt;B_n\n\n\nn\n\n\n\nS_n\n\n\"Smart\"\n\n\n\nI-&gt;S_n\n\n\nn\n\n\n\n\n\n\n\n\n\nA concept may have any number of names. Here, all three names are synonyms regarding concept I."
+    "text": "Naming concepts\nSynonyms\n\n\n\n\n\n\n\n\nG\n\n\n\nI\n\nI\n\n\n\nI_n\n\n\"Intelligent\"\n\n\n\nI-&gt;I_n\n\n\nn\n\n\n\nB_n\n\n\"Bright\"\n\n\n\nI-&gt;B_n\n\n\nn\n\n\n\nS_n\n\n\"Smart\"\n\n\n\nI-&gt;S_n\n\n\nn\n\n\n\n\n\n\n\n\n\nA concept may have any number of names. Here, all three names are synonyms regarding concept I. They can be used fully interchangeably."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#naming-concepts-2",
@@ -4512,7 +4512,7 @@
     "href": "lectures/VAST/VAST_Intro.slide.html#higher-order-concepts-2",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "Higher-order concepts 2",
-    "text": "Higher-order concepts 2\n\n\n\n\n\n\nHigher order concepts may be related to one another in exactly the same ways in which „simple“ concepts may be:\n\n\n\n\n\n\n\nThis diagram expresses the idea that a correlation between the two sets of test scores would be a reason (r) to assume that both sets of test scores reflect causal influences of some common factor (called “intelligence”)."
+    "text": "Higher-order concepts 2\n\n\n\n\n\n\nHigher order concepts may be related to one another in exactly the same ways in which „simple“ concepts may be:\n\n\n\n\n\n\n\nThis diagram expresses the idea that a correlation between the two sets of test scores (p) would be a reason (r) to assume that both sets of test scores reflect causal influences (c) of some common factor (called “intelligence”)."
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#is-and-ought",
@@ -4533,7 +4533,7 @@
     "href": "lectures/VAST/VAST_Intro.slide.html#no-other-causal-paths",
     "title": "Introduction: How to formalize a verbal theory with VAST",
     "section": "No other causal paths?",
-    "text": "No other causal paths?\n\n\n\n\n\n\nA c 0 arrow expresses the idea that there is no other causal influence on “Intelligence” apart from the ones that were specified (CGE or GGD).\n\n\n\nMira’s display now contains two ideas that are mutually incompatible. This is not a problem: VAST is used for displaying ideas correctly – those ideas themselves may still be nonsensical or incoherent!"
+    "text": "No other causal paths?\n\n\n\n\n\n\nA c 0 arrow expresses the idea that there is no other causal influence on “Intelligence” apart from the ones that were specified (CGE or GGD).\nWhat strikes you about this image?\n\n\n\nMira’s display now contains two ideas that are mutually incompatible. This is not a problem: VAST is used for displaying ideas correctly – those ideas themselves may still be nonsensical or incoherent!"
   },
   {
     "objectID": "lectures/VAST/VAST_Intro.slide.html#perspectives",

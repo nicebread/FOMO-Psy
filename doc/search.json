@@ -907,7 +907,7 @@
     "href": "lectures/Intro2/Intro2.slide.html#definitions-1",
     "title": "What are (Not) Theories & Models?",
     "section": "Definitions (1)",
-    "text": "Definitions (1)\n\n\n\n\n\n\nWhat is an (explanatory) theory?\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (explanans)\n\n\n\nDissecting the dense definition:\n\nTheories are not about specific measurements or operationalizations: they are about (a) latent constructs, and (b) explains phenomena (generalizable patterns in data).\n“Statements”: Typically these are causal statements (if-then), but the definition is broad and includes also other statements (e.g., correlational).\n\n\nBorsboom et al. (2021). https://doi.org/10.1177/1745691620969647"
+    "text": "Definitions (1)\n\n\n\n\n\n\nWhat is an (explanatory) theory? (Borsboom et al. (2021) definition)\n\n\nA theory is a set of statements about the relationship(s) between two or more constructs with a nomological (i.e. law-like) character. (explanans)\n\n\n\n\n\n\n\n\n\nMusfeld et al. (2026) definition\n\n\nA set of interrelated propositions about (aspects of) the world that aim to explain and predict certain phenomena.\n\n\n\nDissecting the dense definitions:\n\nTheories are not about specific measurements or operationalizations: they are about (a) latent constructs, and (b) explains phenomena (generalizable patterns in data).\n“Statements”: Typically these are causal statements (if-then), but the definition is broad and includes also other statements (e.g., correlational).\n\n\nBorsboom et al. (2021); Musfeld et al. (2026)."
   },
   {
     "objectID": "lectures/Intro2/Intro2.slide.html#what-is-a-model",
@@ -4800,5 +4800,75 @@
     "title": "Introduction to version control with Git in RStudio",
     "section": "Contribution statement",
     "text": "Contribution statement\n\nCreator: Von Grebmer zu Wolfsthurn, Sarah (0000-0002-6413-3895)\nReviewer: Schönbrodt, Felix (0000-0002-8282-3910)\nConsultant: Edelsbrunner, Peter (0000-0001-9102-1090)"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-1",
+    "href": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-1",
+    "title": "What are (Not) Theories & Models?",
+    "section": "“Der Wirklichkeit Gewalt antun”",
+    "text": "“Der Wirklichkeit Gewalt antun”\n\n\n\n“Die Wahrheit liegt in der uns umgebenden Wirklichkeit unmittelbar vor uns. Diese können wir aber unverändert nicht gebrauchen. Eine lückenlose Beschreibung der Wirklichkeit wäre zugleich das wahrste und unnützste Ding von der Welt und gewiß keine Wissenschaft. Wir müssen der Wirklichkeit und damit der Wahrheit Gewalt antun, wenn wir sie wissenschaftlich verwerten wollen. Wir müssen die Unterscheidung von wesentlich und unwesentlich einführen, die es in der ganzen Natur nicht gibt. In ihr ist alles gleich wesentlich. Indem wir die uns wesentlich erscheinenden Zusammenhänge aufsuchen, ordnen wir zugleich den Stoff übersichtlich. Dann treiben wir Wissenschaft.”\n(von Uexküll, 1909, S. 58)\n\n\n\n\n\n\n\n\n\nvon Uexküll, J. (1909). Umwelt und Innenwelt der Tiere. Berlin: J. Springer, p. 58. Quote found in Smaldino (2023)"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-2",
+    "href": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-2",
+    "title": "What are (Not) Theories & Models?",
+    "section": "“Der Wirklichkeit Gewalt antun”",
+    "text": "“Der Wirklichkeit Gewalt antun”\nPopper’s version\n\n\nKarl Popper once described science “as the art of systematic over-simplification — the art of discerning what we may with advantage omit”.\n\n\n\n\nSir Karl Popper, 1902 - 1994\n\n\n\n\nPopper, 1988, p. 44"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-3",
+    "href": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-3",
+    "title": "What are (Not) Theories & Models?",
+    "section": "“Der Wirklichkeit Gewalt antun”",
+    "text": "“Der Wirklichkeit Gewalt antun”"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-4",
+    "href": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-4",
+    "title": "What are (Not) Theories & Models?",
+    "section": "“Der Wirklichkeit Gewalt antun”",
+    "text": "“Der Wirklichkeit Gewalt antun”"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-5",
+    "href": "lectures/Intro2/Intro2.slide.html#der-wirklichkeit-gewalt-antun-5",
+    "title": "What are (Not) Theories & Models?",
+    "section": "“Der Wirklichkeit Gewalt antun”",
+    "text": "“Der Wirklichkeit Gewalt antun”\n\n\n\n\n\nWe want to distill those concepts that are most useful to explain parts of the human psyche.\n(We will learn later what „explain“ means).\nThese concepts are tools that guide our attention towards certain features, which we might not have seen before.\nThey help us to organize our language and our reasoning about people."
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#the-map-and-the-territory",
+    "href": "lectures/Intro2/Intro2.slide.html#the-map-and-the-territory",
+    "title": "What are (Not) Theories & Models?",
+    "section": "The map and the territory",
+    "text": "The map and the territory\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s not confuse the map with the territory!\n\nparaphrased from Alfred Korzybski (1933) “Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics”\n\n\nKorzybski warned against confusing our mental models of the world with the world itself, a mistake he believed was at the root of much human suffering."
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#the-map-and-the-territory-1",
+    "href": "lectures/Intro2/Intro2.slide.html#the-map-and-the-territory-1",
+    "title": "What are (Not) Theories & Models?",
+    "section": "The map and the territory",
+    "text": "The map and the territory\n\n„A language is like a map; it is not the territory represented, but it may be a good map or a bad map. If the map shows a different structure from the territory represented […] then the map is worse than useless, as it misinforms and leads astray. One who made use of it could never be certain of reaching his destination.“ (Korzybski, 1933, p. 375)"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#models-vs-reality",
+    "href": "lectures/Intro2/Intro2.slide.html#models-vs-reality",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Models vs Reality",
+    "text": "Models vs Reality\n\n\nAll models are wrong, but some models are useful.\n\n\n\n\nGeorg Box (1919 - 2013)\n\n\n\n\nImage CC-BY-SA 3.0 by DavidMCEddy (Wikimedia Commons)"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#useful-for-a-specific-purpose-not-true",
+    "href": "lectures/Intro2/Intro2.slide.html#useful-for-a-specific-purpose-not-true",
+    "title": "What are (Not) Theories & Models?",
+    "section": "Useful (for a specific purpose), not true",
+    "text": "Useful (for a specific purpose), not true\n\n\n“His design for a London underground railway was initially rejected as too revolutionary. Today, his idea has gained worldwide acceptance: Beck simplified the route (only horizontal, vertical and diagonal lines) and ignored exact distances.”\n\n\n\n\n\n\n\n→ By omission of details (and making the map less realistic) the map got more useful!\n\nInfographic and quote from Die ZEIT"
+  },
+  {
+    "objectID": "lectures/Intro2/Intro2.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3278203e7d7d-group-work-10-min.",
+    "href": "lectures/Intro2/Intro2.slide.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3278203e7d7d-group-work-10-min.",
+    "title": "What are (Not) Theories & Models?",
+    "section": " Group work (10 min.)",
+    "text": "Group work (10 min.)\nHow can we ensure that we do not create a purely self-referential system of symbols that does not refer to reality any more?\nOf course we can play the mathematician’s game (and might have a lot of fun meanwhile). But ultimately, if we want to understand and explain the human psyche, we need to make sure that our constructs are grounded in reality.\nHow can this grounding happen?"
   }
 ]

@@ -138,7 +138,7 @@ digraph G {
   - A concept is an idea about a condition that may or may not apply to certain objects (e.g., people)
   - The **labels** of concepts (i.e., `I`) are abstract and basically arbitrary  
 - The `n` stands for a naming relationship
-- A **name** is a word (or sentence, or paragraph) that is used to describe those objects to which a concept applies. Names (or "labels") are set in quotation marks `""` in VAST displays.
+- A **name** is a word (or sentence, or paragraph) that is used to describe those objects to which a concept applies. Names are set in quotation marks `""` in VAST displays.
 
 
 
@@ -160,7 +160,7 @@ digraph G {
 ```
 :::
 
-A concept may have any number of names. Here, all three names are synonyms regarding concept `I`.
+A concept may have any number of names. Here, all three names are synonyms regarding concept `I`. They can be used fully interchangeably.
 
 
 
@@ -451,7 +451,7 @@ Higher order concepts may be related to one another in exactly the same ways in 
 ![](img/VAST_HOC_2.png){fig-align="center" height="200px"}
 
 ::: {.smaller}
-This diagram expresses the idea that a correlation between the two sets of test scores would be a reason (`r`) to assume that both sets of test scores reflect causal influences of some common factor (called "intelligence").
+This diagram expresses the idea that a correlation between the two sets of test scores (`p`) would be a reason (`r`) to assume that both sets of test scores reflect causal influences (`c`) of some common factor (called "intelligence").
 :::
 
 
@@ -477,6 +477,7 @@ The "analyst" heading names the person who made the VAST display. A VAST-display
 ![](img/VAST_c0.png){fig-align="center" height="300px"}
 
 - A `c 0` arrow expresses the idea that there is no other causal influence on "Intelligence" apart from the ones that were specified (CGE or GGD). 
+- What strikes you about this image?
 
 ::: {.fragment}
 - Mira's display now contains two ideas that are mutually incompatible. This is not a problem: VAST is used for displaying ideas correctly – those ideas themselves may still be nonsensical or incoherent!

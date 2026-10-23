@@ -20,9 +20,9 @@ description: Course formalia; Discussing the theory crisis; showcasing Git
 | Introduction of students in the plenum   | 15       | Guiding questions: Name, home town, why chose this Empra. Write your name tag.                  |
 | Formalia                                 | 30       | [Slides](../lectures/Empra-Orga/Empra-Orga.qmd)                                                 |
 | Open Science Knowledge Test              | 15       | [Take the test](https://sozialpsychologie-studien.de/oska/start.php?c=5f62f78f9e60806e0f48a045) |
-| **Lecture**: Introduction: Theory crisis | 100      | [Slides](../lectures/Intro1/FOMO-Psy_1_Theory_crisis.qmd)                                       |
-| Git Intro                                | 20       | [Slides 1-6](../lectures/it-tools/it-tools.qmd)                                                 |
-| Explain homework                         | 10       |                                                                                                 |
+| **Lecture**: Introduction: Theory crisis | 90       | [Slides](../lectures/Intro1/FOMO-Psy_1_Theory_crisis.qmd)                                       |
+| Git Intro                                | 45       | [Slides 1-6](../lectures/it-tools/it-tools.qmd)                                                 |
+| Explain homework                         | 5        |                                                                                                 |
 
 : {.striped}
 
@@ -53,7 +53,7 @@ Push your answer from Homework 2 (see below) to the folder `homework/01-Smaldino
 
 ## Homework 2 (individually)
 
-Download [Chapter 1](https://pup-assets.imgix.net/onix/images/9780691224145/9780691224138.pdf) of Paul Smaldino's Book "Modeling Social Behavior: Mathematical and Agent-Based Models of Social Dynamics and Cultural Evolution". Read the chapter and answer the following guiding questions:
+Read [Chapter 1](https://pup-assets.s3.amazonaws.com/public/onix/images/9780691224145/9780691224138.pdf) of Paul Smaldino's Book "Modeling Social Behavior: Mathematical and Agent-Based Models of Social Dynamics and Cultural Evolution". Read the chapter and answer the following guiding questions:
 
 1. A typical criticism of formal models is: "You baked your results into the model, so the conclusions are trivial". What could you answer to such a statement?
 

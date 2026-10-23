@@ -7,7 +7,7 @@ author:
     affiliations: Ludwig-Maximilians-Universität München
 date: "2025-10-17"
 order: 10
-duration: 105
+duration: 90
 footer: "These slides are part of the course [Formal modeling in psychology](https://nicebread.github.io/FOMO-Psy/) at LMU Munich"
 format: 
   nicetheme-revealjs: 

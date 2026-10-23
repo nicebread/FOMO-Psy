@@ -1,3 +1,6 @@
+## Add Theory Compression Idea
+
+
 
 ## Use definitions from Musfeld paper.
 

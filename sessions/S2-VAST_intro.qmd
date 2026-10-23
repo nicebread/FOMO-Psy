@@ -15,8 +15,9 @@ description: Intro to theory 2 / VAST-Displays
 
 | Topic                                                | Duration | Notes                                         |
 | ---------------------------------------------------- | -------- | --------------------------------------------- |
-| Wrap up **[Homework 2]**: Smaldino (2013), Chapter 1 | 15       |                                               |
+| Create groups with mixed expertise                   | 5        |                                               |
 | Git Tutorial troubleshooting                         | 30       |                                               |
+| Wrap up **[Homework 2]**: Smaldino (2013), Chapter 1 | 15       |                                               |
 | **Lecture**: Short introduction to VAST              | 60       | [Slides](../lectures/VAST/VAST_Intro.qmd)     |
 | **Lecture**: What is (not) a theory? (Part 1)        | 30       | [Slides](../lectures/Intro2/Intro2.qmd), 1-17 |
 
@@ -39,7 +40,7 @@ Leising, D., Grenke, O., & Cramer, M. (2023). Visual Argument Structure Tool (VA
 
 This homework consists of two steps, A and B:
 
-(A) **Read** the original definition of the concept "diffusion of responsibility", printed below (no need to read the full paper yet). Darley and Latané introduced the term in [1968](https://doi.apa.org/doi/10.1037/h0025589), it's even in the title of the publication: "Bystander intervention in emergencies: Diffusion of responsibility."
+(A) **Read** the original definition of the concept "diffusion of responsibility", printed below (*no need to read the full paper!*). Darley and Latané introduced the term in [1968](https://doi.apa.org/doi/10.1037/h0025589), it's even in the title of the publication: "Bystander intervention in emergencies: Diffusion of responsibility."
 
 These are the paragraphs that describe the concept (p. 377f):
 
@@ -77,7 +78,7 @@ In the **online version** of draw.io, you can insert the library file by going t
 
 ![](img/S2_drawio_lib0.png){width="500px"}
 
-- In the **desktop version** of draw.io, you might need to run `git pull` to download the file `VAST_Displays.xml` to your local repository Then, go to *Datei* > *Bibliothek öffnen*, and select the `VAST_Displays.xml` file in your local repository.
+- In the **desktop version** of draw.io, you might need to run `git pull` to download the file `VAST_Displays.xml` to your local repository. Then, go to *Datei* > *Bibliothek öffnen*, and select the `VAST_Displays.xml` file in your local repository.
 
 After successful installation, you should see a new section "VAST Displays" in the left sidebar of draw.io:
 
@@ -85,25 +86,24 @@ After successful installation, you should see a new section "VAST Displays" in t
 
 
 
-#### Save your draw.io diagram in Github:
+#### Save your draw.io diagram in our homework repository on Github:
 
 For task 2B, save your draw.io VAST diagrams in our [Homework Repository]({{< var homework_repo >}}) by choosing "Github" as destination for your file:
 
 ![](img/S2_drawio_0.png)
 
-Then choose the Homework Repository (Note: The screenshots might show an old homework repository, but you should select *our current* homework repository):
+Then choose the Homework Repository (Note: The screenshots show an old homework repository from 2024, but you should select *our current* homework repository):
 
 ![](img/S2_drawio_1.png)
 
-... and navigate to the correct homework folder:
+... and navigate to the correct homework folder `02-VAST`:
 
 ![](img/S2_drawio_2.png)
 
-Save the diagram with your name as filename (`homework/02-VAST/YOURNAME.drawio`).
-*Additionally*, save the diagrams as a `.png` or `.jpg` file in the same folder (`homework/02-VAST/YOURNAME.png`). Use `Datei -> Exportieren als -> PNG/JPG` in draw.io to do so.
+- Save the diagram with your name as filename (`homework/02-VAST/YOURNAME.drawio`).
+- *Additionally*, save the diagrams as a `.png` or `.jpg` file in the same folder (`homework/02-VAST/YOURNAME.png`). Use `Datei -> Exportieren als -> PNG/JPG` in draw.io to do so.
 
 <!-- For task 4C, save a file with your answers in the same folder (`homework/02-VAST/YOURNAME.md`). Don't forget to `push` everything to the remote repo. -->
-
 
 
 <!-- - Reflect with a few sentences: What does the chosen label "diffusion" imply for the process? What analogy does it suggest, and what are the implications if this analogy is taken literally? -->

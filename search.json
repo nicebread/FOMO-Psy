@@ -116,7 +116,7 @@
     "href": "sessions/S2-VAST_intro.html",
     "title": "Session 02 - Introduction to the Visual Argument Structure Tool",
     "section": "",
-    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate subfolder homework/02-VAST in the homework repository\nMake sure that the file VAST_Displays.xml is available in the root folder of the homework repository. This file contains all VAST shapes for draw.io.\nInstall and authorize the draw.io app in Github (only then access to private repositories is possible):\n\nGo to https://github.com/apps/draw-io-app → Configure → Repository access → Select “Only select repositories” → Select our homework repository → Save."
+    "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate subfolder homework/02-VAST in the homework repository\nMake sure that the file VAST_Displays.xml is available in the root folder of the homework repository. This file contains all VAST shapes for draw.io.\nInstall and authorize the draw.io app in Github (only then access to private repositories is possible):\n\nGo to https://github.com/apps/draw-io-app → Configure → Repository access → Select “Only select repositories” → Select our homework repository → Save.\n\nSpontaneous mini-exercise for the Smaldino chapter (in groups; 5 min work, 5 min discussion): Look at the Mensa Building. This has many components (the building, the people going in and out, flow of material, processes, …). Each group develops one research question (“What do you want to know about the Mensa?”) and does a rough draft of a useful decomposition. Show decomposition on whiteboard."
   },
   {
     "objectID": "sessions/S2-VAST_intro.html#overview",
@@ -4680,7 +4680,7 @@
     "href": "sessions/S3-VAST_application.html#overview",
     "title": "Session 03 - Introduction Theories / Practice VAST",
     "section": "1 Overview",
-    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nLecture: What is (not) a theory?\n30\nSlides\n\n\nHomework wrap-up: VAST displays for “diffusion of responsibility”\n45\n\n\n\nLecture: “Applying VAST to an existing theory”\n60\nSlides\n\n\nGroup formation\n10\n\n\n\nWorkshop: Start formalizing the bystander effect theory\n45\nSee Google Drive\n\n\n[Homework]: Finalize Bystander VAST in group\n-"
+    "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: VAST displays for “diffusion of responsibility”\n45\n\n\n\nLecture: “Applying VAST to an existing theory”\n60\nSlides\n\n\nGroup formation\n10\n\n\n\nWorkshop: Start formalizing the bystander effect theory\n45\nSee Google Drive\n\n\n[Homework]: Finalize Bystander VAST in group\n-"
   },
   {
     "objectID": "sessions/S3-VAST_application.html#homework-wrap-up-vast-displays-for-diffusion-of-responsibility",

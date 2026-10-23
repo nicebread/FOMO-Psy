@@ -21,8 +21,8 @@ website:
       #   text: Thinking Tools      
       - text: "Formalization<br>Steps"
         file: formalization_steps.qmd
-      - text: "Demo: Bystander<br>Effect Model"
-        file: bystander_demo.qmd
+      # - text: "Demo: Bystander<br>Effect Model"
+      #   file: bystander_demo.qmd
       - file: orga_material/orga_material.qmd
         text: Organizational<br>Material
       - about.qmd

@@ -366,7 +366,7 @@ Image CC-BY-SA 3.0 by DavidMCEddy (Wikimedia Commons)
 > "His design for a London underground railway was initially rejected as too revolutionary. Today, his idea has gained worldwide acceptance: Beck simplified the route (only horizontal, vertical and diagonal lines) and ignored exact distances."
 :::
 
-![](img/Subway_map_ZEIT.webp){fig-align="center" height="500px" .ds}
+![](img/Subway_map_ZEIT.webp){fig-align="center" height="410px" .ds}
 
 &rarr; By [omission]{.marker} of details (and making the map *less* realistic) the map got *more useful*!
 

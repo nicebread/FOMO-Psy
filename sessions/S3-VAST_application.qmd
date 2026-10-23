@@ -15,7 +15,6 @@ description: Intro to theory 2; Apply VAST to Bystander effect
 
 | Topic                                                             | Duration | Notes                                           |
 | ----------------------------------------------------------------- | -------- | ----------------------------------------------- |
-| **Lecture**: What is (not) a theory?                              | 30       | [Slides](../lectures/Intro2/Intro2.qmd)         |
 | Homework wrap-up: VAST displays for "diffusion of responsibility" | 45       |                                                 |
 | **Lecture**: "Applying VAST to an existing theory"                | 60       | [Slides](../lectures/VAST/VAST_Application.qmd) |
 | Group formation                                                   | 10       |                                                 |

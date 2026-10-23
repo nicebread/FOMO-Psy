@@ -2,7 +2,6 @@
 
 
 
-## Use definitions from Musfeld paper.
 
 ## Intermediate Discussion: how can LLMs meaningfully support theory development?
 

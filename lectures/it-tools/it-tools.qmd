@@ -155,7 +155,7 @@ Both Github and Zenodo (and probably more repositories) parse an existing `CITAT
 ├── doc/ (all documentation)
 │   ├── VAST_display.drawio
 │   ├── VAST_display.jpg (or png or PDF: So that users can open it directly)
-│   ├── tables.pdf (copies of your construct table etc.)
+│   ├── tables.pdf (copies of your Element Table etc.)
 │   └── ...
 ├── simulation/
 │   ├── README.md (specific for the simulations)

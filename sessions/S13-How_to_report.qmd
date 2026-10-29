@@ -40,12 +40,12 @@ The goal is *not* (necessarily) to do a complete formalization, but to demonstra
 
 
 2. **Brief Verbal Introduction to the Selected Theory**  
-   - Should be narrative - i.e., a reader should understand it without referring to the VAST display or the Construct Table yet. The goal of this section is to give an understandable, plain-language overview for readers new to the topic.
+   - Should be narrative - i.e., a reader should understand it without referring to the VAST display or the Element Table yet. The goal of this section is to give an understandable, plain-language overview for readers new to the topic.
 
 3. **Present Core Constructs of the Theory**
    - Now you get precise!
    - Both in running text and in the VAST display (but try not to duplicate too much information between text and VAST display)
-   - The Construct Table goes into Appendix A. But the main constructs and arguments should be presented in the main text, so that they are understandable to readers without refering to the details in the Appendix.
+   - The Element Table goes into Appendix A. But the main constructs and arguments should be presented in the main text, so that they are understandable to readers without refering to the details in the Appendix.
    - Justify in your text if you deviate from the original definitions.  
 
 4. **Formulation of the (Proto-)Theory**  

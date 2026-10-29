@@ -79,7 +79,7 @@ Psychological ("internal") variables could range from $-\infty$ to $+\infty$, an
 ## {{< fa people-group size=2x >}} Group work (15 min.): Specify variables
 
 ::: {.smaller}
-In the Google doc (below your *Construct Table*) fill in 2-3 exemplary variables from your bystander model in the *Variables Table*:
+In the Google doc (below your *Element Table*) fill in 2-3 exemplary variables from your bystander model in the *Variables Table*:
 
 *Example:*
 
@@ -647,7 +647,7 @@ This is similar to the item response theory (IRT) approach to model dichotomous 
    2. Endogenous variables are influenced by other variables in the model
 3. Every endogenous variable is a **function** of all of their input parameters. 
    1. Create sensible functional relationships for every endogenous variable.
-   2. Create a 3rd table (below the Construct Table and the Variables Table), with all functional relationships. 
+   2. Create a 3rd table (below the Element Table and the Variables Table), with all functional relationships. 
    3. Add a short comment to what extent this functional relationship has been **derived from theory** (see response scale in Google doc)      
    4. Add a short comment to what extent this functional relationship has been backed by empirical evidence.
 4. Implement the functions in `R` with proper `roxygen2` documentation in your group's subfolder.
@@ -656,7 +656,7 @@ This is similar to the item response theory (IRT) approach to model dichotomous 
 ::: {.notes}
 Suggested response scale for "To what extent derived from theory?":
 
-1. Dictated by theory (add IDs from the Construct Table as reference)
+1. Dictated by theory (add IDs from the Element Table as reference)
 2. Derived from theory
 3. Loosely inspired by theory
 4. Not based on focal theory, but rather on common sense or other theories

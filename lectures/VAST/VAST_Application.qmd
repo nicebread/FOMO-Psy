@@ -32,24 +32,24 @@ The full list of formalization steps is presented on [this website](../../formal
 
 
 ## Step 1: Choose your starting point
+### Type A: Narrative Theory Reconstruction (NTR)
 
-::: {.smallest}
-- A: **Narrative Theory Reconstruction (NTR)**
-  - *Starting point*: The existing verbal theory.
-  - *Main tasks*: Read and understand the narrative theory, then formalize it. Check whether a simulation can produce the target phenomenon.
-  - *Of only minor importance*: 
-    - Whether the phenomenon is actually robust.
-    - Do not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.
-  - This approach focuses on *showing the gaps* (without fixing them)
-- B: **Theory Construction Methodology (TCM)**
-  - *Starting point*: A robust phenomenon.
-  - *Main tasks*: 
-    - Understand the phenomenon (its robustness, evidence, moderating conditions, operationalizations; search for meta-analyses). 
-    - Invent a new theory that can explain the phenomenon, or use an established theory from another domain and make necessary adjustments (could be within psychology, but also from completely different disciplines).
-    - Check whether a formal model of your theory produces the phenomenon. 
-  - *Of only minor importance*: Any existing theory that aims to explain the phenomenon. You might compare your own formal model to existing theories later.
-:::
+- *Starting point*: The existing verbal theory.
+- *Main tasks*: Read and understand the narrative theory, then formalize it. Check whether a simulation can produce the target phenomenon.
+- *Of only minor importance*: 
+  - Whether the phenomenon is actually robust.
+  - Do not fix inconsistencies, do not improve the theory: We want to make explicit what the original authors had in mind with their theory.
+- This approach focuses on *showing the gaps* (without fixing them)
 
+## Step 1: Choose your starting point
+### Type B: Theory Construction Methodology (TCM)
+
+- *Starting point*: A robust phenomenon.
+- *Main tasks*: 
+  - Understand the phenomenon (its robustness, evidence, moderating conditions, operationalizations; search for meta-analyses). 
+  - Invent a new theory that can explain the phenomenon, or use an established theory from another domain and make necessary adjustments (could be within psychology, but also from completely different disciplines).
+  - Check whether a formal model of your theory produces the phenomenon. 
+- *Of only minor importance*: Any existing theory that aims to explain the phenomenon. You might compare your own formal model to existing theories later.
 
 
 ## Step 1: Choose your starting point
@@ -177,19 +177,32 @@ Hence, we have strong evidence for high generalizability for the U and the S dim
 ## Step 3: Collect robust empirical phenomena
 ### Example: Social Loafing (adapted from Emilia Wittig)
 
-::: {.smallest}
+:::: {.smallest}
+
+::: {.fragment}
 "A meta-analysis of 78 studies underlines that social loafing is a robust phenomenon that generalizes across tasks and populations (Karau & Williams, 1993). 
+:::
 
+::: {.fragment}
 Regarding different **units**, social loating was found among groups of organizational employees, college students as well as high school students. Furthermore, the phenomenon appears within different genders as well as various cultures. 
+:::
 
+::: {.fragment}
 The studies mentioned in the meta-analysis used a variety of different tasks as **treatment**, such as physical exercises (e.g., rope pulling), cognitive tasks (e.g., brainstorming), evaluative efforts (e.g., rating items) and perceptual tasks (e.g., monitoring a screen for signals). These tasks also differed in complexity. 
+:::
 
+::: {.fragment}
 Regarding the **outcomes**, social loafing was generally assessed by comparing individual's coactive efforts with the individual's collective efforts. The specific units of measurement varied across tasks, with some studies focusing on quantity of individual contributions and others taking the quality into account. 
+:::
 
+::: {.fragment}
 Lastly, concerning different **settings** of studies, the meta analysis included laboratory studies as well as field studies. 
+:::
 
+::: {.fragment}
 [In sum, we can conclude that evidence for social loafing found in this meta-analytic review is strong and the phenomenon generalizes over all of the UTOS dimensions. Social Loafing can be consider to be a robust phenomenon.]{.hl}"
 :::
+::::
 
 
 ## Interlude: Elements of a theory
@@ -200,16 +213,16 @@ The *elements* of a theory are:
 - *relationships* (typically causal) among these concepts
 
 ::: footer
-Freyer, N., Lange, J., Leising, D., Musfeld, P., & Schönbrodt, F. D. (2025, July 22). Indicators for the Assessment of Theoretical Rigor. [https://doi.org/10.31234/osf.io/e7tdc_v2](https://doi.org/10.31234/osf.io/e7tdc_v2)
+Musfeld et al. ([2026](https://osf.io/preprints/psyarxiv/e7tdc_v4))
 :::
 
 ## Step 4: Collect definitions of constructs
-### Construct Table
+### Element Table (Constructs + Relationships)
 
 ::: {.smallest}
 - Collect quotes of definitions of constructs and their relationships from the literature. 
   - If there is no quote for a construct that is still needed: Create a provisional definition based on your understanding, without any quote, and mark it as such.
-- Make them atomic (i.e., split up long quotes into their basic components).
+- Make them atomic (i.e., split up long quotes into their basic components - see column "Extracted Element").
 - Assign a unique ID to each statement.
 
 <table>
@@ -250,7 +263,7 @@ Freyer, N., Lange, J., Leising, D., Musfeld, P., & Schönbrodt, F. D. (2025, Jul
     </tr>
     <tr>
       <td>p(help) <i>decreases</i> when NOPB &gt; 0, given critSit</td>
-      <td>HOC</td>
+      <td>R</td>
       <td>p</td>
       <td>bystander effect</td>
       <td>A4</td>
@@ -268,8 +281,8 @@ Freyer, N., Lange, J., Leising, D., Musfeld, P., & Schönbrodt, F. D. (2025, Jul
 
 ::: {.smaller}
 - Draw a VAST display with a naming (`n`) relationship for each construct.
-- Use the ID from the *Construct Table* as subscript for each relationship. This way your claims in the VAST display can be easily backlinked to the original sources in the literature.
-  - The small "A" subscript indicates that all relationships in this display are derived from the quote with ID "A" in the *Construct Table*.
+- Use the ID from the *Element Table* as subscript for each relationship. This way your claims in the VAST display can be easily backlinked to the original sources in the literature.
+  - The small $A$, $A_1$ etc. subscripts indicates that the relationships in this display are derived from the quote with IDs $A$, $A_1$, etc. in the *Element Table*.
 :::
 
 ![](img/BSE.png)
@@ -283,7 +296,7 @@ Freyer, N., Lange, J., Leising, D., Musfeld, P., & Schönbrodt, F. D. (2025, Jul
 Organisms have a vast range of sensors for perceiving their environment. These have been adapted to selection pressures:
 
 - Humans don't have sensors for ultraviolet light (bees do)
-- We have no sensors for radioactivity, as this was no relevant selective force
+- We have no sensors for radioactivity, as this was no relevant selection pressure
 - Single-celled organism have, for example ...
     - chemoreceptors for sugar
     - tactile sense (simple membranes transmitting changes in pressure)

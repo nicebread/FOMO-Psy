@@ -15,7 +15,7 @@ description: We have a presentation and initial discussion of candidate theories
 | Overview: The second half of the course                     | 10                 |       |
 | Students propose theories for Part 2                        | 15 for each theory |       |
 | World Café/Group Formation                                  | 90                 |       |
-| Homework: Read paper for new theory & start Construct Table |                    |       |
+| Homework: Read paper for new theory & start Element Table |                    |       |
 : {.striped}
 
 ## Welcome to Part 2!
@@ -86,4 +86,4 @@ Focus on a limited set of robust phenomena that the theory should explain.
 ## Homework
 
 1. Read the central literature for your theory
-2. Create a new Google doc (or other collaborative document) with an empty Construct Table. Optionally start populating the table while reading (will be continued in person in the next session).
+2. Create a new Google doc (or other collaborative document) with an empty Element Table. Optionally start populating the table while reading (will be continued in person in the next session).

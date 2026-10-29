@@ -19,7 +19,7 @@ title: "Formalization Steps"
 4. Collect [robust phenomena](lectures/VAST/VAST_Application.qmd#step-5-collect-robust-empirical-phenomena-1)
     1. Evaluate the *generalizability* separately for each UTOS dimension
     2. Evaluate the *strength of evidence* (Quality of studies? Number of studies? Large samples?)
-5. Create your [*Construct Table*](lectures/VAST/VAST_Application.qmd#construct-table)
+5. Create your [*Element Table*](lectures/VAST/VAST_Application.qmd#element-table)
 6. Create your VAST display (see slides on [VAST](lectures/VAST/VAST_Intro.qmd) and [VAST application](lectures/VAST/VAST_Application.qmd))
     1. Distill a working definition for each construct
     2. Add relationships between constructs

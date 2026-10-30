@@ -2751,27 +2751,6 @@
     "text": "Credit and Contributors\nThanks goes to:\n\nNoah van Dongen and Denny Borsboom for great inspiration from the ManyModelers Project (performed on SIPS 2022)\nNoah van Dongen for providing his material for an TCM course\nAaron Peikert, Maximilian Ernst and Caspar van Lissa for several discussions and inspirations about technical aspects of theory versioning and FAIR theories\nStudents from multiple courses who provided feedback and new ideas for improvements"
   },
   {
-    "objectID": "bystander_demo.html",
-    "href": "bystander_demo.html",
-    "title": "Demo: Bystander Effect Model",
-    "section": "",
-    "text": "TBD\nThe repository in the #fairtheory format can be found at https://github.com/nicebread/Bystander_model_demo."
-  },
-  {
-    "objectID": "Formalization_steps.html",
-    "href": "Formalization_steps.html",
-    "title": "Formalization Steps",
-    "section": "",
-    "text": "This can be used as a checklist for your course report. The details for each step are explained in the linked slides.\n\nSet up technical infrastructure.\n\nCreate a fresh Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nAdd your CITATION.cff (see instructions)\nInvite the lecturer as a collaborator:  Settings →  Collaborators → “Add people”\n\n\nChoose your starting point:\n\nExisting theory –&gt; Narrative Theory Reconstruction (NTR)\nRobust phenomenon –&gt; Theory Construction Methodology (TCM)\n\nDefine the scope\n\nDefine scope of original literature that is used as basis for the formalization.\nLimit the number of phenomena that your model is supposed to explain.\nLimit the number of constructs and their relationships.\n\nCollect robust phenomena\n\nEvaluate the generalizability separately for each UTOS dimension\nEvaluate the strength of evidence (Quality of studies? Number of studies? Large samples?)\n\nCreate your Element Table\nCreate your VAST display (see slides on VAST and VAST application)\n\nDistill a working definition for each construct\nAdd relationships between constructs\n\nFormalize model: Create your Variable Table (see slides on Mathematical Modeling)\n\nList all concepts of your VAST display that are not higher-order concepts (because higher-order concepts typically are not reducible to a single metric)\nDefine the scale level, the possible range of values, and semantic anchors\n\nFormalize model: Create your Relationship Table (see slides on Mathematical Modeling)\n\nDevelop a mathematical function for each endogenous variable in the VAST display.\nWhat functional form does the theory imply? What are free parameters that can “bend” the function? Which parameters can be fixed?\n\nProgram the functions in R\n\nBuild atomic functions based on the Relationship Table\nDocument the functions with roxygen2 (see slides on Mathematical Modeling)\nCombine atomic functions into one “super function” that takes all exogenous variables of the model as input and computes the focal output variable (typically, an observable behavior). Make sure that it can take vectors as input.\n\nEvaluate the model behavior\n\nTry different parameter settings. Under which conditions does the model produce the phenomenon?\nPlot the model behavior: Choose a focal predictor for the x-axis, focal outcome on y-axis, additional parameters as colors, shapes, or multiple plots.\n\nSimulate the model: Would a real study (with noise) be able to detect the phenomenon?\n\nSimulate data\nDo the statistical analysis on your simulated data: Is the focal effect significant?\nWhat is the necessary sample size to reliably detect the phenomenon (i.e., with a high statistical power)?\n\nFor the final report:\n\nCopy the tables as PDF files from the Google doc into the /doc subfolder of your repository, so that it is really self-contained (i.e., all relevant files are bundled in the project folder).\nExport a PNG of the final VAST display to the /doc subfolder of your repository\n(If not done yet: Assign a version number)\nCreate a release on Github; the tag name should contain the final version number (e.g., v0.8.3).\nIn your manuscript, explicitly report the version number your report is referring to and provide a link to the release."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This is material for the course “P19 Empirisch-psychologisches Praktikum” at the Ludwig-Maximilians-Universität München. The course was given in the winter terms 2023/24, 2024/25, and 2025/26 by Felix Schönbrodt. The material contains contributions from Daniel Leising and Aaron Peikert, and is partially inspired by a course from Noah van Dongen.\n\n\n\nCitationBibTeX citation:@online{schönbrodt2025,\n  author = {Schönbrodt, Felix and Leising, Daniel and Peikert, Aaron},\n  title = {Formalizing Narrative Theories in Psychology {{[}Course}\n    Material{]}},\n  date = {2025-01-30},\n  url = {https://nicebread.github.io/FOMO-Psy/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSchönbrodt, F., Leising, D., & Peikert, A. (2025, January 30).\nFormalizing narrative theories in psychology [Course material].\nhttps://nicebread.github.io/FOMO-Psy/"
-  },
-  {
     "objectID": "common/lastslide.html",
     "href": "common/lastslide.html",
     "title": "End",
@@ -2784,6 +2763,27 @@
     "title": "End",
     "section": "",
     "text": "@nicebread@scicomm.xyz\n\n\n ed.uml.ysp@tdorbneohcs.xilef\n\n\n https://www.nicebread.de\n\n\n https://github.com/nicebread\n\n\n\n\n\n\nCC-BY-SA 4.0"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is material for the course “P19 Empirisch-psychologisches Praktikum” at the Ludwig-Maximilians-Universität München. The course was given in the winter terms 2023/24, 2024/25, and 2025/26 by Felix Schönbrodt. The material contains contributions from Daniel Leising and Aaron Peikert, and is partially inspired by a course from Noah van Dongen.\n\n\n\nCitationBibTeX citation:@online{schönbrodt2025,\n  author = {Schönbrodt, Felix and Leising, Daniel and Peikert, Aaron},\n  title = {Formalizing Narrative Theories in Psychology {{[}Course}\n    Material{]}},\n  date = {2025-01-30},\n  url = {https://nicebread.github.io/FOMO-Psy/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSchönbrodt, F., Leising, D., & Peikert, A. (2025, January 30).\nFormalizing narrative theories in psychology [Course material].\nhttps://nicebread.github.io/FOMO-Psy/"
+  },
+  {
+    "objectID": "bystander_demo.html",
+    "href": "bystander_demo.html",
+    "title": "Demo: Bystander Effect Model",
+    "section": "",
+    "text": "TBD\nThe repository in the #fairtheory format can be found at https://github.com/nicebread/Bystander_model_demo."
+  },
+  {
+    "objectID": "formalization_steps.html",
+    "href": "formalization_steps.html",
+    "title": "Formalization Steps",
+    "section": "",
+    "text": "This can be used as a checklist for your course report. The details for each step are explained in the linked slides.\n\nSet up technical infrastructure.\n\nCreate a fresh Github repository and a folder on Google Drive (or a comparable collaborative document) for the tables.\nLink the latter in the README of the repository.\nAdd your CITATION.cff (see instructions)\nInvite the lecturer as a collaborator:  Settings →  Collaborators → “Add people”\n\n\nChoose your starting point:\n\nExisting theory –&gt; Narrative Theory Reconstruction (NTR)\nRobust phenomenon –&gt; Theory Construction Methodology (TCM)\n\nDefine the scope\n\nDefine scope of original literature that is used as basis for the formalization.\nLimit the number of phenomena that your model is supposed to explain.\nLimit the number of constructs and their relationships.\n\nCollect robust phenomena\n\nEvaluate the generalizability separately for each UTOS dimension\nEvaluate the strength of evidence (Quality of studies? Number of studies? Large samples?)\n\nCreate your Element Table\nCreate your VAST display (see slides on VAST and VAST application)\n\nDistill a working definition for each construct\nAdd relationships between constructs\n\nFormalize model: Create your Variable Table (see slides on Mathematical Modeling)\n\nList all concepts of your VAST display that are not higher-order concepts (because higher-order concepts typically are not reducible to a single metric)\nDefine the scale level, the possible range of values, and semantic anchors\n\nFormalize model: Create your Relationship Table (see slides on Mathematical Modeling)\n\nDevelop a mathematical function for each endogenous variable in the VAST display.\nWhat functional form does the theory imply? What are free parameters that can “bend” the function? Which parameters can be fixed?\n\nProgram the functions in R\n\nBuild atomic functions based on the Relationship Table\nDocument the functions with roxygen2 (see slides on Mathematical Modeling)\nCombine atomic functions into one “super function” that takes all exogenous variables of the model as input and computes the focal output variable (typically, an observable behavior). Make sure that it can take vectors as input.\n\nEvaluate the model behavior\n\nTry different parameter settings. Under which conditions does the model produce the phenomenon?\nPlot the model behavior: Choose a focal predictor for the x-axis, focal outcome on y-axis, additional parameters as colors, shapes, or multiple plots.\n\nSimulate the model: Would a real study (with noise) be able to detect the phenomenon?\n\nSimulate data\nDo the statistical analysis on your simulated data: Is the focal effect significant?\nWhat is the necessary sample size to reliably detect the phenomenon (i.e., with a high statistical power)?\n\nFor the final report:\n\nCopy the tables as PDF files from the Google doc into the /doc subfolder of your repository, so that it is really self-contained (i.e., all relevant files are bundled in the project folder).\nExport a PNG of the final VAST display to the /doc subfolder of your repository\n(If not done yet: Assign a version number)\nCreate a release on Github; the tag name should contain the final version number (e.g., v0.8.3).\nIn your manuscript, explicitly report the version number your report is referring to and provide a link to the release."
   },
   {
     "objectID": "lectures/Empra-Orga/Empra-Orga.html",

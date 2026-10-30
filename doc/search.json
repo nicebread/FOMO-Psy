@@ -4,7 +4,7 @@
     "href": "sessions/sessions_overview.html",
     "title": "Overview of sessions",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nCourse formalia; Discussing the theory crisis; showcasing Git\n\n\n\n\n\n\nSession 02 - Introduction to the Visual Argument Structure Tool\n\n\nIntro to theory 2 / VAST-Displays\n\n\n\n\n\n\nSession 03 - Introduction Theories / Practice VAST\n\n\nApply VAST to Bystander effect\n\n\n\n\n\n\nSession 04 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\n\n\nSession 05 - Mathematical Modeling Part 2\n\n\nCreate atomic functions for our Dangerous Bystander Effect Model\n\n\n\n\n\n\nSession 06 - Mathematical Modeling Part 3\n\n\nFinalize and plot atomic functions\n\n\n\n\n\n\nSession 07 - Mathematical Modeling Part 4\n\n\nSuper-function “Psi” + simulated experiments\n\n\n\n\n\n\nSession 08 - Presentation of candidate theories\n\n\nWe have a presentation and initial discussion of candidate theories for the next formalization exercise. New groups form.\n\n\n\n\n\n\nSession 09 - Best practices in theory formalization; create a new VAST\n\n\nGroups start working on their own formalization projects, setting up the technical infrastructure and preparing a new repository with best practices.\n\n\n\n\n\n\nSession 10 - Finalize & present VAST\n\n\nThe groups finalize their VAST and present it to the class.\n\n\n\n\n\n\nSession 11 - FAIR theories\n\n\nWe learn how to document our digital theory objects and how to make them FAIR\n\n\n\n\n\n\nSession 12 - How to approach the simulation\n\n\nThe groups work on their formalizations\n\n\n\n\n\n\nSession 13 - How to write the report\n\n\nThe groups work on their formalizations; we talk about how to write the final report\n\n\n\n\n\n\nSession 14 - Final presentations\n\n\nThe groups present their work\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nSession 01 - Introduction\n\n\nCourse formalia; Discussing the theory crisis; showcasing Git\n\n\n\n\n\n\nSession 02 - Introduction to the Visual Argument Structure Tool\n\n\nIntro to theory 2 / VAST-Displays\n\n\n\n\n\n\nSession 03 - Applying VAST to an existing theory\n\n\nApply VAST to Bystander effect; learn the first steps of the formalization.\n\n\n\n\n\n\nSession 04 - The first mathematical model\n\n\nWe finalize our Bystander VAST displays and start with the first mathematical model\n\n\n\n\n\n\nSession 05 - Mathematical Modeling Part 2\n\n\nCreate atomic functions for our Dangerous Bystander Effect Model\n\n\n\n\n\n\nSession 06 - Mathematical Modeling Part 3\n\n\nFinalize and plot atomic functions\n\n\n\n\n\n\nSession 07 - Mathematical Modeling Part 4\n\n\nSuper-function “Psi” + simulated experiments\n\n\n\n\n\n\nSession 08 - Presentation of candidate theories\n\n\nWe have a presentation and initial discussion of candidate theories for the next formalization exercise. New groups form.\n\n\n\n\n\n\nSession 09 - Best practices in theory formalization; create a new VAST\n\n\nGroups start working on their own formalization projects, setting up the technical infrastructure and preparing a new repository with best practices.\n\n\n\n\n\n\nSession 10 - Finalize & present VAST\n\n\nThe groups finalize their VAST and present it to the class.\n\n\n\n\n\n\nSession 11 - FAIR theories\n\n\nWe learn how to document our digital theory objects and how to make them FAIR\n\n\n\n\n\n\nSession 12 - How to approach the simulation\n\n\nThe groups work on their formalizations\n\n\n\n\n\n\nSession 13 - How to write the report\n\n\nThe groups work on their formalizations; we talk about how to write the final report\n\n\n\n\n\n\nSession 14 - Final presentations\n\n\nThe groups present their work\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/S8-Candidate_theories.html",
@@ -4685,42 +4685,42 @@
   {
     "objectID": "sessions/S3-VAST_application.html",
     "href": "sessions/S3-VAST_application.html",
-    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "title": "Session 03 - Applying VAST to an existing theory",
     "section": "",
     "text": "NoteInstructor notes\n\n\n\n\n\n\nCreate subfolder Bystander_effect in the homework repository\nCreate a Google Drive folder and add the Element Table template.\nAdd link to Google Drive template in the README of the homework repository\nAdd the group compositions to the README of the homework repository"
   },
   {
     "objectID": "sessions/S3-VAST_application.html#overview",
     "href": "sessions/S3-VAST_application.html#overview",
-    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "title": "Session 03 - Applying VAST to an existing theory",
     "section": "1 Overview",
     "text": "1 Overview\n\n\n\nTopic\nDuration\nNotes\n\n\n\n\nHomework wrap-up: VAST displays for “diffusion of responsibility”\n45\n\n\n\nLecture: “Applying VAST to an existing theory”\n60\nSlides\n\n\nGroup formation\n10\n\n\n\nWorkshop: Start formalizing the bystander effect theory\n60\nSee Google Drive\n\n\n[Homework]: Finalize Bystander VAST in group\n-"
   },
   {
     "objectID": "sessions/S3-VAST_application.html#homework-wrap-up-vast-displays-for-diffusion-of-responsibility",
     "href": "sessions/S3-VAST_application.html#homework-wrap-up-vast-displays-for-diffusion-of-responsibility",
-    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "title": "Session 03 - Applying VAST to an existing theory",
     "section": "2 Homework wrap-up: VAST displays for “diffusion of responsibility”",
     "text": "2 Homework wrap-up: VAST displays for “diffusion of responsibility”\n\n3-4 people present their VAST displays that they created as homework."
   },
   {
     "objectID": "sessions/S3-VAST_application.html#group-formation",
     "href": "sessions/S3-VAST_application.html#group-formation",
-    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "title": "Session 03 - Applying VAST to an existing theory",
     "section": "3 Group formation",
     "text": "3 Group formation\n\nCreate a maximum of 4 groups. These will work together for the bystander formalization.\n\n(Note: When their own theories are formalized later in the course, students can form new groups).\n\nEach group chooses a group name starting with the letters A, B, C, or D."
   },
   {
     "objectID": "sessions/S3-VAST_application.html#workshop-in-course-as-a-group-formalize-the-bystander-effect-theory",
     "href": "sessions/S3-VAST_application.html#workshop-in-course-as-a-group-formalize-the-bystander-effect-theory",
-    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "title": "Session 03 - Applying VAST to an existing theory",
     "section": "4 Workshop (in course, as a group): Formalize the bystander effect theory",
-    "text": "4 Workshop (in course, as a group): Formalize the bystander effect theory\n\nEach group makes a copy of the template file “Bystander Modell: Element Table Template” that you find on Google Drive. Add your group name/letter to the file name!\nGo through the steps 4-5 in the slides on “Applying VAST to an existing theory”\n\nStep 1 (“Choose your starting point”) is already decided: We use the “A-B Mixture Model”\nStep 2 (“Limit your scope”) is already decided (see the quotes in the template file on Google Drive).\nStep 3 (“Collect robust empirical phenomena”) - we skip this for the moment. We will later evaluate the robustness of the bystander effect across the UTOS dimensions. \n\nStep 4 (“Collect definitions of constructs”): Fill in the Element Table\nStep 5 (“Distill a working definition for each construct, add relationships”): Based on the table, create a VAST display in draw.io. This should contain:\n\nDefinitions for the relevant constructs (maybe as separat naming relationships)\nIn particular a definition of “diffusion of responsibility” (which we already tried in the last homework - now find a consensus definition as a group)\nA formalization of the theory (i.e., the generative mechanisms that are supposed to explain the phenomenon).\n\nThe goal is an easily understandable display: Prioritize understandability over completeness and over a maximally truthful mapping of the original statements.\n\nUse as few concepts as possible (but as many as necessary).\nWhy aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that.\n\nSave the .drawio file on the homework repository in the subfolder Bystander_effect. Each group should create a subfolder within that folder, with your team name as folder name.\n\n(Note: You won’t finish all steps in class. You will finalize the tasks as homework.)"
+    "text": "4 Workshop (in course, as a group): Formalize the bystander effect theory\n\nEach group makes a copy of the template file “Bystander Modell: Element Table Template” that you find on Google Drive. Add your group name/letter to the file name!\nGo through the steps 4-5 in the slides on “Applying VAST to an existing theory”\n\nStep 1 (“Choose your starting point”) is already decided: We use the “A-B Mixture Model”\nStep 2 (“Limit your scope”) is already decided (see the quotes in the template file on Google Drive).\nStep 3 (“Collect robust empirical phenomena”) - we skip this for the moment. We will later evaluate the robustness of the bystander effect across the UTOS dimensions. \n\nStep 4 (“Collect definitions of constructs”): Fill in the Element Table in your group’s Google doc\nStep 5 (“Distill a working definition for each construct, add relationships”): Based on the table, create a VAST display in draw.io. This should contain:\n\nDefinitions for the relevant constructs (maybe as separat naming relationships)\nIn particular a definition of “diffusion of responsibility” (which we already tried in the last homework - now find a consensus definition as a group)\nA formalization of the theory (i.e., the generative mechanisms that are supposed to explain the phenomenon).\n\nThe goal is an easily understandable display: Prioritize understandability over completeness and over a maximally truthful mapping of the original statements.\n\nUse as few concepts as possible (but as many as necessary).\nWhy aim for a simple model? Because we want to formalize the model mathematically in a second step, and we need a feasible model for that.\n\nSave the .drawio file on the homework repository in the subfolder Bystander_effect. Each group should create a subfolder within that folder, with your team name as folder name.\n\n(Note: You won’t finish all steps in class. You will finalize the tasks as homework.)"
   },
   {
     "objectID": "sessions/S3-VAST_application.html#homework-as-a-group-finalize-bystander-vast",
     "href": "sessions/S3-VAST_application.html#homework-as-a-group-finalize-bystander-vast",
-    "title": "Session 03 - Introduction Theories / Practice VAST",
+    "title": "Session 03 - Applying VAST to an existing theory",
     "section": "5 Homework (as a group): Finalize Bystander VAST",
     "text": "5 Homework (as a group): Finalize Bystander VAST\nDeliverables:\n\nComplete and clean up your Element Table on Google Drive (not yet the Variables Table).\nUpload/commit your draw.io VAST display in the Homework Repository, subfolder Bystander_effect, with your team name as file name."
   },

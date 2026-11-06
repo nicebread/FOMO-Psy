@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.19">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -75,14 +75,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="../../">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-fb558fb870390eca550d5c231f2e7b61.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-1895d770650154722f7722018adbf507.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -147,19 +148,18 @@ window.Quarto = {
 <link rel="stylesheet" href="../../common/webex.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">FOMO-Psy: Formal Modeling<br>of Psychological Theories</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -195,6 +195,7 @@ window.Quarto = {
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -203,7 +204,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -381,7 +382,7 @@ window.Quarto = {
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="MathModel.slide.html"><i class="bi bi-file-slides"></i>RevealJS (nicetheme)</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content" tabindex="-1">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -425,7 +426,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="section"></h2>
 <p><img src="img/How_deep_is_your_love.png" style="filter: drop-shadow(6px 6px 8px #555555);" height="450"></p>
 <div class="fragment">
-<div class="callout callout-style-default callout-tip callout-empty-content callout-titled" title="**Answer: -136.7**">
+<div class="callout callout-style-default callout-tip callout-empty-content callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -471,6 +472,7 @@ window.Quarto = {
 <li>Natural/objective scale (e.g.&nbsp;physical distance)</li>
 <li>As standardized <em>z</em>-scores?</li>
 <li>Normalized to a value between 0 and 1? Or rather -1 to 1?</li>
+<li>Anchored to an existing measurement instrument (e.g., the NEO-FFI from 1 to 5)</li>
 <li>Can we find an empirical or semantic calibration?
 <ul>
 <li>Just noticable difference</li>
@@ -552,8 +554,8 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="sketch-a-first-functional-relationship-on-paper">Sketch a first functional relationship on paper</h3>
 <div class="columns">
 <div class="column" style="width:60%;">
-<p>We want to model the following <strong>phenomenon</strong> (a specific version of the bystander effect):</p>
 <div class="smaller">
+<p>We model this <strong>phenomenon</strong> (i.e., a specific version of the basic bystander effect):</p>
 <ol type="1">
 <li>Without other people present, the tendency (probability or frequency) that a person helps a victim is high.</li>
 <li>The tendency of helping a victim decreases monotonically with the number of other people (bystanders) present.</li>
@@ -564,7 +566,7 @@ window.Quarto = {
 <p><img src="img/VAST_bystander_simple.png" class="img-fluid"></p>
 </div>
 </div>
-<p><strong>Task</strong>: Sketch a first functional relationship that could model this phenomenon. Use the variables you defined in the previous step (including their labels and ranges).</p>
+<p><strong>Task</strong>: Sketch a first functional relationship that could model this phenomenon. Use the variables you defined in the previous step (including their labels and ranges). No need</p>
 </section>
 </section>
 <section id="step-2-define-functional-relationships-between-variables-1" class="level2">
@@ -572,6 +574,20 @@ window.Quarto = {
 <p>Every causal path needs to be implemented as a mathematical function, where the dependent variable/output <span class="math inline">\(y\)</span> is a function of the input variable(s) <span class="math inline">\(x_i\)</span>.</p>
 <p><span class="math inline">\(y = f(x_1, x_2, ..., x_i)\)</span></p>
 <p>This can, for example, be a linear function, <span class="math inline">\(y = \beta_0 + \beta_1x_1\)</span>.</p>
+<p><br></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This looks like a linear regression, just without the error term: In this step, we model <em>deterministic</em> relationships.</p>
+</div>
+</div>
 </section>
 <section id="step-2-define-functional-relationships-between-variables-2" class="level2">
 <h2 class="anchored" data-anchor-id="step-2-define-functional-relationships-between-variables-2">Step 2: Define functional relationships between variables</h2>
@@ -579,7 +595,7 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="fixed-and-free-parameters">Fixed and free parameters</h3>
 <div class="smaller">
 <p><span class="math inline">\(\color{red} y = \color{forestgreen} \beta_0 \color{black} + \color{forestgreen} \beta_1 \color{blue} x\)</span> <br>→ <span class="math inline">\(\color{red} y\)</span> = output variable, <span class="math inline">\(\color{forestgreen} \beta\)</span>s = parameters, <span class="math inline">\(\color{blue} x\)</span> = input variable.</p>
-<p>Two types of parameters:</p>
+<p>Two types of <span style="color: #006400;">parameters</span>:</p>
 </div>
 <div class="smallest">
 <ul>
@@ -656,7 +672,7 @@ Provide plots for multiple instances of this function family.
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-1-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -696,7 +712,7 @@ Provide plots for multiple instances of this function family.
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-3-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -707,7 +723,7 @@ Provide plots for multiple instances of this function family.
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-4-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -718,7 +734,7 @@ Provide plots for multiple instances of this function family.
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-5-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -729,7 +745,7 @@ Provide plots for multiple instances of this function family.
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-6-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -745,7 +761,7 @@ Provide plots for multiple instances of this function family.
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-7-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -940,7 +956,7 @@ Note
 </section>
 <section id="roxygen2-documentation-solution" class="level2">
 <h2 class="anchored" data-anchor-id="roxygen2-documentation-solution">roxygen2 documentation: Solution</h2>
-<div class="callout callout-style-default callout-tip callout-titled" title="Solution">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -1248,7 +1264,7 @@ Note
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-26-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-26-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1407,7 +1423,7 @@ Note
 <li>Danger of intervention (<code>DoI</code>) with the levels 0.2 and 0.8</li>
 <li>Number of passive bystanders (<code>NOPB</code>) with the levels 0, 1, and 4</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Hint">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -1438,18 +1454,18 @@ Note
 <span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra
-1    1     pos  slow  32  -1.4
-2    2     pos  slow  26   1.5
-3    3     pos  slow  19   1.5
-4    1     neg  slow  33  -0.2
-5    2     neg  slow  23  -0.6
-6    3     neg  slow  26   0.2
-7    1     pos  fast  25  -1.3
-8    2     pos  fast  22  -0.5
-9    3     pos  fast  26  -0.4
-10   1     neg  fast  24  -0.4
-11   2     neg  fast  24   0.3
-12   3     neg  fast  35  -1.0</code></pre>
+1    1     pos  slow  24   0.4
+2    2     pos  slow  29   0.7
+3    3     pos  slow  25  -0.5
+4    1     neg  slow  27   0.7
+5    2     neg  slow  31   0.4
+6    3     neg  slow  30   0.0
+7    1     pos  fast  26   0.0
+8    2     pos  fast  31   1.5
+9    3     pos  fast  31  -0.3
+10   1     neg  fast  31  -0.4
+11   2     neg  fast  28   0.2
+12   3     neg  fast  29  -1.1</code></pre>
 </div>
 </div>
 </section>
@@ -1466,7 +1482,7 @@ Note
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-30-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-30-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1475,7 +1491,7 @@ Note
 <section id="tool-the-beta-distribution-1" class="level2">
 <h2 class="anchored" data-anchor-id="tool-the-beta-distribution-1">Tool: The beta distribution</h2>
 <p>How to choose <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span>? Asking ChatGPT for assistance:</p>
-<div class="callout callout-style-default callout-note callout-titled" title="ChatGPT prompt">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -1488,7 +1504,7 @@ Note
 <p>Calibrate a beta distribution so that the peak is around 0.8 and the sd is around 0.1. Show a plot of the resulting distribution.</p>
 </div>
 </div>
-<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -1517,12 +1533,12 @@ Note
 <h2 class="anchored" data-anchor-id="tool-the-beta-distribution-3">Tool: The beta distribution</h2>
 <section id="beta-distribution-respects-the-01-boundaries" class="level3">
 <h3 class="anchored" data-anchor-id="beta-distribution-respects-the-01-boundaries">beta distribution respects the [0;1] boundaries</h3>
-<div class="cell quarto-layout-panel" data-layout-nrow="2" data-layout-align="center" data-layout-ncol="1">
+<div class="cell quarto-layout-panel" data-layout-ncol="1" data-layout-align="center" data-layout-nrow="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-32-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-32-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1531,7 +1547,7 @@ Note
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MathModel_files/figure-html/unnamed-chunk-32-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+<p><img src="MathModel_files/figure-revealjs/unnamed-chunk-32-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1562,7 +1578,7 @@ Note
 <li>Furthermore, add neuroticism (<code>neuro</code>), age (<code>age</code>), and gender (<code>gender</code>). (Note: We don’t need them for our model, just for practice.)</li>
 <li>Think about justifiable settings for the simulated variables (e.g., type of distribution, range, mean, SD).</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Hint">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -1599,18 +1615,18 @@ Note
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y
-1    1     pos  slow  32  -1.4  9.3
-2    2     pos  slow  26   1.5  8.5
-3    3     pos  slow  19   1.5 10.8
-4    1     neg  slow  33  -0.2  7.9
-5    2     neg  slow  23  -0.6 10.7
-6    3     neg  slow  26   0.2 10.3
-7    1     pos  fast  25  -1.3  9.5
-8    2     pos  fast  22  -0.5 11.8
-9    3     pos  fast  26  -0.4 11.7
-10   1     neg  fast  24  -0.4  7.3
-11   2     neg  fast  24   0.3 11.8
-12   3     neg  fast  35  -1.0 10.4</code></pre>
+1    1     pos  slow  24   0.4 11.0
+2    2     pos  slow  29   0.7 12.6
+3    3     pos  slow  25  -0.5 13.9
+4    1     neg  slow  27   0.7 11.7
+5    2     neg  slow  31   0.4 10.2
+6    3     neg  slow  30   0.0 14.0
+7    1     pos  fast  26   0.0 11.5
+8    2     pos  fast  31   1.5 14.3
+9    3     pos  fast  31  -0.3  7.1
+10   1     neg  fast  31  -0.4  7.7
+11   2     neg  fast  28   0.2 10.0
+12   3     neg  fast  29  -1.1  7.6</code></pre>
 </div>
 </div>
 </div>
@@ -1708,18 +1724,18 @@ Note
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y y_obs
-1    1     pos  slow  32  -1.4  9.3  13.3
-2    2     pos  slow  26   1.5  8.5  12.1
-3    3     pos  slow  19   1.5 10.8   9.0
-4    1     neg  slow  33  -0.2  7.9   6.2
-5    2     neg  slow  23  -0.6 10.7  12.4
-6    3     neg  slow  26   0.2 10.3  10.1
-7    1     pos  fast  25  -1.3  9.5   9.4
-8    2     pos  fast  22  -0.5 11.8  14.4
-9    3     pos  fast  26  -0.4 11.7  13.7
-10   1     neg  fast  24  -0.4  7.3   6.5
-11   2     neg  fast  24   0.3 11.8   9.7
-12   3     neg  fast  35  -1.0 10.4   8.7</code></pre>
+1    1     pos  slow  24   0.4 11.0   7.6
+2    2     pos  slow  29   0.7 12.6  16.3
+3    3     pos  slow  25  -0.5 13.9  14.7
+4    1     neg  slow  27   0.7 11.7  11.3
+5    2     neg  slow  31   0.4 10.2   9.5
+6    3     neg  slow  30   0.0 14.0  14.3
+7    1     pos  fast  26   0.0 11.5  11.0
+8    2     pos  fast  31   1.5 14.3  16.1
+9    3     pos  fast  31  -0.3  7.1   5.0
+10   1     neg  fast  31  -0.4  7.7   9.5
+11   2     neg  fast  28   0.2 10.0   9.0
+12   3     neg  fast  29  -1.1  7.6   7.7</code></pre>
 </div>
 </div>
 </div>
@@ -1736,7 +1752,7 @@ Note
 <li>Create virtual samples of a typical size</li>
 <li>Visualize the simulated data with <code>ggplot2</code>. Create a plot that clearly shows the statistical pattern of the phenomenon you intended to model - like a plot that could be shown in a publication.</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Hint">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -2442,6 +2458,44 @@ window.onload = function() {
 }
 
 </script>
+
+<script>
+  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+  // slide changes (different for each slide format).
+  (function () {
+    // dispatch for htmlwidgets
+    function fireSlideEnter() {
+      const event = window.document.createEvent("Event");
+      event.initEvent("slideenter", true, true);
+      window.document.dispatchEvent(event);
+    }
+
+    function fireSlideChanged(previousSlide, currentSlide) {
+      fireSlideEnter();
+
+      // dispatch for shiny
+      if (window.jQuery) {
+        if (previousSlide) {
+          window.jQuery(previousSlide).trigger("hidden");
+        }
+        if (currentSlide) {
+          window.jQuery(currentSlide).trigger("shown");
+        }
+      }
+    }
+
+    // hookup for slidy
+    if (window.w3c_slidy) {
+      window.w3c_slidy.add_observer(function (slide_num) {
+        // slide_num starts at position 1
+        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+      });
+    }
+
+  })();
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -2520,7 +2574,8 @@ window.onload = function() {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -2529,8 +2584,69 @@ window.onload = function() {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -2544,6 +2660,7 @@ window.onload = function() {
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -2706,44 +2823,54 @@ window.onload = function() {
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -2841,6 +2968,9 @@ window.onload = function() {
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 

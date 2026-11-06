@@ -271,7 +271,7 @@ Musfeld et al. ([2026](https://osf.io/preprints/psyarxiv/e7tdc_v4))
   </tbody>
 </table>
 
-- *Element Type* is one of: [C]{.hl}oncept, [R]{.hl}elationship, [HOC]{.hl}: Higher-order Concept.
+- *Element Type* is one of: [C]{.hl}oncept, [R]{.hl}elationship, [D]{.hl}ata (anything related to empirical evidence), [HOC]{.hl}: Higher-Order Concept.
 - *Relationship Type*: One of the VAST relationship types (n, p, i, r, c, …)
 
 :::

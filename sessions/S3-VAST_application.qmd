@@ -1,6 +1,6 @@
 ---
 title: Session 03 - Applying VAST to an existing theory
-number-sections: true
+number-sections: false
 description: Apply VAST to Bystander effect; learn the first steps of the formalization.
 ---
 

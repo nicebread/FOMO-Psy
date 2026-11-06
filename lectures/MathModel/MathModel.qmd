@@ -67,6 +67,7 @@ You can either refer to an actual measurement procedure or simply define a varia
   - Natural/objective scale (e.g. physical distance)
   - As standardized *z*-scores?
   - Normalized to a value between 0 and 1? Or rather -1 to 1?
+  - Anchored to an existing measurement instrument (e.g., the NEO-FFI from 1 to 5)
   - Can we find an empirical or semantic calibration?
     - Just noticable difference
     - 100 = "largest realistically imaginable quantity of that variable"
@@ -105,9 +106,10 @@ As a heuristic, list **all concepts that are not higher-order concepts** (becaus
 
 ::::{.columns}
 ::: {.column width='60%'}
-We want to model the following **phenomenon** (a specific version of the bystander effect):
 
 ::: {.smaller}
+We model this **phenomenon** (i.e., a specific version of the basic bystander effect):
+
 1. Without other people present, the tendency (probability or frequency) that a person helps a victim is high.
 2. The tendency of helping a victim decreases monotonically with the number of other people (bystanders) present.
 3. The tendency of helping a victim never drops to 0.
@@ -119,7 +121,7 @@ We want to model the following **phenomenon** (a specific version of the bystand
 :::
 ::::
 
-**Task**: Sketch a first functional relationship that could model this phenomenon. Use the variables you defined in the previous step (including their labels and ranges).
+**Task**: Sketch a first functional relationship that could model this phenomenon. Use the variables you defined in the previous step (including their labels and ranges). No need
 
 
 
@@ -130,6 +132,12 @@ $y = f(x_1, x_2, ..., x_i)$
 
 This can, for example, be a linear function, $y = \beta_0 + \beta_1x_1$.
 
+<br>
+
+::: {.callout-note}
+This looks like a linear regression, just without the error term: In this step, we model *deterministic* relationships.
+:::
+
 ## Step 2: Define functional relationships between variables
 ### Fixed and free parameters
 
@@ -137,7 +145,7 @@ This can, for example, be a linear function, $y = \beta_0 + \beta_1x_1$.
 $\color{red} y = \color{forestgreen} \beta_0 \color{black} + \color{forestgreen} \beta_1 \color{blue} x$ 
 <br>→ $\color{red} y$ = output variable, $\color{forestgreen} \beta$s = parameters, $\color{blue} x$ = input variable.
 
-Two types of parameters:
+Two types of <span style="color: #006400;">parameters</span>:
 
 :::
 ::: {.smallest}

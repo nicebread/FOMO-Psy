@@ -1,6 +1,6 @@
 ---
 title: Session 06 - Mathematical Modeling Part 3
-number-sections: true
+number-sections: false
 description: Finalize and plot atomic functions
 ---
 

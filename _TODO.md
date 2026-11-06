@@ -1,8 +1,6 @@
 ## Add Theory Compression Idea
 
 
-
-
 ## Intermediate Discussion: how can LLMs meaningfully support theory development?
 
 Erste Versuche zur Formalisierung mit LLMs allein gibt es übrigens auch schon: https://arxiv.org/abs/2502.00879
@@ -46,11 +44,6 @@ Any "evidence against" or "not robustness" judgement requires null results (and 
 
 Am Ende der VAST-Einführung?
 
-- Entering the psyche: From manifest/objective features to subjective representations
-  - Identity function
-  - Identity + noise
-  - Biases (i.e., systematic deviations from the identity function beyond the unsystematic noise)
-  - Think about the capabilities of our sensors. E.g. we can quite well differentiate the distance to another person within 10m. But between 500 and 800m - how precise could you distinguish that?
 - Exiting the psyche
   - How are internal drives, motivations, attitudes (which are typically modelled as continuous variables) translated into behavior?
   - Also ticking a questionnaire box is an overt behavior! There is a whole branch of psychometrics ("Item Response Theory") that models the relationship between latent traits and observed responses.

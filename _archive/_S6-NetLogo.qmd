@@ -1,6 +1,6 @@
 ---
 title: Session 6 - NetLogo implementation of Buri
-number-sections: true
+number-sections: false
 description: Try to implement your Buri model in Netlogo
 ---
 

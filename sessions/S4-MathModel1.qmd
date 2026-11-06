@@ -1,17 +1,21 @@
 ---
 title: Session 04 - The first mathematical model
-number-sections: true
+number-sections: false
 description: We finalize our Bystander VAST displays and start with the first mathematical model
 ---
 
+::: {.callout-note collapse="true" title="Instructor notes"}
+- Create subfolder `Dangerousness_effect` in the [homework repository]({{< var homework_repo >}})
+:::
+
 ## Overview
 
-| Topic                                                          | Duration | Notes                                                                            |
-| -------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------- |
-| Finalize VAST displays in groups                               | 15       |                                                                                  |
-| Present and discuss solutions                                  | 80       | ~20 min per group                                                                |
-| First formalization: **Mathematical Models 1**                 | 120      | [Slides](../lectures/MathModel/MathModel.qmd), 1-13 (up to "Mathematical Tools") |
-| Homework: Create modified VAST: The Dangerous Bystander Effect |          |                                                                                  |
+| Topic                                                          | Duration | Notes                                                                                           |
+| -------------------------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------- |
+| Finalize VAST displays in groups                               | 15       |                                                                                                 |
+| Present and discuss solutions                                  | 80       | ~20 min per group                                                                               |
+| First formalization: **Mathematical Models 1**                 | 120      | [Slides](../lectures/MathModel/MathModel.qmd), 1-21 (up to "Use the full mathematical toolbox") |
+| Homework: Create modified VAST: The Dangerous Bystander Effect |          |                                                                                                 |
 
 : {.striped}
 
@@ -25,7 +29,7 @@ Insights from the group discussion process:
 - Did you start with similar mental models about the VAST display?
 - Did the VAST tool help to clarify your understanding and facilitate group discussions?
 
-Comparing the 4 solutions:
+Comparing the solutions of the groups:
 
 - What are similarities? What are differences?
 
@@ -53,7 +57,7 @@ The additional theoretical explanation can be found in Fischer et al., p. 520-52
 
 All groups should use the following base structure: 
 
-a) The display of the phenomenon/effect itself which only contains manifest variables and a $\Psi$-black box (see figure below; you can download the [template](../bystander_effect/Bystander-template.drawio)). 
+a) The display of the phenomenon/effect itself which only contains manifest variables and a $\Psi$-black box (see figure below; you can download the draw.io [template](../bystander_effect/Bystander-template.drawio)). 
 b) The theoretical explanation for the effect, containing the psychological mechanisms (within the $\Psi$-box) with all relevant constructs and relationships.
 
 ![](img/S4_Bystander-Psi_template.png)
@@ -62,5 +66,5 @@ b) The theoretical explanation for the effect, containing the psychological mech
 
 **Deliverable**: 
 
-- Create a *new* draw.io VAST display based on the [template](../bystander_effect/Bystander-template.drawio) with the extended and reduced theory. Push the file to the [Homework Repository]({{< var homework_repo >}}) in the folder `Dangerousness_effect`, in your group's subfolder.
+- Create a *new* draw.io VAST display based on the [template](../bystander_effect/Bystander-template.drawio) with the extended and reduced theory within the $\Psi$-box. Push the file to the [Homework Repository]({{< var homework_repo >}}) in the folder `Dangerousness_effect`, in your group's subfolder.
 - Create a copy of the Google doc with the *Element Table* and the *Variables Table*.  Reduce/expand both tables to the new *dangerousness model*.

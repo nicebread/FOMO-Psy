@@ -6,7 +6,7 @@ author:
     orcid: 0000-0002-8282-3910
     email: felix.schoenbrodt@psy.lmu.de
     affiliations: Ludwig-Maximilians-Universität München
-date: 2025-10-31
+date: 2026-10-30
 order: 40
 footer: "These slides are part of the course [Formal modeling in psychology](https://nicebread.github.io/FOMO-Psy/) at LMU Munich"
 format: 
@@ -23,11 +23,11 @@ revealjs-plugins:
 - Step 1: Choose your starting point
 - Step 2: Limit your scope
 - Step 3: Collect robust empirical phenomena
-- Step 4: Collect definitions of constructs, with reference to the literature.
-- Step 5: Distill a (consensus or working) definition for each construct, add relationships
+- Step 4: Collect elements of theory, with reference to the literature --> "Element Table"
+- Step 5: Distill a (consensus or working) definition for each construct, draw first VAST display
 
 ::: {.callout-tip}
-The full list of formalization steps is presented on [this website](../../formalization_steps.qmd). This slide set covers steps 2 to 6 of the broader scheme. 
+The full list of formalization steps is presented on [this website](../../formalization_steps.qmd). This slide set covers steps 1 to 5 of the broader scheme. 
 :::
 
 
@@ -265,7 +265,7 @@ Musfeld et al. ([2026](https://osf.io/preprints/psyarxiv/e7tdc_v4))
       <td>p(help) <i>decreases</i> when NOPB &gt; 0, given critSit</td>
       <td>R</td>
       <td>p</td>
-      <td>bystander effect</td>
+      <td>A1 ~ A2 + A3</td>
       <td>A4</td>
     </tr>
   </tbody>
@@ -277,7 +277,16 @@ Musfeld et al. ([2026](https://osf.io/preprints/psyarxiv/e7tdc_v4))
 :::
 
 
-## Step 5: Distill a working definition for each construct, add relationships
+
+## Step 4: Collect definitions of constructs
+### Element Table (Constructs + Relationships)
+
+- Relationships typically have no short names / labels. Instead spell out the relationship with the involved concepts, using `~` as the symbol for "is a function of" (e.g., `Y ~ X+M` means "Y is a function of X and M")
+- A phenomenon is (minimally) the triplet of "(i) Concept X exists, (ii) concept Y exists, (iii) X predicts Y", which is a higher order concept (HOC) in the VAST terminology.
+
+
+
+## Step 5: Distill a working definition for each construct, draw first VAST display
 
 ::: {.smaller}
 - Draw a VAST display with a naming (`n`) relationship for each construct.
@@ -358,8 +367,6 @@ $*$ If we do so, then it is a shortcut, assuming that the external observable cu
 ![](img/BDI_actor.png){fig-align="center" height=400}
 
 Sensing the environment only makes sense when organisms are able to react on this information. Devices that allow to manipulate the environment (or the organism's position within the environment) are called [actors]{.bg style='--col: #fff100'}.
-
-
 
 
 <!-- 

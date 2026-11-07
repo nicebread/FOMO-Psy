@@ -299,6 +299,7 @@ Musfeld et al. ([2026](https://osf.io/preprints/psyarxiv/e7tdc_v4))
 
 # A useful standard setup for psychological theories {background-color="#40666e"}
 
+
 ## Sensors
 ### Perceiving the environment
 

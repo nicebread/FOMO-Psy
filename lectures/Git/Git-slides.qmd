@@ -15,7 +15,7 @@ format:
   nicetheme-revealjs: 
     output-ext: slide.html
     transition: slide    
-    logo: "../../common/OSC_Logo.jpg"  # Inserts logo in the bottom right corner (default)
+    logo: "images/lmu-osc-logo.svg"  # Inserts logo in the bottom right corner (default)
   html: default  
 revealjs-plugins:
   - attribution

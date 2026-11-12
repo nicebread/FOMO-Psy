@@ -313,5 +313,4 @@ Van Lissa et al. (2025). To be FAIR: Theory Specification Needs an Update. *Pers
 
 
 <!-- Footer insert below -->
-```{r child="../../common/lastslide.qmd"}
-```
+{{< include /common/lastslide.qmd >}}

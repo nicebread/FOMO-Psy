@@ -95,5 +95,4 @@ ggsave("img/Toolbox-p3.png", p3, width = 3, height = 2, dpi = 150)
 
 
 <!-- Footer insert below -->
-```{r child="../../common/lastslide.qmd"}
-```
+{{< include /common/lastslide.qmd >}}

@@ -224,5 +224,4 @@ Under §5(1)(4) of the LMU’s house rules, video and audio recordings (includin
 
 
 <!-- Footer insert below -->
-```{r child="../../common/lastslide.qmd"}
-```
+{{< include /common/lastslide.qmd >}}

@@ -557,5 +557,4 @@ holds the view on the right-hand side. Now the the display is not logically inco
 
 
 <!-- Footer insert below -->
-```{r child="../../common/lastslide.qmd"}
-```
+{{< include /common/lastslide.qmd >}}

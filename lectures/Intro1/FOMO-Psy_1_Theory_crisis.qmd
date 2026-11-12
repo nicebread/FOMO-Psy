@@ -481,5 +481,4 @@ See Eronen & Bringmann (2021); Slide adapted from [Karolin Salmen](https://www.p
 
 
 <!-- Footer insert below -->
-```{r child="../../common/lastslide.qmd"}
-```
+{{< include /common/lastslide.qmd >}}

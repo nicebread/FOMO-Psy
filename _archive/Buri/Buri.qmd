@@ -262,5 +262,4 @@ Bischof (in prep, S. 143)
 
 
 <!-- Footer insert below -->
-```{r child="../../common/lastslide.qmd"}
-```
+{{< include /common/lastslide.qmd >}}

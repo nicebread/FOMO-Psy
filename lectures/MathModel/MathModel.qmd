@@ -1241,8 +1241,7 @@ Van Dongen et al. (2025). Productive explanation: A framework for evaluating exp
 :::
 
 <!-- Footer insert below -->
-```{r child="../../common/lastslide.qmd"}
-```
+{{< include /common/lastslide.qmd >}}
 
 
 <!-- SPEICHER

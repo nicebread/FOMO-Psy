@@ -212,5 +212,4 @@ Left: [Norling (2009, p. 13)](https://rest.neptune-prod.its.unimelb.edu.au/serve
 
 
 <!-- Footer insert below -->
-```{r child="../../common/lastslide.qmd"}
-```
+{{< include /common/lastslide.qmd >}}

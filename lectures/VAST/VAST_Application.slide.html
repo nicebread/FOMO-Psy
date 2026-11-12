@@ -6995,7 +6995,7 @@ A4
 </tbody>
 </table>
 <ul>
-<li><em>Element Type</em> is one of: <span class="hl">C</span>oncept, <span class="hl">R</span>elationship, <span class="hl">HOC</span>: Higher-order Concept.</li>
+<li><em>Element Type</em> is one of: <span class="hl">C</span>oncept, <span class="hl">R</span>elationship, <span class="hl">D</span>ata (anything related to empirical evidence), <span class="hl">HOC</span>: Higher-Order Concept.</li>
 <li><em>Relationship Type</em>: One of the VAST relationship types (n, p, i, r, c, …)</li>
 </ul>
 </div>
@@ -8404,44 +8404,6 @@ window.QuartoSupport = function () {
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")

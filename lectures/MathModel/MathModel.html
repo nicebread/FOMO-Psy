@@ -451,7 +451,7 @@ window.Quarto = {
 <p>You can either refer to an actual measurement procedure or simply define a variable. In both cases you should explicitly define the following properties:</p>
 <ul>
 <li><em>variable name</em> (i.e., to which concept in your VAST display does it refer?),</li>
-<li><em>scale level</em> (categorical, ordinal, interval scale),</li>
+<li><em>type</em> (boolean, (un)ordered factor, integer, float/numeric),</li>
 <li><em>range</em> of possible values (e.g., 0 … 1),</li>
 <li><em>semantic anchors</em> (e.g., 0 = “complete absence”, 1 = “maximal possible value”)</li>
 </ul>
@@ -465,7 +465,6 @@ window.Quarto = {
 <section id="some-guiding-questions-and-heuristics" class="level3">
 <h3 class="anchored" data-anchor-id="some-guiding-questions-and-heuristics">Some guiding questions and heuristics</h3>
 <ul>
-<li>Type of variable: continuous, dichotomous, ordinal, categorical? <!-- - Scale level of measurement ([Stevens's typology](https://en.wikipedia.org/wiki/Level_of_measurement)): <br>Nominal &rarr; Ordinal &rarr; Interval &rarr; Ratio --></li>
 <li>Is the variable naturally bounded? On both sides or only one?</li>
 <li>How can the numbers be interpreted?
 <ul>
@@ -494,10 +493,10 @@ window.Quarto = {
 <table class="caption-top table">
 <colgroup>
 <col style="width: 27%">
-<col style="width: 8%">
 <col style="width: 7%">
+<col style="width: 10%">
 <col style="width: 8%">
-<col style="width: 47%">
+<col style="width: 46%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -512,30 +511,30 @@ window.Quarto = {
 <tr class="odd">
 <td>Affective tone of instruction</td>
 <td>aff_tone</td>
-<td>Continuous</td>
-<td>[-1; 1]</td>
+<td>numeric</td>
+<td>[-1, 1]</td>
 <td>-1 = maximally negative<br>0 = neutral<br>+1 = maximally positive</td>
 </tr>
 <tr class="even">
 <td>Anxiety</td>
 <td>anxiety</td>
-<td>Continuous</td>
-<td>[0; 1]</td>
+<td>numeric</td>
+<td>[0, 1]</td>
 <td>0 = no anxiety<br>1 = maximal anxiety</td>
 </tr>
 <tr class="odd">
 <td>Kohlberg’s Stages of Moral Development</td>
 <td>moral_stage</td>
-<td>Ordinal</td>
+<td>ordered factor</td>
 <td>{1; 2; 3}</td>
 <td>1=Pre-conventional<br>2=Conventional<br>3=Post-Conventional</td>
 </tr>
 <tr class="even">
-<td>…</td>
+<td>Observed helping behavior</td>
+<td>helpBeh</td>
+<td>boolean</td>
+<td>{TRUE;FALSE}</td>
 <td></td>
-<td>…</td>
-<td>…</td>
-<td>…</td>
 </tr>
 </tbody>
 </table>
@@ -566,7 +565,9 @@ window.Quarto = {
 <p><img src="img/VAST_bystander_simple.png" class="img-fluid"></p>
 </div>
 </div>
-<p><strong>Task</strong>: Sketch a first functional relationship that could model this phenomenon. Use the variables you defined in the previous step (including their labels and ranges). No need</p>
+<div class="smaller">
+<p><strong>Task</strong>: Sketch a functional relationship that models this phenomenon. Use variables defined in the previous step (including their labels and ranges). No need to find a mathematical function yet.</p>
+</div>
 </section>
 </section>
 <section id="step-2-define-functional-relationships-between-variables-1" class="level2">
@@ -1454,18 +1455,18 @@ Note
 <span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra
-1    1     pos  slow  24   0.4
-2    2     pos  slow  29   0.7
-3    3     pos  slow  25  -0.5
-4    1     neg  slow  27   0.7
-5    2     neg  slow  31   0.4
-6    3     neg  slow  30   0.0
-7    1     pos  fast  26   0.0
-8    2     pos  fast  31   1.5
-9    3     pos  fast  31  -0.3
-10   1     neg  fast  31  -0.4
-11   2     neg  fast  28   0.2
-12   3     neg  fast  29  -1.1</code></pre>
+1    1     pos  slow  27  -1.3
+2    2     pos  slow  21   1.3
+3    3     pos  slow  28   2.1
+4    1     neg  slow  19  -0.8
+5    2     neg  slow  25   0.6
+6    3     neg  slow  25   0.7
+7    1     pos  fast  28   0.5
+8    2     pos  fast  19   0.5
+9    3     pos  fast  21  -0.4
+10   1     neg  fast  22  -1.1
+11   2     neg  fast  22   0.4
+12   3     neg  fast  27  -1.4</code></pre>
 </div>
 </div>
 </section>
@@ -1615,18 +1616,18 @@ Note
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y
-1    1     pos  slow  24   0.4 11.0
-2    2     pos  slow  29   0.7 12.6
-3    3     pos  slow  25  -0.5 13.9
-4    1     neg  slow  27   0.7 11.7
-5    2     neg  slow  31   0.4 10.2
-6    3     neg  slow  30   0.0 14.0
-7    1     pos  fast  26   0.0 11.5
-8    2     pos  fast  31   1.5 14.3
-9    3     pos  fast  31  -0.3  7.1
-10   1     neg  fast  31  -0.4  7.7
-11   2     neg  fast  28   0.2 10.0
-12   3     neg  fast  29  -1.1  7.6</code></pre>
+1    1     pos  slow  27  -1.3  8.8
+2    2     pos  slow  21   1.3 10.2
+3    3     pos  slow  28   2.1  8.4
+4    1     neg  slow  19  -0.8 11.1
+5    2     neg  slow  25   0.6  9.6
+6    3     neg  slow  25   0.7 12.3
+7    1     pos  fast  28   0.5 11.0
+8    2     pos  fast  19   0.5  8.3
+9    3     pos  fast  21  -0.4  9.5
+10   1     neg  fast  22  -1.1 12.7
+11   2     neg  fast  22   0.4 12.2
+12   3     neg  fast  27  -1.4 14.9</code></pre>
 </div>
 </div>
 </div>
@@ -1724,18 +1725,18 @@ Note
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y y_obs
-1    1     pos  slow  24   0.4 11.0   7.6
-2    2     pos  slow  29   0.7 12.6  16.3
-3    3     pos  slow  25  -0.5 13.9  14.7
-4    1     neg  slow  27   0.7 11.7  11.3
-5    2     neg  slow  31   0.4 10.2   9.5
-6    3     neg  slow  30   0.0 14.0  14.3
-7    1     pos  fast  26   0.0 11.5  11.0
-8    2     pos  fast  31   1.5 14.3  16.1
-9    3     pos  fast  31  -0.3  7.1   5.0
-10   1     neg  fast  31  -0.4  7.7   9.5
-11   2     neg  fast  28   0.2 10.0   9.0
-12   3     neg  fast  29  -1.1  7.6   7.7</code></pre>
+1    1     pos  slow  27  -1.3  8.8  10.9
+2    2     pos  slow  21   1.3 10.2  10.4
+3    3     pos  slow  28   2.1  8.4  10.7
+4    1     neg  slow  19  -0.8 11.1  13.6
+5    2     neg  slow  25   0.6  9.6   7.3
+6    3     neg  slow  25   0.7 12.3  13.6
+7    1     pos  fast  28   0.5 11.0   8.0
+8    2     pos  fast  19   0.5  8.3   7.7
+9    3     pos  fast  21  -0.4  9.5  11.5
+10   1     neg  fast  22  -1.1 12.7  16.0
+11   2     neg  fast  22   0.4 12.2  11.0
+12   3     neg  fast  27  -1.4 14.9  15.7</code></pre>
 </div>
 </div>
 </div>

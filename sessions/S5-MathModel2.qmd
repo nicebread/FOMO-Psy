@@ -6,24 +6,24 @@ description: Create atomic functions for our Dangerous Bystander Effect Model
 
 ## Intermediate Feedback
 
-Please give anonymous feedback here: [https://partici.fi/77082422](https://partici.fi/77082422)
+Please give anonymous feedback here: [https://ars.particify.de/p/77082422/series/Zwischenevaluation](https://ars.particify.de/p/77082422/series/Zwischenevaluation)
 
 ![](img/particify/Zwischenevaluation.png){height=200px}
 
 ## Overview
 
-| Topic                                            | Duration | Notes                                                    |
-| ------------------------------------------------ | -------- | -------------------------------------------------------- |
-| Finalize models in groups; push to repo; present | 50       |                                                          |
-| Formalization: **Mathematical Models 2**         | 60       | [Slides](../lectures/MathModel/MathModel.qmd), Steps 2-3 |
-| Group work "Apply everything to reduced model"   | 60       |                                                          |
-| **[Homework]**: Learn `ggplot2`                  | -        |                                                          |
+| Topic                                            | Duration | Notes                                                           |
+| ------------------------------------------------ | -------- | --------------------------------------------------------------- |
+| Finalize models in groups; push to repo; present | 50       |                                                                 |
+| Formalization: **Mathematical Models 2**         | 60       | [Slides](../lectures/MathModel/MathModel.qmd), Steps 2-3        |
+| Group work "Apply everything to reduced model"   | 60       | See last [slide](../lectures/MathModel/MathModel.qmd) of Step 3 |
+| **[Homework]**: Learn `ggplot2`                  | -        |                                                                 |
 
 : {.striped}
 
 
 
-# Homework (individually)
+## Homework (individually)
 
 For visualizing our simulation results in the next session, we will use the `ggplot2` package in `R`. One of the most common types of plots we will use is a line plot with multiple groups and eventually multiple facets, like this one:
 
@@ -45,10 +45,8 @@ If you are not familiar with `ggplot2`, please do a tutorial as homework. Here a
 
 **👉🏼 When you are unsure, I recommend the first resource.**
 
-# Homework Bonus
+## Bonus Homework for overmotivated students
 
 For an interactive visualization of your simulation results, you can program a Shiny app in R. Shiny is a web application framework for R, you can find various example for Shiny apps at [https://shinyapps.org](https://shinyapps.org) or [https://shiny.posit.co](https://shiny.posit.co/r/gallery/#user-showcase). 
 
 Ambitious students can (optionally!) create a Shiny app that allows the user to change parameters of the model interactively and see the results in real-time. For learning Shiny, I recommend the official [Shiny tutorial](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/).
-Although I use various code editors (e.g., Visual Studio Code, Positron), I currently recommend using RStudio because it has a deeply integrated support for building and testing Shiny apps.
-

@@ -22,7 +22,7 @@ Please think about candidate theories that you would like to formalize. You can 
 **What theory would be a good fit?** (inclusion criteria)
 
 - A theory that is sufficiently precise and has a defined and not too large scope.
-- It explains a central phenomenon, and this phenomenon is robust (i.e., replicable and generalizable across several dimensions).
+- It explains one central phenomenon, and this phenomenon is robust (i.e., replicable and generalizable across several dimensions).
 - Its core premises are formulated in a clear and concise form on a few pages.
 - There doesn't exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).
 
@@ -32,6 +32,17 @@ Please think about candidate theories that you would like to formalize. You can 
 - The "all-encompassing theory of human nature"
 - You need a lot of expert input and judgement to fill in the gaps of the underspecified theory.
 - You need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.
+
+**Is the theory suitable for this course?**
+
+- Be cautious with theories involving groups. When a theory includes both individual- and group-level processes (e.g., group polarization or social loafing), it tends to be more complex because both levels must be represented and variables or outcomes must be aggregated or translated across levels.
+- In addition to the theory paper, provide at least one empirical paper that suggests how the constructs can be operationalized.
+  - This is especially important for the simulation: students need a concrete study that they can reproduce.
+  - Do not use a study that requires complex statistical analyses students have not yet learned.
+- Set limits on the number of variables and relationships included in the formula. Suggested limits:
+  - No more than 6–8 constructs overall.
+  - No more than 4 non-trivial functional relationships. A trivial relationship could be an identity function -- for example, humans perceive an external variable exactly as it is: $x_{perceived} = 1*x_{external}$ -- or an identity function with added noise: $x_{perceived} = 1*x_{external} + e$, where $e \sim \mathcal{N}(\mu=0,\,\sigma=0.1)$.
+
 
 **Deliverable**: A presentation (~15 min.)
 

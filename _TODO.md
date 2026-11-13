@@ -54,12 +54,6 @@ Am Ende der VAST-Einführung?
 - Expectation x Value models
 
 
-## Wolkenbild mit Theorie --> Modell --> ...
-
-Das eine lässt immer mehrere Varianten zu.
-Man kann es aber auch so sagen: Das übergeordnete setzt constraints - es sind zwar mehrere, aber halt auch nicht *alle* denkbaren Modellvarianten möglich.
-
-
 
 ## Functional forms
 
@@ -93,17 +87,6 @@ From Kohrt preprint:
 
 Wir hätten 1 Sitzung mehr für die eigene Theorie gebraucht.
 
-## How to choose a good formalization target theory
-
-- Be careful with theories involving groups: Wenn man Individual- und Gruppenebene hat (z.B. Group Polarization, Social Loafing) wird es tendenziell komplizierter, weil beide Ebenen dargestellt werden sollten, und die Variablen/Outcomes müssen zwischen den Ebenen aggregiert/übersetzt werden.
-- Es sollte zusätzlich zum Theoriepaper mind. ein empirisches Paper mitgeschickt werden, das Vorschläge zur Operationalisierung enthält. 
---> Das ist beim simulieren ganz wichtig!! Eine konkrete Studie, die nachgebaut werden kann.
-   - Don't use a study template that requires complex statistical analyses that you have not learned yet.
-- Vielleicht könnte man auch eine Vorgabe machen, was die maximale Anzahl von Variablen oder Beziehungen zwischen Variablen angeht, die in die Formel eingehen können, damit die Studierenden diese Reduktion nicht selber vornehmen müssen. 
-  - Rough guidelines:
-    - not more than 6-8 constructs overall
-    - not more than 4 non-trivial* functional relationships (* a trivial relationship would be, e.g., the identity function: Humans perceive an external variable perfectly as it is, $x_{perceived} = 1*x_{external}$; or just adding some noise, such as: $x_{perceived} = 1*x_{external} + e; e \sim \mathcal{N}(\mu=0,\,\sigma=0.1)$)
-
 
 
 ## Example for a proto-theory / "borrowed" theory
@@ -126,20 +109,10 @@ Advent(ure) in System Seeing: https://www.ruthmalan.com/Advent.html
 - Expectation x Value models
 - Theory of planned behavior?
 
-## Intro Lecture:
-
-Das U-Bahn Beispiel aus der Präsentation herauslösen und mit Occams Razor kombinieren (als separaten Vortrag).
 
 ## Website
 
 Create a page that shows the model, the CST, the simulation results, the citation information all on one page.
-
-
-## MathModel, Step 5:
-
-Show that the psi() function can return multiple variables in a list.
-
-
 
 
 
@@ -160,20 +133,10 @@ Currently, we have 3 VAST displays to be created in the homeworks:
 
 
 
-
-## Structural changes (next time)
-
-- S2: Skip the "intro2" lecture, and rather let the groups start working on their VAST displays and familiarize themselves with draw.io. Show them how to install the custom shapes for VAST displays.
-- Move Intro2 lecture entirely to S3.
-  - But: S3 (with the second half of Intro2) was already quite packed with input - would be better with more interaction
-
-
 ## Minor todos:
 
 - Add Lange Checklist somewhere
 - Read Oude Maatman, F. (2021, July 12). Psychology's Theory Crisis, and Why Formal Modelling Cannot Solve It. https://doi.org/10.31234/osf.io/puqvs
-
-
 
 
 # van Dongen

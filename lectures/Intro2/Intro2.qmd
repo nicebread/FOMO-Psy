@@ -508,6 +508,7 @@ Manhart, K. (2007). Theorie, Modell, Formalisierung. [https://www.klaus-manhart.
 - Multiple formal theories can be derived from a narrative framework
 - Even if they are all compatible with the narrative framework, they can be mutually incompatible.
 - Or they can be complementary (e.g., referring to different domains, or covering different aspects of the narrative framework), e.g. evolution as framework
+- More *precise* narratives set more *constraints* on admissible formal theories (i.e., the set of compatible theories is smaller)
 
 :::
 

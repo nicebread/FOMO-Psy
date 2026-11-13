@@ -401,7 +401,7 @@ get_y <- function(x) {
 }
 ```
 
-1. **Call the Function:**
+2. **Call the Function:**
 
 ```{r}
 #| eval: false
@@ -513,7 +513,6 @@ get_p_help <- function(NOPB, y_0, y_final, BSE_strength) {
 
 ## roxygen2 documentation: Solution
 
-::: {.callout-tip title="Solution"}
 ```r
 #' Compute the probability to help in an emergency situation
 #' 
@@ -537,7 +536,6 @@ get_p_help <- function(NOPB, y_0, y_final, BSE_strength) {
   return(p_help)
 }
 ```
-:::
 
 
 ## Mapping continuous variables to dichotomous outcomes
@@ -645,29 +643,29 @@ This is similar to the item response theory (IRT) approach to model dichotomous 
 
 
 
-## {{< fa people-group size=1x >}} Step 3: Apply everything to your reduced model
+## {{< fa people-group size=1x >}} Step 3: Apply everything to your reduced model (60 min)
+### Pair programming mode: One person types, the others think
 
 ::: {.smaller}
-1. **Define** all variables of your model in the Variables Table (short name, range, scale level, semantic anchors).
+1. **Define** all variables of your model in the Variables Table (short name, range, type, semantic anchors).
 2. **Categorize**: Which variables are exogenous, which are endogenous?
    1. Exogenous variables are *not* influenced by other variables in the model.
    2. Endogenous variables are influenced by other variables in the model
 3. Every endogenous variable is a **function** of all of their input parameters. 
    1. Create sensible functional relationships for every endogenous variable.
-   2. Create a 3rd table (below the Element Table and the Variables Table), with all functional relationships. 
-   3. Add a short comment to what extent this functional relationship has been **derived from theory** (see response scale in Google doc)      
-   4. Add a short comment to what extent this functional relationship has been backed by empirical evidence.
+   2. Create the *Relationships Table* with all functional relationships. 
+   3. Record to what extent this functional relationship has been **derived from theory** (see response scale in Google doc)      
 4. Implement the functions in `R` with proper `roxygen2` documentation in your group's subfolder.
 :::
 
 ::: {.notes}
-Suggested response scale for "To what extent derived from theory?":
+Response scale for "To what extent derived from theory?":
 
-1. Dictated by theory (add IDs from the Element Table as reference)
-2. Derived from theory
-3. Loosely inspired by theory
-4. Not based on focal theory, but rather on common sense or other theories
-5. Not at all
+- 0 = Not at all.
+- 1 = Not based on focal theory, but rather on common sense or other theories
+- 2 = Loosely inspired by theory
+- 3 = Derived from theory (i.e., although the specific formula is not part of the theory, it can be derived with high precision from the other elements of the theory)
+- 4 = Dictated by theory (i.e., the specific computational function is clearly defined as part of the theory; add IDs from the Construct Source Table as reference)
 :::
 
 

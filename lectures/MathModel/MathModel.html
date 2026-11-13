@@ -276,7 +276,10 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#option-2b-as-a-probabilistic-outcome-two-steps" id="toc-option-2b-as-a-probabilistic-outcome-two-steps" class="nav-link" data-scroll-target="#option-2b-as-a-probabilistic-outcome-two-steps">Option 2b: As a probabilistic outcome (Two steps)</a></li>
   </ul></li>
-  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-step-3-apply-everything-to-your-reduced-model" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-step-3-apply-everything-to-your-reduced-model" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-step-3-apply-everything-to-your-reduced-model"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Step 3: Apply everything to your reduced model</a></li>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-step-3-apply-everything-to-your-reduced-model-60-min" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-step-3-apply-everything-to-your-reduced-model-60-min" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-step-3-apply-everything-to-your-reduced-model-60-min"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Step 3: Apply everything to your reduced model (60 min)</a>
+  <ul class="collapse">
+  <li><a href="#pair-programming-mode-one-person-types-the-others-think" id="toc-pair-programming-mode-one-person-types-the-others-think" class="nav-link" data-scroll-target="#pair-programming-mode-one-person-types-the-others-think">Pair programming mode: One person types, the others think</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#step-4-plot-relationships" id="toc-step-4-plot-relationships" class="nav-link" data-scroll-target="#step-4-plot-relationships">Step 4: Plot relationships</a>
   <ul class="collapse">
@@ -855,7 +858,7 @@ Note
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(y)</span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<ol type="1">
+<ol start="2" type="1">
 <li><strong>Call the Function:</strong></li>
 </ol>
 <div class="cell" data-layout-align="center">
@@ -957,16 +960,6 @@ Note
 </section>
 <section id="roxygen2-documentation-solution" class="level2">
 <h2 class="anchored" data-anchor-id="roxygen2-documentation-solution">roxygen2 documentation: Solution</h2>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Solution
-</div>
-</div>
-<div class="callout-body-container callout-body">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Compute the probability to help in an emergency situation</span></span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="co">#' </span></span>
 <span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="co">#' Calculate the probability of a bystander to help in a critical situation </span></span>
@@ -988,8 +981,6 @@ Note
 <span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>  p_help <span class="ot">&lt;-</span> y_final <span class="sc">+</span> (y_0 <span class="sc">-</span> y_final) <span class="sc">*</span> <span class="fu">exp</span>(<span class="sc">-</span>BSE_strength <span class="sc">*</span> NOPB)</span>
 <span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(p_help)</span>
 <span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</div>
 </section>
 <section id="mapping-continuous-variables-to-dichotomous-outcomes" class="level2">
 <h2 class="anchored" data-anchor-id="mapping-continuous-variables-to-dichotomous-outcomes">Mapping continuous variables to dichotomous outcomes</h2>
@@ -1078,11 +1069,13 @@ Note
 </div>
 </section>
 </section>
-<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-step-3-apply-everything-to-your-reduced-model" class="level2">
-<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-step-3-apply-everything-to-your-reduced-model"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Step 3: Apply everything to your reduced model</h2>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-step-3-apply-everything-to-your-reduced-model-60-min" class="level2">
+<h2 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612070656f706c652d67726f75702073697a653d3178203e7d7d-step-3-apply-everything-to-your-reduced-model-60-min"><i class="fa-solid fa-people-group fa-1x" aria-label="people-group"></i> Step 3: Apply everything to your reduced model (60 min)</h2>
+<section id="pair-programming-mode-one-person-types-the-others-think" class="level3">
+<h3 class="anchored" data-anchor-id="pair-programming-mode-one-person-types-the-others-think">Pair programming mode: One person types, the others think</h3>
 <div class="smaller">
 <ol type="1">
-<li><strong>Define</strong> all variables of your model in the Variables Table (short name, range, scale level, semantic anchors).</li>
+<li><strong>Define</strong> all variables of your model in the Variables Table (short name, range, type, semantic anchors).</li>
 <li><strong>Categorize</strong>: Which variables are exogenous, which are endogenous?
 <ol type="1">
 <li>Exogenous variables are <em>not</em> influenced by other variables in the model.</li>
@@ -1091,24 +1084,24 @@ Note
 <li>Every endogenous variable is a <strong>function</strong> of all of their input parameters.
 <ol type="1">
 <li>Create sensible functional relationships for every endogenous variable.</li>
-<li>Create a 3rd table (below the Element Table and the Variables Table), with all functional relationships.</li>
-<li>Add a short comment to what extent this functional relationship has been <strong>derived from theory</strong> (see response scale in Google doc)<br>
+<li>Create the <em>Relationships Table</em> with all functional relationships.</li>
+<li>Record to what extent this functional relationship has been <strong>derived from theory</strong> (see response scale in Google doc)<br>
 </li>
-<li>Add a short comment to what extent this functional relationship has been backed by empirical evidence.</li>
 </ol></li>
 <li>Implement the functions in <code>R</code> with proper <code>roxygen2</code> documentation in your group’s subfolder.</li>
 </ol>
 </div>
 <div class="notes">
-<p>Suggested response scale for “To what extent derived from theory?”:</p>
-<ol type="1">
-<li>Dictated by theory (add IDs from the Element Table as reference)</li>
-<li>Derived from theory</li>
-<li>Loosely inspired by theory</li>
-<li>Not based on focal theory, but rather on common sense or other theories</li>
-<li>Not at all</li>
-</ol>
+<p>Response scale for “To what extent derived from theory?”:</p>
+<ul>
+<li>0 = Not at all.</li>
+<li>1 = Not based on focal theory, but rather on common sense or other theories</li>
+<li>2 = Loosely inspired by theory</li>
+<li>3 = Derived from theory (i.e., although the specific formula is not part of the theory, it can be derived with high precision from the other elements of the theory)</li>
+<li>4 = Dictated by theory (i.e., the specific computational function is clearly defined as part of the theory; add IDs from the Construct Source Table as reference)</li>
+</ul>
 </div>
+</section>
 </section>
 </section>
 <section id="step-4-plot-relationships" class="level1">
@@ -1455,18 +1448,18 @@ Note
 <span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra
-1    1     pos  slow  27  -1.3
-2    2     pos  slow  21   1.3
-3    3     pos  slow  28   2.1
-4    1     neg  slow  19  -0.8
-5    2     neg  slow  25   0.6
-6    3     neg  slow  25   0.7
-7    1     pos  fast  28   0.5
-8    2     pos  fast  19   0.5
-9    3     pos  fast  21  -0.4
-10   1     neg  fast  22  -1.1
-11   2     neg  fast  22   0.4
-12   3     neg  fast  27  -1.4</code></pre>
+1    1     pos  slow  29  -1.6
+2    2     pos  slow  25   1.1
+3    3     pos  slow  24  -1.0
+4    1     neg  slow  24  -0.3
+5    2     neg  slow  24  -0.3
+6    3     neg  slow  27   1.0
+7    1     pos  fast  24   1.8
+8    2     pos  fast  29   1.0
+9    3     pos  fast  28  -1.0
+10   1     neg  fast  24  -1.1
+11   2     neg  fast  34  -0.7
+12   3     neg  fast  26   0.4</code></pre>
 </div>
 </div>
 </section>
@@ -1534,7 +1527,7 @@ Note
 <h2 class="anchored" data-anchor-id="tool-the-beta-distribution-3">Tool: The beta distribution</h2>
 <section id="beta-distribution-respects-the-01-boundaries" class="level3">
 <h3 class="anchored" data-anchor-id="beta-distribution-respects-the-01-boundaries">beta distribution respects the [0;1] boundaries</h3>
-<div class="cell quarto-layout-panel" data-layout-ncol="1" data-layout-align="center" data-layout-nrow="2">
+<div class="cell quarto-layout-panel" data-layout-ncol="1" data-layout-nrow="2" data-layout-align="center">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
@@ -1616,18 +1609,18 @@ Note
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y
-1    1     pos  slow  27  -1.3  8.8
-2    2     pos  slow  21   1.3 10.2
-3    3     pos  slow  28   2.1  8.4
-4    1     neg  slow  19  -0.8 11.1
-5    2     neg  slow  25   0.6  9.6
-6    3     neg  slow  25   0.7 12.3
-7    1     pos  fast  28   0.5 11.0
-8    2     pos  fast  19   0.5  8.3
-9    3     pos  fast  21  -0.4  9.5
-10   1     neg  fast  22  -1.1 12.7
-11   2     neg  fast  22   0.4 12.2
-12   3     neg  fast  27  -1.4 14.9</code></pre>
+1    1     pos  slow  29  -1.6 11.4
+2    2     pos  slow  25   1.1 12.5
+3    3     pos  slow  24  -1.0 12.0
+4    1     neg  slow  24  -0.3  8.1
+5    2     neg  slow  24  -0.3 13.4
+6    3     neg  slow  27   1.0  9.8
+7    1     pos  fast  24   1.8 12.3
+8    2     pos  fast  29   1.0  8.1
+9    3     pos  fast  28  -1.0 10.8
+10   1     neg  fast  24  -1.1 10.9
+11   2     neg  fast  34  -0.7 12.2
+12   3     neg  fast  26   0.4  8.9</code></pre>
 </div>
 </div>
 </div>
@@ -1725,18 +1718,18 @@ Note
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>   pID valence speed age extra    y y_obs
-1    1     pos  slow  27  -1.3  8.8  10.9
-2    2     pos  slow  21   1.3 10.2  10.4
-3    3     pos  slow  28   2.1  8.4  10.7
-4    1     neg  slow  19  -0.8 11.1  13.6
-5    2     neg  slow  25   0.6  9.6   7.3
-6    3     neg  slow  25   0.7 12.3  13.6
-7    1     pos  fast  28   0.5 11.0   8.0
-8    2     pos  fast  19   0.5  8.3   7.7
-9    3     pos  fast  21  -0.4  9.5  11.5
-10   1     neg  fast  22  -1.1 12.7  16.0
-11   2     neg  fast  22   0.4 12.2  11.0
-12   3     neg  fast  27  -1.4 14.9  15.7</code></pre>
+1    1     pos  slow  29  -1.6 11.4  11.7
+2    2     pos  slow  25   1.1 12.5   9.9
+3    3     pos  slow  24  -1.0 12.0  11.0
+4    1     neg  slow  24  -0.3  8.1   7.0
+5    2     neg  slow  24  -0.3 13.4  12.1
+6    3     neg  slow  27   1.0  9.8   8.4
+7    1     pos  fast  24   1.8 12.3   9.9
+8    2     pos  fast  29   1.0  8.1   5.1
+9    3     pos  fast  28  -1.0 10.8  10.9
+10   1     neg  fast  24  -1.1 10.9  13.6
+11   2     neg  fast  34  -0.7 12.2  11.5
+12   3     neg  fast  26   0.4  8.9   8.7</code></pre>
 </div>
 </div>
 </div>

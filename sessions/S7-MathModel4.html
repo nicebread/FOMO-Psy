@@ -76,6 +76,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="../common/webex.css">
@@ -213,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>What theory would be a good fit?</strong> (inclusion criteria)</p>
 <ul>
 <li>A theory that is sufficiently precise and has a defined and not too large scope.</li>
-<li>It explains a central phenomenon, and this phenomenon is robust (i.e., replicable and generalizable across several dimensions).</li>
+<li>It explains one central phenomenon, and this phenomenon is robust (i.e., replicable and generalizable across several dimensions).</li>
 <li>Its core premises are formulated in a clear and concise form on a few pages.</li>
 <li>There doesn’t exist a formalized theory yet (e.g., it would be hard to re-create decades of theory building on the drift-diffusion model within a single course).</li>
 </ul>
@@ -223,6 +252,20 @@ ul.task-list li input[type="checkbox"] {
 <li>The “all-encompassing theory of human nature”</li>
 <li>You need a lot of expert input and judgement to fill in the gaps of the underspecified theory.</li>
 <li>You need very specific domain knowledge to even understand the basic phenomena and constructs of the theory.</li>
+</ul>
+<p><strong>Is the theory suitable for this course?</strong></p>
+<ul>
+<li>Be cautious with theories involving groups. When a theory includes both individual- and group-level processes (e.g., group polarization or social loafing), it tends to be more complex because both levels must be represented and variables or outcomes must be aggregated or translated across levels.</li>
+<li>In addition to the theory paper, provide at least one empirical paper that suggests how the constructs can be operationalized.
+<ul>
+<li>This is especially important for the simulation: students need a concrete study that they can reproduce.</li>
+<li>Do not use a study that requires complex statistical analyses students have not yet learned.</li>
+</ul></li>
+<li>Set limits on the number of variables and relationships included in the formula. Suggested limits:
+<ul>
+<li>No more than 6–8 constructs overall.</li>
+<li>No more than 4 non-trivial functional relationships. A trivial relationship could be an identity function – for example, humans perceive an external variable exactly as it is: <span class="math inline">\(x_{perceived} = 1*x_{external}\)</span> – or an identity function with added noise: <span class="math inline">\(x_{perceived} = 1*x_{external} + e\)</span>, where <span class="math inline">\(e \sim \mathcal{N}(\mu=0,\,\sigma=0.1)\)</span>.</li>
+</ul></li>
 </ul>
 <p><strong>Deliverable</strong>: A presentation (~15 min.)</p>
 <p>Prepare 5-7 slides (7 is the hard maximum):</p>

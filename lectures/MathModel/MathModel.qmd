@@ -641,7 +641,23 @@ This is similar to the item response theory (IRT) approach to model dichotomous 
 :::
 
 
+## Useful steps for building up your functions
 
+::: {.smaller}
+1. Start with a **skeleton of your function**: Just the input variables, a placeholder for the actual computations, and the return value:
+
+```r
+get_feltResp <- function(NOPB, baseResp) {
+  # TODO: Actual computations
+  # feltResp <- ...
+  return(feltResp)
+}
+```
+
+2. Draw an **empty plot on paper** with the focal input variable on x-axis and the output variable on the y-axis. Use the actual range of each variable (as defined in your Variable Table).
+3. Select **three distinct points** on your x-axis (the minimum, maximum, and a mean/typical value), and think about plausible corresponding values on the y-axis. Draw those three points, and then connect them to a continuous function.
+4. Create a **mathematical function** that approximates your hand-drawn shape. Make it as easy as possible. Ensure that the function respects the *domain* (allowed x-values) and *range* (allowed y-values) of your Variable Table. Implement it in R.
+:::
 
 ## {{< fa people-group size=1x >}} Step 3: Apply everything to your reduced model (60 min)
 ### Pair programming mode: One person types, the others think
@@ -667,6 +683,7 @@ Response scale for "To what extent derived from theory?":
 - 3 = Derived from theory (i.e., although the specific formula is not part of the theory, it can be derived with high precision from the other elements of the theory)
 - 4 = Dictated by theory (i.e., the specific computational function is clearly defined as part of the theory; add IDs from the Construct Source Table as reference)
 :::
+
 
 
 
@@ -794,6 +811,13 @@ Guiding questions:
 ## {{< fa people-group size=2x >}} Think - Pair - Share (10 + 10 + 20 min.)
 
 1. Think (10 min): Everybody creates (individually!) data and a plot for *one* of the group's functions.
+
+::: {.callout-important title="Each function gets its own simulated data set"}
+In your VAST, the output of some functions serves as input into the next function - they are chained together. Next week, we will do this combining step.
+
+**But now, we treat each function separately.** All (non-fixed) parameters of the function call go into the `expand.grid`, and we create a separate simulated data set for each function.
+:::
+
 2. Pair (10 min): Troubleshoot and discuss your plot in the group.
 3. Share (20 min): Share some of your plots in the full group; reflect on problems and insights.
 
@@ -984,10 +1008,10 @@ axis(side = 1, at = c(0, 0.5, 1), labels = c("0", "0.5", "1"))
 
 ## Tool: The beta distribution
 
-How to choose $\alpha$ and $\beta$? Asking ChatGPT for assistance:
+How to choose $\alpha$ and $\beta$? Asking AI for assistance:
 
-::: {.callout-note title="ChatGPT prompt"}
-Calibrate a beta distribution so that the peak is around 0.8 and the sd is around 0.1. Show a plot of the resulting distribution.
+::: {.callout-note title="AI prompt"}
+Calibrate a beta distribution so that the peak is around 0.8 and the SD is around 0.1. Show a plot of the resulting distribution.
 :::
 
 ::: {.callout-tip title="Answer"}
@@ -1058,7 +1082,7 @@ For variables ranging from 0 to 1, use the beta distribution with appropriate pa
 - Think about justifiable settings for the simulated variables (e.g., type of distribution, range, mean, SD).
 
 ::: {.callout-tip title="Hint"}
-The resulting data frame should still have 180 rows and additional columns for obnserved variables, including `neuro`, `age`, `gender` and all observed variables in your model.
+The resulting data frame should still have 180 rows and additional columns for observed variables, including `neuro`, `age`, `gender` and all observed variables in your model.
 :::
 
 :::

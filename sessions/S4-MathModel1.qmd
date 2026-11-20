@@ -58,7 +58,7 @@ The additional theoretical explanation can be found in Fischer et al., p. 520-52
 All groups should use the following base structure: 
 
 a) The display of the phenomenon/effect itself which only contains manifest variables and a $\Psi$-black box (see figure below; you can download the draw.io [template](../bystander_effect/Bystander-template.drawio)). 
-b) The theoretical explanation for the effect, containing the psychological mechanisms (within the $\Psi$-box) with all relevant constructs and relationships.
+b) The theoretical explanation for the effect, containing the psychological mechanisms (within the $\Psi$-box) with all relevant constructs and relationships. Note that everything within the $\Psi$-box is a within-individual process (not a between-person description of the data).
 
 ![](img/S4_Bystander-Psi_template.png)
 

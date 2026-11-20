@@ -1,3 +1,17 @@
+## Transferrable Skills
+
+Will you ever formalize a psych theory after writing your report?
+Probably not.
+
+So what is the value of what you learned?
+
+- You learned a general problem solving skill: Clear, systematic thinking about an initially vague problem, up to a point where you made it 100% explicit and actionable.
+- You learned technical skills: Git, versioning, proper file management, documentation.
+
+## Falisifcation?
+
+In intro2 noch einbauen: Falsification.jpeg
+
 ## Add Theory Compression Idea
 
 
